@@ -1,0 +1,55 @@
+siloutte links for Figure 5 (see new ones used for version 4):
+
+- Hsap: https://www.phylopic.org/images/a146bf1b-c94d-46e1-9cd8-a0ac52a1e0a9/homo-sapiens-njarasensis
+  (no special requirements)
+
+- Mmus:
+  OLD: https://www.phylopic.org/images/c4572239-3b7c-4259-8049-3f44e6d52e6f/mus-musculus
+       (credits, link, state if modified)
+  NEW: https://www.phylopic.org/images/92989e35-4e68-4a2d-b3a2-191ba9da671a/mus-musculus
+       (no special requirements)
+
+- Cint: https://www.phylopic.org/images/e48ba6be-fea3-46f7-a923-143afa4ff09f/ciona-intestinalis
+  (no special requirements)
+
+- Spur:
+  OLD: https://www.phylopic.org/images/de3e0cb3-8271-45c1-8bd5-77c6e74e438c/strongylocentrotus-purpuratus
+       (credits, link, state if modified, redistribute under same licence)
+  NEW: https://www.phylopic.org/images/21f01ed3-d1ce-419c-8339-06be3c353466/strongylocentrotus-purpuratus
+       (no special requirements)
+
+- Dmel: https://www.phylopic.org/images/48bcbd0d-a902-4be8-9acc-60a6fbfd5f8d/drosophila-americana
+  (no special requirements)
+
+- Hvul:
+  OLD: https://www.phylopic.org/images/174f4eb8-e3ad-4089-90dc-ba4fd0295862/hydra
+       (credit, link, state if changes, no commercial use, same licence)
+  NEW: https://www.phylopic.org/images/b065ca7a-406d-4bfe-ae06-b41124a1b4a3/hydra-vulgaris
+       (no special requirements)
+
+- Chem:
+  OLD: https://www.phylopic.org/images/e4d57d67-c144-457a-877b-34faaaa16ed2/clytia-hemisphaerica
+       (credits, link, state if modified, redistribute under same licence)
+  NEW: https://www.phylopic.org/images/26c0169f-b4a2-4871-8b30-e00db6e5958d/anthomedusae
+       (no special requirements)
+
+- Spis:
+  OLD: https://www.phylopic.org/images/23e078d5-e7d3-42e6-b747-16345db5379c/anthozoa
+       (no special requirements)
+  NEW: https://www.phylopic.org/images/19cbe092-a0f1-4107-b6f3-2dffeeda2668/pocillopora
+       (no special requirements)
+
+- Nvec: https://www.phylopic.org/images/8318deda-0d99-481b-b306-a0f8d98abe67/nematostella-vectensis
+  (no special requirements)
+
+- Tadh:
+  OLD: https://www.phylopic.org/images/defdbe58-28ab-4491-a43d-b88d1a8fa3bb/trichoplax-adhaerens
+       (credits, link, state if modified, redistribute under same licence)
+  NEW: https://www.phylopic.org/images/5dce0205-ec4a-4705-bb1c-63835410cf12/trichoplax-adhaerens
+       (no special requirements)
+
+- Aque: https://www.phylopic.org/images/8b28733a-9eab-4510-9dcf-9235aaf44d14/amphimedon-queenslandica
+  (no special requirements)
+
+- Mlei: https://www.phylopic.org/images/dbb97289-bd98-4e62-9301-3bd58cd2d43a/mnemiopsis-leidyi
+  (no special requirements)

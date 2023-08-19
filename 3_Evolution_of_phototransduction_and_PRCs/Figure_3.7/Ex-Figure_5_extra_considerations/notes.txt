@@ -1,0 +1,12 @@
+Legend:
+bold = Some evidence of involvement in vision. / Loose relationship with eyes/vision/photoreceptors.
+bold and underlined = strong evidence of involvement in vision and/or expressed in retina, although not necessary in cones and rods.
+bold, underlined and asterisc = strong evidence of involvement in vision and specifically expressed in PRCs.
+Based on information present on genecards and/or flybase.
+
+
+
+Useful link about underlining text in inkscape:
+https://graphicdesign.stackexchange.com/questions/66990/how-to-underline-text-in-inkscape#:~:text=1%20introduced%20in%20the%20the,is%20Shift%20%2D%20Ctrl%20%2D%20Q%20.
+
+Although in the end I saved as pdf and underlined in adobe.
