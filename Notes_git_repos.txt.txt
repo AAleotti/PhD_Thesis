@@ -5,9 +5,19 @@ https://gist.github.com/msrose/2feacb303035d11d2d05
 git submodules:
 https://spin.atomicobject.com/2016/06/26/parallelize-development-git-worktrees/
 
+https://gist.github.com/gitaarik/8735255
+
 
 video about submodules:
 https://www.youtube.com/watch?v=wTGIDDg0tK8
+
+
+why not to use submodules (they don't render well in github):
+https://docs.github.com/en/pages/getting-started-with-github-pages/using-submodules-with-github-pages
+
+
+git subtrees:
+https://docs.github.com/en/get-started/using-git/about-git-subtree-merges
 
 
 other useful links:
