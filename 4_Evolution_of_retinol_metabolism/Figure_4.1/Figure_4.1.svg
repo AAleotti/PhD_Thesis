@@ -26,8 +26,8 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="2.8079686"
-     inkscape:cx="334.22738"
-     inkscape:cy="362.8958"
+     inkscape:cx="301.99768"
+     inkscape:cy="391.38614"
      inkscape:window-width="2400"
      inkscape:window-height="1706"
      inkscape:window-x="2869"
@@ -84,480 +84,20 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1">
-    <g
-       clip-path="url(#clip0)"
-       transform="matrix(0.13717449,0,0,0.13717449,-25.751543,17.882642)"
-       id="g321">
-      <g
-         clip-path="url(#clip1)"
-         transform="matrix(1.5748e-4,0,0,1.5748e-4,231,119)"
-         id="g319">
-        <g
-           clip-path="url(#clip3)"
-           id="g317">
-          <use
-             width="100%"
-             height="100%"
-             xlink:href="#img2"
-             transform="matrix(9525,0,0,9525,0.125,0)"
-             id="use315" />
-        </g>
-      </g>
-    </g>
-    <text
-       xml:space="preserve"
-       style="font-weight:300;font-size:3.52777px;line-height:22.2433px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#f20000;fill-opacity:1;stroke-width:0.264583"
-       x="62.966709"
-       y="59.362309"
-       id="text288"><tspan
-         sodipodi:role="line"
-         id="tspan286"
-         style="text-align:center;text-anchor:middle;fill:#f20000;fill-opacity:1;stroke-width:0.264583"
-         x="62.966709"
-         y="59.362309">DHRS4</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-weight:300;font-size:3.52777px;line-height:22.2433px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#f20000;fill-opacity:1;stroke-width:0.264583"
-       x="63.404045"
-       y="64.245834"
-       id="text288-5"><tspan
-         sodipodi:role="line"
-         id="tspan286-3"
-         style="text-align:center;text-anchor:middle;fill:#f20000;fill-opacity:1;stroke-width:0.264583"
-         x="63.404045"
-         y="64.245834">RDH</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-weight:300;font-size:3.52777px;line-height:22.2433px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#f20000;fill-opacity:1;stroke-width:0.264583"
-       x="102.03665"
-       y="59.498344"
-       id="text288-2"><tspan
-         sodipodi:role="line"
-         id="tspan286-2"
-         style="text-align:center;text-anchor:middle;fill:#f20000;fill-opacity:1;stroke-width:0.264583"
-         x="102.03665"
-         y="59.498344">AOX</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-weight:300;font-size:3.52777px;line-height:22.2433px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#f20000;fill-opacity:1;stroke-width:0.264583"
-       x="102.03664"
-       y="64.622734"
-       id="text288-0"><tspan
-         sodipodi:role="line"
-         id="tspan286-6"
-         style="text-align:center;text-anchor:middle;fill:#f20000;fill-opacity:1;stroke-width:0.264583"
-         x="102.03664"
-         y="64.622734">ALDH1A</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-weight:300;font-size:3.52777px;line-height:22.2433px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#f20000;fill-opacity:1;stroke-width:0.264583"
-       x="36.832333"
-       y="71.501221"
-       id="text288-3"><tspan
-         sodipodi:role="line"
-         id="tspan286-9"
-         style="text-align:center;text-anchor:middle;fill:#f20000;fill-opacity:1;stroke-width:0.264583"
-         x="36.832333"
-         y="71.501221">CYP27C1</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-weight:300;font-size:3.52777px;line-height:22.2433px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#f20000;fill-opacity:1;stroke-width:0.264583"
-       x="37.32465"
-       y="78.194702"
-       id="text288-3-5"><tspan
-         sodipodi:role="line"
-         id="tspan286-9-6"
-         style="text-align:center;text-anchor:middle;fill:#f20000;fill-opacity:1;stroke-width:0.264583"
-         x="37.32465"
-         y="78.194702">RETSAT</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-weight:300;font-size:3.52777px;line-height:22.2433px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#f20000;fill-opacity:1;stroke-width:0.264583"
-       x="56.075603"
-       y="78.006256"
-       id="text288-3-1"><tspan
-         sodipodi:role="line"
-         id="tspan286-9-8"
-         style="text-align:center;text-anchor:middle;fill:#f20000;fill-opacity:1;stroke-width:0.264583"
-         x="56.075603"
-         y="78.006256">CYP26A</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-weight:300;font-size:3.52777px;line-height:22.2433px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#f20000;fill-opacity:1;stroke-width:0.264583"
-       x="79.846596"
-       y="83.091011"
-       id="text288-3-1-1"><tspan
-         sodipodi:role="line"
-         id="tspan286-9-8-9"
-         style="text-align:center;text-anchor:middle;fill:#f20000;fill-opacity:1;stroke-width:0.264583"
-         x="79.846596"
-         y="83.091011">BCMO1</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-weight:300;font-size:3.52777px;line-height:22.2433px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#f20000;fill-opacity:1;stroke-width:0.264583"
-       x="57.948917"
-       y="88.838791"
-       id="text288-5-2"><tspan
-         sodipodi:role="line"
-         style="text-align:center;text-anchor:middle;fill:#f20000;fill-opacity:1;stroke-width:0.264583"
-         x="57.948917"
-         y="88.838791"
-         id="tspan1702">ADH</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-weight:300;font-size:3.52777px;line-height:22.2433px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#f20000;fill-opacity:1;stroke-width:0.264583"
-       x="57.854694"
-       y="93.17318"
-       id="text288-5-8"><tspan
-         sodipodi:role="line"
-         id="tspan286-3-8"
-         style="text-align:center;text-anchor:middle;fill:#f20000;fill-opacity:1;stroke-width:0.264583"
-         x="57.854694"
-         y="93.17318">RDH</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-weight:300;font-size:3.52777px;line-height:22.2433px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#f20000;fill-opacity:1;stroke-width:0.264583"
-       x="67.371513"
-       y="88.650337"
-       id="text288-5-9"><tspan
-         sodipodi:role="line"
-         id="tspan286-3-9"
-         style="text-align:center;text-anchor:middle;fill:#f20000;fill-opacity:1;stroke-width:0.264583"
-         x="67.371513"
-         y="88.650337">SDR16C</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-weight:300;font-size:3.52777px;line-height:22.2433px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#f20000;fill-opacity:1;stroke-width:0.264583"
-       x="67.277283"
-       y="92.890503"
-       id="text288-5-0"><tspan
-         sodipodi:role="line"
-         id="tspan286-3-5"
-         style="text-align:center;text-anchor:middle;fill:#f20000;fill-opacity:1;stroke-width:0.264583"
-         x="67.277283"
-         y="92.890503">DHRS</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-weight:300;font-size:3.52777px;line-height:22.2433px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#f20000;fill-opacity:1;stroke-width:0.264583"
-       x="102.15541"
-       y="75.741386"
-       id="text288-2-9"><tspan
-         sodipodi:role="line"
-         id="tspan286-2-1"
-         style="text-align:center;text-anchor:middle;fill:#f20000;fill-opacity:1;stroke-width:0.264583"
-         x="102.15541"
-         y="75.741386">AOX</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-weight:300;font-size:3.52777px;line-height:22.2433px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#f20000;fill-opacity:1;stroke-width:0.264583"
-       x="101.85892"
-       y="80.454407"
-       id="text288-0-4"><tspan
-         sodipodi:role="line"
-         id="tspan286-6-7"
-         style="text-align:center;text-anchor:middle;fill:#f20000;fill-opacity:1;stroke-width:0.264583"
-         x="101.85892"
-         y="80.454407">ALDH1A</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-weight:300;font-size:3.52777px;line-height:22.2433px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#f20000;fill-opacity:1;stroke-width:0.264583"
-       x="34.487411"
-       y="100.05339"
-       id="text288-0-3"><tspan
-         sodipodi:role="line"
-         id="tspan286-6-8"
-         style="text-align:center;text-anchor:middle;fill:#f20000;fill-opacity:1;stroke-width:0.264583"
-         x="34.487411"
-         y="100.05339">PNPLA4</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-weight:300;font-size:3.52777px;line-height:22.2433px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#f20000;fill-opacity:1;stroke-width:0.264583"
-       x="41.648579"
-       y="105.14159"
-       id="text288-0-36"><tspan
-         sodipodi:role="line"
-         id="tspan286-6-6"
-         style="text-align:center;text-anchor:middle;fill:#f20000;fill-opacity:1;stroke-width:0.264583"
-         x="41.648579"
-         y="105.14159">DGAT</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-weight:300;font-size:3.52777px;line-height:22.2433px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#f20000;fill-opacity:1;stroke-width:0.264583"
-       x="51.824978"
-       y="105.23582"
-       id="text288-0-5"><tspan
-         sodipodi:role="line"
-         id="tspan286-6-4"
-         style="text-align:center;text-anchor:middle;fill:#f20000;fill-opacity:1;stroke-width:0.264583"
-         x="51.824978"
-         y="105.23582">LRAT</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-weight:300;font-size:3.52777px;line-height:22.2433px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#f20000;fill-opacity:1;stroke-width:0.264583"
-       x="46.831005"
-       y="121.5369"
-       id="text288-0-42"><tspan
-         sodipodi:role="line"
-         id="tspan286-6-5"
-         style="text-align:center;text-anchor:middle;fill:#f20000;fill-opacity:1;stroke-width:0.264583"
-         x="46.831005"
-         y="121.5369">RPE65</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-weight:300;font-size:3.52777px;line-height:22.2433px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#f20000;fill-opacity:1;stroke-width:0.264583"
-       x="61.059113"
-       y="133.88048"
-       id="text288-0-8"><tspan
-         sodipodi:role="line"
-         id="tspan286-6-44"
-         style="text-align:center;text-anchor:middle;fill:#f20000;fill-opacity:1;stroke-width:0.264583"
-         x="61.059113"
-         y="133.88048">RDH</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-weight:300;font-size:3.52777px;line-height:22.2433px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#f20000;fill-opacity:1;stroke-width:0.264583"
-       x="34.393185"
-       y="142.2666"
-       id="text288-0-6"><tspan
-         sodipodi:role="line"
-         id="tspan286-6-0"
-         style="text-align:center;text-anchor:middle;fill:#f20000;fill-opacity:1;stroke-width:0.264583"
-         x="34.393185"
-         y="142.2666">RPH</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-weight:300;font-size:3.52777px;line-height:22.2433px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#f20000;fill-opacity:1;stroke-width:0.264583"
-       x="41.554359"
-       y="146.88367"
-       id="text288-0-2"><tspan
-         sodipodi:role="line"
-         id="tspan286-6-41"
-         style="text-align:center;text-anchor:middle;fill:#f20000;fill-opacity:1;stroke-width:0.264583"
-         x="41.554359"
-         y="146.88367">DGAT</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-weight:300;font-size:3.52777px;line-height:22.2433px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#f20000;fill-opacity:1;stroke-width:0.264583"
-       x="51.824974"
-       y="146.78944"
-       id="text288-0-55"><tspan
-         sodipodi:role="line"
-         id="tspan286-6-2"
-         style="text-align:center;text-anchor:middle;fill:#f20000;fill-opacity:1;stroke-width:0.264583"
-         x="51.824974"
-         y="146.78944">LRAT</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-weight:300;font-size:3.52777px;line-height:22.2433px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#f20000;fill-opacity:1;stroke-width:0.264583"
-       x="128.52486"
-       y="76.120018"
-       id="text288-0-1"><tspan
-         sodipodi:role="line"
-         id="tspan286-6-79"
-         style="text-align:center;text-anchor:middle;fill:#f20000;fill-opacity:1;stroke-width:0.264583"
-         x="128.52486"
-         y="76.120018">CYP26</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-weight:300;font-size:3.52777px;line-height:22.2433px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#f20000;fill-opacity:1;stroke-width:0.264583"
-       x="161.30093"
-       y="75.92984"
-       id="text288-0-1-9"><tspan
-         sodipodi:role="line"
-         id="tspan286-6-79-2"
-         style="text-align:center;text-anchor:middle;fill:#f20000;fill-opacity:1;stroke-width:0.264583"
-         x="161.30093"
-         y="75.92984">CYP26</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-weight:300;font-size:3.52777px;line-height:22.2433px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#f20000;fill-opacity:1;stroke-width:0.264583"
-       x="133.03317"
-       y="89.498367"
-       id="text288-0-1-5"><tspan
-         sodipodi:role="line"
-         id="tspan286-6-79-7"
-         style="text-align:center;text-anchor:middle;fill:#f20000;fill-opacity:1;stroke-width:0.264583"
-         x="133.03317"
-         y="89.498367">CYP26</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-weight:300;font-size:3.52777px;line-height:22.2433px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#f20000;fill-opacity:1;stroke-width:0.264583"
-       x="128.51033"
-       y="80.546906"
-       id="text288-0-1-8"><tspan
-         sodipodi:role="line"
-         id="tspan286-6-79-70"
-         style="text-align:center;text-anchor:middle;fill:#f20000;fill-opacity:1;stroke-width:0.264583"
-         x="128.51033"
-         y="80.546906">CYP2</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-weight:300;font-size:3.52777px;line-height:22.2433px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#f20000;fill-opacity:1;stroke-width:0.264583"
-       x="161.42963"
-       y="80.361908"
-       id="text288-0-1-8-9"><tspan
-         sodipodi:role="line"
-         id="tspan286-6-79-70-0"
-         style="text-align:center;text-anchor:middle;fill:#f20000;fill-opacity:1;stroke-width:0.264583"
-         x="161.42963"
-         y="80.361908">CYP2</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-weight:300;font-size:3.52777px;line-height:22.2433px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#f20000;fill-opacity:1;stroke-width:0.264583"
-       x="137.68469"
-       y="93.741982"
-       id="text288-0-1-8-0"><tspan
-         sodipodi:role="line"
-         id="tspan286-6-79-70-9"
-         style="text-align:center;text-anchor:middle;fill:#f20000;fill-opacity:1;stroke-width:0.264583"
-         x="137.68469"
-         y="93.741982">CYP2</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-weight:300;font-size:3.52777px;line-height:22.2433px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#f20000;fill-opacity:1;stroke-width:0.264583"
-       x="132.87917"
-       y="104.10683"
-       id="text288-0-1-8-8"><tspan
-         sodipodi:role="line"
-         id="tspan286-6-79-70-1"
-         style="text-align:center;text-anchor:middle;fill:#f20000;fill-opacity:1;stroke-width:0.264583"
-         x="132.87917"
-         y="104.10683">CYP2</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-weight:300;font-size:3.52777px;line-height:22.2433px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#f20000;fill-opacity:1;stroke-width:0.264583"
-       x="138.15582"
-       y="76.027504"
-       id="text288-0-1-8-06"><tspan
-         sodipodi:role="line"
-         id="tspan286-6-79-70-02"
-         style="text-align:center;text-anchor:middle;fill:#f20000;fill-opacity:1;stroke-width:0.264583"
-         x="138.15582"
-         y="76.027504">CYP1A</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-weight:300;font-size:3.52777px;line-height:22.2433px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#f20000;fill-opacity:1;stroke-width:0.264583"
-       x="171.81105"
-       y="76.118294"
-       id="text288-0-1-8-06-5"><tspan
-         sodipodi:role="line"
-         id="tspan286-6-79-70-02-3"
-         style="text-align:center;text-anchor:middle;fill:#f20000;fill-opacity:1;stroke-width:0.264583"
-         x="171.81105"
-         y="76.118294">CYP1A</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-weight:300;font-size:3.52777px;line-height:22.2433px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#f20000;fill-opacity:1;stroke-width:0.264583"
-       x="127.33644"
-       y="93.550072"
-       id="text288-0-1-8-06-0"><tspan
-         sodipodi:role="line"
-         id="tspan286-6-79-70-02-38"
-         style="text-align:center;text-anchor:middle;fill:#f20000;fill-opacity:1;stroke-width:0.264583"
-         x="127.33644"
-         y="93.550072">CYP1A1</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-weight:300;font-size:3.52777px;line-height:22.2433px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#f20000;fill-opacity:1;stroke-width:0.264583"
-       x="138.17241"
-       y="80.358459"
-       id="text288-0-1-8-06-8"><tspan
-         sodipodi:role="line"
-         id="tspan286-6-79-70-02-32"
-         style="text-align:center;text-anchor:middle;fill:#f20000;fill-opacity:1;stroke-width:0.264583"
-         x="138.17241"
-         y="80.358459">CYP3A</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-weight:300;font-size:3.52777px;line-height:22.2433px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#f20000;fill-opacity:1;stroke-width:0.264583"
-       x="172.09372"
-       y="80.641129"
-       id="text288-0-1-8-06-8-4"><tspan
-         sodipodi:role="line"
-         id="tspan286-6-79-70-02-32-9"
-         style="text-align:center;text-anchor:middle;fill:#f20000;fill-opacity:1;stroke-width:0.264583"
-         x="172.09372"
-         y="80.641129">CYP3A</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-weight:300;font-size:3.52777px;line-height:22.2433px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#f20000;fill-opacity:1;stroke-width:0.264583"
-       x="127.90179"
-       y="97.69603"
-       id="text288-0-1-8-06-8-0"><tspan
-         sodipodi:role="line"
-         id="tspan286-6-79-70-02-32-3"
-         style="text-align:center;text-anchor:middle;fill:#f20000;fill-opacity:1;stroke-width:0.264583"
-         x="127.90179"
-         y="97.69603">CYP3A</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-weight:300;font-size:3.52777px;line-height:22.2433px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#f20000;fill-opacity:1;stroke-width:0.264583"
-       x="132.70731"
-       y="108.53199"
-       id="text288-0-1-8-06-8-2"><tspan
-         sodipodi:role="line"
-         id="tspan286-6-79-70-02-32-92"
-         style="text-align:center;text-anchor:middle;fill:#f20000;fill-opacity:1;stroke-width:0.264583"
-         x="132.70731"
-         y="108.53199">CYP3A</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-weight:300;font-size:3.52777px;line-height:22.2433px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#f20000;fill-opacity:1;stroke-width:0.264583"
-       x="132.98999"
-       y="84.315948"
-       id="text288-0-1-8-06-8-7"><tspan
-         sodipodi:role="line"
-         id="tspan286-6-79-70-02-32-0"
-         style="text-align:center;text-anchor:middle;fill:#f20000;fill-opacity:1;stroke-width:0.264583"
-         x="132.98999"
-         y="84.315948">CYP2W1</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-weight:300;font-size:3.52777px;line-height:22.2433px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#f20000;fill-opacity:1;stroke-width:0.264583"
-       x="138.73776"
-       y="97.696022"
-       id="text288-0-1-8-06-8-04"><tspan
-         sodipodi:role="line"
-         id="tspan286-6-79-70-02-32-36"
-         style="text-align:center;text-anchor:middle;fill:#f20000;fill-opacity:1;stroke-width:0.264583"
-         x="138.73776"
-         y="97.696022">CYP4A11</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-weight:300;font-size:3.52777px;line-height:22.2433px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#f20000;fill-opacity:1;stroke-width:0.264583"
-       x="133.08421"
-       y="116.54119"
-       id="text288-0-1-8-06-8-9"><tspan
-         sodipodi:role="line"
-         id="tspan286-6-79-70-02-32-34"
-         style="text-align:center;text-anchor:middle;fill:#f20000;fill-opacity:1;stroke-width:0.264583"
-         x="133.08421"
-         y="116.54119">UGT</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-weight:300;font-size:3.52777px;line-height:22.2433px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#f20000;fill-opacity:1;stroke-width:0.264583"
-       x="132.70731"
-       y="113.24329"
-       id="text288-0-1-8-06-8-06"><tspan
-         sodipodi:role="line"
-         id="tspan286-6-79-70-02-32-7"
-         style="text-align:center;text-anchor:middle;fill:#f20000;fill-opacity:1;stroke-width:0.264583"
-         x="132.70731"
-         y="113.24329">UGT2B7</tspan></text>
     <circle
-       style="opacity:0.3;fill:#f20000;fill-opacity:1;stroke:#000000;stroke-width:0.0301963;paint-order:markers stroke fill"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.2;paint-order:markers stroke fill;stroke-dasharray:none"
        id="path2501"
        cx="80.078247"
        cy="131.90248"
        r="0.98490185" />
     <circle
-       style="opacity:0.3;fill:#f20000;fill-opacity:1;stroke:#000000;stroke-width:0.0301963;paint-order:markers stroke fill"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.2;paint-order:markers stroke fill;stroke-dasharray:none"
        id="path2501-1"
        cx="90.456848"
        cy="131.91624"
        r="0.98490185" />
     <circle
-       style="opacity:0.3;fill:#f20000;fill-opacity:1;stroke:#000000;stroke-width:0.0301963;paint-order:markers stroke fill"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.2;paint-order:markers stroke fill;stroke-dasharray:none"
        id="path2501-6"
        cx="90.268402"
        cy="121.08027"
@@ -587,31 +127,31 @@
        cy="111.18655"
        r="0.98490185" />
     <circle
-       style="opacity:0.3;fill:#f20000;fill-opacity:1;stroke:#000000;stroke-width:0.0301963;paint-order:markers stroke fill"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.2;paint-order:markers stroke fill;stroke-opacity:1;stroke-dasharray:none"
        id="path2501-4"
        cx="46.924496"
        cy="152.74016"
        r="0.98490185" />
     <circle
-       style="opacity:0.3;fill:#f20000;fill-opacity:1;stroke:#000000;stroke-width:0.0301963;paint-order:markers stroke fill"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.2;paint-order:markers stroke fill;stroke-dasharray:none"
        id="path2501-48"
        cx="46.924488"
        cy="132.10469"
        r="0.98490185" />
     <circle
-       style="opacity:0.3;fill:#f20000;fill-opacity:1;stroke:#000000;stroke-width:0.0301963;paint-order:markers stroke fill"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.2;paint-order:markers stroke fill;stroke-dasharray:none"
        id="path2501-39"
        cx="46.736042"
        cy="111.09232"
        r="0.98490185" />
     <circle
-       style="opacity:0.3;fill:#f20000;fill-opacity:1;stroke:#000000;stroke-width:0.0301963;paint-order:markers stroke fill"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.2;paint-order:markers stroke fill;stroke-dasharray:none"
        id="path2501-96"
        cx="46.830265"
        cy="90.456856"
        r="0.98490185" />
     <circle
-       style="opacity:0.3;fill:#f20000;fill-opacity:1;stroke:#000000;stroke-width:0.0301963;paint-order:markers stroke fill"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.2;paint-order:markers stroke fill;stroke-dasharray:none"
        id="path2501-13"
        cx="26.665922"
        cy="77.547905"
@@ -670,12 +210,15 @@
        cx="150.00761"
        cy="77.170998"
        r="0.98490185" />
-    <circle
-       style="opacity:0.3;fill:#f20000;fill-opacity:1;stroke:#000000;stroke-width:0.0301963;paint-order:markers stroke fill"
-       id="path2501-67"
-       cx="180.44258"
-       cy="77.395638"
-       r="0.98490185" />
+    <g
+       id="g3150">
+      <circle
+         style="opacity:0.3;fill:#f20000;fill-opacity:1;stroke:#000000;stroke-width:0.0301963;paint-order:markers stroke fill"
+         id="path2501-67"
+         cx="180.44258"
+         cy="77.395638"
+         r="0.98490185" />
+    </g>
     <circle
        style="opacity:0.3;fill:#f20000;fill-opacity:1;stroke:#000000;stroke-width:0.0301963;paint-order:markers stroke fill"
        id="path2501-022"
@@ -696,393 +239,1215 @@
        r="0.98490185" />
     <text
        xml:space="preserve"
-       style="font-weight:300;font-size:3.175px;line-height:20.019px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       style="font-weight:300;font-size:3.175px;line-height:20.019px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583;fill:#000000;fill-opacity:1"
        x="76.699875"
        y="172.99872"
        id="text2947"><tspan
          sodipodi:role="line"
          id="tspan2945"
-         style="stroke-width:0.264583;font-size:3.175px"
+         style="stroke-width:0.264583;font-size:3.175px;fill:#000000;fill-opacity:1"
          x="76.699875"
          y="172.99872" /></text>
     <text
        xml:space="preserve"
-       style="font-weight:300;font-size:2.82222222px;line-height:17.7946px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       style="font-weight:300;font-size:2.82222222px;line-height:17.7946px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583;fill:#000000;fill-opacity:1"
        x="87.724297"
        y="171.39688"
        id="text2951"><tspan
          sodipodi:role="line"
          id="tspan2949"
-         style="stroke-width:0.264583;font-size:2.82222222px"
+         style="stroke-width:0.264583;font-size:2.82222222px;fill:#000000;fill-opacity:1"
          x="87.724297"
          y="171.39688" /></text>
     <text
        xml:space="preserve"
-       style="font-weight:300;font-size:2.46944px;line-height:15.5703px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#fb0000;fill-opacity:1;stroke-width:0.264583"
+       style="font-weight:300;font-size:2.46944px;line-height:15.5703px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0.264583"
        x="73.119286"
        y="135.77951"
        id="text2959"><tspan
          sodipodi:role="line"
          id="tspan2957"
-         style="fill:#fb0000;fill-opacity:1;stroke-width:0.264583"
+         style="fill:#000000;fill-opacity:1;stroke-width:0.264583"
          x="73.119286"
          y="135.77951">11-cis Retinal</tspan></text>
     <text
        xml:space="preserve"
-       style="font-weight:300;font-size:2.46944px;line-height:15.5703px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#fb0000;fill-opacity:1;stroke-width:0.264583"
+       style="font-weight:300;font-size:2.46944px;line-height:15.5703px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0.264583"
        x="31.657061"
        y="131.05035"
        id="text2959-75"><tspan
          sodipodi:role="line"
          id="tspan2957-80"
-         style="fill:#fb0000;fill-opacity:1;stroke-width:0.264583"
+         style="fill:#000000;fill-opacity:1;stroke-width:0.264583"
          x="31.657061"
          y="131.05035">11-cis Retinol</tspan></text>
     <text
        xml:space="preserve"
-       style="font-weight:300;font-size:2.46944px;line-height:15.5703px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#fb0000;fill-opacity:1;stroke-width:0.264583"
+       style="font-weight:300;font-size:2.46944px;line-height:15.5703px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0.264583"
        x="93.092354"
        y="133.31178"
        id="text2959-7"><tspan
          sodipodi:role="line"
          id="tspan2957-8"
-         style="fill:#fb0000;fill-opacity:1;stroke-width:0.264583"
+         style="fill:#000000;fill-opacity:1;stroke-width:0.264583"
          x="93.092354"
          y="133.31178">Rhodopsin</tspan></text>
     <text
        xml:space="preserve"
-       style="font-weight:300;font-size:2.46944px;line-height:15.5703px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#fb0000;fill-opacity:1;stroke-width:0.264583"
+       style="font-weight:300;font-size:2.46944px;line-height:15.5703px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0.264583"
        x="91.867416"
        y="122.47581"
        id="text2959-73"><tspan
          sodipodi:role="line"
          id="tspan2957-6"
-         style="fill:#fb0000;fill-opacity:1;stroke-width:0.264583"
+         style="fill:#000000;fill-opacity:1;stroke-width:0.264583"
          x="91.867416"
          y="122.47581">Bathorhodopsin</tspan></text>
     <text
        xml:space="preserve"
-       style="font-weight:300;font-size:2.46944px;line-height:15.5703px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#fb0000;fill-opacity:1;stroke-width:0.264583"
+       style="font-weight:300;font-size:2.46944px;line-height:15.5703px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0.264583"
        x="92.055862"
        y="112.11096"
        id="text2959-6"><tspan
          sodipodi:role="line"
          id="tspan2957-4"
-         style="fill:#fb0000;fill-opacity:1;stroke-width:0.264583"
+         style="fill:#000000;fill-opacity:1;stroke-width:0.264583"
          x="92.055862"
          y="112.11096">Lumirhodopsin</tspan></text>
     <text
        xml:space="preserve"
-       style="font-weight:300;font-size:2.46944px;line-height:15.5703px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#fb0000;fill-opacity:1;stroke-width:0.264583"
+       style="font-weight:300;font-size:2.46944px;line-height:15.5703px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0.264583"
        x="91.773193"
        y="101.65188"
        id="text2959-5"><tspan
          sodipodi:role="line"
          id="tspan2957-3"
-         style="fill:#fb0000;fill-opacity:1;stroke-width:0.264583"
+         style="fill:#000000;fill-opacity:1;stroke-width:0.264583"
          x="91.773193"
          y="101.65188">Metarhodopsin I</tspan></text>
     <text
        xml:space="preserve"
-       style="font-weight:300;font-size:2.46944px;line-height:15.5703px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#fb0000;fill-opacity:1;stroke-width:0.264583"
+       style="font-weight:300;font-size:2.46944px;line-height:15.5703px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0.264583"
        x="91.623444"
        y="91.642586"
        id="text2959-5-8"><tspan
          sodipodi:role="line"
          id="tspan2957-3-3"
-         style="fill:#fb0000;fill-opacity:1;stroke-width:0.264583"
+         style="fill:#000000;fill-opacity:1;stroke-width:0.264583"
          x="91.623444"
          y="91.642586">Metarhodopsin II</tspan></text>
     <text
        xml:space="preserve"
-       style="font-weight:300;font-size:2.46944px;line-height:15.5703px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#fb0000;fill-opacity:1;stroke-width:0.264583"
+       style="font-weight:300;font-size:2.46944px;line-height:15.5703px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0.264583"
        x="75.452774"
        y="107.94366"
        id="text2959-5-0"><tspan
          sodipodi:role="line"
          id="tspan2957-3-1"
-         style="fill:#fb0000;fill-opacity:1;stroke-width:0.264583"
+         style="fill:#000000;fill-opacity:1;stroke-width:0.264583"
          x="75.452774"
          y="107.94366">Iodopsin</tspan></text>
     <text
        xml:space="preserve"
-       style="font-weight:300;font-size:2.46944px;line-height:15.5703px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#fb0000;fill-opacity:1;stroke-width:0.264583"
+       style="font-weight:300;font-size:2.46944px;line-height:15.5703px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0.264583"
        x="38.158661"
        y="156.58557"
        id="text2959-58"><tspan
          sodipodi:role="line"
          id="tspan2957-89"
-         style="fill:#fb0000;fill-opacity:1;stroke-width:0.264583"
+         style="fill:#000000;fill-opacity:1;stroke-width:0.264583"
          x="38.158661"
          y="156.58557">11-cis-Retinyl ester</tspan></text>
     <text
        xml:space="preserve"
-       style="font-weight:300;font-size:2.46944px;line-height:15.5703px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#fb0000;fill-opacity:1;stroke-width:0.264583"
+       style="font-weight:300;font-size:2.46944px;line-height:15.5703px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0.264583"
        x="48.146603"
        y="111.45136"
        id="text2959-74"><tspan
          sodipodi:role="line"
          id="tspan2957-2"
-         style="fill:#fb0000;fill-opacity:1;stroke-width:0.264583"
+         style="fill:#000000;fill-opacity:1;stroke-width:0.264583"
          x="48.146603"
          y="111.45136">all-trans-Retinyl ester</tspan></text>
     <text
        xml:space="preserve"
-       style="font-weight:300;font-size:2.46944px;line-height:2.82222px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#fb0000;fill-opacity:1;stroke-width:0.264583"
+       style="font-weight:300;font-size:2.46944px;line-height:2.82222px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0.264583"
        x="8.6708946"
        y="69.970627"
        id="text2959-74-0"><tspan
          sodipodi:role="line"
          id="tspan2957-2-6"
-         style="fill:#fb0000;fill-opacity:1;stroke-width:0.264583"
+         style="fill:#000000;fill-opacity:1;stroke-width:0.264583"
          x="8.6708946"
          y="69.970627">all-trans-3,4-</tspan><tspan
          sodipodi:role="line"
-         style="fill:#fb0000;fill-opacity:1;stroke-width:0.264583"
+         style="fill:#000000;fill-opacity:1;stroke-width:0.264583"
          x="8.6708946"
          y="72.792847"
          id="tspan3188">Didehydroretinol</tspan></text>
     <text
        xml:space="preserve"
-       style="font-weight:300;font-size:2.46944px;line-height:2.82222px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#fb0000;fill-opacity:1;stroke-width:0.264583"
+       style="font-weight:300;font-size:2.46944px;line-height:2.82222px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0.264583"
        x="8.935504"
        y="76.474503"
        id="text2959-74-0-1"><tspan
          sodipodi:role="line"
          id="tspan2957-2-6-6"
-         style="fill:#fb0000;fill-opacity:1;stroke-width:0.264583"
+         style="fill:#000000;fill-opacity:1;stroke-width:0.264583"
          x="8.935504"
          y="76.474503">all-trans-13,14-</tspan><tspan
          sodipodi:role="line"
-         style="fill:#fb0000;fill-opacity:1;stroke-width:0.264583"
+         style="fill:#000000;fill-opacity:1;stroke-width:0.264583"
          x="8.935504"
          y="79.296722"
          id="tspan3188-7">Dihydroretinol</tspan></text>
     <text
        xml:space="preserve"
-       style="font-weight:300;font-size:2.46944px;line-height:15.5703px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#fb0000;fill-opacity:1;stroke-width:0.264583"
+       style="font-weight:300;font-size:2.46944px;line-height:15.5703px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0.264583"
        x="33.353142"
        y="61.417423"
        id="text2959-2"><tspan
          sodipodi:role="line"
          id="tspan2957-44"
-         style="fill:#fb0000;fill-opacity:1;stroke-width:0.264583"
+         style="fill:#000000;fill-opacity:1;stroke-width:0.264583"
          x="33.353142"
          y="61.417423">9-cis-Retinol</tspan></text>
     <text
        xml:space="preserve"
-       style="font-weight:300;font-size:2.46944px;line-height:15.5703px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#fb0000;fill-opacity:1;stroke-width:0.264583"
+       style="font-weight:300;font-size:2.46944px;line-height:15.5703px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0.264583"
        x="74.529846"
        y="58.779099"
        id="text2959-1"><tspan
          sodipodi:role="line"
          id="tspan2957-9"
-         style="fill:#fb0000;fill-opacity:1;stroke-width:0.264583"
+         style="fill:#000000;fill-opacity:1;stroke-width:0.264583"
          x="74.529846"
          y="58.779099">9-cis-Retinal</tspan></text>
     <text
        xml:space="preserve"
-       style="font-weight:300;font-size:2.46944px;line-height:2.82222px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#fb0000;fill-opacity:1;stroke-width:0.264583"
+       style="font-weight:300;font-size:2.46944px;line-height:2.82222px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0.264583"
        x="80.560303"
        y="86.104614"
        id="text2959-66"><tspan
          sodipodi:role="line"
          id="tspan2957-91"
-         style="fill:#fb0000;fill-opacity:1;stroke-width:0.264583"
+         style="fill:#000000;fill-opacity:1;stroke-width:0.264583"
          x="80.560303"
          y="86.104614">all-trans-</tspan><tspan
          sodipodi:role="line"
-         style="fill:#fb0000;fill-opacity:1;stroke-width:0.264583"
+         style="fill:#000000;fill-opacity:1;stroke-width:0.264583"
          x="80.560303"
          y="88.926834"
          id="tspan5622">Retinal</tspan></text>
     <text
        xml:space="preserve"
-       style="font-weight:300;font-size:2.46944px;line-height:15.5703px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#fb0000;fill-opacity:1;stroke-width:0.264583"
+       style="font-weight:300;font-size:2.46944px;line-height:15.5703px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0.264583"
        x="81.314117"
        y="75.833984"
        id="text2959-63"><tspan
          sodipodi:role="line"
          id="tspan2957-448"
-         style="fill:#fb0000;fill-opacity:1;stroke-width:0.264583"
+         style="fill:#000000;fill-opacity:1;stroke-width:0.264583"
          x="81.314117"
          y="75.833984">β-Carotene</tspan></text>
     <text
        xml:space="preserve"
-       style="font-weight:300;font-size:2.46944px;line-height:15.5703px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#fb0000;fill-opacity:1;stroke-width:0.264583"
+       style="font-weight:300;font-size:2.46944px;line-height:15.5703px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0.264583"
        x="120.61532"
        y="61.396076"
        id="text2959-7-0"><tspan
          sodipodi:role="line"
          id="tspan2957-8-7"
-         style="fill:#fb0000;fill-opacity:1;stroke-width:0.264583"
+         style="fill:#000000;fill-opacity:1;stroke-width:0.264583"
          x="120.61532"
          y="61.396076">9-cis-Retinoate</tspan></text>
     <text
        xml:space="preserve"
-       style="font-weight:300;font-size:2.46944px;line-height:2.82222px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#fb0000;fill-opacity:1;stroke-width:0.264583"
+       style="font-weight:300;font-size:2.46944px;line-height:2.82222px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0.264583"
        x="109.51197"
        y="72.349907"
        id="text2959-66-9"><tspan
          sodipodi:role="line"
          id="tspan2957-91-9"
-         style="fill:#fb0000;fill-opacity:1;stroke-width:0.264583"
+         style="fill:#000000;fill-opacity:1;stroke-width:0.264583"
          x="109.51197"
          y="72.349907">all-trans-</tspan><tspan
          sodipodi:role="line"
-         style="fill:#fb0000;fill-opacity:1;stroke-width:0.264583"
+         style="fill:#000000;fill-opacity:1;stroke-width:0.264583"
          x="109.51197"
          y="75.172127"
          id="tspan5622-2">Retinoate</tspan></text>
     <text
        xml:space="preserve"
-       style="font-weight:300;font-size:2.46944px;line-height:2.82222px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#fb0000;fill-opacity:1;stroke-width:0.264583"
+       style="font-weight:300;font-size:2.46944px;line-height:2.82222px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0.264583"
        x="144.11467"
        y="79.88797"
        id="text2959-66-9-0"><tspan
          sodipodi:role="line"
          id="tspan2957-91-9-5"
-         style="fill:#fb0000;fill-opacity:1;stroke-width:0.264583"
+         style="fill:#000000;fill-opacity:1;stroke-width:0.264583"
          x="144.11467"
          y="79.88797">all-trans-</tspan><tspan
          sodipodi:role="line"
-         style="fill:#fb0000;fill-opacity:1;stroke-width:0.264583"
+         style="fill:#000000;fill-opacity:1;stroke-width:0.264583"
          x="144.11467"
          y="82.71019"
          id="tspan5622-2-4">4-Hydroxy-</tspan><tspan
          sodipodi:role="line"
-         style="fill:#fb0000;fill-opacity:1;stroke-width:0.264583"
+         style="fill:#000000;fill-opacity:1;stroke-width:0.264583"
          x="144.11467"
          y="85.53241"
          id="tspan6641">retinoic acid</tspan></text>
     <text
        xml:space="preserve"
-       style="font-weight:300;font-size:2.46944px;line-height:2.82222px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#fb0000;fill-opacity:1;stroke-width:0.264583"
+       style="font-weight:300;font-size:2.46944px;line-height:2.82222px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0.264583"
        x="183.12419"
        y="76.684296"
        id="text2959-66-9-2"><tspan
          sodipodi:role="line"
          id="tspan2957-91-9-0"
-         style="fill:#fb0000;fill-opacity:1;stroke-width:0.264583"
+         style="fill:#000000;fill-opacity:1;stroke-width:0.264583"
          x="183.12419"
          y="76.684296">all-trans-</tspan><tspan
          sodipodi:role="line"
-         style="fill:#fb0000;fill-opacity:1;stroke-width:0.264583"
+         style="fill:#000000;fill-opacity:1;stroke-width:0.264583"
          x="183.12419"
          y="79.506516"
          id="tspan5622-2-7">4-Oxoretinoic acid</tspan></text>
     <text
        xml:space="preserve"
-       style="font-weight:300;font-size:2.46944px;line-height:2.82222px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#fb0000;fill-opacity:1;stroke-width:0.264583"
+       style="font-weight:300;font-size:2.46944px;line-height:2.82222px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0.264583"
        x="151.74696"
        y="94.304535"
        id="text2959-66-9-29"><tspan
          sodipodi:role="line"
-         style="fill:#fb0000;fill-opacity:1;stroke-width:0.264583"
+         style="fill:#000000;fill-opacity:1;stroke-width:0.264583"
          x="151.74696"
          y="94.304535"
          id="tspan5622-2-9">all-trans-18-Hydroxy-</tspan><tspan
          sodipodi:role="line"
-         style="fill:#fb0000;fill-opacity:1;stroke-width:0.264583"
+         style="fill:#000000;fill-opacity:1;stroke-width:0.264583"
          x="151.74696"
          y="97.126755"
          id="tspan6687">retinoic acid</tspan></text>
     <text
        xml:space="preserve"
-       style="font-weight:300;font-size:2.46944px;line-height:2.82222px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#fb0000;fill-opacity:1;stroke-width:0.264583"
+       style="font-weight:300;font-size:2.46944px;line-height:2.82222px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0.264583"
        x="151.65274"
        y="104.48093"
        id="text2959-66-9-04"><tspan
          sodipodi:role="line"
-         style="fill:#fb0000;fill-opacity:1;stroke-width:0.264583"
+         style="fill:#000000;fill-opacity:1;stroke-width:0.264583"
          x="151.65274"
          y="104.48093"
          id="tspan5622-2-6">all-trans-5,6-Epoxy-</tspan><tspan
          sodipodi:role="line"
-         style="fill:#fb0000;fill-opacity:1;stroke-width:0.264583"
+         style="fill:#000000;fill-opacity:1;stroke-width:0.264583"
          x="151.65274"
          y="107.30315"
          id="tspan6712">5,6-dihydrore tinoic acid</tspan></text>
     <text
        xml:space="preserve"
-       style="font-weight:300;font-size:2.46944px;line-height:2.82222px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#fb0000;fill-opacity:1;stroke-width:0.264583"
+       style="font-weight:300;font-size:2.46944px;line-height:2.82222px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0.264583"
        x="151.93541"
        y="114.75155"
        id="text2959-66-9-3"><tspan
          sodipodi:role="line"
-         style="fill:#fb0000;fill-opacity:1;stroke-width:0.264583"
+         style="fill:#000000;fill-opacity:1;stroke-width:0.264583"
          x="151.93541"
          y="114.75155"
          id="tspan5622-2-2">all-trans-Retinoyl</tspan><tspan
          sodipodi:role="line"
-         style="fill:#fb0000;fill-opacity:1;stroke-width:0.264583"
+         style="fill:#000000;fill-opacity:1;stroke-width:0.264583"
          x="151.93541"
          y="117.57377"
          id="tspan6737">β-glucuronide</tspan></text>
     <text
        xml:space="preserve"
-       style="font-weight:300;font-size:2.46944px;line-height:2.82222px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#fb0000;fill-opacity:1;stroke-width:0.264583"
+       style="font-weight:300;font-size:2.46944px;line-height:2.82222px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.264583"
        x="37.77002"
        y="84.787735"
        id="text2959-66-8"><tspan
          sodipodi:role="line"
-         style="text-align:center;text-anchor:middle;fill:#fb0000;fill-opacity:1;stroke-width:0.264583"
+         style="text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.264583"
          x="37.77002"
          y="84.787735"
          id="tspan5622-8">all-trans-Retinol</tspan><tspan
          sodipodi:role="line"
-         style="text-align:center;text-anchor:middle;fill:#fb0000;fill-opacity:1;stroke-width:0.264583"
+         style="text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.264583"
          x="37.77002"
          y="87.609955"
          id="tspan6773">(Vitamine A)</tspan></text>
     <text
        xml:space="preserve"
-       style="font-weight:300;font-size:2.46944px;line-height:15.5703px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#fb0000;fill-opacity:1;stroke-width:0.264583"
+       style="font-weight:300;font-size:2.46944px;line-height:15.5703px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0.264583"
        x="58.763832"
        y="81.36895"
        id="text2959-5-0-6"><tspan
          sodipodi:role="line"
          id="tspan2957-3-1-9"
-         style="fill:#fb0000;fill-opacity:1;stroke-width:0.264583"
+         style="fill:#000000;fill-opacity:1;stroke-width:0.264583"
          x="58.763832"
          y="81.36895">4-Oxoretinol</tspan></text>
     <text
        xml:space="preserve"
-       style="font-weight:300;font-size:2.46944px;line-height:15.5703px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#fb0000;fill-opacity:1;stroke-width:0.264583"
+       style="font-weight:300;font-size:2.46944px;line-height:15.5703px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0.264583"
        x="91.460213"
        y="128.57611"
        id="text2959-5-0-9"><tspan
          sodipodi:role="line"
          id="tspan2957-3-1-5"
-         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Calibri;-inkscape-font-specification:'Calibri Italic';fill:#fb0000;fill-opacity:1;stroke-width:0.264583"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Calibri;-inkscape-font-specification:'Calibri Italic';fill:#000000;fill-opacity:1;stroke-width:0.264583"
          x="91.460213"
          y="128.57611">hv</tspan></text>
     <text
        xml:space="preserve"
-       style="font-weight:300;font-size:2.46944px;line-height:15.5703px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#fb0000;fill-opacity:1;stroke-width:0.264583"
+       style="font-weight:300;font-size:2.46944px;line-height:15.5703px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0.264583"
        x="77.088699"
        y="102.31749"
        id="text2959-5-0-9-7"><tspan
          sodipodi:role="line"
          id="tspan2957-3-1-5-0"
-         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Calibri;-inkscape-font-specification:'Calibri Italic';fill:#fb0000;fill-opacity:1;stroke-width:0.264583"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Calibri;-inkscape-font-specification:'Calibri Italic';fill:#000000;fill-opacity:1;stroke-width:0.264583"
          x="77.088699"
          y="102.31749">hv</tspan></text>
     <text
        xml:space="preserve"
-       style="font-weight:300;font-size:2.46944px;line-height:2.82222px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#fb0000;fill-opacity:1;stroke-width:0.264583"
+       style="font-weight:300;font-size:2.46944px;line-height:2.82222px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.264583"
        x="79.734375"
        y="67.049629"
        id="text2959-7-4"><tspan
          sodipodi:role="line"
          id="tspan2957-8-9"
-         style="text-align:center;text-anchor:middle;fill:#fb0000;fill-opacity:1;stroke-width:0.264583"
+         style="text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.264583"
          x="79.734375"
          y="67.049629">Carotenoid</tspan><tspan
          sodipodi:role="line"
-         style="text-align:center;text-anchor:middle;fill:#fb0000;fill-opacity:1;stroke-width:0.264583"
+         style="text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.264583"
          x="79.734375"
          y="69.871849"
          id="tspan6873">biosynthesis</tspan></text>
+    <g
+       id="g2998">
+      <text
+         xml:space="preserve"
+         style="font-weight:300;font-size:3.52777px;line-height:22.2433px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0.264583"
+         x="36.832333"
+         y="71.501221"
+         id="text288-3"><tspan
+           sodipodi:role="line"
+           id="tspan286-9"
+           style="text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.264583"
+           x="36.832333"
+           y="71.501221">CYP27C1</tspan></text>
+      <rect
+         style="opacity:1;fill:none;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers stroke fill"
+         id="rect529"
+         width="13.299999"
+         height="3.8"
+         x="30.171137"
+         y="68.483292" />
+    </g>
+    <g
+       id="g2993">
+      <text
+         xml:space="preserve"
+         style="font-weight:300;font-size:3.52777px;line-height:22.2433px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0.264583"
+         x="37.32465"
+         y="78.194702"
+         id="text288-3-5"><tspan
+           sodipodi:role="line"
+           id="tspan286-9-6"
+           style="text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.264583"
+           x="37.32465"
+           y="78.194702">RETSAT</tspan></text>
+      <rect
+         style="opacity:1;fill:none;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers stroke fill"
+         id="rect529-4"
+         width="11.369054"
+         height="3.8000002"
+         x="31.788261"
+         y="75.180214" />
+    </g>
+    <g
+       id="g3003">
+      <text
+         xml:space="preserve"
+         style="font-weight:300;font-size:3.52777px;line-height:22.2433px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0.264583"
+         x="56.075603"
+         y="78.006256"
+         id="text288-3-1"><tspan
+           sodipodi:role="line"
+           id="tspan286-9-8"
+           style="text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.264583"
+           x="56.075603"
+           y="78.006256">CYP26A</tspan></text>
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers stroke fill"
+         id="rect529-4-9"
+         width="11.769"
+         height="3.8000002"
+         x="50.24807"
+         y="74.991768" />
+    </g>
+    <g
+       id="g2988">
+      <text
+         xml:space="preserve"
+         style="font-weight:300;font-size:3.52777px;line-height:22.2433px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0.264583"
+         x="34.487411"
+         y="100.05339"
+         id="text288-0-3"><tspan
+           sodipodi:role="line"
+           id="tspan286-6-8"
+           style="text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.264583"
+           x="34.487411"
+           y="100.05339">PNPLA4</tspan></text>
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers stroke fill"
+         id="rect529-4-5"
+         width="11.869"
+         height="3.8"
+         x="28.657125"
+         y="97.038902" />
+    </g>
+    <g
+       id="g3008">
+      <text
+         xml:space="preserve"
+         style="font-weight:300;font-size:3.52777px;line-height:22.2433px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0.264583"
+         x="62.966709"
+         y="59.362309"
+         id="text288"><tspan
+           sodipodi:role="line"
+           id="tspan286"
+           style="text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.264583"
+           x="62.966709"
+           y="59.362309">DHRS4</tspan></text>
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers stroke fill"
+         id="rect529-4-9-1"
+         width="10.269"
+         height="3.8000002"
+         x="57.936424"
+         y="56.347824" />
+    </g>
+    <g
+       id="g3062">
+      <text
+         xml:space="preserve"
+         style="font-weight:300;font-size:3.52777px;line-height:22.2433px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0.264583"
+         x="101.85892"
+         y="80.454407"
+         id="text288-0-4"><tspan
+           sodipodi:role="line"
+           id="tspan286-6-7"
+           style="text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.264583"
+           x="101.85892"
+           y="80.454407">ALDH1A</tspan></text>
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers stroke fill"
+         id="rect529-4-9-1-7"
+         width="12.3"
+         height="3.8"
+         x="95.708176"
+         y="77.438202" />
+    </g>
+    <g
+       id="g3013">
+      <text
+         xml:space="preserve"
+         style="font-weight:300;font-size:3.52777px;line-height:22.2433px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0.264583"
+         x="63.404045"
+         y="64.245834"
+         id="text288-5"><tspan
+           sodipodi:role="line"
+           id="tspan286-3"
+           style="text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.264583"
+           x="63.404045"
+           y="64.245834">RDH</tspan></text>
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers stroke fill"
+         id="rect529-4-9-1-9"
+         width="7.8000002"
+         height="3.8000002"
+         x="59.504044"
+         y="61.23135" />
+    </g>
+    <g
+       id="g2968">
+      <text
+         xml:space="preserve"
+         style="font-weight:300;font-size:3.52777px;line-height:22.2433px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0.264583"
+         x="61.059113"
+         y="133.88048"
+         id="text288-0-8"><tspan
+           sodipodi:role="line"
+           id="tspan286-6-44"
+           style="text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.264583"
+           x="61.059113"
+           y="133.88048">RDH</tspan></text>
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers stroke fill"
+         id="rect529-4-9-1-9-3"
+         width="7.8000002"
+         height="3.8000002"
+         x="57.159111"
+         y="130.866" />
+    </g>
+    <g
+       id="g2958">
+      <text
+         xml:space="preserve"
+         style="font-weight:300;font-size:3.52777px;line-height:22.2433px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0.264583"
+         x="34.393185"
+         y="142.2666"
+         id="text288-0-6"><tspan
+           sodipodi:role="line"
+           id="tspan286-6-0"
+           style="text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.264583"
+           x="34.393185"
+           y="142.2666">RPH</tspan></text>
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers stroke fill"
+         id="rect529-4-9-1-9-3-9"
+         width="7.4000001"
+         height="3.8000002"
+         x="30.693184"
+         y="139.25212" />
+    </g>
+    <g
+       id="g3023">
+      <text
+         xml:space="preserve"
+         style="font-weight:300;font-size:3.52777px;line-height:22.2433px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0.264583"
+         x="56.79636"
+         y="93.17318"
+         id="text288-5-8"><tspan
+           sodipodi:role="line"
+           id="tspan286-3-8"
+           style="text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.264583"
+           x="56.79636"
+           y="93.17318">RDH</tspan></text>
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers stroke fill"
+         id="rect529-4-9-1-9-4"
+         width="7.8000002"
+         height="3.8000002"
+         x="52.896358"
+         y="90.158691" />
+    </g>
+    <g
+       id="g3018">
+      <text
+         xml:space="preserve"
+         style="font-weight:300;font-size:3.52777px;line-height:22.2433px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0.264583"
+         x="56.890583"
+         y="88.838791"
+         id="text288-5-2"><tspan
+           sodipodi:role="line"
+           style="text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.264583"
+           x="56.890583"
+           y="88.838791"
+           id="tspan1702">ADH</tspan></text>
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers stroke fill"
+         id="rect529-4-9-1-9-4-6"
+         width="7.8000002"
+         height="3.8000002"
+         x="52.862255"
+         y="85.824303" />
+    </g>
+    <g
+       id="g2963">
+      <text
+         xml:space="preserve"
+         style="font-weight:300;font-size:3.52777px;line-height:22.2433px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0.264583"
+         x="41.554359"
+         y="146.88367"
+         id="text288-0-2"><tspan
+           sodipodi:role="line"
+           id="tspan286-6-41"
+           style="text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.264583"
+           x="41.554359"
+           y="146.88367">DGAT</tspan></text>
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:0.200001;stroke-dasharray:none;paint-order:markers stroke fill"
+         id="rect529-4-9-1-9-3-2"
+         width="8.7999992"
+         height="3.8000002"
+         x="37.302498"
+         y="143.86919" />
+    </g>
+    <g
+       id="g2953">
+      <text
+         xml:space="preserve"
+         style="font-weight:300;font-size:3.52777px;line-height:22.2433px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0.264583"
+         x="51.824974"
+         y="146.78944"
+         id="text288-0-55"><tspan
+           sodipodi:role="line"
+           id="tspan286-6-2"
+           style="text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.264583"
+           x="51.824974"
+           y="146.78944">LRAT</tspan></text>
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:0.200001;stroke-dasharray:none;paint-order:markers stroke fill"
+         id="rect529-4-9-1-9-3-2-4"
+         width="8.2999992"
+         height="3.8000002"
+         x="47.823112"
+         y="143.77496" />
+    </g>
+    <g
+       id="g2983">
+      <text
+         xml:space="preserve"
+         style="font-weight:300;font-size:3.52777px;line-height:22.2433px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0.264583"
+         x="41.648579"
+         y="105.14159"
+         id="text288-0-36"><tspan
+           sodipodi:role="line"
+           id="tspan286-6-6"
+           style="text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.264583"
+           x="41.648579"
+           y="105.14159">DGAT</tspan></text>
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:0.200001;stroke-dasharray:none;paint-order:markers stroke fill"
+         id="rect529-4-9-1-9-3-2-9"
+         width="8.7999992"
+         height="3.8000002"
+         x="37.396717"
+         y="102.1271" />
+    </g>
+    <g
+       id="g2973">
+      <text
+         xml:space="preserve"
+         style="font-weight:300;font-size:3.52777px;line-height:22.2433px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0.264583"
+         x="46.831005"
+         y="121.5369"
+         id="text288-0-42"><tspan
+           sodipodi:role="line"
+           id="tspan286-6-5"
+           style="text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.264583"
+           x="46.831005"
+           y="121.5369">RPE65</tspan></text>
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:0.200001;stroke-dasharray:none;paint-order:markers stroke fill"
+         id="rect529-4-9-1-9-3-2-7"
+         width="9.7999992"
+         height="3.8000002"
+         x="41.977512"
+         y="118.52414" />
+    </g>
+    <g
+       id="g2978">
+      <text
+         xml:space="preserve"
+         style="font-weight:300;font-size:3.52777px;line-height:22.2433px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0.264583"
+         x="51.824978"
+         y="105.23582"
+         id="text288-0-5"><tspan
+           sodipodi:role="line"
+           id="tspan286-6-4"
+           style="text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.264583"
+           x="51.824978"
+           y="105.23582">LRAT</tspan></text>
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:0.200001;stroke-dasharray:none;paint-order:markers stroke fill"
+         id="rect529-4-9-1-9-3-2-4-9"
+         width="8.2999992"
+         height="3.8000002"
+         x="47.823116"
+         y="102.22133" />
+    </g>
+    <g
+       id="g3031">
+      <text
+         xml:space="preserve"
+         style="font-weight:300;font-size:3.52777px;line-height:22.2433px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0.264583"
+         x="67.277283"
+         y="92.890503"
+         id="text288-5-0"><tspan
+           sodipodi:role="line"
+           id="tspan286-3-5"
+           style="text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.264583"
+           x="67.277283"
+           y="92.890503">DHRS</tspan></text>
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:0.200001;stroke-dasharray:none;paint-order:markers stroke fill"
+         id="rect529-4-9-1-9-3-2-4-99"
+         width="8.2999992"
+         height="3.8000002"
+         x="63.218578"
+         y="89.876015" />
+    </g>
+    <g
+       id="g3047">
+      <text
+         xml:space="preserve"
+         style="font-weight:300;font-size:3.52777px;line-height:22.2433px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0.264583"
+         x="102.03665"
+         y="59.498344"
+         id="text288-2"><tspan
+           sodipodi:role="line"
+           id="tspan286-2"
+           style="text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.264583"
+           x="102.03665"
+           y="59.498344">AOX</tspan></text>
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers stroke fill"
+         id="rect529-4-9-1-9-4-1"
+         width="7.4000001"
+         height="3.8000002"
+         x="98.322121"
+         y="56.48386" />
+    </g>
+    <g
+       id="g3057">
+      <text
+         xml:space="preserve"
+         style="font-weight:300;font-size:3.52777px;line-height:22.2433px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0.264583"
+         x="102.15541"
+         y="75.741386"
+         id="text288-2-9"><tspan
+           sodipodi:role="line"
+           id="tspan286-2-1"
+           style="text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.264583"
+           x="102.15541"
+           y="75.741386">AOX</tspan></text>
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers stroke fill"
+         id="rect529-4-9-1-9-4-1-0"
+         width="7.4000001"
+         height="3.8000002"
+         x="98.44088"
+         y="72.726898" />
+    </g>
+    <g
+       id="g3052">
+      <text
+         xml:space="preserve"
+         style="font-weight:300;font-size:3.52777px;line-height:22.2433px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0.264583"
+         x="102.03664"
+         y="64.622734"
+         id="text288-0"><tspan
+           sodipodi:role="line"
+           id="tspan286-6"
+           style="text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.264583"
+           x="102.03664"
+           y="64.622734">ALDH1A</tspan></text>
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers stroke fill"
+         id="rect529-4-9-1-7-6"
+         width="12.3"
+         height="3.8"
+         x="95.885895"
+         y="61.606525" />
+    </g>
+    <g
+       id="g3042">
+      <text
+         xml:space="preserve"
+         style="font-weight:300;font-size:3.52777px;line-height:22.2433px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0.264583"
+         x="79.846596"
+         y="83.091011"
+         id="text288-3-1-1"><tspan
+           sodipodi:role="line"
+           id="tspan286-9-8-9"
+           style="text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.264583"
+           x="79.846596"
+           y="83.091011">BCMO1</tspan></text>
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers stroke fill"
+         id="rect529-4-9-1-7-8"
+         width="11.3"
+         height="3.8"
+         x="74.25602"
+         y="80.076523" />
+    </g>
+    <g
+       id="g3037">
+      <text
+         xml:space="preserve"
+         style="font-weight:300;font-size:3.52777px;line-height:22.2433px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0.264583"
+         x="67.371513"
+         y="88.650337"
+         id="text288-5-9"><tspan
+           sodipodi:role="line"
+           id="tspan286-3-9"
+           style="text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.264583"
+           x="67.371513"
+           y="88.650337">SDR16C</tspan></text>
+      <g
+         id="g3026">
+        <rect
+           style="fill:none;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers stroke fill"
+           id="rect529-4-9-1-7-7"
+           width="11.8"
+           height="3.8"
+           x="61.485294"
+           y="85.635849" />
+      </g>
+    </g>
+    <g
+       id="g3067">
+      <text
+         xml:space="preserve"
+         style="font-weight:300;font-size:3.52777px;line-height:22.2433px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0.264583"
+         x="127.46652"
+         y="76.120018"
+         id="text288-0-1"><tspan
+           sodipodi:role="line"
+           id="tspan286-6-79"
+           style="text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.264583"
+           x="127.46652"
+           y="76.120018">CYP26</tspan></text>
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers stroke fill"
+         id="rect529-4-9-1-7-5"
+         width="9.8000002"
+         height="3.8"
+         x="122.5803"
+         y="73.10553" />
+    </g>
+    <g
+       id="g3092">
+      <text
+         xml:space="preserve"
+         style="font-weight:300;font-size:3.52777px;line-height:22.2433px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0.264583"
+         x="133.03317"
+         y="89.498367"
+         id="text288-0-1-5"><tspan
+           sodipodi:role="line"
+           id="tspan286-6-79-7"
+           style="text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.264583"
+           x="133.03317"
+           y="89.498367">CYP26</tspan></text>
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers stroke fill"
+         id="rect529-4-9-1-7-5-0"
+         width="9.8000002"
+         height="3.8"
+         x="128.14696"
+         y="86.483879" />
+    </g>
+    <g
+       id="g3132">
+      <text
+         xml:space="preserve"
+         style="font-weight:300;font-size:3.52777px;line-height:22.2433px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0.264583"
+         x="161.30093"
+         y="75.92984"
+         id="text288-0-1-9"><tspan
+           sodipodi:role="line"
+           id="tspan286-6-79-2"
+           style="text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.264583"
+           x="161.30093"
+           y="75.92984">CYP26</tspan></text>
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers stroke fill"
+         id="rect529-4-9-1-7-5-3"
+         width="9.8000002"
+         height="3.8"
+         x="156.41472"
+         y="72.915352" />
+    </g>
+    <g
+       id="g3082">
+      <text
+         xml:space="preserve"
+         style="font-weight:300;font-size:3.52777px;line-height:22.2433px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0.264583"
+         x="138.17241"
+         y="80.358459"
+         id="text288-0-1-8-06-8"><tspan
+           sodipodi:role="line"
+           id="tspan286-6-79-70-02-32"
+           style="text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.264583"
+           x="138.17241"
+           y="80.358459">CYP3A</tspan></text>
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers stroke fill"
+         id="rect529-4-9-1-7-5-04"
+         width="9.8000002"
+         height="3.8"
+         x="133.32938"
+         y="77.343971" />
+    </g>
+    <g
+       id="g3142">
+      <text
+         xml:space="preserve"
+         style="font-weight:300;font-size:3.52777px;line-height:22.2433px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0.264583"
+         x="172.09372"
+         y="80.641129"
+         id="text288-0-1-8-06-8-4"><tspan
+           sodipodi:role="line"
+           id="tspan286-6-79-70-02-32-9"
+           style="text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.264583"
+           x="172.09372"
+           y="80.641129">CYP3A</tspan></text>
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers stroke fill"
+         id="rect529-4-9-1-7-5-4"
+         width="9.8000002"
+         height="3.8"
+         x="167.25069"
+         y="77.62664" />
+    </g>
+    <g
+       id="g3137">
+      <text
+         xml:space="preserve"
+         style="font-weight:300;font-size:3.52777px;line-height:22.2433px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0.264583"
+         x="171.81105"
+         y="76.118294"
+         id="text288-0-1-8-06-5"><tspan
+           sodipodi:role="line"
+           id="tspan286-6-79-70-02-3"
+           style="text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.264583"
+           x="171.81105"
+           y="76.118294">CYP1A</tspan></text>
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers stroke fill"
+         id="rect529-4-9-1-7-5-7"
+         width="9.8000002"
+         height="3.8"
+         x="166.96802"
+         y="73.103806" />
+    </g>
+    <g
+       id="g3072">
+      <text
+         xml:space="preserve"
+         style="font-weight:300;font-size:3.52777px;line-height:22.2433px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0.264583"
+         x="138.15582"
+         y="76.027504"
+         id="text288-0-1-8-06"><tspan
+           sodipodi:role="line"
+           id="tspan286-6-79-70-02"
+           style="text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.264583"
+           x="138.15582"
+           y="76.027504">CYP1A</tspan></text>
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers stroke fill"
+         id="rect529-4-9-1-7-5-9"
+         width="9.8000002"
+         height="3.8"
+         x="133.31279"
+         y="73.013016" />
+    </g>
+    <g
+       id="g3122">
+      <text
+         xml:space="preserve"
+         style="font-weight:300;font-size:3.52777px;line-height:22.2433px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0.264583"
+         x="132.70731"
+         y="108.53199"
+         id="text288-0-1-8-06-8-2"><tspan
+           sodipodi:role="line"
+           id="tspan286-6-79-70-02-32-92"
+           style="text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.264583"
+           x="132.70731"
+           y="108.53199">CYP3A</tspan></text>
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers stroke fill"
+         id="rect529-4-9-1-7-5-6"
+         width="9.8000002"
+         height="3.8"
+         x="127.86427"
+         y="105.5175" />
+    </g>
+    <g
+       id="g3107">
+      <text
+         xml:space="preserve"
+         style="font-weight:300;font-size:3.52777px;line-height:22.2433px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0.264583"
+         x="125.78513"
+         y="97.69603"
+         id="text288-0-1-8-06-8-0"><tspan
+           sodipodi:role="line"
+           id="tspan286-6-79-70-02-32-3"
+           style="text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.264583"
+           x="125.78513"
+           y="97.69603">CYP3A</tspan></text>
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers stroke fill"
+         id="rect529-4-9-1-7-5-8"
+         width="9.8000002"
+         height="3.8"
+         x="120.94207"
+         y="94.681541" />
+    </g>
+    <g
+       id="g3077">
+      <text
+         xml:space="preserve"
+         style="font-weight:300;font-size:3.52777px;line-height:22.2433px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0.264583"
+         x="128.51033"
+         y="80.546906"
+         id="text288-0-1-8"><tspan
+           sodipodi:role="line"
+           id="tspan286-6-79-70"
+           style="text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.264583"
+           x="128.51033"
+           y="80.546906">CYP2</tspan></text>
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers stroke fill"
+         id="rect529-4-9-1-7-5-5"
+         width="8.8000002"
+         height="3.8"
+         x="124.08966"
+         y="77.528976" />
+    </g>
+    <g
+       id="g3147">
+      <text
+         xml:space="preserve"
+         style="font-weight:300;font-size:3.52777px;line-height:22.2433px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0.264583"
+         x="161.42963"
+         y="80.361908"
+         id="text288-0-1-8-9"><tspan
+           sodipodi:role="line"
+           id="tspan286-6-79-70-0"
+           style="text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.264583"
+           x="161.42963"
+           y="80.361908">CYP2</tspan></text>
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers stroke fill"
+         id="rect529-4-9-1-7-5-5-1"
+         width="8.8000002"
+         height="3.8"
+         x="157.00896"
+         y="77.343979" />
+    </g>
+    <g
+       id="g3102">
+      <text
+         xml:space="preserve"
+         style="font-weight:300;font-size:3.52777px;line-height:22.2433px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0.264583"
+         x="137.68469"
+         y="93.741982"
+         id="text288-0-1-8-0"><tspan
+           sodipodi:role="line"
+           id="tspan286-6-79-70-9"
+           style="text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.264583"
+           x="137.68469"
+           y="93.741982">CYP2</tspan></text>
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers stroke fill"
+         id="rect529-4-9-1-7-5-5-4"
+         width="8.8000002"
+         height="3.8"
+         x="133.26402"
+         y="90.724052" />
+    </g>
+    <g
+       id="g3117">
+      <text
+         xml:space="preserve"
+         style="font-weight:300;font-size:3.52777px;line-height:22.2433px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0.264583"
+         x="132.87917"
+         y="104.10683"
+         id="text288-0-1-8-8"><tspan
+           sodipodi:role="line"
+           id="tspan286-6-79-70-1"
+           style="text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.264583"
+           x="132.87917"
+           y="104.10683">CYP2</tspan></text>
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers stroke fill"
+         id="rect529-4-9-1-7-5-5-6"
+         width="8.8000002"
+         height="3.8"
+         x="128.4585"
+         y="101.0889" />
+    </g>
+    <g
+       id="g3127">
+      <text
+         xml:space="preserve"
+         style="font-weight:300;font-size:3.52777px;line-height:22.2433px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0.264583"
+         x="133.08421"
+         y="116.54119"
+         id="text288-0-1-8-06-8-9"><tspan
+           sodipodi:role="line"
+           id="tspan286-6-79-70-02-32-34"
+           style="text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.264583"
+           x="133.08421"
+           y="116.54119">UGT</tspan></text>
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers stroke fill"
+         id="rect529-4-9-1-7-5-5-5"
+         width="7.8000002"
+         height="3.8"
+         x="129.32977"
+         y="113.52843" />
+    </g>
+    <g
+       id="g3097">
+      <text
+         xml:space="preserve"
+         style="font-weight:300;font-size:3.52777px;line-height:22.2433px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0.264583"
+         x="127.33644"
+         y="93.550072"
+         id="text288-0-1-8-06-0"><tspan
+           sodipodi:role="line"
+           id="tspan286-6-79-70-02-38"
+           style="text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.264583"
+           x="127.33644"
+           y="93.550072">CYP1A1</tspan></text>
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers stroke fill"
+         id="rect529-4-9-1-7-5-5-8"
+         width="11.3"
+         height="3.8"
+         x="121.67525"
+         y="90.535583" />
+    </g>
+    <g
+       id="g3112">
+      <text
+         xml:space="preserve"
+         style="font-weight:300;font-size:3.52777px;line-height:22.2433px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0.264583"
+         x="138.73776"
+         y="97.696022"
+         id="text288-0-1-8-06-8-04"><tspan
+           sodipodi:role="line"
+           id="tspan286-6-79-70-02-32-36"
+           style="text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.264583"
+           x="138.73776"
+           y="97.696022">CYP4A11</tspan></text>
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers stroke fill"
+         id="rect529-4-9-1-7-5-5-8-8"
+         width="13.3"
+         height="3.8"
+         x="132.07657"
+         y="94.681534" />
+    </g>
+    <g
+       id="g3087">
+      <text
+         xml:space="preserve"
+         style="font-weight:300;font-size:3.52777px;line-height:22.2433px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0.264583"
+         x="132.98999"
+         y="84.315948"
+         id="text288-0-1-8-06-8-7"><tspan
+           sodipodi:role="line"
+           id="tspan286-6-79-70-02-32-0"
+           style="text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.264583"
+           x="132.98999"
+           y="84.315948">CYP2W1</tspan></text>
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers stroke fill"
+         id="rect529-4-9-1-7-5-5-8-7"
+         width="12.3"
+         height="3.8"
+         x="126.8288"
+         y="81.298019" />
+    </g>
   </g>
 </svg>
