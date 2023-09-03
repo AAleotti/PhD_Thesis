@@ -1,0 +1,203 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=101;
+	taxlabels
+	AlveolataEP00333Tetrahymenathermophila
+	AlveolataEP00742ColponemidiaspColp10
+	AmoebozoaDictyosteliumdiscoideumUP000002195
+	AmoebozoaEP00007CuneaspBSH02190019
+	AmoebozoaEP00029Vermamoebavermiformis
+	ApusomonadidaThecamonastrahensUP000054408
+	BreviataEP00033Pygsuiabiforma
+	CentroplasthelidaEP00300ChoanocystisspHF7
+	ChloroplastidaArabidopsisthalianaUP000006548
+	ChloroplastidaChlamydomonasreinhardtiiUP000006906
+	ChloroplastidaEP00248Marchantiapolymorpha
+	ChloroplastidaEP00738Chloropiconprimus
+	ChoanoflagellataEP00035Acanthoecaspectabilis
+	ChoanoflagellataEP00037Helgoecanana
+	ChoanoflagellataEP00039Didymoecacostata
+	ChoanoflagellataEP00040Diaphanoecagrandis
+	ChoanoflagellataEP00045Choanoecaperplexa
+	ChoanoflagellataEP00047Mylnosigafluctuans
+	ChoanoflagellataEP00050Salpingoecakvevrii
+	ChoanoflagellateaMonosigabrevicollisUP000001357
+	CollodictyonidaeEP00002Diphylleiarotans
+	CryptophyceaeEP00290BaffinellaspCCMP2293
+	CryptophyceaeGuillardiathetaUP000011087
+	EuglenozoaEP00668Euglenalonga
+	FilastreaCapsasporaowczarzakiUP000008743
+	FungiEP00150Ustilagomaydis
+	FungiFusariumoxysporumUP000002489
+	FungiMortierellaelongataUP000078512
+	FungiRhizopusmicrosporusUP000242254
+	FungiSaccharomycescerevisiaeUP000002311
+	FungiSpizellomycespunctatusUP000053201
+	GlaucophytaEP00276Gloeochaetewittrockiana
+	HaptophytaEP00319Phaeocystisglobosa
+	HaptophytaEP00327Prymnesiumparvum
+	HeteroloboseaEP00761Pharyngomonaskirbyi
+	IchthyosporeaEP00123Amoebidiumparasiticum
+	IchthyosporeaEP00126Sphaerothecumdestruens
+	IchthyosporeaSphaeroformaarcticaUP000054560
+	JakobidaEP00762Andaluciagodoyi
+	MalawimonadidaeEP00698Gefionellaokellyi
+	MetazoaAcoelaHofsteniamiamia
+	MetazoaAnnelidaEP00103Capitellateleta
+	MetazoaAnnelidaHelobdellarobusta
+	MetazoaArthropodaDaphniapulex
+	MetazoaArthropodaDrosophilamelanogaster
+	MetazoaArthropodaEP00090Calanusglacialis
+	MetazoaBrachiopodaLingulaunguis
+	MetazoaBryozoaBugulaneritina
+	MetazoaCephalochordataBranchiostomabelcheri
+	MetazoaCnidariaAcroporadigitifera
+	MetazoaCnidariaAnthopleuraelegantissima
+	MetazoaCnidariaAstreoporasp
+	MetazoaCnidariaAureliaGenome
+	MetazoaCnidariaClytiahemisphaerica
+	MetazoaCnidariaFungiascutaria
+	MetazoaCnidariaGorgoniaventalina
+	MetazoaCnidariaHydramagnapapillata
+	MetazoaCnidariaMadracisauretenra
+	MetazoaCnidariaMontastraeacavernosa
+	MetazoaCnidariaMyxozoaThelohanelluskitauei
+	MetazoaCnidariaNematostellavectensis
+	MetazoaCnidariaPoritesaustraliensis
+	MetazoaCnidariaStylophorapistillata
+	MetazoaCtenophoraMnemiopsisleidyi
+	MetazoaCtenophoraPleurobrachiabachei
+	MetazoaEchinodermataAcanthasterplanci
+	MetazoaEchinodermataEP00057Strongylocentrotuspurpuratus
+	MetazoaHemichordataSaccoglossuskowalevskii
+	MetazoaMolluscaEP00106Octopusbimaculoides
+	MetazoaMolluscaLottiagigantea
+	MetazoaNematodaCaenorhabditiselegans
+	MetazoaNematodaLoaloa
+	MetazoaPlacozoaEP00114TrichoplaxspH2
+	MetazoaPlacozoaHoilungiahongkongensis
+	MetazoaPlatyhelminthesEchinococcusmultilocularis
+	MetazoaPoriferaAmphimedonqueenslandica
+	MetazoaPoriferaEP00118Oscarellapearsei
+	MetazoaPoriferaEphydatiamuelleri
+	MetazoaPoriferaHaliclonatubifera
+	MetazoaPoriferaLeucosoleniacomplicata
+	MetazoaPoriferaStylissacarteri
+	MetazoaPoriferaSyconciliatum
+	MetazoaRotiferaBrachionusplicatilis
+	MetazoaTardigradaRamazzotiusvarieornatus
+	MetazoaUrochordataEP00059Cionaintestinalis
+	MetazoaUrochordataOikopleuradioica
+	MetazoaVertebrateDaniorerio
+	MetazoaVertebrateEptatretusburgeri
+	MetazoaVertebrateHomosapiens
+	MetazoaVertebrateMusmusculus
+	PluriformeaEP00127Corallochytriumlimacisporum
+	RhizariaEP00473Plasmodiophorabrassicae
+	RhodelphisEP00736Rhodelphismarinus
+	RhodophytaEP00185Porphyridiumpurpureum
+	RhodophytaGaldieriasulphurariaUP000030680
+	RigifilidaEP00004Rigifilaramosa
+	RotosphaeridaEP00160Parvulariaatlantis
+	RotosphaeridaFonticulaalbaUP000030693
+	StramenopilesEP00652Aphanomycesastaci
+	StramenopilesPhytophthorainfestansUP000006643
+	TelonemiaP00656Telonemasubtile
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] ((((((((((((((((((MetazoaMolluscaEP00106Octopusbimaculoides:0.253637,MetazoaMolluscaLottiagigantea:0.213967):0.047181,MetazoaBrachiopodaLingulaunguis:0.199097):0.021395,(MetazoaAnnelidaEP00103Capitellateleta:0.222231,MetazoaAnnelidaHelobdellarobusta:0.406211):0.052921):0.016805,MetazoaBryozoaBugulaneritina:0.482711):0.014638,(MetazoaAcoelaHofsteniamiamia:0.648426,MetazoaPlatyhelminthesEchinococcusmultilocularis:0.746526):0.062183):0.014638,(((MetazoaNematodaCaenorhabditiselegans:0.490473,MetazoaNematodaLoaloa:0.371104):0.453549,(MetazoaRotiferaBrachionusplicatilis:0.506055,MetazoaTardigradaRamazzotiusvarieornatus:0.584018):0.042377):0.034957,((MetazoaArthropodaDaphniapulex:0.310455,MetazoaArthropodaDrosophilamelanogaster:0.442695):0.037886,MetazoaArthropodaEP00090Calanusglacialis:0.394453):0.083966):0.046144):0.030441,((((((MetazoaVertebrateHomosapiens:0.019764,MetazoaVertebrateMusmusculus:0.024678):0.093115,MetazoaVertebrateDaniorerio:0.114409):0.063708,MetazoaVertebrateEptatretusburgeri:0.296574):0.07768,(MetazoaUrochordataEP00059Cionaintestinalis:0.227251,MetazoaUrochordataOikopleuradioica:0.776356):0.227251):0.032483,MetazoaCephalochordataBranchiostomabelcheri:0.226225):0.022393,((MetazoaEchinodermataAcanthasterplanci:0.171479,MetazoaEchinodermataEP00057Strongylocentrotuspurpuratus:0.206581):0.06751,MetazoaHemichordataSaccoglossuskowalevskii:0.205353):0.050124):0.025015):0.062316,(((((((MetazoaCnidariaFungiascutaria:0.027264,MetazoaCnidariaMontastraeacavernosa:0.030791):0.01227,(MetazoaCnidariaMadracisauretenra:0.050428,MetazoaCnidariaStylophorapistillata:0.067173):0.01345):0.016122,((MetazoaCnidariaAstreoporasp:0.061881,MetazoaCnidariaPoritesaustraliensis:0.04699):0.021962,MetazoaCnidariaAcroporadigitifera:0.145353):0.011145):0.095436,(MetazoaCnidariaAnthopleuraelegantissima:0.125503,MetazoaCnidariaNematostellavectensis:0.119941):0.05656):0.062868,MetazoaCnidariaGorgoniaventalina:0.301331):0.038779,((MetazoaCnidariaClytiahemisphaerica:0.206227,MetazoaCnidariaHydramagnapapillata:0.23807):0.114477,MetazoaCnidariaAureliaGenome:0.26213):0.110826):0.024015,MetazoaCnidariaMyxozoaThelohanelluskitauei:1.321675):0.024015):0.022519,(MetazoaPlacozoaEP00114TrichoplaxspH2:0.074717,MetazoaPlacozoaHoilungiahongkongensis:0.066004):0.372578):0.067735,(MetazoaCtenophoraMnemiopsisleidyi:0.141854,MetazoaCtenophoraPleurobrachiabachei:0.27421):0.520784):0.042759,((((MetazoaPoriferaLeucosoleniacomplicata:0.123424,MetazoaPoriferaSyconciliatum:0.126399):0.163286,MetazoaPoriferaStylissacarteri:0.33878):0.163286,MetazoaPoriferaEP00118Oscarellapearsei:0.373254):0.041248,((MetazoaPoriferaAmphimedonqueenslandica:0.251467,MetazoaPoriferaHaliclonatubifera:0.272663):0.124744,MetazoaPoriferaEphydatiamuelleri:0.27877):0.169559):0.029271):0.042759,((((ChoanoflagellataEP00035Acanthoecaspectabilis:0.091389,ChoanoflagellataEP00037Helgoecanana:0.087843):0.251252,ChoanoflagellataEP00040Diaphanoecagrandis:0.32271):0.104689,ChoanoflagellataEP00039Didymoecacostata:0.384052):0.149969,((ChoanoflagellataEP00045Choanoecaperplexa:0.268463,ChoanoflagellateaMonosigabrevicollisUP000001357:0.34079):0.332432,(ChoanoflagellataEP00047Mylnosigafluctuans:0.458195,ChoanoflagellataEP00050Salpingoecakvevrii:0.403056):0.050208):0.038059):0.141018):0.044979,((((IchthyosporeaEP00123Amoebidiumparasiticum:0.306062,IchthyosporeaSphaeroformaarcticaUP000054560:0.497665):0.074748,IchthyosporeaEP00126Sphaerothecumdestruens:0.546073):0.074748,PluriformeaEP00127Corallochytriumlimacisporum:0.867184):0.039188,FilastreaCapsasporaowczarzakiUP000008743:0.521331):0.030449):0.067068,(((((FungiFusariumoxysporumUP000002489:0.544278,FungiSaccharomycescerevisiaeUP000002311:0.852002):0.173282,FungiEP00150Ustilagomaydis:0.625358):0.108075,(FungiMortierellaelongataUP000078512:0.325855,FungiRhizopusmicrosporusUP000242254:0.358907):0.069459):0.047663,FungiSpizellomycespunctatusUP000053201:0.39272):0.099147,(RotosphaeridaEP00160Parvulariaatlantis:0.431677,RotosphaeridaFonticulaalbaUP000030693:0.87343):0.107088):0.081897):0.065811,(ApusomonadidaThecamonastrahensUP000054408:0.853884,BreviataEP00033Pygsuiabiforma:0.80635):0.054591):0.022149,((AmoebozoaDictyosteliumdiscoideumUP000002195:0.620312,AmoebozoaEP00029Vermamoebavermiformis:0.564495):0.063234,AmoebozoaEP00007CuneaspBSH02190019:0.767156):0.062435):0.025644,((CollodictyonidaeEP00002Diphylleiarotans:0.513935,RigifilidaEP00004Rigifilaramosa:0.574497):0.124943,MalawimonadidaeEP00698Gefionellaokellyi:0.6593):0.060333):0.023455,(((((((ChloroplastidaArabidopsisthalianaUP000006548:0.302792,ChloroplastidaEP00248Marchantiapolymorpha:0.20709):0.202891,(ChloroplastidaChlamydomonasreinhardtiiUP000006906:0.534183,ChloroplastidaEP00738Chloropiconprimus:0.644404):0.108246):0.157466,GlaucophytaEP00276Gloeochaetewittrockiana:0.526864):0.036746,((RhodophytaEP00185Porphyridiumpurpureum:0.783359,RhodophytaGaldieriasulphurariaUP000030680:0.717136):0.235629,RhodelphisEP00736Rhodelphismarinus:0.68588):0.074403):0.027586,(((HaptophytaEP00327Prymnesiumparvum:0.34263,HaptophytaEP00319Phaeocystisglobosa:0.527363):0.171315,CentroplasthelidaEP00300ChoanocystisspHF7:0.728539):0.26049,(CryptophyceaeEP00290BaffinellaspCCMP2293:0.272617,CryptophyceaeGuillardiathetaUP000011087:0.233105):0.477769):0.058738):0.012014,((((StramenopilesEP00652Aphanomycesastaci:0.289489,StramenopilesPhytophthorainfestansUP000006643:0.273989):0.382693,RhizariaEP00473Plasmodiophorabrassicae:0.810377):0.02819,(AlveolataEP00742ColponemidiaspColp10:0.209919,AlveolataEP00333Tetrahymenathermophila:1.195784):0.209919):0.014095,TelonemiaP00656Telonemasubtile:0.703347):0.014095):0.006007,((EuglenozoaEP00668Euglenalonga:0.811526,HeteroloboseaEP00761Pharyngomonaskirbyi:0.687372):0.06251,JakobidaEP00762Andaluciagodoyi:1.013993):0.093088):0.006007);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=2.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute=null;
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=8;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=true;
+	set trees.transformType="cladogram";
+end;
+
