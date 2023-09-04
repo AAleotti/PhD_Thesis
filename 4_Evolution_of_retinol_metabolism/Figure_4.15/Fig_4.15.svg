@@ -25,13 +25,13 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="1.4039843"
-     inkscape:cx="259.97442"
-     inkscape:cy="561.25984"
-     inkscape:window-width="2880"
+     inkscape:cx="201.21308"
+     inkscape:cy="504.27914"
+     inkscape:window-width="1440"
      inkscape:window-height="1526"
      inkscape:window-x="2869"
      inkscape:window-y="-11"
-     inkscape:window-maximized="1"
+     inkscape:window-maximized="0"
      inkscape:current-layer="layer1" />
   <defs
      id="defs18703" />
@@ -130,5 +130,137 @@
        height="6.5536852"
        x="34.413513"
        y="212.63615" />
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-size:4.5861px;line-height:28.9163px;font-family:Calibri;-inkscape-font-specification:'Calibri Italic';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="48.432106"
+       y="217.47336"
+       id="text4011"><tspan
+         sodipodi:role="line"
+         id="tspan4009"
+         style="stroke-width:0.264583"
+         x="48.432106"
+         y="217.47336">LRAT</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-size:4.5861px;line-height:28.9163px;font-family:Calibri;-inkscape-font-specification:'Calibri Italic';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="46.359138"
+       y="209.93527"
+       id="text4065"><tspan
+         sodipodi:role="line"
+         id="tspan4063"
+         style="stroke-width:0.264583"
+         x="46.359138"
+         y="209.93527">PNPLA4</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-size:4.5861px;line-height:28.9163px;font-family:Calibri;-inkscape-font-specification:'Calibri Italic';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="51.258881"
+       y="202.02031"
+       id="text4069"><tspan
+         sodipodi:role="line"
+         id="tspan4067"
+         style="stroke-width:0.264583"
+         x="51.258881"
+         y="202.02031">DGAT</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-size:4.5861px;line-height:28.9163px;font-family:Calibri;-inkscape-font-specification:'Calibri Italic';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="47.301395"
+       y="193.53998"
+       id="text4073"><tspan
+         sodipodi:role="line"
+         id="tspan4071"
+         style="stroke-width:0.264583"
+         x="47.301395"
+         y="193.53998">BCMO1_CCO</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-size:4.5861px;line-height:28.9163px;font-family:Calibri;-inkscape-font-specification:'Calibri Italic';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="46.170689"
+       y="186.00191"
+       id="text4077"><tspan
+         sodipodi:role="line"
+         id="tspan4075"
+         style="stroke-width:0.264583"
+         x="46.170689"
+         y="186.00191">RETSAT</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-size:4.5861px;line-height:28.9163px;font-family:Calibri;-inkscape-font-specification:'Calibri Italic';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="45.228424"
+       y="179.78299"
+       id="text4081"><tspan
+         sodipodi:role="line"
+         id="tspan4079"
+         style="stroke-width:0.264583"
+         x="45.228424"
+         y="179.78299">DGAT2L4</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-size:4.5861px;line-height:28.9163px;font-family:Calibri;-inkscape-font-specification:'Calibri Italic';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="46.359138"
+       y="170.7373"
+       id="text4085"><tspan
+         sodipodi:role="line"
+         id="tspan4083"
+         style="stroke-width:0.264583"
+         x="46.359138"
+         y="170.7373">AOX</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-size:4.5861px;line-height:28.9163px;font-family:Calibri;-inkscape-font-specification:'Calibri Italic';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="45.416878"
+       y="164.14149"
+       id="text4089"><tspan
+         sodipodi:role="line"
+         id="tspan4087"
+         style="stroke-width:0.264583"
+         x="45.416878"
+         y="164.14149">ALDH1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-size:4.5861px;line-height:28.9163px;font-family:Calibri;-inkscape-font-specification:'Calibri Italic';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="45.03997"
+       y="155.66116"
+       id="text4093"><tspan
+         sodipodi:role="line"
+         id="tspan4091"
+         style="stroke-width:0.264583"
+         x="45.03997"
+         y="155.66116">UGT</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-size:4.5861px;line-height:28.9163px;font-family:Calibri;-inkscape-font-specification:'Calibri Italic';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="45.228424"
+       y="148.68845"
+       id="text4097"><tspan
+         sodipodi:role="line"
+         id="tspan4095"
+         style="stroke-width:0.264583"
+         x="45.228424"
+         y="148.68845">RDH</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-size:4.5861px;line-height:28.9163px;font-family:Calibri;-inkscape-font-specification:'Calibri Italic';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="55.593269"
+       y="141.90417"
+       id="text4101"><tspan
+         sodipodi:role="line"
+         id="tspan4099"
+         style="stroke-width:0.264583"
+         x="55.593269"
+         y="141.90417">SDR+RDH</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-size:4.5861px;line-height:28.9163px;font-family:Calibri;-inkscape-font-specification:'Calibri Italic';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="46.359138"
+       y="133.04695"
+       id="text4105"><tspan
+         sodipodi:role="line"
+         id="tspan4103"
+         style="stroke-width:0.264583"
+         x="46.359138"
+         y="133.04695">CYP</tspan></text>
   </g>
 </svg>
