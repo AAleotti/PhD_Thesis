@@ -7,7 +7,7 @@
    version="1.1"
    id="svg817"
    sodipodi:docname="Figure_4.4.svg"
-   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -23,12 +23,12 @@
      inkscape:deskcolor="#d1d1d1"
      showgrid="false"
      inkscape:zoom="1.8298855"
-     inkscape:cx="382.5376"
-     inkscape:cy="501.12425"
-     inkscape:window-width="2880"
-     inkscape:window-height="1526"
-     inkscape:window-x="2869"
-     inkscape:window-y="-11"
+     inkscape:cx="380.89815"
+     inkscape:cy="369.9685"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg817"
      inkscape:document-units="mm">
@@ -270,6 +270,13 @@
          d="M 5.77,0 -2.88,5 V -5 Z"
          id="path36131-2-2-8" />
     </marker>
+    <pattern
+       id="EMFhbasepattern"
+       patternUnits="userSpaceOnUse"
+       width="6"
+       height="6"
+       x="0"
+       y="0" />
   </defs>
   <text
      xml:space="preserve"
@@ -3421,7 +3428,22 @@
            x="116.61375"
            y="540.43854"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.90594px;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke:none;stroke-width:0.738242"
-           id="tspan42195">Num of OGs: 8</tspan></text>
+           id="tspan42195">Num of OGs total: 9</tspan><tspan
+           sodipodi:role="line"
+           x="116.61375"
+           y="547.0827"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.90594px;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke:none;stroke-width:0.738242"
+           id="tspan89813">Num of OGs ≥2 seqs: 9</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:400;font-size:14.75px;line-height:125%;font-family:Calibri;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+         x="198.21565"
+         y="555.11188"
+         id="text90694"><tspan
+           sodipodi:role="line"
+           x="198.21565"
+           y="555.11188"
+           id="tspan90692" /></text>
       <g
          id="g7821">
         <rect
@@ -6653,7 +6675,12 @@
              x="433.18738"
              y="540.74261"
              style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.90594px;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke:none;stroke-width:0.738242"
-             id="tspan42361">Num of events: D =  95; L = 274 </tspan></text>
+             id="tspan42361">Num of events: D =  95; L = 274</tspan><tspan
+             sodipodi:role="line"
+             x="433.18738"
+             y="547.6073"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.90594px;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke:none;stroke-width:0.738242"
+             id="tspan112060">Total events / Num seqs: 1.72 </tspan></text>
       </g>
       <g
          id="g6473-2"

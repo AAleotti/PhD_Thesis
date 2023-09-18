@@ -1,0 +1,195 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=93;
+	taxlabels
+	CryptophyceaeEP00290BaffinellaspCCMP2293_12040984__LRAT_BOVIN_Lecithin_retinol_acyltransferase_OS_
+	CryptophyceaeEP00290BaffinellaspCCMP2293_12059753__LRAT_BOVIN_Lecithin_retinol_acyltransferase_OS_
+	CryptophyceaeGuillardiathetaUP000011087_12256407__PLAT3_RAT_Phospholipase_A_and_acyltransferase_3_OS_
+	MetazoaAcoelaHofsteniamiamia_16354__PLAT1_HUMAN_Phospholipase_A_and_acyltransferase_1_OS_
+	MetazoaAcoelaHofsteniamiamia_4411_
+	MetazoaArthropodaDaphniapulex_214295__PLAT2_HUMAN_Phospholipase_A_and_acyltransferase_2_OS_
+	MetazoaArthropodaEP00090Calanusglacialis_678642__PLAT1_HUMAN_Phospholipase_A_and_acyltransferase_1_OS_
+	MetazoaBrachiopodaLingulaunguis_1283932__PLAT3_HUMAN_Phospholipase_A_and_acyltransferase_3_OS_
+	MetazoaBrachiopodaLingulaunguis_1298288__PLAT3_HUMAN_Phospholipase_A_and_acyltransferase_3_OS_
+	MetazoaBrachiopodaLingulaunguis_1299417__PLAT3_HUMAN_Phospholipase_A_and_acyltransferase_3_OS_
+	MetazoaBrachiopodaLingulaunguis_1302550__PLAT1_HUMAN_Phospholipase_A_and_acyltransferase_1_OS_
+	MetazoaCephalochordataBranchiostomabelcheri_2795997__PLAT1_RAT_Phospholipase_A_and_acyltransferase_1_OS_
+	MetazoaCephalochordataBranchiostomabelcheri_2796045__PLAT3_RAT_Phospholipase_A_and_acyltransferase_3_OS_
+	MetazoaCephalochordataBranchiostomabelcheri_2796061__PLAT1_HUMAN_Phospholipase_A_and_acyltransferase_1_OS_
+	MetazoaCephalochordataBranchiostomabelcheri_2796139__PLAT1_MOUSE_Phospholipase_A_and_acyltransferase_1_OS_
+	MetazoaCephalochordataBranchiostomabelcheri_2799601__PLAT3_RAT_Phospholipase_A_and_acyltransferase_3_OS_
+	MetazoaCephalochordataBranchiostomabelcheri_2799602__PLAT3_RAT_Phospholipase_A_and_acyltransferase_3_OS_
+	MetazoaCephalochordataBranchiostomabelcheri_2827403__PLAT1_RAT_Phospholipase_A_and_acyltransferase_1_OS_
+	MetazoaCnidariaAnthopleuraelegantissima_2997299__PLAT3_RAT_Phospholipase_A_and_acyltransferase_3_OS_
+	MetazoaCnidariaAnthopleuraelegantissima_2998386__PLAT1_RAT_Phospholipase_A_and_acyltransferase_1_OS_
+	MetazoaCnidariaAnthopleuraelegantissima_3005089__PLAT3_HUMAN_Phospholipase_A_and_acyltransferase_3_OS_
+	MetazoaCnidariaAnthopleuraelegantissima_3005818__PLAT3_MOUSE_Phospholipase_A_and_acyltransferase_3_OS_
+	MetazoaCnidariaAnthopleuraelegantissima_3013074_
+	MetazoaCnidariaAnthopleuraelegantissima_3018731_
+	MetazoaCnidariaAstreoporasp_3045117_
+	MetazoaCnidariaClytiahemisphaerica_3096585__PLAT4_HUMAN_Phospholipase_A_and_acyltransferase_4_OS_
+	MetazoaCnidariaFungiascutaria_3204893_
+	MetazoaCnidariaMadracisauretenra_3309881_
+	MetazoaCnidariaMontastraeacavernosa_3351517_
+	MetazoaCnidariaPoritesaustraliensis_3537271_
+	MetazoaCnidariaPoritesaustraliensis_3539203_
+	MetazoaCnidariaStylophorapistillata_3669339_
+	MetazoaCnidariaStylophorapistillata_3678277__PLAT3_RAT_Phospholipase_A_and_acyltransferase_3_OS_
+	MetazoaEchinodermataAcanthasterplanci_3779535__PLAT3_RAT_Phospholipase_A_and_acyltransferase_3_OS_
+	MetazoaEchinodermataAcanthasterplanci_3781729__PLAT3_RAT_Phospholipase_A_and_acyltransferase_3_OS_
+	MetazoaEchinodermataAcanthasterplanci_3781807__PLAT4_HUMAN_Phospholipase_A_and_acyltransferase_4_OS_
+	MetazoaEchinodermataAcanthasterplanci_3781827__PLAT1_MOUSE_Phospholipase_A_and_acyltransferase_1_OS_
+	MetazoaEchinodermataAcanthasterplanci_3782589__PLAT4_HUMAN_Phospholipase_A_and_acyltransferase_4_OS_
+	MetazoaEchinodermataAcanthasterplanci_3791876__PLAT1_HUMAN_Phospholipase_A_and_acyltransferase_1_OS_
+	MetazoaHemichordataSaccoglossuskowalevskii_4048805__PLAT3_RAT_Phospholipase_A_and_acyltransferase_3_OS_
+	MetazoaHemichordataSaccoglossuskowalevskii_4057012__PLAT3_RAT_Phospholipase_A_and_acyltransferase_3_OS_
+	MetazoaHemichordataSaccoglossuskowalevskii_4059982__PLAT3_RAT_Phospholipase_A_and_acyltransferase_3_OS_
+	MetazoaHemichordataSaccoglossuskowalevskii_4062344__PLAT3_RAT_Phospholipase_A_and_acyltransferase_3_OS_
+	MetazoaHemichordataSaccoglossuskowalevskii_4069108__LRAT2_HUMAN_Protein_LRATD2_OS_
+	MetazoaMolluscaEP00106Octopusbimaculoides_4156353__PLAT1_RAT_Phospholipase_A_and_acyltransferase_1_OS_
+	MetazoaMolluscaEP00106Octopusbimaculoides_4160369__PLAT2_HUMAN_Phospholipase_A_and_acyltransferase_2_OS_
+	MetazoaMolluscaLottiagigantea_4203388__PLAT3_RAT_Phospholipase_A_and_acyltransferase_3_OS_
+	MetazoaMolluscaLottiagigantea_4204378__PLAT3_MOUSE_Phospholipase_A_and_acyltransferase_3_OS_
+	'MetazoaNematodaLoaloa_4406313__F172A_CAEEL_FAM172_family_protein_homolog_Y75B8A.31_OS_'
+	MetazoaPoriferaEP00118Oscarellapearsei_4817229__LRAT_HUMAN_Lecithin_retinol_acyltransferase_OS_
+	MetazoaPoriferaEP00118Oscarellapearsei_4817230__LRAT_BOVIN_Lecithin_retinol_acyltransferase_OS_
+	MetazoaPoriferaHaliclonatubifera_4958144__LRAT2_HUMAN_Protein_LRATD2_OS_
+	MetazoaPoriferaLeucosoleniacomplicata_4975009__PLAT3_HUMAN_Phospholipase_A_and_acyltransferase_3_OS_
+	MetazoaPoriferaLeucosoleniacomplicata_4984178__PLAT1_MOUSE_Phospholipase_A_and_acyltransferase_1_OS_
+	MetazoaPoriferaLeucosoleniacomplicata_5010111__PLAT3_PONAB_Phospholipase_A_and_acyltransferase_3_OS_
+	MetazoaPoriferaLeucosoleniacomplicata_5018539__PLAT2_HUMAN_Phospholipase_A_and_acyltransferase_2_OS_
+	MetazoaPoriferaLeucosoleniacomplicata_5035242__PLAT1_MOUSE_Phospholipase_A_and_acyltransferase_1_OS_
+	MetazoaPoriferaLeucosoleniacomplicata_5042006__PLAT2_HUMAN_Phospholipase_A_and_acyltransferase_2_OS_
+	MetazoaPoriferaLeucosoleniacomplicata_5045739__PLAT2_HUMAN_Phospholipase_A_and_acyltransferase_2_OS_
+	MetazoaPoriferaLeucosoleniacomplicata_5052466__PLAT3_MOUSE_Phospholipase_A_and_acyltransferase_3_OS_
+	MetazoaPoriferaStylissacarteri_5098842__PLAT1_HUMAN_Phospholipase_A_and_acyltransferase_1_OS_
+	MetazoaPoriferaSyconciliatum_5104370__PLAT3_PONAB_Phospholipase_A_and_acyltransferase_3_OS_
+	MetazoaPoriferaSyconciliatum_5138130__PLAT3_PONAB_Phospholipase_A_and_acyltransferase_3_OS_
+	MetazoaPoriferaSyconciliatum_5143426__PLAT1_MOUSE_Phospholipase_A_and_acyltransferase_1_OS_
+	MetazoaRotiferaBrachionusplicatilis_5253929__PLAT3_RAT_Phospholipase_A_and_acyltransferase_3_OS_
+	MetazoaTardigradaRamazzotiusvarieornatus_5290952__PLAT3_MOUSE_Phospholipase_A_and_acyltransferase_3_OS_
+	MetazoaVertebrateDaniorerio_5413327__PLAT3_PONAB_Phospholipase_A_and_acyltransferase_3_OS_
+	MetazoaVertebrateDaniorerio_5414209__PLAT1_MOUSE_Phospholipase_A_and_acyltransferase_1_OS_
+	MetazoaVertebrateDaniorerio_5415241__LRAT_BOVIN_Lecithin_retinol_acyltransferase_OS_
+	MetazoaVertebrateDaniorerio_5416499__LRAT_MOUSE_Lecithin_retinol_acyltransferase_OS_
+	MetazoaVertebrateDaniorerio_5420356__PLAT2_HUMAN_Phospholipase_A_and_acyltransferase_2_OS_
+	MetazoaVertebrateDaniorerio_5420357__PLAT4_HUMAN_Phospholipase_A_and_acyltransferase_4_OS_
+	MetazoaVertebrateDaniorerio_5420912__PLAT1_RAT_Phospholipase_A_and_acyltransferase_1_OS_
+	MetazoaVertebrateDaniorerio_5425012__LRAT_BOVIN_Lecithin_retinol_acyltransferase_OS_
+	MetazoaVertebrateDaniorerio_5433263__PLAT3_PONAB_Phospholipase_A_and_acyltransferase_3_OS_
+	MetazoaVertebrateDaniorerio_5435836__LRAT_BOVIN_Lecithin_retinol_acyltransferase_OS_
+	MetazoaVertebrateEptatretusburgeri_6385209__PLAT1_RAT_Phospholipase_A_and_acyltransferase_1_OS_
+	MetazoaVertebrateEptatretusburgeri_6385211__PLAT1_MOUSE_Phospholipase_A_and_acyltransferase_1_OS_
+	MetazoaVertebrateEptatretusburgeri_6407140__LRAT_BOVIN_Lecithin_retinol_acyltransferase_OS_
+	MetazoaVertebrateEptatretusburgeri_6409487__PLAT3_RAT_Phospholipase_A_and_acyltransferase_3_OS_
+	MetazoaVertebrateHomosapiens_6453389__LRAT_HUMAN_Lecithin_retinol_acyltransferase_OS_
+	MetazoaVertebrateHomosapiens_6456871__PLAT3_HUMAN_Phospholipase_A_and_acyltransferase_3_OS_
+	MetazoaVertebrateHomosapiens_6465905__PLAT5_HUMAN_Phospholipase_A_and_acyltransferase_5_OS_
+	MetazoaVertebrateHomosapiens_6468389__PLAT1_HUMAN_Phospholipase_A_and_acyltransferase_1_OS_
+	MetazoaVertebrateHomosapiens_6468958__PLAT2_HUMAN_Phospholipase_A_and_acyltransferase_2_OS_
+	MetazoaVertebrateHomosapiens_6469942__PLAT4_HUMAN_Phospholipase_A_and_acyltransferase_4_OS_
+	MetazoaVertebrateMusmusculus_6542956__PLAT3_MOUSE_Phospholipase_A_and_acyltransferase_3_OS_
+	MetazoaVertebrateMusmusculus_6545226__PLAT5_MOUSE_Phospholipase_A_and_acyltransferase_5_OS_
+	MetazoaVertebrateMusmusculus_6547546__LRAT_MOUSE_Lecithin_retinol_acyltransferase_OS_
+	MetazoaVertebrateMusmusculus_6548232__PLAT1_MOUSE_Phospholipase_A_and_acyltransferase_1_OS_
+	PluriformeaEP00127Corallochytriumlimacisporum_21618992__LRAT_MOUSE_Lecithin_retinol_acyltransferase_OS_
+	RhodelphisEP00736Rhodelphismarinus_22805195__LRAT_BOVIN_Lecithin_retinol_acyltransferase_OS_
+	StramenopilesPhytophthorainfestansUP000006643_26376550__LRAT_RAT_Lecithin_retinol_acyltransferase_OS_
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] (((((MetazoaPoriferaHaliclonatubifera_4958144__LRAT2_HUMAN_Protein_LRATD2_OS_:0.538135,MetazoaPoriferaStylissacarteri_5098842__PLAT1_HUMAN_Phospholipase_A_and_acyltransferase_1_OS_:0.86512)[&label="S",!name="Porifera",!collapse={"collapsed",1.0839809999999996}]:0.806342,((((MetazoaCnidariaClytiahemisphaerica_3096585__PLAT4_HUMAN_Phospholipase_A_and_acyltransferase_4_OS_:0.372907,MetazoaPoriferaLeucosoleniacomplicata_5045739__PLAT2_HUMAN_Phospholipase_A_and_acyltransferase_2_OS_:0.784452)[&label="S",!name="Cnidaria_porifera",!collapse={"collapsed",0.3717419999999998}]:1.17985,(((MetazoaHemichordataSaccoglossuskowalevskii_4069108__LRAT2_HUMAN_Protein_LRATD2_OS_:1.54159,MetazoaHemichordataSaccoglossuskowalevskii_4059982__PLAT3_RAT_Phospholipase_A_and_acyltransferase_3_OS_:1.61013)[&label="D",!collapse={"collapsed",0.5149869999999996},!name="Hemichordata"]:1.0E-6,(MetazoaVertebrateEptatretusburgeri_6409487__PLAT3_RAT_Phospholipase_A_and_acyltransferase_3_OS_:1.74922,(MetazoaVertebrateDaniorerio_5420356__PLAT2_HUMAN_Phospholipase_A_and_acyltransferase_2_OS_:0.083749,MetazoaVertebrateDaniorerio_5420357__PLAT4_HUMAN_Phospholipase_A_and_acyltransferase_4_OS_:0.134663)[&label="D",!name="Danio_rerio",!collapse={"collapsed",0.7245439999999994}]:1.26591)[&label="S"]:1.0E-6)[&label="S"]:0.210925,(MetazoaArthropodaDaphniapulex_214295__PLAT2_HUMAN_Phospholipase_A_and_acyltransferase_2_OS_:1.63823,MetazoaArthropodaEP00090Calanusglacialis_678642__PLAT1_HUMAN_Phospholipase_A_and_acyltransferase_1_OS_:1.15007)[&label="S",!name="Arthropoda",!collapse={"collapsed",0.42068799999999973}]:0.277125)[&label="S"]:1.0E-6)[&label="D"]:0.098155,((((MetazoaHemichordataSaccoglossuskowalevskii_4048805__PLAT3_RAT_Phospholipase_A_and_acyltransferase_3_OS_:0.950141,(((MetazoaCnidariaAnthopleuraelegantissima_3005818__PLAT3_MOUSE_Phospholipase_A_and_acyltransferase_3_OS_:1.02196,MetazoaCnidariaAnthopleuraelegantissima_2997299__PLAT3_RAT_Phospholipase_A_and_acyltransferase_3_OS_:0.704553)[&label="D"]:1.0E-6,MetazoaCnidariaStylophorapistillata_3678277__PLAT3_RAT_Phospholipase_A_and_acyltransferase_3_OS_:0.912463)[&label="S"]:0.163992,(MetazoaCnidariaAnthopleuraelegantissima_2998386__PLAT1_RAT_Phospholipase_A_and_acyltransferase_1_OS_:0.93303,MetazoaCnidariaAnthopleuraelegantissima_3005089__PLAT3_HUMAN_Phospholipase_A_and_acyltransferase_3_OS_:0.469262)[&label="D"]:0.421872)[&label="D",!name="Cnidaria",!collapse={"collapsed",0.3067709999999999}]:0.348953)[&label="S"]:0.167226,(((((MetazoaVertebrateDaniorerio_5435836__LRAT_BOVIN_Lecithin_retinol_acyltransferase_OS_:0.242972,MetazoaVertebrateDaniorerio_5416499__LRAT_MOUSE_Lecithin_retinol_acyltransferase_OS_:0.376516)[&label="D"]:0.269562,(((MetazoaVertebrateMusmusculus_6547546__LRAT_MOUSE_Lecithin_retinol_acyltransferase_OS_:0.199034,MetazoaVertebrateHomosapiens_6453389__LRAT_HUMAN_Lecithin_retinol_acyltransferase_OS_:0.057411)[&label="S"]:0.282593,MetazoaVertebrateDaniorerio_5425012__LRAT_BOVIN_Lecithin_retinol_acyltransferase_OS_:0.295861)[&label="S"]:0.073454,MetazoaVertebrateDaniorerio_5415241__LRAT_BOVIN_Lecithin_retinol_acyltransferase_OS_:0.201363)[&label="D"]:0.156704)[&label="D"]:0.044758,MetazoaVertebrateEptatretusburgeri_6407140__LRAT_BOVIN_Lecithin_retinol_acyltransferase_OS_:0.568653)[&label="S",!name="Vertebrate_LRAT",!collapse={"collapsed",0.0}]:1.15945,MetazoaVertebrateDaniorerio_5420912__PLAT1_RAT_Phospholipase_A_and_acyltransferase_1_OS_:1.71303)[&label="D"]:1.0E-6,'MetazoaNematodaLoaloa_4406313__F172A_CAEEL_FAM172_family_protein_homolog_Y75B8A.31_OS_':1.54947)[&label="S"]:0.261858)[&label="D",!rotate=false]:0.026107,(MetazoaPoriferaSyconciliatum_5143426__PLAT1_MOUSE_Phospholipase_A_and_acyltransferase_1_OS_:0.263301,(MetazoaPoriferaLeucosoleniacomplicata_4984178__PLAT1_MOUSE_Phospholipase_A_and_acyltransferase_1_OS_:1.0E-6,MetazoaPoriferaLeucosoleniacomplicata_5035242__PLAT1_MOUSE_Phospholipase_A_and_acyltransferase_1_OS_:1.0E-6)[&label="D"]:0.698964)[&label="S",!name="Porifera",!collapse={"collapsed",0.3468439999999995},!rotate=false]:1.15815)[&label="S",!rotate=true]:1.0E-6,(((((MetazoaCephalochordataBranchiostomabelcheri_2795997__PLAT1_RAT_Phospholipase_A_and_acyltransferase_1_OS_:0.54092,MetazoaCephalochordataBranchiostomabelcheri_2796139__PLAT1_MOUSE_Phospholipase_A_and_acyltransferase_1_OS_:0.839484)[&label="D",!name="Cephalochordata_PLAT1",!collapse={"collapsed",0.610786}]:0.179854,(MetazoaCephalochordataBranchiostomabelcheri_2796045__PLAT3_RAT_Phospholipase_A_and_acyltransferase_3_OS_:0.346719,(MetazoaCephalochordataBranchiostomabelcheri_2796061__PLAT1_HUMAN_Phospholipase_A_and_acyltransferase_1_OS_:0.406396,(MetazoaCephalochordataBranchiostomabelcheri_2799601__PLAT3_RAT_Phospholipase_A_and_acyltransferase_3_OS_:1.0E-6,MetazoaCephalochordataBranchiostomabelcheri_2799602__PLAT3_RAT_Phospholipase_A_and_acyltransferase_3_OS_:1.0E-6)[&label="D",!name="Cephalochordata_PLAT3",!collapse={"collapsed",0.173022}]:1.08865)[&label="D"]:0.249911)[&label="D"]:0.11854)[&label="D",!name="Cephalochordate",!collapse={"collapsed",0.173022}]:0.081627,(MetazoaHemichordataSaccoglossuskowalevskii_4057012__PLAT3_RAT_Phospholipase_A_and_acyltransferase_3_OS_:1.0E-6,MetazoaHemichordataSaccoglossuskowalevskii_4062344__PLAT3_RAT_Phospholipase_A_and_acyltransferase_3_OS_:0.006821)[&label="D",!name="Hemichordata",!collapse={"collapsed",1.1516789999999997}]:0.553251)[&label="S"]:0.137963,(MetazoaRotiferaBrachionusplicatilis_5253929__PLAT3_RAT_Phospholipase_A_and_acyltransferase_3_OS_:1.60847,(MetazoaMolluscaLottiagigantea_4204378__PLAT3_MOUSE_Phospholipase_A_and_acyltransferase_3_OS_:0.687296,((MetazoaBrachiopodaLingulaunguis_1298288__PLAT3_HUMAN_Phospholipase_A_and_acyltransferase_3_OS_:0.239313,MetazoaBrachiopodaLingulaunguis_1302550__PLAT1_HUMAN_Phospholipase_A_and_acyltransferase_1_OS_:0.195207)[&label="D"]:0.451569,(MetazoaBrachiopodaLingulaunguis_1299417__PLAT3_HUMAN_Phospholipase_A_and_acyltransferase_3_OS_:0.03768,MetazoaBrachiopodaLingulaunguis_1283932__PLAT3_HUMAN_Phospholipase_A_and_acyltransferase_3_OS_:0.204641)[&label="D"]:0.261024)[&label="D",!name="Brachiopoda_PLAT1/3",!collapse={"collapsed",0.861332}]:0.234818)[&label="S"]:1.0E-6)[&label="S",!name="Brachiopoda_mollusca_rotifera",!collapse={"collapsed",0.17856300000000003}]:0.062681)[&label="S"]:0.127233,MetazoaPoriferaLeucosoleniacomplicata_4975009__PLAT3_HUMAN_Phospholipase_A_and_acyltransferase_3_OS_:0.863684)[&label="S"]:0.227013)[&label="D"]:0.230239)[&label="D"]:0.123317,((((MetazoaMolluscaEP00106Octopusbimaculoides_4156353__PLAT1_RAT_Phospholipase_A_and_acyltransferase_1_OS_:0.489808,MetazoaMolluscaLottiagigantea_4203388__PLAT3_RAT_Phospholipase_A_and_acyltransferase_3_OS_:0.700383)[&label="S",!name="Mollusca_PLAT",!collapse={"collapsed",0.7421079999999995}]:0.506051,MetazoaTardigradaRamazzotiusvarieornatus_5290952__PLAT3_MOUSE_Phospholipase_A_and_acyltransferase_3_OS_:0.815249)[&label="S",!name="Mollusca_tardigrada_PLAT",!collapse={"collapsed",0.7421079999999995}]:0.578263,((((MetazoaEchinodermataAcanthasterplanci_3779535__PLAT3_RAT_Phospholipase_A_and_acyltransferase_3_OS_:0.369836,MetazoaEchinodermataAcanthasterplanci_3781807__PLAT4_HUMAN_Phospholipase_A_and_acyltransferase_4_OS_:0.054551)[&label="D"]:0.116098,MetazoaEchinodermataAcanthasterplanci_3781729__PLAT3_RAT_Phospholipase_A_and_acyltransferase_3_OS_:0.206862)[&label="D"]:0.224922,MetazoaEchinodermataAcanthasterplanci_3791876__PLAT1_HUMAN_Phospholipase_A_and_acyltransferase_1_OS_:0.763475)[&label="D"]:0.210467,(MetazoaEchinodermataAcanthasterplanci_3781827__PLAT1_MOUSE_Phospholipase_A_and_acyltransferase_1_OS_:0.100665,MetazoaEchinodermataAcanthasterplanci_3782589__PLAT4_HUMAN_Phospholipase_A_and_acyltransferase_4_OS_:0.064249)[&label="D"]:0.520344)[&label="D",!name="Echinodermata_PLAT",!collapse={"collapsed",0.8045629999999999}]:0.7483)[&label="S"]:0.014072,(MetazoaAcoelaHofsteniamiamia_16354__PLAT1_HUMAN_Phospholipase_A_and_acyltransferase_1_OS_:1.04786,(((((((MetazoaVertebrateMusmusculus_6542956__PLAT3_MOUSE_Phospholipase_A_and_acyltransferase_3_OS_:0.128675,MetazoaVertebrateHomosapiens_6456871__PLAT3_HUMAN_Phospholipase_A_and_acyltransferase_3_OS_:0.094992)[&label="S"]:0.111131,MetazoaVertebrateHomosapiens_6468958__PLAT2_HUMAN_Phospholipase_A_and_acyltransferase_2_OS_:0.32148)[&label="D"]:0.244671,((MetazoaVertebrateMusmusculus_6545226__PLAT5_MOUSE_Phospholipase_A_and_acyltransferase_5_OS_:0.043958,MetazoaVertebrateHomosapiens_6465905__PLAT5_HUMAN_Phospholipase_A_and_acyltransferase_5_OS_:0.109953)[&label="S"]:0.606975,MetazoaVertebrateHomosapiens_6469942__PLAT4_HUMAN_Phospholipase_A_and_acyltransferase_4_OS_:0.428086)[&label="D"]:0.154041)[&label="D"]:0.105097,(MetazoaVertebrateDaniorerio_5433263__PLAT3_PONAB_Phospholipase_A_and_acyltransferase_3_OS_:0.236582,MetazoaVertebrateDaniorerio_5413327__PLAT3_PONAB_Phospholipase_A_and_acyltransferase_3_OS_:0.164878)[&label="D"]:0.398976)[&label="S",!name="Jawed_vertebrates_PLAT2/3/4/5",!collapse={"collapsed",0.7150489999999996}]:0.294985,((MetazoaVertebrateMusmusculus_6548232__PLAT1_MOUSE_Phospholipase_A_and_acyltransferase_1_OS_:0.10023,MetazoaVertebrateHomosapiens_6468389__PLAT1_HUMAN_Phospholipase_A_and_acyltransferase_1_OS_:0.111436)[&label="S"]:0.306738,MetazoaVertebrateDaniorerio_5414209__PLAT1_MOUSE_Phospholipase_A_and_acyltransferase_1_OS_:0.280183)[&label="S",!name="Jawed_vertebrates_PLAT1",!collapse={"collapsed",1.1909769999999997}]:0.376949)[&label="D"]:0.077967,(MetazoaVertebrateEptatretusburgeri_6385209__PLAT1_RAT_Phospholipase_A_and_acyltransferase_1_OS_:0.181708,MetazoaVertebrateEptatretusburgeri_6385211__PLAT1_MOUSE_Phospholipase_A_and_acyltransferase_1_OS_:0.046457)[&label="D",!name="Eptatretus_burgeri_PLAT",!collapse={"collapsed",1.228284}]:0.654075)[&label="S",!name="Vertebrate_PLAT"]:0.141719,MetazoaCephalochordataBranchiostomabelcheri_2827403__PLAT1_RAT_Phospholipase_A_and_acyltransferase_1_OS_:1.0236)[&label="S"]:0.013638)[&label="S"]:0.321453)[&label="D"]:0.016639)[&label="D"]:0.197927)[&label="D"]:0.019839,(((MetazoaPoriferaLeucosoleniacomplicata_5010111__PLAT3_PONAB_Phospholipase_A_and_acyltransferase_3_OS_:0.663556,MetazoaPoriferaLeucosoleniacomplicata_5042006__PLAT2_HUMAN_Phospholipase_A_and_acyltransferase_2_OS_:0.66193)[&label="D"]:0.722044,((MetazoaPoriferaSyconciliatum_5138130__PLAT3_PONAB_Phospholipase_A_and_acyltransferase_3_OS_:0.285471,MetazoaPoriferaLeucosoleniacomplicata_5052466__PLAT3_MOUSE_Phospholipase_A_and_acyltransferase_3_OS_:0.356651)[&label="S"]:0.742393,(MetazoaPoriferaLeucosoleniacomplicata_5018539__PLAT2_HUMAN_Phospholipase_A_and_acyltransferase_2_OS_:0.32446,MetazoaPoriferaSyconciliatum_5104370__PLAT3_PONAB_Phospholipase_A_and_acyltransferase_3_OS_:0.337502)[&label="S"]:0.877454)[&label="D"]:0.041601)[&label="D",!name="Porifera",!collapse={"collapsed",1.0350699999999997}]:0.212359,MetazoaMolluscaEP00106Octopusbimaculoides_4160369__PLAT2_HUMAN_Phospholipase_A_and_acyltransferase_2_OS_:1.09888)[&label="S",!name="Mollusca_porifera",!collapse={"collapsed",1.0350699999999997}]:0.142253)[&label="D"]:1.0E-6,StramenopilesPhytophthorainfestansUP000006643_26376550__LRAT_RAT_Lecithin_retinol_acyltransferase_OS_:1.36584)[&label="S"]:0.227959,(((PluriformeaEP00127Corallochytriumlimacisporum_21618992__LRAT_MOUSE_Lecithin_retinol_acyltransferase_OS_:1.12843,(MetazoaPoriferaEP00118Oscarellapearsei_4817229__LRAT_HUMAN_Lecithin_retinol_acyltransferase_OS_:0.186874,MetazoaPoriferaEP00118Oscarellapearsei_4817230__LRAT_BOVIN_Lecithin_retinol_acyltransferase_OS_:0.196741)[&label="D",!name="Porifera",!collapse={"collapsed",0.7980719999999999}]:1.26984)[&label="S"]:0.510629,(((MetazoaCnidariaAnthopleuraelegantissima_3013074_:0.196869,((MetazoaCnidariaPoritesaustraliensis_3539203_:0.100322,MetazoaCnidariaAstreoporasp_3045117_:0.086388)[&label="S"]:0.031162,(MetazoaCnidariaStylophorapistillata_3669339_:0.198066,(MetazoaCnidariaMontastraeacavernosa_3351517_:0.090469,MetazoaCnidariaFungiascutaria_3204893_:0.073774)[&label="S"]:0.004374)[&label="S"]:0.049262)[&label="S"]:0.365066)[&label="S",!name="Cnidaria",!collapse={"collapsed",0.8050159999999997}]:1.21055,(MetazoaCnidariaAnthopleuraelegantissima_3018731_:1.33834,(MetazoaCnidariaMadracisauretenra_3309881_:1.1457,MetazoaCnidariaPoritesaustraliensis_3537271_:0.937745)[&label="S"]:0.283917)[&label="S"]:0.455154)[&label="D",!name="Cnidaria",!collapse={"collapsed",0.7431889999999997}]:0.022909,MetazoaAcoelaHofsteniamiamia_4411_:1.60508)[&label="S"]:0.124413)[&label="D"]:1.0E-6,(RhodelphisEP00736Rhodelphismarinus_22805195__LRAT_BOVIN_Lecithin_retinol_acyltransferase_OS_:1.45784,((CryptophyceaeEP00290BaffinellaspCCMP2293_12059753__LRAT_BOVIN_Lecithin_retinol_acyltransferase_OS_:0.018154,CryptophyceaeEP00290BaffinellaspCCMP2293_12040984__LRAT_BOVIN_Lecithin_retinol_acyltransferase_OS_:1.0E-6)[&label="D"]:0.347606,CryptophyceaeGuillardiathetaUP000011087_12256407__PLAT3_RAT_Phospholipase_A_and_acyltransferase_3_OS_:0.365119)[&label="S",!name="Cryptophyceae",!collapse={"collapsed",1.1304869999999996}]:1.21595)[&label="S"]:0.063086)[&label="S"]:0.227959)[&label="D"];
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=260;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="label";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="label";
+	set nodeLabels.displayAttribute="label";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=true;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=10;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="decreasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
