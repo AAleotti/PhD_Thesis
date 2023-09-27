@@ -1,0 +1,348 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=246;
+	taxlabels
+	'AlveolataEP00333Tetrahymenathermophila_68134__DAT1A_SOYBN_Diacylglycerol_O-acyltransferase_1A_OS_ | OG2 |'
+	'AlveolataEP00333Tetrahymenathermophila_68197__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_ | OG4 |'
+	'AlveolataEP00333Tetrahymenathermophila_75336__AREH1_SCHPO_Probable_sterol_O-acyltransferase_1_OS_ | OG3 |'
+	'AlveolataEP00333Tetrahymenathermophila_80462__AREH1_SCHPO_Probable_sterol_O-acyltransferase_1_OS_ | OG3 |'
+	'AlveolataEP00742ColponemidiaspColp10_4272534__SOAT2_RAT_Sterol_O-acyltransferase_2_OS_ | OG4 |'
+	'AlveolataEP00742ColponemidiaspColp10_4278854__DGAT1_CORAE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |'
+	'AmoebozoaDictyosteliumdiscoideumUP000002195_4930403__DGAT1_CORAE_Diacylglycerol_O-acyltransferase_1_OS_ | OG3 |'
+	'AmoebozoaDictyosteliumdiscoideumUP000002195_4932587__DGAT1_RAT_Diacylglycerol_O-acyltransferase_1_OS_ | OG4 |'
+	'AmoebozoaDictyosteliumdiscoideumUP000002195_4933798__DGAT1_DICDI_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |'
+	'AmoebozoaEP00029Vermamoebavermiformis_5280956__DAT1B_SOYBN_Diacylglycerol_O-acyltransferase_1B_OS_ | OG3 |'
+	'AmoebozoaEP00029Vermamoebavermiformis_5284231__DAT1C_SOYBN_Diacylglycerol_O-acyltransferase_1C_OS_ | OG2 |'
+	'ApusomonadidaThecamonastrahensUP000054408_5477754__SOAT1_MACFA_Sterol_O-acyltransferase_1_OS_ | OG4 |'
+	'ApusomonadidaThecamonastrahensUP000054408_5480042__DGAT1_DICDI_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |'
+	'BreviataEP00033Pygsuiabiforma_5529826__DGAT1_DICDI_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |'
+	'CentroplasthelidaEP00300ChoanocystisspHF7_5605202__DGAT1_DICDI_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |'
+	'CentroplasthelidaEP00300ChoanocystisspHF7_5627063__AREH2_SCHPO_Probable_sterol_O-acyltransferase_2_OS_ | OG3 |'
+	'CentroplasthelidaEP00300ChoanocystisspHF7_5629869__SOAT1_HUMAN_Sterol_O-acyltransferase_1_OS_ | OG4 |'
+	'CentroplasthelidaEP00300ChoanocystisspHF7_5634770__DGAT1_DICDI_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |'
+	'ChloroplastidaArabidopsisthalianaUP000006548_5889220__DGAT1_ARATH_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |'
+	'ChloroplastidaChlamydomonasreinhardtiiUP000006906_6367408__DGAT1_CORAE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |'
+	'ChloroplastidaEP00248Marchantiapolymorpha_7477846__DGAT1_CORAE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |'
+	'ChoanoflagellataEP00035Acanthoecaspectabilis_10753056__DGAT1_RAT_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |'
+	'ChoanoflagellataEP00037Helgoecanana_10784418__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |'
+	'ChoanoflagellataEP00037Helgoecanana_10784419__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |'
+	'ChoanoflagellataEP00039Didymoecacostata_10871273__DGAT1_DICDI_Diacylglycerol_O-acyltransferase_1_OS_ | OG0 |'
+	'ChoanoflagellataEP00040Diaphanoecagrandis_10910441__ARE2_CANAX_Sterol_O-acyltransferase_2_OS_ | OG3 |'
+	'ChoanoflagellataEP00040Diaphanoecagrandis_10914621__DGAT1_RAT_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |'
+	'ChoanoflagellataEP00045Choanoecaperplexa_11086214__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |'
+	'ChoanoflagellataEP00047Mylnosigafluctuans_11114416__SOAT1_CHLAE_Sterol_O-acyltransferase_1_OS_ | OG4 |'
+	'ChoanoflagellataEP00047Mylnosigafluctuans_11126316__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |'
+	'ChoanoflagellataEP00050Salpingoecakvevrii_11191780__DGAT1_RAT_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |'
+	'ChoanoflagellataEP00050Salpingoecakvevrii_11191781__DGAT1_RAT_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |'
+	'ChoanoflagellataEP00050Salpingoecakvevrii_11191782__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |'
+	'ChoanoflagellataEP00050Salpingoecakvevrii_11207341__SOAT1_CHLAE_Sterol_O-acyltransferase_1_OS_ | OG4 |'
+	'ChoanoflagellateaMonosigabrevicollisUP000001357_11429688__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |'
+	'CollodictyonidaeEP00002Diphylleiarotans_11642749__DAT1B_SOYBN_Diacylglycerol_O-acyltransferase_1B_OS_ | OG3 |'
+	'CollodictyonidaeEP00002Diphylleiarotans_11642750__DAT1C_SOYBN_Diacylglycerol_O-acyltransferase_1C_OS_ | OG3 |'
+	'CollodictyonidaeEP00002Diphylleiarotans_11642751__DAT1C_SOYBN_Diacylglycerol_O-acyltransferase_1C_OS_ | OG3 |'
+	'CollodictyonidaeEP00002Diphylleiarotans_11642752__ARE2_CANAX_Sterol_O-acyltransferase_2_OS_ | OG3 |'
+	'CollodictyonidaeEP00002Diphylleiarotans_11642753__ARE2_CANAX_Sterol_O-acyltransferase_2_OS_ | OG3 |'
+	'CollodictyonidaeEP00002Diphylleiarotans_11642754__DAT1C_SOYBN_Diacylglycerol_O-acyltransferase_1C_OS_ | OG3 |'
+	'CollodictyonidaeEP00002Diphylleiarotans_11642755__ARE2_CANAX_Sterol_O-acyltransferase_2_OS_ | OG3 |'
+	'CollodictyonidaeEP00002Diphylleiarotans_11643194__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |'
+	'CollodictyonidaeEP00002Diphylleiarotans_11645659__SOAT1_RAT_Sterol_O-acyltransferase_1_OS_ | OG4 |'
+	'CollodictyonidaeEP00002Diphylleiarotans_11645660__SOAT1_RAT_Sterol_O-acyltransferase_1_OS_ | OG4 |'
+	'CollodictyonidaeEP00002Diphylleiarotans_11666034__SOAT1_CHLAE_Sterol_O-acyltransferase_1_OS_ | OG4 |'
+	'CryptophyceaeEP00290BaffinellaspCCMP2293_12046535__DGAT1_DICDI_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |'
+	'CryptophyceaeEP00290BaffinellaspCCMP2293_12057177__DGAT1_DICDI_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |'
+	'CryptophyceaeGuillardiathetaUP000011087_12255636__DGAT1_DICDI_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |'
+	'EuglenozoaEP00668Euglenalonga_12438991__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |'
+	'FilastreaCapsasporaowczarzakiUP000008743_12983113__SOAT1_CHLAE_Sterol_O-acyltransferase_1_OS_ | OG4 |'
+	'FilastreaCapsasporaowczarzakiUP000008743_12984513__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |'
+	'FilastreaCapsasporaowczarzakiUP000008743_12984776__AREH2_SCHPO_Probable_sterol_O-acyltransferase_2_OS_ | OG3 |'
+	'FungiEP00150Ustilagomaydis_13256582__AREH1_SCHPO_Probable_sterol_O-acyltransferase_1_OS_ | OG3 |'
+	'FungiFusariumoxysporumUP000002489_13354115__ARE2_CANAX_Sterol_O-acyltransferase_2_OS_ | OG3 |'
+	'FungiFusariumoxysporumUP000002489_13356715__ARE2_CANAX_Sterol_O-acyltransferase_2_OS_ | OG3 |'
+	'FungiFusariumoxysporumUP000002489_13368459__DAT1C_SOYBN_Diacylglycerol_O-acyltransferase_1C_OS_ | OG2 |'
+	'FungiMortierellaelongataUP000078512_13380628__DAT1B_SOYBN_Diacylglycerol_O-acyltransferase_1B_OS_ | OG2 |'
+	'FungiMortierellaelongataUP000078512_13381500__DAT1C_SOYBN_Diacylglycerol_O-acyltransferase_1C_OS_ | OG2 |'
+	'FungiMortierellaelongataUP000078512_13383038__AREH1_SCHPO_Probable_sterol_O-acyltransferase_1_OS_ | OG3 |'
+	'FungiRhizopusmicrosporusUP000242254_13431603__DAT1B_SOYBN_Diacylglycerol_O-acyltransferase_1B_OS_ | OG2 |'
+	'FungiRhizopusmicrosporusUP000242254_13434296__AREH1_SCHPO_Probable_sterol_O-acyltransferase_1_OS_ | OG3 |'
+	'FungiSaccharomycescerevisiaeUP000002311_13446240__ARE1_YEAST_Sterol_O-acyltransferase_1_OS_ | OG3 |'
+	'FungiSaccharomycescerevisiaeUP000002311_13449006__ARE2_YEAST_Sterol_O-acyltransferase_2_OS_ | OG3 |'
+	'FungiSpizellomycespunctatusUP000053201_13453137__DAT1B_SOYBN_Diacylglycerol_O-acyltransferase_1B_OS_ | OG2 |'
+	'FungiSpizellomycespunctatusUP000053201_13453645__AREH1_SCHPO_Probable_sterol_O-acyltransferase_1_OS_ | OG3 |'
+	'GlaucophytaEP00276Gloeochaetewittrockiana_13483004__DGAT1_DICDI_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |'
+	'GlaucophytaEP00276Gloeochaetewittrockiana_13499831__DAT1B_SOYBN_Diacylglycerol_O-acyltransferase_1B_OS_ | OG3 |'
+	'GlaucophytaEP00276Gloeochaetewittrockiana_13503661__DAT1A_SOYBN_Diacylglycerol_O-acyltransferase_1A_OS_ | OG2 |'
+	'HaptophytaEP00319Phaeocystisglobosa_14043383__DGAT1_DICDI_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |'
+	'HaptophytaEP00319Phaeocystisglobosa_14048151__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_ | OG4 |'
+	'HaptophytaEP00319Phaeocystisglobosa_14048562__DGAT1_DICDI_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |'
+	'HaptophytaEP00319Phaeocystisglobosa_14053193__AREH2_SCHPO_Probable_sterol_O-acyltransferase_2_OS_ | OG3 |'
+	'HaptophytaEP00327Prymnesiumparvum_14279425__DAT1C_SOYBN_Diacylglycerol_O-acyltransferase_1C_OS_ | OG2 |'
+	'HeteroloboseaEP00761Pharyngomonaskirbyi_14483709__DGAT1_DICDI_Diacylglycerol_O-acyltransferase_1_OS_ | OG1 |'
+	'HeteroloboseaEP00761Pharyngomonaskirbyi_14488777__DGAT1_ARATH_Diacylglycerol_O-acyltransferase_1_OS_ | OG3 |'
+	'IchthyosporeaEP00123Amoebidiumparasiticum_14559664__ARE2_SACU7_Sterol_O-acyltransferase_2_OS_ | OG3 |'
+	'IchthyosporeaEP00126Sphaerothecumdestruens_14603832__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |'
+	'IchthyosporeaEP00126Sphaerothecumdestruens_14603833__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |'
+	'IchthyosporeaEP00126Sphaerothecumdestruens_14612801__SOAT1_RAT_Sterol_O-acyltransferase_1_OS_ | OG4 |'
+	'IchthyosporeaEP00126Sphaerothecumdestruens_14612802__SOAT2_HUMAN_Sterol_O-acyltransferase_2_OS_ | OG4 |'
+	'JakobidaEP00762Andaluciagodoyi_14651976__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |'
+	'JakobidaEP00762Andaluciagodoyi_14654936__ARE2_CANAX_Sterol_O-acyltransferase_2_OS_ | OG3 |'
+	'MalawimonadidaeEP00698Gefionellaokellyi_14690841__DGAT1_DICDI_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |'
+	'MalawimonadidaeEP00698Gefionellaokellyi_14709428__DGAT1_CORAE_Diacylglycerol_O-acyltransferase_1_OS_ | OG4 |'
+	'MetazoaAcoelaHofsteniamiamia_1730__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |'
+	'MetazoaAnnelidaEP00103Capitellateleta_55251__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |'
+	'MetazoaAnnelidaEP00103Capitellateleta_67238__SOAT1_CHLAE_Sterol_O-acyltransferase_1_OS_ | OG4 |'
+	'MetazoaAnnelidaEP00103Capitellateleta_73183__DGAT1_CHLAE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |'
+	'MetazoaAnnelidaHelobdellarobusta_103748__DGAT1_RAT_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |'
+	'MetazoaAnnelidaHelobdellarobusta_86638__SOAT1_CHLAE_Sterol_O-acyltransferase_1_OS_ | OG4 |'
+	'MetazoaArthropodaDaphniapulex_191399__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |'
+	'MetazoaArthropodaDaphniapulex_192370__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_ | OG4 |'
+	'MetazoaArthropodaDrosophilamelanogaster_246412__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_ | OG4 |'
+	'MetazoaArthropodaDrosophilamelanogaster_246882__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |'
+	'MetazoaArthropodaEP00090Calanusglacialis_694210__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |'
+	'MetazoaArthropodaEP00090Calanusglacialis_706584__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |'
+	'MetazoaArthropodaEP00090Calanusglacialis_707437__DGAT1_RAT_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |'
+	'MetazoaBrachiopodaLingulaunguis_1278526__SOAT1_HUMAN_Sterol_O-acyltransferase_1_OS_ | OG4 |'
+	'MetazoaBrachiopodaLingulaunguis_1279068__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_ | OG4 |'
+	'MetazoaBrachiopodaLingulaunguis_1304726__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |'
+	'MetazoaBryozoaBugulaneritina_1643238__DGAT1_RAT_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |'
+	'MetazoaBryozoaBugulaneritina_2101001__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |'
+	'MetazoaBryozoaBugulaneritina_2197024__SOAT1_MACFA_Sterol_O-acyltransferase_1_OS_ | OG4 |'
+	'MetazoaBryozoaBugulaneritina_2578493__DGAT1_BOVIN_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |'
+	'MetazoaBryozoaBugulaneritina_2590345__SOAT1_MACFA_Sterol_O-acyltransferase_1_OS_ | OG4 |'
+	'MetazoaBryozoaBugulaneritina_2662608__DGAT1_RAT_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |'
+	'MetazoaBryozoaBugulaneritina_2751344__DGAT1_RAT_Diacylglycerol_O-acyltransferase_1_OS_ | OG5 |'
+	'MetazoaCephalochordataBranchiostomabelcheri_2800282__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |'
+	'MetazoaCephalochordataBranchiostomabelcheri_2819752__PK1L1_HUMAN_Polycystic_kidney_disease_protein_1-like_1_OS_ | OG4 |'
+	'MetazoaCephalochordataBranchiostomabelcheri_2819753__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_ | OG4 |'
+	'MetazoaCnidariaAcroporadigitifera_2947711__DGAT1_CHLAE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |'
+	'MetazoaCnidariaAcroporadigitifera_2949279__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_ | OG4 |'
+	'MetazoaCnidariaAnthopleuraelegantissima_3010956__SOAT1_HUMAN_Sterol_O-acyltransferase_1_OS_ | OG4 |'
+	'MetazoaCnidariaAnthopleuraelegantissima_3011260__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |'
+	'MetazoaCnidariaAstreoporasp_3031194__DGAT1_CHLAE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |'
+	'MetazoaCnidariaAstreoporasp_3031473__DGAT1_RAT_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |'
+	'MetazoaCnidariaAstreoporasp_3047100__SOAT1_HUMAN_Sterol_O-acyltransferase_1_OS_ | OG4 |'
+	'MetazoaCnidariaAureliaGenome_3051150__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_ | OG4 |'
+	'MetazoaCnidariaClytiahemisphaerica_3075994__DGAT1_RAT_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |'
+	'MetazoaCnidariaClytiahemisphaerica_3085765__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_ | OG4 |'
+	'MetazoaCnidariaFungiascutaria_3180548__DGAT1_RAT_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |'
+	'MetazoaCnidariaFungiascutaria_3202380__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |'
+	'MetazoaCnidariaFungiascutaria_3204392__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_ | OG4 |'
+	'MetazoaCnidariaGorgoniaventalina_3233658__SOAT1_MACFA_Sterol_O-acyltransferase_1_OS_ | OG4 |'
+	'MetazoaCnidariaHydramagnapapillata_3259026__DGAT1_BOVIN_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |'
+	'MetazoaCnidariaMadracisauretenra_3270993__DGAT1_RAT_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |'
+	'MetazoaCnidariaMadracisauretenra_3284442__SOAT2_HUMAN_Sterol_O-acyltransferase_2_OS_ | OG4 |'
+	'MetazoaCnidariaMadracisauretenra_3293501__DGAT1_CHLAE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |'
+	'MetazoaCnidariaMontastraeacavernosa_3317885__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_ | OG4 |'
+	'MetazoaCnidariaMontastraeacavernosa_3321701__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |'
+	'MetazoaCnidariaMontastraeacavernosa_3323034__DGAT1_RAT_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |'
+	'MetazoaCnidariaMyxozoaThelohanelluskitauei_3359343__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |'
+	'MetazoaCnidariaMyxozoaThelohanelluskitauei_3371308__SOAT1_CRIGR_Sterol_O-acyltransferase_1_OS_ | OG4 |'
+	'MetazoaCnidariaNematostellavectensis_3373825__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_ | OG4 |'
+	'MetazoaCnidariaNematostellavectensis_3376074__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |'
+	'MetazoaCnidariaPoritesaustraliensis_3534964__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_ | OG4 |'
+	'MetazoaCnidariaStylophorapistillata_3671554__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |'
+	'MetazoaCnidariaStylophorapistillata_3684087__SOAT1_CHLAE_Sterol_O-acyltransferase_1_OS_ | OG4 |'
+	'MetazoaEchinodermataAcanthasterplanci_3777781__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |'
+	'MetazoaEchinodermataAcanthasterplanci_3777782__DGAT1_HUMAN_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |'
+	'MetazoaEchinodermataAcanthasterplanci_3793573__SOAT1_RAT_Sterol_O-acyltransferase_1_OS_ | OG4 |'
+	'MetazoaEchinodermataEP00057Strongylocentrotuspurpuratus_3831980__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |'
+	'MetazoaEchinodermataEP00057Strongylocentrotuspurpuratus_3834560__SOAT1_RAT_Sterol_O-acyltransferase_1_OS_ | OG4 |'
+	'MetazoaHemichordataSaccoglossuskowalevskii_4049739__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_ | OG4 |'
+	'MetazoaHemichordataSaccoglossuskowalevskii_4052373__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |'
+	'MetazoaMolluscaEP00106Octopusbimaculoides_4156992__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |'
+	'MetazoaMolluscaEP00106Octopusbimaculoides_4168033__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_ | OG4 |'
+	'MetazoaMolluscaEP00106Octopusbimaculoides_4168034__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_ | OG4 |'
+	'MetazoaMolluscaEP00106Octopusbimaculoides_4168036__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_ | OG4 |'
+	'MetazoaMolluscaLottiagigantea_4216855__SOAT1_HUMAN_Sterol_O-acyltransferase_1_OS_ | OG4 |'
+	'MetazoaMolluscaLottiagigantea_4223631__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |'
+	'MetazoaNematodaCaenorhabditiselegans_4314465__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_ | OG4 |'
+	'MetazoaNematodaCaenorhabditiselegans_4322517__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |'
+	'MetazoaPlacozoaEP00114TrichoplaxspH2_4510918__SOAT1_CRIGR_Sterol_O-acyltransferase_1_OS_ | OG4 |'
+	'MetazoaPlacozoaEP00114TrichoplaxspH2_4515200__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |'
+	'MetazoaPlacozoaHoilungiahongkongensis_4541206__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_ | OG4 |'
+	'MetazoaPlacozoaHoilungiahongkongensis_4541207__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_ | OG4 |'
+	'MetazoaPlacozoaHoilungiahongkongensis_4580249__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |'
+	'MetazoaPlacozoaHoilungiahongkongensis_4580250__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |'
+	'MetazoaPlacozoaHoilungiahongkongensis_4580251__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |'
+	'MetazoaPlacozoaHoilungiahongkongensis_4580252__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |'
+	'MetazoaPlatyhelminthesEchinococcusmultilocularis_4605866__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_ | OG4 |'
+	'MetazoaPlatyhelminthesEchinococcusmultilocularis_4608333__DGAT1_RAT_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |'
+	'MetazoaPoriferaAmphimedonqueenslandica_4675108__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |'
+	'MetazoaPoriferaAmphimedonqueenslandica_4687947__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |'
+	'MetazoaPoriferaAmphimedonqueenslandica_4702382__SOAT1_CHLAE_Sterol_O-acyltransferase_1_OS_ | OG4 |'
+	'MetazoaPoriferaAmphimedonqueenslandica_4702657__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_ | OG4 |'
+	'MetazoaPoriferaAmphimedonqueenslandica_4713813__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |'
+	'MetazoaPoriferaAmphimedonqueenslandica_4713832__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_ | OG4 |'
+	'MetazoaPoriferaEP00118Oscarellapearsei_4810716__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |'
+	'MetazoaPoriferaEP00118Oscarellapearsei_4817195__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_ | OG4 |'
+	'MetazoaPoriferaEP00118Oscarellapearsei_4819331__DGAT1_RAT_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |'
+	'MetazoaPoriferaEphydatiamuelleri_4909048__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |'
+	'MetazoaPoriferaEphydatiamuelleri_4919417__SOAT1_MACFA_Sterol_O-acyltransferase_1_OS_ | OG4 |'
+	'MetazoaPoriferaEphydatiamuelleri_4919418__SOAT1_CHLAE_Sterol_O-acyltransferase_1_OS_ | OG4 |'
+	'MetazoaPoriferaEphydatiamuelleri_4920197__SOAT1_HUMAN_Sterol_O-acyltransferase_1_OS_ | OG4 |'
+	'MetazoaPoriferaEphydatiamuelleri_4925417__SOAT1_MACFA_Sterol_O-acyltransferase_1_OS_ | OG4 |'
+	'MetazoaPoriferaEphydatiamuelleri_4925418__SOAT2_HUMAN_Sterol_O-acyltransferase_2_OS_ | OG4 |'
+	'MetazoaPoriferaEphydatiamuelleri_4925419__SOAT1_MACFA_Sterol_O-acyltransferase_1_OS_ | OG4 |'
+	'MetazoaPoriferaEphydatiamuelleri_4930123__DGAT1_BOVIN_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |'
+	'MetazoaPoriferaHaliclonatubifera_4953205__SOAT1_RAT_Sterol_O-acyltransferase_1_OS_ | OG4 |'
+	'MetazoaPoriferaHaliclonatubifera_4953816__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |'
+	'MetazoaPoriferaHaliclonatubifera_4954756__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_ | OG4 |'
+	'MetazoaPoriferaHaliclonatubifera_4957724__SOAT2_RAT_Sterol_O-acyltransferase_2_OS_ | OG4 |'
+	'MetazoaPoriferaLeucosoleniacomplicata_4997968__DGAT1_BOVIN_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |'
+	'MetazoaPoriferaLeucosoleniacomplicata_5010330__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_ | OG4 |'
+	'MetazoaPoriferaLeucosoleniacomplicata_5018071__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |'
+	'MetazoaPoriferaStylissacarteri_5075372__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_ | OG4 |'
+	'MetazoaPoriferaStylissacarteri_5079575__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_ | OG4 |'
+	'MetazoaPoriferaStylissacarteri_5083930__SOAT2_HUMAN_Sterol_O-acyltransferase_2_OS_ | OG4 |'
+	'MetazoaPoriferaStylissacarteri_5093435__SOAT1_HUMAN_Sterol_O-acyltransferase_1_OS_ | OG4 |'
+	'MetazoaPoriferaStylissacarteri_5098611__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |'
+	'MetazoaPoriferaSyconciliatum_5112163__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |'
+	'MetazoaPoriferaSyconciliatum_5126125__SOAT1_HUMAN_Sterol_O-acyltransferase_1_OS_ | OG4 |'
+	'MetazoaRotiferaBrachionusplicatilis_5229975__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |'
+	'MetazoaRotiferaBrachionusplicatilis_5237179__SOAT2_CHLAE_Sterol_O-acyltransferase_2_OS_ | OG4 |'
+	'MetazoaRotiferaBrachionusplicatilis_5270612__SOAT1_CRIGR_Sterol_O-acyltransferase_1_OS_ | OG4 |'
+	'MetazoaTardigradaRamazzotiusvarieornatus_5281788__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |'
+	'MetazoaTardigradaRamazzotiusvarieornatus_5290193__SOAT2_HUMAN_Sterol_O-acyltransferase_2_OS_ | OG4 |'
+	'MetazoaUrochordataEP00059Cionaintestinalis_5352861__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |'
+	'MetazoaUrochordataOikopleuradioica_5360473__PORCN_ANOGA_Protein-serine_O-palmitoleoyltransferase_porcupine_OS_ | OG0 |'
+	'MetazoaUrochordataOikopleuradioica_5366837__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |'
+	'MetazoaVertebrateDaniorerio_5420643__SOAT1_HUMAN_Sterol_O-acyltransferase_1_OS_ | OG4 |'
+	'MetazoaVertebrateDaniorerio_5425246__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |'
+	'MetazoaVertebrateDaniorerio_5425249__SOAT1_RAT_Sterol_O-acyltransferase_1_OS_ | OG4 |'
+	'MetazoaVertebrateDaniorerio_5433937__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |'
+	'MetazoaVertebrateEptatretusburgeri_6402637__SOAT1_HUMAN_Sterol_O-acyltransferase_1_OS_ | OG4 |'
+	'MetazoaVertebrateEptatretusburgeri_6402638__SOAT1_CHLAE_Sterol_O-acyltransferase_1_OS_ | OG4 |'
+	'MetazoaVertebrateEptatretusburgeri_6402668__SOAT1_HUMAN_Sterol_O-acyltransferase_1_OS_ | OG4 |'
+	'MetazoaVertebrateEptatretusburgeri_6404295__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |'
+	'MetazoaVertebrateHomosapiens_6453155__DGAT1_HUMAN_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |'
+	'MetazoaVertebrateHomosapiens_6453156__SOAT2_HUMAN_Sterol_O-acyltransferase_2_OS_ | OG4 |'
+	'MetazoaVertebrateHomosapiens_6455999__SOAT1_HUMAN_Sterol_O-acyltransferase_1_OS_ | OG4 |'
+	'MetazoaVertebrateMusmusculus_6531753__SOAT2_MOUSE_Sterol_O-acyltransferase_2_OS_ | OG4 |'
+	'MetazoaVertebrateMusmusculus_6537317__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_ | OG4 |'
+	'MetazoaVertebrateMusmusculus_6548891__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |'
+	'PluriformeaEP00127Corallochytriumlimacisporum_21623487__ARE2_CANAX_Sterol_O-acyltransferase_2_OS_ | OG3 |'
+	'RhizariaEP00473Plasmodiophorabrassicae_22114852__DGAT1_CORAE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |'
+	'RhizariaEP00473Plasmodiophorabrassicae_22116322__SOAT1_MACFA_Sterol_O-acyltransferase_1_OS_ | OG4 |'
+	'RhodelphisEP00736Rhodelphismarinus_22796072__DAT11_ORYSJ_Diacylglycerol_O-acyltransferase_1-1_OS_ | OG2 |'
+	'RhodelphisEP00736Rhodelphismarinus_22800701__DAT12_ORYSJ_Diacylglycerol_O-acyltransferase_1-2_OS_ | OG2 |'
+	'RhodelphisEP00736Rhodelphismarinus_22801760__SOAT1_HUMAN_Sterol_O-acyltransferase_1_OS_ | OG4 |'
+	'RhodelphisEP00736Rhodelphismarinus_22809221__WAXS2_ARATH_Probable_long-chain-alcohol_O-fatty-acyltransferase_2_OS_ | OG0 |'
+	'RhodophytaEP00185Porphyridiumpurpureum_23044280__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_ | OG3 |'
+	'RhodophytaEP00185Porphyridiumpurpureum_23047108__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_ | OG1 |'
+	'RhodophytaGaldieriasulphurariaUP000030680_23116056__AREH1_SCHPO_Probable_sterol_O-acyltransferase_1_OS_ | OG3 |'
+	'RhodophytaGaldieriasulphurariaUP000030680_23116817__DAT1B_SOYBN_Diacylglycerol_O-acyltransferase_1B_OS_ | OG1 |'
+	'RhodophytaGaldieriasulphurariaUP000030680_23117956__ARE2_SACU7_Sterol_O-acyltransferase_2_OS_ | OG3 |'
+	'RigifilidaEP00004Rigifilaramosa_23125236__SOAT1_HUMAN_Sterol_O-acyltransferase_1_OS_ | OG4 |'
+	'RigifilidaEP00004Rigifilaramosa_23125237__SOAT1_HUMAN_Sterol_O-acyltransferase_1_OS_ | OG4 |'
+	'RigifilidaEP00004Rigifilaramosa_23132564__AREH1_SCHPO_Probable_sterol_O-acyltransferase_1_OS_ | OG3 |'
+	'RotosphaeridaEP00160Parvulariaatlantis_23153909__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |'
+	'RotosphaeridaEP00160Parvulariaatlantis_23167332__AREH2_SCHPO_Probable_sterol_O-acyltransferase_2_OS_ | OG3 |'
+	'RotosphaeridaEP00160Parvulariaatlantis_23170279__DGAT1_DICDI_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |'
+	'RotosphaeridaEP00160Parvulariaatlantis_23171829__DAT1B_SOYBN_Diacylglycerol_O-acyltransferase_1B_OS_ | OG1 |'
+	'RotosphaeridaEP00160Parvulariaatlantis_23171830__DAT1C_SOYBN_Diacylglycerol_O-acyltransferase_1C_OS_ | OG1 |'
+	'RotosphaeridaFonticulaalbaUP000030693_23191143__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |'
+	'RotosphaeridaFonticulaalbaUP000030693_23193837__YA71_SCHPO_Putative_membrane-bound_O-acyltransferase_C24H6.01c_OS_ | OG6 |'
+	'StramenopilesPhytophthorainfestansUP000006643_26377687__ARE2_SACU7_Sterol_O-acyltransferase_2_OS_ | OG3 |'
+	'TelonemiaP00656Telonemasubtile_26511820__ARE2_CANAX_Sterol_O-acyltransferase_2_OS_ | OG3 |'
+	'TelonemiaP00656Telonemasubtile_26511821__ARE2_CANAX_Sterol_O-acyltransferase_2_OS_ | OG3 |'
+	'TelonemiaP00656Telonemasubtile_26514975__DAT1A_SOYBN_Diacylglycerol_O-acyltransferase_1A_OS_ | OG2 |'
+	'TelonemiaP00656Telonemasubtile_26514976__DAT1B_SOYBN_Diacylglycerol_O-acyltransferase_1B_OS_ | OG2 |'
+	'TelonemiaP00656Telonemasubtile_26514977__DAT1A_SOYBN_Diacylglycerol_O-acyltransferase_1A_OS_ | OG2 |'
+	'TelonemiaP00656Telonemasubtile_26525536__DGAT1_DICDI_Diacylglycerol_O-acyltransferase_1_OS_ | OG0 |'
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] ('MetazoaBryozoaBugulaneritina_2751344__DGAT1_RAT_Diacylglycerol_O-acyltransferase_1_OS_ | OG5 |'[&!rotate=true]:3.29701,(((('MetazoaUrochordataOikopleuradioica_5360473__PORCN_ANOGA_Protein-serine_O-palmitoleoyltransferase_porcupine_OS_ | OG0 |':3.46814,'TelonemiaP00656Telonemasubtile_26525536__DGAT1_DICDI_Diacylglycerol_O-acyltransferase_1_OS_ | OG0 |':2.43877)[&label=1,!name="Urochordata_telonemia |OG0|",!collapse={"collapsed",1.5702259999999981}]:0.170069,('ChoanoflagellataEP00039Didymoecacostata_10871273__DGAT1_DICDI_Diacylglycerol_O-acyltransferase_1_OS_ | OG0 |':1.87252,'RhodelphisEP00736Rhodelphismarinus_22809221__WAXS2_ARATH_Probable_long-chain-alcohol_O-fatty-acyltransferase_2_OS_ | OG0 |':2.40982)[&label=1,!name="Choanoflagellata_rhodelphis |OG0|",!collapse={"collapsed",1.8485999999999976}]:0.950015)[&label=1,!name="|OG0|"]:0.160956,('RotosphaeridaFonticulaalbaUP000030693_23193837__YA71_SCHPO_Putative_membrane-bound_O-acyltransferase_C24H6.01c_OS_ | OG6 |':3.22257,('BreviataEP00033Pygsuiabiforma_5529826__DGAT1_DICDI_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |':1.70487,((((('HaptophytaEP00319Phaeocystisglobosa_14048562__DGAT1_DICDI_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |':0.919528,'RotosphaeridaEP00160Parvulariaatlantis_23153909__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |':1.01297)[&label=1,!name="Haptophyta_rotosphaerida_DGAT1 |OG2|",!collapse={"collapsed",3.387470699999998}]:0.113974,('CentroplasthelidaEP00300ChoanocystisspHF7_5605202__DGAT1_DICDI_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |':0.790206,('RotosphaeridaFonticulaalbaUP000030693_23191143__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |':1.54425,'RotosphaeridaEP00160Parvulariaatlantis_23170279__DGAT1_DICDI_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |':0.54195)[&label=1,!name="Rotosphaerida_DGAT1 |OG2|",!collapse={"collapsed",2.5170296999999984}]:0.230765)[&label=1,!name="Rotosphaerida_centroplasthelida_DGAT1 |OG2|",!collapse={"collapsed",2.5170296999999984}]:0.22237)[&label=1]:0.099436,(('GlaucophytaEP00276Gloeochaetewittrockiana_13503661__DAT1A_SOYBN_Diacylglycerol_O-acyltransferase_1A_OS_ | OG2 |':1.53144,'GlaucophytaEP00276Gloeochaetewittrockiana_13483004__DGAT1_DICDI_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |':0.634854)[&label=1,!name="Glaucophyta_DGAT1 |OG2|",!collapse={"collapsed",2.8711674999999985}]:0.17223,(('CentroplasthelidaEP00300ChoanocystisspHF7_5634770__DGAT1_DICDI_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |':0.477986,'ApusomonadidaThecamonastrahensUP000054408_5480042__DGAT1_DICDI_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |':0.433706)[&label=1,!name="Centroplasthelida_apusomonadida_DGAT1 |OG2|",!collapse={"collapsed",3.383998899999998}]:0.665292,(('CryptophyceaeGuillardiathetaUP000011087_12255636__DGAT1_DICDI_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |':0.325764,('CryptophyceaeEP00290BaffinellaspCCMP2293_12046535__DGAT1_DICDI_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |':0.051348,'CryptophyceaeEP00290BaffinellaspCCMP2293_12057177__DGAT1_DICDI_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |':0.007784)[&label=1]:0.357845)[&label=1,!name="Cryptophyceae_DGAT1 |OG2|",!collapse={"collapsed",3.5283489999999977}]:0.501087,('AmoebozoaDictyosteliumdiscoideumUP000002195_4933798__DGAT1_DICDI_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |':0.758118,('MetazoaBryozoaBugulaneritina_2662608__DGAT1_RAT_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |':0.02855,'MetazoaBryozoaBugulaneritina_1643238__DGAT1_RAT_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |':2.0E-6)[&label=1,!name="Bryozoa_DGAT1 |OG2|",!collapse={"collapsed",0.0}]:4.34855)[&label=1]:0.061529)[&label=1]:0.088648)[&label=1]:0.047561)[&label=1]:0.039013)[&label=1]:0.157727,('MalawimonadidaeEP00698Gefionellaokellyi_14690841__DGAT1_DICDI_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |':0.920221,(('HaptophytaEP00327Prymnesiumparvum_14279425__DAT1C_SOYBN_Diacylglycerol_O-acyltransferase_1C_OS_ | OG2 |':1.14135,(('TelonemiaP00656Telonemasubtile_26514977__DAT1A_SOYBN_Diacylglycerol_O-acyltransferase_1A_OS_ | OG2 |':3.0E-6,('TelonemiaP00656Telonemasubtile_26514975__DAT1A_SOYBN_Diacylglycerol_O-acyltransferase_1A_OS_ | OG2 |':2.0E-6,'TelonemiaP00656Telonemasubtile_26514976__DAT1B_SOYBN_Diacylglycerol_O-acyltransferase_1B_OS_ | OG2 |':0.053454)[&label=1]:0.02594)[&label=1,!name="Telonemia_DGAT1 |OG2|",!collapse={"collapsed",3.414052299999998}]:0.919358,(('RhodelphisEP00736Rhodelphismarinus_22796072__DAT11_ORYSJ_Diacylglycerol_O-acyltransferase_1-1_OS_ | OG2 |':0.112944,'RhodelphisEP00736Rhodelphismarinus_22800701__DAT12_ORYSJ_Diacylglycerol_O-acyltransferase_1-2_OS_ | OG2 |':2.0E-6)[&label=1,!name="Rhodelphis_DGAT1 |OG2|",!collapse={"collapsed",3.305535599999998}]:0.860758,('ChloroplastidaChlamydomonasreinhardtiiUP000006906_6367408__DGAT1_CORAE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |':0.800317,('ChloroplastidaArabidopsisthalianaUP000006548_5889220__DGAT1_ARATH_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |':0.405334,'ChloroplastidaEP00248Marchantiapolymorpha_7477846__DGAT1_CORAE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |':0.356458)[&label=1]:0.167131)[&label=1,!name="Chloroplastida_DGAT1 |OG2|",!collapse={"collapsed",3.2275905999999974}]:0.25133)[&label=1]:0.133567)[&label=1]:0.078571)[&label=1]:0.081502,('AmoebozoaEP00029Vermamoebavermiformis_5284231__DAT1C_SOYBN_Diacylglycerol_O-acyltransferase_1C_OS_ | OG2 |':0.854445,(('HaptophytaEP00319Phaeocystisglobosa_14043383__DGAT1_DICDI_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |':1.32186,'AlveolataEP00742ColponemidiaspColp10_4278854__DGAT1_CORAE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |':0.401254)[&label=1,!name="Haptophyta_alveolata_DGAT1 |OG2|",!collapse={"collapsed",2.7971062999999985}]:0.310872,('RhizariaEP00473Plasmodiophorabrassicae_22114852__DGAT1_CORAE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |':1.24351,('AlveolataEP00333Tetrahymenathermophila_68134__DAT1A_SOYBN_Diacylglycerol_O-acyltransferase_1A_OS_ | OG2 |':1.14758,('FungiSpizellomycespunctatusUP000053201_13453137__DAT1B_SOYBN_Diacylglycerol_O-acyltransferase_1B_OS_ | OG2 |':0.609684,('FungiFusariumoxysporumUP000002489_13368459__DAT1C_SOYBN_Diacylglycerol_O-acyltransferase_1C_OS_ | OG2 |':0.966909,('FungiRhizopusmicrosporusUP000242254_13431603__DAT1B_SOYBN_Diacylglycerol_O-acyltransferase_1B_OS_ | OG2 |':0.550669,('FungiMortierellaelongataUP000078512_13381500__DAT1C_SOYBN_Diacylglycerol_O-acyltransferase_1C_OS_ | OG2 |':0.228185,'FungiMortierellaelongataUP000078512_13380628__DAT1B_SOYBN_Diacylglycerol_O-acyltransferase_1B_OS_ | OG2 |':0.218929)[&label=1]:0.375133)[&label=1]:0.080191)[&label=1]:0.250716)[&label=1,!name="Fungi_DGAT1 |OG2|",!collapse={"collapsed",2.5452448999999984}]:0.475059)[&label=1]:0.136896)[&label=1]:0.055013)[&label=1]:0.069403)[&label=1]:0.073636)[&label=1]:0.124608)[&label=1]:0.074093)[&label=1]:0.046431,(('JakobidaEP00762Andaluciagodoyi_14651976__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |':0.854758,'CollodictyonidaeEP00002Diphylleiarotans_11643194__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |':1.01435)[&label=1,!name="Collodictyonidae_jakobida_DGAT1 |OG2|",!collapse={"collapsed",3.6463936999999973}]:0.090443,(('EuglenozoaEP00668Euglenalonga_12438991__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |':1.03658,'MetazoaCnidariaMyxozoaThelohanelluskitauei_3359343__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |':1.68881)[&label=1,!name="Cnidaria_euglenozoa |OG2|",!collapse={"collapsed",2.409631799999998}]:0.552365,('MetazoaTardigradaRamazzotiusvarieornatus_5281788__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |':0.768973,((('MetazoaPlatyhelminthesEchinococcusmultilocularis_4608333__DGAT1_RAT_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |':0.661867,'MetazoaPoriferaLeucosoleniacomplicata_4997968__DGAT1_BOVIN_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |':0.5445)[&label=1,!name="Platyhelminthes_porifera |OG2|",!collapse={"collapsed",3.3342000999999977}]:0.187483,('MetazoaArthropodaEP00090Calanusglacialis_706584__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |':1.93019,('MetazoaArthropodaDrosophilamelanogaster_246882__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |':0.44649,('MetazoaArthropodaDaphniapulex_191399__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |':0.398183,('MetazoaArthropodaEP00090Calanusglacialis_694210__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |':0.42696,'MetazoaArthropodaEP00090Calanusglacialis_707437__DGAT1_RAT_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |':1.67067)[&label=1]:0.09374)[&label=1]:0.051487)[&label=1]:0.381745)[&label=1,!name="Arthropoda_DGAT1 |OG2|",!collapse={"collapsed",1.9675516999999987}]:0.018357)[&label=1]:0.15757,('MetazoaNematodaCaenorhabditiselegans_4322517__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |':0.722818,(('MetazoaEchinodermataEP00057Strongylocentrotuspurpuratus_3831980__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |':0.428491,'MetazoaEchinodermataAcanthasterplanci_3777781__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |':0.451399)[&label=1,!name="Echinodermata_DGAT1 |OG2|",!collapse={"collapsed",3.6528092999999977}]:0.138884,(((('MetazoaUrochordataOikopleuradioica_5366837__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |':1.12441,'MetazoaUrochordataEP00059Cionaintestinalis_5352861__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |':0.511373)[&label=1,!name="Urochordata_DGAT1 |OG2|",!collapse={"collapsed",2.674991999999998}]:0.253168,(('MetazoaRotiferaBrachionusplicatilis_5229975__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |':0.598295,'MetazoaEchinodermataAcanthasterplanci_3777782__DGAT1_HUMAN_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |':0.394369)[&label=1,!name="Echinodermata_rotifera_DGAT1 |OG2|",!collapse={"collapsed",3.337421899999997}]:0.079994,('MetazoaVertebrateEptatretusburgeri_6404295__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |':0.551241,(('MetazoaVertebrateMusmusculus_6548891__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |':0.073701,'MetazoaVertebrateHomosapiens_6453155__DGAT1_HUMAN_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |':0.070994)[&label=1]:0.201311,('MetazoaVertebrateDaniorerio_5425246__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |':0.251205,'MetazoaVertebrateDaniorerio_5433937__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |':0.237394)[&label=1]:0.112752)[&label=1]:0.084156)[&label=1,!name="Vertebrates_DGAT1 |OG2|",!collapse={"collapsed",3.3550458999999977}]:0.109424)[&label=1]:0.036859)[&label=1]:0.056695,(('MetazoaHemichordataSaccoglossuskowalevskii_4052373__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |':0.426954,('MetazoaCephalochordataBranchiostomabelcheri_2800282__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |':0.289054,'MetazoaBryozoaBugulaneritina_2578493__DGAT1_BOVIN_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |':0.209669)[&label=1]:0.273441)[&label=1,!name="Cephalochordata_hemichordata_bryozoa_DGAT1 |OG2|",!collapse={"collapsed",3.414503599999997}]:0.07471,(('MetazoaMolluscaLottiagigantea_4223631__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |':0.380301,('MetazoaMolluscaEP00106Octopusbimaculoides_4156992__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |':0.364399,('MetazoaBryozoaBugulaneritina_2101001__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |':0.41425,'MetazoaBrachiopodaLingulaunguis_1304726__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |':0.323245)[&label=1]:0.11818)[&label=1]:0.064368)[&label=1]:0.111917,('MetazoaAcoelaHofsteniamiamia_1730__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |':1.00778,('MetazoaAnnelidaHelobdellarobusta_103748__DGAT1_RAT_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |':0.775621,('MetazoaAnnelidaEP00103Capitellateleta_55251__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |':0.008362,'MetazoaAnnelidaEP00103Capitellateleta_73183__DGAT1_CHLAE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |':0.252607)[&label=1]:0.238341)[&label=1]:0.142583)[&label=1]:0.109621)[&label=1,!name="Bryozoa_brachiopoda_mollusca_annelida_Acoela_DGAT1 |OG2|",!collapse={"collapsed",2.868706399999997}]:0.065601)[&label=1]:0.057557)[&label=1]:0.071913,(((('MetazoaPoriferaStylissacarteri_5098611__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |':0.294141,'MetazoaPoriferaEphydatiamuelleri_4930123__DGAT1_BOVIN_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |':0.539882)[&label=1]:0.281564,('MetazoaPoriferaEphydatiamuelleri_4909048__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |':0.628306,('MetazoaPoriferaHaliclonatubifera_4953816__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |':0.373484,('MetazoaPoriferaAmphimedonqueenslandica_4713813__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |':3.0E-6,('MetazoaPoriferaAmphimedonqueenslandica_4687947__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |':0.006598,'MetazoaPoriferaAmphimedonqueenslandica_4675108__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |':0.014437)[&label=1]:0.00329)[&label=1]:0.406994)[&label=1]:0.070011)[&label=1]:0.079522)[&label=1,!name="Porifera_DGAT1 |OG2|",!collapse={"collapsed",2.924048499999998}]:0.337997,(('FilastreaCapsasporaowczarzakiUP000008743_12984513__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |':0.547462,('IchthyosporeaEP00126Sphaerothecumdestruens_14603832__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |':0.001807,'IchthyosporeaEP00126Sphaerothecumdestruens_14603833__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |':0.0043)[&label=1]:0.696886)[&label=1,!name="Ichthyosporea_filastrea_DGAT1 |OG2|",!collapse={"collapsed",3.085300799999998}]:0.118614,(('ChoanoflagellataEP00040Diaphanoecagrandis_10914621__DGAT1_RAT_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |':0.4595,('ChoanoflagellataEP00035Acanthoecaspectabilis_10753056__DGAT1_RAT_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |':0.222662,('ChoanoflagellataEP00037Helgoecanana_10784418__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |':2.0E-6,'ChoanoflagellataEP00037Helgoecanana_10784419__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |':0.11031)[&label=1]:0.162867)[&label=1]:0.470278)[&label=1]:0.464698,(('ChoanoflagellateaMonosigabrevicollisUP000001357_11429688__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |':0.329542,'ChoanoflagellataEP00045Choanoecaperplexa_11086214__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |':0.28292)[&label=1]:0.270064,('ChoanoflagellataEP00047Mylnosigafluctuans_11126316__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |':0.509364,('ChoanoflagellataEP00050Salpingoecakvevrii_11191782__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |':2.0E-6,('ChoanoflagellataEP00050Salpingoecakvevrii_11191780__DGAT1_RAT_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |':0.116884,'ChoanoflagellataEP00050Salpingoecakvevrii_11191781__DGAT1_RAT_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |':2.0E-6)[&label=1]:0.104878)[&label=1]:0.55694)[&label=1]:0.11052)[&label=1]:0.143336)[&label=1,!name="Choanoflagellata_DGAT1 |OG2|",!collapse={"collapsed",2.402692499999997}]:0.294255)[&label=1]:0.178391)[&label=1]:0.024894,(((('MetazoaPoriferaEP00118Oscarellapearsei_4819331__DGAT1_RAT_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |':0.078457,'MetazoaPoriferaEP00118Oscarellapearsei_4810716__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |':0.202919)[&label=1]:0.365623,('MetazoaPoriferaLeucosoleniacomplicata_5018071__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |':0.150127,'MetazoaPoriferaSyconciliatum_5112163__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |':0.211385)[&label=1]:0.430532)[&label=1,!name="Porifera_DGAT1 |OG2|",!collapse={"collapsed",3.1177917999999982}]:0.126816,('MetazoaPlacozoaEP00114TrichoplaxspH2_4515200__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |':0.115734,('MetazoaPlacozoaHoilungiahongkongensis_4580252__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |':0.013529,('MetazoaPlacozoaHoilungiahongkongensis_4580251__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |':3.0E-6,('MetazoaPlacozoaHoilungiahongkongensis_4580249__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |':0.002752,'MetazoaPlacozoaHoilungiahongkongensis_4580250__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |':0.031468)[&label=1]:3.0E-6)[&label=1]:0.003186)[&label=1]:0.060598)[&label=1,!name="Placozoa_DGAT1 |OG2|",!collapse={"collapsed",3.3461627999999983}]:0.424628)[&label=1]:0.10474,(('MetazoaCnidariaClytiahemisphaerica_3075994__DGAT1_RAT_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |':0.119485,'MetazoaCnidariaHydramagnapapillata_3259026__DGAT1_BOVIN_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |':0.262921)[&label=1]:0.447824,(('MetazoaCnidariaAnthopleuraelegantissima_3011260__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |':0.164375,'MetazoaCnidariaNematostellavectensis_3376074__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |':0.225726)[&label=1]:0.164049,('MetazoaCnidariaStylophorapistillata_3671554__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |':0.444586,('MetazoaCnidariaAstreoporasp_3031194__DGAT1_CHLAE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |':0.141135,('MetazoaCnidariaMadracisauretenra_3293501__DGAT1_CHLAE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |':0.125218,('MetazoaCnidariaAstreoporasp_3031473__DGAT1_RAT_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |':0.085077,(('MetazoaCnidariaMontastraeacavernosa_3321701__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |':0.001274,'MetazoaCnidariaAcroporadigitifera_2947711__DGAT1_CHLAE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |':0.474209)[&label=1]:0.338758,('MetazoaCnidariaMontastraeacavernosa_3323034__DGAT1_RAT_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |':0.090565,('MetazoaCnidariaMadracisauretenra_3270993__DGAT1_RAT_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |':0.164614,('MetazoaCnidariaFungiascutaria_3180548__DGAT1_RAT_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |':2.0E-6,'MetazoaCnidariaFungiascutaria_3202380__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_ | OG2 |':0.001999)[&label=1]:0.077552)[&label=1]:0.024259)[&label=1]:0.030231)[&label=1]:0.03015)[&label=1]:0.003748)[&label=1]:0.016372)[&label=1]:0.027551)[&label=1]:0.172918)[&label=1]:0.217501)[&label=1,!name="Cnidaria_DGAT1 |OG2|",!collapse={"collapsed",2.547542339999997}]:0.162516)[&label=1]:0.117121)[&label=1]:0.072792)[&label=1]:0.061914)[&label=1]:0.047142)[&label=1]:0.050886)[&label=1]:0.061269)[&label=1]:0.248418)[&label=1]:0.10038)[&label=1]:0.066822)[&label=1]:0.219135)[&label=1,!name="DGAT1 |OG2|"]:0.205937)[&label=1]:0.12631)[&label=1]:2.0E-6,((('RhodophytaEP00185Porphyridiumpurpureum_23047108__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_ | OG1 |':0.798211,'RhodophytaGaldieriasulphurariaUP000030680_23116817__DAT1B_SOYBN_Diacylglycerol_O-acyltransferase_1B_OS_ | OG1 |':0.650527)[&label=1,!name="Rhodophyta |OG1|",!collapse={"collapsed",3.7396903321999977}]:0.38277,('HeteroloboseaEP00761Pharyngomonaskirbyi_14483709__DGAT1_DICDI_Diacylglycerol_O-acyltransferase_1_OS_ | OG1 |':1.00507,('RotosphaeridaEP00160Parvulariaatlantis_23171829__DAT1B_SOYBN_Diacylglycerol_O-acyltransferase_1B_OS_ | OG1 |':0.191291,'RotosphaeridaEP00160Parvulariaatlantis_23171830__DAT1C_SOYBN_Diacylglycerol_O-acyltransferase_1C_OS_ | OG1 |':3.0E-6)[&label=1]:1.16997)[&label=1,!name="Rotoshpaerida_heterolobosea |OG1|",!collapse={"collapsed",3.3110013321999983}]:0.248409)[&label=1,!name="|OG1|"]:0.158354,(((('AmoebozoaEP00029Vermamoebavermiformis_5280956__DAT1B_SOYBN_Diacylglycerol_O-acyltransferase_1B_OS_ | OG3 |':0.875568,'AmoebozoaDictyosteliumdiscoideumUP000002195_4930403__DGAT1_CORAE_Diacylglycerol_O-acyltransferase_1_OS_ | OG3 |':1.00286)[&label=1,!name="Amoebozoa |OG3|",!collapse={"collapsed",3.4348397321999977}]:0.256293,('JakobidaEP00762Andaluciagodoyi_14654936__ARE2_CANAX_Sterol_O-acyltransferase_2_OS_ | OG3 |':1.03586,('GlaucophytaEP00276Gloeochaetewittrockiana_13499831__DAT1B_SOYBN_Diacylglycerol_O-acyltransferase_1B_OS_ | OG3 |':0.771372,'HeteroloboseaEP00761Pharyngomonaskirbyi_14488777__DGAT1_ARATH_Diacylglycerol_O-acyltransferase_1_OS_ | OG3 |':0.716805)[&label=1]:0.12918)[&label=1,!name="Excavata_glaucophyta |OG3|",!collapse={"collapsed",3.261263732199998}]:0.396869)[&label=1]:0.202079,(('RhodophytaEP00185Porphyridiumpurpureum_23044280__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_ | OG3 |':0.93137,('RhodophytaGaldieriasulphurariaUP000030680_23117956__ARE2_SACU7_Sterol_O-acyltransferase_2_OS_ | OG3 |':0.89429,'RhodophytaGaldieriasulphurariaUP000030680_23116056__AREH1_SCHPO_Probable_sterol_O-acyltransferase_1_OS_ | OG3 |':0.94094)[&label=1]:0.211976)[&label=1,!name="Rhodophyta |OG3|",!collapse={"collapsed",2.7160737321999973}]:0.725916,(('AlveolataEP00333Tetrahymenathermophila_75336__AREH1_SCHPO_Probable_sterol_O-acyltransferase_1_OS_ | OG3 |':0.74251,'AlveolataEP00333Tetrahymenathermophila_80462__AREH1_SCHPO_Probable_sterol_O-acyltransferase_1_OS_ | OG3 |':0.531225)[&label=1,!name="Alveolata |OG3|",!collapse={"collapsed",2.9600897321999966}]:0.685201,(('PluriformeaEP00127Corallochytriumlimacisporum_21623487__ARE2_CANAX_Sterol_O-acyltransferase_2_OS_ | OG3 |':1.18753,'FilastreaCapsasporaowczarzakiUP000008743_12984776__AREH2_SCHPO_Probable_sterol_O-acyltransferase_2_OS_ | OG3 |':0.943647)[&label=1,!name="Pluriformea_filastrea |OG3|",!collapse={"collapsed",2.813729732199997}]:0.227702,((('CollodictyonidaeEP00002Diphylleiarotans_11642755__ARE2_CANAX_Sterol_O-acyltransferase_2_OS_ | OG3 |':1.0E-6,('CollodictyonidaeEP00002Diphylleiarotans_11642752__ARE2_CANAX_Sterol_O-acyltransferase_2_OS_ | OG3 |':1.0E-6,'CollodictyonidaeEP00002Diphylleiarotans_11642753__ARE2_CANAX_Sterol_O-acyltransferase_2_OS_ | OG3 |':1.0E-6)[&label=1]:1.0E-6)[&label=1]:3.0E-6,('CollodictyonidaeEP00002Diphylleiarotans_11642751__DAT1C_SOYBN_Diacylglycerol_O-acyltransferase_1C_OS_ | OG3 |':1.0E-6,('CollodictyonidaeEP00002Diphylleiarotans_11642750__DAT1C_SOYBN_Diacylglycerol_O-acyltransferase_1C_OS_ | OG3 |':1.0E-6,('CollodictyonidaeEP00002Diphylleiarotans_11642749__DAT1B_SOYBN_Diacylglycerol_O-acyltransferase_1B_OS_ | OG3 |':0.003623,'CollodictyonidaeEP00002Diphylleiarotans_11642754__DAT1C_SOYBN_Diacylglycerol_O-acyltransferase_1C_OS_ | OG3 |':0.051421)[&label=1]:3.0E-6)[&label=1]:2.0E-6)[&label=1]:3.0E-6)[&label=1,!name="Collodictyonidae |OG3|",!collapse={"collapsed",3.165272952199997}]:0.914223,('StramenopilesPhytophthorainfestansUP000006643_26377687__ARE2_SACU7_Sterol_O-acyltransferase_2_OS_ | OG3 |':1.24565,(('RigifilidaEP00004Rigifilaramosa_23132564__AREH1_SCHPO_Probable_sterol_O-acyltransferase_1_OS_ | OG3 |':0.889132,('ChoanoflagellataEP00040Diaphanoecagrandis_10910441__ARE2_CANAX_Sterol_O-acyltransferase_2_OS_ | OG3 |':1.29663,('TelonemiaP00656Telonemasubtile_26511820__ARE2_CANAX_Sterol_O-acyltransferase_2_OS_ | OG3 |':0.015591,'TelonemiaP00656Telonemasubtile_26511821__ARE2_CANAX_Sterol_O-acyltransferase_2_OS_ | OG3 |':2.0E-6)[&label=1,!name="Telonemia |OG3|",!collapse={"collapsed",2.3220032321999966}]:1.08737)[&label=1]:0.377269)[&label=1,!name="Choanoflagellata_telonemia_rigifilida |OG3|",!collapse={"collapsed",2.128334032199996}]:0.174661,('RotosphaeridaEP00160Parvulariaatlantis_23167332__AREH2_SCHPO_Probable_sterol_O-acyltransferase_2_OS_ | OG3 |':0.775674,(('IchthyosporeaEP00123Amoebidiumparasiticum_14559664__ARE2_SACU7_Sterol_O-acyltransferase_2_OS_ | OG3 |':1.12613,'HaptophytaEP00319Phaeocystisglobosa_14053193__AREH2_SCHPO_Probable_sterol_O-acyltransferase_2_OS_ | OG3 |':0.782023)[&label=1,!name="Ichthyosporea_haptophyta |OG3|",!collapse={"collapsed",2.4509939321999976}]:0.089503,('FungiSpizellomycespunctatusUP000053201_13453645__AREH1_SCHPO_Probable_sterol_O-acyltransferase_1_OS_ | OG3 |':0.632847,('FungiRhizopusmicrosporusUP000242254_13434296__AREH1_SCHPO_Probable_sterol_O-acyltransferase_1_OS_ | OG3 |':0.637683,('FungiMortierellaelongataUP000078512_13383038__AREH1_SCHPO_Probable_sterol_O-acyltransferase_1_OS_ | OG3 |':0.544025,('FungiEP00150Ustilagomaydis_13256582__AREH1_SCHPO_Probable_sterol_O-acyltransferase_1_OS_ | OG3 |':0.711751,(('CentroplasthelidaEP00300ChoanocystisspHF7_5627063__AREH2_SCHPO_Probable_sterol_O-acyltransferase_2_OS_ | OG3 |':0.40786,'FungiFusariumoxysporumUP000002489_13354115__ARE2_CANAX_Sterol_O-acyltransferase_2_OS_ | OG3 |':0.313937)[&label=1,!name="Centroplasthelida_fungi |OG3|",!collapse={"collapsed",1.6044088321999972}]:0.748537,('FungiFusariumoxysporumUP000002489_13356715__ARE2_CANAX_Sterol_O-acyltransferase_2_OS_ | OG3 |':0.594877,('FungiSaccharomycescerevisiaeUP000002311_13446240__ARE1_YEAST_Sterol_O-acyltransferase_1_OS_ | OG3 |':0.470778,'FungiSaccharomycescerevisiaeUP000002311_13449006__ARE2_YEAST_Sterol_O-acyltransferase_2_OS_ | OG3 |':0.424968)[&label=1]:0.831426)[&label=1,!name="Fungi |OG3|",!collapse={"collapsed",1.157769832199997}]:0.300832)[&label=1]:0.32369)[&label=1]:0.142953)[&label=1]:0.07602)[&label=1]:0.151807)[&label=1,!name="Centroplasthelida_fungi |OG3|",!collapse={"collapsed",1.157769832199997}]:0.211351)[&label=1]:0.166703)[&label=1]:0.143564)[&label=1]:0.041863)[&label=1]:0.112168)[&label=1]:0.098037)[&label=1]:0.158839)[&label=1]:0.207105)[&label=1]:0.301166)[&label=1,!name="|OG3|"]:0.063682,(('MalawimonadidaeEP00698Gefionellaokellyi_14709428__DGAT1_CORAE_Diacylglycerol_O-acyltransferase_1_OS_ | OG4 |':1.96114,'AmoebozoaDictyosteliumdiscoideumUP000002195_4932587__DGAT1_RAT_Diacylglycerol_O-acyltransferase_1_OS_ | OG4 |':2.25866)[&label=1,!name="Amoebozoa_malawimonadidae |OG4|",!collapse={"collapsed",1.909603999999999}]:0.676519,((('RigifilidaEP00004Rigifilaramosa_23125236__SOAT1_HUMAN_Sterol_O-acyltransferase_1_OS_ | OG4 |':3.0E-6,'RigifilidaEP00004Rigifilaramosa_23125237__SOAT1_HUMAN_Sterol_O-acyltransferase_1_OS_ | OG4 |':0.002558)[&label=1,!name="Rigifilida_SOAT |OG4|",!collapse={"collapsed",3.1415747721999976}]:0.703564,('CollodictyonidaeEP00002Diphylleiarotans_11666034__SOAT1_CHLAE_Sterol_O-acyltransferase_1_OS_ | OG4 |':0.47096,('CollodictyonidaeEP00002Diphylleiarotans_11645659__SOAT1_RAT_Sterol_O-acyltransferase_1_OS_ | OG4 |':0.002376,'CollodictyonidaeEP00002Diphylleiarotans_11645660__SOAT1_RAT_Sterol_O-acyltransferase_1_OS_ | OG4 |':0.0045)[&label=1]:0.412088)[&label=1,!name="Collodictyonidae_SOAT |OG4|",!collapse={"collapsed",3.1592303321999973}]:0.217506)[&label=1]:0.452205,(('HaptophytaEP00319Phaeocystisglobosa_14048151__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_ | OG4 |':0.820131,'RhodelphisEP00736Rhodelphismarinus_22801760__SOAT1_HUMAN_Sterol_O-acyltransferase_1_OS_ | OG4 |':0.757404)[&label=1,!name="Haptophyta_rhodelphis_SOAT |OG4|",!collapse={"collapsed",2.882954332199998}]:0.373301,(('CentroplasthelidaEP00300ChoanocystisspHF7_5629869__SOAT1_HUMAN_Sterol_O-acyltransferase_1_OS_ | OG4 |':0.402403,'ApusomonadidaThecamonastrahensUP000054408_5477754__SOAT1_MACFA_Sterol_O-acyltransferase_1_OS_ | OG4 |':0.395189)[&label=1,!name="Centroplasthelida_apusomonadida_SOAT |OG4|",!collapse={"collapsed",2.8649883321999976}]:0.684281,(('AlveolataEP00742ColponemidiaspColp10_4272534__SOAT2_RAT_Sterol_O-acyltransferase_2_OS_ | OG4 |':0.533802,'AlveolataEP00333Tetrahymenathermophila_68197__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_ | OG4 |':1.18341)[&label=1,!name="Alveolata_SOAT |OG4|",!collapse={"collapsed",2.3439620321999968}]:0.339081,('IchthyosporeaEP00126Sphaerothecumdestruens_14612801__SOAT1_RAT_Sterol_O-acyltransferase_1_OS_ | OG4 |':0.91347,(('FilastreaCapsasporaowczarzakiUP000008743_12983113__SOAT1_CHLAE_Sterol_O-acyltransferase_1_OS_ | OG4 |':0.69652,('IchthyosporeaEP00126Sphaerothecumdestruens_14612802__SOAT2_HUMAN_Sterol_O-acyltransferase_2_OS_ | OG4 |':0.593193,('ChoanoflagellataEP00047Mylnosigafluctuans_11114416__SOAT1_CHLAE_Sterol_O-acyltransferase_1_OS_ | OG4 |':0.38099,'ChoanoflagellataEP00050Salpingoecakvevrii_11207341__SOAT1_CHLAE_Sterol_O-acyltransferase_1_OS_ | OG4 |':0.683726)[&label=1]:0.161687)[&label=1]:0.061451)[&label=1,!name="Choanoflagellata_ichthyosporea_filastrea_SOAT |OG4|",!collapse={"collapsed",2.558051632199997}]:0.114804,(('MetazoaPoriferaEP00118Oscarellapearsei_4817195__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_ | OG4 |':0.617316,('MetazoaPoriferaSyconciliatum_5126125__SOAT1_HUMAN_Sterol_O-acyltransferase_1_OS_ | OG4 |':0.20435,'MetazoaPoriferaLeucosoleniacomplicata_5010330__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_ | OG4 |':0.143005)[&label=1]:0.420039)[&label=1,!name="Porifera_SOAT |OG4|",!collapse={"collapsed",2.706777032199997}]:0.118946,((('MetazoaArthropodaDrosophilamelanogaster_246412__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_ | OG4 |':0.936421,'MetazoaNematodaCaenorhabditiselegans_4314465__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_ | OG4 |':1.3889)[&label=1,!name="Arthropoda_nematoda_SOAT |OG4|",!collapse={"collapsed",1.6473454321999963}]:0.265454,(('MetazoaBryozoaBugulaneritina_2590345__SOAT1_MACFA_Sterol_O-acyltransferase_1_OS_ | OG4 |':0.021365,'MetazoaBryozoaBugulaneritina_2197024__SOAT1_MACFA_Sterol_O-acyltransferase_1_OS_ | OG4 |':0.009593)[&label=1,!name="Bryozoa_SOAT",!collapse={"collapsed",2.4275665321999966}]:0.665901,('RhizariaEP00473Plasmodiophorabrassicae_22116322__SOAT1_MACFA_Sterol_O-acyltransferase_1_OS_ | OG4 |':1.33018,(('MetazoaPoriferaEphydatiamuelleri_4920197__SOAT1_HUMAN_Sterol_O-acyltransferase_1_OS_ | OG4 |':0.343114,('MetazoaPoriferaStylissacarteri_5083930__SOAT2_HUMAN_Sterol_O-acyltransferase_2_OS_ | OG4 |':0.34947,('MetazoaPoriferaAmphimedonqueenslandica_4702382__SOAT1_CHLAE_Sterol_O-acyltransferase_1_OS_ | OG4 |':0.360666,'MetazoaPoriferaHaliclonatubifera_4953205__SOAT1_RAT_Sterol_O-acyltransferase_1_OS_ | OG4 |':0.239471)[&label=1]:0.252434)[&label=1]:0.091317)[&label=1]:0.543403,(('MetazoaPoriferaStylissacarteri_5093435__SOAT1_HUMAN_Sterol_O-acyltransferase_1_OS_ | OG4 |':1.05073,(('MetazoaPoriferaStylissacarteri_5075372__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_ | OG4 |':0.285353,'MetazoaPoriferaStylissacarteri_5079575__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_ | OG4 |':0.116006)[&label=1]:0.716644,('MetazoaPoriferaAmphimedonqueenslandica_4702657__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_ | OG4 |':0.779772,('MetazoaPoriferaHaliclonatubifera_4954756__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_ | OG4 |':0.948594,'MetazoaPoriferaHaliclonatubifera_4957724__SOAT2_RAT_Sterol_O-acyltransferase_2_OS_ | OG4 |':0.629119)[&label=1]:0.216504)[&label=1]:0.439095)[&label=1]:0.105654)[&label=1]:0.0905,('MetazoaPoriferaAmphimedonqueenslandica_4713832__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_ | OG4 |':0.761347,(('MetazoaPoriferaEphydatiamuelleri_4919418__SOAT1_CHLAE_Sterol_O-acyltransferase_1_OS_ | OG4 |':0.182386,'MetazoaPoriferaEphydatiamuelleri_4919417__SOAT1_MACFA_Sterol_O-acyltransferase_1_OS_ | OG4 |':3.0E-6)[&label=1]:0.489047,('MetazoaPoriferaEphydatiamuelleri_4925418__SOAT2_HUMAN_Sterol_O-acyltransferase_2_OS_ | OG4 |':0.104745,('MetazoaPoriferaEphydatiamuelleri_4925417__SOAT1_MACFA_Sterol_O-acyltransferase_1_OS_ | OG4 |':0.344119,'MetazoaPoriferaEphydatiamuelleri_4925419__SOAT1_MACFA_Sterol_O-acyltransferase_1_OS_ | OG4 |':2.0E-6)[&label=1]:0.242602)[&label=1]:0.168963)[&label=1]:0.728624)[&label=1]:0.108316)[&label=1]:0.177136)[&label=1,!name="Porifera_SOAT |OG4|",!collapse={"collapsed",0.4151312321999967}]:0.626948)[&label=1]:0.09527)[&label=1]:0.186867)[&label=1]:0.11849,((('MetazoaPlacozoaEP00114TrichoplaxspH2_4510918__SOAT1_CRIGR_Sterol_O-acyltransferase_1_OS_ | OG4 |':0.065512,('MetazoaPlacozoaHoilungiahongkongensis_4541206__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_ | OG4 |':1.0E-6,'MetazoaPlacozoaHoilungiahongkongensis_4541207__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_ | OG4 |':2.0E-6)[&label=1]:0.094389)[&label=1,!name="Placozoa_SOAT |OG4|",!collapse={"collapsed",2.5845498412999977}]:0.582972,(('MetazoaCnidariaClytiahemisphaerica_3085765__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_ | OG4 |':0.69835,'MetazoaCnidariaAureliaGenome_3051150__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_ | OG4 |':0.383317)[&label=1]:0.111663,('MetazoaCnidariaGorgoniaventalina_3233658__SOAT1_MACFA_Sterol_O-acyltransferase_1_OS_ | OG4 |':0.462701,(('MetazoaCnidariaNematostellavectensis_3373825__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_ | OG4 |':0.192477,'MetazoaCnidariaAnthopleuraelegantissima_3010956__SOAT1_HUMAN_Sterol_O-acyltransferase_1_OS_ | OG4 |':0.223244)[&label=1]:0.116494,('MetazoaCnidariaStylophorapistillata_3684087__SOAT1_CHLAE_Sterol_O-acyltransferase_1_OS_ | OG4 |':0.08675,('MetazoaCnidariaMadracisauretenra_3284442__SOAT2_HUMAN_Sterol_O-acyltransferase_2_OS_ | OG4 |':0.042866,('MetazoaCnidariaFungiascutaria_3204392__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_ | OG4 |':0.097861,('MetazoaCnidariaMontastraeacavernosa_3317885__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_ | OG4 |':0.063635,('MetazoaCnidariaAstreoporasp_3047100__SOAT1_HUMAN_Sterol_O-acyltransferase_1_OS_ | OG4 |':0.067472,('MetazoaCnidariaAcroporadigitifera_2949279__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_ | OG4 |':0.282244,'MetazoaCnidariaPoritesaustraliensis_3534964__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_ | OG4 |':0.045971)[&label=1]:0.053505)[&label=1]:0.050784)[&label=1]:0.018733)[&label=1]:0.028236)[&label=1]:0.019691)[&label=1]:0.157315)[&label=1]:0.150922)[&label=1]:0.053871)[&label=1,!name="Cnidaria_SOAT |OG4|",!collapse={"collapsed",2.3377492321999975}]:0.108862)[&label=1]:0.043552,(('MetazoaEchinodermataEP00057Strongylocentrotuspurpuratus_3834560__SOAT1_RAT_Sterol_O-acyltransferase_1_OS_ | OG4 |':0.548952,'MetazoaEchinodermataAcanthasterplanci_3793573__SOAT1_RAT_Sterol_O-acyltransferase_1_OS_ | OG4 |':0.345869)[&label=1,!name="Echinodermata_SOAT |OG4|",!collapse={"collapsed",2.5069559321999977}]:0.207291,((('MetazoaCephalochordataBranchiostomabelcheri_2819752__PK1L1_HUMAN_Polycystic_kidney_disease_protein_1-like_1_OS_ | OG4 |':0.004838,'MetazoaCephalochordataBranchiostomabelcheri_2819753__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_ | OG4 |':3.0E-6)[&label=1,!name="Cephalochordata_SOAT |OG4|",!collapse={"collapsed",2.491633272199997}]:0.564651,(('MetazoaVertebrateDaniorerio_5425249__SOAT1_RAT_Sterol_O-acyltransferase_1_OS_ | OG4 |':0.51597,('MetazoaVertebrateMusmusculus_6531753__SOAT2_MOUSE_Sterol_O-acyltransferase_2_OS_ | OG4 |':0.114216,'MetazoaVertebrateHomosapiens_6453156__SOAT2_HUMAN_Sterol_O-acyltransferase_2_OS_ | OG4 |':0.061251)[&label=1]:0.427928)[&label=1,!name="Vertebrates_SOAT2 |OG4|",!collapse={"collapsed",1.9925943321999977}]:0.134575,(('MetazoaVertebrateEptatretusburgeri_6402637__SOAT1_HUMAN_Sterol_O-acyltransferase_1_OS_ | OG4 |':2.0E-6,'MetazoaVertebrateEptatretusburgeri_6402638__SOAT1_CHLAE_Sterol_O-acyltransferase_1_OS_ | OG4 |':0.002465)[&label=1]:0.272014,('MetazoaVertebrateEptatretusburgeri_6402668__SOAT1_HUMAN_Sterol_O-acyltransferase_1_OS_ | OG4 |':0.5825,('MetazoaVertebrateDaniorerio_5420643__SOAT1_HUMAN_Sterol_O-acyltransferase_1_OS_ | OG4 |':0.273708,('MetazoaVertebrateMusmusculus_6537317__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_ | OG4 |':0.082982,'MetazoaVertebrateHomosapiens_6455999__SOAT1_HUMAN_Sterol_O-acyltransferase_1_OS_ | OG4 |':0.064922)[&label=1]:0.309269)[&label=1]:0.085305)[&label=1]:0.080837)[&label=1,!name="Vertebrates_SOAT1 |OG4|",!collapse={"collapsed",1.9301931321999977}]:0.075783)[&label=1]:0.391809)[&label=1]:0.146746,('MetazoaHemichordataSaccoglossuskowalevskii_4049739__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_ | OG4 |':0.378669,((('MetazoaAnnelidaEP00103Capitellateleta_67238__SOAT1_CHLAE_Sterol_O-acyltransferase_1_OS_ | OG4 |':0.300932,'MetazoaAnnelidaHelobdellarobusta_86638__SOAT1_CHLAE_Sterol_O-acyltransferase_1_OS_ | OG4 |':0.51509)[&label=1]:0.050167,('MetazoaMolluscaLottiagigantea_4216855__SOAT1_HUMAN_Sterol_O-acyltransferase_1_OS_ | OG4 |':0.29569,('MetazoaMolluscaEP00106Octopusbimaculoides_4168036__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_ | OG4 |':1.0E-6,('MetazoaMolluscaEP00106Octopusbimaculoides_4168033__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_ | OG4 |':1.0E-6,'MetazoaMolluscaEP00106Octopusbimaculoides_4168034__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_ | OG4 |':1.0E-6)[&label=1]:1.0E-6)[&label=1]:0.190361)[&label=1]:0.08954)[&label=1,!name="Mollusca_annelida_SOAT |OG4|",!collapse={"collapsed",2.4442750321999993}]:0.072497,(('MetazoaArthropodaDaphniapulex_192370__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_ | OG4 |':0.640434,('MetazoaBrachiopodaLingulaunguis_1279068__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_ | OG4 |':0.041242,'MetazoaBrachiopodaLingulaunguis_1278526__SOAT1_HUMAN_Sterol_O-acyltransferase_1_OS_ | OG4 |':2.0E-6)[&label=1]:0.348623)[&label=1,!name="Brachiopoda_arthropoda_SOAT |OG4|",!collapse={"collapsed",2.2625615321999986}]:0.092,(('MetazoaRotiferaBrachionusplicatilis_5237179__SOAT2_CHLAE_Sterol_O-acyltransferase_2_OS_ | OG4 |':0.441781,'MetazoaTardigradaRamazzotiusvarieornatus_5290193__SOAT2_HUMAN_Sterol_O-acyltransferase_2_OS_ | OG4 |':0.619166)[&label=1,!name="Rotifera_tardigrada_SOAT |OG4|",!collapse={"collapsed",2.178852932199999}]:0.119215,('MetazoaPlatyhelminthesEchinococcusmultilocularis_4605866__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_ | OG4 |':0.62198,('MetazoaCnidariaMyxozoaThelohanelluskitauei_3371308__SOAT1_CRIGR_Sterol_O-acyltransferase_1_OS_ | OG4 |':2.14093,'MetazoaRotiferaBrachionusplicatilis_5270612__SOAT1_CRIGR_Sterol_O-acyltransferase_1_OS_ | OG4 |':0.803714)[&label=1]:0.270971)[&label=1,!name="Rotifera_platyhelminthes_cnidaria |OG4|",!collapse={"collapsed",0.3363399321999978}]:0.168993)[&label=1]:0.077761)[&label=1]:0.087033)[&label=1]:0.059716)[&label=1]:0.066124)[&label=1]:0.055331)[&label=1]:0.042267)[&label=1]:0.114724)[&label=1]:0.029923)[&label=1]:0.129608)[&label=1]:0.125967)[&label=1]:0.160766)[&label=1]:0.085219)[&label=1]:0.124714)[&label=1]:0.223515)[&label=1]:0.544882)[&label=1,!name="SOAT |OG4|"]:0.11497)[&label=1]:0.119272)[&label=1]:0.290368)[&label=1,!rotate=true]:3.29701)[&!rotate=true];
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=81;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="label";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="label";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=10;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="increasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
