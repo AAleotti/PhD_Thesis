@@ -7,7 +7,7 @@
    version="1.1"
    id="svg817"
    sodipodi:docname="Figure_4.11.svg"
-   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -22,13 +22,13 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      showgrid="false"
-     inkscape:zoom="1.8298855"
-     inkscape:cx="378.98546"
-     inkscape:cy="343.73735"
-     inkscape:window-width="1920"
-     inkscape:window-height="1017"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
+     inkscape:zoom="3.659771"
+     inkscape:cx="479.67482"
+     inkscape:cy="387.45594"
+     inkscape:window-width="2880"
+     inkscape:window-height="1526"
+     inkscape:window-x="2869"
+     inkscape:window-y="-11"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg817"
      inkscape:document-units="mm">
@@ -3396,12 +3396,12 @@
        x="116.61375"
        y="540.43854"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.90594px;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke:none;stroke-width:0.738242"
-       id="tspan42195">Num of OGs total: 74</tspan><tspan
+       id="tspan42195">Num of OGs: TOT = 74 ; ≥2 seqs: 68</tspan><tspan
        sodipodi:role="line"
        x="116.61375"
        y="547.0827"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.90594px;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke:none;stroke-width:0.738242"
-       id="tspan12866">Num of OGs ≥2 seqs: 68</tspan></text>
+       id="tspan12866">Num of OGs / Num seqs: 0.016</tspan></text>
   <rect
      style="font-style:normal;font-weight:normal;font-size:12px;font-family:Dialog;opacity:0.7;color-interpolation:auto;fill:#e6b8af;fill-opacity:1;stroke:#000000;stroke-width:0.41461;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto"
      id="rect30723-6-1"
@@ -4553,7 +4553,7 @@
          xml:space="preserve"
          y="13"
          style="font-size:18.367px;stroke:none"
-         id="text16753">Holozoa_amoebozoa_CruMs_Diaphoretiches |OG25|</text>
+         id="text16753">Holozoa_amoebozoa_CRuMs_Diaphoretiches |OG25|</text>
     </g>
     <g
        style="font-style:normal;font-weight:normal;font-size:12px;font-family:sans-serif;color-interpolation:auto;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:optimizeLegibility"
@@ -5235,7 +5235,7 @@
          xml:space="preserve"
          y="13"
          style="font-size:18.367px;stroke:none"
-         id="text17001">CruMs_rotosphaerida_malawimonadidae_CP4 |OG43|</text>
+         id="text17001">CRuMs_rotosphaerida_malawimonadidae_CP4 |OG43|</text>
     </g>
     <g
        style="font-style:normal;font-weight:normal;font-size:12px;font-family:sans-serif;color-interpolation:auto;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:optimizeLegibility"
@@ -6889,7 +6889,7 @@
          xml:space="preserve"
          y="13"
          style="stroke:none"
-         id="text15415">Telonema_subtile</text>
+         id="text15415">Telonemia_subtile</text>
     </g>
     <g
        style="font-family:sans-serif;stroke-linecap:round;stroke-linejoin:round;text-rendering:optimizeLegibility"
@@ -6977,7 +6977,7 @@
          xml:space="preserve"
          y="13"
          style="stroke:none"
-         id="text15447">Holozoa_amoebozoa_CruMs_archaeplastida_telonemia</text>
+         id="text15447">Holozoa_amoebozoa_CRuMs_archaeplastida_telonemia</text>
     </g>
     <g
        style="font-family:sans-serif;stroke-linecap:round;stroke-linejoin:round;text-rendering:optimizeLegibility"

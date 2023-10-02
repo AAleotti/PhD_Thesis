@@ -22,14 +22,14 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      showgrid="false"
-     inkscape:zoom="2.5878488"
-     inkscape:cx="438.2018"
-     inkscape:cy="311.84202"
-     inkscape:window-width="2880"
+     inkscape:zoom="3.6597709"
+     inkscape:cx="138.94312"
+     inkscape:cy="417.51248"
+     inkscape:window-width="1440"
      inkscape:window-height="1526"
-     inkscape:window-x="2869"
+     inkscape:window-x="4309"
      inkscape:window-y="-11"
-     inkscape:window-maximized="1"
+     inkscape:window-maximized="0"
      inkscape:current-layer="svg817"
      inkscape:document-units="mm"
      showguides="false">
@@ -3401,12 +3401,12 @@
        x="116.61375"
        y="540.43854"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.90594px;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke:none;stroke-width:0.738242"
-       id="tspan42195">Num of OGs total: 7</tspan><tspan
+       id="tspan42195">Num of OGs: TOT = 7 ; ≥2 seqs = 6 </tspan><tspan
        sodipodi:role="line"
        x="116.61375"
        y="547.0827"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.90594px;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke:none;stroke-width:0.738242"
-       id="tspan33989">Num of OGs ≥2 seqs: 6</tspan></text>
+       id="tspan33989">Num of OGs / Num seqs: 0.021</tspan></text>
   <text
      xml:space="preserve"
      style="font-style:normal;font-variant:normal;font-weight:400;font-size:14.75px;line-height:125%;font-family:Calibri;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"

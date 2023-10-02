@@ -23,8 +23,8 @@
      inkscape:deskcolor="#d1d1d1"
      showgrid="false"
      inkscape:zoom="3.6597709"
-     inkscape:cx="414.78007"
-     inkscape:cy="469.97478"
+     inkscape:cx="389.23201"
+     inkscape:cy="502.49047"
      inkscape:window-width="2880"
      inkscape:window-height="1526"
      inkscape:window-x="2869"
@@ -3405,12 +3405,12 @@
        x="116.61375"
        y="540.43854"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.90594px;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke:none;stroke-width:0.738242"
-       id="tspan42195">Num of OGs total: 44</tspan><tspan
+       id="tspan42195">Num of OGs: TOT = 44 ; ≥2 seqs = 37</tspan><tspan
        sodipodi:role="line"
        x="116.61375"
        y="547.0827"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.90594px;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke:none;stroke-width:0.738242"
-       id="tspan33989">Num of OGs ≥2 seqs: 37 </tspan></text>
+       id="tspan33989">Num of OGs / Num seqs: 0.058  </tspan></text>
   <text
      xml:space="preserve"
      style="font-style:normal;font-variant:normal;font-weight:400;font-size:14.75px;line-height:125%;font-family:Calibri;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
@@ -5156,7 +5156,7 @@
          xml:space="preserve"
          y="11"
          style="stroke:none"
-         id="text14290">Cryptista_archaeplastida_haptista_amoebozoa_telonemia_CruMs_holozoa_excavata_BADH | OG12 |</text>
+         id="text14290">Cryptista_archaeplastida_haptista_amoebozoa_telonemia_CRuMs_holozoa_excavata_BADH | OG12 |</text>
     </g>
     <g
        transform="translate(605.0191,1261.1402)"
@@ -5728,7 +5728,7 @@
          xml:space="preserve"
          y="11"
          style="stroke:none"
-         id="text14498">Opisthokonta_amoebozoa_haptista_CruMs_Sar_telonemia | OG6 |</text>
+         id="text14498">Opisthokonta_amoebozoa_haptista_CRuMs_Sar_telonemia | OG6 |</text>
     </g>
     <g
        transform="translate(577.9375,414.1126)"
@@ -6135,7 +6135,7 @@
          xml:space="preserve"
          y="11"
          style="stroke:none"
-         id="text14646">Holomycota_CruMs_amoebozoa_malawimonadidae_glaucophyta_AL8A1 | OG19 |</text>
+         id="text14646">Holomycota_CRuMs_amoebozoa_malawimonadidae_glaucophyta_AL8A1 | OG19 |</text>
     </g>
     <g
        transform="translate(571.3433,213.9061)"
@@ -7533,7 +7533,7 @@
          xml:space="preserve"
          y="11"
          style="stroke:none"
-         id="text20098">Holomycota_amoebozoa_CruMs_malawimonadidae_glaucophyta_AL8A1</text>
+         id="text20098">Holomycota_amoebozoa_CRuMs_malawimonadidae_glaucophyta_AL8A1</text>
     </g>
     <g
        transform="translate(450.6188,899.5066)"
@@ -7918,7 +7918,7 @@
          xml:space="preserve"
          y="11"
          style="stroke:none"
-         id="text20238">Holozoa_excavata_CruMs_telonemia_haptista_amoebozoa_archaeplastida_cryptista_BADH</text>
+         id="text20238">Holozoa_excavata_CRuMs_telonemia_haptista_amoebozoa_archaeplastida_cryptista_BADH</text>
     </g>
     <g
        transform="translate(398.9807,728.5748)"
