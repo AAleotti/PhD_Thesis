@@ -8,7 +8,7 @@
    version="1.1"
    id="svg5"
    inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
-   sodipodi:docname="Figure_4.1.svg"
+   sodipodi:docname="Figure_4.15_summary.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -26,8 +26,8 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="1.9855336"
-     inkscape:cx="362.62292"
-     inkscape:cy="334.41891"
+     inkscape:cx="384.53139"
+     inkscape:cy="385.7905"
      inkscape:window-width="2880"
      inkscape:window-height="1526"
      inkscape:window-x="2869"
@@ -728,137 +728,124 @@
          x="87.724297"
          y="171.39688" /></text>
     <g
-       id="g28323"
-       inkscape:export-filename="fIGURE_4.1.png"
-       inkscape:export-xdpi="600"
-       inkscape:export-ydpi="600">
+       id="g98376">
       <g
-         id="g27442">
+         id="g92358"
+         transform="matrix(0.79410315,0,0,0.79410315,22.130329,-3.687785)">
         <circle
-           style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers stroke fill"
+           style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers stroke fill"
            id="path2501"
            cx="80.078247"
            cy="132.10468"
            r="0.98490185" />
         <circle
-           style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers stroke fill"
+           style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers stroke fill"
            id="path2501-3"
            cx="80.078247"
            cy="111.28078"
            r="0.98490185" />
         <circle
-           style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+           style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
            id="path2501-4"
            cx="46.736038"
            cy="152.74016"
            r="0.98490185" />
         <circle
-           style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers stroke fill"
+           style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers stroke fill"
            id="path2501-48"
            cx="46.736038"
            cy="132.10469"
            r="0.98490185" />
         <circle
-           style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers stroke fill"
+           style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers stroke fill"
            id="path2501-39"
            cx="46.736038"
            cy="111.09232"
            r="0.98490185" />
         <circle
-           style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers stroke fill"
+           style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers stroke fill"
            id="path2501-96"
            cx="46.736038"
            cy="90.456856"
            r="0.98490185" />
         <circle
-           style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers stroke fill"
+           style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers stroke fill"
            id="path2501-13"
            cx="24.019651"
            cy="77.080215"
            r="0.98490185" />
         <circle
-           style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers stroke fill"
+           style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers stroke fill"
            id="path2501-42"
            cx="24.019651"
            cy="70.383293"
            r="0.98490185" />
         <circle
-           style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.2;paint-order:markers stroke fill;stroke-dasharray:none"
+           style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers stroke fill"
            id="path2501-95"
            cx="46.736038"
            cy="60.7757"
            r="0.98490185" />
         <circle
-           style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers stroke fill"
+           style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers stroke fill"
            id="path2501-30"
            cx="68.466034"
            cy="76.794106"
            r="0.98490185" />
         <circle
-           style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers stroke fill"
+           style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers stroke fill"
            id="path2501-8"
            cx="80.078247"
            cy="90.456856"
            r="0.98490185" />
         <circle
-           style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers stroke fill"
+           style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers stroke fill"
            id="path2501-91"
            cx="80.078247"
            cy="76.794106"
            r="0.98490185" />
         <circle
-           style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers stroke fill"
+           style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers stroke fill"
            id="path2501-7"
            cx="79.99778"
            cy="60.7757"
            r="0.98490185" />
         <circle
-           style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers stroke fill"
+           style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers stroke fill"
            id="path2501-45"
            cx="119.28997"
            cy="60.7757"
            r="0.98490185" />
         <circle
-           style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers stroke fill"
+           style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers stroke fill"
            id="path2501-5"
            cx="119.28997"
            cy="77.170998"
            r="0.98490185" />
         <circle
-           style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.2;paint-order:markers stroke fill;stroke-dasharray:none"
+           style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers stroke fill"
            id="path2501-02"
            cx="150.00761"
            cy="77.170998"
            r="0.98490185" />
         <circle
-           style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers stroke fill"
+           style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers stroke fill"
            id="path2501-022"
            cx="150.56021"
            cy="97.946899"
            r="0.98490185" />
         <circle
-           style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers stroke fill"
+           style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers stroke fill"
            id="path2501-61"
            cx="150.56021"
            cy="109.48154"
            r="0.98490185" />
         <circle
-           style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers stroke fill"
+           style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers stroke fill"
            id="path2501-98"
            cx="150.56021"
            cy="118.60342"
            r="0.98490185" />
-        <text
-           xml:space="preserve"
-           style="font-weight:300;font-size:2.46944px;line-height:15.5703px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0.264583"
-           x="73.119286"
-           y="135.77951"
-           id="text2959"><tspan
-             sodipodi:role="line"
-             id="tspan2957"
-             style="fill:#000000;fill-opacity:1;stroke-width:0.264583"
-             x="73.119286"
-             y="135.77951">11-cis Retinal</tspan></text>
         <text
            xml:space="preserve"
            style="font-weight:300;font-size:2.46944px;line-height:15.5703px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0.264583"
@@ -1144,18 +1131,23 @@
            xml:space="preserve"
            style="font-weight:300;font-size:2.46944px;line-height:2.82222px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0.264583"
            x="182.14378"
-           y="76.590065"
+           y="75.178955"
            id="text2959-66-9-2"><tspan
              sodipodi:role="line"
              style="fill:#000000;fill-opacity:1;stroke-width:0.264583"
              x="182.14378"
-             y="76.590065"
+             y="75.178955"
              id="tspan5622-2-7">all-trans-4-</tspan><tspan
              sodipodi:role="line"
              style="fill:#000000;fill-opacity:1;stroke-width:0.264583"
              x="182.14378"
-             y="79.412285"
-             id="tspan26776">Oxoretinoic acid</tspan></text>
+             y="78.001175"
+             id="tspan26776">Oxoretinoic </tspan><tspan
+             sodipodi:role="line"
+             style="fill:#000000;fill-opacity:1;stroke-width:0.264583"
+             x="182.14378"
+             y="80.823395"
+             id="tspan92034">acid</tspan></text>
         <text
            xml:space="preserve"
            style="font-weight:300;font-size:2.46944px;line-height:2.82222px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0.264583"
@@ -1277,30 +1269,58 @@
              y="70.401016"
              id="tspan6873">biosynthesis</tspan></text>
         <g
-           id="g3008"
-           transform="translate(0,-0.0998241)">
-          <text
-             xml:space="preserve"
-             style="font-weight:300;font-size:3.52777px;line-height:22.2433px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0.264583"
-             x="62.966709"
-             y="59.362309"
-             id="text288"><tspan
-               sodipodi:role="line"
-               id="tspan286"
-               style="text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.264583"
+           id="g91588">
+          <g
+             id="g91579"
+             transform="translate(-7.3550668,8.1771787)">
+            <rect
+               style="fill:#f4cccc;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-dasharray:none;paint-order:markers fill stroke"
+               id="rect529-4-9-1-9-3-3-1-4"
+               width="5.25"
+               height="4"
+               x="65.17598"
+               y="47.970821" />
+            <rect
+               style="fill:#fce5cd;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-dasharray:none;paint-order:markers fill stroke"
+               id="rect529-4-9-1-9-3-3-4-7-4"
+               width="5.25"
+               height="4"
+               x="70.426003"
+               y="47.970821" />
+          </g>
+          <g
+             id="g3008"
+             transform="translate(0,-0.0998241)">
+            <text
+               xml:space="preserve"
+               style="font-weight:300;font-size:3.52777px;line-height:22.2433px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0.264583"
                x="62.966709"
-               y="59.362309">DHRS4</tspan></text>
-          <rect
-             style="fill:none;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers stroke fill"
-             id="rect529-4-9-1"
-             width="10.269"
-             height="3.8000002"
-             x="57.936424"
-             y="56.347824" />
+               y="59.362309"
+               id="text288"><tspan
+                 sodipodi:role="line"
+                 id="tspan286"
+                 style="text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.264583"
+                 x="62.966709"
+                 y="59.362309">DHRS4</tspan></text>
+            <rect
+               style="fill:none;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers stroke fill"
+               id="rect529-4-9-1"
+               width="10.269"
+               height="3.8000002"
+               x="57.936424"
+               y="56.347824" />
+          </g>
         </g>
         <g
            id="g3062"
            transform="translate(0.17771912,0.3997981)">
+          <rect
+             style="fill:#d0e0e3;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers stroke fill"
+             id="rect529-4-9-1-7"
+             width="12.3"
+             height="3.8"
+             x="95.708176"
+             y="77.438202" />
           <text
              xml:space="preserve"
              style="font-weight:300;font-size:3.52777px;line-height:22.2433px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0.264583"
@@ -1312,61 +1332,103 @@
                style="text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.264583"
                x="101.85892"
                y="80.454407">ALDH1A</tspan></text>
-          <rect
-             style="fill:none;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers stroke fill"
-             id="rect529-4-9-1-7"
-             width="12.3"
-             height="3.8"
-             x="95.708176"
-             y="77.438202" />
         </g>
         <g
-           id="g3013"
-           transform="translate(-0.33311939,0.09965006)">
-          <text
-             xml:space="preserve"
-             style="font-weight:300;font-size:3.52777px;line-height:22.2433px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0.264583"
-             x="63.404045"
-             y="64.245834"
-             id="text288-5"><tspan
-               sodipodi:role="line"
-               id="tspan286-3"
-               style="text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.264583"
+           id="g91489">
+          <g
+             id="g90939-2-0"
+             transform="translate(-0.3610817,-68.873692)">
+            <rect
+               style="fill:#f4cccc;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-dasharray:none;paint-order:markers fill stroke"
+               id="rect529-4-9-1-9-3-3-1-0"
+               width="4.0500002"
+               height="4"
+               x="59.407013"
+               y="130.10469" />
+            <rect
+               style="fill:#fce5cd;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-dasharray:none;paint-order:markers fill stroke"
+               id="rect529-4-9-1-9-3-3-4-7-1"
+               width="4.0500002"
+               height="4"
+               x="63.407001"
+               y="130.10469" />
+          </g>
+          <g
+             id="g3013"
+             transform="translate(-0.33311939,0.09965006)">
+            <text
+               xml:space="preserve"
+               style="font-weight:300;font-size:3.52777px;line-height:22.2433px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0.264583"
                x="63.404045"
-               y="64.245834">RDH</tspan></text>
-          <rect
-             style="fill:none;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers stroke fill"
-             id="rect529-4-9-1-9"
-             width="7.8000002"
-             height="3.8000002"
-             x="59.504044"
-             y="61.23135" />
+               y="64.245834"
+               id="text288-5"><tspan
+                 sodipodi:role="line"
+                 id="tspan286-3"
+                 style="text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.264583"
+                 x="63.404045"
+                 y="64.245834">RDH</tspan></text>
+            <rect
+               style="fill:none;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers stroke fill"
+               id="rect529-4-9-1-9"
+               width="7.8000002"
+               height="3.8000002"
+               x="59.504044"
+               y="61.23135" />
+          </g>
         </g>
         <g
-           id="g3023"
-           transform="translate(0.16564152,0.99121412)">
-          <text
-             xml:space="preserve"
-             style="font-weight:300;font-size:3.52777px;line-height:22.2433px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0.264583"
-             x="56.79636"
-             y="93.17318"
-             id="text288-5-8"><tspan
-               sodipodi:role="line"
-               id="tspan286-3-8"
-               style="text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.264583"
+           id="g91448">
+          <g
+             id="g90939-2-7"
+             transform="translate(-6.4700059,-39.054783)">
+            <rect
+               style="fill:#f4cccc;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-dasharray:none;paint-order:markers fill stroke"
+               id="rect529-4-9-1-9-3-3-1-1"
+               width="4.0500002"
+               height="4"
+               x="59.407013"
+               y="130.10469" />
+            <rect
+               style="fill:#fce5cd;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-dasharray:none;paint-order:markers fill stroke"
+               id="rect529-4-9-1-9-3-3-4-7-2"
+               width="4.0500002"
+               height="4"
+               x="63.407001"
+               y="130.10469" />
+          </g>
+          <g
+             id="g3023"
+             transform="translate(0.16564152,0.99121412)">
+            <text
+               xml:space="preserve"
+               style="font-weight:300;font-size:3.52777px;line-height:22.2433px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0.264583"
                x="56.79636"
-               y="93.17318">RDH</tspan></text>
-          <rect
-             style="fill:none;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers stroke fill"
-             id="rect529-4-9-1-9-4"
-             width="7.8000002"
-             height="3.8000002"
-             x="52.896358"
-             y="90.158691" />
+               y="93.17318"
+               id="text288-5-8"><tspan
+                 sodipodi:role="line"
+                 id="tspan286-3-8"
+                 style="text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.264583"
+                 x="56.79636"
+                 y="93.17318">RDH</tspan></text>
+            <rect
+               style="fill:none;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers stroke fill"
+               id="rect529-4-9-1-9-4"
+               width="7.8000002"
+               height="3.8000002"
+               x="52.896358"
+               y="90.158691" />
+          </g>
         </g>
         <g
            id="g3018"
            transform="translate(0.19974491,0.13969733)">
+          <rect
+             style="fill:#d9ead3;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers stroke fill"
+             id="rect529-4-9-1-9-4-6"
+             width="7.8000002"
+             height="3.8000002"
+             x="52.862255"
+             y="85.824303" />
           <text
              xml:space="preserve"
              style="font-weight:300;font-size:3.52777px;line-height:22.2433px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0.264583"
@@ -1378,39 +1440,60 @@
                x="56.890583"
                y="88.838791"
                id="tspan1702">ADH</tspan></text>
-          <rect
-             style="fill:none;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers stroke fill"
-             id="rect529-4-9-1-9-4-6"
-             width="7.8000002"
-             height="3.8000002"
-             x="52.862255"
-             y="85.824303" />
         </g>
         <g
-           id="g2963"
-           transform="translate(-0.25949736,-0.09422302)">
-          <text
-             xml:space="preserve"
-             style="font-weight:300;font-size:3.52777px;line-height:22.2433px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0.264583"
-             x="41.554359"
-             y="146.88367"
-             id="text288-0-2"><tspan
-               sodipodi:role="line"
-               id="tspan286-6-41"
-               style="text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.264583"
+           id="g88492">
+          <g
+             id="g88483"
+             transform="translate(0.8331606,-21.027715)">
+            <rect
+               style="fill:#d9d9d9;fill-opacity:1;stroke:none;stroke-width:0.200001;stroke-dasharray:none;paint-order:markers stroke fill"
+               id="rect529-4-9-1-9-3-2-75"
+               width="4.5"
+               height="3.799999"
+               x="36.10968"
+               y="164.80267" />
+            <rect
+               style="fill:#cfe2f3;fill-opacity:1;stroke:none;stroke-width:0.200001;stroke-dasharray:none;paint-order:markers stroke fill"
+               id="rect529-4-9-1-9-3-2-75-9"
+               width="4.5"
+               height="3.799999"
+               x="40.610001"
+               y="164.80267" />
+          </g>
+          <g
+             id="g2963"
+             transform="translate(-0.25949736,-0.09422302)">
+            <text
+               xml:space="preserve"
+               style="font-weight:300;font-size:3.52777px;line-height:22.2433px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0.264583"
                x="41.554359"
-               y="146.88367">DGAT</tspan></text>
-          <rect
-             style="fill:none;stroke:#000000;stroke-width:0.200001;stroke-dasharray:none;paint-order:markers stroke fill"
-             id="rect529-4-9-1-9-3-2"
-             width="8.7999992"
-             height="3.8000002"
-             x="37.302498"
-             y="143.86919" />
+               y="146.88367"
+               id="text288-0-2"><tspan
+                 sodipodi:role="line"
+                 id="tspan286-6-41"
+                 style="text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.264583"
+                 x="41.554359"
+                 y="146.88367">DGAT</tspan></text>
+            <rect
+               style="fill:none;stroke:#000000;stroke-width:0.200001;stroke-dasharray:none;paint-order:markers stroke fill"
+               id="rect529-4-9-1-9-3-2"
+               width="8.7999992"
+               height="3.8000002"
+               x="37.302498"
+               y="143.86919" />
+          </g>
         </g>
         <g
            id="g2953"
            transform="translate(-0.19411199)">
+          <rect
+             style="fill:#b4a7d6;fill-opacity:1;stroke:#000000;stroke-width:0.200001;stroke-dasharray:none;paint-order:markers stroke fill"
+             id="rect529-4-9-1-9-3-2-4"
+             width="8.2999992"
+             height="3.8000002"
+             x="47.823112"
+             y="143.77496" />
           <text
              xml:space="preserve"
              style="font-weight:300;font-size:3.52777px;line-height:22.2433px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0.264583"
@@ -1422,39 +1505,60 @@
                style="text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.264583"
                x="51.824974"
                y="146.78944">LRAT</tspan></text>
-          <rect
-             style="fill:none;stroke:#000000;stroke-width:0.200001;stroke-dasharray:none;paint-order:markers stroke fill"
-             id="rect529-4-9-1-9-3-2-4"
-             width="8.2999992"
-             height="3.8000002"
-             x="47.823112"
-             y="143.77496" />
         </g>
         <g
-           id="g2983"
-           transform="translate(-0.35371657)">
-          <text
-             xml:space="preserve"
-             style="font-weight:300;font-size:3.52777px;line-height:22.2433px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0.264583"
-             x="41.648579"
-             y="105.14159"
-             id="text288-0-36"><tspan
-               sodipodi:role="line"
-               id="tspan286-6-6"
-               style="text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.264583"
+           id="g88590">
+          <g
+             id="g88483-6"
+             transform="translate(0.8331606,-62.675572)">
+            <rect
+               style="fill:#d9d9d9;fill-opacity:1;stroke:none;stroke-width:0.200001;stroke-dasharray:none;paint-order:markers stroke fill"
+               id="rect529-4-9-1-9-3-2-75-1"
+               width="4.5"
+               height="3.799999"
+               x="36.10968"
+               y="164.80267" />
+            <rect
+               style="fill:#cfe2f3;fill-opacity:1;stroke:none;stroke-width:0.200001;stroke-dasharray:none;paint-order:markers stroke fill"
+               id="rect529-4-9-1-9-3-2-75-9-1"
+               width="4.5"
+               height="3.799999"
+               x="40.610001"
+               y="164.80267" />
+          </g>
+          <g
+             id="g2983"
+             transform="translate(-0.35371657)">
+            <text
+               xml:space="preserve"
+               style="font-weight:300;font-size:3.52777px;line-height:22.2433px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0.264583"
                x="41.648579"
-               y="105.14159">DGAT</tspan></text>
-          <rect
-             style="fill:none;stroke:#000000;stroke-width:0.200001;stroke-dasharray:none;paint-order:markers stroke fill"
-             id="rect529-4-9-1-9-3-2-9"
-             width="8.7999992"
-             height="3.8000002"
-             x="37.396717"
-             y="102.1271" />
+               y="105.14159"
+               id="text288-0-36"><tspan
+                 sodipodi:role="line"
+                 id="tspan286-6-6"
+                 style="text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.264583"
+                 x="41.648579"
+                 y="105.14159">DGAT</tspan></text>
+            <rect
+               style="fill:none;stroke:#000000;stroke-width:0.200001;stroke-dasharray:none;paint-order:markers stroke fill"
+               id="rect529-4-9-1-9-3-2-9"
+               width="8.7999992"
+               height="3.8000002"
+               x="37.396717"
+               y="102.1271" />
+          </g>
         </g>
         <g
            id="g2978"
            transform="translate(-0.1941158,-0.09423065)">
+          <rect
+             style="fill:#b4a7d6;fill-opacity:1;stroke:#000000;stroke-width:0.200001;stroke-dasharray:none;paint-order:markers stroke fill"
+             id="rect529-4-9-1-9-3-2-4-9"
+             width="8.2999992"
+             height="3.8000002"
+             x="47.823116"
+             y="102.22133" />
           <text
              xml:space="preserve"
              style="font-weight:300;font-size:3.52777px;line-height:22.2433px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0.264583"
@@ -1466,39 +1570,60 @@
                style="text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.264583"
                x="51.824978"
                y="105.23582">LRAT</tspan></text>
-          <rect
-             style="fill:none;stroke:#000000;stroke-width:0.200001;stroke-dasharray:none;paint-order:markers stroke fill"
-             id="rect529-4-9-1-9-3-2-4-9"
-             width="8.2999992"
-             height="3.8000002"
-             x="47.823116"
-             y="102.22133" />
         </g>
         <g
-           id="g3031"
-           transform="translate(-1.7332835,1.2738913)">
-          <text
-             xml:space="preserve"
-             style="font-weight:300;font-size:3.52777px;line-height:22.2433px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0.264583"
-             x="67.277283"
-             y="92.890503"
-             id="text288-5-0"><tspan
-               sodipodi:role="line"
-               id="tspan286-3-5"
-               style="text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.264583"
+           id="g91536">
+          <g
+             id="g91495-0"
+             transform="translate(-5.3485545,-78.116825)">
+            <rect
+               style="fill:#f4cccc;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-dasharray:none;paint-order:markers fill stroke"
+               id="rect529-4-9-1-9-3-3-1-11"
+               width="4.25"
+               height="4"
+               x="66.733696"
+               y="169.16673" />
+            <rect
+               style="fill:#fce5cd;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-dasharray:none;paint-order:markers fill stroke"
+               id="rect529-4-9-1-9-3-3-4-7-0"
+               width="4.25"
+               height="4"
+               x="70.984001"
+               y="169.16673" />
+          </g>
+          <g
+             id="g3031"
+             transform="translate(-1.7332835,1.2738913)">
+            <text
+               xml:space="preserve"
+               style="font-weight:300;font-size:3.52777px;line-height:22.2433px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0.264583"
                x="67.277283"
-               y="92.890503">DHRS</tspan></text>
-          <rect
-             style="fill:none;stroke:#000000;stroke-width:0.200001;stroke-dasharray:none;paint-order:markers stroke fill"
-             id="rect529-4-9-1-9-3-2-4-99"
-             width="8.2999992"
-             height="3.8000002"
-             x="63.218578"
-             y="89.876015" />
+               y="92.890503"
+               id="text288-5-0"><tspan
+                 sodipodi:role="line"
+                 id="tspan286-3-5"
+                 style="text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.264583"
+                 x="67.277283"
+                 y="92.890503">DHRS</tspan></text>
+            <rect
+               style="fill:none;stroke:#000000;stroke-width:0.200001;stroke-dasharray:none;paint-order:markers stroke fill"
+               id="rect529-4-9-1-9-3-2-4-99"
+               width="8.2999992"
+               height="3.8000002"
+               x="63.218578"
+               y="89.876015" />
+          </g>
         </g>
         <g
            id="g3047"
            transform="translate(0.01377416,-0.23586001)">
+          <rect
+             style="fill:#c9daf8;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers stroke fill"
+             id="rect529-4-9-1-9-4-1"
+             width="7.4000001"
+             height="3.8000002"
+             x="98.322121"
+             y="56.48386" />
           <text
              xml:space="preserve"
              style="font-weight:300;font-size:3.52777px;line-height:22.2433px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0.264583"
@@ -1510,17 +1635,17 @@
                style="text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.264583"
                x="102.03665"
                y="59.498344">AOX</tspan></text>
-          <rect
-             style="fill:none;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers stroke fill"
-             id="rect529-4-9-1-9-4-1"
-             width="7.4000001"
-             height="3.8000002"
-             x="98.322121"
-             y="56.48386" />
         </g>
         <g
            id="g3057"
            transform="translate(-0.104985)">
+          <rect
+             style="fill:#c9daf8;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers stroke fill"
+             id="rect529-4-9-1-9-4-1-0"
+             width="7.4000001"
+             height="3.8000002"
+             x="98.44088"
+             y="72.726898" />
           <text
              xml:space="preserve"
              style="font-weight:300;font-size:3.52777px;line-height:22.2433px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0.264583"
@@ -1532,17 +1657,17 @@
                style="text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.264583"
                x="102.15541"
                y="75.741386">AOX</tspan></text>
-          <rect
-             style="fill:none;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers stroke fill"
-             id="rect529-4-9-1-9-4-1-0"
-             width="7.4000001"
-             height="3.8000002"
-             x="98.44088"
-             y="72.726898" />
         </g>
         <g
            id="g3052"
            transform="translate(0,-0.27552542)">
+          <rect
+             style="fill:#d0e0e3;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers stroke fill"
+             id="rect529-4-9-1-7-6"
+             width="12.3"
+             height="3.8"
+             x="95.885895"
+             y="61.606525" />
           <text
              xml:space="preserve"
              style="font-weight:300;font-size:3.52777px;line-height:22.2433px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0.264583"
@@ -1554,42 +1679,63 @@
                style="text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.264583"
                x="102.03664"
                y="64.622734">ALDH1A</tspan></text>
-          <rect
-             style="fill:none;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers stroke fill"
-             id="rect529-4-9-1-7-6"
-             width="12.3"
-             height="3.8"
-             x="95.885895"
-             y="61.606525" />
         </g>
         <g
-           id="g3037"
-           transform="translate(0,0.32795728)">
-          <text
-             xml:space="preserve"
-             style="font-weight:300;font-size:3.52777px;line-height:22.2433px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0.264583"
-             x="67.371513"
-             y="88.650337"
-             id="text288-5-9"><tspan
-               sodipodi:role="line"
-               id="tspan286-3-9"
-               style="text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.264583"
-               x="67.371513"
-               y="88.650337">SDR16C</tspan></text>
+           id="g91552">
           <g
-             id="g3026">
+             id="g91542"
+             transform="translate(-5.3484015,-83.302927)">
             <rect
-               style="fill:none;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers stroke fill"
-               id="rect529-4-9-1-7-7"
-               width="11.8"
-               height="3.8"
-               x="61.485294"
-               y="85.635849" />
+               style="fill:#f4cccc;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-dasharray:none;paint-order:markers fill stroke"
+               id="rect529-4-9-1-9-3-3-1"
+               width="6"
+               height="4"
+               x="66.733696"
+               y="169.16673" />
+            <rect
+               style="fill:#fce5cd;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-dasharray:none;paint-order:markers fill stroke"
+               id="rect529-4-9-1-9-3-3-4-7"
+               width="6"
+               height="4"
+               x="72.733696"
+               y="169.16673" />
+          </g>
+          <g
+             id="g3037"
+             transform="translate(0,0.32795728)">
+            <text
+               xml:space="preserve"
+               style="font-weight:300;font-size:3.52777px;line-height:22.2433px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0.264583"
+               x="67.371513"
+               y="88.650337"
+               id="text288-5-9"><tspan
+                 sodipodi:role="line"
+                 id="tspan286-3-9"
+                 style="text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.264583"
+                 x="67.371513"
+                 y="88.650337">SDR16C</tspan></text>
+            <g
+               id="g3026">
+              <rect
+                 style="fill:none;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers stroke fill"
+                 id="rect529-4-9-1-7-7"
+                 width="11.8"
+                 height="3.8"
+                 x="61.485294"
+                 y="85.635849" />
+            </g>
           </g>
         </g>
         <g
            id="g3132"
            transform="translate(0,-0.23740234)">
+          <rect
+             style="fill:#e6b8af;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers stroke fill"
+             id="rect529-4-9-1-7-5-3"
+             width="9.8000002"
+             height="3.8"
+             x="156.41472"
+             y="72.915352" />
           <text
              xml:space="preserve"
              style="font-weight:300;font-size:3.52777px;line-height:22.2433px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0.264583"
@@ -1601,17 +1747,17 @@
                style="text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.264583"
                x="161.30093"
                y="75.92984">CYP26</tspan></text>
-          <rect
-             style="fill:none;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers stroke fill"
-             id="rect529-4-9-1-7-5-3"
-             width="9.8000002"
-             height="3.8"
-             x="156.41472"
-             y="72.915352" />
         </g>
         <g
            id="g3142"
            transform="translate(-0.30680116,0.2374082)">
+          <rect
+             style="fill:#e6b8af;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers stroke fill"
+             id="rect529-4-9-1-7-5-4"
+             width="9.8000002"
+             height="3.8"
+             x="167.25069"
+             y="77.62664" />
           <text
              xml:space="preserve"
              style="font-weight:300;font-size:3.52777px;line-height:22.2433px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0.264583"
@@ -1623,17 +1769,17 @@
                style="text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.264583"
                x="172.09372"
                y="80.641129">CYP3A</tspan></text>
-          <rect
-             style="fill:none;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers stroke fill"
-             id="rect529-4-9-1-7-5-4"
-             width="9.8000002"
-             height="3.8"
-             x="167.25069"
-             y="77.62664" />
         </g>
         <g
            id="g3137"
            transform="translate(-0.02413209,-0.42585601)">
+          <rect
+             style="fill:#e6b8af;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers stroke fill"
+             id="rect529-4-9-1-7-5-7"
+             width="9.8000002"
+             height="3.8"
+             x="166.96802"
+             y="73.103806" />
           <text
              xml:space="preserve"
              style="font-weight:300;font-size:3.52777px;line-height:22.2433px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0.264583"
@@ -1645,17 +1791,17 @@
                style="text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.264583"
                x="171.81105"
                y="76.118294">CYP1A</tspan></text>
-          <rect
-             style="fill:none;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers stroke fill"
-             id="rect529-4-9-1-7-5-7"
-             width="9.8000002"
-             height="3.8"
-             x="166.96802"
-             y="73.103806" />
         </g>
         <g
            id="g3147"
            transform="translate(0.40576172,0.52006964)">
+          <rect
+             style="fill:#e6b8af;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers stroke fill"
+             id="rect529-4-9-1-7-5-5-1"
+             width="8.8000002"
+             height="3.8"
+             x="157.00896"
+             y="77.343979" />
           <text
              xml:space="preserve"
              style="font-weight:300;font-size:3.52777px;line-height:22.2433px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0.264583"
@@ -1667,13 +1813,6 @@
                style="text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.264583"
                x="161.42963"
                y="80.361908">CYP2</tspan></text>
-          <rect
-             style="fill:none;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers stroke fill"
-             id="rect529-4-9-1-7-5-5-1"
-             width="8.8000002"
-             height="3.8"
-             x="157.00896"
-             y="77.343979" />
         </g>
         <g
            id="g23727"
@@ -1681,6 +1820,13 @@
           <g
              id="g3122"
              transform="translate(0.18393341,4.4444982)">
+            <rect
+               style="fill:#e6b8af;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers stroke fill"
+               id="rect529-4-9-1-7-5-6"
+               width="9.8000002"
+               height="3.8"
+               x="127.86427"
+               y="105.5175" />
             <text
                xml:space="preserve"
                style="font-weight:300;font-size:3.52777px;line-height:22.2433px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0.264583"
@@ -1692,17 +1838,17 @@
                  style="text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.264583"
                  x="132.70731"
                  y="108.53199">CYP3A</tspan></text>
-            <rect
-               style="fill:none;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers stroke fill"
-               id="rect529-4-9-1-7-5-6"
-               width="9.8000002"
-               height="3.8"
-               x="127.86427"
-               y="105.5175" />
           </g>
           <g
              id="g3117"
              transform="translate(0.08971039,4.2448338)">
+            <rect
+               style="fill:#e6b8af;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers stroke fill"
+               id="rect529-4-9-1-7-5-5-6"
+               width="8.8000002"
+               height="3.8"
+               x="128.4585"
+               y="101.0889" />
             <text
                xml:space="preserve"
                style="font-weight:300;font-size:3.52777px;line-height:22.2433px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0.264583"
@@ -1714,13 +1860,6 @@
                  style="text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.264583"
                  x="132.87917"
                  y="104.10683">CYP2</tspan></text>
-            <rect
-               style="fill:none;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers stroke fill"
-               id="rect529-4-9-1-7-5-5-6"
-               width="8.8000002"
-               height="3.8"
-               x="128.4585"
-               y="101.0889" />
           </g>
         </g>
         <g
@@ -1729,6 +1868,13 @@
           <g
              id="g3092"
              transform="translate(-0.09875091,2.8504277)">
+            <rect
+               style="fill:#e6b8af;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers stroke fill"
+               id="rect529-4-9-1-7-5-0"
+               width="9.8000002"
+               height="3.8"
+               x="128.14696"
+               y="86.483879" />
             <text
                xml:space="preserve"
                style="font-weight:300;font-size:3.52777px;line-height:22.2433px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0.264583"
@@ -1740,17 +1886,17 @@
                  style="text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.264583"
                  x="133.03317"
                  y="89.498367">CYP26</tspan></text>
-            <rect
-               style="fill:none;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers stroke fill"
-               id="rect529-4-9-1-7-5-0"
-               width="9.8000002"
-               height="3.8"
-               x="128.14696"
-               y="86.483879" />
           </g>
           <g
              id="g3107"
              transform="translate(1.841553,3.9114586)">
+            <rect
+               style="fill:#e6b8af;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers stroke fill"
+               id="rect529-4-9-1-7-5-8"
+               width="9.8000002"
+               height="3.8"
+               x="120.94207"
+               y="94.681541" />
             <text
                xml:space="preserve"
                style="font-weight:300;font-size:3.52777px;line-height:22.2433px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0.264583"
@@ -1762,17 +1908,17 @@
                  style="text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.264583"
                  x="125.78513"
                  y="97.69603">CYP3A</tspan></text>
-            <rect
-               style="fill:none;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers stroke fill"
-               id="rect529-4-9-1-7-5-8"
-               width="9.8000002"
-               height="3.8"
-               x="120.94207"
-               y="94.681541" />
           </g>
           <g
              id="g3102"
              transform="translate(0,3.1394209)">
+            <rect
+               style="fill:#e6b8af;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers stroke fill"
+               id="rect529-4-9-1-7-5-5-4"
+               width="8.8000002"
+               height="3.8"
+               x="133.26402"
+               y="90.724052" />
             <text
                xml:space="preserve"
                style="font-weight:300;font-size:3.52777px;line-height:22.2433px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0.264583"
@@ -1784,17 +1930,17 @@
                  style="text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.264583"
                  x="137.68469"
                  y="93.741982">CYP2</tspan></text>
-            <rect
-               style="fill:none;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers stroke fill"
-               id="rect529-4-9-1-7-5-5-4"
-               width="8.8000002"
-               height="3.8"
-               x="133.26402"
-               y="90.724052" />
           </g>
           <g
              id="g3097"
              transform="translate(-0.44039123,3.3278899)">
+            <rect
+               style="fill:#e6b8af;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers stroke fill"
+               id="rect529-4-9-1-7-5-5-8"
+               width="11.3"
+               height="3.8"
+               x="121.67525"
+               y="90.535583" />
             <text
                xml:space="preserve"
                style="font-weight:300;font-size:3.52777px;line-height:22.2433px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0.264583"
@@ -1806,17 +1952,17 @@
                  style="text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.264583"
                  x="127.33644"
                  y="93.550072">CYP1A1</tspan></text>
-            <rect
-               style="fill:none;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers stroke fill"
-               id="rect529-4-9-1-7-5-5-8"
-               width="11.3"
-               height="3.8"
-               x="121.67525"
-               y="90.535583" />
           </g>
           <g
              id="g3112"
              transform="translate(1.2362213,3.9114662)">
+            <rect
+               style="fill:#e6b8af;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers stroke fill"
+               id="rect529-4-9-1-7-5-5-8-8"
+               width="13.3"
+               height="3.8"
+               x="132.07657"
+               y="94.681534" />
             <text
                xml:space="preserve"
                style="font-weight:300;font-size:3.52777px;line-height:22.2433px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0.264583"
@@ -1828,13 +1974,6 @@
                  style="text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.264583"
                  x="138.73776"
                  y="97.696022">CYP4A11</tspan></text>
-            <rect
-               style="fill:none;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers stroke fill"
-               id="rect529-4-9-1-7-5-5-8-8"
-               width="13.3"
-               height="3.8"
-               x="132.07657"
-               y="94.681534" />
           </g>
         </g>
         <g
@@ -1844,6 +1983,13 @@
             <g
                id="g3067"
                transform="translate(0.20332368,-0.42758026)">
+              <rect
+                 style="fill:#e6b8af;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers stroke fill"
+                 id="rect529-4-9-1-7-5"
+                 width="9.8000002"
+                 height="3.8"
+                 x="122.5803"
+                 y="73.10553" />
               <text
                  xml:space="preserve"
                  style="font-weight:300;font-size:3.52777px;line-height:22.2433px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0.264583"
@@ -1855,17 +2001,17 @@
                    style="text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.264583"
                    x="127.46652"
                    y="76.120018">CYP26</tspan></text>
-              <rect
-                 style="fill:none;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers stroke fill"
-                 id="rect529-4-9-1-7-5"
-                 width="9.8000002"
-                 height="3.8"
-                 x="122.5803"
-                 y="73.10553" />
             </g>
             <g
                id="g3072"
                transform="translate(0,-0.33506622)">
+              <rect
+                 style="fill:#e6b8af;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers stroke fill"
+                 id="rect529-4-9-1-7-5-9"
+                 width="9.8000002"
+                 height="3.8"
+                 x="133.31279"
+                 y="73.013016" />
               <text
                  xml:space="preserve"
                  style="font-weight:300;font-size:3.52777px;line-height:22.2433px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0.264583"
@@ -1877,18 +2023,18 @@
                    style="text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.264583"
                    x="138.15582"
                    y="76.027504">CYP1A</tspan></text>
-              <rect
-                 style="fill:none;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers stroke fill"
-                 id="rect529-4-9-1-7-5-9"
-                 width="9.8000002"
-                 height="3.8"
-                 x="133.31279"
-                 y="73.013016" />
             </g>
           </g>
           <g
              id="g3082"
              transform="translate(-0.0165863,0.52007727)">
+            <rect
+               style="fill:#e6b8af;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers stroke fill"
+               id="rect529-4-9-1-7-5-04"
+               width="9.8000002"
+               height="3.8"
+               x="133.32938"
+               y="77.343971" />
             <text
                xml:space="preserve"
                style="font-weight:300;font-size:3.52777px;line-height:22.2433px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0.264583"
@@ -1900,17 +2046,17 @@
                  style="text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.264583"
                  x="138.17241"
                  y="80.358459">CYP3A</tspan></text>
-            <rect
-               style="fill:none;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers stroke fill"
-               id="rect529-4-9-1-7-5-04"
-               width="9.8000002"
-               height="3.8"
-               x="133.32938"
-               y="77.343971" />
           </g>
           <g
              id="g3077"
              transform="translate(-0.30603759,0.33507208)">
+            <rect
+               style="fill:#e6b8af;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers stroke fill"
+               id="rect529-4-9-1-7-5-5"
+               width="8.8000002"
+               height="3.8"
+               x="124.08966"
+               y="77.528976" />
             <text
                xml:space="preserve"
                style="font-weight:300;font-size:3.52777px;line-height:22.2433px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0.264583"
@@ -1922,17 +2068,17 @@
                  style="text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.264583"
                  x="128.51033"
                  y="80.546906">CYP2</tspan></text>
-            <rect
-               style="fill:none;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers stroke fill"
-               id="rect529-4-9-1-7-5-5"
-               width="8.8000002"
-               height="3.8"
-               x="124.08966"
-               y="77.528976" />
           </g>
           <g
              id="g3087"
              transform="translate(-0.0305899,1.0951957)">
+            <rect
+               style="fill:#e6b8af;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers stroke fill"
+               id="rect529-4-9-1-7-5-5-8-7"
+               width="12.3"
+               height="3.8"
+               x="126.8288"
+               y="81.298019" />
             <text
                xml:space="preserve"
                style="font-weight:300;font-size:3.52777px;line-height:22.2433px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0.264583"
@@ -1944,13 +2090,6 @@
                  style="text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.264583"
                  x="132.98999"
                  y="84.315948">CYP2W1</tspan></text>
-            <rect
-               style="fill:none;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers stroke fill"
-               id="rect529-4-9-1-7-5-5-8-7"
-               width="12.3"
-               height="3.8"
-               x="126.8288"
-               y="81.298019" />
           </g>
         </g>
         <circle
@@ -1981,14 +2120,14 @@
            id="path3814-4" />
         <path
            style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker4363)"
-           d="m 45.394706,111.21597 -12.390706,0 V 90.39205 h 11.448447"
+           d="M 45.394706,111.21597 H 33.004 V 90.39205 h 11.448447"
            id="path4359"
            sodipodi:nodetypes="cccc" />
         <g
            id="g2988"
            transform="translate(0,-1.0583333)">
           <rect
-             style="fill:#ffffff;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers fill stroke;fill-opacity:1"
+             style="fill:#d5a6bd;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers fill stroke"
              id="rect529-4-5"
              width="11.869"
              height="3.8"
@@ -2015,7 +2154,7 @@
            id="g2998"
            transform="translate(-0.84298751)">
           <rect
-             style="opacity:1;fill:#ffffff;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers fill stroke;fill-opacity:1"
+             style="opacity:1;fill:#e6b8af;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers fill stroke"
              id="rect529"
              width="13.299999"
              height="3.8"
@@ -2041,7 +2180,7 @@
            id="g2993"
            transform="translate(-1.4946394)">
           <rect
-             style="opacity:1;fill:#ffffff;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers fill stroke;fill-opacity:1"
+             style="opacity:1;fill:#d9d2e9;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers fill stroke"
              id="rect529-4"
              width="11.369054"
              height="3.8000002"
@@ -2063,7 +2202,7 @@
            id="g2973"
            transform="translate(-0.14147377,1.1743674)">
           <rect
-             style="fill:#ffffff;stroke:#000000;stroke-width:0.200001;stroke-dasharray:none;paint-order:markers fill stroke;fill-opacity:1"
+             style="fill:#ead1dc;fill-opacity:1;stroke:#000000;stroke-width:0.200001;stroke-dasharray:none;paint-order:markers fill stroke"
              id="rect529-4-9-1-9-3-2-7"
              width="9.7999992"
              height="3.8000002"
@@ -2086,26 +2225,47 @@
            d="M 77.840594,132.10468 H 48.973691"
            id="path7942" />
         <g
-           id="g2968"
-           transform="translate(2.3480314,-0.66130686)">
-          <rect
-             style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers fill stroke"
-             id="rect529-4-9-1-9-3"
-             width="7.8000002"
-             height="3.8000002"
-             x="57.159111"
-             y="130.866" />
-          <text
-             xml:space="preserve"
-             style="font-weight:300;font-size:3.52777px;line-height:22.2433px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0.264583"
-             x="61.059113"
-             y="133.88048"
-             id="text288-0-8"><tspan
-               sodipodi:role="line"
-               id="tspan286-6-44"
-               style="text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.264583"
+           id="g90980">
+          <g
+             id="g90939"
+             transform="translate(-0.02486346)">
+            <rect
+               style="fill:#f4cccc;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-dasharray:none;paint-order:markers fill stroke"
+               id="rect529-4-9-1-9-3-3"
+               width="4.0500002"
+               height="4"
+               x="59.407013"
+               y="130.10469" />
+            <rect
+               style="fill:#fce5cd;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-dasharray:none;paint-order:markers fill stroke"
+               id="rect529-4-9-1-9-3-3-4"
+               width="4.0500002"
+               height="4"
+               x="63.407001"
+               y="130.10469" />
+          </g>
+          <g
+             id="g2968"
+             transform="translate(2.3480314,-0.66130686)">
+            <rect
+               style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+               id="rect529-4-9-1-9-3"
+               width="7.8000002"
+               height="3.8000002"
+               x="57.159111"
+               y="130.866" />
+            <text
+               xml:space="preserve"
+               style="font-weight:300;font-size:3.52777px;line-height:22.2433px;font-family:Calibri;-inkscape-font-specification:'Calibri Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0.264583"
                x="61.059113"
-               y="133.88048">RDH</tspan></text>
+               y="133.88048"
+               id="text288-0-8"><tspan
+                 sodipodi:role="line"
+                 id="tspan286-6-44"
+                 style="text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.264583"
+                 x="61.059113"
+                 y="133.88048">RDH</tspan></text>
+          </g>
         </g>
         <path
            style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker3818-9-4)"
@@ -2119,7 +2279,7 @@
            id="g2958"
            transform="translate(-0.44855836,-2.6458334)">
           <rect
-             style="fill:#ffffff;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers fill stroke;fill-opacity:1"
+             style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers fill stroke"
              id="rect529-4-9-1-9-3-9"
              width="7.4000001"
              height="3.8000002"
@@ -2181,7 +2341,7 @@
            id="g3042"
            transform="translate(0.17222731)">
           <rect
-             style="fill:#ffffff;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers fill stroke;fill-opacity:1"
+             style="fill:#ead1dc;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers fill stroke"
              id="rect529-4-9-1-7-8"
              width="11.3"
              height="3.8"
@@ -2211,7 +2371,7 @@
            id="g3003"
            transform="translate(1.5875,-0.09766245)">
           <rect
-             style="fill:#ffffff;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers fill stroke;fill-opacity:1"
+             style="fill:#e6b8af;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers fill stroke"
              id="rect529-4-9"
              width="11.769"
              height="3.8000002"
@@ -2257,7 +2417,7 @@
            id="g3127"
            transform="translate(-0.28156647,3.1750001)">
           <rect
-             style="fill:#ffffff;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers fill stroke;fill-opacity:1"
+             style="fill:#fff2cc;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;paint-order:markers fill stroke"
              id="rect529-4-9-1-7-5-5-5"
              width="7.8000002"
              height="3.8"
@@ -2281,12 +2441,247 @@
            id="path25807" />
       </g>
       <rect
-         style="fill:none;fill-opacity:1;stroke:#646464;stroke-width:0.09;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+         style="fill:none;fill-opacity:1;stroke:#646464;stroke-width:0.0714693;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
          id="rect28012"
-         width="192.8"
-         height="102.11"
-         x="5.4706111"
-         y="55.267262" />
+         width="149.92853"
+         height="81.085876"
+         x="26.315809"
+         y="40.200123" />
+      <g
+         id="g5436"
+         transform="matrix(0.66175254,0,0,0.66175254,20.49579,-27.823118)">
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.05011px;line-height:19.2315px;font-family:Calibri;-inkscape-font-specification:Calibri;letter-spacing:0px;word-spacing:0px;stroke-width:0.175968"
+           x="15.10595"
+           y="187.54047"
+           id="text4011-1"><tspan
+             sodipodi:role="line"
+             id="tspan4009-2"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Calibri;-inkscape-font-specification:Calibri;stroke-width:0.175968"
+             x="15.10595"
+             y="187.54047">LRAT</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.05011px;line-height:19.2315px;font-family:Calibri;-inkscape-font-specification:Calibri;letter-spacing:0px;word-spacing:0px;stroke-width:0.175968"
+           x="15.115886"
+           y="172.33711"
+           id="text4065-5"><tspan
+             sodipodi:role="line"
+             id="tspan4063-1"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Calibri;-inkscape-font-specification:Calibri;stroke-width:0.175968"
+             x="15.115886"
+             y="172.33711">PNPLA4</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.05011px;line-height:19.2315px;font-family:Calibri;-inkscape-font-specification:Calibri;letter-spacing:0px;word-spacing:0px;stroke-width:0.175968"
+           x="15.10595"
+           y="197.67606"
+           id="text4069-8"><tspan
+             sodipodi:role="line"
+             id="tspan4067-5"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Calibri;-inkscape-font-specification:Calibri;stroke-width:0.175968"
+             x="15.10595"
+             y="197.67606">DGAT</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.05011px;line-height:19.2315px;font-family:Calibri;-inkscape-font-specification:Calibri;letter-spacing:0px;word-spacing:0px;stroke-width:0.175968"
+           x="15.106124"
+           y="182.47269"
+           id="text4073-0"><tspan
+             sodipodi:role="line"
+             id="tspan4071-1"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Calibri;-inkscape-font-specification:Calibri;stroke-width:0.175968"
+             x="15.106124"
+             y="182.47269">BCMO1+RPE65</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.05011px;line-height:19.2315px;font-family:Calibri;-inkscape-font-specification:Calibri;letter-spacing:0px;word-spacing:0px;stroke-width:0.175968"
+           x="15.115886"
+           y="167.26933"
+           id="text4077-6"><tspan
+             sodipodi:role="line"
+             id="tspan4075-6"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Calibri;-inkscape-font-specification:Calibri;stroke-width:0.175968"
+             x="15.115886"
+             y="167.26933">RETSAT</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.05011px;line-height:19.2315px;font-family:Calibri;-inkscape-font-specification:Calibri;letter-spacing:0px;word-spacing:0px;stroke-width:0.175968"
+           x="15.10595"
+           y="202.7446"
+           id="text4081-6"><tspan
+             sodipodi:role="line"
+             id="tspan4079-5"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Calibri;-inkscape-font-specification:Calibri;stroke-width:0.175968"
+             x="15.10595"
+             y="202.7446">DGAT2L4</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.05011px;line-height:19.2315px;font-family:Calibri;-inkscape-font-specification:Calibri;letter-spacing:0px;word-spacing:0px;stroke-width:0.175968"
+           x="15.317096"
+           y="212.87943"
+           id="text4085-7"><tspan
+             sodipodi:role="line"
+             id="tspan4083-2"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Calibri;-inkscape-font-specification:Calibri;stroke-width:0.175968"
+             x="15.317096"
+             y="212.87943">AOX</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.05011px;line-height:19.2315px;font-family:Calibri;-inkscape-font-specification:Calibri;letter-spacing:0px;word-spacing:0px;stroke-width:0.175968"
+           x="15.317096"
+           y="177.40714"
+           id="text4089-3"><tspan
+             sodipodi:role="line"
+             id="tspan4087-7"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Calibri;-inkscape-font-specification:Calibri;stroke-width:0.175968"
+             x="15.317096"
+             y="177.40714">ALDH1</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.05011px;line-height:19.2315px;font-family:Calibri;-inkscape-font-specification:Calibri;letter-spacing:0px;word-spacing:0px;stroke-width:0.175968"
+           x="15.006346"
+           y="223.01424"
+           id="text4093-98"><tspan
+             sodipodi:role="line"
+             id="tspan4091-2"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Calibri;-inkscape-font-specification:Calibri;stroke-width:0.175968"
+             x="15.006346"
+             y="223.01424">UGT</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.05011px;line-height:19.2315px;font-family:Calibri;-inkscape-font-specification:Calibri;letter-spacing:0px;word-spacing:0px;stroke-width:0.175968"
+           x="15.317096"
+           y="217.9472"
+           id="text4093-9-9"><tspan
+             sodipodi:role="line"
+             id="tspan4091-9-1"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Calibri;-inkscape-font-specification:Calibri;stroke-width:0.175968"
+             x="15.317096"
+             y="217.9472">ADH</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.05011px;line-height:19.2315px;font-family:Calibri;-inkscape-font-specification:Calibri;letter-spacing:0px;word-spacing:0px;stroke-width:0.175968"
+           x="15.068535"
+           y="207.81163"
+           id="text4105-4"><tspan
+             sodipodi:role="line"
+             id="tspan4103-4"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Calibri;-inkscape-font-specification:Calibri;stroke-width:0.175968"
+             x="15.068535"
+             y="207.81163">CYP</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.05011px;line-height:19.2315px;font-family:Calibri;-inkscape-font-specification:Calibri;letter-spacing:0px;word-spacing:0px;stroke-width:0.175968"
+           x="15.23385"
+           y="192.60826"
+           id="text4101-8"><tspan
+             sodipodi:role="line"
+             id="tspan4099-8"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Calibri;-inkscape-font-specification:Calibri;stroke-width:0.175968"
+             x="15.23385"
+             y="192.60826">SDR+RDH</tspan></text>
+        <rect
+           style="fill:#b4a7d6;fill-opacity:1;stroke:#646464;stroke-width:0.186222;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers fill stroke"
+           id="rect7224-1-7"
+           width="4.06812"
+           height="4.06812"
+           x="9.8967819"
+           y="184.54283" />
+        <rect
+           style="fill:#d5a6bd;fill-opacity:1;stroke:#646464;stroke-width:0.186222;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers fill stroke"
+           id="rect7224-3-9"
+           width="4.06812"
+           height="4.06812"
+           x="9.8967819"
+           y="169.33948" />
+        <rect
+           style="fill:#d9d9d9;fill-opacity:1;stroke:#646464;stroke-width:0.186222;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers fill stroke"
+           id="rect7224-83-9"
+           width="4.06812"
+           height="4.06812"
+           x="9.8967819"
+           y="194.67841" />
+        <rect
+           style="fill:#ead1dc;fill-opacity:1;stroke:#646464;stroke-width:0.186222;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers fill stroke"
+           id="rect7224-06-6"
+           width="4.06812"
+           height="4.06812"
+           x="9.8967819"
+           y="179.47504" />
+        <rect
+           style="fill:#d9d2e9;fill-opacity:1;stroke:#646464;stroke-width:0.186222;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers fill stroke"
+           id="rect7224-0-4"
+           width="4.06812"
+           height="4.06812"
+           x="9.8967819"
+           y="164.27168" />
+        <rect
+           style="fill:#cfe2f3;fill-opacity:1;stroke:#646464;stroke-width:0.186222;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers fill stroke"
+           id="rect7224-5-5"
+           width="4.06812"
+           height="4.06812"
+           x="9.8967819"
+           y="199.7462" />
+        <rect
+           style="fill:#c9daf8;fill-opacity:1;stroke:#646464;stroke-width:0.186222;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers fill stroke"
+           id="rect7224-88-7"
+           width="4.06812"
+           height="4.06812"
+           x="9.8967819"
+           y="209.88177" />
+        <rect
+           style="fill:#d0e0e3;fill-opacity:1;stroke:#646464;stroke-width:0.186222;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers fill stroke"
+           id="rect7224-9-2"
+           width="4.06812"
+           height="4.06812"
+           x="9.8967819"
+           y="174.40726" />
+        <rect
+           style="fill:#fff2cc;fill-opacity:1;stroke:#646464;stroke-width:0.186222;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers fill stroke"
+           id="rect7224-4-4"
+           width="4.06812"
+           height="4.06812"
+           x="9.8967819"
+           y="220.01735" />
+        <rect
+           style="fill:#d9ead3;fill-opacity:1;stroke:#646464;stroke-width:0.186222;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers fill stroke"
+           id="rect7224-8-0"
+           width="4.06812"
+           height="4.06812"
+           x="9.8967819"
+           y="214.94955" />
+        <rect
+           style="fill:#e6b8af;fill-opacity:1;stroke:#646464;stroke-width:0.186222;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers fill stroke"
+           id="rect7224-7"
+           width="4.06812"
+           height="4.06812"
+           x="9.8967819"
+           y="204.814" />
+        <g
+           id="g4467"
+           transform="matrix(0.62073782,0,0,0.62073782,-62.883515,50.310322)">
+          <rect
+             style="fill:#f4cccc;fill-opacity:1;stroke:#646464;stroke-width:0.3;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers fill stroke"
+             id="rect7224-6-3"
+             width="6.5536852"
+             height="6.5536852"
+             x="117.24805"
+             y="224.41084" />
+          <path
+             style="fill:#fce5cd;fill-opacity:1;stroke:#646464;stroke-width:0.3;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+             d="m 117.46784,224.41176 6.32569,6.33918 v -6.33918 z"
+             id="path3370" />
+        </g>
+      </g>
+      <rect
+         style="fill:none;fill-opacity:1;stroke:#646464;stroke-width:0.0714694;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+         id="rect28012-1"
+         width="17.16057"
+         height="41.221893"
+         x="26.315809"
+         y="80.064102" />
     </g>
   </g>
 </svg>
