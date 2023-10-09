@@ -22,8 +22,8 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      showgrid="false"
-     inkscape:zoom="1.5"
-     inkscape:cx="459.66667"
+     inkscape:zoom="3"
+     inkscape:cx="361.33333"
      inkscape:cy="492"
      inkscape:window-width="2880"
      inkscape:window-height="1526"
@@ -3430,12 +3430,12 @@
        x="111.8997"
        y="612.09204"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.90594px;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke:none;stroke-width:0.738242"
-       id="tspan42195">Num of OGs: TOT =  ; ≥2 seqs =  </tspan><tspan
+       id="tspan42195">Num of OGs: TOT = 21 ; ≥2 seqs = 20 </tspan><tspan
        sodipodi:role="line"
        x="111.8997"
        y="618.73621"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.90594px;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke:none;stroke-width:0.738242"
-       id="tspan33989">Num of OGs / Num seqs:  </tspan></text>
+       id="tspan33989">Num of OGs / Num seqs: 0.021 </tspan></text>
   <text
      xml:space="preserve"
      style="font-style:italic;font-weight:normal;font-size:6.02032px;line-height:6.77286px;font-family:Calibri;-inkscape-font-specification:'Calibri Italic';letter-spacing:0px;word-spacing:0px;color-interpolation:auto;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.738242;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto"
@@ -3451,12 +3451,12 @@
        x="427.47333"
        y="612.427"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.02032px;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke:none;stroke-width:0.738242"
-       id="tspan42361">Num of events: D =  ; L =  </tspan><tspan
+       id="tspan42361">Num of events: D = 840 ; L = 498 </tspan><tspan
        sodipodi:role="line"
        x="427.47333"
        y="619.42456"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.02032px;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke:none;stroke-width:0.738242"
-       id="tspan55659">Total events / Num seqs: </tspan></text>
+       id="tspan55659">Total events / Num seqs: 1.33</tspan></text>
   <text
      xml:space="preserve"
      style="font-size:12px;line-height:75.6622px;font-family:sans-serif;-inkscape-font-specification:sans-serif;letter-spacing:0px;word-spacing:0px;stroke:none"
