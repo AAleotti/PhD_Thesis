@@ -22,9 +22,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      showgrid="false"
-     inkscape:zoom="1.5"
-     inkscape:cx="249.33333"
-     inkscape:cy="498.66667"
+     inkscape:zoom="5.9999999"
+     inkscape:cx="436.66667"
+     inkscape:cy="880.83335"
      inkscape:window-width="2880"
      inkscape:window-height="1526"
      inkscape:window-x="2869"
@@ -3564,7 +3564,7 @@
              y="336.80167" />
           <text
              xml:space="preserve"
-             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.89026px;line-height:43.4443px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';letter-spacing:0px;word-spacing:0px;color-interpolation:auto;fill:#d9ead3;fill-opacity:1;stroke:#000000;stroke-width:0.0774581;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.89026px;line-height:43.4443px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';letter-spacing:0px;word-spacing:0px;color-interpolation:auto;fill:#d9ead3;fill-opacity:1;stroke:#000000;stroke-width:0.13555168;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto"
              x="362.11313"
              y="343.10944"
              id="text29922-5-7-1"><tspan
@@ -3572,11 +3572,11 @@
                id="tspan29920-4-9-9"
                x="362.11313"
                y="343.10944"
-               style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.89026px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';fill:#d9ead3;fill-opacity:1;stroke:#000000;stroke-width:0.0774581;stroke-dasharray:none;stroke-opacity:1">ADH</tspan></text>
+               style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.89026px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';fill:#d9ead3;fill-opacity:1;stroke:#000000;stroke-width:0.13555168;stroke-dasharray:none;stroke-opacity:1">ADH</tspan></text>
         </g>
         <text
            xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.10557px;line-height:44.8019px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';letter-spacing:0px;word-spacing:0px;color-interpolation:auto;fill:#d9ead3;fill-opacity:1;stroke:#000000;stroke-width:0.113387;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.10557px;line-height:44.8019px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';letter-spacing:0px;word-spacing:0px;color-interpolation:auto;fill:#d9ead3;fill-opacity:1;stroke:#000000;stroke-width:0.132283;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto"
            x="311.99774"
            y="593.09766"
            id="text29922-2-0"
@@ -3585,7 +3585,7 @@
              id="tspan29920-8-0"
              x="311.99774"
              y="593.09766"
-             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.10557px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';fill:#d9ead3;fill-opacity:1;stroke:#000000;stroke-width:0.113387;stroke-dasharray:none;stroke-opacity:1">DHSO</tspan></text>
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.10557px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';fill:#d9ead3;fill-opacity:1;stroke:#000000;stroke-width:0.132283;stroke-dasharray:none;stroke-opacity:1">SORD</tspan></text>
         <g
            id="g10495"
            style="font-style:normal;font-weight:normal;font-size:12px;font-family:Dialog;color-interpolation:auto;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto"
@@ -5092,7 +5092,7 @@
                xml:space="preserve"
                y="12"
                style="stroke:none"
-               id="text10227">Mammals_ADH1A/B/G | OG45 |</text>
+               id="text10227">Mammals_ADH1A/B/C | OG45 |</text>
           </g>
           <g
              transform="translate(697.0243,1833.6499)"
@@ -5823,7 +5823,7 @@
         </g>
         <text
            xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.72413px;line-height:42.3968px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';letter-spacing:0px;word-spacing:0px;color-interpolation:auto;fill:#d9ead3;fill-opacity:1;stroke:#000000;stroke-width:0.113386;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.72413px;line-height:42.3968px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';letter-spacing:0px;word-spacing:0px;color-interpolation:auto;fill:#d9ead3;fill-opacity:1;stroke:#000000;stroke-width:0.13228346;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto"
            x="264.92969"
            y="445.96967"
            id="text29922-2-0-3"><tspan
@@ -5831,10 +5831,10 @@
              id="tspan29920-8-0-2"
              x="264.92969"
              y="445.96967"
-             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.72413px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';fill:#d9ead3;fill-opacity:1;stroke:#000000;stroke-width:0.113386;stroke-dasharray:none;stroke-opacity:1">SUCD</tspan></text>
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.72413px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';fill:#d9ead3;fill-opacity:1;stroke:#000000;stroke-width:0.13228346;stroke-dasharray:none;stroke-opacity:1">SUCD</tspan></text>
         <text
            xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.72413px;line-height:42.3968px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';letter-spacing:0px;word-spacing:0px;color-interpolation:auto;fill:#d9ead3;fill-opacity:1;stroke:#000000;stroke-width:0.113386;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.72413px;line-height:42.3968px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';letter-spacing:0px;word-spacing:0px;color-interpolation:auto;fill:#d9ead3;fill-opacity:1;stroke:#000000;stroke-width:0.13228346;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto"
            x="270.76303"
            y="128.34946"
            id="text29922-2-0-6"><tspan
@@ -5842,7 +5842,7 @@
              id="tspan29920-8-0-1"
              x="270.76303"
              y="128.34946"
-             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.72413px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';fill:#d9ead3;fill-opacity:1;stroke:#000000;stroke-width:0.113386;stroke-dasharray:none;stroke-opacity:1">CADH</tspan></text>
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.72413px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';fill:#d9ead3;fill-opacity:1;stroke:#000000;stroke-width:0.13228346;stroke-dasharray:none;stroke-opacity:1">CADH</tspan></text>
         <path
            style="font-style:normal;font-weight:normal;font-size:12px;font-family:Dialog;color-interpolation:auto;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#Arrow1-7-1);color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto"
            d="m 157.16492,380.96462 20.64822,16.59179"
@@ -5895,7 +5895,7 @@
            y="550.56946" />
         <text
            xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.10557px;line-height:44.8019px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';letter-spacing:0px;word-spacing:0px;color-interpolation:auto;fill:#d9ead3;fill-opacity:1;stroke:#000000;stroke-width:0.113387;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.10557px;line-height:44.8019px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';letter-spacing:0px;word-spacing:0px;color-interpolation:auto;fill:#d9ead3;fill-opacity:1;stroke:#000000;stroke-width:0.132283;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto"
            x="499.10754"
            y="578.84692"
            id="text29922-2-0-62"
@@ -5904,7 +5904,7 @@
              id="tspan29920-8-0-9"
              x="499.10754"
              y="578.84692"
-             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.10557px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';fill:#d9ead3;fill-opacity:1;stroke:#000000;stroke-width:0.113387;stroke-dasharray:none;stroke-opacity:1">DHSO</tspan></text>
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.10557px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';fill:#d9ead3;fill-opacity:1;stroke:#000000;stroke-width:0.132283;stroke-dasharray:none;stroke-opacity:1">SORD</tspan></text>
         <g
            id="g16584"
            style="font-style:normal;font-weight:normal;font-size:12px;font-family:Dialog;color-interpolation:auto;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto"
@@ -10051,7 +10051,7 @@
         </g>
         <text
            xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.72413px;line-height:42.3968px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';letter-spacing:0px;word-spacing:0px;color-interpolation:auto;fill:#d9ead3;fill-opacity:1;stroke:#000000;stroke-width:0.113386;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.72413px;line-height:42.3968px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';letter-spacing:0px;word-spacing:0px;color-interpolation:auto;fill:#d9ead3;fill-opacity:1;stroke:#000000;stroke-width:0.13228346;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto"
            x="568.29926"
            y="139.45966"
            id="text29922-2-0-6-5"><tspan
@@ -10059,10 +10059,10 @@
              id="tspan29920-8-0-1-0"
              x="568.29926"
              y="139.45966"
-             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.72413px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';fill:#d9ead3;fill-opacity:1;stroke:#000000;stroke-width:0.113386;stroke-dasharray:none;stroke-opacity:1">CADH</tspan></text>
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.72413px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';fill:#d9ead3;fill-opacity:1;stroke:#000000;stroke-width:0.13228346;stroke-dasharray:none;stroke-opacity:1">CADH</tspan></text>
         <text
            xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.72413px;line-height:42.3968px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';letter-spacing:0px;word-spacing:0px;color-interpolation:auto;fill:#d9ead3;fill-opacity:1;stroke:#000000;stroke-width:0.113386;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.72413px;line-height:42.3968px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';letter-spacing:0px;word-spacing:0px;color-interpolation:auto;fill:#d9ead3;fill-opacity:1;stroke:#000000;stroke-width:0.13228346;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto"
            x="560.78217"
            y="422.21609"
            id="text29922-2-0-3-1"><tspan
@@ -10070,7 +10070,7 @@
              id="tspan29920-8-0-2-6"
              x="560.78217"
              y="422.21609"
-             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.72413px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';fill:#d9ead3;fill-opacity:1;stroke:#000000;stroke-width:0.113386;stroke-dasharray:none;stroke-opacity:1">SUCD</tspan></text>
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.72413px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';fill:#d9ead3;fill-opacity:1;stroke:#000000;stroke-width:0.13228346;stroke-dasharray:none;stroke-opacity:1">SUCD</tspan></text>
         <g
            id="g6473-5-3-2"
            transform="matrix(0.97588948,0,0,0.97588958,273.66847,-44.875198)"
@@ -10084,7 +10084,7 @@
              y="336.80167" />
           <text
              xml:space="preserve"
-             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.89026px;line-height:43.4443px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';letter-spacing:0px;word-spacing:0px;color-interpolation:auto;fill:#d9ead3;fill-opacity:1;stroke:#000000;stroke-width:0.0774581;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.89026px;line-height:43.4443px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';letter-spacing:0px;word-spacing:0px;color-interpolation:auto;fill:#d9ead3;fill-opacity:1;stroke:#000000;stroke-width:0.13555168;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto"
              x="362.11313"
              y="343.10944"
              id="text29922-5-7-1-1"><tspan
@@ -10092,7 +10092,7 @@
                id="tspan29920-4-9-9-3"
                x="362.11313"
                y="343.10944"
-               style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.89026px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';fill:#d9ead3;fill-opacity:1;stroke:#000000;stroke-width:0.0774581;stroke-dasharray:none;stroke-opacity:1">ADH</tspan></text>
+               style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.89026px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';fill:#d9ead3;fill-opacity:1;stroke:#000000;stroke-width:0.13555168;stroke-dasharray:none;stroke-opacity:1">ADH</tspan></text>
         </g>
       </g>
     </g>
