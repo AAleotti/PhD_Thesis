@@ -1,6 +1,6 @@
 ### Supplementary Material for PhD Thesis:
 #
-### The evolution of signalling systems in animals: insights from vision and chemokines
+### __The evolution of signalling systems in animals: insights from vision and chemokines__
 ### by Alessandra Aleotti
 #
 #### University of Leicester, 2023.
