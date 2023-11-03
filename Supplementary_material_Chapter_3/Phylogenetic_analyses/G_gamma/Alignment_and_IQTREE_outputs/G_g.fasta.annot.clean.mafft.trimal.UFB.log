@@ -1,0 +1,738 @@
+IQ-TREE multicore version 2.0.6 for Linux 64-bit built May 30 2020
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    node010 (AVX2, FMA3, 125 GB RAM)
+Command: iqtree2 -s G_g.doublefiltered.fasta.annot.clean.mafft.trimal -m MFP -mset Blosum62,cpREV,Dayhoff,DCMut,FLU,HIVb,HIVw,JTT,JTTDCMut,LG,mtART,mtMAM,mtREV,mtZOA,mtMet,mtVer,mtInv,Poisson,PMB,rtREV,VT,WAG,GTR20 -mrate E,I,G,I+G,R -B 1000 --wbtl --bnni --alrt 1000 --abayes -T AUTO --prefix G_g.doublefiltered.fasta.annot.clean.mafft.trimal.UFB
+Seed:    796222 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Sun Jun 13 10:21:34 2021
+Kernel:  AVX+FMA - auto-detect threads (14 CPU cores detected)
+
+Reading alignment file G_g.doublefiltered.fasta.annot.clean.mafft.trimal ... Fasta format detected
+Alignment most likely contains protein sequences
+Alignment has 102 sequences with 72 columns, 72 distinct patterns
+65 parsimony-informative, 4 singleton sites, 3 constant sites
+                                                                                                                                                     Gap/Ambiguity  Composition  p-value
+   1  MetazoaAnnelidaEP00103Capitellateleta_71942__GBG1_DROME_Guanine_nucleotide-binding_protein_subunit_gamma-1_OS_                                         4.17%    passed     78.16%
+   2  MetazoaAnnelidaEP00103Capitellateleta_74031__GBG7_MOUSE_Guanine_nucleotide-binding_protein_G_I_/G_S_/G_O__subunit_gamma-7_OS_                          8.33%    passed     60.09%
+   3  MetazoaAnnelidaHelobdellarobusta_105958__GBG1_DROME_Guanine_nucleotide-binding_protein_subunit_gamma-1_OS_                                             4.17%    passed     47.74%
+   4  MetazoaAnnelidaHelobdellarobusta_107636__GBG1_DROME_Guanine_nucleotide-binding_protein_subunit_gamma-1_OS_                                             8.33%    passed     96.80%
+   5  MetazoaArthropodaDaphniapulex_195237__GBG12_BOVIN_Guanine_nucleotide-binding_protein_G_I_/G_S_/G_O__subunit_gamma-12_OS_                              18.06%    passed     85.17%
+   6  MetazoaArthropodaDaphniapulex_208806__GBGE_DROME_Guanine_nucleotide-binding_protein_subunit_gamma-e_OS_                                               11.11%    failed      3.73%
+   7  MetazoaArthropodaDaphniapulex_210896__GBG1_DROME_Guanine_nucleotide-binding_protein_subunit_gamma-1_OS_                                                9.72%    passed     93.18%
+   8  MetazoaArthropodaDrosophilamelanogaster_240563__GBG1_DROME_Guanine_nucleotide-binding_protein_subunit_gamma-1_OS_                                      8.33%    passed     75.97%
+   9  MetazoaArthropodaDrosophilamelanogaster_243579__GBG1_DROME_Guanine_nucleotide-binding_protein_subunit_gamma-1_OS_                                      4.17%    passed     79.91%
+  10  MetazoaArthropodaDrosophilamelanogaster_247041__GBGE_DROME_Guanine_nucleotide-binding_protein_subunit_gamma-e_OS_                                      2.78%    passed     10.73%
+  11  MetazoaArthropodaStrigamiamaritima_1172579__GBGE_DROME_Guanine_nucleotide-binding_protein_subunit_gamma-e_OS_                                         11.11%    passed      5.02%
+  12  MetazoaArthropodaStrigamiamaritima_1183135__GBG2_PONAB_Guanine_nucleotide-binding_protein_G_I_/G_S_/G_O__subunit_gamma-2_OS_                           9.72%    passed     71.61%
+  13  MetazoaBrachiopodaLingulaunguis_1287194__GBG12_BOVIN_Guanine_nucleotide-binding_protein_G_I_/G_S_/G_O__subunit_gamma-12_OS_                            8.33%    passed     60.99%
+  14  MetazoaBryozoaBugulaneritina_2498538__GBG12_MOUSE_Guanine_nucleotide-binding_protein_G_I_/G_S_/G_O__subunit_gamma-12_OS_                               8.33%    passed     70.01%
+  15  MetazoaCephalochordataBranchiostomabelcheri_2795881__GBG5_BOVIN_Guanine_nucleotide-binding_protein_G_I_/G_S_/G_O__subunit_gamma-5_OS_                  0.00%    passed     95.38%
+  16  MetazoaCephalochordataBranchiostomabelcheri_2815961__GBG12_BOVIN_Guanine_nucleotide-binding_protein_G_I_/G_S_/G_O__subunit_gamma-12_OS_                0.00%    passed     70.88%
+  17  MetazoaCephalochordataBranchiostomabelcheri_2819590__GBG7_HUMAN_Guanine_nucleotide-binding_protein_G_I_/G_S_/G_O__subunit_gamma-7_OS_                  0.00%    passed     90.59%
+  18  MetazoaCnidariaAcroporadigitifera_2932206__GBG7_HUMAN_Guanine_nucleotide-binding_protein_G_I_/G_S_/G_O__subunit_gamma-7_OS_                            1.39%    passed     91.87%
+  19  MetazoaCnidariaAcroporadigitifera_2948023__GBG11_RAT_Guanine_nucleotide-binding_protein_G_I_/G_S_/G_O__subunit_gamma-11_OS_                            1.39%    passed     41.35%
+  20  MetazoaCnidariaAcroporatenuis_2980203__GBG7_HUMAN_Guanine_nucleotide-binding_protein_G_I_/G_S_/G_O__subunit_gamma-7_OS_                                0.00%    passed     77.69%
+  21  MetazoaCnidariaAureliaGenome_3069356__GBG8_MOUSE_Guanine_nucleotide-binding_protein_G_I_/G_S_/G_O__subunit_gamma-8_OS_                                 1.39%    passed     56.45%
+  22  MetazoaCnidariaFungiascutaria_3200842__GBG8_HUMAN_Guanine_nucleotide-binding_protein_G_I_/G_S_/G_O__subunit_gamma-8_OS_                                1.39%    passed     95.78%
+  23  MetazoaCnidariaGorgoniaventalina_3234829__GBG7_HUMAN_Guanine_nucleotide-binding_protein_G_I_/G_S_/G_O__subunit_gamma-7_OS_                             0.00%    passed     76.75%
+  24  MetazoaCnidariaHydramagnapapillata_3250523__GBG7_HUMAN_Guanine_nucleotide-binding_protein_G_I_/G_S_/G_O__subunit_gamma-7_OS_                           1.39%    passed     98.03%
+  25  MetazoaCnidariaMadracisauretenra_3285904__GBG8_HUMAN_Guanine_nucleotide-binding_protein_G_I_/G_S_/G_O__subunit_gamma-8_OS_                             1.39%    passed     54.00%
+  26  MetazoaCnidariaNematostellavectensis_3375015__GBGE_CALVI_Guanine_nucleotide-binding_protein_subunit_gamma-e_OS_                                       11.11%    passed     36.54%
+  27  MetazoaCnidariaNematostellavectensis_3386750__GBG8_MOUSE_Guanine_nucleotide-binding_protein_G_I_/G_S_/G_O__subunit_gamma-8_OS_                         4.17%    passed     71.97%
+  28  MetazoaCnidariaStylophorapistillata_3681300__GBG11_RAT_Guanine_nucleotide-binding_protein_G_I_/G_S_/G_O__subunit_gamma-11_OS_                          1.39%    passed     30.97%
+  29  MetazoaEchinodermataAcanthasterplanci_3780659__GBG12_BOVIN_Guanine_nucleotide-binding_protein_G_I_/G_S_/G_O__subunit_gamma-12_OS_                      5.56%    passed     93.44%
+  30  MetazoaEchinodermataAcanthasterplanci_3781583__GBG12_BOVIN_Guanine_nucleotide-binding_protein_G_I_/G_S_/G_O__subunit_gamma-12_OS_                      1.39%    passed     85.80%
+  31  MetazoaEchinodermataEP00057Strongylocentrotuspurpuratus_3803078__GBG12_HUMAN_Guanine_nucleotide-binding_protein_G_I_/G_S_/G_O__subunit_gamma-12_OS_    0.00%    passed      5.58%
+  32  MetazoaEchinodermataEP00057Strongylocentrotuspurpuratus_3813933__GBG10_MOUSE_Guanine_nucleotide-binding_protein_G_I_/G_S_/G_O__subunit_gamma-10_OS_    9.72%    passed     77.20%
+  33  MetazoaHemichordataSaccoglossuskowalevskii_4050933__GBG12_MOUSE_Guanine_nucleotide-binding_protein_G_I_/G_S_/G_O__subunit_gamma-12_OS_                 6.94%    passed     87.63%
+  34  MetazoaHemichordataSaccoglossuskowalevskii_4065736__GBG12_HUMAN_Guanine_nucleotide-binding_protein_G_I_/G_S_/G_O__subunit_gamma-12_OS_                 9.72%    passed     97.68%
+  35  MetazoaHemichordataSaccoglossuskowalevskii_4072070__GBGE_CALVI_Guanine_nucleotide-binding_protein_subunit_gamma-e_OS_                                  8.33%    passed     93.05%
+  36  MetazoaHemichordataSaccoglossuskowalevskii_4080002__GBG12_HUMAN_Guanine_nucleotide-binding_protein_G_I_/G_S_/G_O__subunit_gamma-12_OS_                 0.00%    passed     85.44%
+  37  MetazoaMolluscaEP00106Octopusbimaculoides_4163537__GBG_LOLFO_Guanine_nucleotide-binding_protein_subunit_gamma_OS_                                      0.00%    passed      7.24%
+  38  MetazoaMolluscaEP00106Octopusbimaculoides_4172654__GBG_LOLFO_Guanine_nucleotide-binding_protein_subunit_gamma_OS_                                      2.78%    failed      2.50%
+  39  MetazoaMolluscaEP00106Octopusbimaculoides_4177987__GBG1_DROME_Guanine_nucleotide-binding_protein_subunit_gamma-1_OS_                                   0.00%    passed     72.66%
+  40  MetazoaMolluscaEP00106Octopusbimaculoides_4177988__GBG1_DROME_Guanine_nucleotide-binding_protein_subunit_gamma-1_OS_                                   0.00%    passed     72.66%
+  41  MetazoaMolluscaLottiagigantea_4218898__GBG12_BOVIN_Guanine_nucleotide-binding_protein_G_I_/G_S_/G_O__subunit_gamma-12_OS_                             13.89%    passed     81.78%
+  42  MetazoaNematodaCaenorhabditiselegans_4307158__GBGE_CALVI_Guanine_nucleotide-binding_protein_subunit_gamma-e_OS_                                       13.89%    passed     90.47%
+  43  MetazoaNematodaCaenorhabditiselegans_4313042__GBG_CAEEL_Guanine_nucleotide-binding_protein_subunit_gamma_OS_                                          13.89%    passed     97.51%
+  44  MetazoaNematodaLoaloa_4406828__GBGE_CALVI_Guanine_nucleotide-binding_protein_subunit_gamma-e_OS_                                                      11.11%    passed     90.22%
+  45  MetazoaNematodaLoaloa_4414242__GBG_CAEBR_Guanine_nucleotide-binding_protein_subunit_gamma_OS_                                                         13.89%    passed     97.30%
+  46  MetazoaNematodaLoaloa_4417379__GBG1_DROME_Guanine_nucleotide-binding_protein_subunit_gamma-1_OS_                                                       2.78%    passed     23.59%
+  47  MetazoaNematodaPristionchuspacificus_4417603__GBG_CAEBR_Guanine_nucleotide-binding_protein_subunit_gamma_OS_                                          13.89%    passed     99.59%
+  48  MetazoaNematodaPristionchuspacificus_4429862__GBGE_CALVI_Guanine_nucleotide-binding_protein_subunit_gamma-e_OS_                                        0.00%    passed     87.27%
+  49  MetazoaPlacozoaEP00114TrichoplaxspH2_4508146__GBG2_PONAB_Guanine_nucleotide-binding_protein_G_I_/G_S_/G_O__subunit_gamma-2_OS_                         1.39%    failed      4.42%
+  50  MetazoaPlacozoaEP00114TrichoplaxspH2_4508550__GBG7_HUMAN_Guanine_nucleotide-binding_protein_G_I_/G_S_/G_O__subunit_gamma-7_OS_                         5.56%    passed     98.84%
+  51  MetazoaPlacozoaEP00114TrichoplaxspH2_4512237__GBGE_CALVI_Guanine_nucleotide-binding_protein_subunit_gamma-e_OS_                                        8.33%    passed     61.21%
+  52  MetazoaPoriferaAmphimedonqueenslandica_4708610__GBG7_BOVIN_Guanine_nucleotide-binding_protein_G_I_/G_S_/G_O__subunit_gamma-7_OS_                       1.39%    passed     94.84%
+  53  MetazoaPoriferaEP00118Oscarellapearsei_4834048__GBG2_PONAB_Guanine_nucleotide-binding_protein_G_I_/G_S_/G_O__subunit_gamma-2_OS_                       1.39%    passed     46.88%
+  54  MetazoaPoriferaEP00118Oscarellapearsei_4834767__GBG7_BOVIN_Guanine_nucleotide-binding_protein_G_I_/G_S_/G_O__subunit_gamma-7_OS_                       1.39%    passed     71.91%
+  55  MetazoaPoriferaEphydatiamuelleri_4929764__GBG12_MOUSE_Guanine_nucleotide-binding_protein_G_I_/G_S_/G_O__subunit_gamma-12_OS_                          12.50%    passed     84.65%
+  56  MetazoaTardigradaRamazzotiusvarieornatus_5284677__GBG12_BOVIN_Guanine_nucleotide-binding_protein_G_I_/G_S_/G_O__subunit_gamma-12_OS_                   9.72%    passed     84.63%
+  57  MetazoaTardigradaRamazzotiusvarieornatus_5292418__GBGE_CALVI_Guanine_nucleotide-binding_protein_subunit_gamma-e_OS_                                    0.00%    passed     91.61%
+  58  MetazoaVertebrateDaniorerio_5411739__GBG10_HUMAN_Guanine_nucleotide-binding_protein_G_I_/G_S_/G_O__subunit_gamma-10_OS_                                5.56%    passed     64.01%
+  59  MetazoaVertebrateDaniorerio_5412771__GBG12_BOVIN_Guanine_nucleotide-binding_protein_G_I_/G_S_/G_O__subunit_gamma-12_OS_                                1.39%    passed     99.10%
+  60  MetazoaVertebrateDaniorerio_5415463__GBG4_PONAB_Guanine_nucleotide-binding_protein_G_I_/G_S_/G_O__subunit_gamma-4_OS_                                  1.39%    passed     45.98%
+  61  MetazoaVertebrateDaniorerio_5420952__GBG13_MOUSE_Guanine_nucleotide-binding_protein_G_I_/G_S_/G_O__subunit_gamma-13_OS_                                6.94%    passed     18.10%
+  62  MetazoaVertebrateDaniorerio_5422183__GBGT2_BOVIN_Guanine_nucleotide-binding_protein_G_I_/G_S_/G_O__subunit_gamma-T2_OS_                                4.17%    passed     73.20%
+  63  MetazoaVertebrateDaniorerio_5424200__GBG12_HUMAN_Guanine_nucleotide-binding_protein_G_I_/G_S_/G_O__subunit_gamma-12_OS_                                2.78%    passed     97.91%
+  64  MetazoaVertebrateDaniorerio_5429542__GBG12_BOVIN_Guanine_nucleotide-binding_protein_G_I_/G_S_/G_O__subunit_gamma-12_OS_                                0.00%    passed     96.75%
+  65  MetazoaVertebrateDaniorerio_5430562__GBG2_PONAB_Guanine_nucleotide-binding_protein_G_I_/G_S_/G_O__subunit_gamma-2_OS_                                  2.78%    passed     77.69%
+  66  MetazoaVertebrateDaniorerio_5431733__GBG8_MOUSE_Guanine_nucleotide-binding_protein_G_I_/G_S_/G_O__subunit_gamma-8_OS_                                  4.17%    passed     94.16%
+  67  MetazoaVertebrateDaniorerio_5433184__GBG7_HUMAN_Guanine_nucleotide-binding_protein_G_I_/G_S_/G_O__subunit_gamma-7_OS_                                  5.56%    passed     99.98%
+  68  MetazoaVertebrateDaniorerio_5433185__GBG13_HUMAN_Guanine_nucleotide-binding_protein_G_I_/G_S_/G_O__subunit_gamma-13_OS_                                6.94%    passed     10.00%
+  69  MetazoaVertebrateDaniorerio_5434059__GBG1_MOUSE_Guanine_nucleotide-binding_protein_G_T__subunit_gamma-T1_OS_                                           1.39%    passed     13.88%
+  70  MetazoaVertebrateDaniorerio_5434065__GBGT2_HUMAN_Guanine_nucleotide-binding_protein_G_I_/G_S_/G_O__subunit_gamma-T2_OS_                                4.17%    passed     77.91%
+  71  MetazoaVertebrateDaniorerio_5434353__GBG5_BOVIN_Guanine_nucleotide-binding_protein_G_I_/G_S_/G_O__subunit_gamma-5_OS_                                  5.56%    passed     50.73%
+  72  MetazoaVertebrateDaniorerio_5435532__GBG3_MOUSE_Guanine_nucleotide-binding_protein_G_I_/G_S_/G_O__subunit_gamma-3_OS_                                  1.39%    passed     94.12%
+  73  MetazoaVertebrateDaniorerio_5435856__GBG5_BOVIN_Guanine_nucleotide-binding_protein_G_I_/G_S_/G_O__subunit_gamma-5_OS_                                  1.39%    passed     65.93%
+  74  MetazoaVertebrateDaniorerio_5436054__GBG5_BOVIN_Guanine_nucleotide-binding_protein_G_I_/G_S_/G_O__subunit_gamma-5_OS_                                  2.78%    passed     41.84%
+  75  MetazoaVertebrateEptatretusburgeri_6392739__GBG13_HUMAN_Guanine_nucleotide-binding_protein_G_I_/G_S_/G_O__subunit_gamma-13_OS_                         1.39%    passed      9.67%
+  76  MetazoaVertebrateEptatretusburgeri_6392894__GBG7_MOUSE_Guanine_nucleotide-binding_protein_G_I_/G_S_/G_O__subunit_gamma-7_OS_                           5.56%    passed     99.78%
+  77  MetazoaVertebrateEptatretusburgeri_6394868__GBG2_PONAB_Guanine_nucleotide-binding_protein_G_I_/G_S_/G_O__subunit_gamma-2_OS_                           1.39%    passed     99.30%
+  78  MetazoaVertebrateEptatretusburgeri_6395827__GBG10_HUMAN_Guanine_nucleotide-binding_protein_G_I_/G_S_/G_O__subunit_gamma-10_OS_                         4.17%    passed     36.74%
+  79  MetazoaVertebrateEptatretusburgeri_6395933__GBG2_PONAB_Guanine_nucleotide-binding_protein_G_I_/G_S_/G_O__subunit_gamma-2_OS_                           0.00%    passed     66.37%
+  80  MetazoaVertebrateEptatretusburgeri_6402256__GBG13_HUMAN_Guanine_nucleotide-binding_protein_G_I_/G_S_/G_O__subunit_gamma-13_OS_                         6.94%    passed     37.19%
+  81  MetazoaVertebrateHomosapiens_6452053__GBGT2_HUMAN_Guanine_nucleotide-binding_protein_G_I_/G_S_/G_O__subunit_gamma-T2_OS_                               4.17%    passed     41.43%
+  82  MetazoaVertebrateHomosapiens_6452663__GBG7_HUMAN_Guanine_nucleotide-binding_protein_G_I_/G_S_/G_O__subunit_gamma-7_OS_                                 5.56%    passed     99.81%
+  83  MetazoaVertebrateHomosapiens_6456607__GBG4_PONAB_Guanine_nucleotide-binding_protein_G_I_/G_S_/G_O__subunit_gamma-4_OS_                                 1.39%    passed     99.88%
+  84  MetazoaVertebrateHomosapiens_6456608__GBG10_HUMAN_Guanine_nucleotide-binding_protein_G_I_/G_S_/G_O__subunit_gamma-10_OS_                               5.56%    passed     26.63%
+  85  MetazoaVertebrateHomosapiens_6457176__GBG2_PONAB_Guanine_nucleotide-binding_protein_G_I_/G_S_/G_O__subunit_gamma-2_OS_                                 2.78%    passed     58.83%
+  86  MetazoaVertebrateHomosapiens_6457313__GBG11_RAT_Guanine_nucleotide-binding_protein_G_I_/G_S_/G_O__subunit_gamma-11_OS_                                 1.39%    passed     27.27%
+  87  MetazoaVertebrateHomosapiens_6457429__GBG1_CANLF_Guanine_nucleotide-binding_protein_G_T__subunit_gamma-T1_OS_                                          1.39%    passed     16.60%
+  88  MetazoaVertebrateHomosapiens_6457430__GBG3_MOUSE_Guanine_nucleotide-binding_protein_G_I_/G_S_/G_O__subunit_gamma-3_OS_                                 1.39%    passed     96.62%
+  89  MetazoaVertebrateHomosapiens_6457431__GBG5_BOVIN_Guanine_nucleotide-binding_protein_G_I_/G_S_/G_O__subunit_gamma-5_OS_                                 5.56%    passed     44.54%
+  90  MetazoaVertebrateHomosapiens_6469418__GBG13_HUMAN_Guanine_nucleotide-binding_protein_G_I_/G_S_/G_O__subunit_gamma-13_OS_                               6.94%    failed      0.76%
+  91  MetazoaVertebrateHomosapiens_6469460__GBG12_HUMAN_Guanine_nucleotide-binding_protein_G_I_/G_S_/G_O__subunit_gamma-12_OS_                               1.39%    passed     82.02%
+  92  MetazoaVertebrateHomosapiens_6469827__GBG8_HUMAN_Guanine_nucleotide-binding_protein_G_I_/G_S_/G_O__subunit_gamma-8_OS_                                 4.17%    passed     80.34%
+  93  MetazoaVertebrateMusmusculus_6527994__GBG5_BOVIN_Guanine_nucleotide-binding_protein_G_I_/G_S_/G_O__subunit_gamma-5_OS_                                 5.56%    passed     22.50%
+  94  MetazoaVertebrateMusmusculus_6528950__GBG14_HUMAN_Putative_guanine_nucleotide-binding_protein_G_I_/G_S_/G_O__subunit_gamma-14_OS_                      1.39%    passed     76.78%
+  95  MetazoaVertebrateMusmusculus_6533601__GBG4_MOUSE_Guanine_nucleotide-binding_protein_G_I_/G_S_/G_O__subunit_gamma-4_OS_                                 1.39%    passed     99.97%
+  96  MetazoaVertebrateMusmusculus_6534290__GBG8_MOUSE_Guanine_nucleotide-binding_protein_G_I_/G_S_/G_O__subunit_gamma-8_OS_                                 4.17%    passed     78.40%
+  97  MetazoaVertebrateMusmusculus_6537207__GBG1_MOUSE_Guanine_nucleotide-binding_protein_G_T__subunit_gamma-T1_OS_                                          1.39%    passed     15.71%
+  98  MetazoaVertebrateMusmusculus_6537208__GBG7_MOUSE_Guanine_nucleotide-binding_protein_G_I_/G_S_/G_O__subunit_gamma-7_OS_                                 5.56%    passed     99.87%
+  99  MetazoaVertebrateMusmusculus_6537209__GBGT2_MOUSE_Guanine_nucleotide-binding_protein_G_I_/G_S_/G_O__subunit_gamma-T2_OS_                               4.17%    passed     72.62%
+ 100  MetazoaVertebrateMusmusculus_6545717__GBG10_MOUSE_Guanine_nucleotide-binding_protein_G_I_/G_S_/G_O__subunit_gamma-10_OS_                               5.56%    passed     33.55%
+ 101  MetazoaVertebrateMusmusculus_6546843__GBG12_MOUSE_Guanine_nucleotide-binding_protein_G_I_/G_S_/G_O__subunit_gamma-12_OS_                               1.39%    passed     83.97%
+ 102  MetazoaVertebrateMusmusculus_6547913__GBG13_MOUSE_Guanine_nucleotide-binding_protein_G_I_/G_S_/G_O__subunit_gamma-13_OS_                               6.94%    failed      0.51%
+****  TOTAL                                                                                                                                                  4.59%  5 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: MetazoaMolluscaEP00106Octopusbimaculoides_4177988__GBG1_DROME_Guanine_nucleotide-binding_protein_subunit_gamma-1_OS_ is identical to MetazoaMolluscaEP00106Octopusbimaculoides_4177987__GBG1_DROME_Guanine_nucleotide-binding_protein_subunit_gamma-1_OS_ but kept for subsequent analysis
+
+Creating fast initial parsimony tree by random order stepwise addition...
+1.431 seconds, parsimony score: 1988 (based on 69 sites)
+Measuring multi-threading efficiency up to 14 CPU cores
+Increase to 10 rounds for branch lengths
+94 trees examined
+Threads: 1 / Time: 14.020 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -12629
+Threads: 2 / Time: 9.584 sec / Speedup: 1.463 / Efficiency: 73% / LogL: -12629
+Threads: 3 / Time: 8.118 sec / Speedup: 1.727 / Efficiency: 58% / LogL: -12629
+Threads: 4 / Time: 7.489 sec / Speedup: 1.872 / Efficiency: 47% / LogL: -12629
+BEST NUMBER OF THREADS: 3
+
+Perform fast likelihood tree search using LG+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -9077.044
+Optimal log-likelihood: -9077.007
+Proportion of invariable sites: 0.042
+Gamma shape alpha: 1.749
+Parameters optimization took 1 rounds (0.028 sec)
+Time for fast ML tree search: 0.322 seconds
+
+NOTE: ModelFinder requires 14 MB RAM!
+ModelFinder will test up to 598 protein models (sample size: 72) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  Blosum62      9489.148     201 19380.295    100584.295   19837.905
+  2  Blosum62+I    9421.920     202 19247.841    101259.841   19707.727
+  3  Blosum62+G4   9213.704     202 18831.408    100843.408   19291.295
+  4  Blosum62+I+G4 9205.755     203 18817.509    101641.509   19279.672
+  5  Blosum62+R2   9241.932     203 18889.864    101713.864   19352.028
+  6  Blosum62+R3   9204.022     205 18818.044    103278.044   19284.760
+  7  Blosum62+R4   9192.901     207 18799.802    104911.802   19271.072
+  8  Blosum62+R5   9192.612     209 18803.225    106583.225   19279.048
+ 14  Blosum62+F    9516.294     220 19472.588    116712.588   19973.455
+ 15  Blosum62+F+I  9445.887     221 19333.773    117457.773   19836.916
+ 16  Blosum62+F+G4 9228.824     221 18899.649    117023.649   19402.792
+ 17  Blosum62+F+I+G4 9221.566     222 18887.133    117899.133   19392.553
+ 18  Blosum62+F+R2 9263.433     222 18970.866    117982.866   19476.286
+ 19  Blosum62+F+R3 9222.611     224 18893.221    119693.221   19403.195
+ 20  Blosum62+F+R4 9208.024     226 18868.049    121472.049   19382.576
+ 21  Blosum62+F+R5 9208.047     228 18872.095    123296.095   19391.175
+ 27  cpREV         9631.517     201 19665.034    100869.034   20122.644
+ 28  cpREV+I       9519.388     202 19442.776    101454.776   19902.663
+ 29  cpREV+G4      9298.722     202 19001.443    101013.443   19461.330
+ 30  cpREV+I+G4    9285.205     203 18976.410    101800.410   19438.573
+ 31  cpREV+R2      9353.356     203 19112.712    101936.712   19574.875
+ 32  cpREV+R3      9300.379     205 19010.757    103470.757   19477.474
+ 33  cpREV+R4      9281.348     207 18976.696    105088.696   19447.966
+ 34  cpREV+R5      9274.355     209 18966.711    106746.711   19442.534
+ 35  cpREV+R6      9273.809     211 18969.618    108433.618   19449.995
+ 40  cpREV+F       9699.985     220 19839.970    117079.970   20340.836
+ 41  cpREV+F+I     9580.459     221 19602.919    117726.919   20106.062
+ 42  cpREV+F+G4    9342.717     221 19127.434    117251.434   19630.578
+ 43  cpREV+F+I+G4  9328.142     222 19100.284    118112.284   19605.704
+ 44  cpREV+F+R2    9409.310     222 19262.620    118274.620   19768.040
+ 45  cpREV+F+R3    9346.054     224 19140.109    119940.109   19650.082
+ 46  cpREV+F+R4    9323.457     226 19098.914    121702.914   19613.441
+ 47  cpREV+F+R5    9319.580     228 19095.160    123519.160   19614.240
+ 53  Dayhoff       9528.653     201 19459.306    100663.306   19916.916
+ 54  Dayhoff+I     9416.955     202 19237.909    101249.909   19697.796
+ 55  Dayhoff+G4    9230.081     202 18864.162    100876.162   19324.049
+ 56  Dayhoff+I+G4  9215.145     203 18836.291    101660.291   19298.454
+ 57  Dayhoff+R2    9270.832     203 18947.664    101771.664   19409.827
+ 58  Dayhoff+R3    9218.424     205 18846.848    103306.848   19313.564
+ 59  Dayhoff+R4    9199.119     207 18812.239    104924.239   19283.508
+ 60  Dayhoff+R5    9196.192     209 18810.383    106590.383   19286.206
+ 66  Dayhoff+F     9496.451     220 19432.902    116672.902   19933.769
+ 67  Dayhoff+F+I   9379.268     221 19200.536    117324.536   19703.679
+ 68  Dayhoff+F+G4  9178.652     221 18799.305    116923.305   19302.448
+ 69  Dayhoff+F+I+G4 9161.286     222 18766.573    117778.573   19271.993
+ 70  Dayhoff+F+R2  9226.514     222 18897.029    117909.029   19402.449
+ 71  Dayhoff+F+R3  9166.233     224 18780.466    119580.466   19290.439
+ 72  Dayhoff+F+R4  9148.264     226 18748.529    121352.529   19263.055
+ 73  Dayhoff+F+R5  9146.561     228 18749.122    123173.122   19268.202
+ 79  DCMut         9528.403     201 19458.805    100662.805   19916.415
+ 80  DCMut+I       9417.022     202 19238.044    101250.044   19697.931
+ 81  DCMut+G4      9230.268     202 18864.535    100876.535   19324.422
+ 82  DCMut+I+G4    9215.342     203 18836.684    101660.684   19298.847
+ 83  DCMut+R2      9270.909     203 18947.818    101771.818   19409.981
+ 84  DCMut+R3      9222.759     205 18855.519    103315.519   19322.235
+ 85  DCMut+R4      9198.731     207 18811.462    104923.462   19282.732
+ 86  DCMut+R5      9196.387     209 18810.774    106590.774   19286.597
+ 92  DCMut+F       9495.890     220 19431.779    116671.779   19932.646
+ 93  DCMut+F+I     9379.073     221 19200.146    117324.146   19703.290
+ 94  DCMut+F+G4    9178.630     221 18799.259    116923.259   19302.402
+ 95  DCMut+F+I+G4  9161.180     222 18766.361    117778.361   19271.781
+ 96  DCMut+F+R2    9226.315     222 18896.630    117908.630   19402.050
+ 97  DCMut+F+R3    9167.312     224 18782.624    119582.624   19292.597
+ 98  DCMut+F+R4    9148.129     226 18748.259    121352.259   19262.785
+ 99  DCMut+F+R5    9146.525     228 18749.050    123173.050   19268.130
+105  FLU           9868.084     201 20138.169    101342.169   20595.779
+106  FLU+I         9780.830     202 19965.659    101977.659   20425.546
+107  FLU+G4        9496.699     202 19397.397    101409.397   19857.284
+108  FLU+I+G4      9488.939     203 19383.877    102207.877   19846.040
+109  FLU+R2        9547.342     203 19500.683    102324.683   19962.846
+110  FLU+R3        9502.997     205 19415.994    103875.994   19882.710
+111  FLU+R4        9476.457     207 19366.914    105478.914   19838.184
+112  FLU+R5        9472.150     209 19362.299    107142.299   19838.123
+113  FLU+R6        9471.754     211 19365.508    108829.508   19845.885
+118  FLU+F         9819.599     220 20079.198    117319.198   20580.064
+119  FLU+F+I       9736.627     221 19915.254    118039.254   20418.397
+120  FLU+F+G4      9410.331     221 19262.662    117386.662   19765.805
+121  FLU+F+I+G4    9400.937     222 19245.873    118257.873   19751.293
+122  FLU+F+R2      9464.532     222 19373.065    118385.065   19878.485
+123  FLU+F+R3      9416.489     224 19280.979    120080.979   19790.952
+124  FLU+F+R4      9390.937     226 19233.875    121837.875   19748.401
+125  FLU+F+R5      9386.414     228 19228.828    123652.828   19747.908
+126  FLU+F+R6      9385.786     230 19231.571    125491.571   19755.204
+131  HIVb          9905.709     201 20213.418    101417.418   20671.028
+132  HIVb+I        9789.051     202 19982.101    101994.101   20441.988
+133  HIVb+G4       9474.391     202 19352.781    101364.781   19812.668
+134  HIVb+I+G4     9462.639     203 19331.278    102155.278   19793.441
+135  HIVb+R2       9549.404     203 19504.807    102328.807   19966.970
+136  HIVb+R3       9486.152     205 19382.304    103842.304   19849.021
+137  HIVb+R4       9454.143     207 19322.286    105434.286   19793.556
+138  HIVb+R5       9450.407     209 19318.814    107098.814   19794.638
+144  HIVb+F        9816.767     220 20073.534    117313.534   20574.401
+145  HIVb+F+I      9690.249     221 19822.497    117946.497   20325.641
+146  HIVb+F+G4     9366.824     221 19175.648    117299.648   19678.791
+147  HIVb+F+I+G4   9356.665     222 19157.330    118169.330   19662.750
+148  HIVb+F+R2     9447.363     222 19338.726    118350.726   19844.146
+149  HIVb+F+R3     9382.856     224 19213.711    120013.711   19723.685
+150  HIVb+F+R4     9347.165     226 19146.329    121750.329   19660.856
+151  HIVb+F+R5     9346.101     228 19148.203    123572.203   19667.282
+157  HIVw          10439.894    201 21281.789    102485.789   21739.398
+158  HIVw+I        10346.740    202 21097.480    103109.480   21557.366
+159  HIVw+G4       9976.607     202 20357.213    102369.213   20817.100
+160  HIVw+I+G4     9970.368     203 20346.737    103170.737   20808.900
+161  HIVw+R2       10061.982    203 20529.964    103353.964   20992.127
+162  HIVw+R3       9994.484     205 20398.968    104858.968   20865.684
+163  HIVw+R4       9961.344     207 20336.689    106448.689   20807.959
+164  HIVw+R5       9954.921     209 20327.843    108107.843   20803.666
+165  HIVw+R6       9954.440     211 20330.879    109794.879   20811.256
+170  HIVw+F        10222.936    220 20885.872    118125.872   21386.739
+171  HIVw+F+I      10131.795    221 20705.590    118829.590   21208.733
+172  HIVw+F+G4     9741.306     221 19924.611    118048.611   20427.755
+173  HIVw+F+I+G4   9736.264     222 19916.529    118928.529   20421.949
+174  HIVw+F+R2     9824.071     222 20092.143    119104.143   20597.563
+175  HIVw+F+R3     9758.005     224 19964.009    120764.009   20473.983
+176  HIVw+F+R4     9727.113     226 19906.226    122510.226   20420.752
+177  HIVw+F+R5     9722.631     228 19901.261    124325.261   20420.341
+178  HIVw+F+R6     9721.904     230 19903.808    126163.808   20427.441
+183  JTT           9515.257     201 19432.513    100636.513   19890.123
+184  JTT+I         9416.641     202 19237.282    101249.282   19697.168
+185  JTT+G4        9184.574     202 18773.149    100785.149   19233.035
+186  JTT+I+G4      9175.220     203 18756.440    101580.440   19218.603
+187  JTT+R2        9228.208     203 18862.417    101686.417   19324.580
+188  JTT+R3        9183.482     205 18776.964    103236.964   19243.680
+189  JTT+R4        9162.423     207 18738.846    104850.846   19210.116
+190  JTT+R5        9160.936     209 18739.871    106519.871   19215.695
+196  JTT+F         9493.881     220 19427.762    116667.762   19928.629
+197  JTT+F+I       9392.854     221 19227.708    117351.708   19730.851
+198  JTT+F+G4      9152.055     221 18746.110    116870.110   19249.253
+199  JTT+F+I+G4    9142.807     222 18729.615    117741.615   19235.035
+200  JTT+F+R2      9198.867     222 18841.734    117853.734   19347.154
+201  JTT+F+R3      9153.383     224 18754.767    119554.767   19264.740
+202  JTT+F+R4      9130.579     226 18713.159    121317.159   19227.685
+203  JTT+F+R5      9130.211     228 18716.422    123140.422   19235.502
+209  JTTDCMut      9512.840     201 19427.680    100631.680   19885.289
+210  JTTDCMut+I    9413.684     202 19231.368    101243.368   19691.255
+211  JTTDCMut+G4   9183.289     202 18770.578    100782.578   19230.464
+212  JTTDCMut+I+G4 9174.004     203 18754.008    101578.008   19216.171
+213  JTTDCMut+R2   9227.322     203 18860.644    101684.644   19322.807
+214  JTTDCMut+R3   9182.030     205 18774.059    103234.059   19240.776
+215  JTTDCMut+R4   9161.183     207 18736.366    104848.366   19207.636
+216  JTTDCMut+R5   9159.643     209 18737.287    106517.287   19213.110
+222  JTTDCMut+F    9492.899     220 19425.798    116665.798   19926.665
+223  JTTDCMut+F+I  9391.321     221 19224.641    117348.641   19727.785
+224  JTTDCMut+F+G4 9152.312     221 18746.624    116870.624   19249.768
+225  JTTDCMut+F+I+G4 9142.950     222 18729.901    117741.901   19235.321
+226  JTTDCMut+F+R2 9199.217     222 18842.433    117854.433   19347.853
+227  JTTDCMut+F+R3 9153.110     224 18754.221    119554.221   19264.194
+228  JTTDCMut+F+R4 9130.787     226 18713.575    121317.575   19228.101
+229  JTTDCMut+F+R5 9130.319     228 18716.638    123140.638   19235.718
+235  LG            9411.346     201 19224.691    100428.691   19682.301
+236  LG+I          9312.010     202 19028.020    101040.020   19487.907
+237  LG+G4         9091.977     202 18587.955    100599.955   19047.841
+238  LG+I+G4       9077.054     203 18560.108    101384.108   19022.271
+239  LG+R2         9122.068     203 18650.136    101474.136   19112.299
+240  LG+R3         9083.238     205 18576.477    103036.477   19043.193
+241  LG+R4         9064.824     207 18543.647    104655.647   19014.917
+WARNING: Log-likelihood -9066.21 of LG+R5 worse than LG+R4 -9064.82
+242  LG+R5         9066.213     209 18550.425    106330.425   19026.249
+248  LG+F          9415.337     220 19270.673    116510.673   19771.540
+249  LG+F+I        9315.088     221 19072.176    117196.176   19575.320
+250  LG+F+G4       9090.117     221 18622.233    116746.233   19125.376
+251  LG+F+I+G4     9078.878     222 18601.757    117613.757   19107.177
+252  LG+F+R2       9123.675     222 18691.350    117703.350   19196.770
+253  LG+F+R3       9085.077     224 18618.153    119418.153   19128.126
+254  LG+F+R4       9064.925     226 18581.851    121185.851   19096.377
+255  LG+F+R5       9065.427     228 18586.854    123010.854   19105.934
+261  mtART         10132.849    201 20667.698    101871.698   21125.308
+262  mtART+I       9985.265     202 20374.530    102386.530   20834.416
+263  mtART+G4      9496.494     202 19396.989    101408.989   19856.875
+264  mtART+I+G4    9483.661     203 19373.323    102197.323   19835.486
+265  mtART+R2      9582.897     203 19571.794    102395.794   20033.958
+266  mtART+R3      9513.300     205 19436.601    103896.601   19903.317
+267  mtART+R4      9479.449     207 19372.899    105484.899   19844.168
+268  mtART+R5      9473.831     209 19365.663    107145.663   19841.486
+269  mtART+R6      9469.817     211 19361.635    108825.635   19842.011
+274  mtART+F       9734.025     220 19908.050    117148.050   20408.916
+275  mtART+F+I     9577.007     221 19596.014    117720.014   20099.158
+276  mtART+F+G4    9285.897     221 19013.793    117137.793   19516.936
+277  mtART+F+I+G4  9264.733     222 18973.466    117985.466   19478.885
+278  mtART+F+R2    9359.629     222 19163.258    118175.258   19668.678
+279  mtART+F+R3    9292.115     224 19032.229    119832.229   19542.202
+280  mtART+F+R4    9262.652     226 18977.305    121581.305   19491.831
+281  mtART+F+R5    9256.088     228 18968.176    123392.176   19487.256
+282  mtART+F+R6    9252.198     230 18964.397    125224.397   19488.030
+287  mtMAM         10376.398    201 21154.796    102358.796   21612.406
+288  mtMAM+I       10257.595    202 20919.189    102931.189   21379.076
+289  mtMAM+G4      9710.661     202 19825.322    101837.322   20285.208
+290  mtMAM+I+G4    9705.330     203 19816.660    102640.660   20278.823
+291  mtMAM+R2      9822.274     203 20050.549    102874.549   20512.712
+292  mtMAM+R3      9745.184     205 19900.369    104360.369   20367.086
+293  mtMAM+R4      9700.271     207 19814.542    105926.542   20285.812
+294  mtMAM+R5      9696.689     209 19811.378    107591.378   20287.201
+300  mtMAM+F       9916.738     220 20273.475    117513.475   20774.342
+301  mtMAM+F+I     9777.571     221 19997.141    118121.141   20500.284
+302  mtMAM+F+G4    9471.673     221 19385.345    117509.345   19888.489
+303  mtMAM+F+I+G4  9453.688     222 19351.376    118363.376   19856.796
+304  mtMAM+F+R2    9552.687     222 19549.373    118561.373   20054.793
+305  mtMAM+F+R3    9483.151     224 19414.301    120214.301   19924.275
+306  mtMAM+F+R4    9457.441     226 19366.882    121970.882   19881.408
+307  mtMAM+F+R5    9450.519     228 19357.038    123781.038   19876.118
+308  mtMAM+F+R6    9447.937     230 19355.874    125615.874   19879.507
+313  mtREV         9961.432     201 20324.864    101528.864   20782.474
+314  mtREV+I       9857.442     202 20118.884    102130.884   20578.771
+315  mtREV+G4      9535.286     202 19474.571    101486.571   19934.458
+316  mtREV+I+G4    9521.633     203 19449.266    102273.266   19911.429
+317  mtREV+R2      9605.367     203 19616.734    102440.734   20078.897
+318  mtREV+R3      9541.752     205 19493.503    103953.503   19960.220
+319  mtREV+R4      9517.097     207 19448.194    105560.194   19919.464
+320  mtREV+R5      9510.151     209 19438.303    107218.303   19914.126
+321  mtREV+R6      9505.175     211 19432.350    108896.350   19912.726
+322  mtREV+R7      9504.373     213 19434.745    110598.745   19919.675
+326  mtREV+F       9653.757     220 19747.514    116987.514   20248.381
+327  mtREV+F+I     9526.594     221 19495.188    117619.188   19998.331
+328  mtREV+F+G4    9323.683     221 19089.365    117213.365   19592.509
+329  mtREV+F+I+G4  9306.953     222 19057.906    118069.906   19563.326
+330  mtREV+F+R2    9381.349     222 19206.697    118218.697   19712.117
+331  mtREV+F+R3    9326.898     224 19101.797    119901.797   19611.770
+332  mtREV+F+R4    9302.344     226 19056.688    121660.688   19571.214
+333  mtREV+F+R5    9303.342     228 19062.685    123486.685   19581.764
+339  mtZOA         9875.038     201 20152.076    101356.076   20609.686
+340  mtZOA+I       9742.534     202 19889.068    101901.068   20348.955
+341  mtZOA+G4      9339.219     202 19082.438    101094.438   19542.325
+342  mtZOA+I+G4    9326.040     203 19058.081    101882.081   19520.244
+343  mtZOA+R2      9410.677     203 19227.354    102051.354   19689.517
+344  mtZOA+R3      9346.889     205 19103.779    103563.779   19570.495
+345  mtZOA+R4      9325.842     207 19065.683    105177.683   19536.953
+346  mtZOA+R5      9314.584     209 19047.167    106827.167   19522.990
+347  mtZOA+R6      9310.410     211 19042.820    108506.820   19523.197
+352  mtZOA+F       9600.757     220 19641.514    116881.514   20142.380
+353  mtZOA+F+I     9453.410     221 19348.820    117472.820   19851.963
+354  mtZOA+F+G4    9212.233     221 18866.466    116990.466   19369.610
+355  mtZOA+F+I+G4  9189.264     222 18822.528    117834.528   19327.948
+356  mtZOA+F+R2    9264.722     222 18973.443    117985.443   19478.863
+357  mtZOA+F+R3    9211.556     224 18871.112    119671.112   19381.085
+358  mtZOA+F+R4    9188.030     226 18828.060    121432.060   19342.587
+359  mtZOA+F+R5    9180.427     228 18816.855    123240.855   19335.935
+360  mtZOA+F+R6    9175.890     230 18811.780    125071.780   19335.414
+361  mtZOA+F+R7    9175.859     232 18815.717    126927.717   19343.904
+365  mtMet         9976.391     201 20354.782    101558.782   20812.391
+366  mtMet+I       9859.933     202 20123.867    102135.867   20583.753
+367  mtMet+G4      9493.014     202 19390.028    101402.028   19849.915
+368  mtMet+I+G4    9478.449     203 19362.897    102186.897   19825.060
+369  mtMet+R2      9551.174     203 19508.349    102332.349   19970.512
+370  mtMet+R3      9494.305     205 19398.611    103858.611   19865.327
+371  mtMet+R4      9475.263     207 19364.527    105476.527   19835.796
+372  mtMet+R5      9470.852     209 19359.703    107139.703   19835.527
+373  mtMet+R6      9462.068     211 19346.135    108810.135   19826.512
+374  mtMet+R7      9460.760     213 19347.520    110511.520   19832.449
+378  mtMet+F       9629.309     220 19698.619    116938.619   20199.485
+379  mtMet+F+I     9499.231     221 19440.462    117564.462   19943.606
+380  mtMet+F+G4    9267.988     221 18977.976    117101.976   19481.120
+381  mtMet+F+I+G4  9245.804     222 18935.609    117947.609   19441.029
+382  mtMet+F+R2    9319.247     222 19082.494    118094.494   19587.914
+383  mtMet+F+R3    9263.317     224 18974.634    119774.634   19484.607
+384  mtMet+F+R4    9247.049     226 18946.098    121550.098   19460.625
+385  mtMet+F+R5    9241.836     228 18939.671    123363.671   19458.751
+386  mtMet+F+R6    9237.061     230 18934.122    125194.122   19457.755
+387  mtMet+F+R7    9236.819     232 18937.637    127049.637   19465.824
+391  mtVer         10212.487    201 20826.974    102030.974   21284.584
+392  mtVer+I       10083.824    202 20571.648    102583.648   21031.534
+393  mtVer+G4      9642.829     202 19689.658    101701.658   20149.544
+394  mtVer+I+G4    9629.085     203 19664.170    102488.170   20126.333
+395  mtVer+R2      9731.860     203 19869.720    102693.720   20331.883
+396  mtVer+R3      9664.004     205 19738.009    104198.009   20204.725
+397  mtVer+R4      9626.237     207 19666.475    105778.475   20137.745
+398  mtVer+R5      9623.866     209 19665.731    107445.731   20141.555
+404  mtVer+F       9885.394     220 20210.788    117450.788   20711.655
+405  mtVer+F+I     9726.754     221 19895.508    118019.508   20398.651
+406  mtVer+F+G4    9457.254     221 19356.507    117480.507   19859.651
+407  mtVer+F+I+G4  9430.908     222 19305.816    118317.816   19811.236
+408  mtVer+F+R2    9534.081     222 19512.162    118524.162   20017.582
+409  mtVer+F+R3    9454.805     224 19357.610    120157.610   19867.583
+410  mtVer+F+R4    9437.016     226 19326.031    121930.031   19840.558
+411  mtVer+F+R5    9429.211     228 19314.422    123738.422   19833.502
+412  mtVer+F+R6    9428.406     230 19316.812    125576.812   19840.445
+417  mtInv         9934.102     201 20270.204    101474.204   20727.814
+418  mtInv+I       9822.233     202 20048.466    102060.466   20508.353
+419  mtInv+G4      9493.435     202 19390.869    101402.869   19850.756
+420  mtInv+I+G4    9480.484     203 19366.968    102190.968   19829.132
+421  mtInv+R2      9543.286     203 19492.572    102316.572   19954.736
+422  mtInv+R3      9491.052     205 19392.103    103852.103   19858.820
+423  mtInv+R4      9478.290     207 19370.579    105482.579   19841.849
+424  mtInv+R5      9465.349     209 19348.699    107128.699   19824.522
+425  mtInv+R6      9462.053     211 19346.106    108810.106   19826.482
+430  mtInv+F       9527.291     220 19494.582    116734.582   19995.448
+431  mtInv+F+I     9401.901     221 19245.801    117369.801   19748.945
+432  mtInv+F+G4    9190.787     221 18823.574    116947.574   19326.717
+433  mtInv+F+I+G4  9168.170     222 18780.339    117792.339   19285.759
+434  mtInv+F+R2    9233.075     222 18910.151    117922.151   19415.571
+435  mtInv+F+R3    9184.810     224 18817.621    119617.621   19327.594
+436  mtInv+F+R4    9166.983     226 18785.966    121389.966   19300.493
+437  mtInv+F+R5    9161.610     228 18779.219    123203.219   19298.299
+438  mtInv+F+R6    9157.842     230 18775.683    125035.683   19299.316
+443  Poisson       10506.937    201 21415.874    102619.874   21873.484
+444  Poisson+I     10412.423    202 21228.846    103240.846   21688.733
+445  Poisson+G4    10154.024    202 20712.049    102724.049   21171.935
+446  Poisson+I+G4  10143.865    203 20693.731    103517.731   21155.894
+447  Poisson+R2    10207.040    203 20820.080    103644.080   21282.243
+448  Poisson+R3    10148.300    205 20706.600    105166.600   21173.317
+449  Poisson+R4    10136.157    207 20686.315    106798.315   21157.585
+450  Poisson+R5    10137.085    209 20692.170    108472.170   21167.993
+456  Poisson+F     10277.473    220 20994.946    118234.946   21495.812
+457  Poisson+F+I   10179.479    221 20800.959    118924.959   21304.102
+458  Poisson+F+G4  9914.682     221 20271.363    118395.363   20774.507
+459  Poisson+F+I+G4 9903.879     222 20251.757    119263.757   20757.177
+460  Poisson+F+R2  9967.695     222 20379.389    119391.389   20884.809
+461  Poisson+F+R3  9910.430     224 20268.859    121068.859   20778.832
+462  Poisson+F+R4  9896.204     226 20244.408    122848.408   20758.934
+463  Poisson+F+R5  9896.921     228 20249.843    124673.843   20768.923
+469  PMB           9516.184     201 19434.369    100638.369   19891.979
+470  PMB+I         9440.851     202 19285.702    101297.702   19745.589
+471  PMB+G4        9245.783     202 18895.566    100907.566   19355.452
+472  PMB+I+G4      9234.013     203 18874.025    101698.025   19336.189
+473  PMB+R2        9262.279     203 18930.559    101754.559   19392.722
+474  PMB+R3        9224.497     205 18858.995    103318.995   19325.711
+475  PMB+R4        9213.119     207 18840.238    104952.238   19311.508
+476  PMB+R5        9212.456     209 18842.912    106622.912   19318.735
+482  PMB+F         9516.917     220 19473.833    116713.833   19974.700
+483  PMB+F+I       9437.238     221 19316.476    117440.476   19819.619
+484  PMB+F+G4      9223.057     221 18888.113    117012.113   19391.256
+485  PMB+F+I+G4    9214.251     222 18872.502    117884.502   19377.922
+486  PMB+F+R2      9256.940     222 18957.880    117969.880   19463.300
+487  PMB+F+R3      9215.772     224 18879.544    119679.544   19389.517
+488  PMB+F+R4      9202.491     226 18856.982    121460.982   19371.508
+489  PMB+F+R5      9202.488     228 18860.977    123284.977   19380.057
+495  rtREV         9504.979     201 19411.959    100615.959   19869.569
+496  rtREV+I       9404.708     202 19213.416    101225.416   19673.303
+497  rtREV+G4      9181.068     202 18766.137    100778.137   19226.023
+498  rtREV+I+G4    9165.400     203 18736.801    101560.801   19198.964
+499  rtREV+R2      9211.827     203 18829.653    101653.653   19291.817
+500  rtREV+R3      9171.067     205 18752.134    103212.134   19218.851
+501  rtREV+R4      9152.525     207 18719.049    104831.049   19190.319
+502  rtREV+R5      9153.299     209 18724.599    106504.599   19200.422
+508  rtREV+F       9461.742     220 19363.484    116603.484   19864.350
+509  rtREV+F+I     9357.090     221 19156.180    117280.180   19659.323
+510  rtREV+F+G4    9129.934     221 18701.867    116825.867   19205.010
+511  rtREV+F+I+G4  9116.977     222 18677.954    117689.954   19183.374
+512  rtREV+F+R2    9166.590     222 18777.180    117789.180   19282.600
+513  rtREV+F+R3    9125.204     224 18698.407    119498.407   19208.381
+514  rtREV+F+R4    9104.276     226 18660.552    121264.552   19175.079
+515  rtREV+F+R5    9104.403     228 18664.806    123088.806   19183.886
+521  VT            9457.759     201 19317.518    100521.518   19775.128
+522  VT+I          9369.363     202 19142.726    101154.726   19602.612
+523  VT+G4         9183.711     202 18771.422    100783.422   19231.308
+524  VT+I+G4       9166.936     203 18739.872    101563.872   19202.035
+525  VT+R2         9199.673     203 18805.345    101629.345   19267.509
+526  VT+R3         9160.481     205 18730.961    103190.961   19197.678
+527  VT+R4         9143.747     207 18701.494    104813.494   19172.764
+528  VT+R5         9144.173     209 18706.345    106486.345   19182.168
+534  VT+F          9464.619     220 19369.238    116609.238   19870.105
+535  VT+F+I        9375.751     221 19193.502    117317.502   19696.646
+536  VT+F+G4       9165.299     221 18772.598    116896.598   19275.741
+537  VT+F+I+G4     9155.412     222 18754.824    117766.824   19260.244
+538  VT+F+R2       9201.875     222 18847.750    117859.750   19353.170
+539  VT+F+R3       9161.442     224 18770.884    119570.884   19280.857
+540  VT+F+R4       9143.083     226 18738.165    121342.165   19252.692
+WARNING: Log-likelihood -9144.3 of VT+F+R5 worse than VT+F+R4 -9143.08
+541  VT+F+R5       9144.301     228 18744.602    123168.602   19263.682
+547  WAG           9449.304     201 19300.608    100504.608   19758.218
+548  WAG+I         9359.565     202 19123.131    101135.131   19583.018
+549  WAG+G4        9174.021     202 18752.043    100764.043   19211.929
+550  WAG+I+G4      9158.376     203 18722.752    101546.752   19184.916
+551  WAG+R2        9200.390     203 18806.781    101630.781   19268.944
+552  WAG+R3        9159.719     205 18729.438    103189.438   19196.155
+553  WAG+R4        9141.937     207 18697.874    104809.874   19169.144
+554  WAG+R5        9141.308     209 18700.616    106480.616   19176.440
+560  WAG+F         9475.897     220 19391.793    116631.793   19892.660
+561  WAG+F+I       9386.265     221 19214.531    117338.531   19717.674
+562  WAG+F+G4      9177.575     221 18797.149    116921.149   19300.292
+563  WAG+F+I+G4    9166.240     222 18776.480    117788.480   19281.900
+564  WAG+F+R2      9213.415     222 18870.830    117882.830   19376.250
+565  WAG+F+R3      9169.594     224 18787.187    119587.187   19297.161
+566  WAG+F+R4      9151.815     226 18755.630    121359.630   19270.157
+567  WAG+F+R5      9151.915     228 18759.830    123183.830   19278.910
+WARNING: GTR20 model will estimate 189 substitution rates that might be overfitting!
+WARNING: Please only use GTR20 with very large data and always test for model fit!
+573  GTR20+F       9123.344     409 19064.689    354444.689   19995.845
+WARNING: GTR20 model will estimate 189 substitution rates that might be overfitting!
+WARNING: Please only use GTR20 with very large data and always test for model fit!
+574  GTR20+F+I     9032.155     410 18884.309    355904.309   19817.742
+WARNING: GTR20 model will estimate 189 substitution rates that might be overfitting!
+WARNING: Please only use GTR20 with very large data and always test for model fit!
+575  GTR20+F+G4    8820.945     410 18461.889    355481.889   19395.322
+WARNING: GTR20 model will estimate 189 substitution rates that might be overfitting!
+WARNING: Please only use GTR20 with very large data and always test for model fit!
+576  GTR20+F+I+G4  8808.580     411 18439.161    357103.161   19374.870
+WARNING: GTR20 model will estimate 189 substitution rates that might be overfitting!
+WARNING: Please only use GTR20 with very large data and always test for model fit!
+577  GTR20+F+R2    8863.515     411 18549.030    357213.030   19484.740
+WARNING: GTR20 model will estimate 189 substitution rates that might be overfitting!
+WARNING: Please only use GTR20 with very large data and always test for model fit!
+578  GTR20+F+R3    8816.203     413 18458.405    360422.405   19398.668
+WARNING: GTR20 model will estimate 189 substitution rates that might be overfitting!
+WARNING: Please only use GTR20 with very large data and always test for model fit!
+579  GTR20+F+R4    8800.582     415 18431.163    363711.163   19375.979
+WARNING: GTR20 model will estimate 189 substitution rates that might be overfitting!
+WARNING: Please only use GTR20 with very large data and always test for model fit!
+580  GTR20+F+R5    8798.793     417 18431.586    367043.586   19380.956
+WARNING: GTR20 model will estimate 189 substitution rates that might be overfitting!
+WARNING: Please only use GTR20 with very large data and always test for model fit!
+586  GTR20+F       9123.344     409 19064.689    354444.689   19995.845
+WARNING: GTR20 model will estimate 189 substitution rates that might be overfitting!
+WARNING: Please only use GTR20 with very large data and always test for model fit!
+587  GTR20+F+I     9032.155     410 18884.309    355904.309   19817.742
+WARNING: GTR20 model will estimate 189 substitution rates that might be overfitting!
+WARNING: Please only use GTR20 with very large data and always test for model fit!
+588  GTR20+F+G4    8820.945     410 18461.889    355481.889   19395.322
+WARNING: GTR20 model will estimate 189 substitution rates that might be overfitting!
+WARNING: Please only use GTR20 with very large data and always test for model fit!
+589  GTR20+F+I+G4  8808.580     411 18439.161    357103.161   19374.870
+WARNING: GTR20 model will estimate 189 substitution rates that might be overfitting!
+WARNING: Please only use GTR20 with very large data and always test for model fit!
+590  GTR20+F+R2    8863.515     411 18549.030    357213.030   19484.740
+WARNING: GTR20 model will estimate 189 substitution rates that might be overfitting!
+WARNING: Please only use GTR20 with very large data and always test for model fit!
+591  GTR20+F+R3    8816.203     413 18458.405    360422.405   19398.668
+WARNING: GTR20 model will estimate 189 substitution rates that might be overfitting!
+WARNING: Please only use GTR20 with very large data and always test for model fit!
+592  GTR20+F+R4    8800.582     415 18431.163    363711.163   19375.979
+WARNING: GTR20 model will estimate 189 substitution rates that might be overfitting!
+WARNING: Please only use GTR20 with very large data and always test for model fit!
+593  GTR20+F+R5    8798.793     417 18431.586    367043.586   19380.956
+Akaike Information Criterion:           GTR20+F+R4
+Corrected Akaike Information Criterion: LG
+Bayesian Information Criterion:         LG+R4
+Best-fit model: LG+R4 chosen according to BIC
+
+All model information printed to G_g.doublefiltered.fasta.annot.clean.mafft.trimal.UFB.model.gz
+CPU time for ModelFinder: 1434.545 seconds (0h:23m:54s)
+Wall-clock time for ModelFinder: 488.052 seconds (0h:8m:8s)
+Generating 1000 samples for ultrafast bootstrap (seed: 796222)...
+
+NOTE: 6 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -9064.824
+Optimal log-likelihood: -9064.796
+Site proportion and rates:  (0.124,0.072) (0.190,0.405) (0.414,1.074) (0.272,1.726)
+Parameters optimization took 1 rounds (0.088 sec)
+Computing ML distances based on estimated model parameters... 1.371 sec
+Computing BIONJ tree...
+0.009 seconds
+Log-likelihood of BIONJ tree: -9058.710
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.443 second
+Computing log-likelihood of 98 initial trees ... 1.192 seconds
+Current best score: -9058.710
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -9021.135
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 7: -9019.860
+Iteration 10 / LogL: -9021.325 / Time: 0h:0m:8s
+Iteration 20 / LogL: -9066.256 / Time: 0h:0m:14s
+Finish initializing candidate tree set (20)
+Current best tree score: -9019.860 / CPU time: 13.834
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 22: -9008.965
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 28: -9000.966
+Iteration 30 / LogL: -9015.894 / Time: 0h:0m:19s (0h:1m:5s left)
+Iteration 40 / LogL: -9006.164 / Time: 0h:0m:23s (0h:0m:54s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 46: -8999.618
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 48: -8995.765
+Iteration 50 / LogL: -9007.772 / Time: 0h:0m:28s (0h:0m:57s left)
+BETTER TREE FOUND at iteration 51: -8995.764
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 55: -8995.607
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 56: -8994.021
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 57: -8993.524
+Iteration 60 / LogL: -9003.789 / Time: 0h:0m:33s (0h:0m:54s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 62: -8993.466
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 64: -8992.769
+Iteration 70 / LogL: -8998.654 / Time: 0h:0m:38s (0h:0m:52s left)
+UPDATE BEST LOG-LIKELIHOOD: -8992.767
+Iteration 80 / LogL: -8993.353 / Time: 0h:0m:42s (0h:0m:45s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 83: -8990.942
+Iteration 90 / LogL: -8995.654 / Time: 0h:0m:47s (0h:0m:49s left)
+Iteration 100 / LogL: -8994.404 / Time: 0h:0m:52s (0h:0m:43s left)
+UPDATE BEST LOG-LIKELIHOOD: -8990.939
+Iteration 110 / LogL: -8993.787 / Time: 0h:0m:57s (0h:0m:38s left)
+Iteration 120 / LogL: -8992.131 / Time: 0h:1m:2s (0h:0m:32s left)
+Iteration 130 / LogL: -8991.730 / Time: 0h:1m:6s (0h:0m:27s left)
+Iteration 140 / LogL: -8991.360 / Time: 0h:1m:11s (0h:0m:21s left)
+Iteration 150 / LogL: -8993.379 / Time: 0h:1m:15s (0h:0m:16s left)
+Iteration 160 / LogL: -8993.335 / Time: 0h:1m:20s (0h:0m:11s left)
+UPDATE BEST LOG-LIKELIHOOD: -8990.939
+Iteration 170 / LogL: -8991.841 / Time: 0h:1m:24s (0h:0m:6s left)
+Iteration 180 / LogL: -8992.441 / Time: 0h:1m:28s (0h:0m:1s left)
+Refining ufboot trees with NNI 1 branch...
+100 samples done
+200 samples done
+300 samples done
+400 samples done
+500 samples done
+600 samples done
+700 samples done
+800 samples done
+900 samples done
+1000 samples done
+Total 1000 ufboot trees refined
+TREE SEARCH COMPLETED AFTER 184 ITERATIONS / Time: 0h:3m:3s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -8990.939
+2. Current log-likelihood: -8990.926
+3. Current log-likelihood: -8990.911
+4. Current log-likelihood: -8990.897
+5. Current log-likelihood: -8990.882
+6. Current log-likelihood: -8990.868
+7. Current log-likelihood: -8990.855
+8. Current log-likelihood: -8990.841
+9. Current log-likelihood: -8990.827
+10. Current log-likelihood: -8990.813
+11. Current log-likelihood: -8990.800
+12. Current log-likelihood: -8990.787
+13. Current log-likelihood: -8990.774
+14. Current log-likelihood: -8990.761
+15. Current log-likelihood: -8990.748
+16. Current log-likelihood: -8990.736
+17. Current log-likelihood: -8990.723
+18. Current log-likelihood: -8990.710
+19. Current log-likelihood: -8990.698
+20. Current log-likelihood: -8990.686
+21. Current log-likelihood: -8990.674
+22. Current log-likelihood: -8990.662
+23. Current log-likelihood: -8990.650
+24. Current log-likelihood: -8990.639
+25. Current log-likelihood: -8990.627
+26. Current log-likelihood: -8990.616
+27. Current log-likelihood: -8990.604
+28. Current log-likelihood: -8990.593
+29. Current log-likelihood: -8990.582
+30. Current log-likelihood: -8990.572
+31. Current log-likelihood: -8990.561
+32. Current log-likelihood: -8990.551
+33. Current log-likelihood: -8990.540
+34. Current log-likelihood: -8990.530
+Optimal log-likelihood: -8990.515
+Site proportion and rates:  (0.113,0.063) (0.206,0.394) (0.446,1.069) (0.234,1.854)
+Parameters optimization took 34 rounds (2.632 sec)
+BEST SCORE FOUND : -8990.515
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+Testing tree branches by aBayes parametric test...
+0.086 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file G_g.doublefiltered.fasta.annot.clean.mafft.trimal.UFB.splits.nex
+Total tree length: 43.144
+
+Total number of iterations: 184
+CPU time used for tree search: 533.899 sec (0h:8m:53s)
+Wall-clock time used for tree search: 182.410 sec (0h:3m:2s)
+Total CPU time used: 544.625 sec (0h:9m:4s)
+Total wall-clock time used: 186.256 sec (0h:3m:6s)
+UFBoot trees printed to G_g.doublefiltered.fasta.annot.clean.mafft.trimal.UFB.ufboot
+
+Computing bootstrap consensus tree...
+Reading input file G_g.doublefiltered.fasta.annot.clean.mafft.trimal.UFB.splits.nex...
+102 taxa and 2841 splits.
+Consensus tree written to G_g.doublefiltered.fasta.annot.clean.mafft.trimal.UFB.contree
+Reading input trees file G_g.doublefiltered.fasta.annot.clean.mafft.trimal.UFB.contree
+Log-likelihood of consensus tree: -8993.221
+
+Analysis results written to: 
+  IQ-TREE report:                G_g.doublefiltered.fasta.annot.clean.mafft.trimal.UFB.iqtree
+  Maximum-likelihood tree:       G_g.doublefiltered.fasta.annot.clean.mafft.trimal.UFB.treefile
+  Likelihood distances:          G_g.doublefiltered.fasta.annot.clean.mafft.trimal.UFB.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          G_g.doublefiltered.fasta.annot.clean.mafft.trimal.UFB.splits.nex
+  Consensus tree:                G_g.doublefiltered.fasta.annot.clean.mafft.trimal.UFB.contree
+  UFBoot trees:                  G_g.doublefiltered.fasta.annot.clean.mafft.trimal.UFB.ufboot
+  Screen log file:               G_g.doublefiltered.fasta.annot.clean.mafft.trimal.UFB.log
+
+Date and Time: Sun Jun 13 10:32:50 2021
