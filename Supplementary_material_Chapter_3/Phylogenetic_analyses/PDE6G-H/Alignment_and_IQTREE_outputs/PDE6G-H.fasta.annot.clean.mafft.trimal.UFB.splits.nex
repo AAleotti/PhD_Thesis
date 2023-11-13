@@ -1,0 +1,103 @@
+#nexus
+
+BEGIN Taxa;
+DIMENSIONS ntax=9;
+TAXLABELS
+[1] 'MetazoaVertebrateDaniorerio_5415593__CNCG_RAT_Retinal_cone_rhodopsin-sensitive_cGMP_3_'
+[2] 'MetazoaVertebrateDaniorerio_5431652__CNRG_CAVPO_Retinal_rod_rhodopsin-sensitive_cGMP_3_'
+[3] 'MetazoaVertebrateDaniorerio_5434062__CNRG_CAVPO_Retinal_rod_rhodopsin-sensitive_cGMP_3_'
+[4] 'MetazoaVertebrateDaniorerio_5435009__CNRG_BOVIN_Retinal_rod_rhodopsin-sensitive_cGMP_3_'
+[5] 'MetazoaVertebrateEptatretusburgeri_6404682__CNRG_MOUSE_Retinal_rod_rhodopsin-sensitive_cGMP_3_'
+[6] 'MetazoaVertebrateHomosapiens_6455159__CNRG_HUMAN_Retinal_rod_rhodopsin-sensitive_cGMP_3_'
+[7] 'MetazoaVertebrateHomosapiens_6458513__CNCG_HUMAN_Retinal_cone_rhodopsin-sensitive_cGMP_3_'
+[8] 'MetazoaVertebrateMusmusculus_6532220__CNRG_MOUSE_Retinal_rod_rhodopsin-sensitive_cGMP_3_'
+[9] 'MetazoaVertebrateMusmusculus_6534125__CNCG_MOUSE_Retinal_cone_rhodopsin-sensitive_cGMP_3_'
+;
+END; [Taxa]
+
+BEGIN Splits;
+DIMENSIONS ntax=9 nsplits=79;
+FORMAT labels=no weights=yes confidences=no intervals=no;
+MATRIX
+	100	 2,
+	100	 3,
+	100	 5,
+	100	 8,
+	6	 5 8,
+	1	 3 5 8,
+	100	 6,
+	1	 3 5 6 8,
+	100	 4,
+	2	 1 2 7 9,
+	5	 1 7 9,
+	100	 7,
+	100	 9,
+	96	 7 9,
+	100	 1,
+	22	 2 3,
+	85	 5 7 9,
+	2	 1 4 6 8,
+	31	 6 8,
+	33	 4 6 8,
+	1	 2 3 6,
+	4	 2 3 6 8,
+	13	 4 5 7 9,
+	44	 3 8,
+	43	 3 6 8,
+	28	 3 4 6 8,
+	9	 1 5 7 9,
+	3	 2 4 6 8,
+	13	 1 3,
+	4	 3 5 7 9,
+	44	 1 2,
+	11	 4 6,
+	0	 1 2 3 6,
+	19	 1 2 3,
+	3	 3 7 9,
+	6	 5 6 8,
+	11	 4 5 6 8,
+	1	 2 3 4 6,
+	4	 5 7 8 9,
+	4	 4 5,
+	6	 1 3 7 9,
+	3	 3 6,
+	2	 2 6,
+	5	 1 2 4 6,
+	14	 1 2 4,
+	1	 4 8,
+	6	 2 4,
+	2	 1 3 6 8,
+	0	 2 7 9,
+	0	 2 4 7 9,
+	3	 5 7,
+	1	 1 2 3 8,
+	1	 2 5 7 9,
+	1	 5 9,
+	0	 2 6 8,
+	1	 1 2 3 4,
+	0	 1 4,
+	1	 4 5 8,
+	1	 4 7 9,
+	0	 4 6 7 9,
+	0	 1 3 5 8,
+	0	 1 3 8,
+	0	 3 4 5 8,
+	1	 1 2 6,
+	0	 1 4 7 9,
+	0	 1 6 8,
+	1	 2 3 4,
+	0	 1 7,
+	0	 1 6,
+	0	 3 4 8,
+	0	 2 5 6 8,
+	0	 1 8,
+	0	 2 3 8,
+	0	 2 4 6,
+	0	 3 6 7 9,
+	0	 1 2 4 5,
+	0	 2 5,
+	0	 2 3 5 8,
+	0	 4 5 6,
+;
+END; [Splits]
+
