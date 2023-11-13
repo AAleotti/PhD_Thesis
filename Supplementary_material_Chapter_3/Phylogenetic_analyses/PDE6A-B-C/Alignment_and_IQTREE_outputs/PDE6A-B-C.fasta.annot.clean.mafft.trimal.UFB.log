@@ -1,0 +1,1256 @@
+IQ-TREE multicore version 2.0.3 for Linux 64-bit built Dec 20 2020
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    spartacus (AVX512, FMA3, 187 GB RAM)
+Command: iqtree -s PDE6_a_and_b.doublefiltered.fasta.annot.clean.mafft.trimal -m MFP -mset Blosum62,cpREV,Dayhoff,DCMut,FLU,HIVb,HIVw,JTT,JTTDCMut,LG,mtART,mtMAM,mtREV,mtZOA,mtMet,mtVer,mtInv,Poisson,PMB,rtREV,VT,WAG,GTR20 -mrate E,I,G,I+G,R -B 1000 --wbtl --bnni --alrt 1000 --abayes -T AUTO --prefix PDE6_a_and_b.doublefiltered.fasta.annot.clean.mafft.trimal.UFB
+Seed:    956737 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Thu Apr  8 01:37:12 2021
+Kernel:  AVX+FMA - auto-detect threads (64 CPU cores detected)
+
+Reading alignment file PDE6_a_and_b.doublefiltered.fasta.annot.clean.mafft.trimal ... Fasta format detected
+Alignment most likely contains protein sequences
+Alignment has 171 sequences with 802 columns, 802 distinct patterns
+783 parsimony-informative, 7 singleton sites, 12 constant sites
+WARNING: Some sequence names are changed as follows:
+AlveolataEP00742ColponemidiaspColp10_4284160__PDE9A_RAT_High_affinity_cGMP-specific_3' -> AlveolataEP00742ColponemidiaspColp10_4284160__PDE9A_RAT_High_affinity_cGMP-specific_3_
+AlveolataEP00742ColponemidiaspColp10_4286510__PDE11_TAKRU_Dual_3' -> AlveolataEP00742ColponemidiaspColp10_4286510__PDE11_TAKRU_Dual_3_
+ChoanoflagellataEP00039Didymoecacostata_10858069__PDE11_MOUSE_Dual_3' -> ChoanoflagellataEP00039Didymoecacostata_10858069__PDE11_MOUSE_Dual_3_
+ChoanoflagellataEP00040Diaphanoecagrandis_10931305__PDE11_DROME_Dual_3' -> ChoanoflagellataEP00040Diaphanoecagrandis_10931305__PDE11_DROME_Dual_3_
+ChoanoflagellataEP00045Choanoecaperplexa_11081839__PDE11_DROME_Dual_3' -> ChoanoflagellataEP00045Choanoecaperplexa_11081839__PDE11_DROME_Dual_3_
+ChoanoflagellataEP00045Choanoecaperplexa_11087908__PDE6_DROVI_cGMP-specific_3' -> ChoanoflagellataEP00045Choanoecaperplexa_11087908__PDE6_DROVI_cGMP-specific_3_
+ChoanoflagellataEP00047Mylnosigafluctuans_11120252__PDE11_DROME_Dual_3' -> ChoanoflagellataEP00047Mylnosigafluctuans_11120252__PDE11_DROME_Dual_3_
+ChoanoflagellateaMonosigabrevicollisUP000001357_11427880__PDE11_HUMAN_Dual_3' -> ChoanoflagellateaMonosigabrevicollisUP000001357_11427880__PDE11_HUMAN_Dual_3_
+CollodictyonidaeEP00002Diphylleiarotans_11632571__PDE6_DROMO_cGMP-specific_3' -> CollodictyonidaeEP00002Diphylleiarotans_11632571__PDE6_DROMO_cGMP-specific_3_
+CollodictyonidaeEP00002Diphylleiarotans_11652543__PDE2_DICDI_3' -> CollodictyonidaeEP00002Diphylleiarotans_11652543__PDE2_DICDI_3_
+CollodictyonidaeEP00002Diphylleiarotans_11652546__PDE2_DICDI_3' -> CollodictyonidaeEP00002Diphylleiarotans_11652546__PDE2_DICDI_3_
+CollodictyonidaeEP00002Diphylleiarotans_11655955__PDE2_DICDI_3' -> CollodictyonidaeEP00002Diphylleiarotans_11655955__PDE2_DICDI_3_
+CollodictyonidaeEP00002Diphylleiarotans_11662441__PDE11_DROME_Dual_3' -> CollodictyonidaeEP00002Diphylleiarotans_11662441__PDE11_DROME_Dual_3_
+CollodictyonidaeEP00002Diphylleiarotans_11662985__PDE11_TAKRU_Dual_3' -> CollodictyonidaeEP00002Diphylleiarotans_11662985__PDE11_TAKRU_Dual_3_
+CollodictyonidaeEP00002Diphylleiarotans_11662987__PDE11_TAKRU_Dual_3' -> CollodictyonidaeEP00002Diphylleiarotans_11662987__PDE11_TAKRU_Dual_3_
+CollodictyonidaeEP00002Diphylleiarotans_11664053__PDE11_DROME_Dual_3' -> CollodictyonidaeEP00002Diphylleiarotans_11664053__PDE11_DROME_Dual_3_
+EuglenozoaEP00668Euglenalonga_12394416__PDE11_MOUSE_Dual_3' -> EuglenozoaEP00668Euglenalonga_12394416__PDE11_MOUSE_Dual_3_
+IchthyosporeaEP00123Amoebidiumparasiticum_14555806__PDE11_MOUSE_Dual_3' -> IchthyosporeaEP00123Amoebidiumparasiticum_14555806__PDE11_MOUSE_Dual_3_
+IchthyosporeaEP00123Amoebidiumparasiticum_14559039__PDE11_MOUSE_Dual_3' -> IchthyosporeaEP00123Amoebidiumparasiticum_14559039__PDE11_MOUSE_Dual_3_
+IchthyosporeaEP00126Sphaerothecumdestruens_14611232__PDE2A_RAT_cGMP-dependent_3' -> IchthyosporeaEP00126Sphaerothecumdestruens_14611232__PDE2A_RAT_cGMP-dependent_3_
+MetazoaAnnelidaEP00103Capitellateleta_60323__PDE6_DROWI_cGMP-specific_3' -> MetazoaAnnelidaEP00103Capitellateleta_60323__PDE6_DROWI_cGMP-specific_3_
+MetazoaAnnelidaEP00103Capitellateleta_63940__PDE11_DROME_Dual_3' -> MetazoaAnnelidaEP00103Capitellateleta_63940__PDE11_DROME_Dual_3_
+MetazoaArthropodaDaphniapulex_193494__PDE6_DROPS_cGMP-specific_3' -> MetazoaArthropodaDaphniapulex_193494__PDE6_DROPS_cGMP-specific_3_
+MetazoaArthropodaDaphniapulex_207137__PDE11_DROME_Dual_3' -> MetazoaArthropodaDaphniapulex_207137__PDE11_DROME_Dual_3_
+MetazoaArthropodaDrosophilamelanogaster_248723__PDE6_DROME_cGMP-specific_3' -> MetazoaArthropodaDrosophilamelanogaster_248723__PDE6_DROME_cGMP-specific_3_
+MetazoaArthropodaDrosophilamelanogaster_249503__PDE11_DROME_Dual_3' -> MetazoaArthropodaDrosophilamelanogaster_249503__PDE11_DROME_Dual_3_
+MetazoaArthropodaEP00090Calanusglacialis_681779__PDE6_DROMO_cGMP-specific_3' -> MetazoaArthropodaEP00090Calanusglacialis_681779__PDE6_DROMO_cGMP-specific_3_
+MetazoaArthropodaEP00090Calanusglacialis_694219__PDE11_DROME_Dual_3' -> MetazoaArthropodaEP00090Calanusglacialis_694219__PDE11_DROME_Dual_3_
+MetazoaArthropodaEP00090Calanusglacialis_708160__PDE11_DROME_Dual_3' -> MetazoaArthropodaEP00090Calanusglacialis_708160__PDE11_DROME_Dual_3_
+MetazoaArthropodaEP00090Calanusglacialis_708327__PDE6_DROVI_cGMP-specific_3' -> MetazoaArthropodaEP00090Calanusglacialis_708327__PDE6_DROVI_cGMP-specific_3_
+MetazoaArthropodaStrigamiamaritima_1175573__PDE11_MOUSE_Dual_3' -> MetazoaArthropodaStrigamiamaritima_1175573__PDE11_MOUSE_Dual_3_
+MetazoaArthropodaStrigamiamaritima_1180347__PDE11_DROME_Dual_3' -> MetazoaArthropodaStrigamiamaritima_1180347__PDE11_DROME_Dual_3_
+MetazoaBrachiopodaLingulaunguis_1278189__PDE6_DROMO_cGMP-specific_3' -> MetazoaBrachiopodaLingulaunguis_1278189__PDE6_DROMO_cGMP-specific_3_
+MetazoaBrachiopodaLingulaunguis_1302624__PDE10_MOUSE_cAMP_and_cAMP-inhibited_cGMP_3' -> MetazoaBrachiopodaLingulaunguis_1302624__PDE10_MOUSE_cAMP_and_cAMP-inhibited_cGMP_3_
+MetazoaBryozoaBugulaneritina_1938967__PDE5_CAEEL_Probable_3' -> MetazoaBryozoaBugulaneritina_1938967__PDE5_CAEEL_Probable_3_
+MetazoaBryozoaBugulaneritina_1979512__PDE5_CAEEL_Probable_3' -> MetazoaBryozoaBugulaneritina_1979512__PDE5_CAEEL_Probable_3_
+MetazoaBryozoaBugulaneritina_2261509__PDE5_CAEEL_Probable_3' -> MetazoaBryozoaBugulaneritina_2261509__PDE5_CAEEL_Probable_3_
+MetazoaCephalochordataBranchiostomabelcheri_2797758__PDE5_CAEEL_Probable_3' -> MetazoaCephalochordataBranchiostomabelcheri_2797758__PDE5_CAEEL_Probable_3_
+MetazoaCephalochordataBranchiostomabelcheri_2797760__PDE5_CAEEL_Probable_3' -> MetazoaCephalochordataBranchiostomabelcheri_2797760__PDE5_CAEEL_Probable_3_
+MetazoaCephalochordataBranchiostomabelcheri_2802030__PDE6_DROSE_cGMP-specific_3' -> MetazoaCephalochordataBranchiostomabelcheri_2802030__PDE6_DROSE_cGMP-specific_3_
+MetazoaCephalochordataBranchiostomabelcheri_2816237__PDE11_DROME_Dual_3' -> MetazoaCephalochordataBranchiostomabelcheri_2816237__PDE11_DROME_Dual_3_
+MetazoaCephalochordataBranchiostomabelcheri_2816238__PDE11_DROME_Dual_3' -> MetazoaCephalochordataBranchiostomabelcheri_2816238__PDE11_DROME_Dual_3_
+MetazoaCephalochordataBranchiostomabelcheri_2816239__PDE11_DROME_Dual_3' -> MetazoaCephalochordataBranchiostomabelcheri_2816239__PDE11_DROME_Dual_3_
+MetazoaCephalochordataBranchiostomabelcheri_2830318__PDE11_HUMAN_Dual_3' -> MetazoaCephalochordataBranchiostomabelcheri_2830318__PDE11_HUMAN_Dual_3_
+MetazoaCephalochordataBranchiostomabelcheri_2830319__PDE11_HUMAN_Dual_3' -> MetazoaCephalochordataBranchiostomabelcheri_2830319__PDE11_HUMAN_Dual_3_
+MetazoaCnidariaAcroporadigitifera_2930854__PDE6_DROVI_cGMP-specific_3' -> MetazoaCnidariaAcroporadigitifera_2930854__PDE6_DROVI_cGMP-specific_3_
+MetazoaCnidariaAcroporadigitifera_2933249__PDE11_RAT_Dual_3' -> MetazoaCnidariaAcroporadigitifera_2933249__PDE11_RAT_Dual_3_
+MetazoaCnidariaAcroporadigitifera_2937644__PDE5_CAEEL_Probable_3' -> MetazoaCnidariaAcroporadigitifera_2937644__PDE5_CAEEL_Probable_3_
+MetazoaCnidariaAcroporadigitifera_2944391__PDE6_DROVI_cGMP-specific_3' -> MetazoaCnidariaAcroporadigitifera_2944391__PDE6_DROVI_cGMP-specific_3_
+MetazoaCnidariaAcroporatenuis_2975934__PDE11_RAT_Dual_3' -> MetazoaCnidariaAcroporatenuis_2975934__PDE11_RAT_Dual_3_
+MetazoaCnidariaAcroporatenuis_2980136__PDE5_CAEEL_Probable_3' -> MetazoaCnidariaAcroporatenuis_2980136__PDE5_CAEEL_Probable_3_
+MetazoaCnidariaAcroporatenuis_2980393__PDE11_DROME_Dual_3' -> MetazoaCnidariaAcroporatenuis_2980393__PDE11_DROME_Dual_3_
+MetazoaCnidariaAcroporatenuis_2981379__PDE6_DROVI_cGMP-specific_3' -> MetazoaCnidariaAcroporatenuis_2981379__PDE6_DROVI_cGMP-specific_3_
+MetazoaCnidariaAcroporatenuis_2985398__PDE6_DROVI_cGMP-specific_3' -> MetazoaCnidariaAcroporatenuis_2985398__PDE6_DROVI_cGMP-specific_3_
+MetazoaCnidariaAnthopleuraelegantissima_3002807__PDE11_MOUSE_Dual_3' -> MetazoaCnidariaAnthopleuraelegantissima_3002807__PDE11_MOUSE_Dual_3_
+MetazoaCnidariaAnthopleuraelegantissima_3014825__PDE11_DROME_Dual_3' -> MetazoaCnidariaAnthopleuraelegantissima_3014825__PDE11_DROME_Dual_3_
+MetazoaCnidariaAnthopleuraelegantissima_3014826__PDE5A_CANLF_cGMP-specific_3' -> MetazoaCnidariaAnthopleuraelegantissima_3014826__PDE5A_CANLF_cGMP-specific_3_
+MetazoaCnidariaAnthopleuraelegantissima_3014827__PDE6_DROVI_cGMP-specific_3' -> MetazoaCnidariaAnthopleuraelegantissima_3014827__PDE6_DROVI_cGMP-specific_3_
+MetazoaCnidariaAnthopleuraelegantissima_3014828__PDE6_DROYA_cGMP-specific_3' -> MetazoaCnidariaAnthopleuraelegantissima_3014828__PDE6_DROYA_cGMP-specific_3_
+MetazoaCnidariaAnthopleuraelegantissima_3021492__PDE6_DROVI_cGMP-specific_3' -> MetazoaCnidariaAnthopleuraelegantissima_3021492__PDE6_DROVI_cGMP-specific_3_
+MetazoaCnidariaAstreoporasp_3034352__PDE5_CAEEL_Probable_3' -> MetazoaCnidariaAstreoporasp_3034352__PDE5_CAEEL_Probable_3_
+MetazoaCnidariaAstreoporasp_3035895__PDE11_DROME_Dual_3' -> MetazoaCnidariaAstreoporasp_3035895__PDE11_DROME_Dual_3_
+MetazoaCnidariaAstreoporasp_3037063__PDE6_DROSE_cGMP-specific_3' -> MetazoaCnidariaAstreoporasp_3037063__PDE6_DROSE_cGMP-specific_3_
+MetazoaCnidariaAstreoporasp_3039745__PDE11_RAT_Dual_3' -> MetazoaCnidariaAstreoporasp_3039745__PDE11_RAT_Dual_3_
+MetazoaCnidariaAureliaGenome_3060310__PDE11_TAKRU_Dual_3' -> MetazoaCnidariaAureliaGenome_3060310__PDE11_TAKRU_Dual_3_
+MetazoaCnidariaAureliaGenome_3070859__PDE6_DROPS_cGMP-specific_3' -> MetazoaCnidariaAureliaGenome_3070859__PDE6_DROPS_cGMP-specific_3_
+MetazoaCnidariaClytiahemisphaerica_3083113__PDE6_DROVI_cGMP-specific_3' -> MetazoaCnidariaClytiahemisphaerica_3083113__PDE6_DROVI_cGMP-specific_3_
+MetazoaCnidariaClytiahemisphaerica_3092756__PDE5_CAEEL_Probable_3' -> MetazoaCnidariaClytiahemisphaerica_3092756__PDE5_CAEEL_Probable_3_
+MetazoaCnidariaClytiahemisphaerica_3096610__PDE11_DROME_Dual_3' -> MetazoaCnidariaClytiahemisphaerica_3096610__PDE11_DROME_Dual_3_
+MetazoaCnidariaClytiahemisphaerica_3098992__PDE11_MOUSE_Dual_3' -> MetazoaCnidariaClytiahemisphaerica_3098992__PDE11_MOUSE_Dual_3_
+MetazoaCnidariaFungiascutaria_3182223__PDE11_DROME_Dual_3' -> MetazoaCnidariaFungiascutaria_3182223__PDE11_DROME_Dual_3_
+MetazoaCnidariaFungiascutaria_3186351__PDE6_DROVI_cGMP-specific_3' -> MetazoaCnidariaFungiascutaria_3186351__PDE6_DROVI_cGMP-specific_3_
+MetazoaCnidariaFungiascutaria_3203292__PDE5_CAEEL_Probable_3' -> MetazoaCnidariaFungiascutaria_3203292__PDE5_CAEEL_Probable_3_
+MetazoaCnidariaFungiascutaria_3205570__PDE11_RAT_Dual_3' -> MetazoaCnidariaFungiascutaria_3205570__PDE11_RAT_Dual_3_
+MetazoaCnidariaFungiascutaria_3205571__PDE6_DROAN_cGMP-specific_3' -> MetazoaCnidariaFungiascutaria_3205571__PDE6_DROAN_cGMP-specific_3_
+MetazoaCnidariaGorgoniaventalina_3214407__PDE10_HUMAN_cAMP_and_cAMP-inhibited_cGMP_3' -> MetazoaCnidariaGorgoniaventalina_3214407__PDE10_HUMAN_cAMP_and_cAMP-inhibited_cGMP_3_
+MetazoaCnidariaGorgoniaventalina_3226672__PDE11_DROME_Dual_3' -> MetazoaCnidariaGorgoniaventalina_3226672__PDE11_DROME_Dual_3_
+MetazoaCnidariaGorgoniaventalina_3233342__PDE11_MOUSE_Dual_3' -> MetazoaCnidariaGorgoniaventalina_3233342__PDE11_MOUSE_Dual_3_
+MetazoaCnidariaHydramagnapapillata_3244092__PDE5_CAEEL_Probable_3' -> MetazoaCnidariaHydramagnapapillata_3244092__PDE5_CAEEL_Probable_3_
+MetazoaCnidariaHydramagnapapillata_3253942__PDE6_DROMO_cGMP-specific_3' -> MetazoaCnidariaHydramagnapapillata_3253942__PDE6_DROMO_cGMP-specific_3_
+MetazoaCnidariaHydramagnapapillata_3260499__PDE11_RAT_Dual_3' -> MetazoaCnidariaHydramagnapapillata_3260499__PDE11_RAT_Dual_3_
+MetazoaCnidariaHydramagnapapillata_3267510__PDE6_DROVI_cGMP-specific_3' -> MetazoaCnidariaHydramagnapapillata_3267510__PDE6_DROVI_cGMP-specific_3_
+MetazoaCnidariaMadracisauretenra_3291715__PDE5_CAEEL_Probable_3' -> MetazoaCnidariaMadracisauretenra_3291715__PDE5_CAEEL_Probable_3_
+MetazoaCnidariaMadracisauretenra_3301168__PDE6_DROVI_cGMP-specific_3' -> MetazoaCnidariaMadracisauretenra_3301168__PDE6_DROVI_cGMP-specific_3_
+MetazoaCnidariaMontastraeacavernosa_3317672__PDE5_CAEEL_Probable_3' -> MetazoaCnidariaMontastraeacavernosa_3317672__PDE5_CAEEL_Probable_3_
+MetazoaCnidariaMontastraeacavernosa_3318069__PDE6_DROVI_cGMP-specific_3' -> MetazoaCnidariaMontastraeacavernosa_3318069__PDE6_DROVI_cGMP-specific_3_
+MetazoaCnidariaMontastraeacavernosa_3318070__PDE6_DROVI_cGMP-specific_3' -> MetazoaCnidariaMontastraeacavernosa_3318070__PDE6_DROVI_cGMP-specific_3_
+MetazoaCnidariaMontastraeacavernosa_3337454__PDE5_CAEEL_Probable_3' -> MetazoaCnidariaMontastraeacavernosa_3337454__PDE5_CAEEL_Probable_3_
+MetazoaCnidariaMontastraeacavernosa_3337460__PDE5_CAEEL_Probable_3' -> MetazoaCnidariaMontastraeacavernosa_3337460__PDE5_CAEEL_Probable_3_
+MetazoaCnidariaMontastraeacavernosa_3339251__PDE11_DROME_Dual_3' -> MetazoaCnidariaMontastraeacavernosa_3339251__PDE11_DROME_Dual_3_
+MetazoaCnidariaMontastraeacavernosa_3339355__PDE11_RAT_Dual_3' -> MetazoaCnidariaMontastraeacavernosa_3339355__PDE11_RAT_Dual_3_
+MetazoaCnidariaNematostellavectensis_3379786__PDE11_MOUSE_Dual_3' -> MetazoaCnidariaNematostellavectensis_3379786__PDE11_MOUSE_Dual_3_
+MetazoaCnidariaNematostellavectensis_3380566__PDE6_DROVI_cGMP-specific_3' -> MetazoaCnidariaNematostellavectensis_3380566__PDE6_DROVI_cGMP-specific_3_
+MetazoaCnidariaNematostellavectensis_3383782__PDE11_DROME_Dual_3' -> MetazoaCnidariaNematostellavectensis_3383782__PDE11_DROME_Dual_3_
+MetazoaCnidariaNematostellavectensis_3391182__PDE10_HUMAN_cAMP_and_cAMP-inhibited_cGMP_3' -> MetazoaCnidariaNematostellavectensis_3391182__PDE10_HUMAN_cAMP_and_cAMP-inhibited_cGMP_3_
+MetazoaCnidariaPoritesaustraliensis_3532813__PDE5_CAEEL_Probable_3' -> MetazoaCnidariaPoritesaustraliensis_3532813__PDE5_CAEEL_Probable_3_
+MetazoaCnidariaPoritesaustraliensis_3537741__PDE5_CAEEL_Probable_3' -> MetazoaCnidariaPoritesaustraliensis_3537741__PDE5_CAEEL_Probable_3_
+MetazoaCnidariaPoritesaustraliensis_3543716__PDE6_DROVI_cGMP-specific_3' -> MetazoaCnidariaPoritesaustraliensis_3543716__PDE6_DROVI_cGMP-specific_3_
+MetazoaCnidariaPoritesaustraliensis_3546866__PDE11_RAT_Dual_3' -> MetazoaCnidariaPoritesaustraliensis_3546866__PDE11_RAT_Dual_3_
+MetazoaCnidariaStylophorapistillata_3666937__PDE5_CAEEL_Probable_3' -> MetazoaCnidariaStylophorapistillata_3666937__PDE5_CAEEL_Probable_3_
+MetazoaCnidariaStylophorapistillata_3672225__PDE6_DROYA_cGMP-specific_3' -> MetazoaCnidariaStylophorapistillata_3672225__PDE6_DROYA_cGMP-specific_3_
+MetazoaCnidariaStylophorapistillata_3675736__PDE11_RAT_Dual_3' -> MetazoaCnidariaStylophorapistillata_3675736__PDE11_RAT_Dual_3_
+MetazoaCnidariaStylophorapistillata_3677506__PDE11_DROME_Dual_3' -> MetazoaCnidariaStylophorapistillata_3677506__PDE11_DROME_Dual_3_
+MetazoaCtenophoraPleurobrachiabachei_3754479__PDE11_MOUSE_Dual_3' -> MetazoaCtenophoraPleurobrachiabachei_3754479__PDE11_MOUSE_Dual_3_
+MetazoaCtenophoraPleurobrachiabachei_3756760__PDE2A_RAT_cGMP-dependent_3' -> MetazoaCtenophoraPleurobrachiabachei_3756760__PDE2A_RAT_cGMP-dependent_3_
+MetazoaEchinodermataAcanthasterplanci_3786090__PDE6_DROMO_cGMP-specific_3' -> MetazoaEchinodermataAcanthasterplanci_3786090__PDE6_DROMO_cGMP-specific_3_
+MetazoaEchinodermataAcanthasterplanci_3791463__PDE6_DROAN_cGMP-specific_3' -> MetazoaEchinodermataAcanthasterplanci_3791463__PDE6_DROAN_cGMP-specific_3_
+MetazoaEchinodermataEP00057Strongylocentrotuspurpuratus_3801978__PDE6_DROMO_cGMP-specific_3' -> MetazoaEchinodermataEP00057Strongylocentrotuspurpuratus_3801978__PDE6_DROMO_cGMP-specific_3_
+MetazoaEchinodermataEP00057Strongylocentrotuspurpuratus_3809367__PDE5_CAEEL_Probable_3' -> MetazoaEchinodermataEP00057Strongylocentrotuspurpuratus_3809367__PDE5_CAEEL_Probable_3_
+MetazoaEchinodermataEP00057Strongylocentrotuspurpuratus_3825298__PDE6_DROMO_cGMP-specific_3' -> MetazoaEchinodermataEP00057Strongylocentrotuspurpuratus_3825298__PDE6_DROMO_cGMP-specific_3_
+MetazoaEchinodermataEP00057Strongylocentrotuspurpuratus_3825299__PDE6_DROMO_cGMP-specific_3' -> MetazoaEchinodermataEP00057Strongylocentrotuspurpuratus_3825299__PDE6_DROMO_cGMP-specific_3_
+MetazoaHemichordataSaccoglossuskowalevskii_4047200__PDE11_DROME_Dual_3' -> MetazoaHemichordataSaccoglossuskowalevskii_4047200__PDE11_DROME_Dual_3_
+MetazoaHemichordataSaccoglossuskowalevskii_4052346__PDE10_MOUSE_cAMP_and_cAMP-inhibited_cGMP_3' -> MetazoaHemichordataSaccoglossuskowalevskii_4052346__PDE10_MOUSE_cAMP_and_cAMP-inhibited_cGMP_3_
+MetazoaHemichordataSaccoglossuskowalevskii_4060765__PDE6_DROMO_cGMP-specific_3' -> MetazoaHemichordataSaccoglossuskowalevskii_4060765__PDE6_DROMO_cGMP-specific_3_
+MetazoaMolluscaEP00106Octopusbimaculoides_4161466__PDE6_DROYA_cGMP-specific_3' -> MetazoaMolluscaEP00106Octopusbimaculoides_4161466__PDE6_DROYA_cGMP-specific_3_
+MetazoaMolluscaEP00106Octopusbimaculoides_4169055__PDE6_DROVI_cGMP-specific_3' -> MetazoaMolluscaEP00106Octopusbimaculoides_4169055__PDE6_DROVI_cGMP-specific_3_
+MetazoaMolluscaEP00106Octopusbimaculoides_4169056__PDE6_DROPS_cGMP-specific_3' -> MetazoaMolluscaEP00106Octopusbimaculoides_4169056__PDE6_DROPS_cGMP-specific_3_
+MetazoaMolluscaEP00106Octopusbimaculoides_4169057__PDE6_DROVI_cGMP-specific_3' -> MetazoaMolluscaEP00106Octopusbimaculoides_4169057__PDE6_DROVI_cGMP-specific_3_
+MetazoaMolluscaEP00106Octopusbimaculoides_4169058__PDE6_DROYA_cGMP-specific_3' -> MetazoaMolluscaEP00106Octopusbimaculoides_4169058__PDE6_DROYA_cGMP-specific_3_
+MetazoaMolluscaEP00106Octopusbimaculoides_4175571__PDE6_DROWI_cGMP-specific_3' -> MetazoaMolluscaEP00106Octopusbimaculoides_4175571__PDE6_DROWI_cGMP-specific_3_
+MetazoaMolluscaEP00106Octopusbimaculoides_4177271__PDE5_CAEEL_Probable_3' -> MetazoaMolluscaEP00106Octopusbimaculoides_4177271__PDE5_CAEEL_Probable_3_
+MetazoaMolluscaEP00106Octopusbimaculoides_4177272__PDE5_CAEEL_Probable_3' -> MetazoaMolluscaEP00106Octopusbimaculoides_4177272__PDE5_CAEEL_Probable_3_
+MetazoaMolluscaLottiagigantea_4204088__PDE6_DROMO_cGMP-specific_3' -> MetazoaMolluscaLottiagigantea_4204088__PDE6_DROMO_cGMP-specific_3_
+MetazoaMolluscaLottiagigantea_4205514__PDE6_DROYA_cGMP-specific_3' -> MetazoaMolluscaLottiagigantea_4205514__PDE6_DROYA_cGMP-specific_3_
+MetazoaMolluscaLottiagigantea_4207790__PDE10_HUMAN_cAMP_and_cAMP-inhibited_cGMP_3' -> MetazoaMolluscaLottiagigantea_4207790__PDE10_HUMAN_cAMP_and_cAMP-inhibited_cGMP_3_
+MetazoaMolluscaLottiagigantea_4220990__PDE11_DROME_Dual_3' -> MetazoaMolluscaLottiagigantea_4220990__PDE11_DROME_Dual_3_
+MetazoaPlacozoaEP00114TrichoplaxspH2_4509719__PDE11_DROME_Dual_3' -> MetazoaPlacozoaEP00114TrichoplaxspH2_4509719__PDE11_DROME_Dual_3_
+MetazoaPlacozoaEP00114TrichoplaxspH2_4509871__PDE6_DROGR_cGMP-specific_3' -> MetazoaPlacozoaEP00114TrichoplaxspH2_4509871__PDE6_DROGR_cGMP-specific_3_
+MetazoaPlacozoaEP00114TrichoplaxspH2_4513540__PDE5_CAEEL_Probable_3' -> MetazoaPlacozoaEP00114TrichoplaxspH2_4513540__PDE5_CAEEL_Probable_3_
+MetazoaPlacozoaHoilungiahongkongensis_4537786__PDE10_HUMAN_cAMP_and_cAMP-inhibited_cGMP_3' -> MetazoaPlacozoaHoilungiahongkongensis_4537786__PDE10_HUMAN_cAMP_and_cAMP-inhibited_cGMP_3_
+MetazoaPlacozoaHoilungiahongkongensis_4537787__PDE10_HUMAN_cAMP_and_cAMP-inhibited_cGMP_3' -> MetazoaPlacozoaHoilungiahongkongensis_4537787__PDE10_HUMAN_cAMP_and_cAMP-inhibited_cGMP_3_
+MetazoaPlacozoaHoilungiahongkongensis_4537789__PDE10_HUMAN_cAMP_and_cAMP-inhibited_cGMP_3' -> MetazoaPlacozoaHoilungiahongkongensis_4537789__PDE10_HUMAN_cAMP_and_cAMP-inhibited_cGMP_3_
+MetazoaPlacozoaHoilungiahongkongensis_4541233__PDE11_TAKRU_Dual_3' -> MetazoaPlacozoaHoilungiahongkongensis_4541233__PDE11_TAKRU_Dual_3_
+MetazoaPlacozoaHoilungiahongkongensis_4559057__PDE5_CAEEL_Probable_3' -> MetazoaPlacozoaHoilungiahongkongensis_4559057__PDE5_CAEEL_Probable_3_
+MetazoaPlacozoaHoilungiahongkongensis_4559061__PDE5_CAEEL_Probable_3' -> MetazoaPlacozoaHoilungiahongkongensis_4559061__PDE5_CAEEL_Probable_3_
+MetazoaPlacozoaHoilungiahongkongensis_4561070__PDE6_DROPS_cGMP-specific_3' -> MetazoaPlacozoaHoilungiahongkongensis_4561070__PDE6_DROPS_cGMP-specific_3_
+MetazoaPlacozoaHoilungiahongkongensis_4561071__PDE6_DROPS_cGMP-specific_3' -> MetazoaPlacozoaHoilungiahongkongensis_4561071__PDE6_DROPS_cGMP-specific_3_
+MetazoaPlacozoaHoilungiahongkongensis_4565245__PDE5_CAEEL_Probable_3' -> MetazoaPlacozoaHoilungiahongkongensis_4565245__PDE5_CAEEL_Probable_3_
+MetazoaPlacozoaHoilungiahongkongensis_4577826__PDE11_DROME_Dual_3' -> MetazoaPlacozoaHoilungiahongkongensis_4577826__PDE11_DROME_Dual_3_
+MetazoaPlacozoaHoilungiahongkongensis_4577827__PDE11_DROME_Dual_3' -> MetazoaPlacozoaHoilungiahongkongensis_4577827__PDE11_DROME_Dual_3_
+MetazoaPlacozoaHoilungiahongkongensis_4577830__PDE11_DROME_Dual_3' -> MetazoaPlacozoaHoilungiahongkongensis_4577830__PDE11_DROME_Dual_3_
+MetazoaPoriferaAmphimedonqueenslandica_4703505__PDE6_DROER_cGMP-specific_3' -> MetazoaPoriferaAmphimedonqueenslandica_4703505__PDE6_DROER_cGMP-specific_3_
+MetazoaPoriferaEP00118Oscarellapearsei_4823413__PDE2A_BOVIN_cGMP-dependent_3' -> MetazoaPoriferaEP00118Oscarellapearsei_4823413__PDE2A_BOVIN_cGMP-dependent_3_
+MetazoaPoriferaEP00118Oscarellapearsei_4825753__PDE11_DROME_Dual_3' -> MetazoaPoriferaEP00118Oscarellapearsei_4825753__PDE11_DROME_Dual_3_
+MetazoaPoriferaEphydatiamuelleri_4914144__PDE10_MOUSE_cAMP_and_cAMP-inhibited_cGMP_3' -> MetazoaPoriferaEphydatiamuelleri_4914144__PDE10_MOUSE_cAMP_and_cAMP-inhibited_cGMP_3_
+MetazoaPoriferaHaliclonatubifera_4953916__PDE6_DROVI_cGMP-specific_3' -> MetazoaPoriferaHaliclonatubifera_4953916__PDE6_DROVI_cGMP-specific_3_
+MetazoaPoriferaHaliclonatubifera_4968549__PDE5_CAEEL_Probable_3' -> MetazoaPoriferaHaliclonatubifera_4968549__PDE5_CAEEL_Probable_3_
+MetazoaPoriferaStylissacarteri_5077545__PDE6_DROWI_cGMP-specific_3' -> MetazoaPoriferaStylissacarteri_5077545__PDE6_DROWI_cGMP-specific_3_
+MetazoaPoriferaStylissacarteri_5098444__PDE6_DROYA_cGMP-specific_3' -> MetazoaPoriferaStylissacarteri_5098444__PDE6_DROYA_cGMP-specific_3_
+MetazoaTardigradaRamazzotiusvarieornatus_5277855__PDE6_DROMO_cGMP-specific_3' -> MetazoaTardigradaRamazzotiusvarieornatus_5277855__PDE6_DROMO_cGMP-specific_3_
+MetazoaTardigradaRamazzotiusvarieornatus_5280258__PDE6_DROMO_cGMP-specific_3' -> MetazoaTardigradaRamazzotiusvarieornatus_5280258__PDE6_DROMO_cGMP-specific_3_
+MetazoaTardigradaRamazzotiusvarieornatus_5280776__PDE10_HUMAN_cAMP_and_cAMP-inhibited_cGMP_3' -> MetazoaTardigradaRamazzotiusvarieornatus_5280776__PDE10_HUMAN_cAMP_and_cAMP-inhibited_cGMP_3_
+MetazoaTardigradaRamazzotiusvarieornatus_5296389__PDE5_CAEEL_Probable_3' -> MetazoaTardigradaRamazzotiusvarieornatus_5296389__PDE5_CAEEL_Probable_3_
+MetazoaUrochordataEP00059Cionaintestinalis_5346531__PDE6_DROVI_cGMP-specific_3' -> MetazoaUrochordataEP00059Cionaintestinalis_5346531__PDE6_DROVI_cGMP-specific_3_
+MetazoaUrochordataEP00059Cionaintestinalis_5352727__PDE6_DROVI_cGMP-specific_3' -> MetazoaUrochordataEP00059Cionaintestinalis_5352727__PDE6_DROVI_cGMP-specific_3_
+MetazoaVertebrateDaniorerio_5413950__PDE6C_CHICK_Cone_cGMP-specific_3' -> MetazoaVertebrateDaniorerio_5413950__PDE6C_CHICK_Cone_cGMP-specific_3_
+MetazoaVertebrateDaniorerio_5422671__PDE6B_CANLF_Rod_cGMP-specific_3' -> MetazoaVertebrateDaniorerio_5422671__PDE6B_CANLF_Rod_cGMP-specific_3_
+MetazoaVertebrateDaniorerio_5435150__PDE6A_CANLF_Rod_cGMP-specific_3' -> MetazoaVertebrateDaniorerio_5435150__PDE6A_CANLF_Rod_cGMP-specific_3_
+MetazoaVertebrateEptatretusburgeri_6392277__PDE10_HUMAN_cAMP_and_cAMP-inhibited_cGMP_3' -> MetazoaVertebrateEptatretusburgeri_6392277__PDE10_HUMAN_cAMP_and_cAMP-inhibited_cGMP_3_
+MetazoaVertebrateEptatretusburgeri_6392279__PDE10_HUMAN_cAMP_and_cAMP-inhibited_cGMP_3' -> MetazoaVertebrateEptatretusburgeri_6392279__PDE10_HUMAN_cAMP_and_cAMP-inhibited_cGMP_3_
+MetazoaVertebrateEptatretusburgeri_6392281__PDE10_HUMAN_cAMP_and_cAMP-inhibited_cGMP_3' -> MetazoaVertebrateEptatretusburgeri_6392281__PDE10_HUMAN_cAMP_and_cAMP-inhibited_cGMP_3_
+MetazoaVertebrateEptatretusburgeri_6397121__PDE6C_HUMAN_Cone_cGMP-specific_3' -> MetazoaVertebrateEptatretusburgeri_6397121__PDE6C_HUMAN_Cone_cGMP-specific_3_
+MetazoaVertebrateHomosapiens_6455043__PDE6A_HUMAN_Rod_cGMP-specific_3' -> MetazoaVertebrateHomosapiens_6455043__PDE6A_HUMAN_Rod_cGMP-specific_3_
+MetazoaVertebrateHomosapiens_6456025__PDE6B_HUMAN_Rod_cGMP-specific_3' -> MetazoaVertebrateHomosapiens_6456025__PDE6B_HUMAN_Rod_cGMP-specific_3_
+MetazoaVertebrateHomosapiens_6456668__PDE6C_HUMAN_Cone_cGMP-specific_3' -> MetazoaVertebrateHomosapiens_6456668__PDE6C_HUMAN_Cone_cGMP-specific_3_
+MetazoaVertebrateMusmusculus_6532810__PDE6B_MOUSE_Rod_cGMP-specific_3' -> MetazoaVertebrateMusmusculus_6532810__PDE6B_MOUSE_Rod_cGMP-specific_3_
+MetazoaVertebrateMusmusculus_6532937__PDE6A_MOUSE_Rod_cGMP-specific_3' -> MetazoaVertebrateMusmusculus_6532937__PDE6A_MOUSE_Rod_cGMP-specific_3_
+MetazoaVertebrateMusmusculus_6544431__PDE6C_MOUSE_Cone_cGMP-specific_3' -> MetazoaVertebrateMusmusculus_6544431__PDE6C_MOUSE_Cone_cGMP-specific_3_
+PluriformeaEP00127Corallochytriumlimacisporum_21623701__PDE11_DROME_Dual_3' -> PluriformeaEP00127Corallochytriumlimacisporum_21623701__PDE11_DROME_Dual_3_
+RhodelphisEP00736Rhodelphismarinus_22799234__PDE5_DICDI_cGMP-dependent_3' -> RhodelphisEP00736Rhodelphismarinus_22799234__PDE5_DICDI_cGMP-dependent_3_
+StramenopilesPhytophthorainfestansUP000006643_26367738__PDE2A_RAT_cGMP-dependent_3' -> StramenopilesPhytophthorainfestansUP000006643_26367738__PDE2A_RAT_cGMP-dependent_3_
+
+                                                                                                 Gap/Ambiguity  Composition  p-value
+   1  AlveolataEP00742ColponemidiaspColp10_4284160__PDE9A_RAT_High_affinity_cGMP-specific_3_            20.45%    passed     10.45%
+   2  AlveolataEP00742ColponemidiaspColp10_4286510__PDE11_TAKRU_Dual_3_                                 13.34%    failed      1.27%
+   3  ChoanoflagellataEP00039Didymoecacostata_10858069__PDE11_MOUSE_Dual_3_                             10.97%    passed     99.83%
+   4  ChoanoflagellataEP00040Diaphanoecagrandis_10931305__PDE11_DROME_Dual_3_                           11.22%    passed     80.98%
+   5  ChoanoflagellataEP00045Choanoecaperplexa_11081839__PDE11_DROME_Dual_3_                            27.31%    passed      9.39%
+   6  ChoanoflagellataEP00045Choanoecaperplexa_11087908__PDE6_DROVI_cGMP-specific_3_                     7.61%    failed      0.03%
+   7  ChoanoflagellataEP00047Mylnosigafluctuans_11120252__PDE11_DROME_Dual_3_                           14.09%    failed      0.02%
+   8  ChoanoflagellateaMonosigabrevicollisUP000001357_11427880__PDE11_HUMAN_Dual_3_                     47.26%    passed     13.43%
+   9  CollodictyonidaeEP00002Diphylleiarotans_11632571__PDE6_DROMO_cGMP-specific_3_                      9.35%    passed     89.40%
+  10  CollodictyonidaeEP00002Diphylleiarotans_11652543__PDE2_DICDI_3_                                    9.73%    passed     63.63%
+  11  CollodictyonidaeEP00002Diphylleiarotans_11652546__PDE2_DICDI_3_                                    9.73%    passed     60.28%
+  12  CollodictyonidaeEP00002Diphylleiarotans_11655955__PDE2_DICDI_3_                                   11.47%    failed      2.91%
+  13  CollodictyonidaeEP00002Diphylleiarotans_11662441__PDE11_DROME_Dual_3_                             20.07%    passed     17.26%
+  14  CollodictyonidaeEP00002Diphylleiarotans_11662985__PDE11_TAKRU_Dual_3_                             13.59%    passed     17.91%
+  15  CollodictyonidaeEP00002Diphylleiarotans_11662987__PDE11_TAKRU_Dual_3_                              8.85%    passed     13.25%
+  16  CollodictyonidaeEP00002Diphylleiarotans_11664053__PDE11_DROME_Dual_3_                              9.10%    passed     68.25%
+  17  EuglenozoaEP00668Euglenalonga_12394416__PDE11_MOUSE_Dual_3_                                       12.09%    passed     43.12%
+  18  IchthyosporeaEP00123Amoebidiumparasiticum_14555806__PDE11_MOUSE_Dual_3_                           13.47%    failed      4.39%
+  19  IchthyosporeaEP00123Amoebidiumparasiticum_14559039__PDE11_MOUSE_Dual_3_                            5.86%    passed     12.70%
+  20  IchthyosporeaEP00126Sphaerothecumdestruens_14611232__PDE2A_RAT_cGMP-dependent_3_                  78.80%    passed     24.24%
+  21  MetazoaAnnelidaEP00103Capitellateleta_60323__PDE6_DROWI_cGMP-specific_3_                          12.84%    passed     78.55%
+  22  MetazoaAnnelidaEP00103Capitellateleta_63940__PDE11_DROME_Dual_3_                                   8.10%    passed     74.89%
+  23  MetazoaArthropodaDaphniapulex_193494__PDE6_DROPS_cGMP-specific_3_                                  8.98%    passed     89.07%
+  24  MetazoaArthropodaDaphniapulex_207137__PDE11_DROME_Dual_3_                                          6.61%    passed     95.43%
+  25  MetazoaArthropodaDrosophilamelanogaster_248723__PDE6_DROME_cGMP-specific_3_                        4.36%    passed     82.15%
+  26  MetazoaArthropodaDrosophilamelanogaster_249503__PDE11_DROME_Dual_3_                                1.25%    passed     91.69%
+  27  MetazoaArthropodaEP00090Calanusglacialis_681779__PDE6_DROMO_cGMP-specific_3_                       3.37%    passed     79.77%
+  28  MetazoaArthropodaEP00090Calanusglacialis_694219__PDE11_DROME_Dual_3_                              65.46%    passed      6.13%
+  29  MetazoaArthropodaEP00090Calanusglacialis_708160__PDE11_DROME_Dual_3_                              81.17%    failed      4.24%
+  30  MetazoaArthropodaEP00090Calanusglacialis_708327__PDE6_DROVI_cGMP-specific_3_                      82.29%    failed      0.42%
+  31  MetazoaArthropodaStrigamiamaritima_1175573__PDE11_MOUSE_Dual_3_                                    5.49%    passed     83.17%
+  32  MetazoaArthropodaStrigamiamaritima_1180347__PDE11_DROME_Dual_3_                                   49.63%    passed     92.83%
+  33  MetazoaBrachiopodaLingulaunguis_1278189__PDE6_DROMO_cGMP-specific_3_                               3.87%    passed     88.82%
+  34  MetazoaBrachiopodaLingulaunguis_1302624__PDE10_MOUSE_cAMP_and_cAMP-inhibited_cGMP_3_              43.64%    passed     50.59%
+  35  MetazoaBryozoaBugulaneritina_1938967__PDE5_CAEEL_Probable_3_                                      71.82%    passed     59.71%
+  36  MetazoaBryozoaBugulaneritina_1979512__PDE5_CAEEL_Probable_3_                                      71.70%    passed     52.99%
+  37  MetazoaBryozoaBugulaneritina_2261509__PDE5_CAEEL_Probable_3_                                      77.06%    passed     69.01%
+  38  MetazoaCephalochordataBranchiostomabelcheri_2797758__PDE5_CAEEL_Probable_3_                        6.23%    passed     98.70%
+  39  MetazoaCephalochordataBranchiostomabelcheri_2797760__PDE5_CAEEL_Probable_3_                        6.73%    passed     98.72%
+  40  MetazoaCephalochordataBranchiostomabelcheri_2802030__PDE6_DROSE_cGMP-specific_3_                   2.37%    passed     99.24%
+  41  MetazoaCephalochordataBranchiostomabelcheri_2816237__PDE11_DROME_Dual_3_                           1.00%    passed     54.63%
+  42  MetazoaCephalochordataBranchiostomabelcheri_2816238__PDE11_DROME_Dual_3_                          19.70%    passed     51.05%
+  43  MetazoaCephalochordataBranchiostomabelcheri_2816239__PDE11_DROME_Dual_3_                           0.87%    passed     56.80%
+  44  MetazoaCephalochordataBranchiostomabelcheri_2830318__PDE11_HUMAN_Dual_3_                          35.04%    passed     52.67%
+  45  MetazoaCephalochordataBranchiostomabelcheri_2830319__PDE11_HUMAN_Dual_3_                          35.04%    passed     52.67%
+  46  MetazoaCnidariaAcroporadigitifera_2930854__PDE6_DROVI_cGMP-specific_3_                            77.56%    passed     99.43%
+  47  MetazoaCnidariaAcroporadigitifera_2933249__PDE11_RAT_Dual_3_                                      74.06%    passed     92.31%
+  48  MetazoaCnidariaAcroporadigitifera_2937644__PDE5_CAEEL_Probable_3_                                 84.91%    passed     48.94%
+  49  MetazoaCnidariaAcroporadigitifera_2944391__PDE6_DROVI_cGMP-specific_3_                            77.06%    passed     98.66%
+  50  MetazoaCnidariaAcroporatenuis_2975934__PDE11_RAT_Dual_3_                                          82.42%    passed     43.30%
+  51  MetazoaCnidariaAcroporatenuis_2980136__PDE5_CAEEL_Probable_3_                                     52.74%    passed     62.50%
+  52  MetazoaCnidariaAcroporatenuis_2980393__PDE11_DROME_Dual_3_                                        51.00%    passed     67.47%
+  53  MetazoaCnidariaAcroporatenuis_2981379__PDE6_DROVI_cGMP-specific_3_                                54.99%    passed     85.41%
+  54  MetazoaCnidariaAcroporatenuis_2985398__PDE6_DROVI_cGMP-specific_3_                                80.80%    passed     97.44%
+  55  MetazoaCnidariaAnthopleuraelegantissima_3002807__PDE11_MOUSE_Dual_3_                               3.12%    passed     97.89%
+  56  MetazoaCnidariaAnthopleuraelegantissima_3014825__PDE11_DROME_Dual_3_                              72.57%    passed     96.28%
+  57  MetazoaCnidariaAnthopleuraelegantissima_3014826__PDE5A_CANLF_cGMP-specific_3_                     80.92%    passed     11.65%
+  58  MetazoaCnidariaAnthopleuraelegantissima_3014827__PDE6_DROVI_cGMP-specific_3_                      76.18%    passed     80.10%
+  59  MetazoaCnidariaAnthopleuraelegantissima_3014828__PDE6_DROYA_cGMP-specific_3_                      81.92%    passed     82.86%
+  60  MetazoaCnidariaAnthopleuraelegantissima_3021492__PDE6_DROVI_cGMP-specific_3_                      59.10%    passed     36.79%
+  61  MetazoaCnidariaAstreoporasp_3034352__PDE5_CAEEL_Probable_3_                                       59.10%    passed     94.98%
+  62  MetazoaCnidariaAstreoporasp_3035895__PDE11_DROME_Dual_3_                                           3.99%    passed     99.60%
+  63  MetazoaCnidariaAstreoporasp_3037063__PDE6_DROSE_cGMP-specific_3_                                  78.80%    failed      3.45%
+  64  MetazoaCnidariaAstreoporasp_3039745__PDE11_RAT_Dual_3_                                             2.37%    passed     96.79%
+  65  MetazoaCnidariaAureliaGenome_3060310__PDE11_TAKRU_Dual_3_                                         64.84%    passed     87.83%
+  66  MetazoaCnidariaAureliaGenome_3070859__PDE6_DROPS_cGMP-specific_3_                                 24.06%    passed     97.97%
+  67  MetazoaCnidariaClytiahemisphaerica_3083113__PDE6_DROVI_cGMP-specific_3_                           33.79%    passed     81.16%
+  68  MetazoaCnidariaClytiahemisphaerica_3092756__PDE5_CAEEL_Probable_3_                                79.05%    passed      6.10%
+  69  MetazoaCnidariaClytiahemisphaerica_3096610__PDE11_DROME_Dual_3_                                    1.87%    passed     99.85%
+  70  MetazoaCnidariaClytiahemisphaerica_3098992__PDE11_MOUSE_Dual_3_                                    3.37%    failed      0.33%
+  71  MetazoaCnidariaFungiascutaria_3182223__PDE11_DROME_Dual_3_                                         3.12%    passed     99.56%
+  72  MetazoaCnidariaFungiascutaria_3186351__PDE6_DROVI_cGMP-specific_3_                                54.24%    passed     84.47%
+  73  MetazoaCnidariaFungiascutaria_3203292__PDE5_CAEEL_Probable_3_                                      7.23%    passed     96.05%
+  74  MetazoaCnidariaFungiascutaria_3205570__PDE11_RAT_Dual_3_                                           2.62%    passed     91.04%
+  75  MetazoaCnidariaFungiascutaria_3205571__PDE6_DROAN_cGMP-specific_3_                                85.79%    passed     33.07%
+  76  MetazoaCnidariaGorgoniaventalina_3214407__PDE10_HUMAN_cAMP_and_cAMP-inhibited_cGMP_3_             70.82%    passed     88.24%
+  77  MetazoaCnidariaGorgoniaventalina_3226672__PDE11_DROME_Dual_3_                                     21.70%    passed     98.65%
+  78  MetazoaCnidariaGorgoniaventalina_3233342__PDE11_MOUSE_Dual_3_                                      5.36%    passed      9.21%
+  79  MetazoaCnidariaHydramagnapapillata_3244092__PDE5_CAEEL_Probable_3_                                34.41%    passed     82.93%
+  80  MetazoaCnidariaHydramagnapapillata_3253942__PDE6_DROMO_cGMP-specific_3_                           82.67%    passed     88.79%
+  81  MetazoaCnidariaHydramagnapapillata_3260499__PDE11_RAT_Dual_3_                                     54.86%    passed      7.49%
+  82  MetazoaCnidariaHydramagnapapillata_3267510__PDE6_DROVI_cGMP-specific_3_                           29.30%    passed      8.75%
+  83  MetazoaCnidariaMadracisauretenra_3291715__PDE5_CAEEL_Probable_3_                                  84.41%    passed     17.81%
+  84  MetazoaCnidariaMadracisauretenra_3301168__PDE6_DROVI_cGMP-specific_3_                             80.17%    passed     68.20%
+  85  MetazoaCnidariaMontastraeacavernosa_3317672__PDE5_CAEEL_Probable_3_                               54.36%    passed     83.80%
+  86  MetazoaCnidariaMontastraeacavernosa_3318069__PDE6_DROVI_cGMP-specific_3_                          68.95%    passed     71.70%
+  87  MetazoaCnidariaMontastraeacavernosa_3318070__PDE6_DROVI_cGMP-specific_3_                          75.69%    passed     94.84%
+  88  MetazoaCnidariaMontastraeacavernosa_3337454__PDE5_CAEEL_Probable_3_                               70.57%    passed     73.76%
+  89  MetazoaCnidariaMontastraeacavernosa_3337460__PDE5_CAEEL_Probable_3_                               72.57%    passed     79.93%
+  90  MetazoaCnidariaMontastraeacavernosa_3339251__PDE11_DROME_Dual_3_                                   2.99%    passed     99.79%
+  91  MetazoaCnidariaMontastraeacavernosa_3339355__PDE11_RAT_Dual_3_                                     2.49%    passed     86.78%
+  92  MetazoaCnidariaNematostellavectensis_3379786__PDE11_MOUSE_Dual_3_                                 11.47%    passed     86.63%
+  93  MetazoaCnidariaNematostellavectensis_3380566__PDE6_DROVI_cGMP-specific_3_                         67.08%    passed     94.87%
+  94  MetazoaCnidariaNematostellavectensis_3383782__PDE11_DROME_Dual_3_                                  4.11%    passed     99.10%
+  95  MetazoaCnidariaNematostellavectensis_3391182__PDE10_HUMAN_cAMP_and_cAMP-inhibited_cGMP_3_         28.68%    passed     84.79%
+  96  MetazoaCnidariaPoritesaustraliensis_3532813__PDE5_CAEEL_Probable_3_                               55.61%    passed     97.32%
+  97  MetazoaCnidariaPoritesaustraliensis_3537741__PDE5_CAEEL_Probable_3_                                7.36%    passed     96.89%
+  98  MetazoaCnidariaPoritesaustraliensis_3543716__PDE6_DROVI_cGMP-specific_3_                          81.55%    passed     71.12%
+  99  MetazoaCnidariaPoritesaustraliensis_3546866__PDE11_RAT_Dual_3_                                     2.37%    passed     99.75%
+ 100  MetazoaCnidariaStylophorapistillata_3666937__PDE5_CAEEL_Probable_3_                                7.23%    passed     99.82%
+ 101  MetazoaCnidariaStylophorapistillata_3672225__PDE6_DROYA_cGMP-specific_3_                           5.86%    passed     99.97%
+ 102  MetazoaCnidariaStylophorapistillata_3675736__PDE11_RAT_Dual_3_                                     2.37%    passed     94.12%
+ 103  MetazoaCnidariaStylophorapistillata_3677506__PDE11_DROME_Dual_3_                                   2.99%    passed     99.38%
+ 104  MetazoaCtenophoraPleurobrachiabachei_3754479__PDE11_MOUSE_Dual_3_                                  7.98%    passed     51.79%
+ 105  MetazoaCtenophoraPleurobrachiabachei_3756760__PDE2A_RAT_cGMP-dependent_3_                         48.13%    passed     11.27%
+ 106  MetazoaEchinodermataAcanthasterplanci_3786090__PDE6_DROMO_cGMP-specific_3_                        31.30%    passed     81.94%
+ 107  MetazoaEchinodermataAcanthasterplanci_3791463__PDE6_DROAN_cGMP-specific_3_                         3.74%    passed     86.57%
+ 108  MetazoaEchinodermataEP00057Strongylocentrotuspurpuratus_3801978__PDE6_DROMO_cGMP-specific_3_       2.00%    passed     97.17%
+ 109  MetazoaEchinodermataEP00057Strongylocentrotuspurpuratus_3809367__PDE5_CAEEL_Probable_3_           87.53%    passed     43.35%
+ 110  MetazoaEchinodermataEP00057Strongylocentrotuspurpuratus_3825298__PDE6_DROMO_cGMP-specific_3_       1.87%    passed     96.35%
+ 111  MetazoaEchinodermataEP00057Strongylocentrotuspurpuratus_3825299__PDE6_DROMO_cGMP-specific_3_       1.87%    passed     96.35%
+ 112  MetazoaHemichordataSaccoglossuskowalevskii_4047200__PDE11_DROME_Dual_3_                           46.38%    passed     94.20%
+ 113  MetazoaHemichordataSaccoglossuskowalevskii_4052346__PDE10_MOUSE_cAMP_and_cAMP-inhibited_cGMP_3_   44.39%    passed     27.62%
+ 114  MetazoaHemichordataSaccoglossuskowalevskii_4060765__PDE6_DROMO_cGMP-specific_3_                   23.07%    passed     78.73%
+ 115  MetazoaMolluscaEP00106Octopusbimaculoides_4161466__PDE6_DROYA_cGMP-specific_3_                     4.24%    passed      5.49%
+ 116  MetazoaMolluscaEP00106Octopusbimaculoides_4169055__PDE6_DROVI_cGMP-specific_3_                     4.11%    passed     12.32%
+ 117  MetazoaMolluscaEP00106Octopusbimaculoides_4169056__PDE6_DROPS_cGMP-specific_3_                     4.49%    failed      4.37%
+ 118  MetazoaMolluscaEP00106Octopusbimaculoides_4169057__PDE6_DROVI_cGMP-specific_3_                    46.76%    passed     64.20%
+ 119  MetazoaMolluscaEP00106Octopusbimaculoides_4169058__PDE6_DROYA_cGMP-specific_3_                     4.99%    failed      0.70%
+ 120  MetazoaMolluscaEP00106Octopusbimaculoides_4175571__PDE6_DROWI_cGMP-specific_3_                    52.24%    passed     69.23%
+ 121  MetazoaMolluscaEP00106Octopusbimaculoides_4177271__PDE5_CAEEL_Probable_3_                         65.84%    passed     28.42%
+ 122  MetazoaMolluscaEP00106Octopusbimaculoides_4177272__PDE5_CAEEL_Probable_3_                         65.84%    passed     27.03%
+ 123  MetazoaMolluscaLottiagigantea_4204088__PDE6_DROMO_cGMP-specific_3_                                 3.62%    passed     12.43%
+ 124  MetazoaMolluscaLottiagigantea_4205514__PDE6_DROYA_cGMP-specific_3_                                11.35%    passed     84.62%
+ 125  MetazoaMolluscaLottiagigantea_4207790__PDE10_HUMAN_cAMP_and_cAMP-inhibited_cGMP_3_                25.44%    failed      2.54%
+ 126  MetazoaMolluscaLottiagigantea_4220990__PDE11_DROME_Dual_3_                                        24.44%    passed     98.87%
+ 127  MetazoaPlacozoaEP00114TrichoplaxspH2_4509719__PDE11_DROME_Dual_3_                                  4.36%    passed     50.11%
+ 128  MetazoaPlacozoaEP00114TrichoplaxspH2_4509871__PDE6_DROGR_cGMP-specific_3_                          3.62%    passed     74.70%
+ 129  MetazoaPlacozoaEP00114TrichoplaxspH2_4513540__PDE5_CAEEL_Probable_3_                               7.73%    passed     50.29%
+ 130  MetazoaPlacozoaHoilungiahongkongensis_4537786__PDE10_HUMAN_cAMP_and_cAMP-inhibited_cGMP_3_         5.61%    passed     62.71%
+ 131  MetazoaPlacozoaHoilungiahongkongensis_4537787__PDE10_HUMAN_cAMP_and_cAMP-inhibited_cGMP_3_         5.61%    passed     69.40%
+ 132  MetazoaPlacozoaHoilungiahongkongensis_4537789__PDE10_HUMAN_cAMP_and_cAMP-inhibited_cGMP_3_         6.23%    passed     60.24%
+ 133  MetazoaPlacozoaHoilungiahongkongensis_4541233__PDE11_TAKRU_Dual_3_                                82.42%    passed     43.20%
+ 134  MetazoaPlacozoaHoilungiahongkongensis_4559057__PDE5_CAEEL_Probable_3_                              7.73%    passed     54.31%
+ 135  MetazoaPlacozoaHoilungiahongkongensis_4559061__PDE5_CAEEL_Probable_3_                              8.23%    passed     57.97%
+ 136  MetazoaPlacozoaHoilungiahongkongensis_4561070__PDE6_DROPS_cGMP-specific_3_                         3.99%    passed     78.94%
+ 137  MetazoaPlacozoaHoilungiahongkongensis_4561071__PDE6_DROPS_cGMP-specific_3_                        36.78%    passed     81.27%
+ 138  MetazoaPlacozoaHoilungiahongkongensis_4565245__PDE5_CAEEL_Probable_3_                             79.18%    passed     59.04%
+ 139  MetazoaPlacozoaHoilungiahongkongensis_4577826__PDE11_DROME_Dual_3_                                 4.36%    passed     44.48%
+ 140  MetazoaPlacozoaHoilungiahongkongensis_4577827__PDE11_DROME_Dual_3_                                 4.36%    passed     49.25%
+ 141  MetazoaPlacozoaHoilungiahongkongensis_4577830__PDE11_DROME_Dual_3_                                 4.36%    passed     49.87%
+ 142  MetazoaPoriferaAmphimedonqueenslandica_4703505__PDE6_DROER_cGMP-specific_3_                        6.61%    passed     44.10%
+ 143  MetazoaPoriferaEP00118Oscarellapearsei_4823413__PDE2A_BOVIN_cGMP-dependent_3_                     73.94%    failed      2.94%
+ 144  MetazoaPoriferaEP00118Oscarellapearsei_4825753__PDE11_DROME_Dual_3_                                9.73%    passed     94.16%
+ 145  MetazoaPoriferaEphydatiamuelleri_4914144__PDE10_MOUSE_cAMP_and_cAMP-inhibited_cGMP_3_             35.29%    passed     11.20%
+ 146  MetazoaPoriferaHaliclonatubifera_4953916__PDE6_DROVI_cGMP-specific_3_                             47.13%    passed     96.98%
+ 147  MetazoaPoriferaHaliclonatubifera_4968549__PDE5_CAEEL_Probable_3_                                  30.17%    passed     59.24%
+ 148  MetazoaPoriferaStylissacarteri_5077545__PDE6_DROWI_cGMP-specific_3_                               81.17%    passed     93.57%
+ 149  MetazoaPoriferaStylissacarteri_5098444__PDE6_DROYA_cGMP-specific_3_                               74.06%    passed     70.22%
+ 150  MetazoaTardigradaRamazzotiusvarieornatus_5277855__PDE6_DROMO_cGMP-specific_3_                      4.49%    passed     97.51%
+ 151  MetazoaTardigradaRamazzotiusvarieornatus_5280258__PDE6_DROMO_cGMP-specific_3_                      3.74%    passed     94.73%
+ 152  MetazoaTardigradaRamazzotiusvarieornatus_5280776__PDE10_HUMAN_cAMP_and_cAMP-inhibited_cGMP_3_     15.59%    passed      6.99%
+ 153  MetazoaTardigradaRamazzotiusvarieornatus_5296389__PDE5_CAEEL_Probable_3_                          11.10%    passed     84.50%
+ 154  MetazoaUrochordataEP00059Cionaintestinalis_5346531__PDE6_DROVI_cGMP-specific_3_                   10.60%    passed     83.07%
+ 155  MetazoaUrochordataEP00059Cionaintestinalis_5352727__PDE6_DROVI_cGMP-specific_3_                    2.99%    passed     69.76%
+ 156  MetazoaVertebrateDaniorerio_5413950__PDE6C_CHICK_Cone_cGMP-specific_3_                             5.11%    passed     23.20%
+ 157  MetazoaVertebrateDaniorerio_5422671__PDE6B_CANLF_Rod_cGMP-specific_3_                              4.49%    passed     60.94%
+ 158  MetazoaVertebrateDaniorerio_5435150__PDE6A_CANLF_Rod_cGMP-specific_3_                              4.99%    passed     52.68%
+ 159  MetazoaVertebrateEptatretusburgeri_6392277__PDE10_HUMAN_cAMP_and_cAMP-inhibited_cGMP_3_           11.10%    passed     63.56%
+ 160  MetazoaVertebrateEptatretusburgeri_6392279__PDE10_HUMAN_cAMP_and_cAMP-inhibited_cGMP_3_           13.97%    passed     74.64%
+ 161  MetazoaVertebrateEptatretusburgeri_6392281__PDE10_HUMAN_cAMP_and_cAMP-inhibited_cGMP_3_           14.71%    passed     70.67%
+ 162  MetazoaVertebrateEptatretusburgeri_6397121__PDE6C_HUMAN_Cone_cGMP-specific_3_                     19.58%    passed     97.25%
+ 163  MetazoaVertebrateHomosapiens_6455043__PDE6A_HUMAN_Rod_cGMP-specific_3_                             4.74%    passed     71.61%
+ 164  MetazoaVertebrateHomosapiens_6456025__PDE6B_HUMAN_Rod_cGMP-specific_3_                             4.74%    passed     78.39%
+ 165  MetazoaVertebrateHomosapiens_6456668__PDE6C_HUMAN_Cone_cGMP-specific_3_                            4.86%    passed     46.87%
+ 166  MetazoaVertebrateMusmusculus_6532810__PDE6B_MOUSE_Rod_cGMP-specific_3_                             4.49%    passed     91.28%
+ 167  MetazoaVertebrateMusmusculus_6532937__PDE6A_MOUSE_Rod_cGMP-specific_3_                             4.74%    passed     75.21%
+ 168  MetazoaVertebrateMusmusculus_6544431__PDE6C_MOUSE_Cone_cGMP-specific_3_                            4.74%    passed     59.60%
+ 169  PluriformeaEP00127Corallochytriumlimacisporum_21623701__PDE11_DROME_Dual_3_                        9.23%    passed     83.77%
+ 170  RhodelphisEP00736Rhodelphismarinus_22799234__PDE5_DICDI_cGMP-dependent_3_                         14.46%    passed     22.01%
+ 171  StramenopilesPhytophthorainfestansUP000006643_26367738__PDE2A_RAT_cGMP-dependent_3_               13.84%    failed      1.10%
+WARNING: 49 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                                                                             29.73%  14 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: MetazoaCephalochordataBranchiostomabelcheri_2830319__PDE11_HUMAN_Dual_3_ is identical to MetazoaCephalochordataBranchiostomabelcheri_2830318__PDE11_HUMAN_Dual_3_ but kept for subsequent analysis
+NOTE: MetazoaEchinodermataEP00057Strongylocentrotuspurpuratus_3825299__PDE6_DROMO_cGMP-specific_3_ is identical to MetazoaEchinodermataEP00057Strongylocentrotuspurpuratus_3825298__PDE6_DROMO_cGMP-specific_3_ but kept for subsequent analysis
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.245 seconds
+Measuring multi-threading efficiency up to 64 CPU cores
+Increase to 10 rounds for branch lengths
+12 trees examined
+Threads: 1 / Time: 67.899 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -172456
+Threads: 2 / Time: 58.633 sec / Speedup: 1.158 / Efficiency: 58% / LogL: -172456
+Threads: 3 / Time: 39.177 sec / Speedup: 1.733 / Efficiency: 58% / LogL: -172456
+Threads: 4 / Time: 30.000 sec / Speedup: 2.263 / Efficiency: 57% / LogL: -172456
+Threads: 5 / Time: 24.426 sec / Speedup: 2.780 / Efficiency: 56% / LogL: -172456
+Threads: 6 / Time: 21.182 sec / Speedup: 3.206 / Efficiency: 53% / LogL: -172456
+Threads: 7 / Time: 18.355 sec / Speedup: 3.699 / Efficiency: 53% / LogL: -172456
+Threads: 8 / Time: 17.024 sec / Speedup: 3.988 / Efficiency: 50% / LogL: -172456
+BEST NUMBER OF THREADS: 7
+
+Perform fast likelihood tree search using LG+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -111963.570
+Optimal log-likelihood: -111963.496
+Proportion of invariable sites: 0.015
+Gamma shape alpha: 1.295
+Parameters optimization took 1 rounds (0.581 sec)
+Time for fast ML tree search: 7.036 seconds
+
+NOTE: ModelFinder requires 220 MB RAM!
+ModelFinder will test up to 598 protein models (sample size: 802) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  Blosum62      117182.034   339 235042.067   235541.028   236630.997
+  2  Blosum62+I    116778.107   340 234236.214   234739.207   235829.830
+  3  Blosum62+G4   113415.745   340 227511.490   228014.484   229105.107
+  4  Blosum62+I+G4 113329.149   341 227340.298   227847.350   228938.602
+  5  Blosum62+R2   114158.271   341 228998.541   229505.594   230596.845
+  6  Blosum62+R3   113539.049   343 227764.098   228279.347   229371.776
+  7  Blosum62+R4   113310.205   345 227310.409   227833.962   228927.462
+  8  Blosum62+R5   113217.815   347 227129.630   227661.595   228756.057
+  9  Blosum62+R6   113192.543   349 227083.086   227623.573   228718.887
+ 10  Blosum62+R7   113182.328   351 227066.656   227615.776   228711.831
+ 11  Blosum62+R8   113177.441   353 227060.881   227618.747   228715.430
+ 14  Blosum62+F    117021.077   358 234758.155   235338.390   236436.140
+ 15  Blosum62+F+I  116598.930   359 233915.859   234500.656   235598.531
+ 16  Blosum62+F+G4 113212.358   359 227142.716   227727.512   228825.388
+ 17  Blosum62+F+I+G4 113122.242   360 226964.483   227553.871   228651.842
+ 18  Blosum62+F+R2 113994.701   360 228709.402   229298.790   230396.761
+ 19  Blosum62+F+R3 113353.128   362 227430.256   228028.916   229126.989
+ 20  Blosum62+F+R4 113107.160   364 226942.320   227550.375   228648.427
+ 21  Blosum62+F+R5 113008.250   366 226748.501   227366.073   228463.983
+ 22  Blosum62+F+R6 112984.621   368 226705.242   227332.457   228430.098
+ 23  Blosum62+F+R7 112972.490   370 226684.980   227321.964   228419.210
+ 24  Blosum62+F+R8 112967.233   372 226678.466   227325.347   228422.070
+ 27  cpREV         117269.881   339 235217.761   235716.723   236806.691
+ 28  cpREV+I       116853.717   340 234387.433   234890.427   235981.050
+ 29  cpREV+G4      113444.523   340 227569.047   228072.040   229162.664
+ 30  cpREV+I+G4    113367.440   341 227416.880   227923.933   229015.184
+ 31  cpREV+R2      114277.440   341 229236.880   229743.932   230835.184
+ 32  cpREV+R3      113606.174   343 227898.348   228413.597   229506.026
+ 33  cpREV+R4      113347.255   345 227384.510   227908.062   229001.562
+ 34  cpREV+R5      113255.359   347 227204.718   227736.682   228831.144
+ 35  cpREV+R6      113214.462   349 227126.923   227667.410   228762.724
+ 36  cpREV+R7      113195.617   351 227093.233   227642.353   228738.408
+ 37  cpREV+R8      113191.863   353 227089.725   227647.591   228744.274
+ 40  cpREV+F       117154.223   358 235024.446   235604.681   236702.431
+ 41  cpREV+F+I     116692.613   359 234103.226   234688.023   235785.898
+ 42  cpREV+F+G4    113172.827   359 227063.654   227648.451   228746.326
+ 43  cpREV+F+I+G4  113094.440   360 226908.880   227498.268   228596.239
+ 44  cpREV+F+R2    114089.404   360 228898.808   229488.196   230586.167
+ 45  cpREV+F+R3    113374.625   362 227473.250   228071.911   229169.983
+ 46  cpREV+F+R4    113073.415   364 226874.831   227482.886   228580.938
+ 47  cpREV+F+R5    112971.749   366 226675.499   227293.071   228390.980
+ 48  cpREV+F+R6    112924.556   368 226585.111   227212.326   228309.967
+ 49  cpREV+F+R7    112904.989   370 226549.979   227186.962   228284.209
+ 50  cpREV+F+R8    112901.218   372 226546.437   227193.318   228290.041
+ 53  Dayhoff       118786.733   339 238251.466   238750.427   239840.396
+ 54  Dayhoff+I     118210.689   340 237101.379   237604.372   238694.996
+ 55  Dayhoff+G4    114274.762   340 229229.524   229732.517   230823.141
+ 56  Dayhoff+I+G4  114160.102   341 229002.204   229509.256   230600.508
+ 57  Dayhoff+R2    115269.925   341 231221.849   231728.901   232820.153
+ 58  Dayhoff+R3    114432.086   343 229550.173   230065.422   231157.851
+ 59  Dayhoff+R4    114167.249   345 229024.498   229548.050   230641.550
+ 60  Dayhoff+R5    114035.373   347 228764.745   229296.710   230391.172
+ 61  Dayhoff+R6    113991.581   349 228681.163   229221.650   230316.964
+ 62  Dayhoff+R7    113975.191   351 228652.383   229201.503   230297.558
+ 63  Dayhoff+R8    113959.962   353 228625.923   229183.789   230280.473
+ 64  Dayhoff+R9    113960.376   355 228630.752   229197.478   230294.675
+ 66  Dayhoff+F     118441.384   358 237598.769   238179.004   239276.754
+ 67  Dayhoff+F+I   117830.991   359 236379.982   236964.778   238062.654
+ 68  Dayhoff+F+G4  113728.785   359 228175.570   228760.367   229858.242
+ 69  Dayhoff+F+I+G4 113612.363   360 227944.725   228534.113   229632.084
+ 70  Dayhoff+F+R2  114769.759   360 230259.517   230848.905   231946.876
+ 71  Dayhoff+F+R3  113925.416   362 228574.832   229173.493   230271.565
+ 72  Dayhoff+F+R4  113611.659   364 227951.318   228559.373   229657.426
+ 73  Dayhoff+F+R5  113487.973   366 227707.946   228325.518   229423.427
+ 74  Dayhoff+F+R6  113445.508   368 227627.015   228254.230   229351.871
+ 75  Dayhoff+F+R7  113420.239   370 227580.479   228217.462   229314.709
+ 76  Dayhoff+F+R8  113410.455   372 227564.911   228211.792   229308.515
+ 77  Dayhoff+F+R9  113410.132   374 227568.264   228225.173   229321.243
+ 79  DCMut         118779.665   339 238237.331   238736.292   239826.260
+ 80  DCMut+I       118203.959   340 237087.919   237590.912   238681.536
+ 81  DCMut+G4      114277.659   340 229235.318   229738.311   230828.934
+ 82  DCMut+I+G4    114162.727   341 229007.454   229514.507   230605.758
+ 83  DCMut+R2      115270.041   341 231222.081   231729.133   232820.385
+ 84  DCMut+R3      114434.141   343 229554.282   230069.531   231161.961
+ 85  DCMut+R4      114169.648   345 229029.296   229552.849   230646.348
+ 86  DCMut+R5      114038.184   347 228770.369   229302.334   230396.796
+ 87  DCMut+R6      113994.828   349 228687.656   229228.142   230323.457
+ 88  DCMut+R7      113978.158   351 228658.316   229207.436   230303.491
+ 89  DCMut+R8      113963.543   353 228633.086   229190.953   230287.636
+ 90  DCMut+R9      113963.371   355 228636.742   229203.469   230300.666
+ 92  DCMut+F       118431.664   358 237579.328   238159.562   239257.313
+ 93  DCMut+F+I     117821.985   359 236361.969   236946.766   238044.641
+ 94  DCMut+F+G4    113729.461   359 228176.921   228761.718   229859.593
+ 95  DCMut+F+I+G4  113612.993   360 227945.985   228535.373   229633.344
+ 96  DCMut+F+R2    114767.355   360 230254.711   230844.098   231942.070
+ 97  DCMut+F+R3    113925.413   362 228574.826   229173.487   230271.559
+ 98  DCMut+F+R4    113611.900   364 227951.800   228559.854   229657.907
+ 99  DCMut+F+R5    113488.700   366 227709.400   228326.972   229424.882
+100  DCMut+F+R6    113446.302   368 227628.604   228255.819   229353.460
+101  DCMut+F+R7    113420.399   370 227580.799   228217.782   229315.029
+102  DCMut+F+R8    113411.144   372 227566.289   228213.170   229309.893
+103  DCMut+F+R9    113411.265   374 227570.529   228227.438   229323.508
+105  FLU           120928.244   339 242534.488   243033.449   244123.418
+106  FLU+I         120397.132   340 241474.264   241977.257   243067.881
+107  FLU+G4        115570.548   340 231821.096   232324.089   233414.713
+108  FLU+I+G4      115487.388   341 231656.776   232163.829   233255.080
+109  FLU+R2        116704.416   341 234090.833   234597.885   235689.137
+110  FLU+R3        115896.689   343 232479.377   232994.626   234087.055
+111  FLU+R4        115476.527   345 231643.054   232166.606   233260.106
+112  FLU+R5        115362.696   347 231419.391   231951.356   233045.818
+113  FLU+R6        115316.295   349 231330.591   231871.078   232966.392
+114  FLU+R7        115284.013   351 231270.026   231819.146   232915.201
+115  FLU+R8        115275.202   353 231256.403   231814.269   232910.952
+116  FLU+R9        115265.531   355 231241.063   231807.789   232904.986
+WARNING: Log-likelihood -115267 of FLU+R10 worse than FLU+R9 -115266
+117  FLU+R10       115266.941   357 231247.881   231823.584   232921.179
+118  FLU+F         120469.698   358 241655.397   242235.632   243333.382
+119  FLU+F+I       119960.107   359 240638.215   241223.011   242320.886
+120  FLU+F+G4      114890.292   359 230498.584   231083.381   232181.256
+121  FLU+F+I+G4    114812.959   360 230345.918   230935.306   232033.277
+122  FLU+F+R2      116061.107   360 232842.213   233431.601   234529.573
+123  FLU+F+R3      115238.062   362 231200.124   231798.785   232896.857
+124  FLU+F+R4      114803.545   364 230335.091   230943.145   232041.198
+125  FLU+F+R5      114671.273   366 230074.547   230692.119   231790.029
+126  FLU+F+R6      114627.312   368 229990.623   230617.838   231715.479
+127  FLU+F+R7      114598.289   370 229936.579   230573.563   231670.809
+128  FLU+F+R8      114587.980   372 229919.959   230566.840   231663.564
+129  FLU+F+R9      114587.421   374 229922.842   230579.750   231675.820
+131  HIVb          121438.778   339 243555.556   244054.517   245144.486
+132  HIVb+I        120817.391   340 242314.782   242817.776   243908.399
+133  HIVb+G4       115912.069   340 232504.138   233007.132   234097.755
+134  HIVb+I+G4     115811.066   341 232304.133   232811.185   233902.437
+135  HIVb+R2       117166.006   341 235014.012   235521.064   236612.316
+136  HIVb+R3       116249.750   343 233185.501   233700.750   234793.179
+137  HIVb+R4       115808.965   345 232307.929   232831.482   233924.982
+138  HIVb+R5       115669.449   347 232032.898   232564.863   233659.325
+139  HIVb+R6       115620.854   349 231939.707   232480.194   233575.508
+140  HIVb+R7       115579.770   351 231861.540   232410.660   233506.715
+141  HIVb+R8       115568.825   353 231843.650   232401.516   233498.199
+142  HIVb+R9       115569.187   355 231848.375   232415.101   233512.298
+144  HIVb+F        121096.788   358 242909.575   243489.810   244587.560
+145  HIVb+F+I      120475.505   359 241669.010   242253.807   243351.682
+146  HIVb+F+G4     115275.882   359 231269.763   231854.560   232952.435
+147  HIVb+F+I+G4   115173.639   360 231067.277   231656.665   232754.636
+148  HIVb+F+R2     116577.591   360 233875.182   234464.569   235562.541
+149  HIVb+F+R3     115629.417   362 231982.834   232581.494   233679.567
+150  HIVb+F+R4     115170.914   364 231069.828   231677.883   232775.935
+151  HIVb+F+R5     115016.555   366 230765.109   231382.682   232480.591
+152  HIVb+F+R6     114965.545   368 230667.090   231294.305   232391.946
+153  HIVb+F+R7     114943.279   370 230626.557   231263.541   232360.787
+154  HIVb+F+R8     114914.389   372 230572.778   231219.660   232316.383
+155  HIVb+F+R9     114914.330   374 230576.661   231233.569   232329.639
+157  HIVw          126326.070   339 253330.139   253829.100   254919.069
+158  HIVw+I        125641.370   340 251962.739   252465.733   253556.356
+159  HIVw+G4       120980.113   340 242640.226   243143.220   244233.843
+160  HIVw+I+G4     120845.233   341 242372.466   242879.518   243970.770
+161  HIVw+R2       122239.122   341 245160.244   245667.296   246758.548
+162  HIVw+R3       121260.593   343 243207.185   243722.434   244814.864
+163  HIVw+R4       120899.644   345 242489.289   243012.841   244106.341
+164  HIVw+R5       120725.313   347 242144.627   242676.592   243771.053
+165  HIVw+R6       120657.404   349 242012.807   242553.294   243648.608
+166  HIVw+R7       120631.401   351 241964.801   242513.921   243609.976
+167  HIVw+R8       120617.338   353 241940.677   242498.543   243595.226
+168  HIVw+R9       120610.984   355 241931.968   242498.695   243595.892
+170  HIVw+F        123829.414   358 248374.829   248955.063   250052.814
+171  HIVw+F+I      123169.998   359 247057.997   247642.793   248740.668
+172  HIVw+F+G4     118378.492   359 237474.984   238059.781   239157.656
+173  HIVw+F+I+G4   118249.674   360 237219.349   237808.737   238906.708
+174  HIVw+F+R2     119578.045   360 239876.089   240465.477   241563.448
+175  HIVw+F+R3     118657.011   362 238038.023   238636.683   239734.756
+176  HIVw+F+R4     118280.292   364 237288.583   237896.638   238994.691
+177  HIVw+F+R5     118124.983   366 236981.966   237599.539   238697.448
+178  HIVw+F+R6     118065.307   368 236866.615   237493.830   238591.471
+179  HIVw+F+R7     118028.971   370 236797.943   237434.927   238532.173
+180  HIVw+F+R8     118021.406   372 236786.813   237433.694   238530.417
+181  HIVw+F+R9     118021.251   374 236790.502   237447.411   238543.481
+183  JTT           117930.813   339 236539.626   237038.587   238128.556
+184  JTT+I         117374.884   340 235429.768   235932.761   237023.385
+185  JTT+G4        113309.060   340 227298.121   227801.114   228891.738
+186  JTT+I+G4      113200.799   341 227083.597   227590.649   228681.901
+187  JTT+R2        114296.506   341 229275.012   229782.064   230873.316
+188  JTT+R3        113530.924   343 227747.848   228263.096   229355.526
+189  JTT+R4        113197.369   345 227084.737   227608.290   228701.790
+190  JTT+R5        113085.542   347 226865.084   227397.049   228491.511
+191  JTT+R6        113058.694   349 226815.388   227355.875   228451.189
+192  JTT+R7        113024.388   351 226750.777   227299.897   228395.952
+193  JTT+R8        113022.121   353 226750.242   227308.108   228404.792
+196  JTT+F         117639.876   358 235995.751   236575.986   237673.736
+197  JTT+F+I       117070.540   359 234859.081   235443.877   236541.753
+198  JTT+F+G4      112940.687   359 226599.374   227184.170   228282.046
+199  JTT+F+I+G4    112830.875   360 226381.749   226971.137   228069.108
+200  JTT+F+R2      113946.178   360 228612.356   229201.744   230299.715
+201  JTT+F+R3      113172.552   362 227069.104   227667.764   228765.837
+202  JTT+F+R4      112825.274   364 226378.548   226986.603   228084.656
+203  JTT+F+R5      112715.397   366 226162.794   226780.367   227878.276
+204  JTT+F+R6      112685.944   368 226107.889   226735.103   227832.745
+205  JTT+F+R7      112651.872   370 226043.743   226680.727   227777.973
+206  JTT+F+R8      112648.332   372 226040.665   226687.546   227784.269
+209  JTTDCMut      117905.927   339 236489.853   236988.814   238078.783
+210  JTTDCMut+I    117347.244   340 235374.488   235877.481   236968.105
+211  JTTDCMut+G4   113301.798   340 227283.595   227786.589   228877.212
+212  JTTDCMut+I+G4 113194.454   341 227070.909   227577.961   228669.213
+213  JTTDCMut+R2   114290.026   341 229262.052   229769.105   230860.356
+214  JTTDCMut+R3   113522.134   343 227730.268   228245.517   229337.946
+215  JTTDCMut+R4   113189.163   345 227068.327   227591.879   228685.379
+216  JTTDCMut+R5   113078.329   347 226850.658   227382.623   228477.085
+217  JTTDCMut+R6   113050.881   349 226799.762   227340.249   228435.563
+218  JTTDCMut+R7   113016.728   351 226735.455   227284.575   228380.631
+219  JTTDCMut+R8   113015.795   353 226737.589   227295.455   228392.138
+222  JTTDCMut+F    117637.634   358 235991.269   236571.504   237669.254
+223  JTTDCMut+F+I  117065.404   359 234848.807   235433.603   236531.479
+224  JTTDCMut+F+G4 112944.500   359 226607.000   227191.796   228289.672
+225  JTTDCMut+F+I+G4 112835.395   360 226390.790   226980.177   228078.149
+226  JTTDCMut+F+R2 113954.275   360 228628.550   229217.938   230315.909
+227  JTTDCMut+F+R3 113175.856   362 227075.712   227674.373   228772.445
+228  JTTDCMut+F+R4 112828.824   364 226385.648   226993.703   228091.756
+229  JTTDCMut+F+R5 112719.881   366 226171.762   226789.334   227887.243
+230  JTTDCMut+F+R6 112689.833   368 226115.667   226742.881   227840.523
+231  JTTDCMut+F+R7 112656.632   370 226053.264   226690.248   227787.494
+232  JTTDCMut+F+R8 112652.346   372 226048.692   226695.573   227792.297
+235  LG            116871.167   339 234420.335   234919.296   236009.264
+236  LG+I          116376.206   340 233432.412   233935.405   235026.029
+237  LG+G4         112060.088   340 224800.176   225303.170   226393.793
+238  LG+I+G4       111963.508   341 224609.016   225116.068   226207.320
+239  LG+R2         113083.029   341 226848.058   227355.110   228446.362
+240  LG+R3         112327.409   343 225340.818   225856.067   226948.496
+241  LG+R4         111968.350   345 224626.700   225150.252   226243.752
+242  LG+R5         111845.295   347 224384.589   224916.554   226011.016
+243  LG+R6         111809.280   349 224316.559   224857.046   225952.360
+244  LG+R7         111790.284   351 224282.569   224831.689   225927.744
+245  LG+R8         111778.894   353 224263.787   224821.653   225918.337
+246  LG+R9         111775.622   355 224261.243   224827.970   225925.167
+248  LG+F          116891.297   358 234498.595   235078.830   236176.580
+249  LG+F+I        116387.077   359 233492.154   234076.951   235174.826
+250  LG+F+G4       111999.418   359 224716.835   225301.631   226399.507
+251  LG+F+I+G4     111899.998   360 224519.997   225109.385   226207.356
+252  LG+F+R2       113043.179   360 226806.358   227395.746   228493.717
+253  LG+F+R3       112273.156   362 225270.311   225868.972   226967.044
+254  LG+F+R4       111908.010   364 224544.019   225152.074   226250.127
+255  LG+F+R5       111778.625   366 224289.250   224906.822   226004.731
+256  LG+F+R6       111742.638   368 224221.277   224848.491   225946.133
+257  LG+F+R7       111723.626   370 224187.252   224824.236   225921.482
+258  LG+F+R8       111709.276   372 224162.553   224809.434   225906.157
+259  LG+F+R9       111707.104   374 224162.208   224819.117   225915.187
+261  mtART         128446.126   339 257570.251   258069.212   259159.181
+262  mtART+I       128163.880   340 257007.759   257510.753   258601.376
+263  mtART+G4      118924.881   340 238529.762   239032.755   240123.379
+264  mtART+I+G4    118881.060   341 238444.120   238951.172   240042.424
+265  mtART+R2      120390.548   341 241463.095   241970.147   243061.399
+266  mtART+R3      119250.907   343 239187.815   239703.064   240795.493
+267  mtART+R4      118813.785   345 238317.570   238841.123   239934.623
+268  mtART+R5      118634.106   347 237962.212   238494.177   239588.639
+269  mtART+R6      118542.126   349 237782.251   238322.738   239418.052
+270  mtART+R7      118502.043   351 237706.086   238255.206   239351.261
+271  mtART+R8      118481.558   353 237669.116   238226.982   239323.666
+272  mtART+R9      118479.085   355 237668.170   238234.896   239332.093
+274  mtART+F       122410.149   358 245536.298   246116.533   247214.283
+275  mtART+F+I     122022.702   359 244763.403   245348.199   246446.075
+276  mtART+F+G4    115218.976   359 231155.953   231740.749   232838.625
+277  mtART+F+I+G4  115169.912   360 231059.825   231649.213   232747.184
+278  mtART+F+R2    116681.731   360 234083.463   234672.850   235770.822
+279  mtART+F+R3    115563.245   362 231850.489   232449.150   233547.223
+280  mtART+F+R4    115148.035   364 231024.070   231632.125   232730.177
+281  mtART+F+R5    114939.905   366 230611.809   231229.382   232327.291
+282  mtART+F+R6    114875.246   368 230486.492   231113.707   232211.348
+283  mtART+F+R7    114818.573   370 230377.146   231014.129   232111.376
+284  mtART+F+R8    114809.167   372 230362.335   231009.216   232105.939
+285  mtART+F+R9    114803.975   374 230355.950   231012.859   232108.929
+287  mtMAM         130979.038   339 262636.076   263135.037   264225.006
+288  mtMAM+I       130443.983   340 261567.966   262070.960   263161.583
+289  mtMAM+G4      120717.426   340 242114.852   242617.846   243708.469
+290  mtMAM+I+G4    120633.075   341 241948.149   242455.201   243546.453
+291  mtMAM+R2      122483.301   341 245648.602   246155.654   247246.906
+292  mtMAM+R3      121182.292   343 243050.584   243565.833   244658.263
+293  mtMAM+R4      120637.694   345 241965.389   242488.941   243582.441
+294  mtMAM+R5      120368.850   347 241431.700   241963.665   243058.127
+295  mtMAM+R6      120289.172   349 241276.344   241816.831   242912.145
+296  mtMAM+R7      120217.923   351 241137.846   241686.966   242783.021
+297  mtMAM+R8      120194.350   353 241094.699   241652.565   242749.249
+298  mtMAM+R9      120186.515   355 241083.029   241649.756   242746.953
+299  mtMAM+R10     120186.031   357 241086.063   241661.766   242759.361
+300  mtMAM+F       125089.112   358 250894.224   251474.458   252572.208
+301  mtMAM+F+I     124411.267   359 249540.534   250125.331   251223.206
+302  mtMAM+F+G4    117284.059   359 235286.118   235870.914   236968.790
+303  mtMAM+F+I+G4  117193.635   360 235107.269   235696.657   236794.629
+304  mtMAM+F+R2    118962.932   360 238645.863   239235.251   240333.222
+305  mtMAM+F+R3    117772.721   362 236269.442   236868.102   237966.175
+306  mtMAM+F+R4    117207.493   364 235142.986   235751.041   236849.094
+307  mtMAM+F+R5    116990.899   366 234713.798   235331.370   236429.279
+308  mtMAM+F+R6    116916.959   368 234569.918   235197.132   236294.774
+309  mtMAM+F+R7    116859.082   370 234458.163   235095.147   236192.393
+310  mtMAM+F+R8    116841.029   372 234426.058   235072.939   236169.662
+311  mtMAM+F+R9    116837.818   374 234423.635   235080.544   236176.614
+313  mtREV         124813.415   339 250304.831   250803.792   251893.761
+314  mtREV+I       124388.843   340 249457.687   249960.680   251051.304
+315  mtREV+G4      118032.086   340 236744.172   237247.166   238337.789
+316  mtREV+I+G4    117988.487   341 236658.973   237166.025   238257.277
+317  mtREV+R2      119287.118   341 239256.237   239763.289   240854.541
+318  mtREV+R3      118369.971   343 237425.942   237941.191   239033.620
+319  mtREV+R4      117954.435   345 236598.870   237122.423   238215.923
+320  mtREV+R5      117826.835   347 236347.670   236879.635   237974.097
+321  mtREV+R6      117756.735   349 236211.471   236751.957   237847.272
+322  mtREV+R7      117720.459   351 236142.917   236692.037   237788.092
+323  mtREV+R8      117706.509   353 236119.018   236676.884   237773.567
+WARNING: Log-likelihood -117711 of mtREV+R9 worse than mtREV+R8 -117707
+324  mtREV+R9      117711.435   355 236132.870   236699.596   237796.793
+326  mtREV+F       120101.221   358 240918.443   241498.678   242596.428
+327  mtREV+F+I     119530.734   359 239779.469   240364.265   241462.141
+328  mtREV+F+G4    114579.294   359 229876.589   230461.385   231559.261
+329  mtREV+F+I+G4  114486.176   360 229692.353   230281.740   231379.712
+330  mtREV+F+R2    115808.787   360 232337.574   232926.962   234024.933
+331  mtREV+F+R3    114908.072   362 230540.143   231138.804   232236.877
+332  mtREV+F+R4    114515.323   364 229758.645   230366.700   231464.753
+333  mtREV+F+R5    114348.074   366 229428.148   230045.721   231143.630
+334  mtREV+F+R6    114280.086   368 229296.172   229923.387   231021.028
+335  mtREV+F+R7    114258.302   370 229256.604   229893.588   230990.834
+336  mtREV+F+R8    114244.212   372 229232.425   229879.306   230976.029
+WARNING: Log-likelihood -114250 of mtREV+F+R9 worse than mtREV+F+R8 -114244
+337  mtREV+F+R9    114249.678   374 229247.356   229904.265   231000.335
+339  mtZOA         124610.305   339 249898.609   250397.570   251487.539
+340  mtZOA+I       124316.408   340 249312.815   249815.809   250906.432
+341  mtZOA+G4      116388.371   340 233456.741   233959.735   235050.358
+342  mtZOA+I+G4    116357.634   341 233397.267   233904.319   234995.571
+343  mtZOA+R2      117708.541   341 236099.083   236606.135   237697.387
+344  mtZOA+R3      116684.184   343 234054.368   234569.617   235662.046
+345  mtZOA+R4      116296.883   345 233283.765   233807.318   234900.818
+346  mtZOA+R5      116142.751   347 232979.503   233511.467   234605.929
+347  mtZOA+R6      116080.455   349 232858.909   233399.396   234494.710
+348  mtZOA+R7      116036.079   351 232774.157   233323.277   234419.332
+349  mtZOA+R8      116025.461   353 232756.922   233314.788   234411.471
+350  mtZOA+R9      116025.497   355 232760.994   233327.720   234424.917
+352  mtZOA+F       120110.711   358 240937.421   241517.656   242615.406
+353  mtZOA+F+I     119683.487   359 240084.975   240669.771   241767.647
+354  mtZOA+F+G4    113908.635   359 228535.269   229120.066   230217.941
+355  mtZOA+F+I+G4  113847.150   360 228414.301   229003.688   230101.660
+356  mtZOA+F+R2    115218.619   360 231157.238   231746.625   232844.597
+357  mtZOA+F+R3    114251.042   362 229226.084   229824.744   230922.817
+358  mtZOA+F+R4    113850.166   364 228428.331   229036.386   230134.439
+359  mtZOA+F+R5    113669.615   366 228071.231   228688.803   229786.712
+360  mtZOA+F+R6    113607.355   368 227950.709   228577.924   229675.565
+361  mtZOA+F+R7    113559.955   370 227859.911   228496.895   229594.141
+362  mtZOA+F+R8    113551.122   372 227846.244   228493.125   229589.849
+363  mtZOA+F+R9    113549.505   374 227847.010   228503.919   229599.989
+365  mtMet         125416.892   339 251511.783   252010.744   253100.713
+366  mtMet+I       125012.792   340 250705.583   251208.577   252299.200
+367  mtMet+G4      117796.989   340 236273.979   236776.972   237867.595
+368  mtMet+I+G4    117740.725   341 236163.451   236670.503   237761.755
+369  mtMet+R2      119124.422   341 238930.845   239437.897   240529.149
+370  mtMet+R3      118098.420   343 236882.840   237398.089   238490.518
+371  mtMet+R4      117725.038   345 236140.077   236663.629   237757.129
+372  mtMet+R5      117546.608   347 235787.215   236319.180   237413.642
+373  mtMet+R6      117487.666   349 235673.332   236213.819   237309.133
+374  mtMet+R7      117446.749   351 235595.498   236144.618   237240.673
+375  mtMet+R8      117440.686   353 235587.372   236145.239   237241.922
+378  mtMet+F       120263.366   358 241242.731   241822.966   242920.716
+379  mtMet+F+I     119740.478   359 240198.956   240783.752   241881.628
+380  mtMet+F+G4    114309.189   359 229336.378   229921.175   231019.050
+381  mtMet+F+I+G4  114226.537   360 229173.073   229762.461   230860.432
+382  mtMet+F+R2    115573.836   360 231867.673   232457.061   233555.032
+383  mtMet+F+R3    114666.996   362 230057.993   230656.653   231754.726
+384  mtMet+F+R4    114238.440   364 229204.880   229812.935   230910.988
+385  mtMet+F+R5    114071.348   366 228874.696   229492.268   230590.177
+386  mtMet+F+R6    114012.842   368 228761.685   229388.900   230486.541
+387  mtMet+F+R7    113976.280   370 228692.560   229329.544   230426.790
+388  mtMet+F+R8    113962.168   372 228668.336   229315.217   230411.941
+389  mtMet+F+R9    113960.667   374 228669.334   229326.243   230422.313
+391  mtVer         127790.253   339 256258.506   256757.467   257847.436
+392  mtVer+I       127269.127   340 255218.254   255721.248   256811.871
+393  mtVer+G4      119233.394   340 239146.789   239649.782   240740.406
+394  mtVer+I+G4    119154.993   341 238991.986   239499.038   240590.290
+395  mtVer+R2      120763.736   341 242209.473   242716.525   243807.777
+396  mtVer+R3      119597.441   343 239880.882   240396.131   241488.560
+397  mtVer+R4      119151.489   345 238992.977   239516.530   240610.030
+398  mtVer+R5      118951.912   347 238597.823   239129.788   240224.250
+399  mtVer+R6      118881.247   349 238460.494   239000.981   240096.295
+400  mtVer+R7      118826.918   351 238355.837   238904.957   240001.012
+401  mtVer+R8      118814.710   353 238335.421   238893.287   239989.970
+402  mtVer+R9      118814.459   355 238338.918   238905.644   240002.841
+404  mtVer+F       123034.837   358 246785.675   247365.909   248463.660
+405  mtVer+F+I     122328.316   359 245374.631   245959.428   247057.303
+406  mtVer+F+G4    116247.197   359 233212.394   233797.190   234895.066
+407  mtVer+F+I+G4  116140.102   360 233000.204   233589.592   234687.564
+408  mtVer+F+R2    117745.437   360 236210.874   236800.262   237898.233
+409  mtVer+F+R3    116683.494   362 234090.989   234689.649   235787.722
+410  mtVer+F+R4    116165.007   364 233058.015   233666.070   234764.122
+411  mtVer+F+R5    115973.445   366 232678.890   233296.463   234394.372
+412  mtVer+F+R6    115901.359   368 232538.718   233165.933   234263.574
+413  mtVer+F+R7    115853.117   370 232446.234   233083.218   234180.464
+414  mtVer+F+R8    115823.787   372 232391.574   233038.455   234135.178
+415  mtVer+F+R9    115820.167   374 232388.334   233045.242   234141.312
+417  mtInv         124964.365   339 250606.730   251105.691   252195.660
+418  mtInv+I       124588.998   340 249857.996   250360.989   251451.613
+419  mtInv+G4      118131.052   340 236942.103   237445.097   238535.720
+420  mtInv+I+G4    118081.861   341 236845.722   237352.774   238444.026
+421  mtInv+R2      119333.591   341 239349.182   239856.234   240947.486
+422  mtInv+R3      118407.949   343 237501.899   238017.148   239109.577
+423  mtInv+R4      118071.661   345 236833.322   237356.875   238450.375
+424  mtInv+R5      117906.318   347 236506.635   237038.600   238133.062
+425  mtInv+R6      117852.300   349 236402.599   236943.086   238038.400
+426  mtInv+R7      117823.827   351 236349.654   236898.774   237994.829
+427  mtInv+R8      117816.742   353 236339.484   236897.350   237994.033
+WARNING: Log-likelihood -117820 of mtInv+R9 worse than mtInv+R8 -117817
+428  mtInv+R9      117820.008   355 236350.017   236916.743   238013.940
+430  mtInv+F       118699.036   358 238114.072   238694.307   239792.057
+431  mtInv+F+I     118204.773   359 237127.547   237712.343   238810.219
+432  mtInv+F+G4    113424.016   359 227566.032   228150.829   229248.704
+433  mtInv+F+I+G4  113333.349   360 227386.698   227976.086   229074.057
+434  mtInv+F+R2    114560.002   360 229840.004   230429.392   231527.363
+435  mtInv+F+R3    113729.741   362 228183.481   228782.142   229880.215
+436  mtInv+F+R4    113355.893   364 227439.787   228047.841   229145.894
+437  mtInv+F+R5    113201.535   366 227135.069   227752.642   228850.551
+438  mtInv+F+R6    113152.279   368 227040.558   227667.773   228765.414
+439  mtInv+F+R7    113119.197   370 226978.395   227615.378   228712.625
+440  mtInv+F+R8    113109.017   372 226962.034   227608.915   228705.639
+441  mtInv+F+R9    113098.300   374 226944.599   227601.508   228697.578
+WARNING: Log-likelihood -113110 of mtInv+F+R10 worse than mtInv+F+R9 -113098
+442  mtInv+F+R10   113109.670   376 226971.340   227638.408   228733.693
+443  Poisson       128574.479   339 257826.958   258325.919   259415.887
+444  Poisson+I     128078.051   340 256836.102   257339.096   258429.719
+445  Poisson+G4    124656.643   340 249993.286   250496.280   251586.903
+446  Poisson+I+G4  124559.578   341 249801.156   250308.208   251399.460
+447  Poisson+R2    125470.668   341 251623.336   252130.388   253221.640
+448  Poisson+R3    124761.338   343 250208.676   250723.925   251816.355
+449  Poisson+R4    124555.692   345 249801.384   250324.936   251418.436
+450  Poisson+R5    124453.087   347 249600.175   250132.139   251226.601
+451  Poisson+R6    124435.253   349 249568.506   250108.993   251204.307
+452  Poisson+R7    124407.469   351 249516.939   250066.059   251162.114
+WARNING: Log-likelihood -124410 of Poisson+R8 worse than Poisson+R7 -124407
+453  Poisson+R8    124409.607   353 249525.214   250083.080   251179.763
+456  Poisson+F     126075.985   358 252867.970   253448.205   254545.955
+457  Poisson+F+I   125565.666   359 251849.333   252434.129   253532.005
+458  Poisson+F+G4  122033.796   359 244785.592   245370.388   246468.264
+459  Poisson+F+I+G4 121937.864   360 244595.728   245185.116   246283.088
+460  Poisson+F+R2  122887.907   360 246495.814   247085.202   248183.173
+461  Poisson+F+R3  122151.069   362 245026.139   245624.799   246722.872
+462  Poisson+F+R4  121933.799   364 244595.598   245203.653   246301.706
+463  Poisson+F+R5  121824.129   366 244380.259   244997.831   246095.740
+464  Poisson+F+R6  121803.981   368 244343.961   244971.176   246068.817
+465  Poisson+F+R7  121775.438   370 244290.875   244927.859   246025.105
+466  Poisson+F+R8  121774.766   372 244293.531   244940.412   246037.136
+469  PMB           117450.244   339 235578.488   236077.449   237167.418
+470  PMB+I         117051.069   340 234782.139   235285.132   236375.756
+471  PMB+G4        113575.873   340 227831.747   228334.740   229425.364
+472  PMB+I+G4      113491.705   341 227665.409   228172.461   229263.713
+473  PMB+R2        114347.677   341 229377.355   229884.407   230975.659
+474  PMB+R3        113715.344   343 228116.688   228631.937   229724.366
+475  PMB+R4        113469.350   345 227628.701   228152.253   229245.753
+476  PMB+R5        113378.258   347 227450.516   227982.481   229076.943
+477  PMB+R6        113356.321   349 227410.642   227951.129   229046.443
+478  PMB+R7        113346.251   351 227394.502   227943.622   229039.677
+479  PMB+R8        113336.723   353 227379.445   227937.311   229033.994
+WARNING: Log-likelihood -113345 of PMB+R9 worse than PMB+R8 -113337
+480  PMB+R9        113345.366   355 227400.732   227967.458   229064.655
+482  PMB+F         117270.897   358 235257.795   235838.030   236935.780
+483  PMB+F+I       116854.576   359 234427.151   235011.948   236109.823
+484  PMB+F+G4      113339.948   359 227397.897   227982.693   229080.569
+485  PMB+F+I+G4    113255.247   360 227230.494   227819.882   228917.853
+486  PMB+F+R2      114152.223   360 229024.445   229613.833   230711.804
+487  PMB+F+R3      113497.635   362 227719.269   228317.930   229416.003
+488  PMB+F+R4      113236.459   364 227200.918   227808.973   228907.026
+489  PMB+F+R5      113141.826   366 227015.653   227633.225   228731.135
+490  PMB+F+R6      113117.753   368 226971.506   227598.721   228696.362
+491  PMB+F+R7      113106.303   370 226952.607   227589.591   228686.837
+492  PMB+F+R8      113096.219   372 226936.438   227583.319   228680.043
+WARNING: Log-likelihood -113105 of PMB+F+R9 worse than PMB+F+R8 -113096
+493  PMB+F+R9      113105.190   374 226958.380   227615.289   228711.359
+495  rtREV         117810.352   339 236298.703   236797.664   237887.633
+496  rtREV+I       117349.380   340 235378.761   235881.754   236972.378
+497  rtREV+G4      113177.540   340 227035.081   227538.074   228628.698
+498  rtREV+I+G4    113093.488   341 226868.975   227376.027   228467.279
+499  rtREV+R2      114168.737   341 229019.474   229526.526   230617.778
+500  rtREV+R3      113430.386   343 227546.772   228062.021   229154.451
+501  rtREV+R4      113095.186   345 226880.372   227403.925   228497.425
+502  rtREV+R5      112981.117   347 226656.233   227188.198   228282.660
+503  rtREV+R6      112943.214   349 226584.428   227124.915   228220.229
+504  rtREV+R7      112926.478   351 226554.956   227104.076   228200.131
+505  rtREV+R8      112920.924   353 226547.847   227105.713   228202.397
+508  rtREV+F       117394.154   358 235504.307   236084.542   237182.292
+509  rtREV+F+I     116914.846   359 234547.693   235132.489   236230.365
+510  rtREV+F+G4    112563.037   359 225844.073   226428.870   227526.745
+511  rtREV+F+I+G4  112470.376   360 225660.752   226250.140   227348.111
+512  rtREV+F+R2    113610.093   360 227940.186   228529.573   229627.545
+513  rtREV+F+R3    112840.140   362 226404.280   227002.941   228101.014
+514  rtREV+F+R4    112489.466   364 225706.932   226314.987   227413.040
+515  rtREV+F+R5    112359.053   366 225450.106   226067.678   227165.588
+516  rtREV+F+R6    112320.786   368 225377.573   226004.788   227102.429
+517  rtREV+F+R7    112302.558   370 225345.116   225982.099   227079.346
+518  rtREV+F+R8    112294.126   372 225332.253   225979.134   227075.857
+519  rtREV+F+R9    112293.676   374 225335.352   225992.260   227088.330
+521  VT            116794.241   339 234266.483   234765.444   235855.412
+522  VT+I          116300.712   340 233281.424   233784.417   234875.041
+523  VT+G4         112880.405   340 226440.810   226943.804   228034.427
+524  VT+I+G4       112771.482   341 226224.964   226732.016   227823.268
+525  VT+R2         113694.579   341 228071.158   228578.210   229669.462
+526  VT+R3         113036.141   343 226758.282   227273.531   228365.960
+527  VT+R4         112754.668   345 226199.336   226722.889   227816.388
+528  VT+R5         112660.885   347 226015.770   226547.734   227642.196
+529  VT+R6         112638.393   349 225974.787   226515.273   227610.587
+530  VT+R7         112619.257   351 225940.515   226489.635   227585.690
+531  VT+R8         112610.292   353 225926.584   226484.450   227581.133
+WARNING: Log-likelihood -112620 of VT+R9 worse than VT+R8 -112610
+532  VT+R9         112620.491   355 225950.981   226517.708   227614.905
+534  VT+F          116626.469   358 233968.938   234549.173   235646.923
+535  VT+F+I        116128.881   359 232975.762   233560.558   234658.434
+536  VT+F+G4       112656.347   359 226030.693   226615.490   227713.365
+537  VT+F+I+G4     112547.262   360 225814.524   226403.912   227501.883
+538  VT+F+R2       113484.969   360 227689.938   228279.326   229377.297
+539  VT+F+R3       112818.829   362 226361.659   226960.319   228058.392
+540  VT+F+R4       112531.216   364 225790.433   226398.488   227496.540
+541  VT+F+R5       112435.006   366 225602.013   226219.585   227317.494
+542  VT+F+R6       112413.282   368 225562.565   226189.779   227287.421
+543  VT+F+R7       112393.213   370 225526.425   226163.409   227260.655
+544  VT+F+R8       112384.864   372 225513.727   226160.608   227257.332
+WARNING: Log-likelihood -112395 of VT+F+R9 worse than VT+F+R8 -112385
+545  VT+F+R9       112395.016   374 225538.033   226194.941   227291.011
+547  WAG           116681.347   339 234040.694   234539.655   235629.624
+548  WAG+I         116184.398   340 233048.796   233551.790   234642.413
+549  WAG+G4        112780.346   340 226240.692   226743.686   227834.309
+550  WAG+I+G4      112677.223   341 226036.447   226543.499   227634.751
+551  WAG+R2        113600.186   341 227882.371   228389.424   229480.676
+552  WAG+R3        112926.779   343 226539.558   227054.807   228147.236
+553  WAG+R4        112646.736   345 225983.473   226507.025   227600.525
+554  WAG+R5        112555.481   347 225804.962   226336.927   227431.389
+555  WAG+R6        112523.929   349 225745.859   226286.346   227381.660
+556  WAG+R7        112502.202   351 225706.404   226255.524   227351.580
+557  WAG+R8        112499.779   353 225705.557   226263.423   227360.106
+560  WAG+F         116593.005   358 233902.009   234482.244   235579.994
+561  WAG+F+I       116080.545   359 232879.091   233463.887   234561.763
+562  WAG+F+G4      112514.597   359 225747.194   226331.991   227429.866
+563  WAG+F+I+G4    112410.227   360 225540.454   226129.842   227227.813
+564  WAG+F+R2      113391.002   360 227502.004   228091.392   229189.363
+565  WAG+F+R3      112686.798   362 226097.596   226696.257   227794.330
+566  WAG+F+R4      112386.516   364 225501.032   226109.087   227207.139
+567  WAG+F+R5      112289.382   366 225310.764   225928.336   227026.245
+568  WAG+F+R6      112257.941   368 225251.882   225879.096   226976.738
+569  WAG+F+R7      112235.793   370 225211.587   225848.570   226945.817
+570  WAG+F+R8      112230.931   372 225205.862   225852.743   226949.466
+WARNING: GTR20 model will estimate 189 substitution rates that might be overfitting!
+WARNING: Please only use GTR20 with very large data and always test for model fit!
+573  GTR20+F       115610.427   547 232314.855   234675.138   234878.703
+WARNING: GTR20 model will estimate 189 substitution rates that might be overfitting!
+WARNING: Please only use GTR20 with very large data and always test for model fit!
+574  GTR20+F+I     115158.962   548 231413.924   233792.201   233982.459
+WARNING: GTR20 model will estimate 189 substitution rates that might be overfitting!
+WARNING: Please only use GTR20 with very large data and always test for model fit!
+575  GTR20+F+G4    111660.330   548 224416.659   226794.936   226985.195
+WARNING: GTR20 model will estimate 189 substitution rates that might be overfitting!
+WARNING: Please only use GTR20 with very large data and always test for model fit!
+576  GTR20+F+I+G4  111572.974   549 224243.947   226640.376   226817.170
+WARNING: GTR20 model will estimate 189 substitution rates that might be overfitting!
+WARNING: Please only use GTR20 with very large data and always test for model fit!
+577  GTR20+F+R2    112598.403   549 226294.806   228691.234   228868.028
+WARNING: GTR20 model will estimate 189 substitution rates that might be overfitting!
+WARNING: Please only use GTR20 with very large data and always test for model fit!
+578  GTR20+F+R3    111867.532   551 224837.064   227270.280   227419.661
+WARNING: GTR20 model will estimate 189 substitution rates that might be overfitting!
+WARNING: Please only use GTR20 with very large data and always test for model fit!
+579  GTR20+F+R4    111585.921   553 224277.841   226748.503   226869.812
+WARNING: GTR20 model will estimate 189 substitution rates that might be overfitting!
+WARNING: Please only use GTR20 with very large data and always test for model fit!
+580  GTR20+F+R5    111462.571   555 224035.141   226543.922   226636.487
+WARNING: GTR20 model will estimate 189 substitution rates that might be overfitting!
+WARNING: Please only use GTR20 with very large data and always test for model fit!
+581  GTR20+F+R6    111428.037   557 223970.075   226517.665   226580.794
+WARNING: GTR20 model will estimate 189 substitution rates that might be overfitting!
+WARNING: Please only use GTR20 with very large data and always test for model fit!
+582  GTR20+F+R7    111408.469   559 223934.938   226522.045   226555.031
+WARNING: GTR20 model will estimate 189 substitution rates that might be overfitting!
+WARNING: Please only use GTR20 with very large data and always test for model fit!
+583  GTR20+F+R8    111397.744   561 223917.488   226544.838   226546.956
+WARNING: GTR20 model will estimate 189 substitution rates that might be overfitting!
+WARNING: Please only use GTR20 with very large data and always test for model fit!
+WARNING: Log-likelihood -111401 of GTR20+F+R9 worse than GTR20+F+R8 -111398
+584  GTR20+F+R9    111400.867   563 223927.735   226596.071   226566.577
+WARNING: GTR20 model will estimate 189 substitution rates that might be overfitting!
+WARNING: Please only use GTR20 with very large data and always test for model fit!
+586  GTR20+F       115610.427   547 232314.855   234675.138   234878.703
+WARNING: GTR20 model will estimate 189 substitution rates that might be overfitting!
+WARNING: Please only use GTR20 with very large data and always test for model fit!
+587  GTR20+F+I     115158.962   548 231413.924   233792.200   233982.459
+WARNING: GTR20 model will estimate 189 substitution rates that might be overfitting!
+WARNING: Please only use GTR20 with very large data and always test for model fit!
+588  GTR20+F+G4    111660.330   548 224416.659   226794.936   226985.195
+WARNING: GTR20 model will estimate 189 substitution rates that might be overfitting!
+WARNING: Please only use GTR20 with very large data and always test for model fit!
+589  GTR20+F+I+G4  111572.973   549 224243.947   226640.376   226817.170
+WARNING: GTR20 model will estimate 189 substitution rates that might be overfitting!
+WARNING: Please only use GTR20 with very large data and always test for model fit!
+590  GTR20+F+R2    112598.403   549 226294.806   228691.234   228868.028
+WARNING: GTR20 model will estimate 189 substitution rates that might be overfitting!
+WARNING: Please only use GTR20 with very large data and always test for model fit!
+591  GTR20+F+R3    111867.532   551 224837.064   227270.280   227419.661
+WARNING: GTR20 model will estimate 189 substitution rates that might be overfitting!
+WARNING: Please only use GTR20 with very large data and always test for model fit!
+592  GTR20+F+R4    111585.921   553 224277.841   226748.503   226869.812
+WARNING: GTR20 model will estimate 189 substitution rates that might be overfitting!
+WARNING: Please only use GTR20 with very large data and always test for model fit!
+593  GTR20+F+R5    111462.571   555 224035.141   226543.922   226636.487
+WARNING: GTR20 model will estimate 189 substitution rates that might be overfitting!
+WARNING: Please only use GTR20 with very large data and always test for model fit!
+594  GTR20+F+R6    111428.037   557 223970.075   226517.665   226580.794
+WARNING: GTR20 model will estimate 189 substitution rates that might be overfitting!
+WARNING: Please only use GTR20 with very large data and always test for model fit!
+595  GTR20+F+R7    111408.469   559 223934.938   226522.045   226555.031
+WARNING: GTR20 model will estimate 189 substitution rates that might be overfitting!
+WARNING: Please only use GTR20 with very large data and always test for model fit!
+596  GTR20+F+R8    111397.744   561 223917.488   226544.838   226546.956
+WARNING: GTR20 model will estimate 189 substitution rates that might be overfitting!
+WARNING: Please only use GTR20 with very large data and always test for model fit!
+597  GTR20+F+R9    111400.867   563 223927.735   226596.071   226566.577
+Akaike Information Criterion:           GTR20+F+R8
+Corrected Akaike Information Criterion: LG+F+R8
+Bayesian Information Criterion:         LG+F+R8
+Best-fit model: LG+F+R8 chosen according to BIC
+
+All model information printed to PDE6_a_and_b.doublefiltered.fasta.annot.clean.mafft.trimal.UFB.model.gz
+CPU time for ModelFinder: 302259.867 seconds (83h:57m:39s)
+Wall-clock time for ModelFinder: 43923.924 seconds (12h:12m:3s)
+Generating 1000 samples for ultrafast bootstrap (seed: 956737)...
+
+NOTE: 177 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -111709.276
+Optimal log-likelihood: -111709.140
+Site proportion and rates:  (0.035,0.040) (0.045,0.130) (0.119,0.275) (0.207,0.469) (0.177,0.768) (0.245,1.233) (0.150,2.187) (0.023,4.254)
+Parameters optimization took 1 rounds (3.846 sec)
+Computing ML distances based on estimated model parameters... 7.972 sec
+WARNING: Some pairwise ML distances are too long (saturated)
+Computing BIONJ tree...
+0.017 seconds
+Log-likelihood of BIONJ tree: -113084.814
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 18.950 second
+Computing log-likelihood of 98 initial trees ... 35.583 seconds
+Current best score: -111709.140
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -111705.312
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -111673.449
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 5: -111648.307
+Iteration 10 / LogL: -111677.130 / Time: 0h:3m:31s
+Iteration 20 / LogL: -111665.471 / Time: 0h:5m:33s
+Finish initializing candidate tree set (20)
+Current best tree score: -111648.307 / CPU time: 324.081
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -111659.346 / Time: 0h:7m:18s (0h:18m:54s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 40: -111646.703
+Iteration 40 / LogL: -111646.703 / Time: 0h:9m:24s (0h:24m:6s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 43: -111643.497
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 47: -111636.454
+Iteration 50 / LogL: -111664.942 / Time: 0h:11m:32s (0h:22m:51s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 59: -111636.179
+Iteration 60 / LogL: -111645.477 / Time: 0h:13m:24s (0h:22m:30s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 61: -111636.033
+Iteration 70 / LogL: -111643.593 / Time: 0h:15m:11s (0h:20m:2s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 79: -111634.425
+Iteration 80 / LogL: -111640.257 / Time: 0h:17m:10s (0h:21m:31s left)
+Iteration 90 / LogL: -111638.641 / Time: 0h:18m:52s (0h:18m:52s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 97: -111632.867
+Iteration 100 / LogL: -111682.391 / Time: 0h:20m:45s (0h:20m:20s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 110: -111631.751
+Iteration 110 / LogL: -111631.751 / Time: 0h:22m:37s (0h:20m:45s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 112: -111631.012
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 116: -111629.132
+Iteration 120 / LogL: -111635.495 / Time: 0h:24m:41s (0h:19m:55s left)
+Estimate model parameters (epsilon = 0.100)
+UPDATE BEST LOG-LIKELIHOOD: -111629.013
+Iteration 130 / LogL: -111642.919 / Time: 0h:26m:36s (0h:17m:44s left)
+Iteration 140 / LogL: -111632.835 / Time: 0h:27m:55s (0h:15m:15s left)
+Iteration 150 / LogL: -111643.363 / Time: 0h:29m:0s (0h:12m:51s left)
+Iteration 160 / LogL: -111631.180 / Time: 0h:30m:3s (0h:10m:35s left)
+Iteration 170 / LogL: -111642.297 / Time: 0h:31m:10s (0h:8m:29s left)
+Iteration 180 / LogL: -111629.113 / Time: 0h:32m:16s (0h:6m:29s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 189: -111627.623
+Iteration 190 / LogL: -111628.864 / Time: 0h:33m:28s (0h:17m:31s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 194: -111626.919
+Iteration 200 / LogL: -111635.634 / Time: 0h:34m:40s (0h:16m:22s left)
+Iteration 210 / LogL: -111631.712 / Time: 0h:35m:40s (0h:14m:20s left)
+Iteration 220 / LogL: -111628.131 / Time: 0h:36m:42s (0h:12m:24s left)
+Estimate model parameters (epsilon = 0.100)
+UPDATE BEST LOG-LIKELIHOOD: -111626.780
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 228: -111625.118
+Iteration 230 / LogL: -111627.358 / Time: 0h:37m:52s (0h:16m:12s left)
+Iteration 240 / LogL: -111625.724 / Time: 0h:39m:3s (0h:14m:22s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 245: -111624.794
+Iteration 250 / LogL: -111637.186 / Time: 0h:40m:36s (0h:15m:29s left)
+Iteration 260 / LogL: -111628.045 / Time: 0h:41m:40s (0h:13m:40s left)
+Iteration 270 / LogL: -111635.621 / Time: 0h:42m:45s (0h:11m:55s left)
+Iteration 280 / LogL: -111640.119 / Time: 0h:43m:49s (0h:10m:12s left)
+Iteration 290 / LogL: -111627.470 / Time: 0h:44m:50s (0h:8m:32s left)
+Iteration 300 / LogL: -111644.018 / Time: 0h:45m:51s (0h:6m:54s left)
+Iteration 310 / LogL: -111625.496 / Time: 0h:46m:53s (0h:5m:18s left)
+Iteration 320 / LogL: -111656.019 / Time: 0h:47m:58s (0h:3m:45s left)
+Iteration 330 / LogL: -111627.453 / Time: 0h:48m:59s (0h:2m:14s left)
+Iteration 340 / LogL: -111624.907 / Time: 0h:50m:4s (0h:0m:44s left)
+Refining ufboot trees with NNI 1 branch...
+100 samples done
+200 samples done
+300 samples done
+400 samples done
+500 samples done
+600 samples done
+700 samples done
+800 samples done
+900 samples done
+1000 samples done
+Total 1000 ufboot trees refined
+TREE SEARCH COMPLETED AFTER 346 ITERATIONS / Time: 1h:15m:20s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -111624.794
+2. Current log-likelihood: -111624.721
+3. Current log-likelihood: -111624.636
+4. Current log-likelihood: -111624.552
+5. Current log-likelihood: -111624.472
+6. Current log-likelihood: -111624.390
+7. Current log-likelihood: -111624.308
+8. Current log-likelihood: -111624.227
+9. Current log-likelihood: -111624.149
+10. Current log-likelihood: -111624.069
+11. Current log-likelihood: -111623.991
+12. Current log-likelihood: -111623.925
+13. Current log-likelihood: -111623.866
+14. Current log-likelihood: -111623.789
+15. Current log-likelihood: -111623.716
+16. Current log-likelihood: -111623.643
+17. Current log-likelihood: -111623.567
+18. Current log-likelihood: -111623.492
+19. Current log-likelihood: -111623.421
+20. Current log-likelihood: -111623.351
+21. Current log-likelihood: -111623.279
+22. Current log-likelihood: -111623.229
+23. Current log-likelihood: -111623.182
+24. Current log-likelihood: -111623.134
+25. Current log-likelihood: -111623.088
+26. Current log-likelihood: -111623.034
+27. Current log-likelihood: -111622.985
+28. Current log-likelihood: -111622.937
+29. Current log-likelihood: -111622.891
+30. Current log-likelihood: -111622.846
+31. Current log-likelihood: -111622.801
+32. Current log-likelihood: -111622.757
+33. Current log-likelihood: -111622.707
+34. Current log-likelihood: -111622.658
+35. Current log-likelihood: -111622.613
+36. Current log-likelihood: -111622.569
+37. Current log-likelihood: -111622.525
+38. Current log-likelihood: -111622.483
+39. Current log-likelihood: -111622.440
+40. Current log-likelihood: -111622.399
+41. Current log-likelihood: -111622.352
+42. Current log-likelihood: -111622.308
+43. Current log-likelihood: -111622.265
+44. Current log-likelihood: -111622.220
+45. Current log-likelihood: -111622.179
+46. Current log-likelihood: -111622.138
+47. Current log-likelihood: -111622.103
+48. Current log-likelihood: -111622.082
+49. Current log-likelihood: -111622.037
+50. Current log-likelihood: -111622.004
+51. Current log-likelihood: -111621.985
+52. Current log-likelihood: -111621.965
+53. Current log-likelihood: -111621.943
+54. Current log-likelihood: -111621.923
+55. Current log-likelihood: -111621.903
+56. Current log-likelihood: -111621.883
+57. Current log-likelihood: -111621.864
+58. Current log-likelihood: -111621.843
+59. Current log-likelihood: -111621.814
+60. Current log-likelihood: -111621.773
+61. Current log-likelihood: -111621.735
+62. Current log-likelihood: -111621.705
+63. Current log-likelihood: -111621.686
+64. Current log-likelihood: -111621.667
+65. Current log-likelihood: -111621.649
+66. Current log-likelihood: -111621.623
+67. Current log-likelihood: -111621.592
+68. Current log-likelihood: -111621.567
+69. Current log-likelihood: -111621.528
+70. Current log-likelihood: -111621.507
+71. Current log-likelihood: -111621.470
+72. Current log-likelihood: -111621.451
+73. Current log-likelihood: -111621.415
+74. Current log-likelihood: -111621.397
+75. Current log-likelihood: -111621.361
+76. Current log-likelihood: -111621.343
+77. Current log-likelihood: -111621.324
+78. Current log-likelihood: -111621.305
+79. Current log-likelihood: -111621.287
+80. Current log-likelihood: -111621.268
+81. Current log-likelihood: -111621.245
+82. Current log-likelihood: -111621.216
+83. Current log-likelihood: -111621.192
+84. Current log-likelihood: -111621.157
+85. Current log-likelihood: -111621.139
+86. Current log-likelihood: -111621.121
+87. Current log-likelihood: -111621.103
+88. Current log-likelihood: -111621.085
+89. Current log-likelihood: -111621.067
+90. Current log-likelihood: -111621.044
+91. Current log-likelihood: -111621.016
+92. Current log-likelihood: -111620.994
+93. Current log-likelihood: -111620.964
+94. Current log-likelihood: -111620.947
+95. Current log-likelihood: -111620.930
+96. Current log-likelihood: -111620.913
+97. Current log-likelihood: -111620.897
+98. Current log-likelihood: -111620.880
+99. Current log-likelihood: -111620.864
+Optimal log-likelihood: -111620.864
+Site proportion and rates:  (0.029,0.028) (0.047,0.118) (0.123,0.276) (0.207,0.472) (0.174,0.767) (0.244,1.232) (0.146,2.167) (0.028,3.898)
+Parameters optimization took 99 rounds (456.166 sec)
+BEST SCORE FOUND : -111620.864
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+Testing tree branches by aBayes parametric test...
+2.125 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file PDE6_a_and_b.doublefiltered.fasta.annot.clean.mafft.trimal.UFB.splits.nex
+Total tree length: 85.339
+
+Total number of iterations: 346
+CPU time used for tree search: 31327.507 sec (8h:42m:7s)
+Wall-clock time used for tree search: 4511.530 sec (1h:15m:11s)
+Total CPU time used: 34570.490 sec (9h:36m:10s)
+Total wall-clock time used: 4979.851 sec (1h:22m:59s)
+UFBoot trees printed to PDE6_a_and_b.doublefiltered.fasta.annot.clean.mafft.trimal.UFB.ufboot
+
+Computing bootstrap consensus tree...
+Reading input file PDE6_a_and_b.doublefiltered.fasta.annot.clean.mafft.trimal.UFB.splits.nex...
+171 taxa and 1306 splits.
+Consensus tree written to PDE6_a_and_b.doublefiltered.fasta.annot.clean.mafft.trimal.UFB.contree
+Reading input trees file PDE6_a_and_b.doublefiltered.fasta.annot.clean.mafft.trimal.UFB.contree
+Log-likelihood of consensus tree: -111622.621
+
+Analysis results written to: 
+  IQ-TREE report:                PDE6_a_and_b.doublefiltered.fasta.annot.clean.mafft.trimal.UFB.iqtree
+  Maximum-likelihood tree:       PDE6_a_and_b.doublefiltered.fasta.annot.clean.mafft.trimal.UFB.treefile
+  Likelihood distances:          PDE6_a_and_b.doublefiltered.fasta.annot.clean.mafft.trimal.UFB.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          PDE6_a_and_b.doublefiltered.fasta.annot.clean.mafft.trimal.UFB.splits.nex
+  Consensus tree:                PDE6_a_and_b.doublefiltered.fasta.annot.clean.mafft.trimal.UFB.contree
+  UFBoot trees:                  PDE6_a_and_b.doublefiltered.fasta.annot.clean.mafft.trimal.UFB.ufboot
+  Screen log file:               PDE6_a_and_b.doublefiltered.fasta.annot.clean.mafft.trimal.UFB.log
+
+Date and Time: Thu Apr  8 15:12:22 2021
