@@ -1,0 +1,117 @@
+#nexus
+
+BEGIN Taxa;
+DIMENSIONS ntax=19;
+TAXLABELS
+[1] 'MetazoaAnnelidaEP00103Capitellateleta_84286__R9BP_HUMAN_Regulator_of_G-protein_signaling_9-binding_protein_OS_'
+[2] 'MetazoaBrachiopodaLingulaunguis_1293888__R9BP_CHICK_Regulator_of_G-protein_signaling_9-binding_protein_OS_'
+[3] 'MetazoaEchinodermataAcanthasterplanci_3785627__R9BP_CHICK_Regulator_of_G-protein_signaling_9-binding_protein_OS_'
+[4] 'MetazoaEchinodermataAcanthasterplanci_3789889__R7BP_BOVIN_Regulator_of_G-protein_signaling_7-binding_protein_OS_'
+[5] 'MetazoaEchinodermataEP00057Strongylocentrotuspurpuratus_3813798__R9BP_CHICK_Regulator_of_G-protein_signaling_9-binding_protein_OS_'
+[6] 'MetazoaEchinodermataEP00057Strongylocentrotuspurpuratus_3830585__R9BP_HUMAN_Regulator_of_G-protein_signaling_9-binding_protein_OS_'
+[7] 'MetazoaHemichordataSaccoglossuskowalevskii_4062999__R7BP_RAT_Regulator_of_G-protein_signaling_7-binding_protein_OS_'
+[8] 'MetazoaHemichordataSaccoglossuskowalevskii_4078919__R9BP_CHICK_Regulator_of_G-protein_signaling_9-binding_protein_OS_'
+[9] 'MetazoaMolluscaLottiagigantea_4221559__R9BP_HUMAN_Regulator_of_G-protein_signaling_9-binding_protein_OS_'
+[10] 'MetazoaVertebrateDaniorerio_5421883__R9BPB_XENLA_Regulator_of_G-protein_signaling_9-binding_protein_B_OS_'
+[11] 'MetazoaVertebrateDaniorerio_5422302__R9BP_CHICK_Regulator_of_G-protein_signaling_9-binding_protein_OS_'
+[12] 'MetazoaVertebrateDaniorerio_5430385__R7BPA_DANRE_Regulator_of_G-protein_signaling_7-binding_protein_A_OS_'
+[13] 'MetazoaVertebrateDaniorerio_5431775__R9BP_DANRE_Regulator_of_G-protein_signaling_9-binding_protein_OS_'
+[14] 'MetazoaVertebrateEptatretusburgeri_6382680__R9BP_CHICK_Regulator_of_G-protein_signaling_9-binding_protein_OS_'
+[15] 'MetazoaVertebrateEptatretusburgeri_6390864__R9BP_CHICK_Regulator_of_G-protein_signaling_9-binding_protein_OS_'
+[16] 'MetazoaVertebrateHomosapiens_6460820__R7BP_HUMAN_Regulator_of_G-protein_signaling_7-binding_protein_OS_'
+[17] 'MetazoaVertebrateHomosapiens_6461538__R9BP_HUMAN_Regulator_of_G-protein_signaling_9-binding_protein_OS_'
+[18] 'MetazoaVertebrateMusmusculus_6535218__R9BP_MOUSE_Regulator_of_G-protein_signaling_9-binding_protein_OS_'
+[19] 'MetazoaVertebrateMusmusculus_6540712__R7BP_MOUSE_Regulator_of_G-protein_signaling_7-binding_protein_OS_'
+;
+END; [Taxa]
+
+BEGIN Splits;
+DIMENSIONS ntax=19 nsplits=83;
+FORMAT labels=no weights=yes confidences=no intervals=no;
+MATRIX
+	100	 2,
+	100	 3,
+	100	 5,
+	100	 6,
+	100	 5 6,
+	99	 3 5 6,
+	100	 8,
+	100	 3 5 6 8,
+	100	 4,
+	100	 12,
+	100	 16,
+	100	 19,
+	100	 16 19,
+	100	 12 16 19,
+	10	 4 12 16 19,
+	100	 7,
+	100	 4 7 12 16 19,
+	100	 9,
+	88	 4 7 9 12 16 19,
+	100	 10,
+	100	 11,
+	100	 14,
+	100	 15,
+	95	 14 15,
+	100	 17,
+	100	 18,
+	100	 17 18,
+	57	 14 15 17 18,
+	48	 11 14 15 17 18,
+	89	 10 11 14 15 17 18,
+	100	 13,
+	100	 10 11 13 14 15 17 18,
+	90	 1 2 3 5 6 8,
+	59	 1 2,
+	100	 1,
+	85	 4 7,
+	16	 11 17 18,
+	27	 10 11 17 18,
+	1	 2 4 7 9 12 16 19,
+	31	 1 3 5 6 8,
+	22	 10 11,
+	2	 1 2 4 7 9 12 16 19,
+	18	 10 14 15 17 18,
+	0	 15 17 18,
+	5	 7 12 16 19,
+	1	 13 14,
+	2	 13 14 15,
+	10	 9 10 11 13 14 15 17 18,
+	7	 2 3 5 6 8,
+	3	 1 2 10 11 13 14 15 17 18,
+	2	 2 9 10 11 13 14 15 17 18,
+	3	 3 4 5 6 7 8 12 16 19,
+	6	 11 13,
+	2	 11 14 17 18,
+	2	 10 11 14 17 18,
+	2	 13 15,
+	4	 10 11 13,
+	4	 10 11 13 17 18,
+	1	 1 2 3 5 6 8 9,
+	1	 10 14 15,
+	0	 10 13 14 15 17 18,
+	0	 12 19,
+	0	 9 10 11 14 15 17 18,
+	0	 11 13 17 18,
+	1	 11 13 14 15 17 18,
+	1	 2 9,
+	0	 10 17 18,
+	2	 10 13,
+	1	 1 10 11 13 14 15 17 18,
+	0	 10 13 15,
+	0	 2 10 11 13 14 15 17 18,
+	1	 3 8,
+	1	 14 17 18,
+	0	 4 7 8 12 16 19,
+	1	 10 15,
+	0	 9 13,
+	0	 9 12 16 19,
+	0	 11 15,
+	0	 11 15 17 18,
+	0	 1 4 7 12 16 19,
+	0	 4 7 8 9 12 16 19,
+	0	 1 2 8,
+	0	 1 2 9,
+;
+END; [Splits]
+
