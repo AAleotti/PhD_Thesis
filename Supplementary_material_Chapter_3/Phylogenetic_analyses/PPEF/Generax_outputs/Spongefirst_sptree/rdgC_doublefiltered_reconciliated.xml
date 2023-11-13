@@ -1,0 +1,1552 @@
+<recPhylo 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.recg.org ./recGeneTreeXML.xsd"
+	xmlns="http://www.recg.org">
+<spTree>
+<phylogeny>
+<clade>
+		<name>node_84</name>
+	<clade>
+			<name>node_0</name>
+		<clade>
+				<name>node_1</name>
+			<clade>
+					<name>node_2</name>
+				<clade>
+						<name>node_3</name>
+					<clade>
+							<name>node_4</name>
+						<clade>
+								<name>node_5</name>
+							<clade>
+									<name>node_6</name>
+								<clade>
+										<name>node_7</name>
+									<clade>
+											<name>node_8</name>
+										<clade>
+												<name>node_9</name>
+											<clade>
+													<name>node_10</name>
+												<clade>
+														<name>node_11</name>
+													<clade>
+															<name>node_12</name>
+														<clade>
+																<name>node_13</name>
+															<clade>
+																	<name>node_14</name>
+																<clade>
+																		<name>node_15</name>
+																	<clade>
+																			<name>MetazoaArthropodaDrosophilamelanogaster</name>
+																	</clade>
+																	<clade>
+																			<name>MetazoaArthropodaEP00090Calanusglacialis</name>
+																	</clade>
+																</clade>
+																<clade>
+																		<name>MetazoaArthropodaDaphniapulex</name>
+																</clade>
+															</clade>
+															<clade>
+																	<name>MetazoaArthropodaStrigamiamaritima</name>
+															</clade>
+														</clade>
+														<clade>
+																<name>node_16</name>
+															<clade>
+																	<name>node_17</name>
+																<clade>
+																		<name>node_18</name>
+																	<clade>
+																			<name>MetazoaNematodaCaenorhabditiselegans</name>
+																	</clade>
+																	<clade>
+																			<name>MetazoaNematodaPristionchuspacificus</name>
+																	</clade>
+																</clade>
+																<clade>
+																		<name>MetazoaNematodaLoaloa</name>
+																</clade>
+															</clade>
+															<clade>
+																	<name>MetazoaTardigradaRamazzotiusvarieornatus</name>
+															</clade>
+														</clade>
+													</clade>
+													<clade>
+															<name>node_19</name>
+														<clade>
+																<name>node_20</name>
+															<clade>
+																	<name>node_21</name>
+																<clade>
+																		<name>node_22</name>
+																	<clade>
+																			<name>MetazoaMolluscaEP00106Octopusbimaculoides</name>
+																	</clade>
+																	<clade>
+																			<name>MetazoaMolluscaLottiagigantea</name>
+																	</clade>
+																</clade>
+																<clade>
+																		<name>MetazoaBrachiopodaLingulaunguis</name>
+																</clade>
+															</clade>
+															<clade>
+																	<name>node_23</name>
+																<clade>
+																		<name>MetazoaAnnelidaEP00103Capitellateleta</name>
+																</clade>
+																<clade>
+																		<name>MetazoaAnnelidaHelobdellarobusta</name>
+																</clade>
+															</clade>
+														</clade>
+														<clade>
+																<name>MetazoaBryozoaBugulaneritina</name>
+														</clade>
+													</clade>
+												</clade>
+												<clade>
+														<name>node_24</name>
+													<clade>
+															<name>node_25</name>
+														<clade>
+																<name>node_26</name>
+															<clade>
+																	<name>node_27</name>
+																<clade>
+																		<name>node_28</name>
+																	<clade>
+																			<name>node_29</name>
+																		<clade>
+																				<name>MetazoaVertebrateHomosapiens</name>
+																		</clade>
+																		<clade>
+																				<name>MetazoaVertebrateMusmusculus</name>
+																		</clade>
+																	</clade>
+																	<clade>
+																			<name>MetazoaVertebrateDaniorerio</name>
+																	</clade>
+																</clade>
+																<clade>
+																		<name>MetazoaVertebrateEptatretusburgeri</name>
+																</clade>
+															</clade>
+															<clade>
+																	<name>MetazoaUrochordataEP00059Cionaintestinalis</name>
+															</clade>
+														</clade>
+														<clade>
+																<name>MetazoaCephalochordataBranchiostomabelcheri</name>
+														</clade>
+													</clade>
+													<clade>
+															<name>node_30</name>
+														<clade>
+																<name>node_31</name>
+															<clade>
+																	<name>MetazoaEchinodermataAcanthasterplanci</name>
+															</clade>
+															<clade>
+																	<name>MetazoaEchinodermataEP00057Strongylocentrotuspurpuratus</name>
+															</clade>
+														</clade>
+														<clade>
+																<name>MetazoaHemichordataSaccoglossuskowalevskii</name>
+														</clade>
+													</clade>
+												</clade>
+											</clade>
+											<clade>
+													<name>node_32</name>
+												<clade>
+														<name>node_33</name>
+													<clade>
+															<name>node_34</name>
+														<clade>
+																<name>node_35</name>
+															<clade>
+																	<name>node_36</name>
+																<clade>
+																		<name>node_37</name>
+																	<clade>
+																			<name>MetazoaCnidariaAcroporadigitifera</name>
+																	</clade>
+																	<clade>
+																			<name>MetazoaCnidariaAcroporatenuis</name>
+																	</clade>
+																</clade>
+																<clade>
+																		<name>node_38</name>
+																	<clade>
+																			<name>MetazoaCnidariaAstreoporasp</name>
+																	</clade>
+																	<clade>
+																			<name>MetazoaCnidariaPoritesaustraliensis</name>
+																	</clade>
+																</clade>
+															</clade>
+															<clade>
+																	<name>node_39</name>
+																<clade>
+																		<name>node_40</name>
+																	<clade>
+																			<name>MetazoaCnidariaFungiascutaria</name>
+																	</clade>
+																	<clade>
+																			<name>MetazoaCnidariaMontastraeacavernosa</name>
+																	</clade>
+																</clade>
+																<clade>
+																		<name>node_41</name>
+																	<clade>
+																			<name>MetazoaCnidariaMadracisauretenra</name>
+																	</clade>
+																	<clade>
+																			<name>MetazoaCnidariaStylophorapistillata</name>
+																	</clade>
+																</clade>
+															</clade>
+														</clade>
+														<clade>
+																<name>node_42</name>
+															<clade>
+																	<name>MetazoaCnidariaAnthopleuraelegantissima</name>
+															</clade>
+															<clade>
+																	<name>MetazoaCnidariaNematostellavectensis</name>
+															</clade>
+														</clade>
+													</clade>
+													<clade>
+															<name>MetazoaCnidariaGorgoniaventalina</name>
+													</clade>
+												</clade>
+												<clade>
+														<name>node_43</name>
+													<clade>
+															<name>node_44</name>
+														<clade>
+																<name>MetazoaCnidariaClytiahemisphaerica</name>
+														</clade>
+														<clade>
+																<name>MetazoaCnidariaHydramagnapapillata</name>
+														</clade>
+													</clade>
+													<clade>
+															<name>MetazoaCnidariaAureliaGenome</name>
+													</clade>
+												</clade>
+											</clade>
+										</clade>
+										<clade>
+												<name>node_45</name>
+											<clade>
+													<name>MetazoaPlacozoaEP00114TrichoplaxspH2</name>
+											</clade>
+											<clade>
+													<name>MetazoaPlacozoaHoilungiahongkongensis</name>
+											</clade>
+										</clade>
+									</clade>
+									<clade>
+											<name>node_46</name>
+										<clade>
+												<name>MetazoaCtenophoraMnemiopsisleidyi</name>
+										</clade>
+										<clade>
+												<name>MetazoaCtenophoraPleurobrachiabachei</name>
+										</clade>
+									</clade>
+								</clade>
+								<clade>
+										<name>node_47</name>
+									<clade>
+											<name>node_48</name>
+										<clade>
+												<name>node_49</name>
+											<clade>
+													<name>MetazoaPoriferaAmphimedonqueenslandica</name>
+											</clade>
+											<clade>
+													<name>MetazoaPoriferaHaliclonatubifera</name>
+											</clade>
+										</clade>
+										<clade>
+												<name>node_50</name>
+											<clade>
+													<name>MetazoaPoriferaEphydatiamuelleri</name>
+											</clade>
+											<clade>
+													<name>MetazoaPoriferaStylissacarteri</name>
+											</clade>
+										</clade>
+									</clade>
+									<clade>
+											<name>node_51</name>
+										<clade>
+												<name>node_52</name>
+											<clade>
+													<name>MetazoaPoriferaLeucosoleniacomplicata</name>
+											</clade>
+											<clade>
+													<name>MetazoaPoriferaSyconciliatum</name>
+											</clade>
+										</clade>
+										<clade>
+												<name>MetazoaPoriferaEP00118Oscarellapearsei</name>
+										</clade>
+									</clade>
+								</clade>
+							</clade>
+							<clade>
+									<name>node_53</name>
+								<clade>
+										<name>node_54</name>
+									<clade>
+											<name>node_55</name>
+										<clade>
+												<name>node_56</name>
+											<clade>
+													<name>ChoanoflagellataEP00035Acanthoecaspectabilis</name>
+											</clade>
+											<clade>
+													<name>ChoanoflagellataEP00037Helgoecanana</name>
+											</clade>
+										</clade>
+										<clade>
+												<name>ChoanoflagellataEP00040Diaphanoecagrandis</name>
+										</clade>
+									</clade>
+									<clade>
+											<name>ChoanoflagellataEP00039Didymoecacostata</name>
+									</clade>
+								</clade>
+								<clade>
+										<name>node_57</name>
+									<clade>
+											<name>node_58</name>
+										<clade>
+												<name>ChoanoflagellataEP00045Choanoecaperplexa</name>
+										</clade>
+										<clade>
+												<name>ChoanoflagellateaMonosigabrevicollisUP000001357</name>
+										</clade>
+									</clade>
+									<clade>
+											<name>node_59</name>
+										<clade>
+												<name>ChoanoflagellataEP00047Mylnosigafluctuans</name>
+										</clade>
+										<clade>
+												<name>ChoanoflagellataEP00050Salpingoecakvevrii</name>
+										</clade>
+									</clade>
+								</clade>
+							</clade>
+						</clade>
+						<clade>
+								<name>node_60</name>
+							<clade>
+									<name>node_61</name>
+								<clade>
+										<name>node_62</name>
+									<clade>
+											<name>IchthyosporeaEP00123Amoebidiumparasiticum</name>
+									</clade>
+									<clade>
+											<name>IchthyosporeaSphaeroformaarcticaUP000054560</name>
+									</clade>
+								</clade>
+								<clade>
+										<name>IchthyosporeaEP00126Sphaerothecumdestruens</name>
+								</clade>
+							</clade>
+							<clade>
+									<name>node_63</name>
+								<clade>
+										<name>FilastreaCapsasporaowczarzakiUP000008743</name>
+								</clade>
+								<clade>
+										<name>PluriformeaEP00127Corallochytriumlimacisporum</name>
+								</clade>
+							</clade>
+						</clade>
+					</clade>
+					<clade>
+							<name>node_64</name>
+						<clade>
+								<name>node_65</name>
+							<clade>
+									<name>node_66</name>
+								<clade>
+										<name>node_67</name>
+									<clade>
+											<name>node_68</name>
+										<clade>
+												<name>FungiFusariumoxysporumUP000002489</name>
+										</clade>
+										<clade>
+												<name>FungiSaccharomycescerevisiaeUP000002311</name>
+										</clade>
+									</clade>
+									<clade>
+											<name>FungiEP00150Ustilagomaydis</name>
+									</clade>
+								</clade>
+								<clade>
+										<name>node_69</name>
+									<clade>
+											<name>FungiMortierellaelongataUP000078512</name>
+									</clade>
+									<clade>
+											<name>FungiRhizopusmicrosporusUP000242254</name>
+									</clade>
+								</clade>
+							</clade>
+							<clade>
+									<name>FungiSpizellomycespunctatusUP000053201</name>
+							</clade>
+						</clade>
+						<clade>
+								<name>node_70</name>
+							<clade>
+									<name>RotosphaeridaEP00160Parvulariaatlantis</name>
+							</clade>
+							<clade>
+									<name>RotosphaeridaFonticulaalbaUP000030693</name>
+							</clade>
+						</clade>
+					</clade>
+				</clade>
+				<clade>
+						<name>node_71</name>
+					<clade>
+							<name>ApusomonadidaThecamonastrahensUP000054408</name>
+					</clade>
+					<clade>
+							<name>BreviataEP00033Pygsuiabiforma</name>
+					</clade>
+				</clade>
+			</clade>
+			<clade>
+					<name>node_72</name>
+				<clade>
+						<name>node_73</name>
+					<clade>
+							<name>AmoebozoaDictyosteliumdiscoideumUP000002195</name>
+					</clade>
+					<clade>
+							<name>AmoebozoaEP00029Vermamoebavermiformis</name>
+					</clade>
+				</clade>
+				<clade>
+						<name>AmoebozoaEP00007CuneaspBSH02190019</name>
+				</clade>
+			</clade>
+		</clade>
+		<clade>
+				<name>node_74</name>
+			<clade>
+					<name>CollodictyonidaeEP00002Diphylleiarotans</name>
+			</clade>
+			<clade>
+					<name>RigifilidaEP00004Rigifilaramosa</name>
+			</clade>
+		</clade>
+	</clade>
+	<clade>
+			<name>node_75</name>
+		<clade>
+				<name>node_76</name>
+			<clade>
+					<name>node_77</name>
+				<clade>
+						<name>node_78</name>
+					<clade>
+							<name>RhodelphisEP00736Rhodelphismarinus</name>
+					</clade>
+					<clade>
+							<name>RhodophytaGaldieriasulphurariaUP000030680</name>
+					</clade>
+				</clade>
+				<clade>
+						<name>ChloroplastidaArabidopsisthalianaUP000006548</name>
+				</clade>
+			</clade>
+			<clade>
+					<name>node_79</name>
+				<clade>
+						<name>CryptophyceaeGuillardiathetaUP000011087</name>
+				</clade>
+				<clade>
+						<name>HaptophytaEP00319Phaeocystisglobosa</name>
+				</clade>
+			</clade>
+		</clade>
+		<clade>
+				<name>node_80</name>
+			<clade>
+					<name>node_81</name>
+				<clade>
+						<name>node_82</name>
+					<clade>
+							<name>RhizariaEP00473Plasmodiophorabrassicae</name>
+					</clade>
+					<clade>
+							<name>StramenopilesPhytophthorainfestansUP000006643</name>
+					</clade>
+				</clade>
+				<clade>
+						<name>AlveolataEP00742ColponemidiaspColp10</name>
+				</clade>
+			</clade>
+			<clade>
+					<name>node_83</name>
+				<clade>
+						<name>EuglenozoaEP00668Euglenalonga</name>
+				</clade>
+				<clade>
+						<name>HeteroloboseaEP00761Pharyngomonaskirbyi</name>
+				</clade>
+			</clade>
+		</clade>
+	</clade>
+</clade>
+</phylogeny>
+</spTree>
+<recGeneTree>
+<phylogeny rooted="true">
+<clade>
+	<name>NULL</name>
+	<eventsRec>
+		<speciation speciesLocation="node_0"/>
+	</eventsRec>
+	<clade>
+		<name>0</name>
+		<eventsRec>
+			<speciation speciesLocation="node_1"/>
+		</eventsRec>
+		<clade>
+			<name>AmoebozoaEP00007CuneaspBSH02190019_4975145__PPP5_CAEEL_Serine/threonine-protein_phosphatase_5_OS_</name>
+			<eventsRec>
+				<speciation speciesLocation="node_72"/>
+			</eventsRec>
+				<clade>
+				<name>loss</name>
+				<eventsRec>
+					<loss speciesLocation="node_73"/>
+				</eventsRec>
+			</clade>
+			<clade>
+				<name>AmoebozoaEP00007CuneaspBSH02190019_4975145__PPP5_CAEEL_Serine/threonine-protein_phosphatase_5_OS_</name>
+				<eventsRec>
+					<leaf speciesLocation="AmoebozoaEP00007CuneaspBSH02190019"/>
+				</eventsRec>
+			</clade>
+		</clade>
+		<clade>
+			<name>59</name>
+			<eventsRec>
+				<speciation speciesLocation="node_2"/>
+			</eventsRec>
+				<clade>
+				<name>loss</name>
+				<eventsRec>
+					<loss speciesLocation="node_71"/>
+				</eventsRec>
+			</clade>
+			<clade>
+				<name>59</name>
+				<eventsRec>
+					<speciation speciesLocation="node_3"/>
+				</eventsRec>
+					<clade>
+					<name>loss</name>
+					<eventsRec>
+						<loss speciesLocation="node_64"/>
+					</eventsRec>
+				</clade>
+				<clade>
+					<name>59</name>
+					<eventsRec>
+						<speciation speciesLocation="node_4"/>
+					</eventsRec>
+						<clade>
+						<name>loss</name>
+						<eventsRec>
+							<loss speciesLocation="node_60"/>
+						</eventsRec>
+					</clade>
+					<clade>
+						<name>59</name>
+						<eventsRec>
+							<speciation speciesLocation="node_5"/>
+						</eventsRec>
+						<clade>
+							<name>41</name>
+							<eventsRec>
+								<speciation speciesLocation="node_6"/>
+							</eventsRec>
+							<clade>
+								<name>15</name>
+								<eventsRec>
+									<speciation speciesLocation="node_7"/>
+								</eventsRec>
+									<clade>
+									<name>loss</name>
+									<eventsRec>
+										<loss speciesLocation="node_46"/>
+									</eventsRec>
+								</clade>
+								<clade>
+									<name>15</name>
+									<eventsRec>
+										<duplication speciesLocation="node_8"/>
+									</eventsRec>
+									<clade>
+										<name>94</name>
+										<eventsRec>
+											<speciation speciesLocation="node_8"/>
+										</eventsRec>
+											<clade>
+											<name>loss</name>
+											<eventsRec>
+												<loss speciesLocation="node_45"/>
+											</eventsRec>
+										</clade>
+										<clade>
+											<name>94</name>
+											<eventsRec>
+												<speciation speciesLocation="node_9"/>
+											</eventsRec>
+												<clade>
+												<name>loss</name>
+												<eventsRec>
+													<loss speciesLocation="node_32"/>
+												</eventsRec>
+											</clade>
+											<clade>
+												<name>94</name>
+												<eventsRec>
+													<speciation speciesLocation="node_10"/>
+												</eventsRec>
+													<clade>
+													<name>loss</name>
+													<eventsRec>
+														<loss speciesLocation="node_11"/>
+													</eventsRec>
+												</clade>
+												<clade>
+													<name>94</name>
+													<eventsRec>
+														<speciation speciesLocation="node_24"/>
+													</eventsRec>
+														<clade>
+														<name>loss</name>
+														<eventsRec>
+															<loss speciesLocation="node_30"/>
+														</eventsRec>
+													</clade>
+													<clade>
+														<name>94</name>
+														<eventsRec>
+															<speciation speciesLocation="node_25"/>
+														</eventsRec>
+															<clade>
+															<name>loss</name>
+															<eventsRec>
+																<loss speciesLocation="MetazoaCephalochordataBranchiostomabelcheri"/>
+															</eventsRec>
+														</clade>
+														<clade>
+															<name>94</name>
+															<eventsRec>
+																<speciation speciesLocation="node_26"/>
+															</eventsRec>
+																<clade>
+																<name>loss</name>
+																<eventsRec>
+																	<loss speciesLocation="MetazoaUrochordataEP00059Cionaintestinalis"/>
+																</eventsRec>
+															</clade>
+															<clade>
+																<name>94</name>
+																<eventsRec>
+																	<speciation speciesLocation="node_27"/>
+																</eventsRec>
+																	<clade>
+																	<name>loss</name>
+																	<eventsRec>
+																		<loss speciesLocation="MetazoaVertebrateEptatretusburgeri"/>
+																	</eventsRec>
+																</clade>
+																<clade>
+																	<name>94</name>
+																	<eventsRec>
+																		<duplication speciesLocation="node_28"/>
+																	</eventsRec>
+																	<clade>
+																		<name>99</name>
+																		<eventsRec>
+																			<speciation speciesLocation="node_28"/>
+																		</eventsRec>
+																		<clade>
+																			<name>MetazoaVertebrateDaniorerio_5411357__PPE2_HUMAN_Serine/threonine-protein_phosphatase_with_EF-hands_2_OS_</name>
+																			<eventsRec>
+																				<leaf speciesLocation="MetazoaVertebrateDaniorerio"/>
+																			</eventsRec>
+																		</clade>
+																		<clade>
+																			<name>100</name>
+																			<eventsRec>
+																				<speciation speciesLocation="node_29"/>
+																			</eventsRec>
+																			<clade>
+																				<name>MetazoaVertebrateHomosapiens_6452132__PPE2_HUMAN_Serine/threonine-protein_phosphatase_with_EF-hands_2_OS_</name>
+																				<eventsRec>
+																					<leaf speciesLocation="MetazoaVertebrateHomosapiens"/>
+																				</eventsRec>
+																			</clade>
+																			<clade>
+																				<name>MetazoaVertebrateMusmusculus_6531126__PPE2_MOUSE_Serine/threonine-protein_phosphatase_with_EF-hands_2_OS_</name>
+																				<eventsRec>
+																					<leaf speciesLocation="MetazoaVertebrateMusmusculus"/>
+																				</eventsRec>
+																			</clade>
+																		</clade>
+																	</clade>
+																	<clade>
+																		<name>96</name>
+																		<eventsRec>
+																			<speciation speciesLocation="node_28"/>
+																		</eventsRec>
+																		<clade>
+																			<name>MetazoaVertebrateDaniorerio_5417000__PPE2_HUMAN_Serine/threonine-protein_phosphatase_with_EF-hands_2_OS_</name>
+																			<eventsRec>
+																				<leaf speciesLocation="MetazoaVertebrateDaniorerio"/>
+																			</eventsRec>
+																		</clade>
+																		<clade>
+																			<name>100</name>
+																			<eventsRec>
+																				<speciation speciesLocation="node_29"/>
+																			</eventsRec>
+																			<clade>
+																				<name>MetazoaVertebrateHomosapiens_6452131__PPE1_HUMAN_Serine/threonine-protein_phosphatase_with_EF-hands_1_OS_</name>
+																				<eventsRec>
+																					<leaf speciesLocation="MetazoaVertebrateHomosapiens"/>
+																				</eventsRec>
+																			</clade>
+																			<clade>
+																				<name>MetazoaVertebrateMusmusculus_6531203__PPE1_MOUSE_Serine/threonine-protein_phosphatase_with_EF-hands_1_OS_</name>
+																				<eventsRec>
+																					<leaf speciesLocation="MetazoaVertebrateMusmusculus"/>
+																				</eventsRec>
+																			</clade>
+																		</clade>
+																	</clade>
+																</clade>
+															</clade>
+														</clade>
+													</clade>
+												</clade>
+											</clade>
+										</clade>
+									</clade>
+									<clade>
+										<name>28</name>
+										<eventsRec>
+											<duplication speciesLocation="node_8"/>
+										</eventsRec>
+										<clade>
+											<name>24</name>
+											<eventsRec>
+												<speciation speciesLocation="node_8"/>
+											</eventsRec>
+												<clade>
+												<name>loss</name>
+												<eventsRec>
+													<loss speciesLocation="node_45"/>
+												</eventsRec>
+											</clade>
+											<clade>
+												<name>24</name>
+												<eventsRec>
+													<speciation speciesLocation="node_9"/>
+												</eventsRec>
+													<clade>
+													<name>loss</name>
+													<eventsRec>
+														<loss speciesLocation="node_32"/>
+													</eventsRec>
+												</clade>
+												<clade>
+													<name>24</name>
+													<eventsRec>
+														<speciation speciesLocation="node_10"/>
+													</eventsRec>
+														<clade>
+														<name>loss</name>
+														<eventsRec>
+															<loss speciesLocation="node_24"/>
+														</eventsRec>
+													</clade>
+													<clade>
+														<name>24</name>
+														<eventsRec>
+															<duplication speciesLocation="node_11"/>
+														</eventsRec>
+														<clade>
+															<name>78</name>
+															<eventsRec>
+																<speciation speciesLocation="node_11"/>
+															</eventsRec>
+																<clade>
+																<name>loss</name>
+																<eventsRec>
+																	<loss speciesLocation="node_19"/>
+																</eventsRec>
+															</clade>
+															<clade>
+																<name>78</name>
+																<eventsRec>
+																	<speciation speciesLocation="node_12"/>
+																</eventsRec>
+																<clade>
+																	<name>MetazoaArthropodaStrigamiamaritima_1175110__PPE_CAEEL_Serine/threonine-protein_phosphatase_with_EF-hands_pef-1_OS_</name>
+																	<eventsRec>
+																		<speciation speciesLocation="node_13"/>
+																	</eventsRec>
+																		<clade>
+																		<name>loss</name>
+																		<eventsRec>
+																			<loss speciesLocation="node_14"/>
+																		</eventsRec>
+																	</clade>
+																	<clade>
+																		<name>MetazoaArthropodaStrigamiamaritima_1175110__PPE_CAEEL_Serine/threonine-protein_phosphatase_with_EF-hands_pef-1_OS_</name>
+																		<eventsRec>
+																			<leaf speciesLocation="MetazoaArthropodaStrigamiamaritima"/>
+																		</eventsRec>
+																	</clade>
+																</clade>
+																<clade>
+																	<name>100</name>
+																	<eventsRec>
+																		<speciation speciesLocation="node_16"/>
+																	</eventsRec>
+																		<clade>
+																		<name>loss</name>
+																		<eventsRec>
+																			<loss speciesLocation="MetazoaTardigradaRamazzotiusvarieornatus"/>
+																		</eventsRec>
+																	</clade>
+																	<clade>
+																		<name>100</name>
+																		<eventsRec>
+																			<speciation speciesLocation="node_17"/>
+																		</eventsRec>
+																		<clade>
+																			<name>80</name>
+																			<eventsRec>
+																				<speciation speciesLocation="node_18"/>
+																			</eventsRec>
+																			<clade>
+																				<name>MetazoaNematodaCaenorhabditiselegans_4306959__PPE_CAEEL_Serine/threonine-protein_phosphatase_with_EF-hands_pef-1_OS_</name>
+																				<eventsRec>
+																					<leaf speciesLocation="MetazoaNematodaCaenorhabditiselegans"/>
+																				</eventsRec>
+																			</clade>
+																			<clade>
+																				<name>MetazoaNematodaPristionchuspacificus_4422824__PPE_CAEEL_Serine/threonine-protein_phosphatase_with_EF-hands_pef-1_OS_</name>
+																				<eventsRec>
+																					<leaf speciesLocation="MetazoaNematodaPristionchuspacificus"/>
+																				</eventsRec>
+																			</clade>
+																		</clade>
+																		<clade>
+																			<name>MetazoaNematodaLoaloa_4412747__PPE_CAEEL_Serine/threonine-protein_phosphatase_with_EF-hands_pef-1_OS_</name>
+																			<eventsRec>
+																				<leaf speciesLocation="MetazoaNematodaLoaloa"/>
+																			</eventsRec>
+																		</clade>
+																	</clade>
+																</clade>
+															</clade>
+														</clade>
+														<clade>
+															<name>25</name>
+															<eventsRec>
+																<duplication speciesLocation="node_11"/>
+															</eventsRec>
+															<clade>
+																<name>56</name>
+																<eventsRec>
+																	<speciation speciesLocation="node_11"/>
+																</eventsRec>
+																<clade>
+																	<name>MetazoaMolluscaEP00106Octopusbimaculoides_4158995__RDGC_DROME_Serine/threonine-protein_phosphatase_rdgC_OS_</name>
+																	<eventsRec>
+																		<speciation speciesLocation="node_19"/>
+																	</eventsRec>
+																		<clade>
+																		<name>loss</name>
+																		<eventsRec>
+																			<loss speciesLocation="MetazoaBryozoaBugulaneritina"/>
+																		</eventsRec>
+																	</clade>
+																	<clade>
+																		<name>MetazoaMolluscaEP00106Octopusbimaculoides_4158995__RDGC_DROME_Serine/threonine-protein_phosphatase_rdgC_OS_</name>
+																		<eventsRec>
+																			<speciation speciesLocation="node_20"/>
+																		</eventsRec>
+																			<clade>
+																			<name>loss</name>
+																			<eventsRec>
+																				<loss speciesLocation="node_23"/>
+																			</eventsRec>
+																		</clade>
+																		<clade>
+																			<name>MetazoaMolluscaEP00106Octopusbimaculoides_4158995__RDGC_DROME_Serine/threonine-protein_phosphatase_rdgC_OS_</name>
+																			<eventsRec>
+																				<speciation speciesLocation="node_21"/>
+																			</eventsRec>
+																				<clade>
+																				<name>loss</name>
+																				<eventsRec>
+																					<loss speciesLocation="MetazoaBrachiopodaLingulaunguis"/>
+																				</eventsRec>
+																			</clade>
+																			<clade>
+																				<name>MetazoaMolluscaEP00106Octopusbimaculoides_4158995__RDGC_DROME_Serine/threonine-protein_phosphatase_rdgC_OS_</name>
+																				<eventsRec>
+																					<speciation speciesLocation="node_22"/>
+																				</eventsRec>
+																					<clade>
+																					<name>loss</name>
+																					<eventsRec>
+																						<loss speciesLocation="MetazoaMolluscaLottiagigantea"/>
+																					</eventsRec>
+																				</clade>
+																				<clade>
+																					<name>MetazoaMolluscaEP00106Octopusbimaculoides_4158995__RDGC_DROME_Serine/threonine-protein_phosphatase_rdgC_OS_</name>
+																					<eventsRec>
+																						<leaf speciesLocation="MetazoaMolluscaEP00106Octopusbimaculoides"/>
+																					</eventsRec>
+																				</clade>
+																			</clade>
+																		</clade>
+																	</clade>
+																</clade>
+																<clade>
+																	<name>100</name>
+																	<eventsRec>
+																		<speciation speciesLocation="node_12"/>
+																	</eventsRec>
+																		<clade>
+																		<name>loss</name>
+																		<eventsRec>
+																			<loss speciesLocation="node_13"/>
+																		</eventsRec>
+																	</clade>
+																	<clade>
+																		<name>100</name>
+																		<eventsRec>
+																			<speciation speciesLocation="node_16"/>
+																		</eventsRec>
+																			<clade>
+																			<name>loss</name>
+																			<eventsRec>
+																				<loss speciesLocation="node_17"/>
+																			</eventsRec>
+																		</clade>
+																		<clade>
+																			<name>100</name>
+																			<eventsRec>
+																				<duplication speciesLocation="MetazoaTardigradaRamazzotiusvarieornatus"/>
+																			</eventsRec>
+																			<clade>
+																				<name>MetazoaTardigradaRamazzotiusvarieornatus_5296017__PPE_CAEEL_Serine/threonine-protein_phosphatase_with_EF-hands_pef-1_OS_</name>
+																				<eventsRec>
+																					<leaf speciesLocation="MetazoaTardigradaRamazzotiusvarieornatus"/>
+																				</eventsRec>
+																			</clade>
+																			<clade>
+																				<name>MetazoaTardigradaRamazzotiusvarieornatus_5296973__PPE_CAEEL_Serine/threonine-protein_phosphatase_with_EF-hands_pef-1_OS_</name>
+																				<eventsRec>
+																					<leaf speciesLocation="MetazoaTardigradaRamazzotiusvarieornatus"/>
+																				</eventsRec>
+																			</clade>
+																		</clade>
+																	</clade>
+																</clade>
+															</clade>
+															<clade>
+																<name>100</name>
+																<eventsRec>
+																	<speciation speciesLocation="node_11"/>
+																</eventsRec>
+																<clade>
+																	<name>68</name>
+																	<eventsRec>
+																		<speciation speciesLocation="node_19"/>
+																	</eventsRec>
+																		<clade>
+																		<name>loss</name>
+																		<eventsRec>
+																			<loss speciesLocation="MetazoaBryozoaBugulaneritina"/>
+																		</eventsRec>
+																	</clade>
+																	<clade>
+																		<name>68</name>
+																		<eventsRec>
+																			<speciation speciesLocation="node_20"/>
+																		</eventsRec>
+																		<clade>
+																			<name>45</name>
+																			<eventsRec>
+																				<speciation speciesLocation="node_21"/>
+																			</eventsRec>
+																			<clade>
+																				<name>MetazoaMolluscaLottiagigantea_4213922__PPE2_HUMAN_Serine/threonine-protein_phosphatase_with_EF-hands_2_OS_</name>
+																				<eventsRec>
+																					<speciation speciesLocation="node_22"/>
+																				</eventsRec>
+																					<clade>
+																					<name>loss</name>
+																					<eventsRec>
+																						<loss speciesLocation="MetazoaMolluscaEP00106Octopusbimaculoides"/>
+																					</eventsRec>
+																				</clade>
+																				<clade>
+																					<name>MetazoaMolluscaLottiagigantea_4213922__PPE2_HUMAN_Serine/threonine-protein_phosphatase_with_EF-hands_2_OS_</name>
+																					<eventsRec>
+																						<leaf speciesLocation="MetazoaMolluscaLottiagigantea"/>
+																					</eventsRec>
+																				</clade>
+																			</clade>
+																			<clade>
+																				<name>MetazoaBrachiopodaLingulaunguis_1284696__PPE_CAEEL_Serine/threonine-protein_phosphatase_with_EF-hands_pef-1_OS_</name>
+																				<eventsRec>
+																					<leaf speciesLocation="MetazoaBrachiopodaLingulaunguis"/>
+																				</eventsRec>
+																			</clade>
+																		</clade>
+																		<clade>
+																			<name>MetazoaAnnelidaEP00103Capitellateleta_75582__PPE_CAEEL_Serine/threonine-protein_phosphatase_with_EF-hands_pef-1_OS_</name>
+																			<eventsRec>
+																				<speciation speciesLocation="node_23"/>
+																			</eventsRec>
+																				<clade>
+																				<name>loss</name>
+																				<eventsRec>
+																					<loss speciesLocation="MetazoaAnnelidaHelobdellarobusta"/>
+																				</eventsRec>
+																			</clade>
+																			<clade>
+																				<name>MetazoaAnnelidaEP00103Capitellateleta_75582__PPE_CAEEL_Serine/threonine-protein_phosphatase_with_EF-hands_pef-1_OS_</name>
+																				<eventsRec>
+																					<leaf speciesLocation="MetazoaAnnelidaEP00103Capitellateleta"/>
+																				</eventsRec>
+																			</clade>
+																		</clade>
+																	</clade>
+																</clade>
+																<clade>
+																	<name>MetazoaArthropodaDrosophilamelanogaster_243596__RDGC_DROME_Serine/threonine-protein_phosphatase_rdgC_OS_</name>
+																	<eventsRec>
+																		<speciation speciesLocation="node_12"/>
+																	</eventsRec>
+																		<clade>
+																		<name>loss</name>
+																		<eventsRec>
+																			<loss speciesLocation="node_16"/>
+																		</eventsRec>
+																	</clade>
+																	<clade>
+																		<name>MetazoaArthropodaDrosophilamelanogaster_243596__RDGC_DROME_Serine/threonine-protein_phosphatase_rdgC_OS_</name>
+																		<eventsRec>
+																			<speciation speciesLocation="node_13"/>
+																		</eventsRec>
+																			<clade>
+																			<name>loss</name>
+																			<eventsRec>
+																				<loss speciesLocation="MetazoaArthropodaStrigamiamaritima"/>
+																			</eventsRec>
+																		</clade>
+																		<clade>
+																			<name>MetazoaArthropodaDrosophilamelanogaster_243596__RDGC_DROME_Serine/threonine-protein_phosphatase_rdgC_OS_</name>
+																			<eventsRec>
+																				<speciation speciesLocation="node_14"/>
+																			</eventsRec>
+																				<clade>
+																				<name>loss</name>
+																				<eventsRec>
+																					<loss speciesLocation="MetazoaArthropodaDaphniapulex"/>
+																				</eventsRec>
+																			</clade>
+																			<clade>
+																				<name>MetazoaArthropodaDrosophilamelanogaster_243596__RDGC_DROME_Serine/threonine-protein_phosphatase_rdgC_OS_</name>
+																				<eventsRec>
+																					<speciation speciesLocation="node_15"/>
+																				</eventsRec>
+																					<clade>
+																					<name>loss</name>
+																					<eventsRec>
+																						<loss speciesLocation="MetazoaArthropodaEP00090Calanusglacialis"/>
+																					</eventsRec>
+																				</clade>
+																				<clade>
+																					<name>MetazoaArthropodaDrosophilamelanogaster_243596__RDGC_DROME_Serine/threonine-protein_phosphatase_rdgC_OS_</name>
+																					<eventsRec>
+																						<leaf speciesLocation="MetazoaArthropodaDrosophilamelanogaster"/>
+																					</eventsRec>
+																				</clade>
+																			</clade>
+																		</clade>
+																	</clade>
+																</clade>
+															</clade>
+														</clade>
+													</clade>
+												</clade>
+											</clade>
+										</clade>
+										<clade>
+											<name>41</name>
+											<eventsRec>
+												<duplication speciesLocation="node_8"/>
+											</eventsRec>
+											<clade>
+												<name>82</name>
+												<eventsRec>
+													<speciation speciesLocation="node_8"/>
+												</eventsRec>
+													<clade>
+													<name>loss</name>
+													<eventsRec>
+														<loss speciesLocation="node_45"/>
+													</eventsRec>
+												</clade>
+												<clade>
+													<name>82</name>
+													<eventsRec>
+														<speciation speciesLocation="node_9"/>
+													</eventsRec>
+														<clade>
+														<name>loss</name>
+														<eventsRec>
+															<loss speciesLocation="node_10"/>
+														</eventsRec>
+													</clade>
+													<clade>
+														<name>82</name>
+														<eventsRec>
+															<speciation speciesLocation="node_32"/>
+														</eventsRec>
+														<clade>
+															<name>100</name>
+															<eventsRec>
+																<speciation speciesLocation="node_33"/>
+															</eventsRec>
+																<clade>
+																<name>loss</name>
+																<eventsRec>
+																	<loss speciesLocation="MetazoaCnidariaGorgoniaventalina"/>
+																</eventsRec>
+															</clade>
+															<clade>
+																<name>100</name>
+																<eventsRec>
+																	<speciation speciesLocation="node_34"/>
+																</eventsRec>
+																<clade>
+																	<name>86</name>
+																	<eventsRec>
+																		<speciation speciesLocation="node_42"/>
+																	</eventsRec>
+																	<clade>
+																		<name>MetazoaCnidariaAnthopleuraelegantissima_3002049__PPE_CAEEL_Serine/threonine-protein_phosphatase_with_EF-hands_pef-1_OS_</name>
+																		<eventsRec>
+																			<leaf speciesLocation="MetazoaCnidariaAnthopleuraelegantissima"/>
+																		</eventsRec>
+																	</clade>
+																	<clade>
+																		<name>MetazoaCnidariaNematostellavectensis_3376330__PPE_CAEEL_Serine/threonine-protein_phosphatase_with_EF-hands_pef-1_OS_</name>
+																		<eventsRec>
+																			<leaf speciesLocation="MetazoaCnidariaNematostellavectensis"/>
+																		</eventsRec>
+																	</clade>
+																</clade>
+																<clade>
+																	<name>100</name>
+																	<eventsRec>
+																		<speciation speciesLocation="node_35"/>
+																	</eventsRec>
+																	<clade>
+																		<name>90</name>
+																		<eventsRec>
+																			<speciation speciesLocation="node_36"/>
+																		</eventsRec>
+																			<clade>
+																			<name>loss</name>
+																			<eventsRec>
+																				<loss speciesLocation="node_37"/>
+																			</eventsRec>
+																		</clade>
+																		<clade>
+																			<name>90</name>
+																			<eventsRec>
+																				<speciation speciesLocation="node_38"/>
+																			</eventsRec>
+																			<clade>
+																				<name>MetazoaCnidariaAstreoporasp_3037640__PPE_CAEEL_Serine/threonine-protein_phosphatase_with_EF-hands_pef-1_OS_</name>
+																				<eventsRec>
+																					<leaf speciesLocation="MetazoaCnidariaAstreoporasp"/>
+																				</eventsRec>
+																			</clade>
+																			<clade>
+																				<name>MetazoaCnidariaPoritesaustraliensis_3548519__PPE_CAEEL_Serine/threonine-protein_phosphatase_with_EF-hands_pef-1_OS_</name>
+																				<eventsRec>
+																					<leaf speciesLocation="MetazoaCnidariaPoritesaustraliensis"/>
+																				</eventsRec>
+																			</clade>
+																		</clade>
+																	</clade>
+																	<clade>
+																		<name>95</name>
+																		<eventsRec>
+																			<speciation speciesLocation="node_39"/>
+																		</eventsRec>
+																		<clade>
+																			<name>MetazoaCnidariaMontastraeacavernosa_3340568__PPE_CAEEL_Serine/threonine-protein_phosphatase_with_EF-hands_pef-1_OS_</name>
+																			<eventsRec>
+																				<speciation speciesLocation="node_40"/>
+																			</eventsRec>
+																				<clade>
+																				<name>loss</name>
+																				<eventsRec>
+																					<loss speciesLocation="MetazoaCnidariaFungiascutaria"/>
+																				</eventsRec>
+																			</clade>
+																			<clade>
+																				<name>MetazoaCnidariaMontastraeacavernosa_3340568__PPE_CAEEL_Serine/threonine-protein_phosphatase_with_EF-hands_pef-1_OS_</name>
+																				<eventsRec>
+																					<leaf speciesLocation="MetazoaCnidariaMontastraeacavernosa"/>
+																				</eventsRec>
+																			</clade>
+																		</clade>
+																		<clade>
+																			<name>MetazoaCnidariaStylophorapistillata_3681723__PPE_CAEEL_Serine/threonine-protein_phosphatase_with_EF-hands_pef-1_OS_</name>
+																			<eventsRec>
+																				<speciation speciesLocation="node_41"/>
+																			</eventsRec>
+																				<clade>
+																				<name>loss</name>
+																				<eventsRec>
+																					<loss speciesLocation="MetazoaCnidariaMadracisauretenra"/>
+																				</eventsRec>
+																			</clade>
+																			<clade>
+																				<name>MetazoaCnidariaStylophorapistillata_3681723__PPE_CAEEL_Serine/threonine-protein_phosphatase_with_EF-hands_pef-1_OS_</name>
+																				<eventsRec>
+																					<leaf speciesLocation="MetazoaCnidariaStylophorapistillata"/>
+																				</eventsRec>
+																			</clade>
+																		</clade>
+																	</clade>
+																</clade>
+															</clade>
+														</clade>
+														<clade>
+															<name>100</name>
+															<eventsRec>
+																<speciation speciesLocation="node_43"/>
+															</eventsRec>
+															<clade>
+																<name>MetazoaCnidariaAureliaGenome_3063523__PPE_CAEEL_Serine/threonine-protein_phosphatase_with_EF-hands_pef-1_OS_</name>
+																<eventsRec>
+																	<leaf speciesLocation="MetazoaCnidariaAureliaGenome"/>
+																</eventsRec>
+															</clade>
+															<clade>
+																<name>MetazoaCnidariaClytiahemisphaerica_3092955__PPE_CAEEL_Serine/threonine-protein_phosphatase_with_EF-hands_pef-1_OS_</name>
+																<eventsRec>
+																	<speciation speciesLocation="node_44"/>
+																</eventsRec>
+																	<clade>
+																	<name>loss</name>
+																	<eventsRec>
+																		<loss speciesLocation="MetazoaCnidariaHydramagnapapillata"/>
+																	</eventsRec>
+																</clade>
+																<clade>
+																	<name>MetazoaCnidariaClytiahemisphaerica_3092955__PPE_CAEEL_Serine/threonine-protein_phosphatase_with_EF-hands_pef-1_OS_</name>
+																	<eventsRec>
+																		<leaf speciesLocation="MetazoaCnidariaClytiahemisphaerica"/>
+																	</eventsRec>
+																</clade>
+															</clade>
+														</clade>
+													</clade>
+												</clade>
+											</clade>
+											<clade>
+												<name>55</name>
+												<eventsRec>
+													<speciation speciesLocation="node_8"/>
+												</eventsRec>
+												<clade>
+													<name>88</name>
+													<eventsRec>
+														<speciation speciesLocation="node_9"/>
+													</eventsRec>
+														<clade>
+														<name>loss</name>
+														<eventsRec>
+															<loss speciesLocation="node_32"/>
+														</eventsRec>
+													</clade>
+													<clade>
+														<name>88</name>
+														<eventsRec>
+															<speciation speciesLocation="node_10"/>
+														</eventsRec>
+															<clade>
+															<name>loss</name>
+															<eventsRec>
+																<loss speciesLocation="node_11"/>
+															</eventsRec>
+														</clade>
+														<clade>
+															<name>88</name>
+															<eventsRec>
+																<speciation speciesLocation="node_24"/>
+															</eventsRec>
+																<clade>
+																<name>loss</name>
+																<eventsRec>
+																	<loss speciesLocation="node_25"/>
+																</eventsRec>
+															</clade>
+															<clade>
+																<name>88</name>
+																<eventsRec>
+																	<speciation speciesLocation="node_30"/>
+																</eventsRec>
+																<clade>
+																	<name>100</name>
+																	<eventsRec>
+																		<speciation speciesLocation="node_31"/>
+																	</eventsRec>
+																	<clade>
+																		<name>MetazoaEchinodermataAcanthasterplanci_3789082__PPE_CAEEL_Serine/threonine-protein_phosphatase_with_EF-hands_pef-1_OS_</name>
+																		<eventsRec>
+																			<leaf speciesLocation="MetazoaEchinodermataAcanthasterplanci"/>
+																		</eventsRec>
+																	</clade>
+																	<clade>
+																		<name>MetazoaEchinodermataEP00057Strongylocentrotuspurpuratus_3828979__PPE1_HUMAN_Serine/threonine-protein_phosphatase_with_EF-hands_1_OS_</name>
+																		<eventsRec>
+																			<leaf speciesLocation="MetazoaEchinodermataEP00057Strongylocentrotuspurpuratus"/>
+																		</eventsRec>
+																	</clade>
+																</clade>
+																<clade>
+																	<name>MetazoaHemichordataSaccoglossuskowalevskii_4055311__PPE_CAEEL_Serine/threonine-protein_phosphatase_with_EF-hands_pef-1_OS_</name>
+																	<eventsRec>
+																		<leaf speciesLocation="MetazoaHemichordataSaccoglossuskowalevskii"/>
+																	</eventsRec>
+																</clade>
+															</clade>
+														</clade>
+													</clade>
+												</clade>
+												<clade>
+													<name>100</name>
+													<eventsRec>
+														<speciation speciesLocation="node_45"/>
+													</eventsRec>
+													<clade>
+														<name>MetazoaPlacozoaEP00114TrichoplaxspH2_4514986__PPE_CAEEL_Serine/threonine-protein_phosphatase_with_EF-hands_pef-1_OS_</name>
+														<eventsRec>
+															<leaf speciesLocation="MetazoaPlacozoaEP00114TrichoplaxspH2"/>
+														</eventsRec>
+													</clade>
+													<clade>
+														<name>100</name>
+														<eventsRec>
+															<duplication speciesLocation="MetazoaPlacozoaHoilungiahongkongensis"/>
+														</eventsRec>
+														<clade>
+															<name>100</name>
+															<eventsRec>
+																<duplication speciesLocation="MetazoaPlacozoaHoilungiahongkongensis"/>
+															</eventsRec>
+															<clade>
+																<name>MetazoaPlacozoaHoilungiahongkongensis_4536601__PPE_CAEEL_Serine/threonine-protein_phosphatase_with_EF-hands_pef-1_OS_</name>
+																<eventsRec>
+																	<leaf speciesLocation="MetazoaPlacozoaHoilungiahongkongensis"/>
+																</eventsRec>
+															</clade>
+															<clade>
+																<name>MetazoaPlacozoaHoilungiahongkongensis_4536603__PPE_CAEEL_Serine/threonine-protein_phosphatase_with_EF-hands_pef-1_OS_</name>
+																<eventsRec>
+																	<leaf speciesLocation="MetazoaPlacozoaHoilungiahongkongensis"/>
+																</eventsRec>
+															</clade>
+														</clade>
+														<clade>
+															<name>MetazoaPlacozoaHoilungiahongkongensis_4536605__PPE_CAEEL_Serine/threonine-protein_phosphatase_with_EF-hands_pef-1_OS_</name>
+															<eventsRec>
+																<leaf speciesLocation="MetazoaPlacozoaHoilungiahongkongensis"/>
+															</eventsRec>
+														</clade>
+													</clade>
+												</clade>
+											</clade>
+										</clade>
+									</clade>
+								</clade>
+							</clade>
+							<clade>
+								<name>MetazoaPoriferaEP00118Oscarellapearsei_4813802__PPE_CAEEL_Serine/threonine-protein_phosphatase_with_EF-hands_pef-1_OS_</name>
+								<eventsRec>
+									<speciation speciesLocation="node_47"/>
+								</eventsRec>
+									<clade>
+									<name>loss</name>
+									<eventsRec>
+										<loss speciesLocation="node_48"/>
+									</eventsRec>
+								</clade>
+								<clade>
+									<name>MetazoaPoriferaEP00118Oscarellapearsei_4813802__PPE_CAEEL_Serine/threonine-protein_phosphatase_with_EF-hands_pef-1_OS_</name>
+									<eventsRec>
+										<speciation speciesLocation="node_51"/>
+									</eventsRec>
+										<clade>
+										<name>loss</name>
+										<eventsRec>
+											<loss speciesLocation="node_52"/>
+										</eventsRec>
+									</clade>
+									<clade>
+										<name>MetazoaPoriferaEP00118Oscarellapearsei_4813802__PPE_CAEEL_Serine/threonine-protein_phosphatase_with_EF-hands_pef-1_OS_</name>
+										<eventsRec>
+											<leaf speciesLocation="MetazoaPoriferaEP00118Oscarellapearsei"/>
+										</eventsRec>
+									</clade>
+								</clade>
+							</clade>
+						</clade>
+						<clade>
+							<name>100</name>
+							<eventsRec>
+								<speciation speciesLocation="node_53"/>
+							</eventsRec>
+							<clade>
+								<name>97</name>
+								<eventsRec>
+									<speciation speciesLocation="node_54"/>
+								</eventsRec>
+								<clade>
+									<name>100</name>
+									<eventsRec>
+										<speciation speciesLocation="node_55"/>
+									</eventsRec>
+										<clade>
+										<name>loss</name>
+										<eventsRec>
+											<loss speciesLocation="ChoanoflagellataEP00040Diaphanoecagrandis"/>
+										</eventsRec>
+									</clade>
+									<clade>
+										<name>100</name>
+										<eventsRec>
+											<speciation speciesLocation="node_56"/>
+										</eventsRec>
+										<clade>
+											<name>ChoanoflagellataEP00035Acanthoecaspectabilis_10740346__PPE_CAEEL_Serine/threonine-protein_phosphatase_with_EF-hands_pef-1_OS_</name>
+											<eventsRec>
+												<leaf speciesLocation="ChoanoflagellataEP00035Acanthoecaspectabilis"/>
+											</eventsRec>
+										</clade>
+										<clade>
+											<name>ChoanoflagellataEP00037Helgoecanana_10783430__PPE_CAEEL_Serine/threonine-protein_phosphatase_with_EF-hands_pef-1_OS_</name>
+											<eventsRec>
+												<leaf speciesLocation="ChoanoflagellataEP00037Helgoecanana"/>
+											</eventsRec>
+										</clade>
+									</clade>
+								</clade>
+								<clade>
+									<name>ChoanoflagellataEP00039Didymoecacostata_10878667__PPE_CAEEL_Serine/threonine-protein_phosphatase_with_EF-hands_pef-1_OS_</name>
+									<eventsRec>
+										<leaf speciesLocation="ChoanoflagellataEP00039Didymoecacostata"/>
+									</eventsRec>
+								</clade>
+							</clade>
+							<clade>
+								<name>ChoanoflagellataEP00047Mylnosigafluctuans_11117335__PPE1_RAT_Serine/threonine-protein_phosphatase_with_EF-hands_1_OS_</name>
+								<eventsRec>
+									<speciation speciesLocation="node_57"/>
+								</eventsRec>
+									<clade>
+									<name>loss</name>
+									<eventsRec>
+										<loss speciesLocation="node_58"/>
+									</eventsRec>
+								</clade>
+								<clade>
+									<name>ChoanoflagellataEP00047Mylnosigafluctuans_11117335__PPE1_RAT_Serine/threonine-protein_phosphatase_with_EF-hands_1_OS_</name>
+									<eventsRec>
+										<speciation speciesLocation="node_59"/>
+									</eventsRec>
+										<clade>
+										<name>loss</name>
+										<eventsRec>
+											<loss speciesLocation="ChoanoflagellataEP00050Salpingoecakvevrii"/>
+										</eventsRec>
+									</clade>
+									<clade>
+										<name>ChoanoflagellataEP00047Mylnosigafluctuans_11117335__PPE1_RAT_Serine/threonine-protein_phosphatase_with_EF-hands_1_OS_</name>
+										<eventsRec>
+											<leaf speciesLocation="ChoanoflagellataEP00047Mylnosigafluctuans"/>
+										</eventsRec>
+									</clade>
+								</clade>
+							</clade>
+						</clade>
+					</clade>
+				</clade>
+			</clade>
+		</clade>
+	</clade>
+	<clade>
+		<name>CollodictyonidaeEP00002Diphylleiarotans_11642227__PPE1_RAT_Serine/threonine-protein_phosphatase_with_EF-hands_1_OS_</name>
+		<eventsRec>
+			<speciation speciesLocation="node_74"/>
+		</eventsRec>
+			<clade>
+			<name>loss</name>
+			<eventsRec>
+				<loss speciesLocation="RigifilidaEP00004Rigifilaramosa"/>
+			</eventsRec>
+		</clade>
+		<clade>
+			<name>CollodictyonidaeEP00002Diphylleiarotans_11642227__PPE1_RAT_Serine/threonine-protein_phosphatase_with_EF-hands_1_OS_</name>
+			<eventsRec>
+				<leaf speciesLocation="CollodictyonidaeEP00002Diphylleiarotans"/>
+			</eventsRec>
+		</clade>
+	</clade>
+</clade>
+</phylogeny>
+</recGeneTree>
+</recPhylo>
