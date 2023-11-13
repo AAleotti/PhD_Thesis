@@ -1,0 +1,1232 @@
+IQ-TREE multicore version 2.0.6 for Linux 64-bit built May 30 2020
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    node038 (AVX2, FMA3, 125 GB RAM)
+Command: iqtree2 -s CNG_a_and_b.doublefiltered.fasta.annot.clean.mafft.trimal -m MFP -mset Blosum62,cpREV,Dayhoff,DCMut,FLU,HIVb,HIVw,JTT,JTTDCMut,LG,mtART,mtMAM,mtREV,mtZOA,mtMet,mtVer,mtInv,Poisson,PMB,rtREV,VT,WAG,GTR20 -mrate E,I,G,I+G,R -B 1000 --wbtl --bnni --alrt 1000 --abayes -T AUTO --prefix CNG_a_and_b.doublefiltered.fasta.annot.clean.mafft.trimal.UFB
+Seed:    84029 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Wed Aug 16 16:32:06 2023
+Kernel:  AVX+FMA - auto-detect threads (10 CPU cores detected)
+
+Reading alignment file CNG_a_and_b.doublefiltered.fasta.annot.clean.mafft.trimal ... Fasta format detected
+Alignment most likely contains protein sequences
+Alignment has 335 sequences with 703 columns, 703 distinct patterns
+701 parsimony-informative, 2 singleton sites, 0 constant sites
+                                                                                                                                                  Gap/Ambiguity  Composition  p-value
+   1  AlveolataEP00742ColponemidiaspColp10_4274965__CNGA2_MOUSE_Cyclic_nucleotide-gated_olfactory_channel_OS_                                            19.06%    passed     31.44%
+   2  AlveolataEP00742ColponemidiaspColp10_4275407__CNG1_CHICK_Cyclic_nucleotide-gated_channel_cone_photoreceptor_subunit_alpha_OS_                      10.67%    passed     26.82%
+   3  AlveolataEP00742ColponemidiaspColp10_4277833__HCN4_RABIT_Potassium/sodium_hyperpolarization-activated_cyclic_nucleotide-gated_channel_4_OS_        18.21%    failed      0.06%
+   4  AlveolataEP00742ColponemidiaspColp10_4279962__CNGA1_RAT_cGMP-gated_cation_channel_alpha-1_OS_                                                      16.22%    passed     90.55%
+   5  AlveolataEP00742ColponemidiaspColp10_4283614__CNGA3_HUMAN_Cyclic_nucleotide-gated_cation_channel_alpha-3_OS_                                       14.08%    passed     32.66%
+   6  AlveolataEP00742ColponemidiaspColp10_4288252__CNGA3_MOUSE_Cyclic_nucleotide-gated_cation_channel_alpha-3_OS_                                       30.73%    failed      1.30%
+   7  AlveolataEP00742ColponemidiaspColp10_4288352__CNGA1_MOUSE_cGMP-gated_cation_channel_alpha-1_OS_                                                    36.84%    passed     14.49%
+   8  AlveolataEP00742ColponemidiaspColp10_4294376__CNGB1_HUMAN_Cyclic_nucleotide-gated_cation_channel_beta-1_OS_                                        67.99%    passed     14.75%
+   9  ApusomonadidaThecamonastrahensUP000054408_5476510__CNGA1_HUMAN_cGMP-gated_cation_channel_alpha-1_OS_                                               14.79%    failed      0.00%
+  10  ApusomonadidaThecamonastrahensUP000054408_5479597__CNGA2_HUMAN_Cyclic_nucleotide-gated_olfactory_channel_OS_                                       18.63%    passed     29.81%
+  11  ApusomonadidaThecamonastrahensUP000054408_5482480__CNGA3_HUMAN_Cyclic_nucleotide-gated_cation_channel_alpha-3_OS_                                  14.51%    failed      0.00%
+  12  ApusomonadidaThecamonastrahensUP000054408_5485211__CNG_CAEEL_Cyclic_nucleotide-gated_cation_channel_OS_                                            41.82%    passed      7.37%
+  13  BreviataEP00033Pygsuiabiforma_5533075__CNGA3_HUMAN_Cyclic_nucleotide-gated_cation_channel_alpha-3_OS_                                              34.28%    passed      8.77%
+  14  BreviataEP00033Pygsuiabiforma_5536145__CNGA3_HUMAN_Cyclic_nucleotide-gated_cation_channel_alpha-3_OS_                                              71.69%    passed     94.40%
+  15  ChloroplastidaArabidopsisthalianaUP000006548_5871052__CNGC1_ARATH_Cyclic_nucleotide-gated_ion_channel_1_OS_                                        32.43%    passed     77.88%
+  16  ChloroplastidaArabidopsisthalianaUP000006548_5883723__CNG13_ARATH_Putative_cyclic_nucleotide-gated_ion_channel_13_OS_                              33.00%    passed     82.23%
+  17  ChloroplastidaArabidopsisthalianaUP000006548_5884797__CNG10_ARATH_Probable_cyclic_nucleotide-gated_ion_channel_10_OS_                              32.43%    passed     74.23%
+  18  ChloroplastidaArabidopsisthalianaUP000006548_5888860__CNG14_ARATH_Probable_cyclic_nucleotide-gated_ion_channel_14_OS_                              30.73%    passed     32.21%
+  19  ChloroplastidaArabidopsisthalianaUP000006548_5889174__CNG15_ARATH_Putative_cyclic_nucleotide-gated_ion_channel_15_OS_                              34.28%    passed      8.61%
+  20  ChoanoflagellataEP00039Didymoecacostata_10853105__CNGA3_BOVIN_Cyclic_nucleotide-gated_cation_channel_alpha-3_OS_                                   43.24%    passed      5.44%
+  21  ChoanoflagellataEP00045Choanoecaperplexa_11080522__CNGA_DROME_Cyclic_nucleotide-gated_cation_channel_subunit_A_OS_                                 22.05%    passed     78.68%
+  22  ChoanoflagellataEP00045Choanoecaperplexa_11096309__CNGA1_HUMAN_cGMP-gated_cation_channel_alpha-1_OS_                                               18.21%    failed      3.13%
+  23  ChoanoflagellataEP00045Choanoecaperplexa_11100780__CNGA3_MOUSE_Cyclic_nucleotide-gated_cation_channel_alpha-3_OS_                                  42.96%    failed      0.82%
+  24  ChoanoflagellataEP00050Salpingoecakvevrii_11189167__CNGA1_RAT_cGMP-gated_cation_channel_alpha-1_OS_                                                23.61%    passed     37.93%
+  25  ChoanoflagellataEP00050Salpingoecakvevrii_11199523__CNG3_CHICK_Cyclic_nucleotide-gated_channel_rod_photoreceptor_subunit_alpha_OS_                 17.78%    failed      0.12%
+  26  ChoanoflagellateaMonosigabrevicollisUP000001357_11434238__CNGA1_RAT_cGMP-gated_cation_channel_alpha-1_OS_                                          10.95%    failed      2.36%
+  27  ChoanoflagellateaMonosigabrevicollisUP000001357_11434821__CNGA_DROME_Cyclic_nucleotide-gated_cation_channel_subunit_A_OS_                          10.95%    passed      8.71%
+  28  CollodictyonidaeEP00002Diphylleiarotans_11630966__CNG1_CHICK_Cyclic_nucleotide-gated_channel_cone_photoreceptor_subunit_alpha_OS_                  24.61%    passed     25.17%
+  29  CollodictyonidaeEP00002Diphylleiarotans_11633792__CNG3_CHICK_Cyclic_nucleotide-gated_channel_rod_photoreceptor_subunit_alpha_OS_                   72.97%    passed     75.12%
+  30  CollodictyonidaeEP00002Diphylleiarotans_11634158__CNGA2_BOVIN_Cyclic_nucleotide-gated_olfactory_channel_OS_                                        45.80%    passed     18.08%
+  31  CollodictyonidaeEP00002Diphylleiarotans_11634159__CNGA3_MOUSE_Cyclic_nucleotide-gated_cation_channel_alpha-3_OS_                                   14.22%    passed     22.09%
+  32  CollodictyonidaeEP00002Diphylleiarotans_11636605__CNG1_CHICK_Cyclic_nucleotide-gated_channel_cone_photoreceptor_subunit_alpha_OS_                  16.36%    passed     57.52%
+  33  CollodictyonidaeEP00002Diphylleiarotans_11638448__CNG3_CHICK_Cyclic_nucleotide-gated_channel_rod_photoreceptor_subunit_alpha_OS_                   35.14%    passed     54.39%
+  34  CollodictyonidaeEP00002Diphylleiarotans_11638451__CNGA1_RAT_cGMP-gated_cation_channel_alpha-1_OS_                                                  65.86%    passed     79.16%
+  35  CollodictyonidaeEP00002Diphylleiarotans_11638452__CNG3_CHICK_Cyclic_nucleotide-gated_channel_rod_photoreceptor_subunit_alpha_OS_                   35.28%    passed     44.08%
+  36  CollodictyonidaeEP00002Diphylleiarotans_11641369__CNGA2_MOUSE_Cyclic_nucleotide-gated_olfactory_channel_OS_                                        26.74%    passed     30.89%
+  37  CollodictyonidaeEP00002Diphylleiarotans_11641997__CNG3_CHICK_Cyclic_nucleotide-gated_channel_rod_photoreceptor_subunit_alpha_OS_                   23.47%    passed     89.52%
+  38  CollodictyonidaeEP00002Diphylleiarotans_11644381__CNGA1_CANLF_cGMP-gated_cation_channel_alpha-1_OS_                                                20.77%    passed     48.34%
+  39  CollodictyonidaeEP00002Diphylleiarotans_11644382__CNGA1_CANLF_cGMP-gated_cation_channel_alpha-1_OS_                                                32.57%    passed     17.59%
+  40  CollodictyonidaeEP00002Diphylleiarotans_11646677__CNG1_CHICK_Cyclic_nucleotide-gated_channel_cone_photoreceptor_subunit_alpha_OS_                  33.57%    passed     81.27%
+  41  CollodictyonidaeEP00002Diphylleiarotans_11650121__HCN2_HUMAN_Potassium/sodium_hyperpolarization-activated_cyclic_nucleotide-gated_channel_2_OS_    16.64%    passed     20.24%
+  42  CollodictyonidaeEP00002Diphylleiarotans_11650122__HCN2_HUMAN_Potassium/sodium_hyperpolarization-activated_cyclic_nucleotide-gated_channel_2_OS_    28.17%    passed     33.54%
+  43  CollodictyonidaeEP00002Diphylleiarotans_11650123__HCN2_HUMAN_Potassium/sodium_hyperpolarization-activated_cyclic_nucleotide-gated_channel_2_OS_    16.64%    passed     15.47%
+  44  CollodictyonidaeEP00002Diphylleiarotans_11651430__KCNH6_RAT_Potassium_voltage-gated_channel_subfamily_H_member_6_OS_                               27.17%    passed      6.91%
+  45  CollodictyonidaeEP00002Diphylleiarotans_11652533__CNG1_CHICK_Cyclic_nucleotide-gated_channel_cone_photoreceptor_subunit_alpha_OS_                  12.38%    failed      0.34%
+  46  CollodictyonidaeEP00002Diphylleiarotans_11652534__CNG1_CHICK_Cyclic_nucleotide-gated_channel_cone_photoreceptor_subunit_alpha_OS_                  14.08%    failed      0.61%
+  47  CollodictyonidaeEP00002Diphylleiarotans_11654315__CNG3_CHICK_Cyclic_nucleotide-gated_channel_rod_photoreceptor_subunit_alpha_OS_                   11.81%    failed      4.90%
+  48  CollodictyonidaeEP00002Diphylleiarotans_11654316__CNG_ICTPU_Cyclic_nucleotide-gated_cation_channel_OS_                                             15.08%    passed     11.37%
+  49  CollodictyonidaeEP00002Diphylleiarotans_11654317__CNG3_CHICK_Cyclic_nucleotide-gated_channel_rod_photoreceptor_subunit_alpha_OS_                   11.81%    passed      5.98%
+  50  CollodictyonidaeEP00002Diphylleiarotans_11654318__CNG3_CHICK_Cyclic_nucleotide-gated_channel_rod_photoreceptor_subunit_alpha_OS_                   82.65%    passed     87.82%
+  51  CollodictyonidaeEP00002Diphylleiarotans_11654320__CNG_ICTPU_Cyclic_nucleotide-gated_cation_channel_OS_                                             15.08%    passed      9.34%
+  52  CollodictyonidaeEP00002Diphylleiarotans_11654321__CNG_ICTPU_Cyclic_nucleotide-gated_cation_channel_OS_                                             15.08%    passed     11.37%
+  53  CollodictyonidaeEP00002Diphylleiarotans_11654854__CNGA1_BOVIN_cGMP-gated_cation_channel_alpha-1_OS_                                                24.89%    passed     98.69%
+  54  CollodictyonidaeEP00002Diphylleiarotans_11654855__CNGA1_BOVIN_cGMP-gated_cation_channel_alpha-1_OS_                                                37.84%    passed     71.95%
+  55  CollodictyonidaeEP00002Diphylleiarotans_11654856__CNGA1_BOVIN_cGMP-gated_cation_channel_alpha-1_OS_                                                16.36%    passed     75.69%
+  56  CollodictyonidaeEP00002Diphylleiarotans_11655306__CNGA1_MOUSE_cGMP-gated_cation_channel_alpha-1_OS_                                                31.44%    passed     68.30%
+  57  CollodictyonidaeEP00002Diphylleiarotans_11655310__CNGA2_RABIT_Cyclic_nucleotide-gated_olfactory_channel_OS_                                        26.46%    passed     75.15%
+  58  CollodictyonidaeEP00002Diphylleiarotans_11655312__CNGA1_MOUSE_cGMP-gated_cation_channel_alpha-1_OS_                                                36.42%    passed     50.70%
+  59  CollodictyonidaeEP00002Diphylleiarotans_11655313__CNGA2_RABIT_Cyclic_nucleotide-gated_olfactory_channel_OS_                                        24.75%    passed     46.90%
+  60  CollodictyonidaeEP00002Diphylleiarotans_11655615__HCN2_HUMAN_Potassium/sodium_hyperpolarization-activated_cyclic_nucleotide-gated_channel_2_OS_    23.47%    passed     80.01%
+  61  CollodictyonidaeEP00002Diphylleiarotans_11656161__CNG3_CHICK_Cyclic_nucleotide-gated_channel_rod_photoreceptor_subunit_alpha_OS_                   20.91%    passed     45.82%
+  62  CollodictyonidaeEP00002Diphylleiarotans_11656162__CNG3_CHICK_Cyclic_nucleotide-gated_channel_rod_photoreceptor_subunit_alpha_OS_                   20.91%    passed     45.82%
+  63  CollodictyonidaeEP00002Diphylleiarotans_11656163__CNG3_CHICK_Cyclic_nucleotide-gated_channel_rod_photoreceptor_subunit_alpha_OS_                   38.83%    passed     16.33%
+  64  CollodictyonidaeEP00002Diphylleiarotans_11656164__CNG3_CHICK_Cyclic_nucleotide-gated_channel_rod_photoreceptor_subunit_alpha_OS_                   20.91%    passed     45.82%
+  65  CollodictyonidaeEP00002Diphylleiarotans_11656165__CNG3_CHICK_Cyclic_nucleotide-gated_channel_rod_photoreceptor_subunit_alpha_OS_                   20.91%    passed     45.82%
+  66  CollodictyonidaeEP00002Diphylleiarotans_11658118__CNG1_CHICK_Cyclic_nucleotide-gated_channel_cone_photoreceptor_subunit_alpha_OS_                  13.66%    passed     19.95%
+  67  CollodictyonidaeEP00002Diphylleiarotans_11658202__CNG1_CHICK_Cyclic_nucleotide-gated_channel_cone_photoreceptor_subunit_alpha_OS_                  23.61%    passed     60.59%
+  68  CollodictyonidaeEP00002Diphylleiarotans_11658203__CNG1_CHICK_Cyclic_nucleotide-gated_channel_cone_photoreceptor_subunit_alpha_OS_                  15.65%    passed     59.27%
+  69  CollodictyonidaeEP00002Diphylleiarotans_11660567__CNGA2_HUMAN_Cyclic_nucleotide-gated_olfactory_channel_OS_                                        14.37%    failed      1.00%
+  70  CollodictyonidaeEP00002Diphylleiarotans_11660568__CNGA2_HUMAN_Cyclic_nucleotide-gated_olfactory_channel_OS_                                        14.94%    failed      1.97%
+  71  CollodictyonidaeEP00002Diphylleiarotans_11660703__CNGA_DROME_Cyclic_nucleotide-gated_cation_channel_subunit_A_OS_                                  24.61%    failed      0.61%
+  72  CollodictyonidaeEP00002Diphylleiarotans_11662484__CNG1_CHICK_Cyclic_nucleotide-gated_channel_cone_photoreceptor_subunit_alpha_OS_                  16.50%    passed     57.32%
+  73  CollodictyonidaeEP00002Diphylleiarotans_11665354__CNGA3_HUMAN_Cyclic_nucleotide-gated_cation_channel_alpha-3_OS_                                   15.65%    passed      9.70%
+  74  CollodictyonidaeEP00002Diphylleiarotans_11665357__CNGA3_HUMAN_Cyclic_nucleotide-gated_cation_channel_alpha-3_OS_                                   15.65%    passed      9.97%
+  75  CollodictyonidaeEP00002Diphylleiarotans_11669448__CNGA3_HUMAN_Cyclic_nucleotide-gated_cation_channel_alpha-3_OS_                                   32.72%    passed      9.26%
+  76  CryptophyceaeGuillardiathetaUP000011087_12260050__CNG3_CHICK_Cyclic_nucleotide-gated_channel_rod_photoreceptor_subunit_alpha_OS_                   28.45%    passed     96.98%
+  77  EuglenozoaEP00668Euglenalonga_12394100__CNG3_CHICK_Cyclic_nucleotide-gated_channel_rod_photoreceptor_subunit_alpha_OS_                             31.15%    passed     72.01%
+  78  EuglenozoaEP00668Euglenalonga_12427251__CNGA2_RABIT_Cyclic_nucleotide-gated_olfactory_channel_OS_                                                  29.30%    passed     94.76%
+  79  FungiSpizellomycespunctatusUP000053201_13454840__CNGA3_BOVIN_Cyclic_nucleotide-gated_cation_channel_alpha-3_OS_                                    49.08%    failed      0.01%
+  80  FungiSpizellomycespunctatusUP000053201_13458046__CNG1_CHICK_Cyclic_nucleotide-gated_channel_cone_photoreceptor_subunit_alpha_OS_                   23.19%    passed     44.09%
+  81  HaptophytaEP00319Phaeocystisglobosa_14058546__CNGA2_RAT_Cyclic_nucleotide-gated_olfactory_channel_OS_                                              66.43%    passed     14.18%
+  82  HaptophytaEP00319Phaeocystisglobosa_14061627__CNGA3_BOVIN_Cyclic_nucleotide-gated_cation_channel_alpha-3_OS_                                       29.02%    passed     32.70%
+  83  HaptophytaEP00319Phaeocystisglobosa_14072322__KCNH6_RAT_Potassium_voltage-gated_channel_subfamily_H_member_6_OS_                                   21.05%    failed      0.21%
+  84  HaptophytaEP00319Phaeocystisglobosa_14077159__HCN4_RABIT_Potassium/sodium_hyperpolarization-activated_cyclic_nucleotide-gated_channel_4_OS_        60.46%    failed      0.04%
+  85  HeteroloboseaEP00761Pharyngomonaskirbyi_14481118__CNG1_CHICK_Cyclic_nucleotide-gated_channel_cone_photoreceptor_subunit_alpha_OS_                  39.12%    passed     31.74%
+  86  HeteroloboseaEP00761Pharyngomonaskirbyi_14494109__CNGA1_BOVIN_cGMP-gated_cation_channel_alpha-1_OS_                                                30.58%    passed     89.48%
+  87  IchthyosporeaEP00126Sphaerothecumdestruens_14600228__CNGA3_MOUSE_Cyclic_nucleotide-gated_cation_channel_alpha-3_OS_                                67.71%    passed     90.91%
+  88  IchthyosporeaEP00126Sphaerothecumdestruens_14602665__CNGA3_BOVIN_Cyclic_nucleotide-gated_cation_channel_alpha-3_OS_                                56.76%    passed     17.04%
+  89  IchthyosporeaEP00126Sphaerothecumdestruens_14602667__CNGA3_BOVIN_Cyclic_nucleotide-gated_cation_channel_alpha-3_OS_                                70.27%    passed     10.09%
+  90  IchthyosporeaEP00126Sphaerothecumdestruens_14612502__CNGA4_RAT_Cyclic_nucleotide-gated_cation_channel_alpha-4_OS_                                  75.39%    passed     32.71%
+  91  IchthyosporeaSphaeroformaarcticaUP000054560_14620921__CNGA3_BOVIN_Cyclic_nucleotide-gated_cation_channel_alpha-3_OS_                               16.07%    passed      8.62%
+  92  MetazoaAnnelidaEP00103Capitellateleta_69539__CNGB1_HUMAN_Cyclic_nucleotide-gated_cation_channel_beta-1_OS_                                         33.00%    passed     36.90%
+  93  MetazoaAnnelidaEP00103Capitellateleta_70517__CNG_ICTPU_Cyclic_nucleotide-gated_cation_channel_OS_                                                  12.66%    passed     82.40%
+  94  MetazoaAnnelidaEP00103Capitellateleta_75942__CNGA3_MOUSE_Cyclic_nucleotide-gated_cation_channel_alpha-3_OS_                                        31.86%    passed     88.14%
+  95  MetazoaAnnelidaEP00103Capitellateleta_84854__CNG1_CHICK_Cyclic_nucleotide-gated_channel_cone_photoreceptor_subunit_alpha_OS_                       26.17%    passed     44.34%
+  96  MetazoaAnnelidaHelobdellarobusta_90706__CNG_ICTPU_Cyclic_nucleotide-gated_cation_channel_OS_                                                       45.95%    passed     32.24%
+  97  MetazoaAnnelidaHelobdellarobusta_96553__CNG1_CHICK_Cyclic_nucleotide-gated_channel_cone_photoreceptor_subunit_alpha_OS_                            20.63%    failed      2.43%
+  98  MetazoaAnnelidaHelobdellarobusta_103376__CNGA3_HUMAN_Cyclic_nucleotide-gated_cation_channel_alpha-3_OS_                                            73.54%    passed     61.15%
+  99  MetazoaAnnelidaHelobdellarobusta_105706__CNGA3_HUMAN_Cyclic_nucleotide-gated_cation_channel_alpha-3_OS_                                            35.70%    passed     80.40%
+ 100  MetazoaAnnelidaHelobdellarobusta_106638__CNGB1_BOVIN_Cyclic_nucleotide-gated_cation_channel_beta-1_OS_                                             54.05%    passed     70.75%
+ 101  MetazoaAnnelidaHelobdellarobusta_107073__CNG1_CHICK_Cyclic_nucleotide-gated_channel_cone_photoreceptor_subunit_alpha_OS_                           33.43%    passed      9.60%
+ 102  MetazoaAnnelidaHelobdellarobusta_107615__CNG1_CHICK_Cyclic_nucleotide-gated_channel_cone_photoreceptor_subunit_alpha_OS_                           39.54%    passed     45.03%
+ 103  MetazoaAnnelidaHelobdellarobusta_108221__CNGA3_HUMAN_Cyclic_nucleotide-gated_cation_channel_alpha-3_OS_                                            35.14%    failed      3.56%
+ 104  MetazoaArthropodaDaphniapulex_191359__CNGA_DROME_Cyclic_nucleotide-gated_cation_channel_subunit_A_OS_                                              19.35%    passed     35.42%
+ 105  MetazoaArthropodaDaphniapulex_205247__CNGA3_MOUSE_Cyclic_nucleotide-gated_cation_channel_alpha-3_OS_                                               15.79%    passed     58.16%
+ 106  MetazoaArthropodaDaphniapulex_209413__CNGB3_MOUSE_Cyclic_nucleotide-gated_cation_channel_beta-3_OS_                                                39.12%    passed     63.00%
+ 107  MetazoaArthropodaDaphniapulex_212579__CNGA3_HUMAN_Cyclic_nucleotide-gated_cation_channel_alpha-3_OS_                                               22.90%    passed     85.24%
+ 108  MetazoaArthropodaDrosophilamelanogaster_240997__CNGA3_HUMAN_Cyclic_nucleotide-gated_cation_channel_alpha-3_OS_                                      5.55%    passed     17.05%
+ 109  MetazoaArthropodaDrosophilamelanogaster_242483__CNGA3_HUMAN_Cyclic_nucleotide-gated_cation_channel_alpha-3_OS_                                      9.25%    passed     96.73%
+ 110  MetazoaArthropodaDrosophilamelanogaster_244261__CNGA_DROME_Cyclic_nucleotide-gated_cation_channel_subunit_A_OS_                                    14.08%    passed     77.29%
+ 111  MetazoaArthropodaDrosophilamelanogaster_253328__CNGB1_HUMAN_Cyclic_nucleotide-gated_cation_channel_beta-1_OS_                                      11.95%    passed     53.83%
+ 112  MetazoaArthropodaEP00090Calanusglacialis_702331__CNGB1_HUMAN_Cyclic_nucleotide-gated_cation_channel_beta-1_OS_                                     83.93%    passed     22.25%
+ 113  MetazoaArthropodaEP00090Calanusglacialis_708910__CNGA3_HUMAN_Cyclic_nucleotide-gated_cation_channel_alpha-3_OS_                                    11.10%    passed     97.16%
+ 114  MetazoaArthropodaEP00090Calanusglacialis_708911__CNGA_DROME_Cyclic_nucleotide-gated_cation_channel_subunit_A_OS_                                   13.94%    passed     94.57%
+ 115  MetazoaArthropodaEP00090Calanusglacialis_713198__CNGA2_BOVIN_Cyclic_nucleotide-gated_olfactory_channel_OS_                                         83.93%    passed     40.19%
+ 116  MetazoaArthropodaStrigamiamaritima_1173196__CNGA3_HUMAN_Cyclic_nucleotide-gated_cation_channel_alpha-3_OS_                                         10.24%    passed     72.14%
+ 117  MetazoaArthropodaStrigamiamaritima_1173549__CNGA3_MOUSE_Cyclic_nucleotide-gated_cation_channel_alpha-3_OS_                                         14.79%    passed     83.08%
+ 118  MetazoaArthropodaStrigamiamaritima_1176586__CNGB1_HUMAN_Cyclic_nucleotide-gated_cation_channel_beta-1_OS_                                          37.84%    passed      9.01%
+ 119  MetazoaArthropodaStrigamiamaritima_1179681__CNGA_DROME_Cyclic_nucleotide-gated_cation_channel_subunit_A_OS_                                        13.37%    passed     26.56%
+ 120  MetazoaArthropodaStrigamiamaritima_1182526__CNGB1_HUMAN_Cyclic_nucleotide-gated_cation_channel_beta-1_OS_                                          28.45%    passed     40.57%
+ 121  MetazoaBrachiopodaLingulaunguis_1284066__CNGA3_BOVIN_Cyclic_nucleotide-gated_cation_channel_alpha-3_OS_                                            22.05%    passed     17.37%
+ 122  MetazoaBrachiopodaLingulaunguis_1284129__CNGA2_MOUSE_Cyclic_nucleotide-gated_olfactory_channel_OS_                                                 13.66%    passed     70.13%
+ 123  MetazoaBrachiopodaLingulaunguis_1286222__CNGB1_HUMAN_Cyclic_nucleotide-gated_cation_channel_beta-1_OS_                                             69.56%    failed      0.79%
+ 124  MetazoaBrachiopodaLingulaunguis_1291816__CNGB1_HUMAN_Cyclic_nucleotide-gated_cation_channel_beta-1_OS_                                             34.71%    passed      7.97%
+ 125  MetazoaBrachiopodaLingulaunguis_1295994__CNGA3_BOVIN_Cyclic_nucleotide-gated_cation_channel_alpha-3_OS_                                             7.68%    passed      9.91%
+ 126  MetazoaBrachiopodaLingulaunguis_1301571__CNGA3_HUMAN_Cyclic_nucleotide-gated_cation_channel_alpha-3_OS_                                            11.10%    passed     96.79%
+ 127  MetazoaBrachiopodaLingulaunguis_1303017__CNGA3_MOUSE_Cyclic_nucleotide-gated_cation_channel_alpha-3_OS_                                            18.35%    passed     90.61%
+ 128  MetazoaBryozoaBugulaneritina_1603081__CNG_CAEEL_Cyclic_nucleotide-gated_cation_channel_OS_                                                         58.89%    failed      4.22%
+ 129  MetazoaBryozoaBugulaneritina_1727415__CNGB1_BOVIN_Cyclic_nucleotide-gated_cation_channel_beta-1_OS_                                                58.04%    passed     37.12%
+ 130  MetazoaBryozoaBugulaneritina_1783362__CNG3_CHICK_Cyclic_nucleotide-gated_channel_rod_photoreceptor_subunit_alpha_OS_                               21.34%    passed     32.20%
+ 131  MetazoaBryozoaBugulaneritina_2592058__CNGA3_HUMAN_Cyclic_nucleotide-gated_cation_channel_alpha-3_OS_                                               12.52%    passed      6.57%
+ 132  MetazoaCephalochordataBranchiostomabelcheri_2796466__CNG3_CHICK_Cyclic_nucleotide-gated_channel_rod_photoreceptor_subunit_alpha_OS_                 5.41%    failed      3.14%
+ 133  MetazoaCephalochordataBranchiostomabelcheri_2800734__CNGA3_HUMAN_Cyclic_nucleotide-gated_cation_channel_alpha-3_OS_                                16.93%    failed      3.16%
+ 134  MetazoaCephalochordataBranchiostomabelcheri_2800735__CNG_ICTPU_Cyclic_nucleotide-gated_cation_channel_OS_                                          18.63%    failed      1.61%
+ 135  MetazoaCephalochordataBranchiostomabelcheri_2800736__CNGA3_HUMAN_Cyclic_nucleotide-gated_cation_channel_alpha-3_OS_                                15.36%    failed      2.59%
+ 136  MetazoaCephalochordataBranchiostomabelcheri_2805458__CNG1_CHICK_Cyclic_nucleotide-gated_channel_cone_photoreceptor_subunit_alpha_OS_               22.90%    passed     35.11%
+ 137  MetazoaCephalochordataBranchiostomabelcheri_2812762__CNGA1_HUMAN_cGMP-gated_cation_channel_alpha-1_OS_                                             35.28%    passed      8.95%
+ 138  MetazoaCephalochordataBranchiostomabelcheri_2812763__CNGA1_HUMAN_cGMP-gated_cation_channel_alpha-1_OS_                                             46.23%    failed      1.99%
+ 139  MetazoaCephalochordataBranchiostomabelcheri_2812765__CNGA1_RAT_cGMP-gated_cation_channel_alpha-1_OS_                                               47.08%    failed      2.31%
+ 140  MetazoaCephalochordataBranchiostomabelcheri_2816764__CNGB1_BOVIN_Cyclic_nucleotide-gated_cation_channel_beta-1_OS_                                 11.66%    passed     13.37%
+ 141  MetazoaCephalochordataBranchiostomabelcheri_2817940__CNG_ICTPU_Cyclic_nucleotide-gated_cation_channel_OS_                                          16.22%    failed      3.58%
+ 142  MetazoaCephalochordataBranchiostomabelcheri_2821399__CNGA2_MOUSE_Cyclic_nucleotide-gated_olfactory_channel_OS_                                     12.80%    passed     89.32%
+ 143  MetazoaCnidariaAcroporadigitifera_2930243__CNGA3_HUMAN_Cyclic_nucleotide-gated_cation_channel_alpha-3_OS_                                          38.41%    passed     82.71%
+ 144  MetazoaCnidariaAcroporadigitifera_2942655__CNG3_CHICK_Cyclic_nucleotide-gated_channel_rod_photoreceptor_subunit_alpha_OS_                          75.68%    passed     44.33%
+ 145  MetazoaCnidariaAcroporadigitifera_2943459__CNGA2_HUMAN_Cyclic_nucleotide-gated_olfactory_channel_OS_                                               43.81%    passed     36.07%
+ 146  MetazoaCnidariaAcroporadigitifera_2943462__CNGA3_HUMAN_Cyclic_nucleotide-gated_cation_channel_alpha-3_OS_                                          10.81%    passed     48.43%
+ 147  MetazoaCnidariaAcroporatenuis_2987376__CNGA3_HUMAN_Cyclic_nucleotide-gated_cation_channel_alpha-3_OS_                                              87.20%    passed     31.57%
+ 148  MetazoaCnidariaAnthopleuraelegantissima_2997489__CNGA3_HUMAN_Cyclic_nucleotide-gated_cation_channel_alpha-3_OS_                                    55.05%    passed     26.50%
+ 149  MetazoaCnidariaAnthopleuraelegantissima_3001816__CNG3_CHICK_Cyclic_nucleotide-gated_channel_rod_photoreceptor_subunit_alpha_OS_                    60.88%    passed     71.95%
+ 150  MetazoaCnidariaAnthopleuraelegantissima_3003497__CNGA3_BOVIN_Cyclic_nucleotide-gated_cation_channel_alpha-3_OS_                                    67.71%    passed     63.65%
+ 151  MetazoaCnidariaAnthopleuraelegantissima_3005551__CNGB1_BOVIN_Cyclic_nucleotide-gated_cation_channel_beta-1_OS_                                     79.80%    passed     91.32%
+ 152  MetazoaCnidariaAnthopleuraelegantissima_3005836__CNG3_CHICK_Cyclic_nucleotide-gated_channel_rod_photoreceptor_subunit_alpha_OS_                    82.22%    passed     19.65%
+ 153  MetazoaCnidariaAnthopleuraelegantissima_3008963__CNGA_DROME_Cyclic_nucleotide-gated_cation_channel_subunit_A_OS_                                   86.77%    failed      4.26%
+ 154  MetazoaCnidariaAnthopleuraelegantissima_3010544__CNG3_CHICK_Cyclic_nucleotide-gated_channel_rod_photoreceptor_subunit_alpha_OS_                    80.80%    failed      3.15%
+ 155  MetazoaCnidariaAureliaGenome_3069373__CNGA2_RABIT_Cyclic_nucleotide-gated_olfactory_channel_OS_                                                    15.93%    passed     94.01%
+ 156  MetazoaCnidariaClytiahemisphaerica_3081401__KOR1_ORYSJ_Potassium_channel_KOR1_OS_                                                                  33.14%    failed      1.94%
+ 157  MetazoaCnidariaClytiahemisphaerica_3081402__CNG1_CHICK_Cyclic_nucleotide-gated_channel_cone_photoreceptor_subunit_alpha_OS_                        11.24%    passed     34.29%
+ 158  MetazoaCnidariaClytiahemisphaerica_3099568__CNGA3_HUMAN_Cyclic_nucleotide-gated_cation_channel_alpha-3_OS_                                         10.10%    passed     13.09%
+ 159  MetazoaCnidariaFungiascutaria_3186167__CNG_CAEEL_Cyclic_nucleotide-gated_cation_channel_OS_                                                        84.78%    passed     94.44%
+ 160  MetazoaCnidariaFungiascutaria_3186504__CNGA1_RAT_cGMP-gated_cation_channel_alpha-1_OS_                                                             82.65%    passed     10.08%
+ 161  MetazoaCnidariaFungiascutaria_3195107__CNGA2_HUMAN_Cyclic_nucleotide-gated_olfactory_channel_OS_                                                   80.51%    passed      9.33%
+ 162  MetazoaCnidariaGorgoniaventalina_3214533__CNG_CAEEL_Cyclic_nucleotide-gated_cation_channel_OS_                                                     64.72%    passed     42.23%
+ 163  MetazoaCnidariaHydramagnapapillata_3269788__CNGA2_HUMAN_Cyclic_nucleotide-gated_olfactory_channel_OS_                                              20.48%    passed     10.75%
+ 164  MetazoaCnidariaMadracisauretenra_3310116__CNG_CAEEL_Cyclic_nucleotide-gated_cation_channel_OS_                                                     63.87%    passed     56.60%
+ 165  MetazoaCnidariaMontastraeacavernosa_3318620__CNGA3_HUMAN_Cyclic_nucleotide-gated_cation_channel_alpha-3_OS_                                        83.07%    passed     54.07%
+ 166  MetazoaCnidariaMontastraeacavernosa_3321033__CNGA3_HUMAN_Cyclic_nucleotide-gated_cation_channel_alpha-3_OS_                                        71.41%    failed      2.95%
+ 167  MetazoaCnidariaMontastraeacavernosa_3329911__CNGA3_BOVIN_Cyclic_nucleotide-gated_cation_channel_alpha-3_OS_                                        78.95%    passed     82.68%
+ 168  MetazoaCnidariaNematostellavectensis_3373981__CNGA3_HUMAN_Cyclic_nucleotide-gated_cation_channel_alpha-3_OS_                                       41.96%    passed     62.09%
+ 169  MetazoaCnidariaNematostellavectensis_3383453__CNGA3_HUMAN_Cyclic_nucleotide-gated_cation_channel_alpha-3_OS_                                       40.68%    passed     38.99%
+ 170  MetazoaCnidariaNematostellavectensis_3387545__CNG1_CHICK_Cyclic_nucleotide-gated_channel_cone_photoreceptor_subunit_alpha_OS_                      10.95%    passed     24.50%
+ 171  MetazoaCnidariaNematostellavectensis_3387547__CNG1_CHICK_Cyclic_nucleotide-gated_channel_cone_photoreceptor_subunit_alpha_OS_                      77.24%    passed     29.60%
+ 172  MetazoaCnidariaNematostellavectensis_3387549__CNG1_CHICK_Cyclic_nucleotide-gated_channel_cone_photoreceptor_subunit_alpha_OS_                      36.27%    failed      1.40%
+ 173  MetazoaCnidariaNematostellavectensis_3387927__CNGA3_HUMAN_Cyclic_nucleotide-gated_cation_channel_alpha-3_OS_                                       38.41%    passed     17.25%
+ 174  MetazoaCnidariaNematostellavectensis_3387928__CNGA3_HUMAN_Cyclic_nucleotide-gated_cation_channel_alpha-3_OS_                                       38.55%    passed     10.60%
+ 175  MetazoaCnidariaNematostellavectensis_3388705__CNG3_CHICK_Cyclic_nucleotide-gated_channel_rod_photoreceptor_subunit_alpha_OS_                       37.98%    passed     56.77%
+ 176  MetazoaCnidariaNematostellavectensis_3394885__CNGA3_HUMAN_Cyclic_nucleotide-gated_cation_channel_alpha-3_OS_                                       68.99%    passed     54.20%
+ 177  MetazoaCnidariaPoritesaustraliensis_3537321__CNGA3_HUMAN_Cyclic_nucleotide-gated_cation_channel_alpha-3_OS_                                        19.06%    passed     99.52%
+ 178  MetazoaCnidariaPoritesaustraliensis_3542919__CNGA3_HUMAN_Cyclic_nucleotide-gated_cation_channel_alpha-3_OS_                                        51.64%    failed      3.90%
+ 179  MetazoaCnidariaPoritesaustraliensis_3543999__CNGA2_RABIT_Cyclic_nucleotide-gated_olfactory_channel_OS_                                             37.55%    passed     35.02%
+ 180  MetazoaCnidariaPoritesaustraliensis_3546815__CNG_ICTPU_Cyclic_nucleotide-gated_cation_channel_OS_                                                  17.21%    passed     68.46%
+ 181  MetazoaCnidariaStylophorapistillata_3669381__CNGA2_RAT_Cyclic_nucleotide-gated_olfactory_channel_OS_                                               24.75%    passed     80.89%
+ 182  MetazoaCnidariaStylophorapistillata_3672624__CNGA3_MOUSE_Cyclic_nucleotide-gated_cation_channel_alpha-3_OS_                                        21.91%    passed     14.68%
+ 183  MetazoaCnidariaStylophorapistillata_3680153__CNGA3_MOUSE_Cyclic_nucleotide-gated_cation_channel_alpha-3_OS_                                        10.53%    passed     30.13%
+ 184  MetazoaCnidariaStylophorapistillata_3681496__CNGA3_HUMAN_Cyclic_nucleotide-gated_cation_channel_alpha-3_OS_                                        27.60%    passed     27.94%
+ 185  MetazoaCnidariaStylophorapistillata_3681580__CNGA3_HUMAN_Cyclic_nucleotide-gated_cation_channel_alpha-3_OS_                                        19.06%    passed     98.46%
+ 186  MetazoaCnidariaStylophorapistillata_3682846__CNGA3_HUMAN_Cyclic_nucleotide-gated_cation_channel_alpha-3_OS_                                        10.67%    passed     54.37%
+ 187  MetazoaCtenophoraMnemiopsisleidyi_3725802__CNGA3_HUMAN_Cyclic_nucleotide-gated_cation_channel_alpha-3_OS_                                          13.51%    passed     97.05%
+ 188  MetazoaCtenophoraMnemiopsisleidyi_3728227__CNGA1_HUMAN_cGMP-gated_cation_channel_alpha-1_OS_                                                       30.58%    passed     96.33%
+ 189  MetazoaCtenophoraMnemiopsisleidyi_3734962__CNGA2_HUMAN_Cyclic_nucleotide-gated_olfactory_channel_OS_                                               11.95%    failed      4.96%
+ 190  MetazoaCtenophoraPleurobrachiabachei_3757459__CNGA1_RAT_cGMP-gated_cation_channel_alpha-1_OS_                                                      57.04%    passed     28.92%
+ 191  MetazoaCtenophoraPleurobrachiabachei_3766465__CNGA3_HUMAN_Cyclic_nucleotide-gated_cation_channel_alpha-3_OS_                                       82.65%    passed     46.85%
+ 192  MetazoaCtenophoraPleurobrachiabachei_3770192__CNGA3_HUMAN_Cyclic_nucleotide-gated_cation_channel_alpha-3_OS_                                       85.92%    passed     84.43%
+ 193  MetazoaEchinodermataAcanthasterplanci_3777773__CNGB1_BOVIN_Cyclic_nucleotide-gated_cation_channel_beta-1_OS_                                        9.96%    passed     45.57%
+ 194  MetazoaEchinodermataAcanthasterplanci_3781424__CNGA2_MOUSE_Cyclic_nucleotide-gated_olfactory_channel_OS_                                           11.38%    passed     85.32%
+ 195  MetazoaEchinodermataAcanthasterplanci_3782727__CNGA3_BOVIN_Cyclic_nucleotide-gated_cation_channel_alpha-3_OS_                                      56.76%    passed     71.75%
+ 196  MetazoaEchinodermataAcanthasterplanci_3797796__CNGA3_HUMAN_Cyclic_nucleotide-gated_cation_channel_alpha-3_OS_                                      32.01%    passed     73.85%
+ 197  MetazoaEchinodermataAcanthasterplanci_3799992__CNGA3_BOVIN_Cyclic_nucleotide-gated_cation_channel_alpha-3_OS_                                      17.21%    failed      3.56%
+ 198  MetazoaEchinodermataEP00057Strongylocentrotuspurpuratus_3802001__CNG_ICTPU_Cyclic_nucleotide-gated_cation_channel_OS_                               5.97%    failed      2.40%
+ 199  MetazoaEchinodermataEP00057Strongylocentrotuspurpuratus_3809120__CNGA1_CANLF_cGMP-gated_cation_channel_alpha-1_OS_                                 19.20%    passed     47.38%
+ 200  MetazoaEchinodermataEP00057Strongylocentrotuspurpuratus_3809127__CNG3_CHICK_Cyclic_nucleotide-gated_channel_rod_photoreceptor_subunit_alpha_OS_    22.33%    passed     83.67%
+ 201  MetazoaEchinodermataEP00057Strongylocentrotuspurpuratus_3823254__CNGA2_MOUSE_Cyclic_nucleotide-gated_olfactory_channel_OS_                         21.05%    passed     96.66%
+ 202  MetazoaEchinodermataEP00057Strongylocentrotuspurpuratus_3831688__CNG1_CHICK_Cyclic_nucleotide-gated_channel_cone_photoreceptor_subunit_alpha_OS_   61.88%    passed     20.76%
+ 203  MetazoaEchinodermataEP00057Strongylocentrotuspurpuratus_3833373__CNGA2_MOUSE_Cyclic_nucleotide-gated_olfactory_channel_OS_                         12.94%    passed     42.04%
+ 204  MetazoaEchinodermataEP00057Strongylocentrotuspurpuratus_3837285__CNGB1_BOVIN_Cyclic_nucleotide-gated_cation_channel_beta-1_OS_                      5.12%    passed     15.64%
+ 205  MetazoaHemichordataSaccoglossuskowalevskii_4050773__CNGA3_MOUSE_Cyclic_nucleotide-gated_cation_channel_alpha-3_OS_                                  9.96%    failed      2.34%
+ 206  MetazoaHemichordataSaccoglossuskowalevskii_4058999__CNG3_CHICK_Cyclic_nucleotide-gated_channel_rod_photoreceptor_subunit_alpha_OS_                 11.95%    passed     85.11%
+ 207  MetazoaHemichordataSaccoglossuskowalevskii_4059005__CNG3_CHICK_Cyclic_nucleotide-gated_channel_rod_photoreceptor_subunit_alpha_OS_                 30.30%    passed     73.52%
+ 208  MetazoaHemichordataSaccoglossuskowalevskii_4064363__CNGA3_MOUSE_Cyclic_nucleotide-gated_cation_channel_alpha-3_OS_                                 12.09%    passed     52.78%
+ 209  MetazoaHemichordataSaccoglossuskowalevskii_4065452__CNG1_CHICK_Cyclic_nucleotide-gated_channel_cone_photoreceptor_subunit_alpha_OS_                 8.11%    passed     69.97%
+ 210  MetazoaHemichordataSaccoglossuskowalevskii_4067211__CNG1_CHICK_Cyclic_nucleotide-gated_channel_cone_photoreceptor_subunit_alpha_OS_                15.79%    passed     99.30%
+ 211  MetazoaHemichordataSaccoglossuskowalevskii_4080931__CNGB1_BOVIN_Cyclic_nucleotide-gated_cation_channel_beta-1_OS_                                  16.50%    passed     41.32%
+ 212  MetazoaMolluscaEP00106Octopusbimaculoides_4156763__CNGA2_BOVIN_Cyclic_nucleotide-gated_olfactory_channel_OS_                                       11.66%    passed     84.48%
+ 213  MetazoaMolluscaEP00106Octopusbimaculoides_4158922__CNGA3_BOVIN_Cyclic_nucleotide-gated_cation_channel_alpha-3_OS_                                  20.91%    passed     24.79%
+ 214  MetazoaMolluscaEP00106Octopusbimaculoides_4161347__CNGB1_HUMAN_Cyclic_nucleotide-gated_cation_channel_beta-1_OS_                                   13.66%    failed      1.77%
+ 215  MetazoaMolluscaEP00106Octopusbimaculoides_4164434__CNGA3_HUMAN_Cyclic_nucleotide-gated_cation_channel_alpha-3_OS_                                  25.89%    passed      8.82%
+ 216  MetazoaMolluscaEP00106Octopusbimaculoides_4164435__CNGA3_HUMAN_Cyclic_nucleotide-gated_cation_channel_alpha-3_OS_                                  26.32%    passed      7.58%
+ 217  MetazoaMolluscaEP00106Octopusbimaculoides_4177209__CNG1_CHICK_Cyclic_nucleotide-gated_channel_cone_photoreceptor_subunit_alpha_OS_                 22.48%    passed     38.59%
+ 218  MetazoaMolluscaLottiagigantea_4205805__CNG1_CHICK_Cyclic_nucleotide-gated_channel_cone_photoreceptor_subunit_alpha_OS_                             26.46%    failed      1.69%
+ 219  MetazoaMolluscaLottiagigantea_4216991__CNGA3_HUMAN_Cyclic_nucleotide-gated_cation_channel_alpha-3_OS_                                              84.92%    passed      6.17%
+ 220  MetazoaMolluscaLottiagigantea_4217007__CNG1_CHICK_Cyclic_nucleotide-gated_channel_cone_photoreceptor_subunit_alpha_OS_                             25.32%    passed     89.91%
+ 221  MetazoaMolluscaLottiagigantea_4218551__CNGA3_HUMAN_Cyclic_nucleotide-gated_cation_channel_alpha-3_OS_                                              74.82%    passed     89.58%
+ 222  MetazoaMolluscaLottiagigantea_4223531__CNG3_CHICK_Cyclic_nucleotide-gated_channel_rod_photoreceptor_subunit_alpha_OS_                              69.56%    passed     84.52%
+ 223  MetazoaMolluscaLottiagigantea_4223628__CNGB1_HUMAN_Cyclic_nucleotide-gated_cation_channel_beta-1_OS_                                               34.42%    failed      2.31%
+ 224  MetazoaMolluscaLottiagigantea_4223920__CNGA3_HUMAN_Cyclic_nucleotide-gated_cation_channel_alpha-3_OS_                                              42.96%    passed     88.76%
+ 225  MetazoaNematodaCaenorhabditiselegans_4305910__CNGA_DROME_Cyclic_nucleotide-gated_cation_channel_subunit_A_OS_                                      23.33%    passed     30.76%
+ 226  MetazoaNematodaCaenorhabditiselegans_4307500__CNGB3_CANLF_Cyclic_nucleotide-gated_cation_channel_beta-3_OS_                                        17.07%    passed     67.72%
+ 227  MetazoaNematodaCaenorhabditiselegans_4311612__CNGA2_HUMAN_Cyclic_nucleotide-gated_olfactory_channel_OS_                                            23.47%    failed      0.45%
+ 228  MetazoaNematodaCaenorhabditiselegans_4313698__CNG_CAEEL_Cyclic_nucleotide-gated_cation_channel_OS_                                                 13.80%    passed     52.12%
+ 229  MetazoaNematodaCaenorhabditiselegans_4319677__CNGA2_RAT_Cyclic_nucleotide-gated_olfactory_channel_OS_                                              28.17%    passed     15.06%
+ 230  MetazoaNematodaCaenorhabditiselegans_4321997__CNGA2_HUMAN_Cyclic_nucleotide-gated_olfactory_channel_OS_                                            13.37%    passed     51.99%
+ 231  MetazoaNematodaLoaloa_4406689__CNG_CAEEL_Cyclic_nucleotide-gated_cation_channel_OS_                                                                16.36%    passed     11.56%
+ 232  MetazoaNematodaLoaloa_4411311__CNGB3_MOUSE_Cyclic_nucleotide-gated_cation_channel_beta-3_OS_                                                       26.46%    passed     79.62%
+ 233  MetazoaNematodaLoaloa_4415143__CNGA3_MOUSE_Cyclic_nucleotide-gated_cation_channel_alpha-3_OS_                                                      47.51%    passed     17.77%
+ 234  MetazoaNematodaPristionchuspacificus_4417605__CNGA1_HUMAN_cGMP-gated_cation_channel_alpha-1_OS_                                                    14.79%    passed     79.52%
+ 235  MetazoaNematodaPristionchuspacificus_4418483__CNG_CAEEL_Cyclic_nucleotide-gated_cation_channel_OS_                                                 26.74%    passed     93.56%
+ 236  MetazoaNematodaPristionchuspacificus_4420590__CNGB3_MOUSE_Cyclic_nucleotide-gated_cation_channel_beta-3_OS_                                        15.36%    passed     41.69%
+ 237  MetazoaNematodaPristionchuspacificus_4436916__CNG_ICTPU_Cyclic_nucleotide-gated_cation_channel_OS_                                                 28.45%    failed      1.10%
+ 238  MetazoaPlacozoaEP00114TrichoplaxspH2_4513041__CNGA3_HUMAN_Cyclic_nucleotide-gated_cation_channel_alpha-3_OS_                                       14.22%    passed     13.28%
+ 239  MetazoaPlacozoaHoilungiahongkongensis_4554104__CNG3_CHICK_Cyclic_nucleotide-gated_channel_rod_photoreceptor_subunit_alpha_OS_                      62.30%    failed      3.32%
+ 240  MetazoaPlacozoaHoilungiahongkongensis_4554106__CNG3_CHICK_Cyclic_nucleotide-gated_channel_rod_photoreceptor_subunit_alpha_OS_                      75.53%    passed     81.57%
+ 241  MetazoaPoriferaAmphimedonqueenslandica_4703886__CNGA3_HUMAN_Cyclic_nucleotide-gated_cation_channel_alpha-3_OS_                                     10.95%    passed     57.99%
+ 242  MetazoaPoriferaAmphimedonqueenslandica_4708755__CNGA3_MOUSE_Cyclic_nucleotide-gated_cation_channel_alpha-3_OS_                                     17.07%    failed      4.09%
+ 243  MetazoaPoriferaAmphimedonqueenslandica_4708950__CNGB3_MOUSE_Cyclic_nucleotide-gated_cation_channel_beta-3_OS_                                      28.02%    failed      1.35%
+ 244  MetazoaPoriferaEP00118Oscarellapearsei_4812521__CNG_ICTPU_Cyclic_nucleotide-gated_cation_channel_OS_                                                6.40%    passed     97.29%
+ 245  MetazoaPoriferaEP00118Oscarellapearsei_4822200__CNG1_CHICK_Cyclic_nucleotide-gated_channel_cone_photoreceptor_subunit_alpha_OS_                     8.82%    failed      3.09%
+ 246  MetazoaPoriferaEP00118Oscarellapearsei_4828452__CNGA3_HUMAN_Cyclic_nucleotide-gated_cation_channel_alpha-3_OS_                                     79.09%    passed      8.88%
+ 247  MetazoaPoriferaEP00118Oscarellapearsei_4828453__CNGA3_HUMAN_Cyclic_nucleotide-gated_cation_channel_alpha-3_OS_                                     76.24%    passed     41.59%
+ 248  MetazoaPoriferaEP00118Oscarellapearsei_4828454__CNG3_CHICK_Cyclic_nucleotide-gated_channel_rod_photoreceptor_subunit_alpha_OS_                     14.94%    passed     71.82%
+ 249  MetazoaPoriferaEP00118Oscarellapearsei_4828455__CNG3_CHICK_Cyclic_nucleotide-gated_channel_rod_photoreceptor_subunit_alpha_OS_                     50.21%    passed     53.93%
+ 250  MetazoaPoriferaEP00118Oscarellapearsei_4836936__CNGA2_MOUSE_Cyclic_nucleotide-gated_olfactory_channel_OS_                                          13.94%    passed     64.31%
+ 251  MetazoaPoriferaEphydatiamuelleri_4911283__CNGA2_RABIT_Cyclic_nucleotide-gated_olfactory_channel_OS_                                                12.94%    passed     76.08%
+ 252  MetazoaPoriferaEphydatiamuelleri_4912947__CNGA3_HUMAN_Cyclic_nucleotide-gated_cation_channel_alpha-3_OS_                                           22.48%    passed     57.02%
+ 253  MetazoaPoriferaEphydatiamuelleri_4924296__CNGA3_MOUSE_Cyclic_nucleotide-gated_cation_channel_alpha-3_OS_                                           14.79%    passed     99.67%
+ 254  MetazoaPoriferaEphydatiamuelleri_4924297__CNGA3_HUMAN_Cyclic_nucleotide-gated_cation_channel_alpha-3_OS_                                           15.50%    passed     83.08%
+ 255  MetazoaPoriferaHaliclonatubifera_4961804__CNG3_CHICK_Cyclic_nucleotide-gated_channel_rod_photoreceptor_subunit_alpha_OS_                           25.18%    passed     54.41%
+ 256  MetazoaPoriferaHaliclonatubifera_4963106__CNGA3_HUMAN_Cyclic_nucleotide-gated_cation_channel_alpha-3_OS_                                           73.54%    passed     52.38%
+ 257  MetazoaPoriferaHaliclonatubifera_4965406__CNGA1_MOUSE_cGMP-gated_cation_channel_alpha-1_OS_                                                        65.29%    passed     45.27%
+ 258  MetazoaPoriferaHaliclonatubifera_4968398__CNGA3_MOUSE_Cyclic_nucleotide-gated_cation_channel_alpha-3_OS_                                           20.63%    passed     73.75%
+ 259  MetazoaPoriferaLeucosoleniacomplicata_4991210__CNGA3_MOUSE_Cyclic_nucleotide-gated_cation_channel_alpha-3_OS_                                      66.43%    failed      3.06%
+ 260  MetazoaPoriferaLeucosoleniacomplicata_5004779__CNG1_CHICK_Cyclic_nucleotide-gated_channel_cone_photoreceptor_subunit_alpha_OS_                     20.20%    passed     32.57%
+ 261  MetazoaPoriferaStylissacarteri_5073460__CNGB1_BOVIN_Cyclic_nucleotide-gated_cation_channel_beta-1_OS_                                              75.11%    failed      0.03%
+ 262  MetazoaPoriferaStylissacarteri_5084257__CNG3_CHICK_Cyclic_nucleotide-gated_channel_rod_photoreceptor_subunit_alpha_OS_                             65.01%    passed      5.37%
+ 263  MetazoaPoriferaStylissacarteri_5085840__CNG3_CHICK_Cyclic_nucleotide-gated_channel_rod_photoreceptor_subunit_alpha_OS_                             21.05%    passed     80.63%
+ 264  MetazoaPoriferaStylissacarteri_5086370__CNGA3_BOVIN_Cyclic_nucleotide-gated_cation_channel_alpha-3_OS_                                             17.64%    failed      3.81%
+ 265  MetazoaPoriferaStylissacarteri_5097262__CNG1_CHICK_Cyclic_nucleotide-gated_channel_cone_photoreceptor_subunit_alpha_OS_                            75.11%    passed     45.57%
+ 266  MetazoaPoriferaSyconciliatum_5120060__CNG1_CHICK_Cyclic_nucleotide-gated_channel_cone_photoreceptor_subunit_alpha_OS_                               1.56%    failed      0.00%
+ 267  MetazoaTardigradaRamazzotiusvarieornatus_5274503__CNGA3_HUMAN_Cyclic_nucleotide-gated_cation_channel_alpha-3_OS_                                   11.81%    passed     30.45%
+ 268  MetazoaTardigradaRamazzotiusvarieornatus_5278384__CNGB3_MOUSE_Cyclic_nucleotide-gated_cation_channel_beta-3_OS_                                     9.53%    passed     35.89%
+ 269  MetazoaTardigradaRamazzotiusvarieornatus_5278888__CNGA3_HUMAN_Cyclic_nucleotide-gated_cation_channel_alpha-3_OS_                                   40.97%    passed     59.27%
+ 270  MetazoaTardigradaRamazzotiusvarieornatus_5278915__CNGB1_HUMAN_Cyclic_nucleotide-gated_cation_channel_beta-1_OS_                                    18.92%    passed     45.72%
+ 271  MetazoaTardigradaRamazzotiusvarieornatus_5279497__CNGA2_MOUSE_Cyclic_nucleotide-gated_olfactory_channel_OS_                                        28.17%    passed     76.17%
+ 272  MetazoaTardigradaRamazzotiusvarieornatus_5280133__CNG_CAEEL_Cyclic_nucleotide-gated_cation_channel_OS_                                             26.03%    passed     49.96%
+ 273  MetazoaTardigradaRamazzotiusvarieornatus_5280262__CNGA2_MOUSE_Cyclic_nucleotide-gated_olfactory_channel_OS_                                        25.32%    passed     63.33%
+ 274  MetazoaTardigradaRamazzotiusvarieornatus_5280712__CNGB1_HUMAN_Cyclic_nucleotide-gated_cation_channel_beta-1_OS_                                    36.70%    passed     43.31%
+ 275  MetazoaTardigradaRamazzotiusvarieornatus_5280887__CNGA3_MOUSE_Cyclic_nucleotide-gated_cation_channel_alpha-3_OS_                                   31.72%    passed     92.45%
+ 276  MetazoaTardigradaRamazzotiusvarieornatus_5280996__CNGA3_MOUSE_Cyclic_nucleotide-gated_cation_channel_alpha-3_OS_                                   69.13%    failed      1.08%
+ 277  MetazoaTardigradaRamazzotiusvarieornatus_5281478__CNGA2_MOUSE_Cyclic_nucleotide-gated_olfactory_channel_OS_                                        46.80%    passed     30.37%
+ 278  MetazoaTardigradaRamazzotiusvarieornatus_5281572__CNGB1_HUMAN_Cyclic_nucleotide-gated_cation_channel_beta-1_OS_                                     5.12%    failed      0.49%
+ 279  MetazoaTardigradaRamazzotiusvarieornatus_5283421__CNGA3_MOUSE_Cyclic_nucleotide-gated_cation_channel_alpha-3_OS_                                   19.49%    passed     83.27%
+ 280  MetazoaTardigradaRamazzotiusvarieornatus_5284444__CNGA3_MOUSE_Cyclic_nucleotide-gated_cation_channel_alpha-3_OS_                                   26.88%    failed      4.31%
+ 281  MetazoaTardigradaRamazzotiusvarieornatus_5285267__CNGA1_BOVIN_cGMP-gated_cation_channel_alpha-1_OS_                                                 9.53%    failed      2.96%
+ 282  MetazoaTardigradaRamazzotiusvarieornatus_5285345__CNGA1_BOVIN_cGMP-gated_cation_channel_alpha-1_OS_                                                43.81%    passed     38.73%
+ 283  MetazoaTardigradaRamazzotiusvarieornatus_5285870__CNGA3_MOUSE_Cyclic_nucleotide-gated_cation_channel_alpha-3_OS_                                   14.79%    passed     47.21%
+ 284  MetazoaTardigradaRamazzotiusvarieornatus_5286344__CNGA3_MOUSE_Cyclic_nucleotide-gated_cation_channel_alpha-3_OS_                                   31.72%    passed     55.63%
+ 285  MetazoaTardigradaRamazzotiusvarieornatus_5295295__CNGA_DROME_Cyclic_nucleotide-gated_cation_channel_subunit_A_OS_                                  31.58%    failed      0.19%
+ 286  MetazoaUrochordataEP00059Cionaintestinalis_5336236__CNGA2_RABIT_Cyclic_nucleotide-gated_olfactory_channel_OS_                                      14.79%    failed      1.51%
+ 287  MetazoaUrochordataEP00059Cionaintestinalis_5336904__CNG1_CHICK_Cyclic_nucleotide-gated_channel_cone_photoreceptor_subunit_alpha_OS_                10.53%    passed     79.48%
+ 288  MetazoaUrochordataEP00059Cionaintestinalis_5337414__CNGB1_BOVIN_Cyclic_nucleotide-gated_cation_channel_beta-1_OS_                                  24.32%    passed     31.72%
+ 289  MetazoaUrochordataEP00059Cionaintestinalis_5344729__CNGA1_CANLF_cGMP-gated_cation_channel_alpha-1_OS_                                              11.81%    passed     47.76%
+ 290  MetazoaUrochordataEP00059Cionaintestinalis_5344867__CNGA3_BOVIN_Cyclic_nucleotide-gated_cation_channel_alpha-3_OS_                                 15.65%    passed     92.88%
+ 291  MetazoaUrochordataEP00059Cionaintestinalis_5354709__CNG1_CHICK_Cyclic_nucleotide-gated_channel_cone_photoreceptor_subunit_alpha_OS_                10.53%    passed     79.48%
+ 292  MetazoaUrochordataEP00059Cionaintestinalis_5354710__CNG1_CHICK_Cyclic_nucleotide-gated_channel_cone_photoreceptor_subunit_alpha_OS_                13.09%    passed     76.23%
+ 293  MetazoaVertebrateDaniorerio_5411258__CNG_ICTPU_Cyclic_nucleotide-gated_cation_channel_OS_                                                          14.65%    passed     65.85%
+ 294  MetazoaVertebrateDaniorerio_5414220__CNGB3_CANLF_Cyclic_nucleotide-gated_cation_channel_beta-3_OS_                                                 19.20%    failed      2.34%
+ 295  MetazoaVertebrateDaniorerio_5417213__CNGB1_BOVIN_Cyclic_nucleotide-gated_cation_channel_beta-1_OS_                                                 16.79%    passed     14.15%
+ 296  MetazoaVertebrateDaniorerio_5418257__CNGB3_CANLF_Cyclic_nucleotide-gated_cation_channel_beta-3_OS_                                                 19.91%    failed      3.42%
+ 297  MetazoaVertebrateDaniorerio_5418502__CNG_ICTPU_Cyclic_nucleotide-gated_cation_channel_OS_                                                          12.23%    passed     81.40%
+ 298  MetazoaVertebrateDaniorerio_5421369__CNGA1_RAT_cGMP-gated_cation_channel_alpha-1_OS_                                                               13.37%    failed      0.00%
+ 299  MetazoaVertebrateDaniorerio_5422528__CNGA3_HUMAN_Cyclic_nucleotide-gated_cation_channel_alpha-3_OS_                                                20.06%    failed      1.75%
+ 300  MetazoaVertebrateDaniorerio_5424751__CNGA4_HUMAN_Cyclic_nucleotide-gated_cation_channel_alpha-4_OS_                                                18.35%    passed     18.15%
+ 301  MetazoaVertebrateDaniorerio_5425208__CNG_ICTPU_Cyclic_nucleotide-gated_cation_channel_OS_                                                          24.75%    passed     25.58%
+ 302  MetazoaVertebrateDaniorerio_5426564__CNGA3_HUMAN_Cyclic_nucleotide-gated_cation_channel_alpha-3_OS_                                                11.81%    passed      5.12%
+ 303  MetazoaVertebrateDaniorerio_5430467__CNG_ICTPU_Cyclic_nucleotide-gated_cation_channel_OS_                                                          11.81%    passed     50.26%
+ 304  MetazoaVertebrateDaniorerio_5436366__CNGB1_BOVIN_Cyclic_nucleotide-gated_cation_channel_beta-1_OS_                                                 12.94%    passed     21.07%
+ 305  MetazoaVertebrateDaniorerio_5436646__CNG3_CHICK_Cyclic_nucleotide-gated_channel_rod_photoreceptor_subunit_alpha_OS_                                15.65%    failed      0.04%
+ 306  MetazoaVertebrateEptatretusburgeri_6382855__CNGA3_MOUSE_Cyclic_nucleotide-gated_cation_channel_alpha-3_OS_                                         14.79%    passed     99.88%
+ 307  MetazoaVertebrateEptatretusburgeri_6384758__CNGA3_MOUSE_Cyclic_nucleotide-gated_cation_channel_alpha-3_OS_                                         76.81%    passed     47.37%
+ 308  MetazoaVertebrateEptatretusburgeri_6391111__CNGB1_BOVIN_Cyclic_nucleotide-gated_cation_channel_beta-1_OS_                                          19.35%    passed     32.98%
+ 309  MetazoaVertebrateEptatretusburgeri_6394986__CNGA3_MOUSE_Cyclic_nucleotide-gated_cation_channel_alpha-3_OS_                                         23.61%    passed     97.29%
+ 310  MetazoaVertebrateHomosapiens_6455720__CNGA1_HUMAN_cGMP-gated_cation_channel_alpha-1_OS_                                                            13.51%    failed      0.04%
+ 311  MetazoaVertebrateHomosapiens_6458524__CNGB1_HUMAN_Cyclic_nucleotide-gated_cation_channel_beta-1_OS_                                                11.52%    failed      3.75%
+ 312  MetazoaVertebrateHomosapiens_6459084__CNGA2_HUMAN_Cyclic_nucleotide-gated_olfactory_channel_OS_                                                    13.37%    passed     51.67%
+ 313  MetazoaVertebrateHomosapiens_6459085__CNGA3_HUMAN_Cyclic_nucleotide-gated_cation_channel_alpha-3_OS_                                               12.52%    passed     90.64%
+ 314  MetazoaVertebrateHomosapiens_6462594__CNGA4_HUMAN_Cyclic_nucleotide-gated_cation_channel_alpha-4_OS_                                               20.63%    passed     67.90%
+ 315  MetazoaVertebrateHomosapiens_6468569__CNGB3_HUMAN_Cyclic_nucleotide-gated_cation_channel_beta-3_OS_                                                16.50%    passed     36.91%
+ 316  MetazoaVertebrateMusmusculus_6529342__CNGB1_HUMAN_Cyclic_nucleotide-gated_cation_channel_beta-1_OS_                                                11.66%    failed      0.60%
+ 317  MetazoaVertebrateMusmusculus_6533036__CNGA1_MOUSE_cGMP-gated_cation_channel_alpha-1_OS_                                                            13.51%    failed      0.10%
+ 318  MetazoaVertebrateMusmusculus_6536167__CNGA4_MOUSE_Cyclic_nucleotide-gated_cation_channel_alpha-4_OS_                                               20.63%    passed     79.24%
+ 319  MetazoaVertebrateMusmusculus_6537649__CNGA2_MOUSE_Cyclic_nucleotide-gated_olfactory_channel_OS_                                                    13.37%    passed     73.56%
+ 320  MetazoaVertebrateMusmusculus_6547718__CNGA3_MOUSE_Cyclic_nucleotide-gated_cation_channel_alpha-3_OS_                                               15.50%    passed     89.89%
+ 321  MetazoaVertebrateMusmusculus_6547719__CNGB3_MOUSE_Cyclic_nucleotide-gated_cation_channel_beta-3_OS_                                                21.62%    passed     45.11%
+ 322  RhizariaEP00473Plasmodiophorabrassicae_22116237__CNG_ICTPU_Cyclic_nucleotide-gated_cation_channel_OS_                                              14.94%    failed      1.80%
+ 323  RhizariaEP00473Plasmodiophorabrassicae_22117548__CNGA2_MOUSE_Cyclic_nucleotide-gated_olfactory_channel_OS_                                         24.18%    passed     86.11%
+ 324  RhizariaEP00473Plasmodiophorabrassicae_22119371__CNG1_CHICK_Cyclic_nucleotide-gated_channel_cone_photoreceptor_subunit_alpha_OS_                    8.96%    failed      1.32%
+ 325  RhizariaEP00473Plasmodiophorabrassicae_22120439__CNGA3_MOUSE_Cyclic_nucleotide-gated_cation_channel_alpha-3_OS_                                    18.35%    passed     10.99%
+ 326  RhodelphisEP00736Rhodelphismarinus_22797166__HCN4_RABIT_Potassium/sodium_hyperpolarization-activated_cyclic_nucleotide-gated_channel_4_OS_         25.18%    passed     43.80%
+ 327  RhodelphisEP00736Rhodelphismarinus_22803332__HCN4_HUMAN_Potassium/sodium_hyperpolarization-activated_cyclic_nucleotide-gated_channel_4_OS_         16.64%    passed     14.55%
+ 328  RhodelphisEP00736Rhodelphismarinus_22803683__CNGA3_HUMAN_Cyclic_nucleotide-gated_cation_channel_alpha-3_OS_                                         5.26%    failed      0.00%
+ 329  RhodelphisEP00736Rhodelphismarinus_22805056__CNG1_CHICK_Cyclic_nucleotide-gated_channel_cone_photoreceptor_subunit_alpha_OS_                        6.40%    failed      0.04%
+ 330  RhodelphisEP00736Rhodelphismarinus_22809853__CNGA1_HUMAN_cGMP-gated_cation_channel_alpha-1_OS_                                                     20.77%    passed     46.75%
+ 331  RigifilidaEP00004Rigifilaramosa_23122363__CNGA3_HUMAN_Cyclic_nucleotide-gated_cation_channel_alpha-3_OS_                                           33.29%    passed      7.71%
+ 332  RigifilidaEP00004Rigifilaramosa_23122364__CNGA2_HUMAN_Cyclic_nucleotide-gated_olfactory_channel_OS_                                                45.66%    passed      6.28%
+ 333  StramenopilesPhytophthorainfestansUP000006643_26369022__CNG1_CHICK_Cyclic_nucleotide-gated_channel_cone_photoreceptor_subunit_alpha_OS_            50.78%    passed     66.20%
+ 334  StramenopilesPhytophthorainfestansUP000006643_26373682__CNG1_CHICK_Cyclic_nucleotide-gated_channel_cone_photoreceptor_subunit_alpha_OS_            30.44%    passed     89.48%
+ 335  StramenopilesPhytophthorainfestansUP000006643_26383502__CNG1_CHICK_Cyclic_nucleotide-gated_channel_cone_photoreceptor_subunit_alpha_OS_            25.18%    passed     22.07%
+WARNING: 60 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                                                                                                                              30.53%  70 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: CollodictyonidaeEP00002Diphylleiarotans_11654321__CNG_ICTPU_Cyclic_nucleotide-gated_cation_channel_OS_ is identical to CollodictyonidaeEP00002Diphylleiarotans_11654316__CNG_ICTPU_Cyclic_nucleotide-gated_cation_channel_OS_ but kept for subsequent analysis
+NOTE: CollodictyonidaeEP00002Diphylleiarotans_11656162__CNG3_CHICK_Cyclic_nucleotide-gated_channel_rod_photoreceptor_subunit_alpha_OS_ is identical to CollodictyonidaeEP00002Diphylleiarotans_11656161__CNG3_CHICK_Cyclic_nucleotide-gated_channel_rod_photoreceptor_subunit_alpha_OS_ but kept for subsequent analysis
+NOTE: MetazoaUrochordataEP00059Cionaintestinalis_5354709__CNG1_CHICK_Cyclic_nucleotide-gated_channel_cone_photoreceptor_subunit_alpha_OS_ is identical to MetazoaUrochordataEP00059Cionaintestinalis_5336904__CNG1_CHICK_Cyclic_nucleotide-gated_channel_cone_photoreceptor_subunit_alpha_OS_ but kept for subsequent analysis
+NOTE: 2 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: CollodictyonidaeEP00002Diphylleiarotans_11656164__CNG3_CHICK_Cyclic_nucleotide-gated_channel_rod_photoreceptor_subunit_alpha_OS_ (identical to CollodictyonidaeEP00002Diphylleiarotans_11656161__CNG3_CHICK_Cyclic_nucleotide-gated_channel_rod_photoreceptor_subunit_alpha_OS_) is ignored but added at the end
+NOTE: CollodictyonidaeEP00002Diphylleiarotans_11656165__CNG3_CHICK_Cyclic_nucleotide-gated_channel_rod_photoreceptor_subunit_alpha_OS_ (identical to CollodictyonidaeEP00002Diphylleiarotans_11656161__CNG3_CHICK_Cyclic_nucleotide-gated_channel_rod_photoreceptor_subunit_alpha_OS_) is ignored but added at the end
+Alignment was printed to CNG_a_and_b.doublefiltered.fasta.annot.clean.mafft.trimal.UFB.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to CNG_a_and_b.doublefiltered.fasta.annot.clean.mafft.trimal.UFB.uniqueseq.phy
+
+Creating fast initial parsimony tree by random order stepwise addition...
+8.519 seconds, parsimony score: 52768 (based on 703 sites)
+Measuring multi-threading efficiency up to 10 CPU cores
+Increase to 10 rounds for branch lengths
+3 trees examined
+Threads: 1 / Time: 13.913 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -330486
+Threads: 2 / Time: 7.365 sec / Speedup: 1.889 / Efficiency: 94% / LogL: -330486
+Threads: 3 / Time: 5.184 sec / Speedup: 2.684 / Efficiency: 89% / LogL: -330486
+Threads: 4 / Time: 4.114 sec / Speedup: 3.382 / Efficiency: 85% / LogL: -330486
+Threads: 5 / Time: 3.840 sec / Speedup: 3.623 / Efficiency: 72% / LogL: -330486
+Threads: 6 / Time: 3.423 sec / Speedup: 4.064 / Efficiency: 68% / LogL: -330486
+Threads: 7 / Time: 3.150 sec / Speedup: 4.417 / Efficiency: 63% / LogL: -330486
+Threads: 8 / Time: 2.938 sec / Speedup: 4.735 / Efficiency: 59% / LogL: -330486
+Threads: 9 / Time: 2.800 sec / Speedup: 4.969 / Efficiency: 55% / LogL: -330486
+Threads: 10 / Time: 2.748 sec / Speedup: 5.063 / Efficiency: 51% / LogL: -330486
+BEST NUMBER OF THREADS: 10
+
+Perform fast likelihood tree search using LG+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -229244.041
+Optimal log-likelihood: -229243.687
+Gamma shape alpha: 1.545
+Parameters optimization took 1 rounds (0.235 sec)
+Time for fast ML tree search: 4.748 seconds
+
+NOTE: ModelFinder requires 375 MB RAM!
+ModelFinder will test up to 598 protein models (sample size: 703) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  Blosum62      238706.505   663 478739.011   501315.011   481759.213
+  2  Blosum62+I    238706.483   664 478740.967   501980.967   481765.724
+  3  Blosum62+G4   231431.344   664 464190.687   487430.687   467215.444
+  4  Blosum62+I+G4 231431.314   665 464192.628   488132.628   467221.940
+  5  Blosum62+R2   232954.780   665 467239.560   491179.560   470268.872
+  6  Blosum62+R3   231739.955   667 464813.910   490274.253   467852.333
+  7  Blosum62+R4   231365.134   669 464068.267   491233.722   467115.801
+  8  Blosum62+R5   231174.475   671 463690.949   492782.046   466747.594
+  9  Blosum62+R6   231106.734   673 463559.468   494842.364   466625.223
+ 10  Blosum62+R7   231073.042   675 463496.085   497296.085   466570.951
+ 11  Blosum62+R8   231044.654   677 463443.308   500163.788   466527.285
+ 12  Blosum62+R9   231034.578   679 463427.156   503576.721   466520.243
+ 13  Blosum62+R10  231031.590   681 463425.180   507657.751   466527.378
+ 14  Blosum62+F    238902.994   682 479169.987   525750.587   482276.741
+ 15  Blosum62+F+I  238902.984   683 479171.967   528347.967   482283.276
+ 16  Blosum62+F+G4 231406.878   683 464179.756   513355.756   467291.065
+ 17  Blosum62+F+I+G4 231406.883   684 464181.766   516241.766   467297.630
+ 18  Blosum62+F+R2 232987.151   684 467342.301   519402.301   470458.166
+ 19  Blosum62+F+R3 231727.729   686 464827.459   523737.709   467952.434
+ 20  Blosum62+F+R4 231346.629   688 464069.259   531788.116   467203.344
+ 21  Blosum62+F+R5 231143.946   690 463667.893   543132.893   466811.089
+ 22  Blosum62+F+R6 231076.502   692 463537.004   559448.204   466689.311
+ 23  Blosum62+F+R7 231040.098   694 463468.196   584050.696   466629.614
+ 24  Blosum62+F+R8 231009.991   696 463411.983   625115.983   466582.511
+ 25  Blosum62+F+R9 231002.244   698 463400.488   707351.488   466580.127
+ 26  Blosum62+F+R10 230997.836   700 463395.672   954095.672   466584.421
+ 27  cpREV         239566.530   663 480459.059   503035.059   483479.261
+ 28  cpREV+I       239566.502   664 480461.005   503701.005   483485.762
+ 29  cpREV+G4      231809.479   664 464946.958   488186.958   467971.715
+ 30  cpREV+I+G4    231809.478   665 464948.956   488888.956   467978.269
+ 31  cpREV+R2      233578.087   665 468486.174   492426.174   471515.486
+ 32  cpREV+R3      232261.199   667 465856.399   491316.741   468894.822
+ 33  cpREV+R4      231765.644   669 464869.287   492034.742   467916.821
+ 34  cpREV+R5      231590.958   671 464523.916   493615.013   467580.560
+ 35  cpREV+R6      231477.698   673 464301.396   495584.293   467367.151
+ 36  cpREV+R7      231445.025   675 464240.051   498040.051   467314.917
+ 37  cpREV+R8      231425.956   677 464205.913   500926.393   467289.890
+ 38  cpREV+R9      231399.863   679 464157.727   504307.292   467250.814
+ 39  cpREV+R10     231394.925   681 464151.851   508384.422   467254.049
+ 40  cpREV+F       239624.255   682 480612.511   527193.111   483719.264
+ 41  cpREV+F+I     239624.229   683 480614.457   529790.457   483725.766
+ 42  cpREV+F+G4    231693.072   683 464752.143   513928.143   467863.452
+ 43  cpREV+F+I+G4  231693.054   684 464754.109   516814.109   467869.973
+ 44  cpREV+F+R2    233493.762   684 468355.523   520415.523   471471.387
+ 45  cpREV+F+R3    232150.626   686 465673.252   524583.502   468798.227
+ 46  cpREV+F+R4    231650.341   688 464676.683   532395.540   467810.768
+ 47  cpREV+F+R5    231477.638   690 464335.276   543800.276   467478.472
+ 48  cpREV+F+R6    231354.269   692 464092.538   560003.738   467244.845
+ 49  cpREV+F+R7    231315.104   694 464018.208   584600.708   467179.626
+ 50  cpREV+F+R8    231299.501   696 463991.001   625695.001   467161.530
+ 51  cpREV+F+R9    231270.534   698 463937.068   707888.068   467116.707
+ 52  cpREV+F+R10   231266.381   700 463932.762   954632.762   467121.512
+ 53  Dayhoff       242801.266   663 486928.532   509504.532   489948.733
+ 54  Dayhoff+I     242801.240   664 486930.481   510170.481   489955.238
+ 55  Dayhoff+G4    234031.842   664 469391.685   492631.685   472416.442
+ 56  Dayhoff+I+G4  234031.855   665 469393.710   493333.710   472423.022
+ 57  Dayhoff+R2    235942.832   665 473215.663   497155.663   476244.975
+ 58  Dayhoff+R3    234539.310   667 470412.621   495872.964   473451.044
+ 59  Dayhoff+R4    233970.309   669 469278.619   496444.073   472326.153
+ 60  Dayhoff+R5    233739.892   671 468821.784   497912.881   471878.429
+ 61  Dayhoff+R6    233588.374   673 468522.748   499805.644   471588.503
+ 62  Dayhoff+R7    233556.206   675 468462.411   502262.411   471537.277
+ 63  Dayhoff+R8    233535.007   677 468424.013   505144.493   471507.990
+ 64  Dayhoff+R9    233507.706   679 468373.413   508522.978   471466.500
+ 65  Dayhoff+R10   233502.728   681 468367.457   512600.028   471469.655
+ 66  Dayhoff+F     241040.052   682 483444.105   530024.705   486550.858
+ 67  Dayhoff+F+I   241040.024   683 483446.047   532622.047   486557.356
+ 68  Dayhoff+F+G4  232103.663   683 465573.326   514749.326   468684.635
+ 69  Dayhoff+F+I+G4 232103.655   684 465575.310   517635.310   468691.174
+ 70  Dayhoff+F+R2  234016.329   684 469400.658   521460.658   472516.523
+ 71  Dayhoff+F+R3  232609.477   686 466590.955   525501.205   469715.930
+ 72  Dayhoff+F+R4  232053.780   688 465483.560   533202.417   468617.646
+ 73  Dayhoff+F+R5  231823.116   690 465026.231   544491.231   468169.428
+ 74  Dayhoff+F+R6  231699.486   692 464782.972   560694.172   467935.279
+ 75  Dayhoff+F+R7  231679.378   694 464746.756   585329.256   467908.174
+ 76  Dayhoff+F+R8  231643.607   696 464679.214   626383.214   467849.742
+ 77  Dayhoff+F+R9  231631.677   698 464659.353   708610.353   467838.993
+ 78  Dayhoff+F+R10 231622.160   700 464644.321   955344.321   467833.071
+ 79  DCMut         242785.433   663 486896.866   509472.866   489917.067
+ 80  DCMut+I       242785.408   664 486898.816   510138.816   489923.573
+ 81  DCMut+G4      234033.227   664 469394.454   492634.454   472419.211
+ 82  DCMut+I+G4    234033.239   665 469396.478   493336.478   472425.790
+ 83  DCMut+R2      235939.300   665 473208.600   497148.600   476237.912
+ 84  DCMut+R3      234539.234   667 470412.467   495872.810   473450.890
+ 85  DCMut+R4      233971.553   669 469281.107   496446.561   472328.641
+ 86  DCMut+R5      233740.580   671 468823.160   497914.257   471879.805
+ 87  DCMut+R6      233590.370   673 468526.741   499809.637   471592.496
+ 88  DCMut+R7      233558.326   675 468466.653   502266.653   471541.519
+ 89  DCMut+R8      233536.993   677 468427.987   505148.467   471511.963
+ 90  DCMut+R9      233510.267   679 468378.535   508528.100   471471.622
+ 91  DCMut+R10     233505.019   681 468372.038   512604.610   471474.236
+ 92  DCMut+F       241025.417   682 483414.834   529995.434   486521.587
+ 93  DCMut+F+I     241025.386   683 483416.772   532592.772   486528.081
+ 94  DCMut+F+G4    232105.608   683 465577.216   514753.216   468688.524
+ 95  DCMut+F+I+G4  232105.600   684 465579.200   517639.200   468695.064
+ 96  DCMut+F+R2    234014.821   684 469397.642   521457.642   472513.506
+ 97  DCMut+F+R3    232609.382   686 466590.765   525501.015   469715.739
+ 98  DCMut+F+R4    232055.762   688 465487.525   533206.382   468621.610
+ 99  DCMut+F+R5    231825.003   690 465030.007   544495.007   468173.203
+100  DCMut+F+R6    231702.261   692 464788.523   560699.723   467940.830
+101  DCMut+F+R7    231682.056   694 464752.112   585334.612   467913.530
+102  DCMut+F+R8    231646.474   696 464684.948   626388.948   467855.477
+103  DCMut+F+R9    231634.553   698 464665.106   708616.106   467844.745
+104  DCMut+F+R10   231624.919   700 464649.838   955349.838   467838.588
+105  FLU           245850.219   663 493026.437   515602.437   496046.639
+106  FLU+I         245850.181   664 493028.363   516268.363   496053.120
+107  FLU+G4        235772.149   664 472872.299   496112.299   475897.056
+108  FLU+I+G4      235772.148   665 472874.297   496814.297   475903.609
+109  FLU+R2        237991.696   665 477313.392   501253.392   480342.704
+110  FLU+R3        236366.807   667 474067.614   499527.957   477106.037
+111  FLU+R4        235702.696   669 472743.392   499908.847   475790.926
+112  FLU+R5        235409.634   671 472161.268   501252.365   475217.913
+113  FLU+R6        235321.371   673 471988.743   503271.639   475054.498
+114  FLU+R7        235237.825   675 471825.650   505625.650   474900.516
+115  FLU+R8        235211.042   677 471776.083   508496.563   474860.060
+116  FLU+R9        235192.007   679 471742.013   511891.578   474835.101
+117  FLU+R10       235172.760   681 471707.519   515940.091   474809.718
+118  FLU+F         245084.033   682 491532.065   538112.665   494638.818
+119  FLU+F+I       245083.988   683 491533.975   540709.975   494645.284
+120  FLU+F+G4      234557.563   683 470481.126   519657.126   473592.435
+121  FLU+F+I+G4    234557.566   684 470483.131   522543.131   473598.995
+122  FLU+F+R2      236830.978   684 475029.955   527089.955   478145.819
+123  FLU+F+R3      235195.939   686 471763.879   530674.129   474888.854
+124  FLU+F+R4      234488.280   688 470352.560   538071.418   473486.646
+125  FLU+F+R5      234186.227   690 469752.453   549217.453   472895.650
+126  FLU+F+R6      234085.905   692 469555.810   565467.010   472708.117
+127  FLU+F+R7      234009.982   694 469407.963   589990.463   472569.381
+128  FLU+F+R8      233998.468   696 469388.935   631092.935   472559.464
+129  FLU+F+R9      233989.704   698 469375.408   713326.408   472555.047
+130  FLU+F+R10     233968.626   700 469337.252   960037.252   472526.001
+131  HIVb          246876.969   663 495079.938   517655.938   498100.139
+132  HIVb+I        246876.931   664 495081.861   518321.861   498106.618
+133  HIVb+G4       236691.508   664 474711.017   497951.017   477735.773
+134  HIVb+I+G4     236691.514   665 474713.029   498653.029   477742.341
+135  HIVb+R2       238839.051   665 479008.102   502948.102   482037.414
+136  HIVb+R3       237172.176   667 475678.352   501138.695   478716.775
+137  HIVb+R4       236627.678   669 474593.356   501758.811   477640.890
+138  HIVb+R5       236335.694   671 474013.387   503104.484   477070.032
+139  HIVb+R6       236183.043   673 473712.087   504994.984   476777.842
+140  HIVb+R7       236134.314   675 473618.627   507418.627   476693.493
+141  HIVb+R8       236083.962   677 473521.924   510242.404   476605.901
+142  HIVb+R9       236073.149   679 473504.297   513653.863   476597.385
+143  HIVb+R10      236069.818   681 473501.636   517734.207   476603.834
+144  HIVb+F        246362.131   682 494088.262   540668.862   497195.015
+145  HIVb+F+I      246362.095   683 494090.190   543266.190   497201.499
+146  HIVb+F+G4     235427.662   683 472221.323   521397.323   475332.632
+147  HIVb+F+I+G4   235427.659   684 472223.317   524283.317   475339.181
+148  HIVb+F+R2     237757.071   684 476882.142   528942.142   479998.006
+149  HIVb+F+R3     235955.685   686 473283.370   532193.620   476408.345
+150  HIVb+F+R4     235375.400   688 472126.801   539845.658   475260.886
+151  HIVb+F+R5     235087.123   690 471554.245   551019.245   474697.442
+152  HIVb+F+R6     234912.029   692 471208.059   567119.259   474360.365
+153  HIVb+F+R7     234874.905   694 471137.810   591720.310   474299.228
+154  HIVb+F+R8     234824.609   696 471041.218   632745.218   474211.747
+155  HIVb+F+R9     234810.585   698 471017.171   714968.171   474196.810
+156  HIVb+F+R10    234800.726   700 471001.452   961701.452   474190.202
+157  HIVw          257616.815   663 516559.630   539135.630   519579.832
+158  HIVw+I        257616.784   664 516561.568   539801.568   519586.325
+159  HIVw+G4       247313.172   664 495954.344   519194.344   498979.101
+160  HIVw+I+G4     247313.170   665 495956.341   519896.341   498985.653
+161  HIVw+R2       249817.452   665 500964.905   524904.905   503994.217
+162  HIVw+R3       248000.249   667 497334.499   522794.841   500372.922
+163  HIVw+R4       247261.317   669 495860.634   523026.089   498908.168
+164  HIVw+R5       246922.588   671 495187.175   524278.272   498243.820
+165  HIVw+R6       246801.671   673 494949.342   526232.238   498015.097
+166  HIVw+R7       246743.746   675 494837.491   528637.491   497912.357
+167  HIVw+R8       246674.609   677 494703.219   531423.699   497787.196
+168  HIVw+R9       246656.438   679 494670.876   534820.441   497763.963
+169  HIVw+R10      246650.849   681 494663.698   538896.270   497765.896
+170  HIVw+F        252442.392   682 506248.784   552829.384   509355.537
+171  HIVw+F+I      252442.370   683 506250.740   555426.740   509362.049
+172  HIVw+F+G4     241848.964   683 485063.928   534239.928   488175.237
+173  HIVw+F+I+G4   241848.963   684 485065.926   537125.926   488181.790
+174  HIVw+F+R2     244241.125   684 489850.251   541910.251   492966.115
+175  HIVw+F+R3     242527.747   686 486427.495   545337.745   489552.469
+176  HIVw+F+R4     241779.481   688 484934.962   552653.819   488069.048
+177  HIVw+F+R5     241437.487   690 484254.974   563719.974   487398.170
+178  HIVw+F+R6     241349.150   692 484082.300   579993.500   487234.607
+179  HIVw+F+R7     241270.763   694 483929.525   604512.025   487090.943
+180  HIVw+F+R8     241223.134   696 483838.269   645542.269   487008.797
+181  HIVw+F+R9     241204.717   698 483805.434   727756.434   486985.073
+182  HIVw+F+R10    241196.397   700 483792.794   974492.794   486981.544
+183  JTT           240694.610   663 482715.219   505291.219   485735.421
+184  JTT+I         240694.594   664 482717.188   505957.188   485741.945
+185  JTT+G4        231811.020   664 464950.040   488190.040   467974.797
+186  JTT+I+G4      231811.021   665 464952.042   488892.042   467981.354
+187  JTT+R2        233751.568   665 468833.136   492773.136   471862.449
+188  JTT+R3        232313.006   667 465960.012   491420.355   468998.436
+189  JTT+R4        231764.986   669 464867.973   492033.427   467915.506
+190  JTT+R5        231540.064   671 464422.129   493513.225   467478.773
+191  JTT+R6        231431.773   673 464209.545   495492.442   467275.300
+192  JTT+R7        231385.561   675 464121.123   497921.123   467195.988
+193  JTT+R8        231354.041   677 464062.082   500782.562   467146.058
+194  JTT+R9        231344.069   679 464046.139   504195.704   467139.226
+195  JTT+R10       231333.043   681 464028.086   508260.657   467130.284
+196  JTT+F         240132.926   682 481629.851   528210.451   484736.605
+197  JTT+F+I       240132.912   683 481631.823   530807.823   484743.132
+198  JTT+F+G4      231094.820   683 463555.641   512731.641   466666.950
+199  JTT+F+I+G4    231094.814   684 463557.628   515617.628   466673.492
+200  JTT+F+R2      233046.144   684 467460.287   519520.287   470576.152
+201  JTT+F+R3      231572.837   686 464517.674   523427.924   467642.649
+202  JTT+F+R4      231048.310   688 463472.621   531191.478   466606.706
+203  JTT+F+R5      230819.485   690 463018.969   542483.969   466162.166
+204  JTT+F+R6      230720.418   692 462824.837   558736.037   465977.144
+205  JTT+F+R7      230663.435   694 462714.870   583297.370   465876.288
+206  JTT+F+R8      230638.014   696 462668.029   624372.029   465838.557
+207  JTT+F+R9      230629.011   698 462654.023   706605.023   465833.662
+208  JTT+F+R10     230618.835   700 462637.669   953337.669   465826.419
+209  JTTDCMut      240678.858   663 482683.716   505259.716   485703.917
+210  JTTDCMut+I    240678.841   664 482685.681   505925.681   485710.438
+211  JTTDCMut+G4   231843.700   664 465015.401   488255.401   468040.158
+212  JTTDCMut+I+G4 231843.703   665 465017.407   488957.407   468046.719
+213  JTTDCMut+R2   233778.089   665 468886.178   492826.178   471915.491
+214  JTTDCMut+R3   232338.935   667 466011.870   491472.213   469050.293
+215  JTTDCMut+R4   231799.064   669 464936.128   492101.582   467983.662
+216  JTTDCMut+R5   231574.695   671 464491.390   493582.487   467548.035
+217  JTTDCMut+R6   231466.666   673 464279.331   495562.228   467345.086
+218  JTTDCMut+R7   231421.476   675 464192.952   497992.952   467267.818
+219  JTTDCMut+R8   231391.277   677 464136.554   500857.034   467220.530
+220  JTTDCMut+R9   231380.750   679 464119.499   504269.065   467212.587
+221  JTTDCMut+R10  231370.116   681 464102.231   508334.803   467204.429
+222  JTTDCMut+F    240132.914   682 481629.828   528210.428   484736.581
+223  JTTDCMut+F+I  240132.898   683 481631.795   530807.795   484743.104
+224  JTTDCMut+F+G4 231125.173   683 463616.346   512792.346   466727.655
+225  JTTDCMut+F+I+G4 231125.171   684 463618.343   515678.343   466734.207
+226  JTTDCMut+F+R2 233073.434   684 467514.867   519574.867   470630.732
+227  JTTDCMut+F+R3 231600.508   686 464573.016   523483.266   467697.991
+228  JTTDCMut+F+R4 231079.931   688 463535.861   531254.718   466669.947
+229  JTTDCMut+F+R5 230850.882   690 463081.764   542546.764   466224.960
+230  JTTDCMut+F+R6 230753.782   692 462891.564   558802.764   466043.871
+231  JTTDCMut+F+R7 230696.440   694 462780.880   583363.380   465942.297
+232  JTTDCMut+F+R8 230670.794   696 462733.589   624437.589   465904.117
+233  JTTDCMut+F+R9 230661.610   698 462719.220   706670.220   465898.859
+234  JTTDCMut+F+R10 230652.241   700 462704.482   953404.482   465893.232
+235  LG            238165.616   663 477657.231   500233.231   480677.433
+236  LG+I          238165.595   664 477659.190   500899.190   480683.947
+237  LG+G4         229243.704   664 459815.407   483055.407   462840.164
+238  LG+I+G4       229243.688   665 459817.376   483757.376   462846.688
+239  LG+R2         231200.401   665 463730.801   487670.801   466760.114
+240  LG+R3         229735.518   667 460805.036   486265.378   463843.459
+241  LG+R4         229199.926   669 459737.851   486903.306   462785.385
+242  LG+R5         229008.299   671 459358.597   488449.694   462415.242
+243  LG+R6         228881.444   673 459108.888   490391.785   462174.644
+244  LG+R7         228833.316   675 459016.633   492816.633   462091.498
+245  LG+R8         228808.686   677 458971.373   495691.853   462055.349
+246  LG+R9         228790.192   679 458938.384   499087.949   462031.471
+247  LG+R10        228787.071   681 458936.141   503168.713   462038.339
+248  LG+F          238180.271   682 477724.542   524305.142   480831.295
+249  LG+F+I        238180.250   683 477726.499   526902.499   480837.808
+250  LG+F+G4       228950.336   683 459266.672   508442.672   462377.981
+251  LG+F+I+G4     228950.334   684 459268.669   511328.669   462384.533
+252  LG+F+R2       230941.962   684 463251.923   515311.923   466367.787
+253  LG+F+R3       229432.887   686 460237.775   519148.025   463362.749
+254  LG+F+R4       228900.835   688 459177.669   526896.526   462311.755
+255  LG+F+R5       228709.105   690 458798.211   538263.211   461941.407
+256  LG+F+R6       228594.359   692 458572.718   554483.918   461725.025
+257  LG+F+R7       228543.094   694 458474.188   579056.688   461635.606
+258  LG+F+R8       228513.433   696 458418.866   620122.866   461589.394
+259  LG+F+R9       228494.132   698 458384.264   702335.264   461563.903
+260  LG+F+R10      228491.920   700 458383.839   949083.839   461572.589
+261  mtART         260520.500   663 522366.999   544942.999   525387.201
+262  mtART+I       260520.476   664 522368.953   545608.953   525393.710
+263  mtART+G4      243294.466   664 487916.932   511156.932   490941.689
+264  mtART+I+G4    243294.462   665 487918.925   511858.925   490948.237
+265  mtART+R2      246505.199   665 494340.399   518280.399   497369.711
+266  mtART+R3      244033.867   667 489401.733   514862.076   492440.156
+267  mtART+R4      243312.921   669 487963.842   515129.296   491011.376
+268  mtART+R5      242799.364   671 486940.728   516031.825   489997.373
+269  mtART+R6      242565.488   673 486476.976   517759.873   489542.732
+270  mtART+R7      242476.411   675 486302.822   520102.822   489377.688
+271  mtART+R8      242395.989   677 486145.977   522866.457   489229.954
+272  mtART+R9      242359.160   679 486076.321   526225.886   489169.408
+273  mtART+R10     242345.988   681 486053.976   530286.547   489156.174
+274  mtART+F       249254.734   682 499873.468   546454.068   502980.221
+275  mtART+F+I     249254.713   683 499875.427   549051.427   502986.736
+276  mtART+F+G4    235823.256   683 473012.512   522188.512   476123.821
+277  mtART+F+I+G4  235823.255   684 473014.509   525074.509   476130.373
+278  mtART+F+R2    238657.835   684 478683.669   530743.669   481799.534
+279  mtART+F+R3    236528.935   686 474429.870   533340.120   477554.845
+280  mtART+F+R4    235760.164   688 472896.328   540615.185   476030.413
+281  mtART+F+R5    235427.206   690 472234.412   551699.412   475377.608
+282  mtART+F+R6    235220.030   692 471824.060   567735.260   474976.367
+283  mtART+F+R7    235131.625   694 471651.249   592233.749   474812.667
+284  mtART+F+R8    235096.026   696 471584.053   633288.053   474754.581
+285  mtART+F+R9    235035.297   698 471466.594   715417.594   474646.233
+286  mtART+F+R10   235029.900   700 471459.799   962159.799   474648.549
+287  mtMAM         266227.770   663 533781.540   556357.540   536801.742
+288  mtMAM+I       266227.754   664 533783.509   557023.509   536808.266
+289  mtMAM+G4      247559.077   664 496446.154   519686.154   499470.911
+290  mtMAM+I+G4    247559.076   665 496448.153   520388.153   499477.465
+291  mtMAM+R2      251275.494   665 503880.987   527820.987   506910.300
+292  mtMAM+R3      248446.034   667 498226.069   523686.411   501264.492
+293  mtMAM+R4      247762.845   669 496863.690   524029.145   499911.224
+294  mtMAM+R5      247074.406   671 495490.813   524581.910   498547.457
+295  mtMAM+R6      246834.194   673 495014.389   526297.285   498080.144
+296  mtMAM+R7      246710.272   675 494770.544   528570.544   497845.410
+297  mtMAM+R8      246642.875   677 494639.750   531360.230   497723.727
+298  mtMAM+R9      246595.432   679 494548.864   534698.430   497641.952
+299  mtMAM+R10     246585.645   681 494533.289   538765.861   497635.487
+300  mtMAM+F       253958.267   682 509280.535   555861.135   512387.288
+301  mtMAM+F+I     253958.242   683 509282.485   558458.485   512393.794
+302  mtMAM+F+G4    239722.642   683 480811.285   529987.285   483922.594
+303  mtMAM+F+I+G4  239722.628   684 480813.256   532873.256   483929.120
+304  mtMAM+F+R2    242879.031   684 487126.063   539186.063   490241.927
+305  mtMAM+F+R3    240492.497   686 482356.994   541267.244   485481.969
+306  mtMAM+F+R4    239691.692   688 480759.384   548478.242   483893.470
+307  mtMAM+F+R5    239323.031   690 480026.062   559491.062   483169.258
+308  mtMAM+F+R6    239142.032   692 479668.064   575579.264   482820.371
+309  mtMAM+F+R7    239033.424   694 479454.847   600037.347   482616.265
+310  mtMAM+F+R8    238972.924   696 479337.848   641041.848   482508.376
+311  mtMAM+F+R9    238937.808   698 479271.615   723222.615   482451.254
+312  mtMAM+F+R10   238927.355   700 479254.710   969954.710   482443.460
+313  mtREV         254506.930   663 510339.861   532915.861   513360.062
+314  mtREV+I       254506.899   664 510341.797   533581.797   513366.554
+315  mtREV+G4      242102.305   664 485532.610   508772.610   488557.367
+316  mtREV+I+G4    242102.314   665 485534.628   509474.628   488563.940
+317  mtREV+R2      244584.114   665 490498.229   514438.229   493527.541
+318  mtREV+R3      242653.362   667 486640.725   512101.067   489679.148
+319  mtREV+R4      242032.452   669 485402.903   512568.358   488450.437
+320  mtREV+R5      241737.761   671 484817.522   513908.618   487874.166
+321  mtREV+R6      241603.733   673 484553.467   515836.363   487619.222
+322  mtREV+R7      241522.536   675 484395.072   518195.072   487469.938
+323  mtREV+R8      241498.628   677 484351.255   521071.735   487435.232
+324  mtREV+R9      241472.512   679 484303.024   524452.589   487396.111
+325  mtREV+R10     241468.410   681 484298.820   528531.392   487401.018
+326  mtREV+F       244279.247   682 489922.494   536503.094   493029.248
+327  mtREV+F+I     244279.223   683 489924.446   539100.446   493035.754
+328  mtREV+F+G4    234158.975   683 469683.949   518859.949   472795.258
+329  mtREV+F+I+G4  234158.976   684 469685.952   521745.952   472801.816
+330  mtREV+F+R2    236337.366   684 474042.732   526102.732   477158.596
+331  mtREV+F+R3    234688.129   686 470748.258   529658.508   473873.233
+332  mtREV+F+R4    234102.701   688 469581.402   537300.259   472715.487
+333  mtREV+F+R5    233832.270   690 469044.541   548509.541   472187.737
+334  mtREV+F+R6    233716.992   692 468817.984   564729.184   471970.291
+335  mtREV+F+R7    233668.893   694 468725.787   589308.287   471887.205
+336  mtREV+F+R8    233620.248   696 468632.495   630336.495   471803.024
+337  mtREV+F+R9    233612.298   698 468620.596   712571.596   471800.236
+338  mtREV+F+R10   233612.378   700 468624.756   959324.756   471813.506
+339  mtZOA         252557.434   663 506440.868   529016.868   509461.069
+340  mtZOA+I       252557.414   664 506442.828   529682.828   509467.585
+341  mtZOA+G4      237632.176   664 476592.352   499832.352   479617.109
+342  mtZOA+I+G4    237632.182   665 476594.363   500534.363   479623.676
+343  mtZOA+R2      240507.156   665 482344.311   506284.311   485373.624
+344  mtZOA+R3      238208.613   667 477751.227   503211.570   480789.650
+345  mtZOA+R4      237584.779   669 476507.557   503673.012   479555.091
+346  mtZOA+R5      237164.765   671 475671.531   504762.627   478728.175
+347  mtZOA+R6      236993.948   673 475333.897   506616.794   478399.652
+348  mtZOA+R7      236925.641   675 475201.282   509001.282   478276.148
+349  mtZOA+R8      236856.980   677 475067.960   511788.440   478151.937
+350  mtZOA+R9      236845.300   679 475048.600   515198.165   478141.687
+351  mtZOA+R10     236821.500   681 475005.000   519237.571   478107.198
+352  mtZOA+F       244449.529   682 490263.059   536843.659   493369.812
+353  mtZOA+F+I     244449.505   683 490265.010   539441.010   493376.318
+354  mtZOA+F+G4    232760.954   683 466887.909   516063.909   469999.217
+355  mtZOA+F+I+G4  232760.976   684 466889.953   518949.953   470005.817
+356  mtZOA+F+R2    235281.541   684 471931.082   523991.082   475046.946
+357  mtZOA+F+R3    233401.688   686 468175.377   527085.627   471300.352
+358  mtZOA+F+R4    232701.005   688 466778.010   534496.867   469912.096
+359  mtZOA+F+R5    232381.886   690 466143.771   545608.771   469286.967
+360  mtZOA+F+R6    232239.925   692 465863.850   561775.050   469016.157
+361  mtZOA+F+R7    232175.011   694 465738.023   586320.523   468899.441
+362  mtZOA+F+R8    232116.603   696 465625.206   627329.206   468795.734
+363  mtZOA+F+R9    232097.076   698 465590.152   709541.152   468769.791
+364  mtZOA+F+R10   232094.618   700 465589.236   956289.236   468777.986
+365  mtMet         255158.980   663 511643.961   534219.961   514664.162
+366  mtMet+I       255158.964   664 511645.928   534885.928   514670.685
+367  mtMet+G4      241028.199   664 483384.399   506624.399   486409.156
+368  mtMet+I+G4    241028.192   665 483386.383   507326.383   486415.696
+369  mtMet+R2      243855.765   665 489041.530   512981.530   492070.842
+370  mtMet+R3      241593.954   667 484521.907   509982.250   487560.330
+371  mtMet+R4      240959.774   669 483257.548   510423.003   486305.082
+372  mtMet+R5      240584.978   671 482511.956   511603.053   485568.601
+373  mtMet+R6      240471.363   673 482288.727   513571.623   485354.482
+374  mtMet+R7      240368.355   675 482086.709   515886.709   485161.575
+375  mtMet+R8      240337.425   677 482028.849   518749.329   485112.826
+376  mtMet+R9      240320.657   679 481999.315   522148.880   485092.402
+377  mtMet+R10     240301.343   681 481964.687   526197.258   485066.885
+378  mtMet+F       244721.695   682 490807.390   537387.990   493914.143
+379  mtMet+F+I     244721.684   683 490809.368   539985.368   493920.676
+380  mtMet+F+G4    233449.756   683 468265.512   517441.512   471376.821
+381  mtMet+F+I+G4  233449.745   684 468267.491   520327.491   471383.355
+382  mtMet+F+R2    235907.919   684 473183.838   525243.838   476299.702
+383  mtMet+F+R3    234072.384   686 469516.769   528427.019   472641.743
+384  mtMet+F+R4    233397.190   688 468170.380   535889.237   471304.465
+385  mtMet+F+R5    233117.317   690 467614.634   547079.634   470757.830
+386  mtMet+F+R6    232977.235   692 467338.471   563249.671   470490.778
+387  mtMet+F+R7    232898.518   694 467185.035   587767.535   470346.453
+388  mtMet+F+R8    232863.526   696 467119.052   628823.052   470289.580
+389  mtMet+F+R9    232845.579   698 467087.157   711038.157   470266.796
+390  mtMet+F+R10   232841.267   700 467082.535   957782.535   470271.285
+391  mtVer         260324.996   663 521975.993   544551.993   524996.194
+392  mtVer+I       260324.979   664 521977.959   545217.959   525002.716
+393  mtVer+G4      244398.863   664 490125.726   513365.726   493150.483
+394  mtVer+I+G4    244398.863   665 490127.726   514067.726   493157.038
+395  mtVer+R2      247613.107   665 496556.214   520496.214   499585.526
+396  mtVer+R3      245092.719   667 491519.437   516979.780   494557.860
+397  mtVer+R4      244349.306   669 490036.612   517202.067   493084.146
+398  mtVer+R5      243938.091   671 489218.182   518309.278   492274.826
+399  mtVer+R6      243799.445   673 488944.890   520227.787   492010.646
+400  mtVer+R7      243700.846   675 488751.692   522551.692   491826.558
+401  mtVer+R8      243653.564   677 488661.128   525381.608   491745.104
+402  mtVer+R9      243627.733   679 488613.467   528763.032   491706.554
+403  mtVer+R10     243616.176   681 488594.352   532826.924   491696.550
+404  mtVer+F       249935.670   682 501235.340   547815.940   504342.094
+405  mtVer+F+I     249935.655   683 501237.311   550413.311   504348.619
+406  mtVer+F+G4    237169.669   683 475705.339   524881.339   478816.647
+407  mtVer+F+I+G4  237169.669   684 475707.338   527767.338   478823.202
+408  mtVer+F+R2    240023.187   684 481414.374   533474.374   484530.238
+409  mtVer+F+R3    237909.794   686 477191.588   536101.838   480316.563
+410  mtVer+F+R4    237125.371   688 475626.742   543345.599   478760.828
+411  mtVer+F+R5    236822.833   690 475025.665   554490.665   478168.862
+412  mtVer+F+R6    236679.843   692 474743.687   570654.887   477895.994
+413  mtVer+F+R7    236574.167   694 474536.334   595118.834   477697.752
+414  mtVer+F+R8    236539.480   696 474470.960   636174.960   477641.488
+415  mtVer+F+R9    236513.142   698 474422.283   718373.283   477601.923
+416  mtVer+F+R10   236505.047   700 474410.094   965110.094   477598.844
+417  mtInv         254332.528   663 509991.056   532567.056   513011.257
+418  mtInv+I       254332.508   664 509993.015   533233.015   513017.772
+419  mtInv+G4      241609.225   664 484546.451   507786.451   487571.208
+420  mtInv+I+G4    241609.219   665 484548.437   508488.437   487577.750
+421  mtInv+R2      244153.710   665 489637.420   513577.420   492666.733
+422  mtInv+R3      242102.268   667 485538.537   510998.880   488576.960
+423  mtInv+R4      241543.083   669 484424.165   511589.620   487471.699
+424  mtInv+R5      241207.769   671 483757.538   512848.635   486814.183
+425  mtInv+R6      241082.408   673 483510.816   514793.713   486576.571
+426  mtInv+R7      241009.392   675 483368.784   517168.784   486443.650
+427  mtInv+R8      240974.470   677 483302.940   520023.420   486386.917
+428  mtInv+R9      240964.108   679 483286.217   523435.782   486379.304
+429  mtInv+R10     240951.849   681 483265.699   527498.270   486367.897
+430  mtInv+F       241805.584   682 484975.168   531555.768   488081.921
+431  mtInv+F+I     241805.561   683 484977.122   534153.122   488088.431
+432  mtInv+F+G4    231703.364   683 464772.728   513948.728   467884.036
+433  mtInv+F+I+G4  231703.398   684 464774.797   516834.797   467890.661
+434  mtInv+F+R2    233911.906   684 469191.811   521251.811   472307.675
+435  mtInv+F+R3    232241.380   686 465854.761   524765.011   468979.736
+436  mtInv+F+R4    231649.967   688 464675.933   532394.791   467810.019
+437  mtInv+F+R5    231400.205   690 464180.409   543645.409   467323.606
+438  mtInv+F+R6    231263.517   692 463911.035   559822.235   467063.342
+439  mtInv+F+R7    231202.395   694 463792.790   584375.290   466954.207
+440  mtInv+F+R8    231175.773   696 463743.547   625447.547   466914.075
+441  mtInv+F+R9    231149.386   698 463694.772   707645.772   466874.411
+442  mtInv+F+R10   231140.689   700 463681.378   954381.378   466870.128
+443  Poisson       262080.150   663 525486.300   548062.300   528506.501
+444  Poisson+I     262080.127   664 525488.254   548728.254   528513.011
+445  Poisson+G4    254343.825   664 510015.650   533255.650   513040.407
+446  Poisson+I+G4  254343.824   665 510017.648   533957.648   513046.961
+447  Poisson+R2    256076.810   665 513483.620   537423.620   516512.932
+448  Poisson+R3    254609.592   667 510553.184   536013.527   513591.607
+449  Poisson+R4    254230.283   669 509798.565   536964.020   512846.099
+450  Poisson+R5    254059.056   671 509460.112   538551.208   512516.756
+451  Poisson+R6    253956.587   673 509259.175   540542.071   512324.930
+452  Poisson+R7    253934.311   675 509218.621   543018.621   512293.487
+453  Poisson+R8    253922.274   677 509198.547   545919.027   512282.524
+454  Poisson+R9    253915.330   679 509188.660   549338.225   512281.747
+455  Poisson+R10   253909.662   681 509181.325   553413.896   512283.523
+456  Poisson+F     257297.933   682 515959.867   562540.467   519066.620
+457  Poisson+F+I   257297.912   683 515961.825   565137.825   519073.133
+458  Poisson+F+G4  249253.523   683 499873.046   549049.046   502984.354
+459  Poisson+F+I+G4 249253.515   684 499875.030   551935.030   502990.894
+460  Poisson+F+R2  251064.972   684 503497.943   555557.943   506613.807
+461  Poisson+F+R3  249558.282   686 500488.565   559398.815   503613.540
+462  Poisson+F+R4  249146.991   688 499669.982   567388.839   502804.068
+463  Poisson+F+R5  248955.893   690 499291.785   578756.785   502434.982
+464  Poisson+F+R6  248850.965   692 499085.929   594997.129   502238.236
+465  Poisson+F+R7  248823.402   694 499034.803   619617.303   502196.221
+466  Poisson+F+R8  248814.150   696 499020.301   660724.301   502190.829
+467  Poisson+F+R9  248795.833   698 498987.667   742938.667   502167.306
+468  Poisson+F+R10 248793.186   700 498986.372   989686.372   502175.122
+469  PMB           238920.206   663 479166.411   501742.411   482186.613
+470  PMB+I         238920.167   664 479168.334   502408.334   482193.091
+471  PMB+G4        231443.917   664 464215.835   487455.835   467240.591
+472  PMB+I+G4      231443.914   665 464217.828   488157.828   467247.141
+473  PMB+R2        233002.360   665 467334.720   491274.720   470364.032
+474  PMB+R3        231738.444   667 464810.887   490271.230   467849.310
+475  PMB+R4        231378.441   669 464094.882   491260.336   467142.415
+476  PMB+R5        231171.825   671 463685.650   492776.746   466742.294
+477  PMB+R6        231137.433   673 463620.867   494903.763   466686.622
+478  PMB+R7        231072.124   675 463494.248   497294.248   466569.114
+479  PMB+R8        231063.246   677 463480.492   500200.972   466564.469
+480  PMB+R9        231046.973   679 463451.945   503601.510   466545.032
+481  PMB+R10       231043.436   681 463448.872   507681.443   466551.070
+482  PMB+F         239357.940   682 480079.881   526660.481   483186.634
+483  PMB+F+I       239357.905   683 480081.810   529257.810   483193.119
+484  PMB+F+G4      231659.669   683 464685.339   513861.339   467796.648
+485  PMB+F+I+G4    231659.669   684 464687.338   516747.338   467803.202
+486  PMB+F+R2      233262.737   684 467893.474   519953.474   471009.338
+487  PMB+F+R3      231967.693   686 465307.387   524217.637   468432.362
+488  PMB+F+R4      231593.361   688 464562.721   532281.578   467696.807
+489  PMB+F+R5      231385.220   690 464150.440   543615.440   467293.636
+490  PMB+F+R6      231347.965   692 464079.930   559991.130   467232.237
+491  PMB+F+R7      231278.476   694 463944.952   584527.452   467106.369
+492  PMB+F+R8      231260.607   696 463913.214   625617.214   467083.743
+493  PMB+F+R9      231255.531   698 463907.063   707858.063   467086.702
+495  rtREV         240488.104   663 482302.207   504878.207   485322.409
+496  rtREV+I       240488.072   664 482304.143   505544.143   485328.900
+497  rtREV+G4      232157.165   664 465642.330   488882.330   468667.087
+498  rtREV+I+G4    232157.162   665 465644.324   489584.324   468673.637
+499  rtREV+R2      233941.639   665 469213.277   493153.277   472242.590
+500  rtREV+R3      232619.476   667 466572.952   492033.294   469611.375
+501  rtREV+R4      232103.302   669 465544.603   492710.058   468592.137
+502  rtREV+R5      231909.706   671 465161.411   494252.508   468218.056
+503  rtREV+R6      231802.983   673 464951.967   496234.863   468017.722
+504  rtREV+R7      231760.756   675 464871.511   498671.511   467946.377
+505  rtREV+R8      231731.563   677 464817.127   501537.607   467901.103
+506  rtREV+R9      231709.910   679 464777.820   504927.385   467870.907
+507  rtREV+R10     231702.455   681 464766.909   508999.481   467869.107
+508  rtREV+F       239048.685   682 479461.371   526041.971   482568.124
+509  rtREV+F+I     239048.657   683 479463.313   528639.313   482574.622
+510  rtREV+F+G4    230039.247   683 461444.493   510620.493   464555.802
+511  rtREV+F+I+G4  230039.235   684 461446.469   513506.469   464562.333
+512  rtREV+F+R2    231950.185   684 465268.369   517328.369   468384.233
+513  rtREV+F+R3    230521.258   686 462414.517   521324.767   465539.491
+514  rtREV+F+R4    229989.344   688 461354.689   529073.546   464488.774
+515  rtREV+F+R5    229793.729   690 460967.458   540432.458   464110.654
+516  rtREV+F+R6    229687.572   692 460759.144   556670.344   463911.451
+517  rtREV+F+R7    229640.014   694 460668.027   581250.527   463829.445
+518  rtREV+F+R8    229609.780   696 460611.561   622315.561   463782.089
+519  rtREV+F+R9    229592.092   698 460580.184   704531.184   463759.823
+520  rtREV+F+R10   229586.963   700 460573.926   951273.926   463762.676
+521  VT            238172.592   663 477671.183   500247.183   480691.385
+522  VT+I          238172.548   664 477673.096   500913.096   480697.853
+523  VT+G4         230590.506   664 462509.011   485749.011   465533.768
+524  VT+I+G4       230590.509   665 462511.019   486451.019   465540.331
+525  VT+R2         232212.513   665 465755.026   489695.026   468784.339
+526  VT+R3         230951.491   667 463236.983   488697.325   466275.406
+527  VT+R4         230536.929   669 462411.857   489577.312   465459.391
+528  VT+R5         230319.705   671 461981.409   491072.506   465038.054
+529  VT+R6         230248.120   673 461842.239   493125.136   464907.995
+530  VT+R7         230212.450   675 461774.901   495574.901   464849.767
+531  VT+R8         230198.648   677 461751.296   498471.776   464835.273
+532  VT+R9         230172.270   679 461702.539   501852.105   464795.627
+533  VT+R10        230171.713   681 461705.426   505937.997   464807.624
+534  VT+F          237947.323   682 477258.647   523839.247   480365.400
+535  VT+F+I        237947.274   683 477260.548   526436.548   480371.856
+536  VT+F+G4       230233.262   683 461832.524   511008.524   464943.833
+537  VT+F+I+G4     230233.295   684 461834.590   513894.590   464950.454
+538  VT+F+R2       231864.648   684 465097.296   517157.296   468213.160
+539  VT+F+R3       230562.288   686 462496.576   521406.826   465621.550
+540  VT+F+R4       230170.507   688 461717.014   529435.871   464851.099
+541  VT+F+R5       229958.906   690 461297.812   540762.812   464441.008
+542  VT+F+R6       229886.906   692 461157.812   557069.012   464310.119
+543  VT+F+R7       229855.182   694 461098.364   581680.864   464259.782
+544  VT+F+R8       229839.634   696 461071.268   622775.268   464241.797
+545  VT+F+R9       229817.937   698 461031.874   704982.874   464211.513
+546  VT+F+R10      229814.880   700 461029.760   951729.760   464218.509
+547  WAG           238341.069   663 478008.137   500584.137   481028.339
+548  WAG+I         238341.032   664 478010.064   501250.064   481034.821
+549  WAG+G4        230679.289   664 462686.579   485926.579   465711.336
+550  WAG+I+G4      230679.297   665 462688.595   486628.595   465717.907
+551  WAG+R2        232346.693   665 466023.385   489963.385   469052.698
+552  WAG+R3        231086.326   667 463506.653   488966.996   466545.076
+553  WAG+R4        230631.400   669 462600.801   489766.255   465648.335
+554  WAG+R5        230409.883   671 462161.766   491252.863   465218.411
+555  WAG+R6        230316.425   673 461978.851   493261.747   465044.606
+556  WAG+R7        230292.179   675 461934.359   495734.359   465009.225
+557  WAG+R8        230269.131   677 461892.263   498612.743   464976.239
+558  WAG+R9        230244.541   679 461847.082   501996.647   464940.169
+559  WAG+R10       230243.720   681 461849.440   506082.012   464951.638
+560  WAG+F         237978.179   682 477320.358   523900.958   480427.111
+561  WAG+F+I       237978.142   683 477322.284   526498.284   480433.593
+562  WAG+F+G4      230035.086   683 461436.171   510612.171   464547.480
+563  WAG+F+I+G4    230035.106   684 461438.211   513498.211   464554.075
+564  WAG+F+R2      231739.387   684 464846.775   516906.775   467962.639
+565  WAG+F+R3      230458.778   686 462289.555   521199.805   465414.530
+566  WAG+F+R4      229985.609   688 461347.219   529066.076   464481.304
+567  WAG+F+R5      229773.808   690 460927.615   540392.615   464070.812
+568  WAG+F+R6      229706.544   692 460797.089   556708.289   463949.396
+569  WAG+F+R7      229660.066   694 460708.133   581290.633   463869.550
+570  WAG+F+R8      229636.882   696 460665.764   622369.764   463836.293
+571  WAG+F+R9      229613.827   698 460623.655   704574.655   463803.294
+572  WAG+F+R10     229609.561   700 460619.121   951319.121   463807.871
+WARNING: GTR20 model will estimate 189 substitution rates that might be overfitting!
+WARNING: Please only use GTR20 with very large data and always test for model fit!
+573  GTR20+F       236334.961   871 474411.922   1993435.922  478379.638
+WARNING: GTR20 model will estimate 189 substitution rates that might be overfitting!
+WARNING: Please only use GTR20 with very large data and always test for model fit!
+574  GTR20+F+I     236338.856   872 474421.711   1996933.711  478393.982
+WARNING: GTR20 model will estimate 189 substitution rates that might be overfitting!
+WARNING: Please only use GTR20 with very large data and always test for model fit!
+575  GTR20+F+G4    228363.155   872 458470.309   1980982.309  462442.580
+WARNING: GTR20 model will estimate 189 substitution rates that might be overfitting!
+WARNING: Please only use GTR20 with very large data and always test for model fit!
+576  GTR20+F+I+G4  228364.128   873 458474.255   1984478.255  462451.082
+WARNING: GTR20 model will estimate 189 substitution rates that might be overfitting!
+WARNING: Please only use GTR20 with very large data and always test for model fit!
+577  GTR20+F+R2    230212.552   873 462171.104   1988175.104  466147.931
+WARNING: GTR20 model will estimate 189 substitution rates that might be overfitting!
+WARNING: Please only use GTR20 with very large data and always test for model fit!
+578  GTR20+F+R3    228811.360   875 459372.720   1992372.720  463358.657
+WARNING: GTR20 model will estimate 189 substitution rates that might be overfitting!
+WARNING: Please only use GTR20 with very large data and always test for model fit!
+579  GTR20+F+R4    228314.695   877 458383.389   1998395.389  462378.437
+WARNING: GTR20 model will estimate 189 substitution rates that might be overfitting!
+WARNING: Please only use GTR20 with very large data and always test for model fit!
+580  GTR20+F+R5    228116.796   879 457991.592   2005031.592  461995.750
+WARNING: GTR20 model will estimate 189 substitution rates that might be overfitting!
+WARNING: Please only use GTR20 with very large data and always test for model fit!
+581  GTR20+F+R6    227992.224   881 457746.448   2011830.448  461759.717
+WARNING: GTR20 model will estimate 189 substitution rates that might be overfitting!
+WARNING: Please only use GTR20 with very large data and always test for model fit!
+582  GTR20+F+R7    227947.159   883 457660.317   2018804.317  461682.697
+WARNING: GTR20 model will estimate 189 substitution rates that might be overfitting!
+WARNING: Please only use GTR20 with very large data and always test for model fit!
+583  GTR20+F+R8    227920.841   885 457611.682   2025831.682  461643.173
+WARNING: GTR20 model will estimate 189 substitution rates that might be overfitting!
+WARNING: Please only use GTR20 with very large data and always test for model fit!
+584  GTR20+F+R9    227905.490   887 457584.980   2032896.980  461625.581
+WARNING: GTR20 model will estimate 189 substitution rates that might be overfitting!
+WARNING: Please only use GTR20 with very large data and always test for model fit!
+585  GTR20+F+R10   227897.179   889 457572.357   2039992.357  461622.070
+WARNING: GTR20 model will estimate 189 substitution rates that might be overfitting!
+WARNING: Please only use GTR20 with very large data and always test for model fit!
+586  GTR20+F       236334.961   871 474411.922   1993435.922  478379.638
+WARNING: GTR20 model will estimate 189 substitution rates that might be overfitting!
+WARNING: Please only use GTR20 with very large data and always test for model fit!
+587  GTR20+F+I     236338.856   872 474421.711   1996933.711  478393.982
+WARNING: GTR20 model will estimate 189 substitution rates that might be overfitting!
+WARNING: Please only use GTR20 with very large data and always test for model fit!
+588  GTR20+F+G4    228363.155   872 458470.309   1980982.309  462442.580
+WARNING: GTR20 model will estimate 189 substitution rates that might be overfitting!
+WARNING: Please only use GTR20 with very large data and always test for model fit!
+589  GTR20+F+I+G4  228364.128   873 458474.255   1984478.255  462451.082
+WARNING: GTR20 model will estimate 189 substitution rates that might be overfitting!
+WARNING: Please only use GTR20 with very large data and always test for model fit!
+590  GTR20+F+R2    230212.552   873 462171.104   1988175.104  466147.931
+WARNING: GTR20 model will estimate 189 substitution rates that might be overfitting!
+WARNING: Please only use GTR20 with very large data and always test for model fit!
+591  GTR20+F+R3    228811.360   875 459372.720   1992372.720  463358.657
+WARNING: GTR20 model will estimate 189 substitution rates that might be overfitting!
+WARNING: Please only use GTR20 with very large data and always test for model fit!
+592  GTR20+F+R4    228314.695   877 458383.389   1998395.389  462378.437
+WARNING: GTR20 model will estimate 189 substitution rates that might be overfitting!
+WARNING: Please only use GTR20 with very large data and always test for model fit!
+593  GTR20+F+R5    228116.796   879 457991.592   2005031.592  461995.751
+WARNING: GTR20 model will estimate 189 substitution rates that might be overfitting!
+WARNING: Please only use GTR20 with very large data and always test for model fit!
+594  GTR20+F+R6    227992.224   881 457746.448   2011830.448  461759.717
+WARNING: GTR20 model will estimate 189 substitution rates that might be overfitting!
+WARNING: Please only use GTR20 with very large data and always test for model fit!
+595  GTR20+F+R7    227947.159   883 457660.317   2018804.317  461682.697
+WARNING: GTR20 model will estimate 189 substitution rates that might be overfitting!
+WARNING: Please only use GTR20 with very large data and always test for model fit!
+596  GTR20+F+R8    227920.841   885 457611.682   2025831.682  461643.173
+WARNING: GTR20 model will estimate 189 substitution rates that might be overfitting!
+WARNING: Please only use GTR20 with very large data and always test for model fit!
+597  GTR20+F+R9    227905.490   887 457584.980   2032896.980  461625.581
+WARNING: GTR20 model will estimate 189 substitution rates that might be overfitting!
+WARNING: Please only use GTR20 with very large data and always test for model fit!
+598  GTR20+F+R10   227897.179   889 457572.357   2039992.357  461622.070
+Akaike Information Criterion:           GTR20+F+R10
+Corrected Akaike Information Criterion: LG+G4
+Bayesian Information Criterion:         LG+F+R9
+Best-fit model: LG+F+R9 chosen according to BIC
+
+All model information printed to CNG_a_and_b.doublefiltered.fasta.annot.clean.mafft.trimal.UFB.model.gz
+CPU time for ModelFinder: 132819.986 seconds (36h:53m:39s)
+Wall-clock time for ModelFinder: 13532.090 seconds (3h:45m:32s)
+Generating 1000 samples for ultrafast bootstrap (seed: 84029)...
+
+NOTE: 338 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -228494.132
+Optimal log-likelihood: -228494.105
+Site proportion and rates:  (0.031,0.073) (0.066,0.177) (0.084,0.267) (0.122,0.426) (0.129,0.601) (0.124,0.856) (0.179,1.185) (0.216,1.751) (0.049,2.800)
+Parameters optimization took 1 rounds (2.920 sec)
+Computing ML distances based on estimated model parameters... 35.159 sec
+WARNING: Some pairwise ML distances are too long (saturated)
+Computing BIONJ tree...
+0.111 seconds
+Log-likelihood of BIONJ tree: -230235.801
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 2.031 second
+Computing log-likelihood of 98 initial trees ... 20.714 seconds
+Current best score: -228494.105
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -228168.757
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -228099.486
+Iteration 10 / LogL: -228307.366 / Time: 0h:2m:28s
+Iteration 20 / LogL: -228125.062 / Time: 0h:4m:14s
+Finish initializing candidate tree set (20)
+Current best tree score: -228099.486 / CPU time: 244.194
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 22: -228071.635
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 23: -228049.841
+Iteration 30 / LogL: -228098.959 / Time: 0h:5m:21s (0h:17m:11s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 31: -228044.628
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 34: -228038.340
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 38: -228035.837
+Iteration 40 / LogL: -228043.315 / Time: 0h:6m:33s (0h:16m:28s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 44: -228010.353
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 50: -228006.134
+Iteration 50 / LogL: -228006.134 / Time: 0h:7m:35s (0h:15m:28s left)
+Iteration 60 / LogL: -228038.890 / Time: 0h:8m:29s (0h:12m:57s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 63: -227994.679
+Iteration 70 / LogL: -228005.445 / Time: 0h:9m:23s (0h:12m:39s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 80: -227994.170
+Iteration 80 / LogL: -227994.170 / Time: 0h:10m:16s (0h:12m:59s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 84: -227993.685
+Iteration 90 / LogL: -227997.948 / Time: 0h:11m:9s (0h:11m:46s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 96: -227984.451
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 99: -227983.723
+Iteration 100 / LogL: -227995.083 / Time: 0h:12m:3s (0h:12m:3s left)
+Iteration 110 / LogL: -227989.848 / Time: 0h:12m:55s (0h:10m:32s left)
+Iteration 120 / LogL: -228034.977 / Time: 0h:13m:48s (0h:9m:10s left)
+NOTE: 6.642 seconds to dump checkpoint file, increase to 133.000
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 121: -227983.472
+Iteration 130 / LogL: -227989.627 / Time: 0h:14m:55s (0h:10m:31s left)
+Iteration 140 / LogL: -227990.361 / Time: 0h:15m:46s (0h:9m:11s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 147: -227983.409
+Iteration 150 / LogL: -228113.731 / Time: 0h:16m:39s (0h:10m:50s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 155: -227980.753
+Iteration 160 / LogL: -228012.381 / Time: 0h:17m:34s (0h:10m:29s left)
+Iteration 170 / LogL: -227986.035 / Time: 0h:18m:26s (0h:9m:16s left)
+Iteration 180 / LogL: -227986.401 / Time: 0h:19m:18s (0h:8m:5s left)
+Iteration 190 / LogL: -227982.832 / Time: 0h:20m:9s (0h:6m:55s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 191: -227980.072
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 196: -227974.527
+Iteration 200 / LogL: -228003.790 / Time: 0h:21m:6s (0h:10m:11s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 204: -227973.166
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 206: -227972.878
+Iteration 210 / LogL: -227984.267 / Time: 0h:22m:1s (0h:10m:7s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 214: -227969.228
+Iteration 220 / LogL: -227993.584 / Time: 0h:22m:54s (0h:9m:50s left)
+Iteration 230 / LogL: -227985.903 / Time: 0h:23m:45s (0h:8m:43s left)
+Iteration 240 / LogL: -227991.620 / Time: 0h:24m:37s (0h:7m:37s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 243: -227968.955
+Iteration 250 / LogL: -227980.299 / Time: 0h:25m:31s (0h:9m:31s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 254: -227967.964
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 260: -227967.382
+Iteration 260 / LogL: -227967.382 / Time: 0h:26m:29s (0h:10m:13s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 263: -227966.098
+Iteration 270 / LogL: -227970.483 / Time: 0h:27m:23s (0h:9m:28s left)
+Iteration 280 / LogL: -227981.690 / Time: 0h:28m:15s (0h:8m:24s left)
+Iteration 290 / LogL: -227969.596 / Time: 0h:29m:14s (0h:7m:23s left)
+Iteration 300 / LogL: -227971.012 / Time: 0h:30m:8s (0h:6m:20s left)
+Iteration 310 / LogL: -227967.960 / Time: 0h:31m:0s (0h:5m:19s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 317: -227965.117
+Iteration 320 / LogL: -227976.995 / Time: 0h:31m:54s (0h:9m:42s left)
+Iteration 330 / LogL: -228001.263 / Time: 0h:32m:45s (0h:8m:39s left)
+Iteration 340 / LogL: -227970.637 / Time: 0h:33m:36s (0h:7m:38s left)
+Iteration 350 / LogL: -227967.767 / Time: 0h:34m:29s (0h:6m:37s left)
+Iteration 360 / LogL: -227987.787 / Time: 0h:35m:23s (0h:5m:37s left)
+Iteration 370 / LogL: -227984.078 / Time: 0h:36m:18s (0h:4m:37s left)
+Iteration 380 / LogL: -227987.241 / Time: 0h:37m:12s (0h:3m:37s left)
+Iteration 390 / LogL: -227967.290 / Time: 0h:38m:7s (0h:2m:38s left)
+Iteration 400 / LogL: -227971.127 / Time: 0h:38m:58s (0h:1m:39s left)
+Iteration 410 / LogL: -227980.013 / Time: 0h:39m:52s (0h:0m:40s left)
+Refining ufboot trees with NNI 1 branch...
+100 samples done
+200 samples done
+300 samples done
+400 samples done
+500 samples done
+600 samples done
+700 samples done
+NOTE: 11.626 seconds to dump checkpoint file, increase to 233.000
+800 samples done
+900 samples done
+1000 samples done
+Total 1000 ufboot trees refined
+TREE SEARCH COMPLETED AFTER 418 ITERATIONS / Time: 1h:0m:7s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -227965.117
+Optimal log-likelihood: -227965.105
+Site proportion and rates:  (0.030,0.071) (0.056,0.170) (0.092,0.256) (0.120,0.416) (0.121,0.591) (0.125,0.825) (0.185,1.167) (0.217,1.731) (0.054,2.765)
+Parameters optimization took 1 rounds (1.046 sec)
+BEST SCORE FOUND : -227965.105
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+Testing tree branches by aBayes parametric test...
+Alternative NNI shows better log-likelihood -227964.721 > -227965.105
+1.099 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file CNG_a_and_b.doublefiltered.fasta.annot.clean.mafft.trimal.UFB.splits.nex
+Total tree length: 236.459
+
+Total number of iterations: 418
+CPU time used for tree search: 34784.954 sec (9h:39m:44s)
+Wall-clock time used for tree search: 3596.921 sec (0h:59m:56s)
+Total CPU time used: 34911.441 sec (9h:41m:51s)
+Total wall-clock time used: 3611.479 sec (1h:0m:11s)
+UFBoot trees printed to CNG_a_and_b.doublefiltered.fasta.annot.clean.mafft.trimal.UFB.ufboot
+
+Computing bootstrap consensus tree...
+Reading input file CNG_a_and_b.doublefiltered.fasta.annot.clean.mafft.trimal.UFB.splits.nex...
+333 taxa and 2936 splits.
+Consensus tree written to CNG_a_and_b.doublefiltered.fasta.annot.clean.mafft.trimal.UFB.contree
+Reading input trees file CNG_a_and_b.doublefiltered.fasta.annot.clean.mafft.trimal.UFB.contree
+Log-likelihood of consensus tree: -227967.712
+
+Analysis results written to: 
+  IQ-TREE report:                CNG_a_and_b.doublefiltered.fasta.annot.clean.mafft.trimal.UFB.iqtree
+  Maximum-likelihood tree:       CNG_a_and_b.doublefiltered.fasta.annot.clean.mafft.trimal.UFB.treefile
+  Likelihood distances:          CNG_a_and_b.doublefiltered.fasta.annot.clean.mafft.trimal.UFB.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          CNG_a_and_b.doublefiltered.fasta.annot.clean.mafft.trimal.UFB.splits.nex
+  Consensus tree:                CNG_a_and_b.doublefiltered.fasta.annot.clean.mafft.trimal.UFB.contree
+  UFBoot trees:                  CNG_a_and_b.doublefiltered.fasta.annot.clean.mafft.trimal.UFB.ufboot
+  Screen log file:               CNG_a_and_b.doublefiltered.fasta.annot.clean.mafft.trimal.UFB.log
+
+Date and Time: Wed Aug 16 21:17:54 2023
