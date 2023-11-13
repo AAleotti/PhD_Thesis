@@ -1,0 +1,894 @@
+IQ-TREE multicore version 2.0.6 for Linux 64-bit built May 30 2020
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    node006 (AVX2, FMA3, 125 GB RAM)
+Command: iqtree2 -s G_aR.doublefiltered.fasta.annot.clean.mafft.trimal -m MFP -mset Blosum62,cpREV,Dayhoff,DCMut,FLU,HIVb,HIVw,JTT,JTTDCMut,LG,mtART,mtMAM,mtREV,mtZOA,mtMet,mtVer,mtInv,Poisson,PMB,rtREV,VT,WAG,GTR20 -mrate E,I,G,I+G,R -B 1000 --wbtl --bnni --alrt 1000 --abayes -T AUTO --prefix G_aR.doublefiltered.fasta.annot.clean.mafft.trimal.UFB
+Seed:    401426 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Sun Jun 13 15:58:33 2021
+Kernel:  AVX+FMA - auto-detect threads (14 CPU cores detected)
+
+Reading alignment file G_aR.doublefiltered.fasta.annot.clean.mafft.trimal ... Fasta format detected
+Alignment most likely contains protein sequences
+Alignment has 133 sequences with 356 columns, 356 distinct patterns
+329 parsimony-informative, 21 singleton sites, 6 constant sites
+                                                                                                                                       Gap/Ambiguity  Composition  p-value
+   1  ChoanoflagellataEP00035Acanthoecaspectabilis_10737475__GNA14_XENLA_Guanine_nucleotide-binding_protein_subunit_alpha-14_OS_               3.93%    passed     25.48%
+   2  ChoanoflagellataEP00035Acanthoecaspectabilis_10739696__GNAQ_RAT_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_                5.06%    failed      1.55%
+   3  ChoanoflagellataEP00037Helgoecanana_10784991__GNAQ_DROME_G_protein_alpha_q_subunit_OS_                                                   5.06%    failed      4.42%
+   4  ChoanoflagellataEP00037Helgoecanana_10815126__GNA14_XENLA_Guanine_nucleotide-binding_protein_subunit_alpha-14_OS_                        3.93%    passed     21.97%
+   5  ChoanoflagellataEP00039Didymoecacostata_10864092__GNAQ_CANLF_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_                   3.65%    passed     55.33%
+   6  ChoanoflagellataEP00039Didymoecacostata_10872254__GNA11_BOVIN_Guanine_nucleotide-binding_protein_subunit_alpha-11_OS_                    2.25%    passed     14.01%
+   7  ChoanoflagellataEP00040Diaphanoecagrandis_10910043__GNA14_XENLA_Guanine_nucleotide-binding_protein_subunit_alpha-14_OS_                  6.18%    failed      2.59%
+   8  ChoanoflagellataEP00040Diaphanoecagrandis_10921743__GNAQ_DROME_G_protein_alpha_q_subunit_OS_                                            38.48%    passed     92.02%
+   9  ChoanoflagellataEP00045Choanoecaperplexa_11081482__GNAQ_CANLF_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_                  3.09%    passed     99.21%
+  10  ChoanoflagellataEP00045Choanoecaperplexa_11087923__GNAQ_GEOCY_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_                 49.44%    failed      1.42%
+  11  ChoanoflagellataEP00045Choanoecaperplexa_11087924__GNAQ_HOMAM_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_                  4.49%    failed      2.24%
+  12  ChoanoflagellataEP00045Choanoecaperplexa_11087928__GNAQ_MOUSE_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_                  5.62%    failed      2.93%
+  13  ChoanoflagellataEP00047Mylnosigafluctuans_11114050__GNA11_MELGA_Guanine_nucleotide-binding_protein_subunit_alpha-11_OS_                  3.09%    passed     99.44%
+  14  ChoanoflagellataEP00050Salpingoecakvevrii_11194988__GNA14_XENLA_Guanine_nucleotide-binding_protein_subunit_alpha-14_OS_                  4.49%    passed     86.10%
+  15  ChoanoflagellataEP00050Salpingoecakvevrii_11200041__GNAQ_CANLF_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_                 3.65%    passed     83.52%
+  16  ChoanoflagellataEP00050Salpingoecakvevrii_11212111__GNAQ_HOMAM_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_                 2.25%    passed     70.23%
+  17  ChoanoflagellateaMonosigabrevicollisUP000001357_11430276__GNAQ_MOUSE_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_           3.09%    passed     98.37%
+  18  ChoanoflagellateaMonosigabrevicollisUP000001357_11433699__GPA17_CAEBR_Guanine_nucleotide-binding_protein_alpha-17_subunit_OS_            6.74%    passed     32.36%
+  19  FilastreaCapsasporaowczarzakiUP000008743_12980394__GNAQ_XENLA_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_                  2.25%    passed     99.62%
+  20  FilastreaCapsasporaowczarzakiUP000008743_12981327__GNAQ_RAT_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_                    2.25%    passed     86.62%
+  21  HaptophytaEP00319Phaeocystisglobosa_14066940__GPA1_COCH4_Guanine_nucleotide-binding_protein_subunit_alpha_OS_                           55.90%    failed      2.33%
+  22  IchthyosporeaEP00123Amoebidiumparasiticum_14564355__GNAQ_MOUSE_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_                 1.12%    passed     99.98%
+  23  IchthyosporeaEP00123Amoebidiumparasiticum_14565896__GNA11_MOUSE_Guanine_nucleotide-binding_protein_subunit_alpha-11_OS_                  0.84%    passed     92.46%
+  24  IchthyosporeaEP00126Sphaerothecumdestruens_14599113__GNAQ_XENLA_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_                3.37%    passed     87.38%
+  25  IchthyosporeaSphaeroformaarcticaUP000054560_14621151__GNAQ_HOMAM_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_              12.36%    passed     75.19%
+  26  MetazoaAnnelidaEP00103Capitellateleta_55803__GNAQ_CANLF_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_                       83.43%    passed     30.30%
+  27  MetazoaAnnelidaHelobdellarobusta_90592__GNAQ_RAT_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_                               0.84%    passed     99.47%
+  28  MetazoaAnnelidaHelobdellarobusta_100943__GNAQ_LYMST_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_                            0.84%    passed     98.06%
+  29  MetazoaArthropodaDaphniapulex_201082__GNAQ_HOMAM_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_                              15.45%    passed     91.80%
+  30  MetazoaArthropodaDaphniapulex_201086__GNAQ_HOMAM_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_                               0.84%    passed     99.51%
+  31  MetazoaArthropodaDrosophilamelanogaster_243422__GNAQ_DROME_G_protein_alpha_q_subunit_OS_                                                 0.84%    passed     99.79%
+  32  MetazoaArthropodaDrosophilamelanogaster_244089__GNAQ_DROME_G_protein_alpha_q_subunit_OS_                                                 0.84%    passed     96.23%
+  33  MetazoaArthropodaDrosophilamelanogaster_246313__GNAQ_DROME_G_protein_alpha_q_subunit_OS_                                                 0.84%    passed     95.12%
+  34  MetazoaArthropodaEP00090Calanusglacialis_677253__GNAQ_HOMAM_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_                    0.84%    passed     99.19%
+  35  MetazoaArthropodaEP00090Calanusglacialis_678938__GNA15_HUMAN_Guanine_nucleotide-binding_protein_subunit_alpha-15_OS_                    57.87%    passed     33.45%
+  36  MetazoaArthropodaEP00090Calanusglacialis_678939__GNA14_MOUSE_Guanine_nucleotide-binding_protein_subunit_alpha-14_OS_                    57.87%    passed     52.10%
+  37  MetazoaArthropodaEP00090Calanusglacialis_708040__GNAQ_LOLFO_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_                    4.49%    passed     88.76%
+  38  MetazoaArthropodaEP00090Calanusglacialis_711679__GNAQ_CANLF_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_                   66.85%    passed     57.78%
+  39  MetazoaArthropodaEP00090Calanusglacialis_713045__GPA1_SPOS1_Guanine_nucleotide-binding_protein_subunit_alpha_OS_                        41.01%    passed     24.54%
+  40  MetazoaBrachiopodaLingulaunguis_1294672__GNAQ_LYMST_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_                            0.84%    passed     99.99%
+  41  MetazoaBryozoaBugulaneritina_1799122__GNAQ_LOLFO_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_                              76.97%    passed     92.27%
+  42  MetazoaBryozoaBugulaneritina_2034197__GNAQ_MIZYE_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_                              32.87%    passed     87.25%
+  43  MetazoaBryozoaBugulaneritina_2405133__GNAQ_XENLA_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_                              55.90%    passed     90.01%
+  44  MetazoaCephalochordataBranchiostomabelcheri_2806593__GNA11_HUMAN_Guanine_nucleotide-binding_protein_subunit_alpha-11_OS_                 0.56%    passed     99.86%
+  45  MetazoaCephalochordataBranchiostomabelcheri_2806594__KBP_CHICK_KIF-binding_protein_OS_                                                   0.56%    passed     99.86%
+  46  MetazoaCnidariaAcroporadigitifera_2940693__GNAQ_RAT_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_                            0.84%    passed     99.73%
+  47  MetazoaCnidariaAnthopleuraelegantissima_3010344__GNA11_HUMAN_Guanine_nucleotide-binding_protein_subunit_alpha-11_OS_                     0.56%    passed     99.70%
+  48  MetazoaCnidariaAstreoporasp_3027542__GNAQ_RAT_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_                                  0.84%    passed     99.98%
+  49  MetazoaCnidariaAstreoporasp_3040919__GNAQ_HOMAM_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_                               51.97%    passed     64.06%
+  50  MetazoaCnidariaAstreoporasp_3041128__GNAQ_HOMAM_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_                               50.00%    passed     72.95%
+  51  MetazoaCnidariaClytiahemisphaerica_3093287__GNAQ_CANLF_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_                        55.90%    passed     88.63%
+  52  MetazoaCnidariaFungiascutaria_3190337__GNAQ_RAT_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_                                0.84%    passed    100.00%
+  53  MetazoaCnidariaGorgoniaventalina_3207927__GNAQ_RAT_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_                            17.98%    passed     93.14%
+  54  MetazoaCnidariaHydramagnapapillata_3264055__GNAQ_MIZYE_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_                         0.28%    passed     99.96%
+  55  MetazoaCnidariaMadracisauretenra_3287568__GNAQ_RAT_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_                             0.84%    passed    100.00%
+  56  MetazoaCnidariaMadracisauretenra_3304566__GNA11_MOUSE_Guanine_nucleotide-binding_protein_subunit_alpha-11_OS_                           66.57%    passed     93.84%
+  57  MetazoaCnidariaMontastraeacavernosa_3333776__GNAQ_RAT_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_                          0.84%    passed    100.00%
+  58  MetazoaCnidariaNematostellavectensis_3381862__GNAQ_RAT_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_                         0.84%    passed     99.98%
+  59  MetazoaCnidariaStylophorapistillata_3672489__GNAQ_RAT_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_                          0.84%    passed    100.00%
+  60  MetazoaCtenophoraMnemiopsisleidyi_3720889__GNA11_MELGA_Guanine_nucleotide-binding_protein_subunit_alpha-11_OS_                           0.56%    passed     61.98%
+  61  MetazoaCtenophoraMnemiopsisleidyi_3721718__GNAQ_RAT_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_                           34.83%    passed     99.48%
+  62  MetazoaCtenophoraMnemiopsisleidyi_3726521__GNA14_XENLA_Guanine_nucleotide-binding_protein_subunit_alpha-14_OS_                           0.56%    passed     66.38%
+  63  MetazoaCtenophoraMnemiopsisleidyi_3731534__GNAQ_RAT_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_                           28.65%    failed      2.69%
+  64  MetazoaCtenophoraMnemiopsisleidyi_3733834__GNAQ_LOLFO_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_                          2.25%    passed     94.18%
+  65  MetazoaCtenophoraPleurobrachiabachei_3758522__GNAQ_RAT_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_                         2.53%    passed     59.33%
+  66  MetazoaCtenophoraPleurobrachiabachei_3765194__GNAQ_XENLA_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_                      55.62%    passed     16.43%
+  67  MetazoaEchinodermataAcanthasterplanci_3795341__GNAQ_MOUSE_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_                      0.84%    passed    100.00%
+  68  MetazoaEchinodermataEP00057Strongylocentrotuspurpuratus_3802314__GNAQ_MOUSE_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_    0.84%    passed    100.00%
+  69  MetazoaHemichordataSaccoglossuskowalevskii_4060986__GNAQ_RAT_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_                  19.38%    passed     92.46%
+  70  MetazoaMolluscaEP00106Octopusbimaculoides_4171224__GNAQ_LOLFO_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_                 15.45%    passed     80.30%
+  71  MetazoaMolluscaEP00106Octopusbimaculoides_4171225__GNAQ_LOLFO_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_                 15.45%    passed     98.01%
+  72  MetazoaMolluscaLottiagigantea_4202648__GNAQ_LYMST_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_                              0.84%    passed     99.99%
+  73  MetazoaNematodaCaenorhabditiselegans_4308008__GNA11_MELGA_Guanine_nucleotide-binding_protein_subunit_alpha-11_OS_                        0.84%    passed     99.74%
+  74  MetazoaNematodaLoaloa_4407246__GNAQ_MOUSE_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_                                     15.45%    passed     79.11%
+  75  MetazoaNematodaPristionchuspacificus_4420872__GNAQ_HOMAM_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_                       0.84%    passed     99.85%
+  76  MetazoaPlacozoaEP00114TrichoplaxspH2_4515741__GNAQ_RAT_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_                         0.84%    passed    100.00%
+  77  MetazoaPlacozoaHoilungiahongkongensis_4516654__GNAQ_MOUSE_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_                     25.28%    passed     98.52%
+  78  MetazoaPlacozoaHoilungiahongkongensis_4516656__GNAQ_RAT_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_                        0.84%    passed    100.00%
+  79  MetazoaPoriferaAmphimedonqueenslandica_4712144__GNAQ_GEOCY_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_                     1.12%    passed     99.79%
+  80  MetazoaPoriferaAmphimedonqueenslandica_4712640__GNAQ_RAT_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_                       0.28%    passed     99.43%
+  81  MetazoaPoriferaEP00118Oscarellapearsei_4812169__GNAQ_RAT_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_                       0.84%    passed     99.86%
+  82  MetazoaPoriferaEP00118Oscarellapearsei_4812634__GNAQ_CANLF_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_                     0.84%    passed     98.55%
+  83  MetazoaPoriferaEP00118Oscarellapearsei_4814091__GNA14_XENLA_Guanine_nucleotide-binding_protein_subunit_alpha-14_OS_                      2.25%    passed     58.26%
+  84  MetazoaPoriferaEphydatiamuelleri_4907915__GNAQ_GEOCY_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_                           1.12%    passed     99.96%
+  85  MetazoaPoriferaEphydatiamuelleri_4915872__GNAQ_MIZYE_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_                           1.40%    passed     99.41%
+  86  MetazoaPoriferaEphydatiamuelleri_4930183__GNA14_BOVIN_Guanine_nucleotide-binding_protein_subunit_alpha-14_OS_                           65.45%    passed     62.70%
+  87  MetazoaPoriferaHaliclonatubifera_4951518__GNAQ_GEOCY_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_                           1.12%    passed     63.24%
+  88  MetazoaPoriferaHaliclonatubifera_4952523__GNAQ_RAT_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_                             0.56%    passed     97.49%
+  89  MetazoaPoriferaLeucosoleniacomplicata_4980975__GNAQ_RAT_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_                        0.84%    passed     98.88%
+  90  MetazoaPoriferaLeucosoleniacomplicata_4989740__GNAQ_RAT_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_                        0.56%    passed     17.56%
+  91  MetazoaPoriferaLeucosoleniacomplicata_5002844__GNAQ_MIZYE_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_                      1.12%    passed     99.04%
+  92  MetazoaPoriferaLeucosoleniacomplicata_5005103__GNAQ_LOLFO_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_                      5.06%    passed     29.43%
+  93  MetazoaPoriferaLeucosoleniacomplicata_5026269__GNAQ_HOMAM_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_                     35.67%    passed     96.14%
+  94  MetazoaPoriferaLeucosoleniacomplicata_5026294__GNA13_RAT_Guanine_nucleotide-binding_protein_subunit_alpha-13_OS_                        67.42%    passed     33.10%
+  95  MetazoaPoriferaLeucosoleniacomplicata_5039260__GNAQ_LYMST_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_                      8.43%    passed     97.20%
+  96  MetazoaPoriferaLeucosoleniacomplicata_5043936__GNAQ_LYMST_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_                     64.04%    passed     58.92%
+  97  MetazoaPoriferaLeucosoleniacomplicata_5058259__GNAQ_LOLFO_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_                     67.98%    passed     32.32%
+  98  MetazoaPoriferaLeucosoleniacomplicata_5059667__GNAQ_MOUSE_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_                      1.12%    passed     64.26%
+  99  MetazoaPoriferaStylissacarteri_5077119__GNAQ_GEOCY_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_                             1.69%    passed     93.91%
+ 100  MetazoaPoriferaStylissacarteri_5077125__GNAQ_MOUSE_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_                             0.28%    passed     99.92%
+ 101  MetazoaPoriferaSyconciliatum_5114941__GNAQ_HOMAM_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_                              54.78%    passed     17.83%
+ 102  MetazoaPoriferaSyconciliatum_5115778__GNA14_MOUSE_Guanine_nucleotide-binding_protein_subunit_alpha-14_OS_                                4.78%    passed     45.33%
+ 103  MetazoaPoriferaSyconciliatum_5120847__GNAQ_HOMAM_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_                              54.49%    passed     20.41%
+ 104  MetazoaPoriferaSyconciliatum_5124500__GNAQ_MOUSE_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_                               0.84%    passed     80.21%
+ 105  MetazoaPoriferaSyconciliatum_5135579__GNAQ_LYMST_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_                               1.40%    passed     99.22%
+ 106  MetazoaPoriferaSyconciliatum_5136475__GNA11_MOUSE_Guanine_nucleotide-binding_protein_subunit_alpha-11_OS_                                0.56%    passed     77.06%
+ 107  MetazoaPoriferaSyconciliatum_5140215__GNAQ_CANLF_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_                               0.56%    passed     99.71%
+ 108  MetazoaPoriferaSyconciliatum_5145507__GNA11_MOUSE_Guanine_nucleotide-binding_protein_subunit_alpha-11_OS_                                0.28%    passed     79.74%
+ 109  MetazoaTardigradaRamazzotiusvarieornatus_5287888__GNAQ_MOUSE_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_                   0.56%    passed     99.46%
+ 110  MetazoaTardigradaRamazzotiusvarieornatus_5289159__GNAQ_RAT_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_                     0.28%    passed     56.66%
+ 111  MetazoaUrochordataEP00059Cionaintestinalis_5335577__GNAQ_RAT_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_                   0.28%    passed     99.51%
+ 112  MetazoaUrochordataEP00059Cionaintestinalis_5338442__GNAQ_MIZYE_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_                 0.28%    passed     62.69%
+ 113  MetazoaUrochordataEP00059Cionaintestinalis_5346692__GNAQ_RAT_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_                   0.56%    passed     99.93%
+ 114  MetazoaVertebrateDaniorerio_5417661__GNA11_XENLA_Guanine_nucleotide-binding_protein_subunit_alpha-11_OS_                                58.15%    passed      9.50%
+ 115  MetazoaVertebrateDaniorerio_5417817__GNAQ_MOUSE_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_                                0.84%    passed    100.00%
+ 116  MetazoaVertebrateDaniorerio_5420325__GNA14_XENLA_Guanine_nucleotide-binding_protein_subunit_alpha-14_OS_                                 0.56%    passed     99.77%
+ 117  MetazoaVertebrateDaniorerio_5421531__GNAQ_RAT_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_                                  0.84%    passed     99.99%
+ 118  MetazoaVertebrateDaniorerio_5426240__GNAQ_RAT_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_                                  0.00%    passed     98.08%
+ 119  MetazoaVertebrateDaniorerio_5427800__GNA15_RAT_Guanine_nucleotide-binding_protein_subunit_alpha-15_OS_                                   0.56%    passed     63.42%
+ 120  MetazoaVertebrateDaniorerio_5429648__GNA14_XENLA_Guanine_nucleotide-binding_protein_subunit_alpha-14_OS_                                 0.56%    passed     70.66%
+ 121  MetazoaVertebrateDaniorerio_5430928__GNA14_XENLA_Guanine_nucleotide-binding_protein_subunit_alpha-14_OS_                                 4.78%    passed     72.31%
+ 122  MetazoaVertebrateDaniorerio_5430929__GNAQ_MIZYE_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_                               53.37%    passed      9.69%
+ 123  MetazoaVertebrateDaniorerio_5432426__GNA11_BOVIN_Guanine_nucleotide-binding_protein_subunit_alpha-11_OS_                                 0.84%    passed    100.00%
+ 124  MetazoaVertebrateEptatretusburgeri_6398943__GNA11_XENLA_Guanine_nucleotide-binding_protein_subunit_alpha-11_OS_                         47.47%    passed     90.98%
+ 125  MetazoaVertebrateEptatretusburgeri_6402108__GNA11_HUMAN_Guanine_nucleotide-binding_protein_subunit_alpha-11_OS_                         55.90%    passed     99.70%
+ 126  MetazoaVertebrateHomosapiens_6453570__GNA14_HUMAN_Guanine_nucleotide-binding_protein_subunit_alpha-14_OS_                                0.28%    passed     99.77%
+ 127  MetazoaVertebrateHomosapiens_6455721__GNA11_HUMAN_Guanine_nucleotide-binding_protein_subunit_alpha-11_OS_                                0.84%    passed    100.00%
+ 128  MetazoaVertebrateHomosapiens_6455771__GNA15_HUMAN_Guanine_nucleotide-binding_protein_subunit_alpha-15_OS_                                0.00%    passed     96.65%
+ 129  MetazoaVertebrateHomosapiens_6456606__GNAQ_CANLF_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_                               0.84%    passed     99.96%
+ 130  MetazoaVertebrateMusmusculus_6532740__GNA11_MOUSE_Guanine_nucleotide-binding_protein_subunit_alpha-11_OS_                                0.84%    passed    100.00%
+ 131  MetazoaVertebrateMusmusculus_6532741__GNAQ_MOUSE_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_                               0.84%    passed     99.97%
+ 132  MetazoaVertebrateMusmusculus_6533058__GNA14_MOUSE_Guanine_nucleotide-binding_protein_subunit_alpha-14_OS_                                0.28%    passed     99.90%
+ 133  MetazoaVertebrateMusmusculus_6533059__GNA15_MOUSE_Guanine_nucleotide-binding_protein_subunit_alpha-15_OS_                                0.00%    passed     87.72%
+WARNING: 20 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                                                                                                                   14.14%  8 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: MetazoaCephalochordataBranchiostomabelcheri_2806594__KBP_CHICK_KIF-binding_protein_OS_ is identical to MetazoaCephalochordataBranchiostomabelcheri_2806593__GNA11_HUMAN_Guanine_nucleotide-binding_protein_subunit_alpha-11_OS_ but kept for subsequent analysis
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.042 seconds
+Measuring multi-threading efficiency up to 14 CPU cores
+Increase to 10 rounds for branch lengths
+18 trees examined
+Threads: 1 / Time: 14.442 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -51290
+Threads: 2 / Time: 8.094 sec / Speedup: 1.784 / Efficiency: 89% / LogL: -51290
+Threads: 3 / Time: 5.973 sec / Speedup: 2.418 / Efficiency: 81% / LogL: -51290
+Threads: 4 / Time: 5.130 sec / Speedup: 2.815 / Efficiency: 70% / LogL: -51290
+Threads: 5 / Time: 4.459 sec / Speedup: 3.239 / Efficiency: 65% / LogL: -51290
+Threads: 6 / Time: 3.996 sec / Speedup: 3.614 / Efficiency: 60% / LogL: -51290
+Threads: 7 / Time: 3.687 sec / Speedup: 3.917 / Efficiency: 56% / LogL: -51290
+Threads: 8 / Time: 3.503 sec / Speedup: 4.123 / Efficiency: 52% / LogL: -51290
+Threads: 9 / Time: 3.329 sec / Speedup: 4.338 / Efficiency: 48% / LogL: -51290
+BEST NUMBER OF THREADS: 7
+
+Perform fast likelihood tree search using LG+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -40376.207
+Optimal log-likelihood: -40376.178
+Proportion of invariable sites: 0.013
+Gamma shape alpha: 0.944
+Parameters optimization took 1 rounds (0.061 sec)
+Time for fast ML tree search: 0.924 seconds
+
+NOTE: ModelFinder requires 78 MB RAM!
+ModelFinder will test up to 598 protein models (sample size: 356) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  Blosum62      43302.947    263 87131.893    88641.284    88151.000
+  2  Blosum62+I    43184.471    264 86896.943    88434.525    87919.924
+  3  Blosum62+G4   40986.348    264 82500.697    84038.279    83523.678
+  4  Blosum62+I+G4 40979.623    265 82489.246    84055.690    83516.102
+  5  Blosum62+R2   41405.524    265 83341.047    84907.492    84367.904
+  6  Blosum62+R3   41078.444    267 82690.887    84317.160    83725.494
+  7  Blosum62+R4   40969.419    269 82476.839    84165.908    83519.195
+  8  Blosum62+R5   40942.698    271 82427.395    84182.443    83477.501
+  9  Blosum62+R6   40931.850    273 82409.699    84234.138    83467.555
+ 10  Blosum62+R7   40924.787    275 82399.573    84297.073    83465.179
+ 11  Blosum62+R8   40922.594    277 82399.188    84373.701    83472.544
+ 14  Blosum62+F    43297.787    282 87159.575    89346.040    88252.305
+ 15  Blosum62+F+I  43172.719    283 86911.438    89143.994    88008.044
+ 16  Blosum62+F+G4 40966.652    283 82499.304    84731.860    83595.909
+ 17  Blosum62+F+I+G4 40958.684    284 82485.367    84765.367    83585.847
+ 18  Blosum62+F+R2 41419.388    284 83406.775    85686.775    84507.256
+ 19  Blosum62+F+R3 41066.532    286 82705.064    85084.253    83813.295
+ 20  Blosum62+F+R4 40953.256    288 82482.513    84967.050    83598.493
+ 21  Blosum62+F+R5 40923.035    290 82426.069    85022.684    83549.799
+ 22  Blosum62+F+R6 40909.609    292 82403.218    85119.282    83534.698
+ 23  Blosum62+F+R7 40903.748    294 82395.497    85239.103    83534.726
+ 27  cpREV         43395.486    263 87316.973    88826.364    88336.080
+ 28  cpREV+I       43237.964    264 87003.927    88541.510    88026.909
+ 29  cpREV+G4      40970.269    264 82468.537    84006.120    83491.519
+ 30  cpREV+I+G4    40957.850    265 82445.700    84012.145    83472.557
+ 31  cpREV+R2      41480.132    265 83490.264    85056.709    84517.121
+ 32  cpREV+R3      41077.797    267 82689.595    84315.867    83724.201
+ 33  cpREV+R4      40953.148    269 82444.296    84133.366    83486.652
+ 34  cpREV+R5      40915.772    271 82373.544    84128.592    83423.650
+ 35  cpREV+R6      40899.728    273 82345.456    84169.895    83403.313
+ 36  cpREV+R7      40884.703    275 82319.405    84216.905    83385.011
+ 37  cpREV+R8      40884.702    277 82323.404    84297.917    83396.760
+ 40  cpREV+F       43542.358    282 87648.716    89835.182    88741.447
+ 41  cpREV+F+I     43369.791    283 87305.582    89538.138    88402.188
+ 42  cpREV+F+G4    41029.083    283 82624.166    84856.721    83720.771
+ 43  cpREV+F+I+G4  41015.017    284 82598.033    84878.033    83698.514
+ 44  cpREV+F+R2    41595.247    284 83758.494    86038.494    84858.974
+ 45  cpREV+F+R3    41147.897    286 82867.794    85246.982    83976.024
+ 46  cpREV+F+R4    41016.786    288 82609.572    85094.109    83725.552
+ 47  cpREV+F+R5    40976.169    290 82532.337    85128.953    83656.067
+ 48  cpREV+F+R6    40950.928    292 82485.856    85201.920    83617.336
+ 49  cpREV+F+R7    40943.213    294 82474.425    85318.032    83613.655
+ 50  cpREV+F+R8    40943.973    296 82479.946    85460.014    83626.926
+ 53  Dayhoff       43647.447    263 87820.894    89330.285    88840.001
+ 54  Dayhoff+I     43511.983    264 87551.965    89089.547    88574.947
+ 55  Dayhoff+G4    41125.692    264 82779.384    84316.966    83802.365
+ 56  Dayhoff+I+G4  41115.880    265 82761.761    84328.205    83788.618
+ 57  Dayhoff+R2    41622.975    265 83775.951    85342.395    84802.808
+ 58  Dayhoff+R3    41244.093    267 83022.185    84648.458    84056.792
+ 59  Dayhoff+R4    41106.398    269 82750.797    84439.867    83793.153
+ 60  Dayhoff+R5    41079.644    271 82701.287    84456.335    83751.393
+ 61  Dayhoff+R6    41061.196    273 82668.391    84492.830    83726.247
+ 62  Dayhoff+R7    41042.353    275 82634.707    84532.207    83700.312
+ 63  Dayhoff+R8    41042.702    277 82639.405    84613.918    83712.761
+ 66  Dayhoff+F     43570.978    282 87705.956    89892.422    88798.687
+ 67  Dayhoff+F+I   43431.339    283 87428.678    89661.234    88525.284
+ 68  Dayhoff+F+G4  40963.012    283 82492.024    84724.579    83588.629
+ 69  Dayhoff+F+I+G4 40953.260    284 82474.521    84754.521    83575.001
+ 70  Dayhoff+F+R2  41511.445    284 83590.889    85870.889    84691.370
+ 71  Dayhoff+F+R3  41091.729    286 82755.459    85134.647    83863.689
+ 72  Dayhoff+F+R4  40950.175    288 82476.350    84960.887    83592.330
+ 73  Dayhoff+F+R5  40907.760    290 82395.521    84992.136    83519.251
+ 74  Dayhoff+F+R6  40892.371    292 82368.743    85084.806    83500.222
+ 75  Dayhoff+F+R7  40880.932    294 82349.863    85193.470    83489.093
+ 76  Dayhoff+F+R8  40881.548    296 82355.096    85335.164    83502.076
+ 79  DCMut         43645.019    263 87816.038    89325.429    88835.144
+ 80  DCMut+I       43509.655    264 87547.310    89084.892    88570.292
+ 81  DCMut+G4      41127.082    264 82782.163    84319.746    83805.145
+ 82  DCMut+I+G4    41117.243    265 82764.486    84330.930    83791.343
+ 83  DCMut+R2      41623.392    265 83776.784    85343.229    84803.641
+ 84  DCMut+R3      41245.129    267 83024.258    84650.531    84058.864
+ 85  DCMut+R4      41107.774    269 82753.549    84442.618    83795.905
+ 86  DCMut+R5      41081.226    271 82704.451    84459.499    83754.558
+ 87  DCMut+R6      41062.662    273 82671.323    84495.762    83729.180
+ 88  DCMut+R7      41043.910    275 82637.820    84535.320    83703.426
+ 89  DCMut+R8      41044.356    277 82642.713    84617.226    83716.069
+ 92  DCMut+F       43566.713    282 87697.427    89883.893    88790.157
+ 93  DCMut+F+I     43427.205    283 87420.409    89652.965    88517.015
+ 94  DCMut+F+G4    40962.775    283 82491.550    84724.106    83588.155
+ 95  DCMut+F+I+G4  40952.997    284 82473.994    84753.994    83574.475
+ 96  DCMut+F+R2    41510.191    284 83588.383    85868.383    84688.863
+ 97  DCMut+F+R3    41091.043    286 82754.085    85133.274    83862.316
+ 98  DCMut+F+R4    40949.884    288 82475.769    84960.306    83591.749
+ 99  DCMut+F+R5    40907.536    290 82395.073    84991.688    83518.803
+100  DCMut+F+R6    40892.168    292 82368.336    85084.400    83499.816
+101  DCMut+F+R7    40880.881    294 82349.762    85193.368    83488.992
+102  DCMut+F+R8    40881.457    296 82354.914    85334.982    83501.894
+105  FLU           44641.002    263 89808.004    91317.396    90827.111
+106  FLU+I         44516.207    264 89560.415    91097.997    90583.396
+107  FLU+G4        41692.227    264 83912.454    85450.037    84935.436
+108  FLU+I+G4      41679.623    265 83889.247    85455.691    84916.104
+109  FLU+R2        42269.409    265 85068.818    86635.263    86095.675
+110  FLU+R3        41820.336    267 84174.672    85800.945    85209.279
+111  FLU+R4        41672.016    269 83882.031    85571.101    84924.387
+112  FLU+R5        41597.580    271 83737.161    85492.208    84787.267
+113  FLU+R6        41583.894    273 83713.787    85538.226    84771.643
+114  FLU+R7        41568.011    275 83686.022    85583.522    84751.628
+WARNING: Log-likelihood -41569.4 of FLU+R8 worse than FLU+R7 -41568
+115  FLU+R8        41569.363    277 83692.726    85667.239    84766.082
+118  FLU+F         44559.096    282 89682.192    91868.657    90774.922
+119  FLU+F+I       44421.197    283 89408.394    91640.950    90505.000
+120  FLU+F+G4      41396.787    283 83359.574    85592.129    84456.179
+121  FLU+F+I+G4    41391.914    284 83351.827    85631.827    84452.308
+122  FLU+F+R2      42021.955    284 84611.910    86891.910    85712.391
+123  FLU+F+R3      41537.717    286 83647.435    86026.623    84755.665
+124  FLU+F+R4      41380.945    288 83337.890    85822.427    84453.870
+125  FLU+F+R5      41306.193    290 83192.387    85789.002    84316.117
+126  FLU+F+R6      41283.559    292 83151.118    85867.182    84282.598
+127  FLU+F+R7      41274.054    294 83136.107    85979.714    84275.337
+WARNING: Log-likelihood -41275.3 of FLU+F+R8 worse than FLU+F+R7 -41274.1
+128  FLU+F+R8      41275.281    296 83142.561    86122.629    84289.541
+131  HIVb          45210.799    263 90947.598    92456.989    91966.705
+132  HIVb+I        45058.641    264 90645.283    92182.865    91668.264
+133  HIVb+G4       41913.334    264 84354.668    85892.251    85377.650
+134  HIVb+I+G4     41907.643    265 84345.285    85911.730    85372.142
+135  HIVb+R2       42583.632    265 85697.265    87263.709    86724.122
+136  HIVb+R3       42034.536    267 84603.073    86229.345    85637.679
+137  HIVb+R4       41905.659    269 84349.318    86038.388    85391.675
+138  HIVb+R5       41813.458    271 84168.916    85923.964    85219.023
+139  HIVb+R6       41792.330    273 84130.661    85955.100    85188.517
+140  HIVb+R7       41784.671    275 84119.342    86016.842    85184.948
+141  HIVb+R8       41784.422    277 84122.844    86097.357    85196.200
+144  HIVb+F        45099.728    282 90763.456    92949.922    91856.187
+145  HIVb+F+I      44930.433    283 90426.865    92659.421    91523.471
+146  HIVb+F+G4     41687.640    283 83941.279    86173.835    85037.885
+147  HIVb+F+I+G4   41679.977    284 83927.954    86207.954    85028.434
+148  HIVb+F+R2     42365.729    284 85299.457    87579.457    86399.938
+149  HIVb+F+R3     41818.178    286 84208.357    86587.545    85316.587
+150  HIVb+F+R4     41680.649    288 83937.299    86421.836    85053.279
+151  HIVb+F+R5     41586.839    290 83753.678    86350.293    84877.408
+152  HIVb+F+R6     41562.596    292 83709.192    86425.256    84840.672
+153  HIVb+F+R7     41555.121    294 83698.241    86541.848    84837.471
+154  HIVb+F+R8     41551.767    296 83695.533    86675.601    84842.513
+157  HIVw          46909.547    263 94345.093    95854.485    95364.200
+158  HIVw+I        46765.753    264 94059.505    95597.088    95082.487
+159  HIVw+G4       43868.157    264 88264.314    89801.896    89287.295
+160  HIVw+I+G4     43853.975    265 88237.950    89804.395    89264.807
+161  HIVw+R2       44571.335    265 89672.670    91239.115    90699.527
+162  HIVw+R3       44014.731    267 88563.463    90189.736    89598.070
+163  HIVw+R4       43852.587    269 88243.175    89932.244    89285.531
+164  HIVw+R5       43794.390    271 88130.780    89885.827    89180.886
+165  HIVw+R6       43759.519    273 88065.038    89889.477    89122.895
+166  HIVw+R7       43746.082    275 88042.164    89939.664    89107.770
+167  HIVw+R8       43746.817    277 88047.634    90022.147    89120.990
+170  HIVw+F        45981.704    282 92527.407    94713.873    93620.138
+171  HIVw+F+I      45793.483    283 92152.967    94385.522    93249.572
+172  HIVw+F+G4     42844.634    283 86255.267    88487.823    87351.873
+173  HIVw+F+I+G4   42829.178    284 86226.356    88506.356    87326.836
+174  HIVw+F+R2     43518.997    284 87605.995    89885.995    88706.475
+175  HIVw+F+R3     42965.055    286 86502.109    88881.298    87610.339
+176  HIVw+F+R4     42816.786    288 86209.572    88694.109    87325.552
+177  HIVw+F+R5     42732.702    290 86045.404    88642.019    87169.134
+178  HIVw+F+R6     42716.761    292 86017.521    88733.585    87149.001
+179  HIVw+F+R7     42699.139    294 85986.278    88829.885    87125.508
+180  HIVw+F+R8     42697.006    296 85986.012    88966.080    87132.992
+183  JTT           43479.572    263 87485.143    88994.535    88504.250
+184  JTT+I         43347.165    264 87222.329    88759.912    88245.311
+185  JTT+G4        40906.437    264 82340.874    83878.457    83363.856
+186  JTT+I+G4      40898.755    265 82327.510    83893.955    83354.367
+187  JTT+R2        41410.451    265 83350.902    84917.347    84377.759
+188  JTT+R3        41020.418    267 82574.835    84201.108    83609.442
+189  JTT+R4        40886.057    269 82310.113    83999.183    83352.470
+190  JTT+R5        40845.849    271 82233.697    83988.745    83283.803
+191  JTT+R6        40832.728    273 82211.456    84035.895    83269.312
+192  JTT+R7        40820.149    275 82190.298    84087.798    83255.904
+WARNING: Log-likelihood -40826.7 of JTT+R8 worse than JTT+R7 -40820.1
+193  JTT+R8        40826.706    277 82207.412    84181.925    83280.768
+196  JTT+F         43367.152    282 87298.305    89484.771    88391.035
+197  JTT+F+I       43227.292    283 87020.584    89253.140    88117.190
+198  JTT+F+G4      40772.630    283 82111.260    84343.816    83207.866
+199  JTT+F+I+G4    40764.139    284 82096.279    84376.279    83196.759
+200  JTT+F+R2      41300.842    284 83169.684    85449.684    84270.165
+201  JTT+F+R3      40894.295    286 82360.590    84739.778    83468.820
+202  JTT+F+R4      40756.290    288 82088.580    84573.117    83204.560
+203  JTT+F+R5      40716.403    290 82012.806    84609.422    83136.536
+204  JTT+F+R6      40704.771    292 81993.543    84709.606    83125.023
+205  JTT+F+R7      40691.478    294 81970.956    84814.562    83110.185
+WARNING: Log-likelihood -40695.9 of JTT+F+R8 worse than JTT+F+R7 -40691.5
+206  JTT+F+R8      40695.875    296 81983.750    84963.818    83130.730
+209  JTTDCMut      43454.278    263 87434.557    88943.948    88453.663
+210  JTTDCMut+I    43324.185    264 87176.370    88713.953    88199.352
+211  JTTDCMut+G4   40890.438    264 82308.877    83846.459    83331.858
+212  JTTDCMut+I+G4 40882.880    265 82295.760    83862.204    83322.616
+213  JTTDCMut+R2   41392.518    265 83315.036    84881.480    84341.892
+214  JTTDCMut+R3   41003.592    267 82541.184    84167.457    83575.790
+215  JTTDCMut+R4   40869.058    269 82276.117    83965.186    83318.473
+216  JTTDCMut+R5   40829.626    271 82201.253    83956.300    83251.359
+217  JTTDCMut+R6   40816.874    273 82179.748    84004.187    83237.604
+218  JTTDCMut+R7   40804.072    275 82158.145    84055.645    83223.751
+WARNING: Log-likelihood -40810.8 of JTTDCMut+R8 worse than JTTDCMut+R7 -40804.1
+219  JTTDCMut+R8   40810.754    277 82175.509    84150.022    83248.865
+222  JTTDCMut+F    43355.195    282 87274.390    89460.856    88367.121
+223  JTTDCMut+F+I  43217.305    283 87000.610    89233.166    88097.216
+224  JTTDCMut+F+G4 40764.978    283 82095.956    84328.511    83192.561
+225  JTTDCMut+F+I+G4 40756.585    284 82081.170    84361.170    83181.650
+226  JTTDCMut+F+R2 41292.291    284 83152.581    85432.581    84253.062
+227  JTTDCMut+F+R3 40886.374    286 82344.748    84723.937    83452.979
+228  JTTDCMut+F+R4 40748.355    288 82072.711    84557.248    83188.691
+229  JTTDCMut+F+R5 40708.445    290 81996.891    84593.506    83120.621
+230  JTTDCMut+F+R6 40697.105    292 81978.209    84694.273    83109.689
+231  JTTDCMut+F+R7 40683.559    294 81955.117    84798.724    83094.347
+WARNING: Log-likelihood -40688.2 of JTTDCMut+F+R8 worse than JTTDCMut+F+R7 -40683.6
+232  JTTDCMut+F+R8 40688.205    296 81968.410    84948.478    83115.390
+235  LG            43119.432    263 86764.864    88274.256    87783.971
+236  LG+I          42981.379    264 86490.758    88028.341    87513.740
+237  LG+G4         40384.226    264 81296.453    82834.035    82319.435
+238  LG+I+G4       40376.171    265 81282.342    82848.787    82309.199
+239  LG+R2         40902.432    265 82334.865    83901.309    83361.721
+240  LG+R3         40508.635    267 81551.269    83177.542    82585.876
+241  LG+R4         40370.424    269 81278.849    82967.919    82321.205
+242  LG+R5         40325.539    271 81193.079    82948.127    82243.185
+243  LG+R6         40309.358    273 81164.716    82989.155    82222.572
+244  LG+R7         40301.211    275 81152.422    83049.922    82218.028
+245  LG+R8         40299.950    277 81153.899    83128.412    82227.255
+248  LG+F          43150.787    282 86865.573    89052.039    87958.304
+249  LG+F+I        43010.904    283 86587.808    88820.364    87684.414
+250  LG+F+G4       40405.198    283 81376.396    83608.951    82473.001
+251  LG+F+I+G4     40396.827    284 81361.653    83641.653    82462.133
+252  LG+F+R2       40949.003    284 82466.007    84746.007    83566.487
+253  LG+F+R3       40542.488    286 81656.976    84036.164    82765.206
+254  LG+F+R4       40394.563    288 81365.126    83849.663    82481.106
+255  LG+F+R5       40355.478    290 81290.955    83887.571    82414.685
+256  LG+F+R6       40338.986    292 81261.973    83978.036    82393.452
+257  LG+F+R7       40328.439    294 81244.878    84088.485    82384.108
+258  LG+F+R8       40326.440    296 81244.880    84224.948    82391.860
+261  mtART         48678.452    263 97882.904    99392.295    98902.011
+262  mtART+I       48527.890    264 97583.781    99121.363    98606.763
+263  mtART+G4      43493.596    264 87515.193    89052.775    88538.174
+264  mtART+I+G4    43485.512    265 87501.024    89067.469    88527.881
+265  mtART+R2      44232.630    265 88995.260    90561.704    90022.116
+266  mtART+R3      43686.520    267 87907.041    89533.313    88941.647
+267  mtART+R4      43459.537    269 87457.074    89146.144    88499.430
+268  mtART+R5      43360.589    271 87263.178    89018.226    88313.284
+269  mtART+R6      43308.199    273 87162.399    88986.838    88220.255
+270  mtART+R7      43293.768    275 87137.535    89035.035    88203.141
+271  mtART+R8      43284.224    277 87122.447    89096.960    88195.803
+272  mtART+R9      43283.671    279 87125.342    89181.131    88206.447
+274  mtART+F       46107.914    282 92779.828    94966.294    93872.559
+275  mtART+F+I     45943.949    283 92453.899    94686.454    93550.504
+276  mtART+F+G4    42014.521    283 84595.042    86827.598    85691.647
+277  mtART+F+I+G4  42004.855    284 84577.710    86857.710    85678.191
+278  mtART+F+R2    42740.813    284 86049.625    88329.625    87150.105
+279  mtART+F+R3    42217.415    286 85006.831    87386.019    86115.061
+280  mtART+F+R4    41992.934    288 84561.868    87046.405    85677.848
+281  mtART+F+R5    41908.669    290 84397.339    86993.954    85521.069
+282  mtART+F+R6    41866.765    292 84317.530    87033.594    85449.010
+283  mtART+F+R7    41851.268    294 84290.536    87134.143    85429.766
+WARNING: Log-likelihood -41866.7 of mtART+F+R8 worse than mtART+F+R7 -41851.3
+284  mtART+F+R8    41866.725    296 84325.450    87305.518    85472.429
+287  mtMAM         49479.532    263 99485.063    100994.454   100504.170
+288  mtMAM+I       49380.637    264 99289.274    100826.857   100312.256
+289  mtMAM+G4      44171.076    264 88870.151    90407.734    89893.133
+290  mtMAM+I+G4    44168.818    265 88867.636    90434.081    89894.493
+291  mtMAM+R2      44947.169    265 90424.339    91990.783    91451.196
+292  mtMAM+R3      44406.213    267 89346.425    90972.698    90381.032
+293  mtMAM+R4      44133.873    269 88805.746    90494.815    89848.102
+294  mtMAM+R5      44046.377    271 88634.753    90389.801    89684.860
+295  mtMAM+R6      43987.469    273 88520.938    90345.377    89578.794
+296  mtMAM+R7      43970.892    275 88491.784    90389.284    89557.390
+297  mtMAM+R8      43968.734    277 88491.468    90465.981    89564.824
+300  mtMAM+F       46962.221    282 94488.442    96674.907    95581.172
+301  mtMAM+F+I     46821.294    283 94208.589    96441.144    95305.194
+302  mtMAM+F+G4    42738.684    283 86043.367    88275.923    87139.973
+303  mtMAM+F+I+G4  42730.548    284 86029.095    88309.095    87129.575
+304  mtMAM+F+R2    43463.055    284 87494.111    89774.111    88594.591
+305  mtMAM+F+R3    42964.083    286 86500.165    88879.354    87608.396
+306  mtMAM+F+R4    42715.488    288 86006.977    88491.514    87122.957
+307  mtMAM+F+R5    42638.796    290 85857.592    88454.208    86981.322
+308  mtMAM+F+R6    42596.252    292 85776.504    88492.567    86907.984
+309  mtMAM+F+R7    42588.268    294 85764.535    88608.142    86903.765
+WARNING: Log-likelihood -42589.3 of mtMAM+F+R8 worse than mtMAM+F+R7 -42588.3
+310  mtMAM+F+R8    42589.310    296 85770.621    88750.689    86917.600
+313  mtREV         46913.311    263 94352.622    95862.014    95371.729
+314  mtREV+I       46796.184    264 94120.368    95657.950    95143.349
+315  mtREV+G4      43074.882    264 86677.764    88215.346    87700.746
+316  mtREV+I+G4    43069.443    265 86668.887    88235.331    87695.743
+317  mtREV+R2      43707.155    265 87944.309    89510.754    88971.166
+318  mtREV+R3      43242.060    267 87018.120    88644.393    88052.727
+319  mtREV+R4      43057.769    269 86653.537    88342.607    87695.894
+320  mtREV+R5      43003.369    271 86548.737    88303.785    87598.844
+321  mtREV+R6      42965.200    273 86476.400    88300.839    87534.256
+322  mtREV+R7      42961.829    275 86473.659    88371.159    87539.264
+326  mtREV+F       44812.778    282 90189.557    92376.023    91282.287
+327  mtREV+F+I     44660.089    283 89886.178    92118.733    90982.783
+328  mtREV+F+G4    41617.102    283 83800.203    86032.759    84896.808
+329  mtREV+F+I+G4  41605.234    284 83778.468    86058.468    84878.948
+330  mtREV+F+R2    42211.474    284 84990.947    87270.947    86091.428
+331  mtREV+F+R3    41753.833    286 84079.667    86458.855    85187.897
+332  mtREV+F+R4    41601.301    288 83778.601    86263.138    84894.581
+333  mtREV+F+R5    41540.574    290 83661.148    86257.763    84784.878
+334  mtREV+F+R6    41517.152    292 83618.303    86334.367    84749.783
+335  mtREV+F+R7    41511.338    294 83610.676    86454.283    84749.906
+339  mtZOA         46862.101    263 94250.201    95759.592    95269.308
+340  mtZOA+I       46716.639    264 93961.278    95498.860    94984.259
+341  mtZOA+G4      42409.304    264 85346.607    86884.190    86369.589
+342  mtZOA+I+G4    42399.639    265 85329.279    86895.723    86356.136
+343  mtZOA+R2      43081.123    265 86692.246    88258.691    87719.103
+344  mtZOA+R3      42578.572    267 85691.143    87317.416    86725.750
+345  mtZOA+R4      42388.163    269 85314.326    87003.396    86356.683
+346  mtZOA+R5      42308.817    271 85159.634    86914.681    86209.740
+347  mtZOA+R6      42259.453    273 85064.905    86889.344    86122.761
+348  mtZOA+R7      42249.973    275 85049.947    86947.447    86115.553
+349  mtZOA+R8      42246.204    277 85046.408    87020.921    86119.764
+352  mtZOA+F       44903.081    282 90370.162    92556.628    91462.893
+353  mtZOA+F+I     44737.833    283 90041.666    92274.222    91138.272
+354  mtZOA+F+G4    41419.221    283 83404.443    85636.998    84501.048
+355  mtZOA+F+I+G4  41413.095    284 83394.189    85674.189    84494.669
+356  mtZOA+F+R2    42077.881    284 84723.761    87003.761    85824.242
+357  mtZOA+F+R3    41575.858    286 83723.716    86102.905    84831.947
+358  mtZOA+F+R4    41398.345    288 83372.690    85857.227    84488.670
+359  mtZOA+F+R5    41326.159    290 83232.317    85828.933    84356.047
+360  mtZOA+F+R6    41299.173    292 83182.345    85898.409    84313.825
+361  mtZOA+F+R7    41296.525    294 83181.050    86024.657    84320.280
+365  mtMet         47087.233    263 94700.466    96209.857    95719.572
+366  mtMet+I       46964.224    264 94456.449    95994.031    95479.431
+367  mtMet+G4      43134.955    264 86797.910    88335.492    87820.891
+368  mtMet+I+G4    43129.730    265 86789.460    88355.904    87816.316
+369  mtMet+R2      43768.016    265 88066.033    89632.477    89092.889
+370  mtMet+R3      43276.736    267 87087.473    88713.746    88122.079
+371  mtMet+R4      43124.148    269 86786.297    88475.366    87828.653
+372  mtMet+R5      43034.861    271 86611.721    88366.769    87661.828
+373  mtMet+R6      43001.342    273 86548.684    88373.123    87606.540
+374  mtMet+R7      42999.826    275 86549.651    88447.151    87615.257
+378  mtMet+F       44932.999    282 90429.999    92616.465    91522.729
+379  mtMet+F+I     44781.163    283 90128.325    92360.881    91224.931
+380  mtMet+F+G4    41650.345    283 83866.691    86099.246    84963.296
+381  mtMet+F+I+G4  41646.570    284 83861.139    86141.139    84961.619
+382  mtMet+F+R2    42283.339    284 85134.677    87414.677    86235.157
+383  mtMet+F+R3    41792.419    286 84156.838    86536.027    85265.068
+384  mtMet+F+R4    41633.709    288 83843.418    86327.955    84959.398
+385  mtMet+F+R5    41563.914    290 83707.827    86304.443    84831.557
+386  mtMet+F+R6    41543.794    292 83671.587    86387.651    84803.067
+387  mtMet+F+R7    41538.923    294 83665.847    86509.454    84805.077
+391  mtVer         47983.109    263 96492.217    98001.609    97511.324
+392  mtVer+I       47873.864    264 96275.728    97813.310    97298.709
+393  mtVer+G4      43724.656    264 87977.313    89514.895    89000.294
+394  mtVer+I+G4    43719.662    265 87969.324    89535.768    88996.180
+395  mtVer+R2      44406.591    265 89343.183    90909.627    90370.039
+396  mtVer+R3      43879.018    267 88292.037    89918.309    89326.643
+397  mtVer+R4      43703.195    269 87944.390    89633.459    88986.746
+398  mtVer+R5      43612.611    271 87767.221    89522.269    88817.327
+399  mtVer+R6      43578.880    273 87703.761    89528.200    88761.617
+400  mtVer+R7      43569.626    275 87689.251    89586.751    88754.857
+WARNING: Log-likelihood -43571.3 of mtVer+R8 worse than mtVer+R7 -43569.6
+401  mtVer+R8      43571.293    277 87696.587    89671.100    88769.943
+404  mtVer+F       45974.829    282 92513.658    94700.124    93606.389
+405  mtVer+F+I     45809.207    283 92184.414    94416.970    93281.020
+406  mtVer+F+G4    42377.731    283 85321.462    87554.018    86418.068
+407  mtVer+F+I+G4  42371.191    284 85310.381    87590.381    86410.861
+408  mtVer+F+R2    43073.924    284 86715.847    88995.847    87816.328
+409  mtVer+F+R3    42544.421    286 85660.843    88040.031    86769.073
+410  mtVer+F+R4    42365.582    288 85307.165    87791.702    86423.145
+411  mtVer+F+R5    42288.467    290 85156.933    87753.549    86280.663
+412  mtVer+F+R6    42266.115    292 85116.230    87832.293    86247.710
+413  mtVer+F+R7    42257.823    294 85103.646    87947.252    86242.875
+414  mtVer+F+R8    42253.870    296 85099.740    88079.808    86246.719
+417  mtInv         46853.222    263 94232.443    95741.835    95251.550
+418  mtInv+I       46722.423    264 93972.845    95510.428    94995.827
+419  mtInv+G4      43193.137    264 86914.273    88451.856    87937.255
+420  mtInv+I+G4    43193.061    265 86916.122    88482.567    87942.979
+421  mtInv+R2      43783.345    265 88096.690    89663.135    89123.547
+422  mtInv+R3      43333.898    267 87201.795    88828.068    88236.402
+423  mtInv+R4      43175.691    269 86889.382    88578.452    87931.739
+424  mtInv+R5      43114.236    271 86770.472    88525.520    87820.578
+425  mtInv+R6      43083.134    273 86712.269    88536.708    87770.125
+426  mtInv+R7      43081.027    275 86712.053    88609.553    87777.659
+430  mtInv+F       44302.299    282 89168.598    91355.064    90261.328
+431  mtInv+F+I     44148.123    283 88862.247    91094.802    89958.852
+432  mtInv+F+G4    41288.256    283 83142.511    85375.067    84239.117
+433  mtInv+F+I+G4  41281.975    284 83131.949    85411.949    84232.430
+434  mtInv+F+R2    41882.891    284 84333.782    86613.782    85434.262
+435  mtInv+F+R3    41428.669    286 83429.338    85808.526    84537.568
+436  mtInv+F+R4    41275.148    288 83126.297    85610.834    84242.277
+437  mtInv+F+R5    41217.459    290 83014.918    85611.533    84138.648
+438  mtInv+F+R6    41202.354    292 82988.707    85704.771    84120.187
+439  mtInv+F+R7    41193.153    294 82974.306    85817.912    84113.535
+440  mtInv+F+R8    41190.086    296 82972.173    85952.241    84119.152
+443  Poisson       47864.641    263 96255.281    97764.672    97274.388
+444  Poisson+I     47720.856    264 95969.711    97507.294    96992.693
+445  Poisson+G4    45590.542    264 91709.085    93246.667    92732.067
+446  Poisson+I+G4  45580.531    265 91691.063    93257.507    92717.919
+447  Poisson+R2    45989.820    265 92509.640    94076.084    93536.496
+448  Poisson+R3    45669.882    267 91873.763    93500.036    92908.370
+449  Poisson+R4    45568.687    269 91675.374    93364.444    92717.730
+450  Poisson+R5    45546.631    271 91635.263    93390.311    92685.369
+451  Poisson+R6    45530.486    273 91606.973    93431.412    92664.829
+452  Poisson+R7    45525.645    275 91601.290    93498.790    92666.896
+456  Poisson+F     46861.071    282 94286.141    96472.607    95378.872
+457  Poisson+F+I   46711.923    283 93989.847    96222.402    95086.452
+458  Poisson+F+G4  44527.562    283 89621.123    91853.679    90717.729
+459  Poisson+F+I+G4 44517.391    284 89602.782    91882.782    90703.262
+460  Poisson+F+R2  44946.065    284 90460.131    92740.131    91560.611
+461  Poisson+F+R3  44615.904    286 89803.807    92182.996    90912.037
+462  Poisson+F+R4  44508.054    288 89592.108    92076.645    90708.088
+463  Poisson+F+R5  44484.652    290 89549.304    92145.919    90673.033
+464  Poisson+F+R6  44466.430    292 89516.860    92232.924    90648.340
+465  Poisson+F+R7  44459.791    294 89507.583    92351.189    90646.812
+WARNING: Log-likelihood -44462.2 of Poisson+F+R8 worse than Poisson+F+R7 -44459.8
+466  Poisson+F+R8  44462.181    296 89516.362    92496.430    90663.342
+469  PMB           43395.444    263 87316.889    88826.280    88335.996
+470  PMB+I         43276.225    264 87080.450    88618.032    88103.432
+471  PMB+G4        41065.031    264 82658.062    84195.645    83681.044
+472  PMB+I+G4      41059.217    265 82648.434    84214.879    83675.291
+473  PMB+R2        41501.029    265 83532.057    85098.502    84558.914
+474  PMB+R3        41160.178    267 82854.356    84480.628    83888.962
+475  PMB+R4        41049.242    269 82636.484    84325.554    83678.840
+476  PMB+R5        41012.529    271 82567.058    84322.105    83617.164
+477  PMB+R6        41003.628    273 82553.256    84377.695    83611.112
+478  PMB+R7        40995.177    275 82540.354    84437.854    83605.960
+WARNING: Log-likelihood -40997.6 of PMB+R8 worse than PMB+R7 -40995.2
+479  PMB+R8        40997.565    277 82549.130    84523.643    83622.486
+482  PMB+F         43388.931    282 87341.862    89528.328    88434.593
+483  PMB+F+I       43264.770    283 87095.541    89328.097    88192.146
+484  PMB+F+G4      41037.315    283 82640.630    84873.186    83737.235
+485  PMB+F+I+G4    41030.729    284 82629.458    84909.458    83729.938
+486  PMB+F+R2      41506.811    284 83581.623    85861.623    84682.103
+487  PMB+F+R3      41142.306    286 82856.612    85235.800    83964.842
+488  PMB+F+R4      41024.560    288 82625.120    85109.658    83741.100
+489  PMB+F+R5      40986.566    290 82553.132    85149.748    83676.862
+490  PMB+F+R6      40979.018    292 82542.036    85258.100    83673.516
+491  PMB+F+R7      40966.873    294 82521.746    85365.353    83660.976
+WARNING: Log-likelihood -40968.9 of PMB+F+R8 worse than PMB+F+R7 -40966.9
+492  PMB+F+R8      40968.865    296 82529.730    85509.798    83676.710
+495  rtREV         43505.546    263 87537.092    89046.484    88556.199
+496  rtREV+I       43373.818    264 87275.635    88813.218    88298.617
+497  rtREV+G4      40831.319    264 82190.638    83728.221    83213.620
+498  rtREV+I+G4    40823.342    265 82176.683    83743.128    83203.540
+499  rtREV+R2      41327.193    265 83184.386    84750.830    84211.243
+500  rtREV+R3      40951.221    267 82436.442    84062.715    83471.048
+501  rtREV+R4      40816.198    269 82170.396    83859.465    83212.752
+502  rtREV+R5      40781.339    271 82104.678    83859.725    83154.784
+503  rtREV+R6      40766.532    273 82079.063    83903.502    83136.919
+504  rtREV+R7      40756.089    275 82062.178    83959.678    83127.784
+505  rtREV+R8      40755.736    277 82065.471    84039.984    83138.827
+508  rtREV+F       43346.190    282 87256.380    89442.846    88349.111
+509  rtREV+F+I     43207.044    283 86980.088    89212.643    88076.693
+510  rtREV+F+G4    40602.297    283 81770.594    84003.150    82867.200
+511  rtREV+F+I+G4  40594.495    284 81756.990    84036.990    82857.470
+512  rtREV+F+R2    41129.485    284 82826.970    85106.970    83927.450
+513  rtREV+F+R3    40731.170    286 82034.340    84413.528    83142.570
+514  rtREV+F+R4    40592.448    288 81760.895    84245.433    82876.875
+515  rtREV+F+R5    40552.690    290 81685.379    84281.994    82809.109
+516  rtREV+F+R6    40535.987    292 81655.974    84372.038    82787.454
+517  rtREV+F+R7    40524.322    294 81636.644    84480.251    82775.874
+518  rtREV+F+R8    40524.253    296 81640.505    84620.573    82787.485
+521  VT            43033.407    263 86592.814    88102.205    87611.921
+522  VT+I          42902.598    264 86333.196    87870.778    87356.177
+523  VT+G4         40732.354    264 81992.709    83530.291    83015.691
+524  VT+I+G4       40724.196    265 81978.392    83544.836    83005.249
+525  VT+R2         41178.971    265 82887.943    84454.387    83914.799
+526  VT+R3         40836.578    267 82207.155    83833.428    83241.762
+527  VT+R4         40716.250    269 81970.501    83659.571    83012.857
+528  VT+R5         40689.368    271 81920.736    83675.783    82970.842
+529  VT+R6         40678.272    273 81902.544    83726.983    82960.400
+530  VT+R7         40666.993    275 81883.986    83781.486    82949.592
+531  VT+R8         40667.161    277 81888.321    83862.834    82961.677
+534  VT+F          43001.960    282 86567.919    88754.385    87660.650
+535  VT+F+I        42868.225    283 86302.451    88535.006    87399.056
+536  VT+F+G4       40678.595    283 81923.189    84155.745    83019.794
+537  VT+F+I+G4     40669.718    284 81907.436    84187.436    83007.916
+538  VT+F+R2       41141.906    284 82851.812    85131.812    83952.292
+539  VT+F+R3       40784.103    286 82140.206    84519.394    83248.436
+540  VT+F+R4       40663.036    288 81902.071    84386.609    83018.051
+541  VT+F+R5       40637.509    290 81855.018    84451.634    82978.748
+542  VT+F+R6       40628.768    292 81841.536    84557.600    82973.016
+543  VT+F+R7       40615.036    294 81818.072    84661.678    82957.302
+544  VT+F+R8       40615.518    296 81823.036    84803.103    82970.015
+547  WAG           42958.683    263 86443.365    87952.757    87462.472
+548  WAG+I         42826.018    264 86180.035    87717.618    87203.017
+549  WAG+G4        40642.176    264 81812.351    83349.934    82835.333
+550  WAG+I+G4      40633.841    265 81797.683    83364.127    82824.539
+551  WAG+R2        41124.338    265 82778.677    84345.121    83805.534
+552  WAG+R3        40741.550    267 82017.101    83643.374    83051.707
+553  WAG+R4        40632.888    269 81803.775    83492.845    82846.132
+554  WAG+R5        40591.600    271 81725.201    83480.249    82775.307
+555  WAG+R6        40579.906    273 81705.813    83530.252    82763.669
+556  WAG+R7        40569.891    275 81689.781    83587.281    82755.387
+557  WAG+R8        40570.798    277 81695.596    83670.109    82768.952
+560  WAG+F         42994.851    282 86553.702    88740.168    87646.432
+561  WAG+F+I       42858.591    283 86283.182    88515.737    87379.787
+562  WAG+F+G4      40604.560    283 81775.121    84007.677    82871.726
+563  WAG+F+I+G4    40595.295    284 81758.591    84038.591    82859.071
+564  WAG+F+R2      41113.250    284 82794.500    85074.500    83894.980
+565  WAG+F+R3      40708.530    286 81989.059    84368.248    83097.289
+566  WAG+F+R4      40594.439    288 81764.878    84249.416    82880.859
+567  WAG+F+R5      40554.400    290 81688.800    84285.416    82812.530
+568  WAG+F+R6      40544.023    292 81672.047    84388.110    82803.526
+569  WAG+F+R7      40532.070    294 81652.141    84495.748    82791.371
+WARNING: Log-likelihood -40533.8 of WAG+F+R8 worse than WAG+F+R7 -40532.1
+570  WAG+F+R8      40533.769    296 81659.538    84639.606    82806.518
+WARNING: GTR20 model will estimate 189 substitution rates that might be overfitting!
+WARNING: Please only use GTR20 with very large data and always test for model fit!
+573  GTR20+F       42450.244    471 85842.489    530466.489   87667.581
+WARNING: GTR20 model will estimate 189 substitution rates that might be overfitting!
+WARNING: Please only use GTR20 with very large data and always test for model fit!
+574  GTR20+F+I     42302.095    472 85548.190    532060.190   87377.158
+WARNING: GTR20 model will estimate 189 substitution rates that might be overfitting!
+WARNING: Please only use GTR20 with very large data and always test for model fit!
+575  GTR20+F+G4    40116.468    472 81176.936    527688.936   83005.903
+WARNING: GTR20 model will estimate 189 substitution rates that might be overfitting!
+WARNING: Please only use GTR20 with very large data and always test for model fit!
+576  GTR20+F+I+G4  40102.556    473 81151.113    529555.113   82983.955
+WARNING: GTR20 model will estimate 189 substitution rates that might be overfitting!
+WARNING: Please only use GTR20 with very large data and always test for model fit!
+577  GTR20+F+R2    40608.298    473 82162.595    530566.595   83995.438
+WARNING: GTR20 model will estimate 189 substitution rates that might be overfitting!
+WARNING: Please only use GTR20 with very large data and always test for model fit!
+578  GTR20+F+R3    40236.195    475 81422.389    533622.389   83262.981
+WARNING: GTR20 model will estimate 189 substitution rates that might be overfitting!
+WARNING: Please only use GTR20 with very large data and always test for model fit!
+579  GTR20+F+R4    40104.489    477 81162.977    537174.977   83011.319
+WARNING: GTR20 model will estimate 189 substitution rates that might be overfitting!
+WARNING: Please only use GTR20 with very large data and always test for model fit!
+580  GTR20+F+R5    40083.083    479 81124.166    540964.166   82980.258
+WARNING: GTR20 model will estimate 189 substitution rates that might be overfitting!
+WARNING: Please only use GTR20 with very large data and always test for model fit!
+581  GTR20+F+R6    40068.918    481 81099.837    544783.837   82963.678
+WARNING: GTR20 model will estimate 189 substitution rates that might be overfitting!
+WARNING: Please only use GTR20 with very large data and always test for model fit!
+582  GTR20+F+R7    40055.837    483 81077.675    548621.675   82949.266
+WARNING: GTR20 model will estimate 189 substitution rates that might be overfitting!
+WARNING: Please only use GTR20 with very large data and always test for model fit!
+583  GTR20+F+R8    40048.886    485 81067.771    552487.771   82947.113
+WARNING: GTR20 model will estimate 189 substitution rates that might be overfitting!
+WARNING: Please only use GTR20 with very large data and always test for model fit!
+WARNING: Log-likelihood -40052.3 of GTR20+F+R9 worse than GTR20+F+R8 -40048.9
+584  GTR20+F+R9    40052.332    487 81078.664    556390.664   82965.755
+WARNING: GTR20 model will estimate 189 substitution rates that might be overfitting!
+WARNING: Please only use GTR20 with very large data and always test for model fit!
+586  GTR20+F       42450.244    471 85842.489    530466.489   87667.581
+WARNING: GTR20 model will estimate 189 substitution rates that might be overfitting!
+WARNING: Please only use GTR20 with very large data and always test for model fit!
+587  GTR20+F+I     42302.095    472 85548.190    532060.190   87377.158
+WARNING: GTR20 model will estimate 189 substitution rates that might be overfitting!
+WARNING: Please only use GTR20 with very large data and always test for model fit!
+588  GTR20+F+G4    40116.468    472 81176.936    527688.936   83005.903
+WARNING: GTR20 model will estimate 189 substitution rates that might be overfitting!
+WARNING: Please only use GTR20 with very large data and always test for model fit!
+589  GTR20+F+I+G4  40102.556    473 81151.113    529555.113   82983.955
+WARNING: GTR20 model will estimate 189 substitution rates that might be overfitting!
+WARNING: Please only use GTR20 with very large data and always test for model fit!
+590  GTR20+F+R2    40608.298    473 82162.595    530566.596   83995.438
+WARNING: GTR20 model will estimate 189 substitution rates that might be overfitting!
+WARNING: Please only use GTR20 with very large data and always test for model fit!
+591  GTR20+F+R3    40236.195    475 81422.389    533622.389   83262.981
+WARNING: GTR20 model will estimate 189 substitution rates that might be overfitting!
+WARNING: Please only use GTR20 with very large data and always test for model fit!
+592  GTR20+F+R4    40104.489    477 81162.977    537174.977   83011.319
+WARNING: GTR20 model will estimate 189 substitution rates that might be overfitting!
+WARNING: Please only use GTR20 with very large data and always test for model fit!
+593  GTR20+F+R5    40083.083    479 81124.166    540964.166   82980.258
+WARNING: GTR20 model will estimate 189 substitution rates that might be overfitting!
+WARNING: Please only use GTR20 with very large data and always test for model fit!
+594  GTR20+F+R6    40068.918    481 81099.837    544783.837   82963.678
+WARNING: GTR20 model will estimate 189 substitution rates that might be overfitting!
+WARNING: Please only use GTR20 with very large data and always test for model fit!
+595  GTR20+F+R7    40055.837    483 81077.675    548621.675   82949.266
+WARNING: GTR20 model will estimate 189 substitution rates that might be overfitting!
+WARNING: Please only use GTR20 with very large data and always test for model fit!
+596  GTR20+F+R8    40048.886    485 81067.771    552487.771   82947.113
+WARNING: GTR20 model will estimate 189 substitution rates that might be overfitting!
+WARNING: Please only use GTR20 with very large data and always test for model fit!
+597  GTR20+F+R9    40052.332    487 81078.664    556390.664   82965.755
+Akaike Information Criterion:           GTR20+F+R8
+Corrected Akaike Information Criterion: LG+G4
+Bayesian Information Criterion:         LG+R7
+Best-fit model: LG+R7 chosen according to BIC
+
+All model information printed to G_aR.doublefiltered.fasta.annot.clean.mafft.trimal.UFB.model.gz
+CPU time for ModelFinder: 17184.306 seconds (4h:46m:24s)
+Wall-clock time for ModelFinder: 2497.031 seconds (0h:41m:37s)
+Generating 1000 samples for ultrafast bootstrap (seed: 401426)...
+
+NOTE: 55 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -40301.211
+Optimal log-likelihood: -40301.149
+Site proportion and rates:  (0.103,0.052) (0.116,0.169) (0.175,0.340) (0.196,0.660) (0.190,1.235) (0.171,2.170) (0.048,3.721)
+Parameters optimization took 1 rounds (0.260 sec)
+Computing ML distances based on estimated model parameters... 4.287 sec
+WARNING: Some pairwise ML distances are too long (saturated)
+Computing BIONJ tree...
+0.013 seconds
+Log-likelihood of BIONJ tree: -40724.756
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 4.697 second
+Computing log-likelihood of 98 initial trees ... 3.935 seconds
+Current best score: -40301.149
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -40299.610
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -40254.363
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 4: -40247.054
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 6: -40242.275
+Iteration 10 / LogL: -40291.625 / Time: 0h:0m:30s
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 11: -40238.255
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 14: -40225.993
+Iteration 20 / LogL: -40275.256 / Time: 0h:0m:47s
+Finish initializing candidate tree set (20)
+Current best tree score: -40225.993 / CPU time: 45.956
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 25: -40224.718
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 29: -40220.551
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 30: -40212.518
+Iteration 30 / LogL: -40212.518 / Time: 0h:1m:1s (0h:3m:31s left)
+Iteration 40 / LogL: -40217.846 / Time: 0h:1m:11s (0h:2m:45s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 41: -40210.739
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 44: -40210.211
+Iteration 50 / LogL: -40212.363 / Time: 0h:1m:23s (0h:2m:40s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 53: -40208.157
+Iteration 60 / LogL: -40211.274 / Time: 0h:1m:33s (0h:2m:27s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 62: -40208.083
+Iteration 70 / LogL: -40211.398 / Time: 0h:1m:44s (0h:2m:19s left)
+UPDATE BEST LOG-LIKELIHOOD: -40208.083
+Iteration 80 / LogL: -40209.645 / Time: 0h:1m:55s (0h:1m:59s left)
+Iteration 90 / LogL: -40213.196 / Time: 0h:2m:5s (0h:1m:41s left)
+Iteration 100 / LogL: -40208.149 / Time: 0h:2m:15s (0h:1m:24s left)
+Iteration 110 / LogL: -40213.933 / Time: 0h:2m:26s (0h:1m:9s left)
+Iteration 120 / LogL: -40211.450 / Time: 0h:2m:36s (0h:0m:55s left)
+Iteration 130 / LogL: -40210.759 / Time: 0h:2m:47s (0h:0m:41s left)
+Iteration 140 / LogL: -40215.618 / Time: 0h:2m:57s (0h:0m:28s left)
+Iteration 150 / LogL: -40208.294 / Time: 0h:3m:7s (0h:0m:15s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 158: -40207.856
+Iteration 160 / LogL: -40208.084 / Time: 0h:3m:19s (0h:2m:2s left)
+Iteration 170 / LogL: -40207.923 / Time: 0h:3m:29s (0h:1m:49s left)
+Iteration 180 / LogL: -40215.194 / Time: 0h:3m:40s (0h:1m:35s left)
+Iteration 190 / LogL: -40207.865 / Time: 0h:3m:50s (0h:1m:22s left)
+Iteration 200 / LogL: -40224.654 / Time: 0h:4m:1s (0h:1m:10s left)
+Estimate model parameters (epsilon = 0.100)
+UPDATE BEST LOG-LIKELIHOOD: -40207.791
+Iteration 210 / LogL: -40216.905 / Time: 0h:4m:11s (0h:0m:57s left)
+Iteration 220 / LogL: -40232.819 / Time: 0h:4m:21s (0h:0m:45s left)
+Iteration 230 / LogL: -40215.502 / Time: 0h:4m:31s (0h:0m:33s left)
+Iteration 240 / LogL: -40207.939 / Time: 0h:4m:41s (0h:0m:21s left)
+Iteration 250 / LogL: -40213.645 / Time: 0h:4m:52s (0h:0m:9s left)
+Refining ufboot trees with NNI 1 branch...
+100 samples done
+200 samples done
+300 samples done
+400 samples done
+500 samples done
+600 samples done
+700 samples done
+800 samples done
+900 samples done
+1000 samples done
+Total 1000 ufboot trees refined
+TREE SEARCH COMPLETED AFTER 259 ITERATIONS / Time: 0h:9m:2s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -40207.791
+Optimal log-likelihood: -40207.780
+Site proportion and rates:  (0.097,0.048) (0.112,0.157) (0.185,0.331) (0.202,0.652) (0.196,1.264) (0.164,2.222) (0.044,3.888)
+Parameters optimization took 1 rounds (0.247 sec)
+BEST SCORE FOUND : -40207.780
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+Testing tree branches by aBayes parametric test...
+0.260 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file G_aR.doublefiltered.fasta.annot.clean.mafft.trimal.UFB.splits.nex
+Total tree length: 51.773
+
+Total number of iterations: 259
+CPU time used for tree search: 3706.379 sec (1h:1m:46s)
+Wall-clock time used for tree search: 540.842 sec (0h:9m:0s)
+Total CPU time used: 3723.030 sec (1h:2m:3s)
+Total wall-clock time used: 543.534 sec (0h:9m:3s)
+UFBoot trees printed to G_aR.doublefiltered.fasta.annot.clean.mafft.trimal.UFB.ufboot
+
+Computing bootstrap consensus tree...
+Reading input file G_aR.doublefiltered.fasta.annot.clean.mafft.trimal.UFB.splits.nex...
+133 taxa and 2225 splits.
+Consensus tree written to G_aR.doublefiltered.fasta.annot.clean.mafft.trimal.UFB.contree
+Reading input trees file G_aR.doublefiltered.fasta.annot.clean.mafft.trimal.UFB.contree
+Log-likelihood of consensus tree: -40208.124
+
+Analysis results written to: 
+  IQ-TREE report:                G_aR.doublefiltered.fasta.annot.clean.mafft.trimal.UFB.iqtree
+  Maximum-likelihood tree:       G_aR.doublefiltered.fasta.annot.clean.mafft.trimal.UFB.treefile
+  Likelihood distances:          G_aR.doublefiltered.fasta.annot.clean.mafft.trimal.UFB.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          G_aR.doublefiltered.fasta.annot.clean.mafft.trimal.UFB.splits.nex
+  Consensus tree:                G_aR.doublefiltered.fasta.annot.clean.mafft.trimal.UFB.contree
+  UFBoot trees:                  G_aR.doublefiltered.fasta.annot.clean.mafft.trimal.UFB.ufboot
+  Screen log file:               G_aR.doublefiltered.fasta.annot.clean.mafft.trimal.UFB.log
+
+Date and Time: Sun Jun 13 16:49:15 2021

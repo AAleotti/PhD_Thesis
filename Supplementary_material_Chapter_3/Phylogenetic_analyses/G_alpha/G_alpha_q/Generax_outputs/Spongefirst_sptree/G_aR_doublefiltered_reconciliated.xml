@@ -1,0 +1,3820 @@
+<recPhylo 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.recg.org ./recGeneTreeXML.xsd"
+	xmlns="http://www.recg.org">
+<spTree>
+<phylogeny>
+<clade>
+		<name>node_84</name>
+	<clade>
+			<name>node_0</name>
+		<clade>
+				<name>node_1</name>
+			<clade>
+					<name>node_2</name>
+				<clade>
+						<name>node_3</name>
+					<clade>
+							<name>node_4</name>
+						<clade>
+								<name>node_5</name>
+							<clade>
+									<name>node_6</name>
+								<clade>
+										<name>node_7</name>
+									<clade>
+											<name>node_8</name>
+										<clade>
+												<name>node_9</name>
+											<clade>
+													<name>node_10</name>
+												<clade>
+														<name>node_11</name>
+													<clade>
+															<name>node_12</name>
+														<clade>
+																<name>node_13</name>
+															<clade>
+																	<name>node_14</name>
+																<clade>
+																		<name>node_15</name>
+																	<clade>
+																			<name>MetazoaArthropodaDrosophilamelanogaster</name>
+																	</clade>
+																	<clade>
+																			<name>MetazoaArthropodaEP00090Calanusglacialis</name>
+																	</clade>
+																</clade>
+																<clade>
+																		<name>MetazoaArthropodaDaphniapulex</name>
+																</clade>
+															</clade>
+															<clade>
+																	<name>MetazoaArthropodaStrigamiamaritima</name>
+															</clade>
+														</clade>
+														<clade>
+																<name>node_16</name>
+															<clade>
+																	<name>node_17</name>
+																<clade>
+																		<name>node_18</name>
+																	<clade>
+																			<name>MetazoaNematodaCaenorhabditiselegans</name>
+																	</clade>
+																	<clade>
+																			<name>MetazoaNematodaPristionchuspacificus</name>
+																	</clade>
+																</clade>
+																<clade>
+																		<name>MetazoaNematodaLoaloa</name>
+																</clade>
+															</clade>
+															<clade>
+																	<name>MetazoaTardigradaRamazzotiusvarieornatus</name>
+															</clade>
+														</clade>
+													</clade>
+													<clade>
+															<name>node_19</name>
+														<clade>
+																<name>node_20</name>
+															<clade>
+																	<name>node_21</name>
+																<clade>
+																		<name>node_22</name>
+																	<clade>
+																			<name>MetazoaMolluscaEP00106Octopusbimaculoides</name>
+																	</clade>
+																	<clade>
+																			<name>MetazoaMolluscaLottiagigantea</name>
+																	</clade>
+																</clade>
+																<clade>
+																		<name>MetazoaBrachiopodaLingulaunguis</name>
+																</clade>
+															</clade>
+															<clade>
+																	<name>node_23</name>
+																<clade>
+																		<name>MetazoaAnnelidaEP00103Capitellateleta</name>
+																</clade>
+																<clade>
+																		<name>MetazoaAnnelidaHelobdellarobusta</name>
+																</clade>
+															</clade>
+														</clade>
+														<clade>
+																<name>MetazoaBryozoaBugulaneritina</name>
+														</clade>
+													</clade>
+												</clade>
+												<clade>
+														<name>node_24</name>
+													<clade>
+															<name>node_25</name>
+														<clade>
+																<name>node_26</name>
+															<clade>
+																	<name>node_27</name>
+																<clade>
+																		<name>node_28</name>
+																	<clade>
+																			<name>node_29</name>
+																		<clade>
+																				<name>MetazoaVertebrateHomosapiens</name>
+																		</clade>
+																		<clade>
+																				<name>MetazoaVertebrateMusmusculus</name>
+																		</clade>
+																	</clade>
+																	<clade>
+																			<name>MetazoaVertebrateDaniorerio</name>
+																	</clade>
+																</clade>
+																<clade>
+																		<name>MetazoaVertebrateEptatretusburgeri</name>
+																</clade>
+															</clade>
+															<clade>
+																	<name>MetazoaUrochordataEP00059Cionaintestinalis</name>
+															</clade>
+														</clade>
+														<clade>
+																<name>MetazoaCephalochordataBranchiostomabelcheri</name>
+														</clade>
+													</clade>
+													<clade>
+															<name>node_30</name>
+														<clade>
+																<name>node_31</name>
+															<clade>
+																	<name>MetazoaEchinodermataAcanthasterplanci</name>
+															</clade>
+															<clade>
+																	<name>MetazoaEchinodermataEP00057Strongylocentrotuspurpuratus</name>
+															</clade>
+														</clade>
+														<clade>
+																<name>MetazoaHemichordataSaccoglossuskowalevskii</name>
+														</clade>
+													</clade>
+												</clade>
+											</clade>
+											<clade>
+													<name>node_32</name>
+												<clade>
+														<name>node_33</name>
+													<clade>
+															<name>node_34</name>
+														<clade>
+																<name>node_35</name>
+															<clade>
+																	<name>node_36</name>
+																<clade>
+																		<name>node_37</name>
+																	<clade>
+																			<name>MetazoaCnidariaAcroporadigitifera</name>
+																	</clade>
+																	<clade>
+																			<name>MetazoaCnidariaAcroporatenuis</name>
+																	</clade>
+																</clade>
+																<clade>
+																		<name>node_38</name>
+																	<clade>
+																			<name>MetazoaCnidariaAstreoporasp</name>
+																	</clade>
+																	<clade>
+																			<name>MetazoaCnidariaPoritesaustraliensis</name>
+																	</clade>
+																</clade>
+															</clade>
+															<clade>
+																	<name>node_39</name>
+																<clade>
+																		<name>node_40</name>
+																	<clade>
+																			<name>MetazoaCnidariaFungiascutaria</name>
+																	</clade>
+																	<clade>
+																			<name>MetazoaCnidariaMontastraeacavernosa</name>
+																	</clade>
+																</clade>
+																<clade>
+																		<name>node_41</name>
+																	<clade>
+																			<name>MetazoaCnidariaMadracisauretenra</name>
+																	</clade>
+																	<clade>
+																			<name>MetazoaCnidariaStylophorapistillata</name>
+																	</clade>
+																</clade>
+															</clade>
+														</clade>
+														<clade>
+																<name>node_42</name>
+															<clade>
+																	<name>MetazoaCnidariaAnthopleuraelegantissima</name>
+															</clade>
+															<clade>
+																	<name>MetazoaCnidariaNematostellavectensis</name>
+															</clade>
+														</clade>
+													</clade>
+													<clade>
+															<name>MetazoaCnidariaGorgoniaventalina</name>
+													</clade>
+												</clade>
+												<clade>
+														<name>node_43</name>
+													<clade>
+															<name>node_44</name>
+														<clade>
+																<name>MetazoaCnidariaClytiahemisphaerica</name>
+														</clade>
+														<clade>
+																<name>MetazoaCnidariaHydramagnapapillata</name>
+														</clade>
+													</clade>
+													<clade>
+															<name>MetazoaCnidariaAureliaGenome</name>
+													</clade>
+												</clade>
+											</clade>
+										</clade>
+										<clade>
+												<name>node_45</name>
+											<clade>
+													<name>MetazoaPlacozoaEP00114TrichoplaxspH2</name>
+											</clade>
+											<clade>
+													<name>MetazoaPlacozoaHoilungiahongkongensis</name>
+											</clade>
+										</clade>
+									</clade>
+									<clade>
+											<name>node_46</name>
+										<clade>
+												<name>MetazoaCtenophoraMnemiopsisleidyi</name>
+										</clade>
+										<clade>
+												<name>MetazoaCtenophoraPleurobrachiabachei</name>
+										</clade>
+									</clade>
+								</clade>
+								<clade>
+										<name>node_47</name>
+									<clade>
+											<name>node_48</name>
+										<clade>
+												<name>node_49</name>
+											<clade>
+													<name>MetazoaPoriferaAmphimedonqueenslandica</name>
+											</clade>
+											<clade>
+													<name>MetazoaPoriferaHaliclonatubifera</name>
+											</clade>
+										</clade>
+										<clade>
+												<name>node_50</name>
+											<clade>
+													<name>MetazoaPoriferaEphydatiamuelleri</name>
+											</clade>
+											<clade>
+													<name>MetazoaPoriferaStylissacarteri</name>
+											</clade>
+										</clade>
+									</clade>
+									<clade>
+											<name>node_51</name>
+										<clade>
+												<name>node_52</name>
+											<clade>
+													<name>MetazoaPoriferaLeucosoleniacomplicata</name>
+											</clade>
+											<clade>
+													<name>MetazoaPoriferaSyconciliatum</name>
+											</clade>
+										</clade>
+										<clade>
+												<name>MetazoaPoriferaEP00118Oscarellapearsei</name>
+										</clade>
+									</clade>
+								</clade>
+							</clade>
+							<clade>
+									<name>node_53</name>
+								<clade>
+										<name>node_54</name>
+									<clade>
+											<name>node_55</name>
+										<clade>
+												<name>node_56</name>
+											<clade>
+													<name>ChoanoflagellataEP00035Acanthoecaspectabilis</name>
+											</clade>
+											<clade>
+													<name>ChoanoflagellataEP00037Helgoecanana</name>
+											</clade>
+										</clade>
+										<clade>
+												<name>ChoanoflagellataEP00040Diaphanoecagrandis</name>
+										</clade>
+									</clade>
+									<clade>
+											<name>ChoanoflagellataEP00039Didymoecacostata</name>
+									</clade>
+								</clade>
+								<clade>
+										<name>node_57</name>
+									<clade>
+											<name>node_58</name>
+										<clade>
+												<name>ChoanoflagellataEP00045Choanoecaperplexa</name>
+										</clade>
+										<clade>
+												<name>ChoanoflagellateaMonosigabrevicollisUP000001357</name>
+										</clade>
+									</clade>
+									<clade>
+											<name>node_59</name>
+										<clade>
+												<name>ChoanoflagellataEP00047Mylnosigafluctuans</name>
+										</clade>
+										<clade>
+												<name>ChoanoflagellataEP00050Salpingoecakvevrii</name>
+										</clade>
+									</clade>
+								</clade>
+							</clade>
+						</clade>
+						<clade>
+								<name>node_60</name>
+							<clade>
+									<name>node_61</name>
+								<clade>
+										<name>node_62</name>
+									<clade>
+											<name>IchthyosporeaEP00123Amoebidiumparasiticum</name>
+									</clade>
+									<clade>
+											<name>IchthyosporeaSphaeroformaarcticaUP000054560</name>
+									</clade>
+								</clade>
+								<clade>
+										<name>IchthyosporeaEP00126Sphaerothecumdestruens</name>
+								</clade>
+							</clade>
+							<clade>
+									<name>node_63</name>
+								<clade>
+										<name>FilastreaCapsasporaowczarzakiUP000008743</name>
+								</clade>
+								<clade>
+										<name>PluriformeaEP00127Corallochytriumlimacisporum</name>
+								</clade>
+							</clade>
+						</clade>
+					</clade>
+					<clade>
+							<name>node_64</name>
+						<clade>
+								<name>node_65</name>
+							<clade>
+									<name>node_66</name>
+								<clade>
+										<name>node_67</name>
+									<clade>
+											<name>node_68</name>
+										<clade>
+												<name>FungiFusariumoxysporumUP000002489</name>
+										</clade>
+										<clade>
+												<name>FungiSaccharomycescerevisiaeUP000002311</name>
+										</clade>
+									</clade>
+									<clade>
+											<name>FungiEP00150Ustilagomaydis</name>
+									</clade>
+								</clade>
+								<clade>
+										<name>node_69</name>
+									<clade>
+											<name>FungiMortierellaelongataUP000078512</name>
+									</clade>
+									<clade>
+											<name>FungiRhizopusmicrosporusUP000242254</name>
+									</clade>
+								</clade>
+							</clade>
+							<clade>
+									<name>FungiSpizellomycespunctatusUP000053201</name>
+							</clade>
+						</clade>
+						<clade>
+								<name>node_70</name>
+							<clade>
+									<name>RotosphaeridaEP00160Parvulariaatlantis</name>
+							</clade>
+							<clade>
+									<name>RotosphaeridaFonticulaalbaUP000030693</name>
+							</clade>
+						</clade>
+					</clade>
+				</clade>
+				<clade>
+						<name>node_71</name>
+					<clade>
+							<name>ApusomonadidaThecamonastrahensUP000054408</name>
+					</clade>
+					<clade>
+							<name>BreviataEP00033Pygsuiabiforma</name>
+					</clade>
+				</clade>
+			</clade>
+			<clade>
+					<name>node_72</name>
+				<clade>
+						<name>node_73</name>
+					<clade>
+							<name>AmoebozoaDictyosteliumdiscoideumUP000002195</name>
+					</clade>
+					<clade>
+							<name>AmoebozoaEP00029Vermamoebavermiformis</name>
+					</clade>
+				</clade>
+				<clade>
+						<name>AmoebozoaEP00007CuneaspBSH02190019</name>
+				</clade>
+			</clade>
+		</clade>
+		<clade>
+				<name>node_74</name>
+			<clade>
+					<name>CollodictyonidaeEP00002Diphylleiarotans</name>
+			</clade>
+			<clade>
+					<name>RigifilidaEP00004Rigifilaramosa</name>
+			</clade>
+		</clade>
+	</clade>
+	<clade>
+			<name>node_75</name>
+		<clade>
+				<name>node_76</name>
+			<clade>
+					<name>node_77</name>
+				<clade>
+						<name>node_78</name>
+					<clade>
+							<name>RhodelphisEP00736Rhodelphismarinus</name>
+					</clade>
+					<clade>
+							<name>RhodophytaGaldieriasulphurariaUP000030680</name>
+					</clade>
+				</clade>
+				<clade>
+						<name>ChloroplastidaArabidopsisthalianaUP000006548</name>
+				</clade>
+			</clade>
+			<clade>
+					<name>node_79</name>
+				<clade>
+						<name>CryptophyceaeGuillardiathetaUP000011087</name>
+				</clade>
+				<clade>
+						<name>HaptophytaEP00319Phaeocystisglobosa</name>
+				</clade>
+			</clade>
+		</clade>
+		<clade>
+				<name>node_80</name>
+			<clade>
+					<name>node_81</name>
+				<clade>
+						<name>node_82</name>
+					<clade>
+							<name>RhizariaEP00473Plasmodiophorabrassicae</name>
+					</clade>
+					<clade>
+							<name>StramenopilesPhytophthorainfestansUP000006643</name>
+					</clade>
+				</clade>
+				<clade>
+						<name>AlveolataEP00742ColponemidiaspColp10</name>
+				</clade>
+			</clade>
+			<clade>
+					<name>node_83</name>
+				<clade>
+						<name>EuglenozoaEP00668Euglenalonga</name>
+				</clade>
+				<clade>
+						<name>HeteroloboseaEP00761Pharyngomonaskirbyi</name>
+				</clade>
+			</clade>
+		</clade>
+	</clade>
+</clade>
+</phylogeny>
+</spTree>
+<recGeneTree>
+<phylogeny rooted="true">
+<clade>
+	<name>NULL</name>
+	<eventsRec>
+		<speciation speciesLocation="node_84"/>
+	</eventsRec>
+	<clade>
+		<name>57</name>
+		<eventsRec>
+			<speciation speciesLocation="node_0"/>
+		</eventsRec>
+			<clade>
+			<name>loss</name>
+			<eventsRec>
+				<loss speciesLocation="node_74"/>
+			</eventsRec>
+		</clade>
+		<clade>
+			<name>57</name>
+			<eventsRec>
+				<speciation speciesLocation="node_1"/>
+			</eventsRec>
+				<clade>
+				<name>loss</name>
+				<eventsRec>
+					<loss speciesLocation="node_72"/>
+				</eventsRec>
+			</clade>
+			<clade>
+				<name>57</name>
+				<eventsRec>
+					<speciation speciesLocation="node_2"/>
+				</eventsRec>
+					<clade>
+					<name>loss</name>
+					<eventsRec>
+						<loss speciesLocation="node_71"/>
+					</eventsRec>
+				</clade>
+				<clade>
+					<name>57</name>
+					<eventsRec>
+						<speciation speciesLocation="node_3"/>
+					</eventsRec>
+						<clade>
+						<name>loss</name>
+						<eventsRec>
+							<loss speciesLocation="node_64"/>
+						</eventsRec>
+					</clade>
+					<clade>
+						<name>57</name>
+						<eventsRec>
+							<duplication speciesLocation="node_4"/>
+						</eventsRec>
+						<clade>
+							<name>46</name>
+							<eventsRec>
+								<speciation speciesLocation="node_4"/>
+							</eventsRec>
+							<clade>
+								<name>ChoanoflagellataEP00050Salpingoecakvevrii_11212111__GNAQ_HOMAM_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+								<eventsRec>
+									<speciation speciesLocation="node_5"/>
+								</eventsRec>
+									<clade>
+									<name>loss</name>
+									<eventsRec>
+										<loss speciesLocation="node_6"/>
+									</eventsRec>
+								</clade>
+								<clade>
+									<name>ChoanoflagellataEP00050Salpingoecakvevrii_11212111__GNAQ_HOMAM_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+									<eventsRec>
+										<speciation speciesLocation="node_53"/>
+									</eventsRec>
+										<clade>
+										<name>loss</name>
+										<eventsRec>
+											<loss speciesLocation="node_54"/>
+										</eventsRec>
+									</clade>
+									<clade>
+										<name>ChoanoflagellataEP00050Salpingoecakvevrii_11212111__GNAQ_HOMAM_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+										<eventsRec>
+											<speciation speciesLocation="node_57"/>
+										</eventsRec>
+											<clade>
+											<name>loss</name>
+											<eventsRec>
+												<loss speciesLocation="node_58"/>
+											</eventsRec>
+										</clade>
+										<clade>
+											<name>ChoanoflagellataEP00050Salpingoecakvevrii_11212111__GNAQ_HOMAM_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+											<eventsRec>
+												<speciation speciesLocation="node_59"/>
+											</eventsRec>
+												<clade>
+												<name>loss</name>
+												<eventsRec>
+													<loss speciesLocation="ChoanoflagellataEP00047Mylnosigafluctuans"/>
+												</eventsRec>
+											</clade>
+											<clade>
+												<name>ChoanoflagellataEP00050Salpingoecakvevrii_11212111__GNAQ_HOMAM_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+												<eventsRec>
+													<leaf speciesLocation="ChoanoflagellataEP00050Salpingoecakvevrii"/>
+												</eventsRec>
+											</clade>
+										</clade>
+									</clade>
+								</clade>
+							</clade>
+							<clade>
+								<name>59</name>
+								<eventsRec>
+									<speciation speciesLocation="node_60"/>
+								</eventsRec>
+								<clade>
+									<name>51</name>
+									<eventsRec>
+										<speciation speciesLocation="node_61"/>
+									</eventsRec>
+									<clade>
+										<name>100</name>
+										<eventsRec>
+											<speciation speciesLocation="node_62"/>
+										</eventsRec>
+										<clade>
+											<name>IchthyosporeaSphaeroformaarcticaUP000054560_14621151__GNAQ_HOMAM_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+											<eventsRec>
+												<leaf speciesLocation="IchthyosporeaSphaeroformaarcticaUP000054560"/>
+											</eventsRec>
+										</clade>
+										<clade>
+											<name>65</name>
+											<eventsRec>
+												<duplication speciesLocation="IchthyosporeaEP00123Amoebidiumparasiticum"/>
+											</eventsRec>
+											<clade>
+												<name>IchthyosporeaEP00123Amoebidiumparasiticum_14564355__GNAQ_MOUSE_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+												<eventsRec>
+													<leaf speciesLocation="IchthyosporeaEP00123Amoebidiumparasiticum"/>
+												</eventsRec>
+											</clade>
+											<clade>
+												<name>IchthyosporeaEP00123Amoebidiumparasiticum_14565896__GNA11_MOUSE_Guanine_nucleotide-binding_protein_subunit_alpha-11_OS_</name>
+												<eventsRec>
+													<leaf speciesLocation="IchthyosporeaEP00123Amoebidiumparasiticum"/>
+												</eventsRec>
+											</clade>
+										</clade>
+									</clade>
+									<clade>
+										<name>IchthyosporeaEP00126Sphaerothecumdestruens_14599113__GNAQ_XENLA_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+										<eventsRec>
+											<leaf speciesLocation="IchthyosporeaEP00126Sphaerothecumdestruens"/>
+										</eventsRec>
+									</clade>
+								</clade>
+								<clade>
+									<name>FilastreaCapsasporaowczarzakiUP000008743_12980394__GNAQ_XENLA_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+									<eventsRec>
+										<speciation speciesLocation="node_63"/>
+									</eventsRec>
+										<clade>
+										<name>loss</name>
+										<eventsRec>
+											<loss speciesLocation="PluriformeaEP00127Corallochytriumlimacisporum"/>
+										</eventsRec>
+									</clade>
+									<clade>
+										<name>FilastreaCapsasporaowczarzakiUP000008743_12980394__GNAQ_XENLA_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+										<eventsRec>
+											<leaf speciesLocation="FilastreaCapsasporaowczarzakiUP000008743"/>
+										</eventsRec>
+									</clade>
+								</clade>
+							</clade>
+						</clade>
+						<clade>
+							<name>88</name>
+							<eventsRec>
+								<duplication speciesLocation="node_4"/>
+							</eventsRec>
+							<clade>
+								<name>99</name>
+								<eventsRec>
+									<speciation speciesLocation="node_4"/>
+								</eventsRec>
+									<clade>
+									<name>loss</name>
+									<eventsRec>
+										<loss speciesLocation="node_60"/>
+									</eventsRec>
+								</clade>
+								<clade>
+									<name>99</name>
+									<eventsRec>
+										<duplication speciesLocation="node_5"/>
+									</eventsRec>
+									<clade>
+										<name>69</name>
+										<eventsRec>
+											<speciation speciesLocation="node_5"/>
+										</eventsRec>
+											<clade>
+											<name>loss</name>
+											<eventsRec>
+												<loss speciesLocation="node_6"/>
+											</eventsRec>
+										</clade>
+										<clade>
+											<name>69</name>
+											<eventsRec>
+												<speciation speciesLocation="node_53"/>
+											</eventsRec>
+											<clade>
+												<name>60</name>
+												<eventsRec>
+													<speciation speciesLocation="node_57"/>
+												</eventsRec>
+												<clade>
+													<name>100</name>
+													<eventsRec>
+														<speciation speciesLocation="node_58"/>
+													</eventsRec>
+													<clade>
+														<name>ChoanoflagellataEP00045Choanoecaperplexa_11081482__GNAQ_CANLF_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+														<eventsRec>
+															<leaf speciesLocation="ChoanoflagellataEP00045Choanoecaperplexa"/>
+														</eventsRec>
+													</clade>
+													<clade>
+														<name>ChoanoflagellateaMonosigabrevicollisUP000001357_11430276__GNAQ_MOUSE_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+														<eventsRec>
+															<leaf speciesLocation="ChoanoflagellateaMonosigabrevicollisUP000001357"/>
+														</eventsRec>
+													</clade>
+												</clade>
+												<clade>
+													<name>69</name>
+													<eventsRec>
+														<speciation speciesLocation="node_59"/>
+													</eventsRec>
+													<clade>
+														<name>ChoanoflagellataEP00047Mylnosigafluctuans_11114050__GNA11_MELGA_Guanine_nucleotide-binding_protein_subunit_alpha-11_OS_</name>
+														<eventsRec>
+															<leaf speciesLocation="ChoanoflagellataEP00047Mylnosigafluctuans"/>
+														</eventsRec>
+													</clade>
+													<clade>
+														<name>ChoanoflagellataEP00050Salpingoecakvevrii_11200041__GNAQ_CANLF_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+														<eventsRec>
+															<leaf speciesLocation="ChoanoflagellataEP00050Salpingoecakvevrii"/>
+														</eventsRec>
+													</clade>
+												</clade>
+											</clade>
+											<clade>
+												<name>86</name>
+												<eventsRec>
+													<speciation speciesLocation="node_54"/>
+												</eventsRec>
+												<clade>
+													<name>ChoanoflagellataEP00039Didymoecacostata_10872254__GNA11_BOVIN_Guanine_nucleotide-binding_protein_subunit_alpha-11_OS_</name>
+													<eventsRec>
+														<leaf speciesLocation="ChoanoflagellataEP00039Didymoecacostata"/>
+													</eventsRec>
+												</clade>
+												<clade>
+													<name>100</name>
+													<eventsRec>
+														<speciation speciesLocation="node_55"/>
+													</eventsRec>
+													<clade>
+														<name>ChoanoflagellataEP00040Diaphanoecagrandis_10921743__GNAQ_DROME_G_protein_alpha_q_subunit_OS_</name>
+														<eventsRec>
+															<leaf speciesLocation="ChoanoflagellataEP00040Diaphanoecagrandis"/>
+														</eventsRec>
+													</clade>
+													<clade>
+														<name>0</name>
+														<eventsRec>
+															<speciation speciesLocation="node_56"/>
+														</eventsRec>
+														<clade>
+															<name>ChoanoflagellataEP00037Helgoecanana_10815126__GNA14_XENLA_Guanine_nucleotide-binding_protein_subunit_alpha-14_OS_</name>
+															<eventsRec>
+																<leaf speciesLocation="ChoanoflagellataEP00037Helgoecanana"/>
+															</eventsRec>
+														</clade>
+														<clade>
+															<name>ChoanoflagellataEP00035Acanthoecaspectabilis_10737475__GNA14_XENLA_Guanine_nucleotide-binding_protein_subunit_alpha-14_OS_</name>
+															<eventsRec>
+																<leaf speciesLocation="ChoanoflagellataEP00035Acanthoecaspectabilis"/>
+															</eventsRec>
+														</clade>
+													</clade>
+												</clade>
+											</clade>
+										</clade>
+									</clade>
+									<clade>
+										<name>80</name>
+										<eventsRec>
+											<duplication speciesLocation="node_5"/>
+										</eventsRec>
+										<clade>
+											<name>99</name>
+											<eventsRec>
+												<speciation speciesLocation="node_5"/>
+											</eventsRec>
+											<clade>
+												<name>ChoanoflagellataEP00050Salpingoecakvevrii_11194988__GNA14_XENLA_Guanine_nucleotide-binding_protein_subunit_alpha-14_OS_</name>
+												<eventsRec>
+													<speciation speciesLocation="node_53"/>
+												</eventsRec>
+													<clade>
+													<name>loss</name>
+													<eventsRec>
+														<loss speciesLocation="node_54"/>
+													</eventsRec>
+												</clade>
+												<clade>
+													<name>ChoanoflagellataEP00050Salpingoecakvevrii_11194988__GNA14_XENLA_Guanine_nucleotide-binding_protein_subunit_alpha-14_OS_</name>
+													<eventsRec>
+														<speciation speciesLocation="node_57"/>
+													</eventsRec>
+														<clade>
+														<name>loss</name>
+														<eventsRec>
+															<loss speciesLocation="node_58"/>
+														</eventsRec>
+													</clade>
+													<clade>
+														<name>ChoanoflagellataEP00050Salpingoecakvevrii_11194988__GNA14_XENLA_Guanine_nucleotide-binding_protein_subunit_alpha-14_OS_</name>
+														<eventsRec>
+															<speciation speciesLocation="node_59"/>
+														</eventsRec>
+															<clade>
+															<name>loss</name>
+															<eventsRec>
+																<loss speciesLocation="ChoanoflagellataEP00047Mylnosigafluctuans"/>
+															</eventsRec>
+														</clade>
+														<clade>
+															<name>ChoanoflagellataEP00050Salpingoecakvevrii_11194988__GNA14_XENLA_Guanine_nucleotide-binding_protein_subunit_alpha-14_OS_</name>
+															<eventsRec>
+																<leaf speciesLocation="ChoanoflagellataEP00050Salpingoecakvevrii"/>
+															</eventsRec>
+														</clade>
+													</clade>
+												</clade>
+											</clade>
+											<clade>
+												<name>MetazoaPoriferaLeucosoleniacomplicata_5058259__GNAQ_LOLFO_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+												<eventsRec>
+													<speciation speciesLocation="node_6"/>
+												</eventsRec>
+													<clade>
+													<name>loss</name>
+													<eventsRec>
+														<loss speciesLocation="node_7"/>
+													</eventsRec>
+												</clade>
+												<clade>
+													<name>MetazoaPoriferaLeucosoleniacomplicata_5058259__GNAQ_LOLFO_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+													<eventsRec>
+														<speciation speciesLocation="node_47"/>
+													</eventsRec>
+														<clade>
+														<name>loss</name>
+														<eventsRec>
+															<loss speciesLocation="node_48"/>
+														</eventsRec>
+													</clade>
+													<clade>
+														<name>MetazoaPoriferaLeucosoleniacomplicata_5058259__GNAQ_LOLFO_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+														<eventsRec>
+															<speciation speciesLocation="node_51"/>
+														</eventsRec>
+															<clade>
+															<name>loss</name>
+															<eventsRec>
+																<loss speciesLocation="MetazoaPoriferaEP00118Oscarellapearsei"/>
+															</eventsRec>
+														</clade>
+														<clade>
+															<name>MetazoaPoriferaLeucosoleniacomplicata_5058259__GNAQ_LOLFO_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+															<eventsRec>
+																<speciation speciesLocation="node_52"/>
+															</eventsRec>
+																<clade>
+																<name>loss</name>
+																<eventsRec>
+																	<loss speciesLocation="MetazoaPoriferaSyconciliatum"/>
+																</eventsRec>
+															</clade>
+															<clade>
+																<name>MetazoaPoriferaLeucosoleniacomplicata_5058259__GNAQ_LOLFO_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+																<eventsRec>
+																	<leaf speciesLocation="MetazoaPoriferaLeucosoleniacomplicata"/>
+																</eventsRec>
+															</clade>
+														</clade>
+													</clade>
+												</clade>
+											</clade>
+										</clade>
+										<clade>
+											<name>63</name>
+											<eventsRec>
+												<speciation speciesLocation="node_5"/>
+											</eventsRec>
+												<clade>
+												<name>loss</name>
+												<eventsRec>
+													<loss speciesLocation="node_6"/>
+												</eventsRec>
+											</clade>
+											<clade>
+												<name>63</name>
+												<eventsRec>
+													<speciation speciesLocation="node_53"/>
+												</eventsRec>
+												<clade>
+													<name>99</name>
+													<eventsRec>
+														<speciation speciesLocation="node_54"/>
+													</eventsRec>
+													<clade>
+														<name>84</name>
+														<eventsRec>
+															<speciation speciesLocation="node_55"/>
+														</eventsRec>
+														<clade>
+															<name>100</name>
+															<eventsRec>
+																<speciation speciesLocation="node_56"/>
+															</eventsRec>
+															<clade>
+																<name>ChoanoflagellataEP00035Acanthoecaspectabilis_10739696__GNAQ_RAT_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+																<eventsRec>
+																	<leaf speciesLocation="ChoanoflagellataEP00035Acanthoecaspectabilis"/>
+																</eventsRec>
+															</clade>
+															<clade>
+																<name>ChoanoflagellataEP00037Helgoecanana_10784991__GNAQ_DROME_G_protein_alpha_q_subunit_OS_</name>
+																<eventsRec>
+																	<leaf speciesLocation="ChoanoflagellataEP00037Helgoecanana"/>
+																</eventsRec>
+															</clade>
+														</clade>
+														<clade>
+															<name>ChoanoflagellataEP00040Diaphanoecagrandis_10910043__GNA14_XENLA_Guanine_nucleotide-binding_protein_subunit_alpha-14_OS_</name>
+															<eventsRec>
+																<leaf speciesLocation="ChoanoflagellataEP00040Diaphanoecagrandis"/>
+															</eventsRec>
+														</clade>
+													</clade>
+													<clade>
+														<name>ChoanoflagellataEP00039Didymoecacostata_10864092__GNAQ_CANLF_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+														<eventsRec>
+															<leaf speciesLocation="ChoanoflagellataEP00039Didymoecacostata"/>
+														</eventsRec>
+													</clade>
+												</clade>
+												<clade>
+													<name>100</name>
+													<eventsRec>
+														<speciation speciesLocation="node_57"/>
+													</eventsRec>
+														<clade>
+														<name>loss</name>
+														<eventsRec>
+															<loss speciesLocation="node_59"/>
+														</eventsRec>
+													</clade>
+													<clade>
+														<name>100</name>
+														<eventsRec>
+															<speciation speciesLocation="node_58"/>
+														</eventsRec>
+														<clade>
+															<name>63</name>
+															<eventsRec>
+																<duplication speciesLocation="ChoanoflagellataEP00045Choanoecaperplexa"/>
+															</eventsRec>
+															<clade>
+																<name>ChoanoflagellataEP00045Choanoecaperplexa_11087924__GNAQ_HOMAM_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+																<eventsRec>
+																	<leaf speciesLocation="ChoanoflagellataEP00045Choanoecaperplexa"/>
+																</eventsRec>
+															</clade>
+															<clade>
+																<name>100</name>
+																<eventsRec>
+																	<duplication speciesLocation="ChoanoflagellataEP00045Choanoecaperplexa"/>
+																</eventsRec>
+																<clade>
+																	<name>ChoanoflagellataEP00045Choanoecaperplexa_11087928__GNAQ_MOUSE_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+																	<eventsRec>
+																		<leaf speciesLocation="ChoanoflagellataEP00045Choanoecaperplexa"/>
+																	</eventsRec>
+																</clade>
+																<clade>
+																	<name>ChoanoflagellataEP00045Choanoecaperplexa_11087923__GNAQ_GEOCY_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+																	<eventsRec>
+																		<leaf speciesLocation="ChoanoflagellataEP00045Choanoecaperplexa"/>
+																	</eventsRec>
+																</clade>
+															</clade>
+														</clade>
+														<clade>
+															<name>ChoanoflagellateaMonosigabrevicollisUP000001357_11433699__GPA17_CAEBR_Guanine_nucleotide-binding_protein_alpha-17_subunit_OS_</name>
+															<eventsRec>
+																<leaf speciesLocation="ChoanoflagellateaMonosigabrevicollisUP000001357"/>
+															</eventsRec>
+														</clade>
+													</clade>
+												</clade>
+											</clade>
+										</clade>
+									</clade>
+								</clade>
+							</clade>
+							<clade>
+								<name>60</name>
+								<eventsRec>
+									<duplication speciesLocation="node_4"/>
+								</eventsRec>
+								<clade>
+									<name>39</name>
+									<eventsRec>
+										<speciation speciesLocation="node_4"/>
+									</eventsRec>
+									<clade>
+										<name>62</name>
+										<eventsRec>
+											<speciation speciesLocation="node_5"/>
+										</eventsRec>
+											<clade>
+											<name>loss</name>
+											<eventsRec>
+												<loss speciesLocation="node_53"/>
+											</eventsRec>
+										</clade>
+										<clade>
+											<name>62</name>
+											<eventsRec>
+												<speciation speciesLocation="node_6"/>
+											</eventsRec>
+												<clade>
+												<name>loss</name>
+												<eventsRec>
+													<loss speciesLocation="node_7"/>
+												</eventsRec>
+											</clade>
+											<clade>
+												<name>62</name>
+												<eventsRec>
+													<speciation speciesLocation="node_47"/>
+												</eventsRec>
+													<clade>
+													<name>loss</name>
+													<eventsRec>
+														<loss speciesLocation="node_48"/>
+													</eventsRec>
+												</clade>
+												<clade>
+													<name>62</name>
+													<eventsRec>
+														<speciation speciesLocation="node_51"/>
+													</eventsRec>
+													<clade>
+														<name>MetazoaPoriferaLeucosoleniacomplicata_5026294__GNA13_RAT_Guanine_nucleotide-binding_protein_subunit_alpha-13_OS_</name>
+														<eventsRec>
+															<speciation speciesLocation="node_52"/>
+														</eventsRec>
+															<clade>
+															<name>loss</name>
+															<eventsRec>
+																<loss speciesLocation="MetazoaPoriferaSyconciliatum"/>
+															</eventsRec>
+														</clade>
+														<clade>
+															<name>MetazoaPoriferaLeucosoleniacomplicata_5026294__GNA13_RAT_Guanine_nucleotide-binding_protein_subunit_alpha-13_OS_</name>
+															<eventsRec>
+																<leaf speciesLocation="MetazoaPoriferaLeucosoleniacomplicata"/>
+															</eventsRec>
+														</clade>
+													</clade>
+													<clade>
+														<name>MetazoaPoriferaEP00118Oscarellapearsei_4814091__GNA14_XENLA_Guanine_nucleotide-binding_protein_subunit_alpha-14_OS_</name>
+														<eventsRec>
+															<leaf speciesLocation="MetazoaPoriferaEP00118Oscarellapearsei"/>
+														</eventsRec>
+													</clade>
+												</clade>
+											</clade>
+										</clade>
+									</clade>
+									<clade>
+										<name>FilastreaCapsasporaowczarzakiUP000008743_12981327__GNAQ_RAT_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+										<eventsRec>
+											<speciation speciesLocation="node_60"/>
+										</eventsRec>
+											<clade>
+											<name>loss</name>
+											<eventsRec>
+												<loss speciesLocation="node_61"/>
+											</eventsRec>
+										</clade>
+										<clade>
+											<name>FilastreaCapsasporaowczarzakiUP000008743_12981327__GNAQ_RAT_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+											<eventsRec>
+												<speciation speciesLocation="node_63"/>
+											</eventsRec>
+												<clade>
+												<name>loss</name>
+												<eventsRec>
+													<loss speciesLocation="PluriformeaEP00127Corallochytriumlimacisporum"/>
+												</eventsRec>
+											</clade>
+											<clade>
+												<name>FilastreaCapsasporaowczarzakiUP000008743_12981327__GNAQ_RAT_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+												<eventsRec>
+													<leaf speciesLocation="FilastreaCapsasporaowczarzakiUP000008743"/>
+												</eventsRec>
+											</clade>
+										</clade>
+									</clade>
+								</clade>
+								<clade>
+									<name>67</name>
+									<eventsRec>
+										<speciation speciesLocation="node_4"/>
+									</eventsRec>
+										<clade>
+										<name>loss</name>
+										<eventsRec>
+											<loss speciesLocation="node_60"/>
+										</eventsRec>
+									</clade>
+									<clade>
+										<name>67</name>
+										<eventsRec>
+											<speciation speciesLocation="node_5"/>
+										</eventsRec>
+											<clade>
+											<name>loss</name>
+											<eventsRec>
+												<loss speciesLocation="node_53"/>
+											</eventsRec>
+										</clade>
+										<clade>
+											<name>67</name>
+											<eventsRec>
+												<duplication speciesLocation="node_6"/>
+											</eventsRec>
+											<clade>
+												<name>67</name>
+												<eventsRec>
+													<duplication speciesLocation="node_6"/>
+												</eventsRec>
+												<clade>
+													<name>95</name>
+													<eventsRec>
+														<speciation speciesLocation="node_6"/>
+													</eventsRec>
+													<clade>
+														<name>53</name>
+														<eventsRec>
+															<speciation speciesLocation="node_7"/>
+														</eventsRec>
+															<clade>
+															<name>loss</name>
+															<eventsRec>
+																<loss speciesLocation="node_46"/>
+															</eventsRec>
+														</clade>
+														<clade>
+															<name>53</name>
+															<eventsRec>
+																<speciation speciesLocation="node_8"/>
+															</eventsRec>
+																<clade>
+																<name>loss</name>
+																<eventsRec>
+																	<loss speciesLocation="node_45"/>
+																</eventsRec>
+															</clade>
+															<clade>
+																<name>53</name>
+																<eventsRec>
+																	<speciation speciesLocation="node_9"/>
+																</eventsRec>
+																	<clade>
+																	<name>loss</name>
+																	<eventsRec>
+																		<loss speciesLocation="node_32"/>
+																	</eventsRec>
+																</clade>
+																<clade>
+																	<name>53</name>
+																	<eventsRec>
+																		<speciation speciesLocation="node_10"/>
+																	</eventsRec>
+																		<clade>
+																		<name>loss</name>
+																		<eventsRec>
+																			<loss speciesLocation="node_24"/>
+																		</eventsRec>
+																	</clade>
+																	<clade>
+																		<name>53</name>
+																		<eventsRec>
+																			<speciation speciesLocation="node_11"/>
+																		</eventsRec>
+																			<clade>
+																			<name>loss</name>
+																			<eventsRec>
+																				<loss speciesLocation="node_19"/>
+																			</eventsRec>
+																		</clade>
+																		<clade>
+																			<name>53</name>
+																			<eventsRec>
+																				<speciation speciesLocation="node_12"/>
+																			</eventsRec>
+																			<clade>
+																				<name>48</name>
+																				<eventsRec>
+																					<speciation speciesLocation="node_13"/>
+																				</eventsRec>
+																					<clade>
+																					<name>loss</name>
+																					<eventsRec>
+																						<loss speciesLocation="MetazoaArthropodaStrigamiamaritima"/>
+																					</eventsRec>
+																				</clade>
+																				<clade>
+																					<name>48</name>
+																					<eventsRec>
+																						<speciation speciesLocation="node_14"/>
+																					</eventsRec>
+																						<clade>
+																						<name>loss</name>
+																						<eventsRec>
+																							<loss speciesLocation="MetazoaArthropodaDaphniapulex"/>
+																						</eventsRec>
+																					</clade>
+																					<clade>
+																						<name>48</name>
+																						<eventsRec>
+																							<speciation speciesLocation="node_15"/>
+																						</eventsRec>
+																							<clade>
+																							<name>loss</name>
+																							<eventsRec>
+																								<loss speciesLocation="MetazoaArthropodaDrosophilamelanogaster"/>
+																							</eventsRec>
+																						</clade>
+																						<clade>
+																							<name>48</name>
+																							<eventsRec>
+																								<duplication speciesLocation="MetazoaArthropodaEP00090Calanusglacialis"/>
+																							</eventsRec>
+																							<clade>
+																								<name>MetazoaArthropodaEP00090Calanusglacialis_711679__GNAQ_CANLF_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+																								<eventsRec>
+																									<leaf speciesLocation="MetazoaArthropodaEP00090Calanusglacialis"/>
+																								</eventsRec>
+																							</clade>
+																							<clade>
+																								<name>MetazoaArthropodaEP00090Calanusglacialis_708040__GNAQ_LOLFO_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+																								<eventsRec>
+																									<leaf speciesLocation="MetazoaArthropodaEP00090Calanusglacialis"/>
+																								</eventsRec>
+																							</clade>
+																						</clade>
+																					</clade>
+																				</clade>
+																			</clade>
+																			<clade>
+																				<name>MetazoaTardigradaRamazzotiusvarieornatus_5289159__GNAQ_RAT_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+																				<eventsRec>
+																					<speciation speciesLocation="node_16"/>
+																				</eventsRec>
+																					<clade>
+																					<name>loss</name>
+																					<eventsRec>
+																						<loss speciesLocation="node_17"/>
+																					</eventsRec>
+																				</clade>
+																				<clade>
+																					<name>MetazoaTardigradaRamazzotiusvarieornatus_5289159__GNAQ_RAT_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+																					<eventsRec>
+																						<leaf speciesLocation="MetazoaTardigradaRamazzotiusvarieornatus"/>
+																					</eventsRec>
+																				</clade>
+																			</clade>
+																		</clade>
+																	</clade>
+																</clade>
+															</clade>
+														</clade>
+													</clade>
+													<clade>
+														<name>MetazoaPoriferaLeucosoleniacomplicata_5026269__GNAQ_HOMAM_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+														<eventsRec>
+															<speciation speciesLocation="node_47"/>
+														</eventsRec>
+															<clade>
+															<name>loss</name>
+															<eventsRec>
+																<loss speciesLocation="node_48"/>
+															</eventsRec>
+														</clade>
+														<clade>
+															<name>MetazoaPoriferaLeucosoleniacomplicata_5026269__GNAQ_HOMAM_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+															<eventsRec>
+																<speciation speciesLocation="node_51"/>
+															</eventsRec>
+																<clade>
+																<name>loss</name>
+																<eventsRec>
+																	<loss speciesLocation="MetazoaPoriferaEP00118Oscarellapearsei"/>
+																</eventsRec>
+															</clade>
+															<clade>
+																<name>MetazoaPoriferaLeucosoleniacomplicata_5026269__GNAQ_HOMAM_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+																<eventsRec>
+																	<speciation speciesLocation="node_52"/>
+																</eventsRec>
+																	<clade>
+																	<name>loss</name>
+																	<eventsRec>
+																		<loss speciesLocation="MetazoaPoriferaSyconciliatum"/>
+																	</eventsRec>
+																</clade>
+																<clade>
+																	<name>MetazoaPoriferaLeucosoleniacomplicata_5026269__GNAQ_HOMAM_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+																	<eventsRec>
+																		<leaf speciesLocation="MetazoaPoriferaLeucosoleniacomplicata"/>
+																	</eventsRec>
+																</clade>
+															</clade>
+														</clade>
+													</clade>
+												</clade>
+												<clade>
+													<name>54</name>
+													<eventsRec>
+														<speciation speciesLocation="node_6"/>
+													</eventsRec>
+													<clade>
+														<name>36</name>
+														<eventsRec>
+															<duplication speciesLocation="node_7"/>
+														</eventsRec>
+														<clade>
+															<name>52</name>
+															<eventsRec>
+																<speciation speciesLocation="node_7"/>
+															</eventsRec>
+															<clade>
+																<name>98</name>
+																<eventsRec>
+																	<speciation speciesLocation="node_8"/>
+																</eventsRec>
+																	<clade>
+																	<name>loss</name>
+																	<eventsRec>
+																		<loss speciesLocation="node_45"/>
+																	</eventsRec>
+																</clade>
+																<clade>
+																	<name>98</name>
+																	<eventsRec>
+																		<speciation speciesLocation="node_9"/>
+																	</eventsRec>
+																		<clade>
+																		<name>loss</name>
+																		<eventsRec>
+																			<loss speciesLocation="node_32"/>
+																		</eventsRec>
+																	</clade>
+																	<clade>
+																		<name>98</name>
+																		<eventsRec>
+																			<speciation speciesLocation="node_10"/>
+																		</eventsRec>
+																			<clade>
+																			<name>loss</name>
+																			<eventsRec>
+																				<loss speciesLocation="node_24"/>
+																			</eventsRec>
+																		</clade>
+																		<clade>
+																			<name>98</name>
+																			<eventsRec>
+																				<speciation speciesLocation="node_11"/>
+																			</eventsRec>
+																				<clade>
+																				<name>loss</name>
+																				<eventsRec>
+																					<loss speciesLocation="node_19"/>
+																				</eventsRec>
+																			</clade>
+																			<clade>
+																				<name>98</name>
+																				<eventsRec>
+																					<speciation speciesLocation="node_12"/>
+																				</eventsRec>
+																					<clade>
+																					<name>loss</name>
+																					<eventsRec>
+																						<loss speciesLocation="node_16"/>
+																					</eventsRec>
+																				</clade>
+																				<clade>
+																					<name>98</name>
+																					<eventsRec>
+																						<speciation speciesLocation="node_13"/>
+																					</eventsRec>
+																						<clade>
+																						<name>loss</name>
+																						<eventsRec>
+																							<loss speciesLocation="MetazoaArthropodaStrigamiamaritima"/>
+																						</eventsRec>
+																					</clade>
+																					<clade>
+																						<name>98</name>
+																						<eventsRec>
+																							<speciation speciesLocation="node_14"/>
+																						</eventsRec>
+																							<clade>
+																							<name>loss</name>
+																							<eventsRec>
+																								<loss speciesLocation="MetazoaArthropodaDaphniapulex"/>
+																							</eventsRec>
+																						</clade>
+																						<clade>
+																							<name>98</name>
+																							<eventsRec>
+																								<speciation speciesLocation="node_15"/>
+																							</eventsRec>
+																								<clade>
+																								<name>loss</name>
+																								<eventsRec>
+																									<loss speciesLocation="MetazoaArthropodaDrosophilamelanogaster"/>
+																								</eventsRec>
+																							</clade>
+																							<clade>
+																								<name>98</name>
+																								<eventsRec>
+																									<duplication speciesLocation="MetazoaArthropodaEP00090Calanusglacialis"/>
+																								</eventsRec>
+																								<clade>
+																									<name>70</name>
+																									<eventsRec>
+																										<duplication speciesLocation="MetazoaArthropodaEP00090Calanusglacialis"/>
+																									</eventsRec>
+																									<clade>
+																										<name>MetazoaArthropodaEP00090Calanusglacialis_678938__GNA15_HUMAN_Guanine_nucleotide-binding_protein_subunit_alpha-15_OS_</name>
+																										<eventsRec>
+																											<leaf speciesLocation="MetazoaArthropodaEP00090Calanusglacialis"/>
+																										</eventsRec>
+																									</clade>
+																									<clade>
+																										<name>MetazoaArthropodaEP00090Calanusglacialis_678939__GNA14_MOUSE_Guanine_nucleotide-binding_protein_subunit_alpha-14_OS_</name>
+																										<eventsRec>
+																											<leaf speciesLocation="MetazoaArthropodaEP00090Calanusglacialis"/>
+																										</eventsRec>
+																									</clade>
+																								</clade>
+																								<clade>
+																									<name>MetazoaArthropodaEP00090Calanusglacialis_713045__GPA1_SPOS1_Guanine_nucleotide-binding_protein_subunit_alpha_OS_</name>
+																									<eventsRec>
+																										<leaf speciesLocation="MetazoaArthropodaEP00090Calanusglacialis"/>
+																									</eventsRec>
+																								</clade>
+																							</clade>
+																						</clade>
+																					</clade>
+																				</clade>
+																			</clade>
+																		</clade>
+																	</clade>
+																</clade>
+															</clade>
+															<clade>
+																<name>96</name>
+																<eventsRec>
+																	<duplication speciesLocation="node_46"/>
+																</eventsRec>
+																<clade>
+																	<name>MetazoaCtenophoraMnemiopsisleidyi_3726521__GNA14_XENLA_Guanine_nucleotide-binding_protein_subunit_alpha-14_OS_</name>
+																	<eventsRec>
+																		<speciation speciesLocation="node_46"/>
+																	</eventsRec>
+																		<clade>
+																		<name>loss</name>
+																		<eventsRec>
+																			<loss speciesLocation="MetazoaCtenophoraPleurobrachiabachei"/>
+																		</eventsRec>
+																	</clade>
+																	<clade>
+																		<name>MetazoaCtenophoraMnemiopsisleidyi_3726521__GNA14_XENLA_Guanine_nucleotide-binding_protein_subunit_alpha-14_OS_</name>
+																		<eventsRec>
+																			<leaf speciesLocation="MetazoaCtenophoraMnemiopsisleidyi"/>
+																		</eventsRec>
+																	</clade>
+																</clade>
+																<clade>
+																	<name>100</name>
+																	<eventsRec>
+																		<speciation speciesLocation="node_46"/>
+																	</eventsRec>
+																	<clade>
+																		<name>MetazoaCtenophoraMnemiopsisleidyi_3733834__GNAQ_LOLFO_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+																		<eventsRec>
+																			<leaf speciesLocation="MetazoaCtenophoraMnemiopsisleidyi"/>
+																		</eventsRec>
+																	</clade>
+																	<clade>
+																		<name>MetazoaCtenophoraPleurobrachiabachei_3758522__GNAQ_RAT_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+																		<eventsRec>
+																			<leaf speciesLocation="MetazoaCtenophoraPleurobrachiabachei"/>
+																		</eventsRec>
+																	</clade>
+																</clade>
+															</clade>
+														</clade>
+														<clade>
+															<name>MetazoaCtenophoraPleurobrachiabachei_3765194__GNAQ_XENLA_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+															<eventsRec>
+																<speciation speciesLocation="node_7"/>
+															</eventsRec>
+																<clade>
+																<name>loss</name>
+																<eventsRec>
+																	<loss speciesLocation="node_8"/>
+																</eventsRec>
+															</clade>
+															<clade>
+																<name>MetazoaCtenophoraPleurobrachiabachei_3765194__GNAQ_XENLA_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+																<eventsRec>
+																	<speciation speciesLocation="node_46"/>
+																</eventsRec>
+																	<clade>
+																	<name>loss</name>
+																	<eventsRec>
+																		<loss speciesLocation="MetazoaCtenophoraMnemiopsisleidyi"/>
+																	</eventsRec>
+																</clade>
+																<clade>
+																	<name>MetazoaCtenophoraPleurobrachiabachei_3765194__GNAQ_XENLA_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+																	<eventsRec>
+																		<leaf speciesLocation="MetazoaCtenophoraPleurobrachiabachei"/>
+																	</eventsRec>
+																</clade>
+															</clade>
+														</clade>
+													</clade>
+													<clade>
+														<name>98</name>
+														<eventsRec>
+															<speciation speciesLocation="node_47"/>
+														</eventsRec>
+															<clade>
+															<name>loss</name>
+															<eventsRec>
+																<loss speciesLocation="node_48"/>
+															</eventsRec>
+														</clade>
+														<clade>
+															<name>98</name>
+															<eventsRec>
+																<speciation speciesLocation="node_51"/>
+															</eventsRec>
+																<clade>
+																<name>loss</name>
+																<eventsRec>
+																	<loss speciesLocation="MetazoaPoriferaEP00118Oscarellapearsei"/>
+																</eventsRec>
+															</clade>
+															<clade>
+																<name>98</name>
+																<eventsRec>
+																	<duplication speciesLocation="node_52"/>
+																</eventsRec>
+																<clade>
+																	<name>100</name>
+																	<eventsRec>
+																		<speciation speciesLocation="node_52"/>
+																	</eventsRec>
+																	<clade>
+																		<name>MetazoaPoriferaLeucosoleniacomplicata_4989740__GNAQ_RAT_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+																		<eventsRec>
+																			<leaf speciesLocation="MetazoaPoriferaLeucosoleniacomplicata"/>
+																		</eventsRec>
+																	</clade>
+																	<clade>
+																		<name>MetazoaPoriferaSyconciliatum_5124500__GNAQ_MOUSE_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+																		<eventsRec>
+																			<leaf speciesLocation="MetazoaPoriferaSyconciliatum"/>
+																		</eventsRec>
+																	</clade>
+																</clade>
+																<clade>
+																	<name>100</name>
+																	<eventsRec>
+																		<speciation speciesLocation="node_52"/>
+																	</eventsRec>
+																	<clade>
+																		<name>MetazoaPoriferaLeucosoleniacomplicata_5005103__GNAQ_LOLFO_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+																		<eventsRec>
+																			<leaf speciesLocation="MetazoaPoriferaLeucosoleniacomplicata"/>
+																		</eventsRec>
+																	</clade>
+																	<clade>
+																		<name>MetazoaPoriferaSyconciliatum_5115778__GNA14_MOUSE_Guanine_nucleotide-binding_protein_subunit_alpha-14_OS_</name>
+																		<eventsRec>
+																			<leaf speciesLocation="MetazoaPoriferaSyconciliatum"/>
+																		</eventsRec>
+																	</clade>
+																</clade>
+															</clade>
+														</clade>
+													</clade>
+												</clade>
+											</clade>
+											<clade>
+												<name>36</name>
+												<eventsRec>
+													<duplication speciesLocation="node_6"/>
+												</eventsRec>
+												<clade>
+													<name>34</name>
+													<eventsRec>
+														<duplication speciesLocation="node_6"/>
+													</eventsRec>
+													<clade>
+														<name>69</name>
+														<eventsRec>
+															<speciation speciesLocation="node_6"/>
+														</eventsRec>
+															<clade>
+															<name>loss</name>
+															<eventsRec>
+																<loss speciesLocation="node_7"/>
+															</eventsRec>
+														</clade>
+														<clade>
+															<name>69</name>
+															<eventsRec>
+																<speciation speciesLocation="node_47"/>
+															</eventsRec>
+															<clade>
+																<name>80</name>
+																<eventsRec>
+																	<duplication speciesLocation="node_48"/>
+																</eventsRec>
+																<clade>
+																	<name>100</name>
+																	<eventsRec>
+																		<duplication speciesLocation="node_48"/>
+																	</eventsRec>
+																	<clade>
+																		<name>MetazoaPoriferaAmphimedonqueenslandica_4712144__GNAQ_GEOCY_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+																		<eventsRec>
+																			<speciation speciesLocation="node_48"/>
+																		</eventsRec>
+																			<clade>
+																			<name>loss</name>
+																			<eventsRec>
+																				<loss speciesLocation="node_50"/>
+																			</eventsRec>
+																		</clade>
+																		<clade>
+																			<name>MetazoaPoriferaAmphimedonqueenslandica_4712144__GNAQ_GEOCY_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+																			<eventsRec>
+																				<speciation speciesLocation="node_49"/>
+																			</eventsRec>
+																				<clade>
+																				<name>loss</name>
+																				<eventsRec>
+																					<loss speciesLocation="MetazoaPoriferaHaliclonatubifera"/>
+																				</eventsRec>
+																			</clade>
+																			<clade>
+																				<name>MetazoaPoriferaAmphimedonqueenslandica_4712144__GNAQ_GEOCY_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+																				<eventsRec>
+																					<leaf speciesLocation="MetazoaPoriferaAmphimedonqueenslandica"/>
+																				</eventsRec>
+																			</clade>
+																		</clade>
+																	</clade>
+																	<clade>
+																		<name>71</name>
+																		<eventsRec>
+																			<speciation speciesLocation="node_48"/>
+																		</eventsRec>
+																		<clade>
+																			<name>53</name>
+																			<eventsRec>
+																				<speciation speciesLocation="node_50"/>
+																			</eventsRec>
+																			<clade>
+																				<name>MetazoaPoriferaEphydatiamuelleri_4907915__GNAQ_GEOCY_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+																				<eventsRec>
+																					<leaf speciesLocation="MetazoaPoriferaEphydatiamuelleri"/>
+																				</eventsRec>
+																			</clade>
+																			<clade>
+																				<name>MetazoaPoriferaStylissacarteri_5077119__GNAQ_GEOCY_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+																				<eventsRec>
+																					<leaf speciesLocation="MetazoaPoriferaStylissacarteri"/>
+																				</eventsRec>
+																			</clade>
+																		</clade>
+																		<clade>
+																			<name>MetazoaPoriferaHaliclonatubifera_4951518__GNAQ_GEOCY_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+																			<eventsRec>
+																				<speciation speciesLocation="node_49"/>
+																			</eventsRec>
+																				<clade>
+																				<name>loss</name>
+																				<eventsRec>
+																					<loss speciesLocation="MetazoaPoriferaAmphimedonqueenslandica"/>
+																				</eventsRec>
+																			</clade>
+																			<clade>
+																				<name>MetazoaPoriferaHaliclonatubifera_4951518__GNAQ_GEOCY_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+																				<eventsRec>
+																					<leaf speciesLocation="MetazoaPoriferaHaliclonatubifera"/>
+																				</eventsRec>
+																			</clade>
+																		</clade>
+																	</clade>
+																</clade>
+																<clade>
+																	<name>77</name>
+																	<eventsRec>
+																		<speciation speciesLocation="node_48"/>
+																	</eventsRec>
+																	<clade>
+																		<name>99</name>
+																		<eventsRec>
+																			<speciation speciesLocation="node_50"/>
+																		</eventsRec>
+																		<clade>
+																			<name>MetazoaPoriferaStylissacarteri_5077125__GNAQ_MOUSE_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+																			<eventsRec>
+																				<leaf speciesLocation="MetazoaPoriferaStylissacarteri"/>
+																			</eventsRec>
+																		</clade>
+																		<clade>
+																			<name>88</name>
+																			<eventsRec>
+																				<duplication speciesLocation="MetazoaPoriferaEphydatiamuelleri"/>
+																			</eventsRec>
+																			<clade>
+																				<name>MetazoaPoriferaEphydatiamuelleri_4915872__GNAQ_MIZYE_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+																				<eventsRec>
+																					<leaf speciesLocation="MetazoaPoriferaEphydatiamuelleri"/>
+																				</eventsRec>
+																			</clade>
+																			<clade>
+																				<name>MetazoaPoriferaEphydatiamuelleri_4930183__GNA14_BOVIN_Guanine_nucleotide-binding_protein_subunit_alpha-14_OS_</name>
+																				<eventsRec>
+																					<leaf speciesLocation="MetazoaPoriferaEphydatiamuelleri"/>
+																				</eventsRec>
+																			</clade>
+																		</clade>
+																	</clade>
+																	<clade>
+																		<name>100</name>
+																		<eventsRec>
+																			<speciation speciesLocation="node_49"/>
+																		</eventsRec>
+																		<clade>
+																			<name>MetazoaPoriferaAmphimedonqueenslandica_4712640__GNAQ_RAT_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+																			<eventsRec>
+																				<leaf speciesLocation="MetazoaPoriferaAmphimedonqueenslandica"/>
+																			</eventsRec>
+																		</clade>
+																		<clade>
+																			<name>MetazoaPoriferaHaliclonatubifera_4952523__GNAQ_RAT_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+																			<eventsRec>
+																				<leaf speciesLocation="MetazoaPoriferaHaliclonatubifera"/>
+																			</eventsRec>
+																		</clade>
+																	</clade>
+																</clade>
+															</clade>
+															<clade>
+																<name>100</name>
+																<eventsRec>
+																	<speciation speciesLocation="node_51"/>
+																</eventsRec>
+																	<clade>
+																	<name>loss</name>
+																	<eventsRec>
+																		<loss speciesLocation="MetazoaPoriferaEP00118Oscarellapearsei"/>
+																	</eventsRec>
+																</clade>
+																<clade>
+																	<name>100</name>
+																	<eventsRec>
+																		<speciation speciesLocation="node_52"/>
+																	</eventsRec>
+																	<clade>
+																		<name>MetazoaPoriferaLeucosoleniacomplicata_4980975__GNAQ_RAT_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+																		<eventsRec>
+																			<leaf speciesLocation="MetazoaPoriferaLeucosoleniacomplicata"/>
+																		</eventsRec>
+																	</clade>
+																	<clade>
+																		<name>100</name>
+																		<eventsRec>
+																			<duplication speciesLocation="MetazoaPoriferaSyconciliatum"/>
+																		</eventsRec>
+																		<clade>
+																			<name>96</name>
+																			<eventsRec>
+																				<duplication speciesLocation="MetazoaPoriferaSyconciliatum"/>
+																			</eventsRec>
+																			<clade>
+																				<name>MetazoaPoriferaSyconciliatum_5114941__GNAQ_HOMAM_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+																				<eventsRec>
+																					<leaf speciesLocation="MetazoaPoriferaSyconciliatum"/>
+																				</eventsRec>
+																			</clade>
+																			<clade>
+																				<name>MetazoaPoriferaSyconciliatum_5120847__GNAQ_HOMAM_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+																				<eventsRec>
+																					<leaf speciesLocation="MetazoaPoriferaSyconciliatum"/>
+																				</eventsRec>
+																			</clade>
+																		</clade>
+																		<clade>
+																			<name>100</name>
+																			<eventsRec>
+																				<duplication speciesLocation="MetazoaPoriferaSyconciliatum"/>
+																			</eventsRec>
+																			<clade>
+																				<name>MetazoaPoriferaSyconciliatum_5136475__GNA11_MOUSE_Guanine_nucleotide-binding_protein_subunit_alpha-11_OS_</name>
+																				<eventsRec>
+																					<leaf speciesLocation="MetazoaPoriferaSyconciliatum"/>
+																				</eventsRec>
+																			</clade>
+																			<clade>
+																				<name>MetazoaPoriferaSyconciliatum_5145507__GNA11_MOUSE_Guanine_nucleotide-binding_protein_subunit_alpha-11_OS_</name>
+																				<eventsRec>
+																					<leaf speciesLocation="MetazoaPoriferaSyconciliatum"/>
+																				</eventsRec>
+																			</clade>
+																		</clade>
+																	</clade>
+																</clade>
+															</clade>
+														</clade>
+													</clade>
+													<clade>
+														<name>33</name>
+														<eventsRec>
+															<duplication speciesLocation="node_6"/>
+														</eventsRec>
+														<clade>
+															<name>91</name>
+															<eventsRec>
+																<duplication speciesLocation="node_6"/>
+															</eventsRec>
+															<clade>
+																<name>61</name>
+																<eventsRec>
+																	<duplication speciesLocation="node_6"/>
+																</eventsRec>
+																<clade>
+																	<name>100</name>
+																	<eventsRec>
+																		<speciation speciesLocation="node_6"/>
+																	</eventsRec>
+																		<clade>
+																		<name>loss</name>
+																		<eventsRec>
+																			<loss speciesLocation="node_47"/>
+																		</eventsRec>
+																	</clade>
+																	<clade>
+																		<name>100</name>
+																		<eventsRec>
+																			<speciation speciesLocation="node_7"/>
+																		</eventsRec>
+																			<clade>
+																			<name>loss</name>
+																			<eventsRec>
+																				<loss speciesLocation="node_46"/>
+																			</eventsRec>
+																		</clade>
+																		<clade>
+																			<name>100</name>
+																			<eventsRec>
+																				<speciation speciesLocation="node_8"/>
+																			</eventsRec>
+																				<clade>
+																				<name>loss</name>
+																				<eventsRec>
+																					<loss speciesLocation="node_45"/>
+																				</eventsRec>
+																			</clade>
+																			<clade>
+																				<name>100</name>
+																				<eventsRec>
+																					<speciation speciesLocation="node_9"/>
+																				</eventsRec>
+																					<clade>
+																					<name>loss</name>
+																					<eventsRec>
+																						<loss speciesLocation="node_32"/>
+																					</eventsRec>
+																				</clade>
+																				<clade>
+																					<name>100</name>
+																					<eventsRec>
+																						<speciation speciesLocation="node_10"/>
+																					</eventsRec>
+																						<clade>
+																						<name>loss</name>
+																						<eventsRec>
+																							<loss speciesLocation="node_24"/>
+																						</eventsRec>
+																					</clade>
+																					<clade>
+																						<name>100</name>
+																						<eventsRec>
+																							<speciation speciesLocation="node_11"/>
+																						</eventsRec>
+																							<clade>
+																							<name>loss</name>
+																							<eventsRec>
+																								<loss speciesLocation="node_12"/>
+																							</eventsRec>
+																						</clade>
+																						<clade>
+																							<name>100</name>
+																							<eventsRec>
+																								<speciation speciesLocation="node_19"/>
+																							</eventsRec>
+																								<clade>
+																								<name>loss</name>
+																								<eventsRec>
+																									<loss speciesLocation="MetazoaBryozoaBugulaneritina"/>
+																								</eventsRec>
+																							</clade>
+																							<clade>
+																								<name>100</name>
+																								<eventsRec>
+																									<speciation speciesLocation="node_20"/>
+																								</eventsRec>
+																									<clade>
+																									<name>loss</name>
+																									<eventsRec>
+																										<loss speciesLocation="node_23"/>
+																									</eventsRec>
+																								</clade>
+																								<clade>
+																									<name>100</name>
+																									<eventsRec>
+																										<speciation speciesLocation="node_21"/>
+																									</eventsRec>
+																										<clade>
+																										<name>loss</name>
+																										<eventsRec>
+																											<loss speciesLocation="MetazoaBrachiopodaLingulaunguis"/>
+																										</eventsRec>
+																									</clade>
+																									<clade>
+																										<name>100</name>
+																										<eventsRec>
+																											<speciation speciesLocation="node_22"/>
+																										</eventsRec>
+																											<clade>
+																											<name>loss</name>
+																											<eventsRec>
+																												<loss speciesLocation="MetazoaMolluscaLottiagigantea"/>
+																											</eventsRec>
+																										</clade>
+																										<clade>
+																											<name>100</name>
+																											<eventsRec>
+																												<duplication speciesLocation="MetazoaMolluscaEP00106Octopusbimaculoides"/>
+																											</eventsRec>
+																											<clade>
+																												<name>MetazoaMolluscaEP00106Octopusbimaculoides_4171224__GNAQ_LOLFO_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+																												<eventsRec>
+																													<leaf speciesLocation="MetazoaMolluscaEP00106Octopusbimaculoides"/>
+																												</eventsRec>
+																											</clade>
+																											<clade>
+																												<name>MetazoaMolluscaEP00106Octopusbimaculoides_4171225__GNAQ_LOLFO_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+																												<eventsRec>
+																													<leaf speciesLocation="MetazoaMolluscaEP00106Octopusbimaculoides"/>
+																												</eventsRec>
+																											</clade>
+																										</clade>
+																									</clade>
+																								</clade>
+																							</clade>
+																						</clade>
+																					</clade>
+																				</clade>
+																			</clade>
+																		</clade>
+																	</clade>
+																</clade>
+																<clade>
+																	<name>40</name>
+																	<eventsRec>
+																		<duplication speciesLocation="node_6"/>
+																	</eventsRec>
+																	<clade>
+																		<name>MetazoaPoriferaLeucosoleniacomplicata_5039260__GNAQ_LYMST_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+																		<eventsRec>
+																			<speciation speciesLocation="node_6"/>
+																		</eventsRec>
+																			<clade>
+																			<name>loss</name>
+																			<eventsRec>
+																				<loss speciesLocation="node_7"/>
+																			</eventsRec>
+																		</clade>
+																		<clade>
+																			<name>MetazoaPoriferaLeucosoleniacomplicata_5039260__GNAQ_LYMST_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+																			<eventsRec>
+																				<speciation speciesLocation="node_47"/>
+																			</eventsRec>
+																				<clade>
+																				<name>loss</name>
+																				<eventsRec>
+																					<loss speciesLocation="node_48"/>
+																				</eventsRec>
+																			</clade>
+																			<clade>
+																				<name>MetazoaPoriferaLeucosoleniacomplicata_5039260__GNAQ_LYMST_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+																				<eventsRec>
+																					<speciation speciesLocation="node_51"/>
+																				</eventsRec>
+																					<clade>
+																					<name>loss</name>
+																					<eventsRec>
+																						<loss speciesLocation="MetazoaPoriferaEP00118Oscarellapearsei"/>
+																					</eventsRec>
+																				</clade>
+																				<clade>
+																					<name>MetazoaPoriferaLeucosoleniacomplicata_5039260__GNAQ_LYMST_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+																					<eventsRec>
+																						<speciation speciesLocation="node_52"/>
+																					</eventsRec>
+																						<clade>
+																						<name>loss</name>
+																						<eventsRec>
+																							<loss speciesLocation="MetazoaPoriferaSyconciliatum"/>
+																						</eventsRec>
+																					</clade>
+																					<clade>
+																						<name>MetazoaPoriferaLeucosoleniacomplicata_5039260__GNAQ_LYMST_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+																						<eventsRec>
+																							<leaf speciesLocation="MetazoaPoriferaLeucosoleniacomplicata"/>
+																						</eventsRec>
+																					</clade>
+																				</clade>
+																			</clade>
+																		</clade>
+																	</clade>
+																	<clade>
+																		<name>65</name>
+																		<eventsRec>
+																			<duplication speciesLocation="node_6"/>
+																		</eventsRec>
+																		<clade>
+																			<name>49</name>
+																			<eventsRec>
+																				<speciation speciesLocation="node_6"/>
+																			</eventsRec>
+																				<clade>
+																				<name>loss</name>
+																				<eventsRec>
+																					<loss speciesLocation="node_47"/>
+																				</eventsRec>
+																			</clade>
+																			<clade>
+																				<name>49</name>
+																				<eventsRec>
+																					<speciation speciesLocation="node_7"/>
+																				</eventsRec>
+																					<clade>
+																					<name>loss</name>
+																					<eventsRec>
+																						<loss speciesLocation="node_46"/>
+																					</eventsRec>
+																				</clade>
+																				<clade>
+																					<name>49</name>
+																					<eventsRec>
+																						<speciation speciesLocation="node_8"/>
+																					</eventsRec>
+																						<clade>
+																						<name>loss</name>
+																						<eventsRec>
+																							<loss speciesLocation="node_45"/>
+																						</eventsRec>
+																					</clade>
+																					<clade>
+																						<name>49</name>
+																						<eventsRec>
+																							<duplication speciesLocation="node_9"/>
+																						</eventsRec>
+																						<clade>
+																							<name>44</name>
+																							<eventsRec>
+																								<duplication speciesLocation="node_9"/>
+																							</eventsRec>
+																							<clade>
+																								<name>48</name>
+																								<eventsRec>
+																									<speciation speciesLocation="node_9"/>
+																								</eventsRec>
+																									<clade>
+																									<name>loss</name>
+																									<eventsRec>
+																										<loss speciesLocation="node_32"/>
+																									</eventsRec>
+																								</clade>
+																								<clade>
+																									<name>48</name>
+																									<eventsRec>
+																										<duplication speciesLocation="node_10"/>
+																									</eventsRec>
+																									<clade>
+																										<name>78</name>
+																										<eventsRec>
+																											<speciation speciesLocation="node_10"/>
+																										</eventsRec>
+																											<clade>
+																											<name>loss</name>
+																											<eventsRec>
+																												<loss speciesLocation="node_24"/>
+																											</eventsRec>
+																										</clade>
+																										<clade>
+																											<name>78</name>
+																											<eventsRec>
+																												<speciation speciesLocation="node_11"/>
+																											</eventsRec>
+																												<clade>
+																												<name>loss</name>
+																												<eventsRec>
+																													<loss speciesLocation="node_19"/>
+																												</eventsRec>
+																											</clade>
+																											<clade>
+																												<name>78</name>
+																												<eventsRec>
+																													<speciation speciesLocation="node_12"/>
+																												</eventsRec>
+																													<clade>
+																													<name>loss</name>
+																													<eventsRec>
+																														<loss speciesLocation="node_16"/>
+																													</eventsRec>
+																												</clade>
+																												<clade>
+																													<name>78</name>
+																													<eventsRec>
+																														<speciation speciesLocation="node_13"/>
+																													</eventsRec>
+																														<clade>
+																														<name>loss</name>
+																														<eventsRec>
+																															<loss speciesLocation="MetazoaArthropodaStrigamiamaritima"/>
+																														</eventsRec>
+																													</clade>
+																													<clade>
+																														<name>78</name>
+																														<eventsRec>
+																															<duplication speciesLocation="node_14"/>
+																														</eventsRec>
+																														<clade>
+																															<name>89</name>
+																															<eventsRec>
+																																<speciation speciesLocation="node_14"/>
+																															</eventsRec>
+																															<clade>
+																																<name>100</name>
+																																<eventsRec>
+																																	<duplication speciesLocation="MetazoaArthropodaDaphniapulex"/>
+																																</eventsRec>
+																																<clade>
+																																	<name>MetazoaArthropodaDaphniapulex_201082__GNAQ_HOMAM_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+																																	<eventsRec>
+																																		<leaf speciesLocation="MetazoaArthropodaDaphniapulex"/>
+																																	</eventsRec>
+																																</clade>
+																																<clade>
+																																	<name>MetazoaArthropodaDaphniapulex_201086__GNAQ_HOMAM_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+																																	<eventsRec>
+																																		<leaf speciesLocation="MetazoaArthropodaDaphniapulex"/>
+																																	</eventsRec>
+																																</clade>
+																															</clade>
+																															<clade>
+																																<name>MetazoaArthropodaEP00090Calanusglacialis_677253__GNAQ_HOMAM_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+																																<eventsRec>
+																																	<speciation speciesLocation="node_15"/>
+																																</eventsRec>
+																																	<clade>
+																																	<name>loss</name>
+																																	<eventsRec>
+																																		<loss speciesLocation="MetazoaArthropodaDrosophilamelanogaster"/>
+																																	</eventsRec>
+																																</clade>
+																																<clade>
+																																	<name>MetazoaArthropodaEP00090Calanusglacialis_677253__GNAQ_HOMAM_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+																																	<eventsRec>
+																																		<leaf speciesLocation="MetazoaArthropodaEP00090Calanusglacialis"/>
+																																	</eventsRec>
+																																</clade>
+																															</clade>
+																														</clade>
+																														<clade>
+																															<name>100</name>
+																															<eventsRec>
+																																<speciation speciesLocation="node_14"/>
+																															</eventsRec>
+																																<clade>
+																																<name>loss</name>
+																																<eventsRec>
+																																	<loss speciesLocation="MetazoaArthropodaDaphniapulex"/>
+																																</eventsRec>
+																															</clade>
+																															<clade>
+																																<name>100</name>
+																																<eventsRec>
+																																	<speciation speciesLocation="node_15"/>
+																																</eventsRec>
+																																	<clade>
+																																	<name>loss</name>
+																																	<eventsRec>
+																																		<loss speciesLocation="MetazoaArthropodaEP00090Calanusglacialis"/>
+																																	</eventsRec>
+																																</clade>
+																																<clade>
+																																	<name>100</name>
+																																	<eventsRec>
+																																		<duplication speciesLocation="MetazoaArthropodaDrosophilamelanogaster"/>
+																																	</eventsRec>
+																																	<clade>
+																																		<name>MetazoaArthropodaDrosophilamelanogaster_243422__GNAQ_DROME_G_protein_alpha_q_subunit_OS_</name>
+																																		<eventsRec>
+																																			<leaf speciesLocation="MetazoaArthropodaDrosophilamelanogaster"/>
+																																		</eventsRec>
+																																	</clade>
+																																	<clade>
+																																		<name>100</name>
+																																		<eventsRec>
+																																			<duplication speciesLocation="MetazoaArthropodaDrosophilamelanogaster"/>
+																																		</eventsRec>
+																																		<clade>
+																																			<name>MetazoaArthropodaDrosophilamelanogaster_244089__GNAQ_DROME_G_protein_alpha_q_subunit_OS_</name>
+																																			<eventsRec>
+																																				<leaf speciesLocation="MetazoaArthropodaDrosophilamelanogaster"/>
+																																			</eventsRec>
+																																		</clade>
+																																		<clade>
+																																			<name>MetazoaArthropodaDrosophilamelanogaster_246313__GNAQ_DROME_G_protein_alpha_q_subunit_OS_</name>
+																																			<eventsRec>
+																																				<leaf speciesLocation="MetazoaArthropodaDrosophilamelanogaster"/>
+																																			</eventsRec>
+																																		</clade>
+																																	</clade>
+																																</clade>
+																															</clade>
+																														</clade>
+																													</clade>
+																												</clade>
+																											</clade>
+																										</clade>
+																									</clade>
+																									<clade>
+																										<name>51</name>
+																										<eventsRec>
+																											<speciation speciesLocation="node_10"/>
+																										</eventsRec>
+																										<clade>
+																											<name>68</name>
+																											<eventsRec>
+																												<speciation speciesLocation="node_11"/>
+																											</eventsRec>
+																											<clade>
+																												<name>94</name>
+																												<eventsRec>
+																													<speciation speciesLocation="node_19"/>
+																												</eventsRec>
+																													<clade>
+																													<name>loss</name>
+																													<eventsRec>
+																														<loss speciesLocation="node_20"/>
+																													</eventsRec>
+																												</clade>
+																												<clade>
+																													<name>94</name>
+																													<eventsRec>
+																														<duplication speciesLocation="MetazoaBryozoaBugulaneritina"/>
+																													</eventsRec>
+																													<clade>
+																														<name>MetazoaBryozoaBugulaneritina_1799122__GNAQ_LOLFO_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+																														<eventsRec>
+																															<leaf speciesLocation="MetazoaBryozoaBugulaneritina"/>
+																														</eventsRec>
+																													</clade>
+																													<clade>
+																														<name>MetazoaBryozoaBugulaneritina_2405133__GNAQ_XENLA_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+																														<eventsRec>
+																															<leaf speciesLocation="MetazoaBryozoaBugulaneritina"/>
+																														</eventsRec>
+																													</clade>
+																												</clade>
+																											</clade>
+																											<clade>
+																												<name>100</name>
+																												<eventsRec>
+																													<speciation speciesLocation="node_12"/>
+																												</eventsRec>
+																													<clade>
+																													<name>loss</name>
+																													<eventsRec>
+																														<loss speciesLocation="node_13"/>
+																													</eventsRec>
+																												</clade>
+																												<clade>
+																													<name>100</name>
+																													<eventsRec>
+																														<speciation speciesLocation="node_16"/>
+																													</eventsRec>
+																														<clade>
+																														<name>loss</name>
+																														<eventsRec>
+																															<loss speciesLocation="MetazoaTardigradaRamazzotiusvarieornatus"/>
+																														</eventsRec>
+																													</clade>
+																													<clade>
+																														<name>100</name>
+																														<eventsRec>
+																															<speciation speciesLocation="node_17"/>
+																														</eventsRec>
+																														<clade>
+																															<name>85</name>
+																															<eventsRec>
+																																<speciation speciesLocation="node_18"/>
+																															</eventsRec>
+																															<clade>
+																																<name>MetazoaNematodaCaenorhabditiselegans_4308008__GNA11_MELGA_Guanine_nucleotide-binding_protein_subunit_alpha-11_OS_</name>
+																																<eventsRec>
+																																	<leaf speciesLocation="MetazoaNematodaCaenorhabditiselegans"/>
+																																</eventsRec>
+																															</clade>
+																															<clade>
+																																<name>MetazoaNematodaPristionchuspacificus_4420872__GNAQ_HOMAM_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+																																<eventsRec>
+																																	<leaf speciesLocation="MetazoaNematodaPristionchuspacificus"/>
+																																</eventsRec>
+																															</clade>
+																														</clade>
+																														<clade>
+																															<name>MetazoaNematodaLoaloa_4407246__GNAQ_MOUSE_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+																															<eventsRec>
+																																<leaf speciesLocation="MetazoaNematodaLoaloa"/>
+																															</eventsRec>
+																														</clade>
+																													</clade>
+																												</clade>
+																											</clade>
+																										</clade>
+																										<clade>
+																											<name>100</name>
+																											<eventsRec>
+																												<speciation speciesLocation="node_24"/>
+																											</eventsRec>
+																												<clade>
+																												<name>loss</name>
+																												<eventsRec>
+																													<loss speciesLocation="node_25"/>
+																												</eventsRec>
+																											</clade>
+																											<clade>
+																												<name>100</name>
+																												<eventsRec>
+																													<speciation speciesLocation="node_30"/>
+																												</eventsRec>
+																													<clade>
+																													<name>loss</name>
+																													<eventsRec>
+																														<loss speciesLocation="MetazoaHemichordataSaccoglossuskowalevskii"/>
+																													</eventsRec>
+																												</clade>
+																												<clade>
+																													<name>100</name>
+																													<eventsRec>
+																														<speciation speciesLocation="node_31"/>
+																													</eventsRec>
+																													<clade>
+																														<name>MetazoaEchinodermataAcanthasterplanci_3795341__GNAQ_MOUSE_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+																														<eventsRec>
+																															<leaf speciesLocation="MetazoaEchinodermataAcanthasterplanci"/>
+																														</eventsRec>
+																													</clade>
+																													<clade>
+																														<name>MetazoaEchinodermataEP00057Strongylocentrotuspurpuratus_3802314__GNAQ_MOUSE_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+																														<eventsRec>
+																															<leaf speciesLocation="MetazoaEchinodermataEP00057Strongylocentrotuspurpuratus"/>
+																														</eventsRec>
+																													</clade>
+																												</clade>
+																											</clade>
+																										</clade>
+																									</clade>
+																								</clade>
+																							</clade>
+																							<clade>
+																								<name>80</name>
+																								<eventsRec>
+																									<speciation speciesLocation="node_9"/>
+																								</eventsRec>
+																								<clade>
+																									<name>66</name>
+																									<eventsRec>
+																										<speciation speciesLocation="node_10"/>
+																									</eventsRec>
+																									<clade>
+																										<name>MetazoaTardigradaRamazzotiusvarieornatus_5287888__GNAQ_MOUSE_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+																										<eventsRec>
+																											<speciation speciesLocation="node_11"/>
+																										</eventsRec>
+																											<clade>
+																											<name>loss</name>
+																											<eventsRec>
+																												<loss speciesLocation="node_19"/>
+																											</eventsRec>
+																										</clade>
+																										<clade>
+																											<name>MetazoaTardigradaRamazzotiusvarieornatus_5287888__GNAQ_MOUSE_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+																											<eventsRec>
+																												<speciation speciesLocation="node_12"/>
+																											</eventsRec>
+																												<clade>
+																												<name>loss</name>
+																												<eventsRec>
+																													<loss speciesLocation="node_13"/>
+																												</eventsRec>
+																											</clade>
+																											<clade>
+																												<name>MetazoaTardigradaRamazzotiusvarieornatus_5287888__GNAQ_MOUSE_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+																												<eventsRec>
+																													<speciation speciesLocation="node_16"/>
+																												</eventsRec>
+																													<clade>
+																													<name>loss</name>
+																													<eventsRec>
+																														<loss speciesLocation="node_17"/>
+																													</eventsRec>
+																												</clade>
+																												<clade>
+																													<name>MetazoaTardigradaRamazzotiusvarieornatus_5287888__GNAQ_MOUSE_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+																													<eventsRec>
+																														<leaf speciesLocation="MetazoaTardigradaRamazzotiusvarieornatus"/>
+																													</eventsRec>
+																												</clade>
+																											</clade>
+																										</clade>
+																									</clade>
+																									<clade>
+																										<name>84</name>
+																										<eventsRec>
+																											<speciation speciesLocation="node_24"/>
+																										</eventsRec>
+																											<clade>
+																											<name>loss</name>
+																											<eventsRec>
+																												<loss speciesLocation="node_30"/>
+																											</eventsRec>
+																										</clade>
+																										<clade>
+																											<name>84</name>
+																											<eventsRec>
+																												<speciation speciesLocation="node_25"/>
+																											</eventsRec>
+																												<clade>
+																												<name>loss</name>
+																												<eventsRec>
+																													<loss speciesLocation="MetazoaCephalochordataBranchiostomabelcheri"/>
+																												</eventsRec>
+																											</clade>
+																											<clade>
+																												<name>84</name>
+																												<eventsRec>
+																													<speciation speciesLocation="node_26"/>
+																												</eventsRec>
+																												<clade>
+																													<name>100</name>
+																													<eventsRec>
+																														<duplication speciesLocation="MetazoaUrochordataEP00059Cionaintestinalis"/>
+																													</eventsRec>
+																													<clade>
+																														<name>MetazoaUrochordataEP00059Cionaintestinalis_5335577__GNAQ_RAT_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+																														<eventsRec>
+																															<leaf speciesLocation="MetazoaUrochordataEP00059Cionaintestinalis"/>
+																														</eventsRec>
+																													</clade>
+																													<clade>
+																														<name>MetazoaUrochordataEP00059Cionaintestinalis_5346692__GNAQ_RAT_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+																														<eventsRec>
+																															<leaf speciesLocation="MetazoaUrochordataEP00059Cionaintestinalis"/>
+																														</eventsRec>
+																													</clade>
+																												</clade>
+																												<clade>
+																													<name>59</name>
+																													<eventsRec>
+																														<duplication speciesLocation="node_27"/>
+																													</eventsRec>
+																													<clade>
+																														<name>34</name>
+																														<eventsRec>
+																															<duplication speciesLocation="node_27"/>
+																														</eventsRec>
+																														<clade>
+																															<name>38</name>
+																															<eventsRec>
+																																<speciation speciesLocation="node_27"/>
+																															</eventsRec>
+																															<clade>
+																																<name>96</name>
+																																<eventsRec>
+																																	<speciation speciesLocation="node_28"/>
+																																</eventsRec>
+																																<clade>
+																																	<name>97</name>
+																																	<eventsRec>
+																																		<duplication speciesLocation="MetazoaVertebrateDaniorerio"/>
+																																	</eventsRec>
+																																	<clade>
+																																		<name>MetazoaVertebrateDaniorerio_5420325__GNA14_XENLA_Guanine_nucleotide-binding_protein_subunit_alpha-14_OS_</name>
+																																		<eventsRec>
+																																			<leaf speciesLocation="MetazoaVertebrateDaniorerio"/>
+																																		</eventsRec>
+																																	</clade>
+																																	<clade>
+																																		<name>MetazoaVertebrateDaniorerio_5429648__GNA14_XENLA_Guanine_nucleotide-binding_protein_subunit_alpha-14_OS_</name>
+																																		<eventsRec>
+																																			<leaf speciesLocation="MetazoaVertebrateDaniorerio"/>
+																																		</eventsRec>
+																																	</clade>
+																																</clade>
+																																<clade>
+																																	<name>100</name>
+																																	<eventsRec>
+																																		<speciation speciesLocation="node_29"/>
+																																	</eventsRec>
+																																	<clade>
+																																		<name>MetazoaVertebrateHomosapiens_6453570__GNA14_HUMAN_Guanine_nucleotide-binding_protein_subunit_alpha-14_OS_</name>
+																																		<eventsRec>
+																																			<leaf speciesLocation="MetazoaVertebrateHomosapiens"/>
+																																		</eventsRec>
+																																	</clade>
+																																	<clade>
+																																		<name>MetazoaVertebrateMusmusculus_6533058__GNA14_MOUSE_Guanine_nucleotide-binding_protein_subunit_alpha-14_OS_</name>
+																																		<eventsRec>
+																																			<leaf speciesLocation="MetazoaVertebrateMusmusculus"/>
+																																		</eventsRec>
+																																	</clade>
+																																</clade>
+																															</clade>
+																															<clade>
+																																<name>MetazoaVertebrateEptatretusburgeri_6402108__GNA11_HUMAN_Guanine_nucleotide-binding_protein_subunit_alpha-11_OS_</name>
+																																<eventsRec>
+																																	<leaf speciesLocation="MetazoaVertebrateEptatretusburgeri"/>
+																																</eventsRec>
+																															</clade>
+																														</clade>
+																														<clade>
+																															<name>23</name>
+																															<eventsRec>
+																																<speciation speciesLocation="node_27"/>
+																															</eventsRec>
+																															<clade>
+																																<name>MetazoaVertebrateEptatretusburgeri_6398943__GNA11_XENLA_Guanine_nucleotide-binding_protein_subunit_alpha-11_OS_</name>
+																																<eventsRec>
+																																	<leaf speciesLocation="MetazoaVertebrateEptatretusburgeri"/>
+																																</eventsRec>
+																															</clade>
+																															<clade>
+																																<name>100</name>
+																																<eventsRec>
+																																	<speciation speciesLocation="node_28"/>
+																																</eventsRec>
+																																	<clade>
+																																	<name>loss</name>
+																																	<eventsRec>
+																																		<loss speciesLocation="MetazoaVertebrateDaniorerio"/>
+																																	</eventsRec>
+																																</clade>
+																																<clade>
+																																	<name>100</name>
+																																	<eventsRec>
+																																		<speciation speciesLocation="node_29"/>
+																																	</eventsRec>
+																																	<clade>
+																																		<name>MetazoaVertebrateHomosapiens_6455721__GNA11_HUMAN_Guanine_nucleotide-binding_protein_subunit_alpha-11_OS_</name>
+																																		<eventsRec>
+																																			<leaf speciesLocation="MetazoaVertebrateHomosapiens"/>
+																																		</eventsRec>
+																																	</clade>
+																																	<clade>
+																																		<name>MetazoaVertebrateMusmusculus_6532740__GNA11_MOUSE_Guanine_nucleotide-binding_protein_subunit_alpha-11_OS_</name>
+																																		<eventsRec>
+																																			<leaf speciesLocation="MetazoaVertebrateMusmusculus"/>
+																																		</eventsRec>
+																																	</clade>
+																																</clade>
+																															</clade>
+																														</clade>
+																													</clade>
+																													<clade>
+																														<name>43</name>
+																														<eventsRec>
+																															<speciation speciesLocation="node_27"/>
+																														</eventsRec>
+																															<clade>
+																															<name>loss</name>
+																															<eventsRec>
+																																<loss speciesLocation="MetazoaVertebrateEptatretusburgeri"/>
+																															</eventsRec>
+																														</clade>
+																														<clade>
+																															<name>43</name>
+																															<eventsRec>
+																																<duplication speciesLocation="node_28"/>
+																															</eventsRec>
+																															<clade>
+																																<name>69</name>
+																																<eventsRec>
+																																	<speciation speciesLocation="node_28"/>
+																																</eventsRec>
+																																	<clade>
+																																	<name>loss</name>
+																																	<eventsRec>
+																																		<loss speciesLocation="node_29"/>
+																																	</eventsRec>
+																																</clade>
+																																<clade>
+																																	<name>69</name>
+																																	<eventsRec>
+																																		<duplication speciesLocation="MetazoaVertebrateDaniorerio"/>
+																																	</eventsRec>
+																																	<clade>
+																																		<name>MetazoaVertebrateDaniorerio_5417817__GNAQ_MOUSE_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+																																		<eventsRec>
+																																			<leaf speciesLocation="MetazoaVertebrateDaniorerio"/>
+																																		</eventsRec>
+																																	</clade>
+																																	<clade>
+																																		<name>MetazoaVertebrateDaniorerio_5432426__GNA11_BOVIN_Guanine_nucleotide-binding_protein_subunit_alpha-11_OS_</name>
+																																		<eventsRec>
+																																			<leaf speciesLocation="MetazoaVertebrateDaniorerio"/>
+																																		</eventsRec>
+																																	</clade>
+																																</clade>
+																															</clade>
+																															<clade>
+																																<name>98</name>
+																																<eventsRec>
+																																	<speciation speciesLocation="node_28"/>
+																																</eventsRec>
+																																<clade>
+																																	<name>MetazoaVertebrateDaniorerio_5421531__GNAQ_RAT_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+																																	<eventsRec>
+																																		<leaf speciesLocation="MetazoaVertebrateDaniorerio"/>
+																																	</eventsRec>
+																																</clade>
+																																<clade>
+																																	<name>100</name>
+																																	<eventsRec>
+																																		<speciation speciesLocation="node_29"/>
+																																	</eventsRec>
+																																	<clade>
+																																		<name>MetazoaVertebrateHomosapiens_6456606__GNAQ_CANLF_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+																																		<eventsRec>
+																																			<leaf speciesLocation="MetazoaVertebrateHomosapiens"/>
+																																		</eventsRec>
+																																	</clade>
+																																	<clade>
+																																		<name>MetazoaVertebrateMusmusculus_6532741__GNAQ_MOUSE_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+																																		<eventsRec>
+																																			<leaf speciesLocation="MetazoaVertebrateMusmusculus"/>
+																																		</eventsRec>
+																																	</clade>
+																																</clade>
+																															</clade>
+																														</clade>
+																													</clade>
+																												</clade>
+																											</clade>
+																										</clade>
+																									</clade>
+																								</clade>
+																								<clade>
+																									<name>100</name>
+																									<eventsRec>
+																										<speciation speciesLocation="node_32"/>
+																									</eventsRec>
+																										<clade>
+																										<name>loss</name>
+																										<eventsRec>
+																											<loss speciesLocation="node_43"/>
+																										</eventsRec>
+																									</clade>
+																									<clade>
+																										<name>100</name>
+																										<eventsRec>
+																											<speciation speciesLocation="node_33"/>
+																										</eventsRec>
+																											<clade>
+																											<name>loss</name>
+																											<eventsRec>
+																												<loss speciesLocation="MetazoaCnidariaGorgoniaventalina"/>
+																											</eventsRec>
+																										</clade>
+																										<clade>
+																											<name>100</name>
+																											<eventsRec>
+																												<speciation speciesLocation="node_34"/>
+																											</eventsRec>
+																												<clade>
+																												<name>loss</name>
+																												<eventsRec>
+																													<loss speciesLocation="node_42"/>
+																												</eventsRec>
+																											</clade>
+																											<clade>
+																												<name>100</name>
+																												<eventsRec>
+																													<speciation speciesLocation="node_35"/>
+																												</eventsRec>
+																													<clade>
+																													<name>loss</name>
+																													<eventsRec>
+																														<loss speciesLocation="node_39"/>
+																													</eventsRec>
+																												</clade>
+																												<clade>
+																													<name>100</name>
+																													<eventsRec>
+																														<speciation speciesLocation="node_36"/>
+																													</eventsRec>
+																														<clade>
+																														<name>loss</name>
+																														<eventsRec>
+																															<loss speciesLocation="node_37"/>
+																														</eventsRec>
+																													</clade>
+																													<clade>
+																														<name>100</name>
+																														<eventsRec>
+																															<speciation speciesLocation="node_38"/>
+																														</eventsRec>
+																															<clade>
+																															<name>loss</name>
+																															<eventsRec>
+																																<loss speciesLocation="MetazoaCnidariaPoritesaustraliensis"/>
+																															</eventsRec>
+																														</clade>
+																														<clade>
+																															<name>100</name>
+																															<eventsRec>
+																																<duplication speciesLocation="MetazoaCnidariaAstreoporasp"/>
+																															</eventsRec>
+																															<clade>
+																																<name>MetazoaCnidariaAstreoporasp_3040919__GNAQ_HOMAM_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+																																<eventsRec>
+																																	<leaf speciesLocation="MetazoaCnidariaAstreoporasp"/>
+																																</eventsRec>
+																															</clade>
+																															<clade>
+																																<name>MetazoaCnidariaAstreoporasp_3041128__GNAQ_HOMAM_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+																																<eventsRec>
+																																	<leaf speciesLocation="MetazoaCnidariaAstreoporasp"/>
+																																</eventsRec>
+																															</clade>
+																														</clade>
+																													</clade>
+																												</clade>
+																											</clade>
+																										</clade>
+																									</clade>
+																								</clade>
+																							</clade>
+																						</clade>
+																						<clade>
+																							<name>52</name>
+																							<eventsRec>
+																								<speciation speciesLocation="node_9"/>
+																							</eventsRec>
+																							<clade>
+																								<name>62</name>
+																								<eventsRec>
+																									<speciation speciesLocation="node_32"/>
+																								</eventsRec>
+																									<clade>
+																									<name>loss</name>
+																									<eventsRec>
+																										<loss speciesLocation="node_43"/>
+																									</eventsRec>
+																								</clade>
+																								<clade>
+																									<name>62</name>
+																									<eventsRec>
+																										<speciation speciesLocation="node_33"/>
+																									</eventsRec>
+																									<clade>
+																										<name>100</name>
+																										<eventsRec>
+																											<speciation speciesLocation="node_34"/>
+																										</eventsRec>
+																										<clade>
+																											<name>100</name>
+																											<eventsRec>
+																												<speciation speciesLocation="node_35"/>
+																											</eventsRec>
+																											<clade>
+																												<name>92</name>
+																												<eventsRec>
+																													<speciation speciesLocation="node_36"/>
+																												</eventsRec>
+																												<clade>
+																													<name>MetazoaCnidariaAcroporadigitifera_2940693__GNAQ_RAT_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+																													<eventsRec>
+																														<speciation speciesLocation="node_37"/>
+																													</eventsRec>
+																														<clade>
+																														<name>loss</name>
+																														<eventsRec>
+																															<loss speciesLocation="MetazoaCnidariaAcroporatenuis"/>
+																														</eventsRec>
+																													</clade>
+																													<clade>
+																														<name>MetazoaCnidariaAcroporadigitifera_2940693__GNAQ_RAT_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+																														<eventsRec>
+																															<leaf speciesLocation="MetazoaCnidariaAcroporadigitifera"/>
+																														</eventsRec>
+																													</clade>
+																												</clade>
+																												<clade>
+																													<name>MetazoaCnidariaAstreoporasp_3027542__GNAQ_RAT_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+																													<eventsRec>
+																														<speciation speciesLocation="node_38"/>
+																													</eventsRec>
+																														<clade>
+																														<name>loss</name>
+																														<eventsRec>
+																															<loss speciesLocation="MetazoaCnidariaPoritesaustraliensis"/>
+																														</eventsRec>
+																													</clade>
+																													<clade>
+																														<name>MetazoaCnidariaAstreoporasp_3027542__GNAQ_RAT_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+																														<eventsRec>
+																															<leaf speciesLocation="MetazoaCnidariaAstreoporasp"/>
+																														</eventsRec>
+																													</clade>
+																												</clade>
+																											</clade>
+																											<clade>
+																												<name>100</name>
+																												<eventsRec>
+																													<speciation speciesLocation="node_39"/>
+																												</eventsRec>
+																												<clade>
+																													<name>88</name>
+																													<eventsRec>
+																														<speciation speciesLocation="node_40"/>
+																													</eventsRec>
+																													<clade>
+																														<name>MetazoaCnidariaFungiascutaria_3190337__GNAQ_RAT_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+																														<eventsRec>
+																															<leaf speciesLocation="MetazoaCnidariaFungiascutaria"/>
+																														</eventsRec>
+																													</clade>
+																													<clade>
+																														<name>MetazoaCnidariaMontastraeacavernosa_3333776__GNAQ_RAT_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+																														<eventsRec>
+																															<leaf speciesLocation="MetazoaCnidariaMontastraeacavernosa"/>
+																														</eventsRec>
+																													</clade>
+																												</clade>
+																												<clade>
+																													<name>71</name>
+																													<eventsRec>
+																														<speciation speciesLocation="node_41"/>
+																													</eventsRec>
+																													<clade>
+																														<name>MetazoaCnidariaMadracisauretenra_3287568__GNAQ_RAT_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+																														<eventsRec>
+																															<leaf speciesLocation="MetazoaCnidariaMadracisauretenra"/>
+																														</eventsRec>
+																													</clade>
+																													<clade>
+																														<name>MetazoaCnidariaStylophorapistillata_3672489__GNAQ_RAT_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+																														<eventsRec>
+																															<leaf speciesLocation="MetazoaCnidariaStylophorapistillata"/>
+																														</eventsRec>
+																													</clade>
+																												</clade>
+																											</clade>
+																										</clade>
+																										<clade>
+																											<name>87</name>
+																											<eventsRec>
+																												<speciation speciesLocation="node_42"/>
+																											</eventsRec>
+																											<clade>
+																												<name>MetazoaCnidariaAnthopleuraelegantissima_3010344__GNA11_HUMAN_Guanine_nucleotide-binding_protein_subunit_alpha-11_OS_</name>
+																												<eventsRec>
+																													<leaf speciesLocation="MetazoaCnidariaAnthopleuraelegantissima"/>
+																												</eventsRec>
+																											</clade>
+																											<clade>
+																												<name>MetazoaCnidariaNematostellavectensis_3381862__GNAQ_RAT_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+																												<eventsRec>
+																													<leaf speciesLocation="MetazoaCnidariaNematostellavectensis"/>
+																												</eventsRec>
+																											</clade>
+																										</clade>
+																									</clade>
+																									<clade>
+																										<name>MetazoaCnidariaGorgoniaventalina_3207927__GNAQ_RAT_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+																										<eventsRec>
+																											<leaf speciesLocation="MetazoaCnidariaGorgoniaventalina"/>
+																										</eventsRec>
+																									</clade>
+																								</clade>
+																							</clade>
+																							<clade>
+																								<name>68</name>
+																								<eventsRec>
+																									<speciation speciesLocation="node_10"/>
+																								</eventsRec>
+																									<clade>
+																									<name>loss</name>
+																									<eventsRec>
+																										<loss speciesLocation="node_11"/>
+																									</eventsRec>
+																								</clade>
+																								<clade>
+																									<name>68</name>
+																									<eventsRec>
+																										<speciation speciesLocation="node_24"/>
+																									</eventsRec>
+																									<clade>
+																										<name>MetazoaHemichordataSaccoglossuskowalevskii_4060986__GNAQ_RAT_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+																										<eventsRec>
+																											<speciation speciesLocation="node_30"/>
+																										</eventsRec>
+																											<clade>
+																											<name>loss</name>
+																											<eventsRec>
+																												<loss speciesLocation="node_31"/>
+																											</eventsRec>
+																										</clade>
+																										<clade>
+																											<name>MetazoaHemichordataSaccoglossuskowalevskii_4060986__GNAQ_RAT_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+																											<eventsRec>
+																												<leaf speciesLocation="MetazoaHemichordataSaccoglossuskowalevskii"/>
+																											</eventsRec>
+																										</clade>
+																									</clade>
+																									<clade>
+																										<name>100</name>
+																										<eventsRec>
+																											<speciation speciesLocation="node_25"/>
+																										</eventsRec>
+																											<clade>
+																											<name>loss</name>
+																											<eventsRec>
+																												<loss speciesLocation="node_26"/>
+																											</eventsRec>
+																										</clade>
+																										<clade>
+																											<name>100</name>
+																											<eventsRec>
+																												<duplication speciesLocation="MetazoaCephalochordataBranchiostomabelcheri"/>
+																											</eventsRec>
+																											<clade>
+																												<name>MetazoaCephalochordataBranchiostomabelcheri_2806593__GNA11_HUMAN_Guanine_nucleotide-binding_protein_subunit_alpha-11_OS_</name>
+																												<eventsRec>
+																													<leaf speciesLocation="MetazoaCephalochordataBranchiostomabelcheri"/>
+																												</eventsRec>
+																											</clade>
+																											<clade>
+																												<name>MetazoaCephalochordataBranchiostomabelcheri_2806594__KBP_CHICK_KIF-binding_protein_OS_</name>
+																												<eventsRec>
+																													<leaf speciesLocation="MetazoaCephalochordataBranchiostomabelcheri"/>
+																												</eventsRec>
+																											</clade>
+																										</clade>
+																									</clade>
+																								</clade>
+																							</clade>
+																						</clade>
+																					</clade>
+																				</clade>
+																			</clade>
+																		</clade>
+																		<clade>
+																			<name>59</name>
+																			<eventsRec>
+																				<speciation speciesLocation="node_6"/>
+																			</eventsRec>
+																			<clade>
+																				<name>78</name>
+																				<eventsRec>
+																					<speciation speciesLocation="node_7"/>
+																				</eventsRec>
+																					<clade>
+																					<name>loss</name>
+																					<eventsRec>
+																						<loss speciesLocation="node_46"/>
+																					</eventsRec>
+																				</clade>
+																				<clade>
+																					<name>78</name>
+																					<eventsRec>
+																						<speciation speciesLocation="node_8"/>
+																					</eventsRec>
+																						<clade>
+																						<name>loss</name>
+																						<eventsRec>
+																							<loss speciesLocation="node_45"/>
+																						</eventsRec>
+																					</clade>
+																					<clade>
+																						<name>78</name>
+																						<eventsRec>
+																							<speciation speciesLocation="node_9"/>
+																						</eventsRec>
+																						<clade>
+																							<name>MetazoaCnidariaMadracisauretenra_3304566__GNA11_MOUSE_Guanine_nucleotide-binding_protein_subunit_alpha-11_OS_</name>
+																							<eventsRec>
+																								<speciation speciesLocation="node_32"/>
+																							</eventsRec>
+																								<clade>
+																								<name>loss</name>
+																								<eventsRec>
+																									<loss speciesLocation="node_43"/>
+																								</eventsRec>
+																							</clade>
+																							<clade>
+																								<name>MetazoaCnidariaMadracisauretenra_3304566__GNA11_MOUSE_Guanine_nucleotide-binding_protein_subunit_alpha-11_OS_</name>
+																								<eventsRec>
+																									<speciation speciesLocation="node_33"/>
+																								</eventsRec>
+																									<clade>
+																									<name>loss</name>
+																									<eventsRec>
+																										<loss speciesLocation="MetazoaCnidariaGorgoniaventalina"/>
+																									</eventsRec>
+																								</clade>
+																								<clade>
+																									<name>MetazoaCnidariaMadracisauretenra_3304566__GNA11_MOUSE_Guanine_nucleotide-binding_protein_subunit_alpha-11_OS_</name>
+																									<eventsRec>
+																										<speciation speciesLocation="node_34"/>
+																									</eventsRec>
+																										<clade>
+																										<name>loss</name>
+																										<eventsRec>
+																											<loss speciesLocation="node_42"/>
+																										</eventsRec>
+																									</clade>
+																									<clade>
+																										<name>MetazoaCnidariaMadracisauretenra_3304566__GNA11_MOUSE_Guanine_nucleotide-binding_protein_subunit_alpha-11_OS_</name>
+																										<eventsRec>
+																											<speciation speciesLocation="node_35"/>
+																										</eventsRec>
+																											<clade>
+																											<name>loss</name>
+																											<eventsRec>
+																												<loss speciesLocation="node_36"/>
+																											</eventsRec>
+																										</clade>
+																										<clade>
+																											<name>MetazoaCnidariaMadracisauretenra_3304566__GNA11_MOUSE_Guanine_nucleotide-binding_protein_subunit_alpha-11_OS_</name>
+																											<eventsRec>
+																												<speciation speciesLocation="node_39"/>
+																											</eventsRec>
+																												<clade>
+																												<name>loss</name>
+																												<eventsRec>
+																													<loss speciesLocation="node_40"/>
+																												</eventsRec>
+																											</clade>
+																											<clade>
+																												<name>MetazoaCnidariaMadracisauretenra_3304566__GNA11_MOUSE_Guanine_nucleotide-binding_protein_subunit_alpha-11_OS_</name>
+																												<eventsRec>
+																													<speciation speciesLocation="node_41"/>
+																												</eventsRec>
+																													<clade>
+																													<name>loss</name>
+																													<eventsRec>
+																														<loss speciesLocation="MetazoaCnidariaStylophorapistillata"/>
+																													</eventsRec>
+																												</clade>
+																												<clade>
+																													<name>MetazoaCnidariaMadracisauretenra_3304566__GNA11_MOUSE_Guanine_nucleotide-binding_protein_subunit_alpha-11_OS_</name>
+																													<eventsRec>
+																														<leaf speciesLocation="MetazoaCnidariaMadracisauretenra"/>
+																													</eventsRec>
+																												</clade>
+																											</clade>
+																										</clade>
+																									</clade>
+																								</clade>
+																							</clade>
+																						</clade>
+																						<clade>
+																							<name>78</name>
+																							<eventsRec>
+																								<speciation speciesLocation="node_10"/>
+																							</eventsRec>
+																								<clade>
+																								<name>loss</name>
+																								<eventsRec>
+																									<loss speciesLocation="node_24"/>
+																								</eventsRec>
+																							</clade>
+																							<clade>
+																								<name>78</name>
+																								<eventsRec>
+																									<speciation speciesLocation="node_11"/>
+																								</eventsRec>
+																									<clade>
+																									<name>loss</name>
+																									<eventsRec>
+																										<loss speciesLocation="node_12"/>
+																									</eventsRec>
+																								</clade>
+																								<clade>
+																									<name>78</name>
+																									<eventsRec>
+																										<speciation speciesLocation="node_19"/>
+																									</eventsRec>
+																									<clade>
+																										<name>MetazoaBryozoaBugulaneritina_2034197__GNAQ_MIZYE_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+																										<eventsRec>
+																											<leaf speciesLocation="MetazoaBryozoaBugulaneritina"/>
+																										</eventsRec>
+																									</clade>
+																									<clade>
+																										<name>60</name>
+																										<eventsRec>
+																											<speciation speciesLocation="node_20"/>
+																										</eventsRec>
+																										<clade>
+																											<name>83</name>
+																											<eventsRec>
+																												<speciation speciesLocation="node_21"/>
+																											</eventsRec>
+																											<clade>
+																												<name>MetazoaMolluscaLottiagigantea_4202648__GNAQ_LYMST_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+																												<eventsRec>
+																													<speciation speciesLocation="node_22"/>
+																												</eventsRec>
+																													<clade>
+																													<name>loss</name>
+																													<eventsRec>
+																														<loss speciesLocation="MetazoaMolluscaEP00106Octopusbimaculoides"/>
+																													</eventsRec>
+																												</clade>
+																												<clade>
+																													<name>MetazoaMolluscaLottiagigantea_4202648__GNAQ_LYMST_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+																													<eventsRec>
+																														<leaf speciesLocation="MetazoaMolluscaLottiagigantea"/>
+																													</eventsRec>
+																												</clade>
+																											</clade>
+																											<clade>
+																												<name>MetazoaBrachiopodaLingulaunguis_1294672__GNAQ_LYMST_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+																												<eventsRec>
+																													<leaf speciesLocation="MetazoaBrachiopodaLingulaunguis"/>
+																												</eventsRec>
+																											</clade>
+																										</clade>
+																										<clade>
+																											<name>35</name>
+																											<eventsRec>
+																												<speciation speciesLocation="node_23"/>
+																											</eventsRec>
+																											<clade>
+																												<name>MetazoaAnnelidaEP00103Capitellateleta_55803__GNAQ_CANLF_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+																												<eventsRec>
+																													<leaf speciesLocation="MetazoaAnnelidaEP00103Capitellateleta"/>
+																												</eventsRec>
+																											</clade>
+																											<clade>
+																												<name>73</name>
+																												<eventsRec>
+																													<duplication speciesLocation="MetazoaAnnelidaHelobdellarobusta"/>
+																												</eventsRec>
+																												<clade>
+																													<name>MetazoaAnnelidaHelobdellarobusta_90592__GNAQ_RAT_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+																													<eventsRec>
+																														<leaf speciesLocation="MetazoaAnnelidaHelobdellarobusta"/>
+																													</eventsRec>
+																												</clade>
+																												<clade>
+																													<name>MetazoaAnnelidaHelobdellarobusta_100943__GNAQ_LYMST_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+																													<eventsRec>
+																														<leaf speciesLocation="MetazoaAnnelidaHelobdellarobusta"/>
+																													</eventsRec>
+																												</clade>
+																											</clade>
+																										</clade>
+																									</clade>
+																								</clade>
+																							</clade>
+																						</clade>
+																					</clade>
+																				</clade>
+																			</clade>
+																			<clade>
+																				<name>MetazoaPoriferaLeucosoleniacomplicata_5043936__GNAQ_LYMST_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+																				<eventsRec>
+																					<speciation speciesLocation="node_47"/>
+																				</eventsRec>
+																					<clade>
+																					<name>loss</name>
+																					<eventsRec>
+																						<loss speciesLocation="node_48"/>
+																					</eventsRec>
+																				</clade>
+																				<clade>
+																					<name>MetazoaPoriferaLeucosoleniacomplicata_5043936__GNAQ_LYMST_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+																					<eventsRec>
+																						<speciation speciesLocation="node_51"/>
+																					</eventsRec>
+																						<clade>
+																						<name>loss</name>
+																						<eventsRec>
+																							<loss speciesLocation="MetazoaPoriferaEP00118Oscarellapearsei"/>
+																						</eventsRec>
+																					</clade>
+																					<clade>
+																						<name>MetazoaPoriferaLeucosoleniacomplicata_5043936__GNAQ_LYMST_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+																						<eventsRec>
+																							<speciation speciesLocation="node_52"/>
+																						</eventsRec>
+																							<clade>
+																							<name>loss</name>
+																							<eventsRec>
+																								<loss speciesLocation="MetazoaPoriferaSyconciliatum"/>
+																							</eventsRec>
+																						</clade>
+																						<clade>
+																							<name>MetazoaPoriferaLeucosoleniacomplicata_5043936__GNAQ_LYMST_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+																							<eventsRec>
+																								<leaf speciesLocation="MetazoaPoriferaLeucosoleniacomplicata"/>
+																							</eventsRec>
+																						</clade>
+																					</clade>
+																				</clade>
+																			</clade>
+																		</clade>
+																	</clade>
+																</clade>
+															</clade>
+															<clade>
+																<name>61</name>
+																<eventsRec>
+																	<speciation speciesLocation="node_6"/>
+																</eventsRec>
+																	<clade>
+																	<name>loss</name>
+																	<eventsRec>
+																		<loss speciesLocation="node_47"/>
+																	</eventsRec>
+																</clade>
+																<clade>
+																	<name>61</name>
+																	<eventsRec>
+																		<speciation speciesLocation="node_7"/>
+																	</eventsRec>
+																		<clade>
+																		<name>loss</name>
+																		<eventsRec>
+																			<loss speciesLocation="node_46"/>
+																		</eventsRec>
+																	</clade>
+																	<clade>
+																		<name>61</name>
+																		<eventsRec>
+																			<speciation speciesLocation="node_8"/>
+																		</eventsRec>
+																		<clade>
+																			<name>94</name>
+																			<eventsRec>
+																				<speciation speciesLocation="node_9"/>
+																			</eventsRec>
+																				<clade>
+																				<name>loss</name>
+																				<eventsRec>
+																					<loss speciesLocation="node_10"/>
+																				</eventsRec>
+																			</clade>
+																			<clade>
+																				<name>94</name>
+																				<eventsRec>
+																					<speciation speciesLocation="node_32"/>
+																				</eventsRec>
+																					<clade>
+																					<name>loss</name>
+																					<eventsRec>
+																						<loss speciesLocation="node_33"/>
+																					</eventsRec>
+																				</clade>
+																				<clade>
+																					<name>94</name>
+																					<eventsRec>
+																						<speciation speciesLocation="node_43"/>
+																					</eventsRec>
+																						<clade>
+																						<name>loss</name>
+																						<eventsRec>
+																							<loss speciesLocation="MetazoaCnidariaAureliaGenome"/>
+																						</eventsRec>
+																					</clade>
+																					<clade>
+																						<name>94</name>
+																						<eventsRec>
+																							<speciation speciesLocation="node_44"/>
+																						</eventsRec>
+																						<clade>
+																							<name>MetazoaCnidariaClytiahemisphaerica_3093287__GNAQ_CANLF_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+																							<eventsRec>
+																								<leaf speciesLocation="MetazoaCnidariaClytiahemisphaerica"/>
+																							</eventsRec>
+																						</clade>
+																						<clade>
+																							<name>MetazoaCnidariaHydramagnapapillata_3264055__GNAQ_MIZYE_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+																							<eventsRec>
+																								<leaf speciesLocation="MetazoaCnidariaHydramagnapapillata"/>
+																							</eventsRec>
+																						</clade>
+																					</clade>
+																				</clade>
+																			</clade>
+																		</clade>
+																		<clade>
+																			<name>100</name>
+																			<eventsRec>
+																				<speciation speciesLocation="node_45"/>
+																			</eventsRec>
+																			<clade>
+																				<name>MetazoaPlacozoaEP00114TrichoplaxspH2_4515741__GNAQ_RAT_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+																				<eventsRec>
+																					<leaf speciesLocation="MetazoaPlacozoaEP00114TrichoplaxspH2"/>
+																				</eventsRec>
+																			</clade>
+																			<clade>
+																				<name>99</name>
+																				<eventsRec>
+																					<duplication speciesLocation="MetazoaPlacozoaHoilungiahongkongensis"/>
+																				</eventsRec>
+																				<clade>
+																					<name>MetazoaPlacozoaHoilungiahongkongensis_4516654__GNAQ_MOUSE_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+																					<eventsRec>
+																						<leaf speciesLocation="MetazoaPlacozoaHoilungiahongkongensis"/>
+																					</eventsRec>
+																				</clade>
+																				<clade>
+																					<name>MetazoaPlacozoaHoilungiahongkongensis_4516656__GNAQ_RAT_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+																					<eventsRec>
+																						<leaf speciesLocation="MetazoaPlacozoaHoilungiahongkongensis"/>
+																					</eventsRec>
+																				</clade>
+																			</clade>
+																		</clade>
+																	</clade>
+																</clade>
+															</clade>
+														</clade>
+														<clade>
+															<name>52</name>
+															<eventsRec>
+																<speciation speciesLocation="node_6"/>
+															</eventsRec>
+															<clade>
+																<name>MetazoaCtenophoraMnemiopsisleidyi_3721718__GNAQ_RAT_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+																<eventsRec>
+																	<speciation speciesLocation="node_7"/>
+																</eventsRec>
+																	<clade>
+																	<name>loss</name>
+																	<eventsRec>
+																		<loss speciesLocation="node_8"/>
+																	</eventsRec>
+																</clade>
+																<clade>
+																	<name>MetazoaCtenophoraMnemiopsisleidyi_3721718__GNAQ_RAT_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+																	<eventsRec>
+																		<speciation speciesLocation="node_46"/>
+																	</eventsRec>
+																		<clade>
+																		<name>loss</name>
+																		<eventsRec>
+																			<loss speciesLocation="MetazoaCtenophoraPleurobrachiabachei"/>
+																		</eventsRec>
+																	</clade>
+																	<clade>
+																		<name>MetazoaCtenophoraMnemiopsisleidyi_3721718__GNAQ_RAT_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+																		<eventsRec>
+																			<leaf speciesLocation="MetazoaCtenophoraMnemiopsisleidyi"/>
+																		</eventsRec>
+																	</clade>
+																</clade>
+															</clade>
+															<clade>
+																<name>93</name>
+																<eventsRec>
+																	<speciation speciesLocation="node_47"/>
+																</eventsRec>
+																	<clade>
+																	<name>loss</name>
+																	<eventsRec>
+																		<loss speciesLocation="node_48"/>
+																	</eventsRec>
+																</clade>
+																<clade>
+																	<name>93</name>
+																	<eventsRec>
+																		<speciation speciesLocation="node_51"/>
+																	</eventsRec>
+																	<clade>
+																		<name>100</name>
+																		<eventsRec>
+																			<speciation speciesLocation="node_52"/>
+																		</eventsRec>
+																		<clade>
+																			<name>MetazoaPoriferaLeucosoleniacomplicata_5002844__GNAQ_MIZYE_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+																			<eventsRec>
+																				<leaf speciesLocation="MetazoaPoriferaLeucosoleniacomplicata"/>
+																			</eventsRec>
+																		</clade>
+																		<clade>
+																			<name>MetazoaPoriferaSyconciliatum_5135579__GNAQ_LYMST_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+																			<eventsRec>
+																				<leaf speciesLocation="MetazoaPoriferaSyconciliatum"/>
+																			</eventsRec>
+																		</clade>
+																	</clade>
+																	<clade>
+																		<name>93</name>
+																		<eventsRec>
+																			<duplication speciesLocation="MetazoaPoriferaEP00118Oscarellapearsei"/>
+																		</eventsRec>
+																		<clade>
+																			<name>MetazoaPoriferaEP00118Oscarellapearsei_4812169__GNAQ_RAT_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+																			<eventsRec>
+																				<leaf speciesLocation="MetazoaPoriferaEP00118Oscarellapearsei"/>
+																			</eventsRec>
+																		</clade>
+																		<clade>
+																			<name>MetazoaPoriferaEP00118Oscarellapearsei_4812634__GNAQ_CANLF_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+																			<eventsRec>
+																				<leaf speciesLocation="MetazoaPoriferaEP00118Oscarellapearsei"/>
+																			</eventsRec>
+																		</clade>
+																	</clade>
+																</clade>
+															</clade>
+														</clade>
+													</clade>
+												</clade>
+												<clade>
+													<name>62</name>
+													<eventsRec>
+														<speciation speciesLocation="node_6"/>
+													</eventsRec>
+													<clade>
+														<name>100</name>
+														<eventsRec>
+															<speciation speciesLocation="node_47"/>
+														</eventsRec>
+															<clade>
+															<name>loss</name>
+															<eventsRec>
+																<loss speciesLocation="node_48"/>
+															</eventsRec>
+														</clade>
+														<clade>
+															<name>100</name>
+															<eventsRec>
+																<speciation speciesLocation="node_51"/>
+															</eventsRec>
+																<clade>
+																<name>loss</name>
+																<eventsRec>
+																	<loss speciesLocation="MetazoaPoriferaEP00118Oscarellapearsei"/>
+																</eventsRec>
+															</clade>
+															<clade>
+																<name>100</name>
+																<eventsRec>
+																	<speciation speciesLocation="node_52"/>
+																</eventsRec>
+																<clade>
+																	<name>MetazoaPoriferaLeucosoleniacomplicata_5059667__GNAQ_MOUSE_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+																	<eventsRec>
+																		<leaf speciesLocation="MetazoaPoriferaLeucosoleniacomplicata"/>
+																	</eventsRec>
+																</clade>
+																<clade>
+																	<name>MetazoaPoriferaSyconciliatum_5140215__GNAQ_CANLF_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+																	<eventsRec>
+																		<leaf speciesLocation="MetazoaPoriferaSyconciliatum"/>
+																	</eventsRec>
+																</clade>
+															</clade>
+														</clade>
+													</clade>
+													<clade>
+														<name>47</name>
+														<eventsRec>
+															<speciation speciesLocation="node_7"/>
+														</eventsRec>
+														<clade>
+															<name>88</name>
+															<eventsRec>
+																<speciation speciesLocation="node_46"/>
+															</eventsRec>
+																<clade>
+																<name>loss</name>
+																<eventsRec>
+																	<loss speciesLocation="MetazoaCtenophoraPleurobrachiabachei"/>
+																</eventsRec>
+															</clade>
+															<clade>
+																<name>88</name>
+																<eventsRec>
+																	<duplication speciesLocation="MetazoaCtenophoraMnemiopsisleidyi"/>
+																</eventsRec>
+																<clade>
+																	<name>MetazoaCtenophoraMnemiopsisleidyi_3720889__GNA11_MELGA_Guanine_nucleotide-binding_protein_subunit_alpha-11_OS_</name>
+																	<eventsRec>
+																		<leaf speciesLocation="MetazoaCtenophoraMnemiopsisleidyi"/>
+																	</eventsRec>
+																</clade>
+																<clade>
+																	<name>MetazoaCtenophoraMnemiopsisleidyi_3731534__GNAQ_RAT_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+																	<eventsRec>
+																		<leaf speciesLocation="MetazoaCtenophoraMnemiopsisleidyi"/>
+																	</eventsRec>
+																</clade>
+															</clade>
+														</clade>
+														<clade>
+															<name>71</name>
+															<eventsRec>
+																<speciation speciesLocation="node_8"/>
+															</eventsRec>
+																<clade>
+																<name>loss</name>
+																<eventsRec>
+																	<loss speciesLocation="node_45"/>
+																</eventsRec>
+															</clade>
+															<clade>
+																<name>71</name>
+																<eventsRec>
+																	<speciation speciesLocation="node_9"/>
+																</eventsRec>
+																	<clade>
+																	<name>loss</name>
+																	<eventsRec>
+																		<loss speciesLocation="node_32"/>
+																	</eventsRec>
+																</clade>
+																<clade>
+																	<name>71</name>
+																	<eventsRec>
+																		<speciation speciesLocation="node_10"/>
+																	</eventsRec>
+																		<clade>
+																		<name>loss</name>
+																		<eventsRec>
+																			<loss speciesLocation="node_11"/>
+																		</eventsRec>
+																	</clade>
+																	<clade>
+																		<name>71</name>
+																		<eventsRec>
+																			<speciation speciesLocation="node_24"/>
+																		</eventsRec>
+																			<clade>
+																			<name>loss</name>
+																			<eventsRec>
+																				<loss speciesLocation="node_30"/>
+																			</eventsRec>
+																		</clade>
+																		<clade>
+																			<name>71</name>
+																			<eventsRec>
+																				<speciation speciesLocation="node_25"/>
+																			</eventsRec>
+																				<clade>
+																				<name>loss</name>
+																				<eventsRec>
+																					<loss speciesLocation="MetazoaCephalochordataBranchiostomabelcheri"/>
+																				</eventsRec>
+																			</clade>
+																			<clade>
+																				<name>71</name>
+																				<eventsRec>
+																					<speciation speciesLocation="node_26"/>
+																				</eventsRec>
+																				<clade>
+																					<name>MetazoaUrochordataEP00059Cionaintestinalis_5338442__GNAQ_MIZYE_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+																					<eventsRec>
+																						<leaf speciesLocation="MetazoaUrochordataEP00059Cionaintestinalis"/>
+																					</eventsRec>
+																				</clade>
+																				<clade>
+																					<name>85</name>
+																					<eventsRec>
+																						<speciation speciesLocation="node_27"/>
+																					</eventsRec>
+																						<clade>
+																						<name>loss</name>
+																						<eventsRec>
+																							<loss speciesLocation="MetazoaVertebrateEptatretusburgeri"/>
+																						</eventsRec>
+																					</clade>
+																					<clade>
+																						<name>85</name>
+																						<eventsRec>
+																							<speciation speciesLocation="node_28"/>
+																						</eventsRec>
+																						<clade>
+																							<name>96</name>
+																							<eventsRec>
+																								<duplication speciesLocation="MetazoaVertebrateDaniorerio"/>
+																							</eventsRec>
+																							<clade>
+																								<name>93</name>
+																								<eventsRec>
+																									<duplication speciesLocation="MetazoaVertebrateDaniorerio"/>
+																								</eventsRec>
+																								<clade>
+																									<name>MetazoaVertebrateDaniorerio_5417661__GNA11_XENLA_Guanine_nucleotide-binding_protein_subunit_alpha-11_OS_</name>
+																									<eventsRec>
+																										<leaf speciesLocation="MetazoaVertebrateDaniorerio"/>
+																									</eventsRec>
+																								</clade>
+																								<clade>
+																									<name>72</name>
+																									<eventsRec>
+																										<duplication speciesLocation="MetazoaVertebrateDaniorerio"/>
+																									</eventsRec>
+																									<clade>
+																										<name>MetazoaVertebrateDaniorerio_5427800__GNA15_RAT_Guanine_nucleotide-binding_protein_subunit_alpha-15_OS_</name>
+																										<eventsRec>
+																											<leaf speciesLocation="MetazoaVertebrateDaniorerio"/>
+																										</eventsRec>
+																									</clade>
+																									<clade>
+																										<name>100</name>
+																										<eventsRec>
+																											<duplication speciesLocation="MetazoaVertebrateDaniorerio"/>
+																										</eventsRec>
+																										<clade>
+																											<name>MetazoaVertebrateDaniorerio_5430928__GNA14_XENLA_Guanine_nucleotide-binding_protein_subunit_alpha-14_OS_</name>
+																											<eventsRec>
+																												<leaf speciesLocation="MetazoaVertebrateDaniorerio"/>
+																											</eventsRec>
+																										</clade>
+																										<clade>
+																											<name>MetazoaVertebrateDaniorerio_5430929__GNAQ_MIZYE_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+																											<eventsRec>
+																												<leaf speciesLocation="MetazoaVertebrateDaniorerio"/>
+																											</eventsRec>
+																										</clade>
+																									</clade>
+																								</clade>
+																							</clade>
+																							<clade>
+																								<name>MetazoaVertebrateDaniorerio_5426240__GNAQ_RAT_Guanine_nucleotide-binding_protein_G_q__subunit_alpha_OS_</name>
+																								<eventsRec>
+																									<leaf speciesLocation="MetazoaVertebrateDaniorerio"/>
+																								</eventsRec>
+																							</clade>
+																						</clade>
+																						<clade>
+																							<name>100</name>
+																							<eventsRec>
+																								<speciation speciesLocation="node_29"/>
+																							</eventsRec>
+																							<clade>
+																								<name>MetazoaVertebrateHomosapiens_6455771__GNA15_HUMAN_Guanine_nucleotide-binding_protein_subunit_alpha-15_OS_</name>
+																								<eventsRec>
+																									<leaf speciesLocation="MetazoaVertebrateHomosapiens"/>
+																								</eventsRec>
+																							</clade>
+																							<clade>
+																								<name>MetazoaVertebrateMusmusculus_6533059__GNA15_MOUSE_Guanine_nucleotide-binding_protein_subunit_alpha-15_OS_</name>
+																								<eventsRec>
+																									<leaf speciesLocation="MetazoaVertebrateMusmusculus"/>
+																								</eventsRec>
+																							</clade>
+																						</clade>
+																					</clade>
+																				</clade>
+																			</clade>
+																		</clade>
+																	</clade>
+																</clade>
+															</clade>
+														</clade>
+													</clade>
+												</clade>
+											</clade>
+										</clade>
+									</clade>
+								</clade>
+							</clade>
+						</clade>
+					</clade>
+				</clade>
+			</clade>
+		</clade>
+	</clade>
+	<clade>
+		<name>HaptophytaEP00319Phaeocystisglobosa_14066940__GPA1_COCH4_Guanine_nucleotide-binding_protein_subunit_alpha_OS_</name>
+		<eventsRec>
+			<speciation speciesLocation="node_75"/>
+		</eventsRec>
+			<clade>
+			<name>loss</name>
+			<eventsRec>
+				<loss speciesLocation="node_80"/>
+			</eventsRec>
+		</clade>
+		<clade>
+			<name>HaptophytaEP00319Phaeocystisglobosa_14066940__GPA1_COCH4_Guanine_nucleotide-binding_protein_subunit_alpha_OS_</name>
+			<eventsRec>
+				<speciation speciesLocation="node_76"/>
+			</eventsRec>
+				<clade>
+				<name>loss</name>
+				<eventsRec>
+					<loss speciesLocation="node_77"/>
+				</eventsRec>
+			</clade>
+			<clade>
+				<name>HaptophytaEP00319Phaeocystisglobosa_14066940__GPA1_COCH4_Guanine_nucleotide-binding_protein_subunit_alpha_OS_</name>
+				<eventsRec>
+					<speciation speciesLocation="node_79"/>
+				</eventsRec>
+					<clade>
+					<name>loss</name>
+					<eventsRec>
+						<loss speciesLocation="CryptophyceaeGuillardiathetaUP000011087"/>
+					</eventsRec>
+				</clade>
+				<clade>
+					<name>HaptophytaEP00319Phaeocystisglobosa_14066940__GPA1_COCH4_Guanine_nucleotide-binding_protein_subunit_alpha_OS_</name>
+					<eventsRec>
+						<leaf speciesLocation="HaptophytaEP00319Phaeocystisglobosa"/>
+					</eventsRec>
+				</clade>
+			</clade>
+		</clade>
+	</clade>
+</clade>
+</phylogeny>
+</recGeneTree>
+</recPhylo>
