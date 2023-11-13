@@ -1,0 +1,1064 @@
+IQ-TREE multicore version 2.0.6 for Linux 64-bit built May 30 2020
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    node019 (AVX2, FMA3, 125 GB RAM)
+Command: iqtree2 -s CamkII.doublefiltered.fasta.annot.clean.mafft.trimal -m MFP -mset Blosum62,cpREV,Dayhoff,DCMut,FLU,HIVb,HIVw,JTT,JTTDCMut,LG,mtART,mtMAM,mtREV,mtZOA,mtMet,mtVer,mtInv,Poisson,PMB,rtREV,VT,WAG,GTR20 -mrate E,I,G,I+G,R -B 1000 --wbtl --bnni --alrt 1000 --abayes -T AUTO --prefix CamkII.doublefiltered.fasta.annot.clean.mafft.trimal.UFB
+Seed:    573671 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Wed Aug 16 16:32:05 2023
+Kernel:  AVX+FMA - auto-detect threads (10 CPU cores detected)
+
+Reading alignment file CamkII.doublefiltered.fasta.annot.clean.mafft.trimal ... Fasta format detected
+Alignment most likely contains protein sequences
+Alignment has 206 sequences with 491 columns, 491 distinct patterns
+480 parsimony-informative, 7 singleton sites, 3 constant sites
+                                                                                                                                                  Gap/Ambiguity  Composition  p-value
+   1  AlveolataEP00742ColponemidiaspColp10_4273953__MYLKA_DICDI_Myosin_light_chain_kinase_A_OS_                                                          44.81%    passed     70.43%
+   2  AlveolataEP00742ColponemidiaspColp10_4274450__KCC2D_CAEBR_Calcium/calmodulin-dependent_protein_kinase_type_II_OS_                                   7.94%    passed      5.90%
+   3  AlveolataEP00742ColponemidiaspColp10_4274895__KCC2A_DROME_Calcium/calmodulin-dependent_protein_kinase_type_II_alpha_chain_OS_                      14.87%    passed      7.97%
+   4  AlveolataEP00742ColponemidiaspColp10_4290705__KCC2D_CHICK_Calcium/calmodulin-dependent_protein_kinase_type_II_delta_chain_OS_                      43.99%    passed     70.52%
+   5  AmoebozoaEP00007CuneaspBSH02190019_4981825__CMK1_CAEEL_Calcium/calmodulin-dependent_protein_kinase_type_1_OS_                                      32.38%    passed     38.30%
+   6  AmoebozoaEP00029Vermamoebavermiformis_5285433__PXI_DICDI_Probable_serine/threonine-protein_kinase_pXi_OS_                                          12.63%    failed      0.79%
+   7  ChoanoflagellataEP00035Acanthoecaspectabilis_10722876__KCC2D_CHICK_Calcium/calmodulin-dependent_protein_kinase_type_II_delta_chain_OS_              8.76%    passed      5.11%
+   8  ChoanoflagellataEP00037Helgoecanana_10784204__KCC2A_PONAB_Calcium/calmodulin-dependent_protein_kinase_type_II_subunit_alpha_OS_                     7.74%    failed      0.44%
+   9  ChoanoflagellataEP00039Didymoecacostata_10854524__KCC2B_RAT_Calcium/calmodulin-dependent_protein_kinase_type_II_subunit_beta_OS_                   13.85%    passed     14.36%
+  10  ChoanoflagellataEP00039Didymoecacostata_10860032__KCC2A_DROME_Calcium/calmodulin-dependent_protein_kinase_type_II_alpha_chain_OS_                  19.96%    passed     79.69%
+  11  ChoanoflagellataEP00040Diaphanoecagrandis_10905479__KCC2A_DROME_Calcium/calmodulin-dependent_protein_kinase_type_II_alpha_chain_OS_                39.92%    passed     32.49%
+  12  ChoanoflagellataEP00040Diaphanoecagrandis_10906656__KCC2D_BOVIN_Calcium/calmodulin-dependent_protein_kinase_type_II_subunit_delta_OS_               9.98%    passed     75.02%
+  13  ChoanoflagellataEP00045Choanoecaperplexa_11080803__KCC2D_BOVIN_Calcium/calmodulin-dependent_protein_kinase_type_II_subunit_delta_OS_                5.30%    passed     94.18%
+  14  ChoanoflagellataEP00047Mylnosigafluctuans_11114664__KCC2D_RABIT_Calcium/calmodulin-dependent_protein_kinase_type_II_subunit_delta_OS_               4.68%    passed     88.60%
+  15  ChoanoflagellataEP00047Mylnosigafluctuans_11124762__KCC2G_MOUSE_Calcium/calmodulin-dependent_protein_kinase_type_II_subunit_gamma_OS_              14.05%    failed      2.14%
+  16  ChoanoflagellataEP00050Salpingoecakvevrii_11191220__KC2D1_DANRE_Calcium/calmodulin-dependent_protein_kinase_type_II_delta_1_chain_OS_              82.48%    passed     69.21%
+  17  ChoanoflagellataEP00050Salpingoecakvevrii_11191221__KCC2D_BOVIN_Calcium/calmodulin-dependent_protein_kinase_type_II_subunit_delta_OS_              12.02%    passed      5.57%
+  18  ChoanoflagellataEP00050Salpingoecakvevrii_11198269__KCC2D_CAEBR_Calcium/calmodulin-dependent_protein_kinase_type_II_OS_                            30.75%    passed     55.94%
+  19  ChoanoflagellateaMonosigabrevicollisUP000001357_11430306__KCC2A_MOUSE_Calcium/calmodulin-dependent_protein_kinase_type_II_subunit_alpha_OS_         5.50%    passed     72.28%
+  20  CryptophyceaeGuillardiathetaUP000011087_12268997__CAMKI_MACNP_Calcium/calmodulin-dependent_protein_kinase_type_1_OS_                               46.03%    passed     86.67%
+  21  EuglenozoaEP00668Euglenalonga_12397295__MYLKA_DICDI_Myosin_light_chain_kinase_A_OS_                                                                15.89%    passed     39.87%
+  22  EuglenozoaEP00668Euglenalonga_12402384__KCC2D_CAEBR_Calcium/calmodulin-dependent_protein_kinase_type_II_OS_                                        31.16%    passed     81.92%
+  23  EuglenozoaEP00668Euglenalonga_12406809__MYLKB_DICDI_Probable_myosin_light_chain_kinase_DDB_G0271550_OS_                                            15.48%    passed     74.91%
+  24  FilastreaCapsasporaowczarzakiUP000008743_12977943__KCC2A_DROME_Calcium/calmodulin-dependent_protein_kinase_type_II_alpha_chain_OS_                  4.48%    passed     86.93%
+  25  FilastreaCapsasporaowczarzakiUP000008743_12982189__KCC2D_CHICK_Calcium/calmodulin-dependent_protein_kinase_type_II_delta_chain_OS_                 18.33%    failed      2.14%
+  26  FungiMortierellaelongataUP000078512_13376018__KCC2B_MOUSE_Calcium/calmodulin-dependent_protein_kinase_type_II_subunit_beta_OS_                     71.49%    passed     25.71%
+  27  FungiRhizopusmicrosporusUP000242254_13429559__SRK1_SCHPO_Serine/threonine-protein_kinase_srk1_OS_                                                  27.29%    passed     62.62%
+  28  FungiRhizopusmicrosporusUP000242254_13431239__SRK1_SCHPO_Serine/threonine-protein_kinase_srk1_OS_                                                  22.20%    passed     16.71%
+  29  FungiRhizopusmicrosporusUP000242254_13433276__SRK1_SCHPO_Serine/threonine-protein_kinase_srk1_OS_                                                  27.70%    passed     99.52%
+  30  IchthyosporeaEP00123Amoebidiumparasiticum_14555596__KCC1D_MOUSE_Calcium/calmodulin-dependent_protein_kinase_type_1D_OS_                            50.10%    passed     55.86%
+  31  IchthyosporeaEP00126Sphaerothecumdestruens_14604665__CAMKI_MACNP_Calcium/calmodulin-dependent_protein_kinase_type_1_OS_                            16.90%    failed      0.77%
+  32  MetazoaAnnelidaEP00103Capitellateleta_76225__KCC2D_PIG_Calcium/calmodulin-dependent_protein_kinase_type_II_subunit_delta_OS_                        3.26%    passed    100.00%
+  33  MetazoaAnnelidaHelobdellarobusta_88551__KCC2D_PIG_Calcium/calmodulin-dependent_protein_kinase_type_II_subunit_delta_OS_                             9.37%    passed     98.28%
+  34  MetazoaAnnelidaHelobdellarobusta_88563__KCC2D_CHICK_Calcium/calmodulin-dependent_protein_kinase_type_II_delta_chain_OS_                             4.07%    passed     99.79%
+  35  MetazoaArthropodaDaphniapulex_204291__KCC2A_DROME_Calcium/calmodulin-dependent_protein_kinase_type_II_alpha_chain_OS_                               2.85%    passed     94.46%
+  36  MetazoaArthropodaDrosophilamelanogaster_243928__KCC2A_DROME_Calcium/calmodulin-dependent_protein_kinase_type_II_alpha_chain_OS_                     2.44%    passed     83.88%
+  37  MetazoaArthropodaEP00090Calanusglacialis_706812__KCC2A_DROME_Calcium/calmodulin-dependent_protein_kinase_type_II_alpha_chain_OS_                    2.24%    passed     89.45%
+  38  MetazoaArthropodaStrigamiamaritima_1184787__CSKP_RAT_Peripheral_plasma_membrane_protein_CASK_OS_                                                   52.34%    passed     54.75%
+  39  MetazoaArthropodaStrigamiamaritima_1185434__KCC2A_DROME_Calcium/calmodulin-dependent_protein_kinase_type_II_alpha_chain_OS_                         2.65%    passed     99.96%
+  40  MetazoaBrachiopodaLingulaunguis_1278863__KCC2A_DROME_Calcium/calmodulin-dependent_protein_kinase_type_II_alpha_chain_OS_                           79.63%    passed     53.07%
+  41  MetazoaBrachiopodaLingulaunguis_1304798__KCC2A_DROME_Calcium/calmodulin-dependent_protein_kinase_type_II_alpha_chain_OS_                           25.25%    passed     95.26%
+  42  MetazoaBryozoaBugulaneritina_1400698__KCC2A_DROME_Calcium/calmodulin-dependent_protein_kinase_type_II_alpha_chain_OS_                              81.87%    passed     26.02%
+  43  MetazoaBryozoaBugulaneritina_2427886__CSKP_DROME_Peripheral_plasma_membrane_protein_CASK_OS_                                                       82.69%    passed     81.13%
+  44  MetazoaBryozoaBugulaneritina_2744163__KCC2G_HUMAN_Calcium/calmodulin-dependent_protein_kinase_type_II_subunit_gamma_OS_                            77.19%    passed     93.79%
+  45  MetazoaCephalochordataBranchiostomabelcheri_2822352__CSKP_RAT_Peripheral_plasma_membrane_protein_CASK_OS_                                          23.63%    passed     43.41%
+  46  MetazoaCephalochordataBranchiostomabelcheri_2822353__CSKP_HUMAN_Peripheral_plasma_membrane_protein_CASK_OS_                                        23.42%    passed     41.69%
+  47  MetazoaCephalochordataBranchiostomabelcheri_2824986__KCC2D_BOVIN_Calcium/calmodulin-dependent_protein_kinase_type_II_subunit_delta_OS_              3.87%    passed     97.87%
+  48  MetazoaCephalochordataBranchiostomabelcheri_2824987__KCC2D_BOVIN_Calcium/calmodulin-dependent_protein_kinase_type_II_subunit_delta_OS_              4.07%    passed     98.21%
+  49  MetazoaCnidariaAcroporadigitifera_2930836__CSKP_RAT_Peripheral_plasma_membrane_protein_CASK_OS_                                                    54.18%    passed     36.50%
+  50  MetazoaCnidariaAcroporadigitifera_2931142__KCC2D_BOVIN_Calcium/calmodulin-dependent_protein_kinase_type_II_subunit_delta_OS_                        3.46%    passed     98.63%
+  51  MetazoaCnidariaAcroporadigitifera_2935645__KCC2A_DROME_Calcium/calmodulin-dependent_protein_kinase_type_II_alpha_chain_OS_                         50.71%    passed     82.52%
+  52  MetazoaCnidariaAcroporadigitifera_2939520__KCC2A_PONAB_Calcium/calmodulin-dependent_protein_kinase_type_II_subunit_alpha_OS_                       32.59%    passed     78.68%
+  53  MetazoaCnidariaAcroporadigitifera_2940531__KCC2D_PIG_Calcium/calmodulin-dependent_protein_kinase_type_II_subunit_delta_OS_                         22.20%    passed     90.24%
+  54  MetazoaCnidariaAcroporadigitifera_2943695__CSKP_RAT_Peripheral_plasma_membrane_protein_CASK_OS_                                                    58.66%    failed      1.82%
+  55  MetazoaCnidariaAcroporatenuis_2979137__KCC2D_RAT_Calcium/calmodulin-dependent_protein_kinase_type_II_subunit_delta_OS_                             75.56%    passed     77.39%
+  56  MetazoaCnidariaAcroporatenuis_2985209__CDPK2_PLAFK_Calcium-dependent_protein_kinase_2_OS_                                                          67.01%    passed     89.09%
+  57  MetazoaCnidariaAcroporatenuis_2986607__KCC2A_DROME_Calcium/calmodulin-dependent_protein_kinase_type_II_alpha_chain_OS_                             74.34%    passed     31.66%
+  58  MetazoaCnidariaAcroporatenuis_2989935__KCC2D_BOVIN_Calcium/calmodulin-dependent_protein_kinase_type_II_subunit_delta_OS_                           72.71%    passed     80.90%
+  59  MetazoaCnidariaAnthopleuraelegantissima_2998020__KCC2A_MOUSE_Calcium/calmodulin-dependent_protein_kinase_type_II_subunit_alpha_OS_                 70.26%    passed     16.14%
+  60  MetazoaCnidariaAnthopleuraelegantissima_3008944__KCC2D_PIG_Calcium/calmodulin-dependent_protein_kinase_type_II_subunit_delta_OS_                    5.91%    passed     98.72%
+  61  MetazoaCnidariaAnthopleuraelegantissima_3018489__KCC2A_DROME_Calcium/calmodulin-dependent_protein_kinase_type_II_alpha_chain_OS_                    2.24%    passed     97.41%
+  62  MetazoaCnidariaAnthopleuraelegantissima_3018490__KCC2A_DROME_Calcium/calmodulin-dependent_protein_kinase_type_II_alpha_chain_OS_                    2.04%    passed     96.48%
+  63  MetazoaCnidariaAstreoporasp_3030507__KCC2A_DROME_Calcium/calmodulin-dependent_protein_kinase_type_II_alpha_chain_OS_                                3.67%    passed     97.82%
+  64  MetazoaCnidariaAstreoporasp_3034129__KCC2A_DROME_Calcium/calmodulin-dependent_protein_kinase_type_II_alpha_chain_OS_                               78.82%    passed     66.53%
+  65  MetazoaCnidariaAstreoporasp_3036177__KCC1D_MOUSE_Calcium/calmodulin-dependent_protein_kinase_type_1D_OS_                                           35.23%    passed     54.19%
+  66  MetazoaCnidariaAstreoporasp_3037859__KCC2D_BOVIN_Calcium/calmodulin-dependent_protein_kinase_type_II_subunit_delta_OS_                              1.83%    passed     94.39%
+  67  MetazoaCnidariaAstreoporasp_3040014__KCC2A_DROME_Calcium/calmodulin-dependent_protein_kinase_type_II_alpha_chain_OS_                               30.75%    passed     99.98%
+  68  MetazoaCnidariaAstreoporasp_3042092__CMK1_CAEEL_Calcium/calmodulin-dependent_protein_kinase_type_1_OS_                                             42.57%    passed     19.29%
+  69  MetazoaCnidariaAureliaGenome_3054287__KCC2D_RABIT_Calcium/calmodulin-dependent_protein_kinase_type_II_subunit_delta_OS_                             3.05%    passed     99.94%
+  70  MetazoaCnidariaClytiahemisphaerica_3079382__KCC2G_MOUSE_Calcium/calmodulin-dependent_protein_kinase_type_II_subunit_gamma_OS_                       2.85%    passed     99.99%
+  71  MetazoaCnidariaClytiahemisphaerica_3083171__MYLKB_DICDI_Probable_myosin_light_chain_kinase_DDB_G0271550_OS_                                        29.33%    passed     52.27%
+  72  MetazoaCnidariaFungiascutaria_3181942__KCC2A_DROME_Calcium/calmodulin-dependent_protein_kinase_type_II_alpha_chain_OS_                             20.77%    passed     83.58%
+  73  MetazoaCnidariaFungiascutaria_3184599__KCC2D_CAEBR_Calcium/calmodulin-dependent_protein_kinase_type_II_OS_                                         81.67%    passed     89.47%
+  74  MetazoaCnidariaFungiascutaria_3194348__KCC2A_DROME_Calcium/calmodulin-dependent_protein_kinase_type_II_alpha_chain_OS_                             36.46%    passed     92.02%
+  75  MetazoaCnidariaFungiascutaria_3195124__KCC2D_BOVIN_Calcium/calmodulin-dependent_protein_kinase_type_II_subunit_delta_OS_                            1.83%    passed     89.32%
+  76  MetazoaCnidariaFungiascutaria_3200976__KCC2D_BOVIN_Calcium/calmodulin-dependent_protein_kinase_type_II_subunit_delta_OS_                           41.96%    passed     99.60%
+  77  MetazoaCnidariaFungiascutaria_3202955__KCC2D_RABIT_Calcium/calmodulin-dependent_protein_kinase_type_II_subunit_delta_OS_                           21.79%    passed     64.01%
+  78  MetazoaCnidariaFungiascutaria_3204645__CHK2_HUMAN_Serine/threonine-protein_kinase_Chk2_OS_                                                         78.62%    passed      6.98%
+  79  MetazoaCnidariaGorgoniaventalina_3212159__KCC2D_CHICK_Calcium/calmodulin-dependent_protein_kinase_type_II_delta_chain_OS_                          36.25%    passed     62.69%
+  80  MetazoaCnidariaGorgoniaventalina_3222862__KC2D1_DANRE_Calcium/calmodulin-dependent_protein_kinase_type_II_delta_1_chain_OS_                        42.97%    passed     72.37%
+  81  MetazoaCnidariaGorgoniaventalina_3233488__KCC2A_DROME_Calcium/calmodulin-dependent_protein_kinase_type_II_alpha_chain_OS_                          38.90%    passed     97.57%
+  82  MetazoaCnidariaHydramagnapapillata_3265186__KCC2A_PONAB_Calcium/calmodulin-dependent_protein_kinase_type_II_subunit_alpha_OS_                      11.00%    passed     50.01%
+  83  MetazoaCnidariaHydramagnapapillata_3265187__KCC2D_XENLA_Calcium/calmodulin-dependent_protein_kinase_type_II_delta_chain_OS_                        56.21%    passed     15.47%
+  84  MetazoaCnidariaMadracisauretenra_3272328__CAMKI_MACNP_Calcium/calmodulin-dependent_protein_kinase_type_1_OS_                                       33.40%    passed     79.69%
+  85  MetazoaCnidariaMadracisauretenra_3277309__KCC2D_CAEBR_Calcium/calmodulin-dependent_protein_kinase_type_II_OS_                                      81.67%    passed     59.44%
+  86  MetazoaCnidariaMadracisauretenra_3282086__CSKP_RAT_Peripheral_plasma_membrane_protein_CASK_OS_                                                     42.77%    passed     75.35%
+  87  MetazoaCnidariaMadracisauretenra_3288824__KCC2A_DROME_Calcium/calmodulin-dependent_protein_kinase_type_II_alpha_chain_OS_                          16.90%    passed     99.97%
+  88  MetazoaCnidariaMadracisauretenra_3290359__KC2D2_DANRE_Calcium/calmodulin-dependent_protein_kinase_type_II_delta_2_chain_OS_                        71.89%    passed     11.60%
+  89  MetazoaCnidariaMadracisauretenra_3290360__KCC2D_BOVIN_Calcium/calmodulin-dependent_protein_kinase_type_II_subunit_delta_OS_                        35.44%    passed     98.83%
+  90  MetazoaCnidariaMadracisauretenra_3294958__KCC2A_DROME_Calcium/calmodulin-dependent_protein_kinase_type_II_alpha_chain_OS_                          75.56%    passed     60.64%
+  91  MetazoaCnidariaMontastraeacavernosa_3325722__IPL1_CANGA_Spindle_assembly_checkpoint_kinase_OS_                                                     68.64%    failed      0.66%
+  92  MetazoaCnidariaMontastraeacavernosa_3326188__KCC2D_BOVIN_Calcium/calmodulin-dependent_protein_kinase_type_II_subunit_delta_OS_                     34.83%    passed     59.72%
+  93  MetazoaCnidariaMontastraeacavernosa_3326337__KCC2A_DROME_Calcium/calmodulin-dependent_protein_kinase_type_II_alpha_chain_OS_                       69.45%    passed     89.86%
+  94  MetazoaCnidariaMontastraeacavernosa_3333967__KCC2A_DROME_Calcium/calmodulin-dependent_protein_kinase_type_II_alpha_chain_OS_                       42.16%    passed     44.02%
+  95  MetazoaCnidariaMontastraeacavernosa_3334431__KCC2D_BOVIN_Calcium/calmodulin-dependent_protein_kinase_type_II_subunit_delta_OS_                      2.04%    passed     65.10%
+  96  MetazoaCnidariaMontastraeacavernosa_3352063__KCC2A_DROME_Calcium/calmodulin-dependent_protein_kinase_type_II_alpha_chain_OS_                        3.67%    passed     99.92%
+  97  MetazoaCnidariaMontastraeacavernosa_3352429__KCC2G_RAT_Calcium/calmodulin-dependent_protein_kinase_type_II_subunit_gamma_OS_                       81.26%    passed     49.84%
+  98  MetazoaCnidariaNematostellavectensis_3373483__KCC2A_DROME_Calcium/calmodulin-dependent_protein_kinase_type_II_alpha_chain_OS_                       3.67%    passed     98.74%
+  99  MetazoaCnidariaNematostellavectensis_3382137__KCC2A_DROME_Calcium/calmodulin-dependent_protein_kinase_type_II_alpha_chain_OS_                      46.64%    passed     94.01%
+ 100  MetazoaCnidariaNematostellavectensis_3385206__KCC2G_RAT_Calcium/calmodulin-dependent_protein_kinase_type_II_subunit_gamma_OS_                      33.81%    passed     41.47%
+ 101  MetazoaCnidariaNematostellavectensis_3390248__KCC2D_CHICK_Calcium/calmodulin-dependent_protein_kinase_type_II_delta_chain_OS_                      39.71%    passed     62.80%
+ 102  MetazoaCnidariaNematostellavectensis_3392711__KCC2D_XENLA_Calcium/calmodulin-dependent_protein_kinase_type_II_delta_chain_OS_                       4.07%    passed     95.78%
+ 103  MetazoaCnidariaNematostellavectensis_3396305__KCC2D_XENLA_Calcium/calmodulin-dependent_protein_kinase_type_II_delta_chain_OS_                      88.80%    failed      2.51%
+ 104  MetazoaCnidariaPoritesaustraliensis_3536240__KCC2A_DROME_Calcium/calmodulin-dependent_protein_kinase_type_II_alpha_chain_OS_                       37.27%    passed     98.55%
+ 105  MetazoaCnidariaPoritesaustraliensis_3537045__KCC2D_BOVIN_Calcium/calmodulin-dependent_protein_kinase_type_II_subunit_delta_OS_                      1.83%    passed     93.87%
+ 106  MetazoaCnidariaPoritesaustraliensis_3542928__KCC2D_CHICK_Calcium/calmodulin-dependent_protein_kinase_type_II_delta_chain_OS_                       22.00%    passed     70.33%
+ 107  MetazoaCnidariaPoritesaustraliensis_3543803__KCC2A_DROME_Calcium/calmodulin-dependent_protein_kinase_type_II_alpha_chain_OS_                       42.57%    passed     16.97%
+ 108  MetazoaCnidariaPoritesaustraliensis_3547191__KCC2A_MOUSE_Calcium/calmodulin-dependent_protein_kinase_type_II_subunit_alpha_OS_                     32.59%    passed     73.28%
+ 109  MetazoaCnidariaPoritesaustraliensis_3550904__KCC2D_CHICK_Calcium/calmodulin-dependent_protein_kinase_type_II_delta_chain_OS_                       34.22%    passed     90.02%
+ 110  MetazoaCnidariaStylophorapistillata_3670731__KCC2D_RABIT_Calcium/calmodulin-dependent_protein_kinase_type_II_subunit_delta_OS_                     42.16%    passed     45.65%
+ 111  MetazoaCnidariaStylophorapistillata_3678104__KCC2A_DROME_Calcium/calmodulin-dependent_protein_kinase_type_II_alpha_chain_OS_                       10.79%    passed     77.32%
+ 112  MetazoaCnidariaStylophorapistillata_3678946__CAMKI_MACNP_Calcium/calmodulin-dependent_protein_kinase_type_1_OS_                                    33.40%    passed     22.44%
+ 113  MetazoaCnidariaStylophorapistillata_3682353__KCC2A_DROME_Calcium/calmodulin-dependent_protein_kinase_type_II_alpha_chain_OS_                       36.46%    passed     95.64%
+ 114  MetazoaCnidariaStylophorapistillata_3682512__KCC2A_DROME_Calcium/calmodulin-dependent_protein_kinase_type_II_alpha_chain_OS_                        3.67%    passed     99.83%
+ 115  MetazoaCnidariaStylophorapistillata_3682658__KCC2D_CHICK_Calcium/calmodulin-dependent_protein_kinase_type_II_delta_chain_OS_                       21.59%    passed     46.47%
+ 116  MetazoaCtenophoraMnemiopsisleidyi_3735536__KCC2A_PONAB_Calcium/calmodulin-dependent_protein_kinase_type_II_subunit_alpha_OS_                        5.91%    passed     93.47%
+ 117  MetazoaCtenophoraPleurobrachiabachei_3762502__KCC2A_DROME_Calcium/calmodulin-dependent_protein_kinase_type_II_alpha_chain_OS_                      55.19%    passed     45.30%
+ 118  MetazoaCtenophoraPleurobrachiabachei_3768886__KCC2D_CAEBR_Calcium/calmodulin-dependent_protein_kinase_type_II_OS_                                  80.65%    failed      1.92%
+ 119  MetazoaEchinodermataAcanthasterplanci_3799331__KCC2A_DROME_Calcium/calmodulin-dependent_protein_kinase_type_II_alpha_chain_OS_                     34.01%    passed    100.00%
+ 120  MetazoaEchinodermataAcanthasterplanci_3800245__CSKP_MOUSE_Peripheral_plasma_membrane_protein_CASK_OS_                                              25.66%    passed     81.19%
+ 121  MetazoaEchinodermataEP00057Strongylocentrotuspurpuratus_3810566__KCC2A_DROME_Calcium/calmodulin-dependent_protein_kinase_type_II_alpha_chain_OS_   12.22%    passed     99.76%
+ 122  MetazoaEchinodermataEP00057Strongylocentrotuspurpuratus_3829447__CSKP_RAT_Peripheral_plasma_membrane_protein_CASK_OS_                              26.07%    passed     28.99%
+ 123  MetazoaHemichordataSaccoglossuskowalevskii_4052956__KCC2A_DROME_Calcium/calmodulin-dependent_protein_kinase_type_II_alpha_chain_OS_                81.06%    passed     96.31%
+ 124  MetazoaHemichordataSaccoglossuskowalevskii_4052994__KCC2D_CHICK_Calcium/calmodulin-dependent_protein_kinase_type_II_delta_chain_OS_                23.01%    failed      0.00%
+ 125  MetazoaMolluscaEP00106Octopusbimaculoides_4160421__CSKP_RAT_Peripheral_plasma_membrane_protein_CASK_OS_                                            20.16%    passed     49.75%
+ 126  MetazoaMolluscaEP00106Octopusbimaculoides_4160422__CSKP_RAT_Peripheral_plasma_membrane_protein_CASK_OS_                                            20.57%    passed     50.99%
+ 127  MetazoaMolluscaEP00106Octopusbimaculoides_4160423__CSKP_RAT_Peripheral_plasma_membrane_protein_CASK_OS_                                            19.96%    passed     64.89%
+ 128  MetazoaMolluscaEP00106Octopusbimaculoides_4160425__CSKP_RAT_Peripheral_plasma_membrane_protein_CASK_OS_                                            21.59%    passed     42.54%
+ 129  MetazoaMolluscaEP00106Octopusbimaculoides_4160426__CSKP_RAT_Peripheral_plasma_membrane_protein_CASK_OS_                                            22.00%    passed     44.17%
+ 130  MetazoaMolluscaEP00106Octopusbimaculoides_4163853__KCC2A_DROME_Calcium/calmodulin-dependent_protein_kinase_type_II_alpha_chain_OS_                 36.86%    passed     94.28%
+ 131  MetazoaMolluscaEP00106Octopusbimaculoides_4173973__KCC2D_BOVIN_Calcium/calmodulin-dependent_protein_kinase_type_II_subunit_delta_OS_               69.45%    passed     75.02%
+ 132  MetazoaMolluscaLottiagigantea_4208876__KCC2D_PIG_Calcium/calmodulin-dependent_protein_kinase_type_II_subunit_delta_OS_                              4.07%    passed     99.90%
+ 133  MetazoaMolluscaLottiagigantea_4222572__CSKP_RAT_Peripheral_plasma_membrane_protein_CASK_OS_                                                        39.10%    passed     98.42%
+ 134  MetazoaNematodaCaenorhabditiselegans_4311889__KCC2D_CAEEL_Calcium/calmodulin-dependent_protein_kinase_type_II_OS_                                   2.65%    passed     98.35%
+ 135  MetazoaNematodaLoaloa_4415070__KCC2D_CAEEL_Calcium/calmodulin-dependent_protein_kinase_type_II_OS_                                                 37.88%    passed     92.55%
+ 136  MetazoaNematodaPristionchuspacificus_4427974__KCC2D_CAEBR_Calcium/calmodulin-dependent_protein_kinase_type_II_OS_                                  30.75%    passed     61.92%
+ 137  MetazoaPlacozoaEP00114TrichoplaxspH2_4507736__KCC2A_DROME_Calcium/calmodulin-dependent_protein_kinase_type_II_alpha_chain_OS_                      40.53%    passed      5.13%
+ 138  MetazoaPlacozoaEP00114TrichoplaxspH2_4515635__KCC2D_BOVIN_Calcium/calmodulin-dependent_protein_kinase_type_II_subunit_delta_OS_                     3.26%    passed     66.56%
+ 139  MetazoaPlacozoaHoilungiahongkongensis_4534603__CSKP_RAT_Peripheral_plasma_membrane_protein_CASK_OS_                                                39.31%    passed     27.94%
+ 140  MetazoaPlacozoaHoilungiahongkongensis_4540487__KCC2A_DROME_Calcium/calmodulin-dependent_protein_kinase_type_II_alpha_chain_OS_                     53.36%    passed     12.61%
+ 141  MetazoaPlacozoaHoilungiahongkongensis_4540489__KCC2A_DROME_Calcium/calmodulin-dependent_protein_kinase_type_II_alpha_chain_OS_                     53.77%    passed      7.01%
+ 142  MetazoaPlacozoaHoilungiahongkongensis_4540490__KCC2A_DROME_Calcium/calmodulin-dependent_protein_kinase_type_II_alpha_chain_OS_                     40.53%    passed     13.34%
+ 143  MetazoaPlacozoaHoilungiahongkongensis_4540491__KCC2A_DROME_Calcium/calmodulin-dependent_protein_kinase_type_II_alpha_chain_OS_                     40.53%    passed     11.15%
+ 144  MetazoaPlacozoaHoilungiahongkongensis_4545356__KC2D1_DANRE_Calcium/calmodulin-dependent_protein_kinase_type_II_delta_1_chain_OS_                   74.75%    passed     75.04%
+ 145  MetazoaPlacozoaHoilungiahongkongensis_4545358__KCC2D_BOVIN_Calcium/calmodulin-dependent_protein_kinase_type_II_subunit_delta_OS_                   17.72%    passed     85.12%
+ 146  MetazoaPlacozoaHoilungiahongkongensis_4545359__KCC2A_DROME_Calcium/calmodulin-dependent_protein_kinase_type_II_alpha_chain_OS_                     75.76%    passed     53.64%
+ 147  MetazoaPoriferaAmphimedonqueenslandica_4697116__KCC2A_DROME_Calcium/calmodulin-dependent_protein_kinase_type_II_alpha_chain_OS_                     6.31%    passed     98.44%
+ 148  MetazoaPoriferaAmphimedonqueenslandica_4710481__KCC2D_CAEBR_Calcium/calmodulin-dependent_protein_kinase_type_II_OS_                                 4.07%    passed     89.65%
+ 149  MetazoaPoriferaEP00118Oscarellapearsei_4809792__KC2D1_DANRE_Calcium/calmodulin-dependent_protein_kinase_type_II_delta_1_chain_OS_                  22.20%    passed     53.04%
+ 150  MetazoaPoriferaEP00118Oscarellapearsei_4819960__KCC2A_DROME_Calcium/calmodulin-dependent_protein_kinase_type_II_alpha_chain_OS_                     3.87%    passed     97.64%
+ 151  MetazoaPoriferaEP00118Oscarellapearsei_4838457__KCC2G_MOUSE_Calcium/calmodulin-dependent_protein_kinase_type_II_subunit_gamma_OS_                  14.66%    passed     45.59%
+ 152  MetazoaPoriferaEphydatiamuelleri_4908250__KCC2A_DROME_Calcium/calmodulin-dependent_protein_kinase_type_II_alpha_chain_OS_                           5.50%    passed     96.44%
+ 153  MetazoaPoriferaEphydatiamuelleri_4912481__KCC2D_CAEBR_Calcium/calmodulin-dependent_protein_kinase_type_II_OS_                                       5.09%    passed     99.97%
+ 154  MetazoaPoriferaHaliclonatubifera_4954980__KCC2A_DROME_Calcium/calmodulin-dependent_protein_kinase_type_II_alpha_chain_OS_                           6.11%    passed     96.56%
+ 155  MetazoaPoriferaHaliclonatubifera_4967663__KCC2D_CAEBR_Calcium/calmodulin-dependent_protein_kinase_type_II_OS_                                       5.91%    passed     83.13%
+ 156  MetazoaPoriferaLeucosoleniacomplicata_4977725__KC2D2_DANRE_Calcium/calmodulin-dependent_protein_kinase_type_II_delta_2_chain_OS_                   75.76%    passed     60.10%
+ 157  MetazoaPoriferaLeucosoleniacomplicata_4978525__STK33_MOUSE_Serine/threonine-protein_kinase_33_OS_                                                  73.52%    failed      3.57%
+ 158  MetazoaPoriferaLeucosoleniacomplicata_4982055__KCC2G_MOUSE_Calcium/calmodulin-dependent_protein_kinase_type_II_subunit_gamma_OS_                   22.20%    passed     83.95%
+ 159  MetazoaPoriferaLeucosoleniacomplicata_4985698__MYLKB_DICDI_Probable_myosin_light_chain_kinase_DDB_G0271550_OS_                                     81.06%    passed     12.52%
+ 160  MetazoaPoriferaLeucosoleniacomplicata_4991511__KCC2D_RAT_Calcium/calmodulin-dependent_protein_kinase_type_II_subunit_delta_OS_                     71.28%    passed     46.85%
+ 161  MetazoaPoriferaLeucosoleniacomplicata_5011162__KCC2A_DROME_Calcium/calmodulin-dependent_protein_kinase_type_II_alpha_chain_OS_                      2.85%    passed     54.08%
+ 162  MetazoaPoriferaLeucosoleniacomplicata_5018281__KCC2A_DROME_Calcium/calmodulin-dependent_protein_kinase_type_II_alpha_chain_OS_                      4.28%    passed     77.65%
+ 163  MetazoaPoriferaLeucosoleniacomplicata_5019404__MYLKA_DICDI_Myosin_light_chain_kinase_A_OS_                                                         78.41%    passed     43.68%
+ 164  MetazoaPoriferaLeucosoleniacomplicata_5042682__KCC2D_BOVIN_Calcium/calmodulin-dependent_protein_kinase_type_II_subunit_delta_OS_                    7.33%    passed     70.24%
+ 165  MetazoaPoriferaLeucosoleniacomplicata_5044331__KCC2D_RAT_Calcium/calmodulin-dependent_protein_kinase_type_II_subunit_delta_OS_                     81.06%    passed      8.31%
+ 166  MetazoaPoriferaLeucosoleniacomplicata_5058143__KC2D2_DANRE_Calcium/calmodulin-dependent_protein_kinase_type_II_delta_2_chain_OS_                    7.94%    failed      2.01%
+ 167  MetazoaPoriferaLeucosoleniacomplicata_5060557__KCC2D_BOVIN_Calcium/calmodulin-dependent_protein_kinase_type_II_subunit_delta_OS_                   58.04%    passed     10.32%
+ 168  MetazoaPoriferaStylissacarteri_5080419__KCC2D_CHICK_Calcium/calmodulin-dependent_protein_kinase_type_II_delta_chain_OS_                            65.58%    passed     73.81%
+ 169  MetazoaPoriferaStylissacarteri_5080420__KCC2D_CAEEL_Calcium/calmodulin-dependent_protein_kinase_type_II_OS_                                        83.71%    passed     89.43%
+ 170  MetazoaPoriferaStylissacarteri_5089824__KCC2D_CAEBR_Calcium/calmodulin-dependent_protein_kinase_type_II_OS_                                        72.51%    passed     91.08%
+ 171  MetazoaPoriferaStylissacarteri_5090234__KCC2A_DROME_Calcium/calmodulin-dependent_protein_kinase_type_II_alpha_chain_OS_                            86.76%    passed     58.87%
+ 172  MetazoaPoriferaSyconciliatum_5113743__KCC2A_DROME_Calcium/calmodulin-dependent_protein_kinase_type_II_alpha_chain_OS_                               2.85%    passed     80.47%
+ 173  MetazoaPoriferaSyconciliatum_5115412__KCC2D_CAEBR_Calcium/calmodulin-dependent_protein_kinase_type_II_OS_                                           9.16%    passed     13.75%
+ 174  MetazoaPoriferaSyconciliatum_5118343__KCC2D_CAEBR_Calcium/calmodulin-dependent_protein_kinase_type_II_OS_                                           8.15%    passed     89.98%
+ 175  MetazoaPoriferaSyconciliatum_5143608__KCC2A_DROME_Calcium/calmodulin-dependent_protein_kinase_type_II_alpha_chain_OS_                               4.89%    passed     70.40%
+ 176  MetazoaTardigradaRamazzotiusvarieornatus_5286595__KCC2A_DROME_Calcium/calmodulin-dependent_protein_kinase_type_II_alpha_chain_OS_                   1.22%    passed     99.88%
+ 177  MetazoaUrochordataEP00059Cionaintestinalis_5334933__KCC2D_BOVIN_Calcium/calmodulin-dependent_protein_kinase_type_II_subunit_delta_OS_               3.46%    passed     99.80%
+ 178  MetazoaVertebrateDaniorerio_5413525__KCC2G_HUMAN_Calcium/calmodulin-dependent_protein_kinase_type_II_subunit_gamma_OS_                              1.83%    passed     99.96%
+ 179  MetazoaVertebrateDaniorerio_5414744__KCC2B_MOUSE_Calcium/calmodulin-dependent_protein_kinase_type_II_subunit_beta_OS_                              29.53%    passed     99.33%
+ 180  MetazoaVertebrateDaniorerio_5418922__KCC2B_HUMAN_Calcium/calmodulin-dependent_protein_kinase_type_II_subunit_beta_OS_                               2.04%    passed     97.86%
+ 181  MetazoaVertebrateDaniorerio_5422307__KCC2A_PONAB_Calcium/calmodulin-dependent_protein_kinase_type_II_subunit_alpha_OS_                              3.46%    passed     98.78%
+ 182  MetazoaVertebrateDaniorerio_5431600__KCC2G_HUMAN_Calcium/calmodulin-dependent_protein_kinase_type_II_subunit_gamma_OS_                              3.26%    passed     99.97%
+ 183  MetazoaVertebrateDaniorerio_5433036__KC2D1_DANRE_Calcium/calmodulin-dependent_protein_kinase_type_II_delta_1_chain_OS_                              3.67%    passed     99.47%
+ 184  MetazoaVertebrateDaniorerio_5433156__KC2D2_DANRE_Calcium/calmodulin-dependent_protein_kinase_type_II_delta_2_chain_OS_                              2.04%    passed     99.98%
+ 185  MetazoaVertebrateEptatretusburgeri_6389256__CSKP_HUMAN_Peripheral_plasma_membrane_protein_CASK_OS_                                                 15.27%    passed     31.22%
+ 186  MetazoaVertebrateEptatretusburgeri_6398316__KCC2G_HUMAN_Calcium/calmodulin-dependent_protein_kinase_type_II_subunit_gamma_OS_                      22.40%    passed     63.35%
+ 187  MetazoaVertebrateEptatretusburgeri_6398317__KC2D2_DANRE_Calcium/calmodulin-dependent_protein_kinase_type_II_delta_2_chain_OS_                      22.40%    passed     63.35%
+ 188  MetazoaVertebrateEptatretusburgeri_6404808__KCC2A_PONAB_Calcium/calmodulin-dependent_protein_kinase_type_II_subunit_alpha_OS_                      12.22%    passed     92.57%
+ 189  MetazoaVertebrateEptatretusburgeri_6404809__KC2D1_DANRE_Calcium/calmodulin-dependent_protein_kinase_type_II_delta_1_chain_OS_                       3.26%    passed     95.93%
+ 190  MetazoaVertebrateEptatretusburgeri_6404810__KCC2A_PONAB_Calcium/calmodulin-dependent_protein_kinase_type_II_subunit_alpha_OS_                       3.46%    passed     95.59%
+ 191  MetazoaVertebrateHomosapiens_6458416__KCC2B_HUMAN_Calcium/calmodulin-dependent_protein_kinase_type_II_subunit_beta_OS_                              1.83%    passed     98.17%
+ 192  MetazoaVertebrateHomosapiens_6458417__KCC2G_HUMAN_Calcium/calmodulin-dependent_protein_kinase_type_II_subunit_gamma_OS_                             2.24%    passed     99.52%
+ 193  MetazoaVertebrateHomosapiens_6458418__KCC2D_HUMAN_Calcium/calmodulin-dependent_protein_kinase_type_II_subunit_delta_OS_                             3.67%    passed     99.98%
+ 194  MetazoaVertebrateHomosapiens_6470240__KCC2A_PONAB_Calcium/calmodulin-dependent_protein_kinase_type_II_subunit_alpha_OS_                             3.46%    passed     99.68%
+ 195  MetazoaVertebrateMusmusculus_6532412__KCC2A_MOUSE_Calcium/calmodulin-dependent_protein_kinase_type_II_subunit_alpha_OS_                             3.46%    passed     99.67%
+ 196  MetazoaVertebrateMusmusculus_6532987__KCC2B_MOUSE_Calcium/calmodulin-dependent_protein_kinase_type_II_subunit_beta_OS_                              2.85%    passed     97.49%
+ 197  MetazoaVertebrateMusmusculus_6544641__KCC2G_MOUSE_Calcium/calmodulin-dependent_protein_kinase_type_II_subunit_gamma_OS_                             3.46%    passed     99.39%
+ 198  RhodelphisEP00736Rhodelphismarinus_22795970__MYLKB_DICDI_Probable_myosin_light_chain_kinase_DDB_G0271550_OS_                                       31.16%    passed     50.06%
+ 199  RotosphaeridaEP00160Parvulariaatlantis_23167535__SRK1_SCHPO_Serine/threonine-protein_kinase_srk1_OS_                                               28.11%    passed     32.83%
+ 200  StramenopilesPhytophthorainfestansUP000006643_26368398__MYLKB_DICDI_Probable_myosin_light_chain_kinase_DDB_G0271550_OS_                             7.74%    passed     19.24%
+ 201  StramenopilesPhytophthorainfestansUP000006643_26374698__CMK1_CAEEL_Calcium/calmodulin-dependent_protein_kinase_type_1_OS_                          35.85%    passed     42.60%
+ 202  StramenopilesPhytophthorainfestansUP000006643_26377748__MYLKA_DICDI_Myosin_light_chain_kinase_A_OS_                                                45.01%    passed     93.98%
+ 203  StramenopilesPhytophthorainfestansUP000006643_26379502__KCC2A_PONAB_Calcium/calmodulin-dependent_protein_kinase_type_II_subunit_alpha_OS_          29.33%    passed     10.84%
+ 204  StramenopilesPhytophthorainfestansUP000006643_26381754__KCC2D_CAEBR_Calcium/calmodulin-dependent_protein_kinase_type_II_OS_                        31.16%    passed     93.00%
+ 205  StramenopilesPhytophthorainfestansUP000006643_26381828__CAMKI_MACNP_Calcium/calmodulin-dependent_protein_kinase_type_1_OS_                         32.38%    passed     83.11%
+ 206  StramenopilesPhytophthorainfestansUP000006643_26384555__CMK1_CAEEL_Calcium/calmodulin-dependent_protein_kinase_type_1_OS_                          35.85%    passed     43.25%
+WARNING: 46 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                                                                                                                              30.24%  12 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: MetazoaVertebrateEptatretusburgeri_6398317__KC2D2_DANRE_Calcium/calmodulin-dependent_protein_kinase_type_II_delta_2_chain_OS_ is identical to MetazoaVertebrateEptatretusburgeri_6398316__KCC2G_HUMAN_Calcium/calmodulin-dependent_protein_kinase_type_II_subunit_gamma_OS_ but kept for subsequent analysis
+
+Creating fast initial parsimony tree by random order stepwise addition...
+0.376 seconds, parsimony score: 16246 (based on 487 sites)
+Measuring multi-threading efficiency up to 10 CPU cores
+Increase to 10 rounds for branch lengths
+6 trees examined
+Threads: 1 / Time: 11.431 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -105603
+Threads: 2 / Time: 6.080 sec / Speedup: 1.880 / Efficiency: 94% / LogL: -105603
+Threads: 3 / Time: 4.345 sec / Speedup: 2.631 / Efficiency: 88% / LogL: -105603
+Threads: 4 / Time: 3.490 sec / Speedup: 3.276 / Efficiency: 82% / LogL: -105603
+Threads: 5 / Time: 3.020 sec / Speedup: 3.784 / Efficiency: 76% / LogL: -105603
+Threads: 6 / Time: 2.693 sec / Speedup: 4.245 / Efficiency: 71% / LogL: -105603
+Threads: 7 / Time: 2.482 sec / Speedup: 4.605 / Efficiency: 66% / LogL: -105603
+Threads: 8 / Time: 2.315 sec / Speedup: 4.938 / Efficiency: 62% / LogL: -105603
+Threads: 9 / Time: 2.205 sec / Speedup: 5.184 / Efficiency: 58% / LogL: -105603
+Threads: 10 / Time: 2.124 sec / Speedup: 5.383 / Efficiency: 54% / LogL: -105603
+BEST NUMBER OF THREADS: 10
+
+Perform fast likelihood tree search using LG+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -74136.489
+2. Current log-likelihood: -74134.499
+Optimal log-likelihood: -74134.237
+Proportion of invariable sites: 0.008
+Gamma shape alpha: 0.942
+Parameters optimization took 2 rounds (0.254 sec)
+Time for fast ML tree search: 2.302 seconds
+
+NOTE: ModelFinder requires 164 MB RAM!
+ModelFinder will test up to 598 protein models (sample size: 491) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  Blosum62      78164.883    409 157147.767   161288.261   158864.113
+  2  Blosum62+I    78037.584    410 156895.169   161107.919   158615.711
+  3  Blosum62+G4   75132.605    410 151085.209   155297.959   152805.751
+  4  Blosum62+I+G4 75106.703    411 151035.406   155322.292   152760.145
+  5  Blosum62+R2   75809.019    411 152440.039   156726.925   154164.777
+  6  Blosum62+R3   75300.070    413 151426.139   155867.230   153159.271
+  7  Blosum62+R4   75085.054    415 151000.108   155603.841   152741.632
+  8  Blosum62+R5   74953.814    417 150741.627   155517.134   152491.544
+  9  Blosum62+R6   74929.110    419 150696.219   155653.402   152454.529
+ 10  Blosum62+R7   74905.614    421 150653.227   155802.850   152419.930
+ 11  Blosum62+R8   74904.510    423 150655.020   156008.811   152430.116
+ 14  Blosum62+F    78134.402    428 157124.805   163047.772   158920.883
+ 15  Blosum62+F+I  77998.032    429 156854.065   162902.262   158654.339
+ 16  Blosum62+F+G4 75118.797    429 151095.594   157143.791   152895.869
+ 17  Blosum62+F+I+G4 75098.499    430 151056.999   157234.665   152861.470
+ 18  Blosum62+F+R2 75852.955    430 152565.910   158743.576   154370.381
+ 19  Blosum62+F+R3 75308.825    432 151481.650   157931.857   153294.514
+ 20  Blosum62+F+R4 75078.743    434 151025.486   157767.986   152846.743
+ 21  Blosum62+F+R5 74947.223    436 150766.445   157823.186   152596.095
+ 22  Blosum62+F+R6 74913.905    438 150703.811   158099.272   152541.853
+ 23  Blosum62+F+R7 74890.191    440 150660.381   158421.981   152506.817
+ 24  Blosum62+F+R8 74888.123    442 150660.247   158818.830   152515.075
+ 27  cpREV         78295.896    409 157409.792   161550.286   159126.137
+ 28  cpREV+I       78180.411    410 157180.823   161393.573   158901.365
+ 29  cpREV+G4      75193.320    410 151206.641   155419.391   152927.183
+ 30  cpREV+I+G4    75179.376    411 151180.752   155467.638   152905.491
+ 31  cpREV+R2      76047.844    411 152917.689   157204.575   154642.427
+ 32  cpREV+R3      75381.639    413 151589.279   156030.370   153322.410
+ 33  cpREV+R4      75156.639    415 151143.278   155747.011   152884.802
+ 34  cpREV+R5      75020.703    417 150875.406   155650.913   152625.324
+ 35  cpREV+R6      74973.503    419 150785.006   155742.189   152543.316
+ 36  cpREV+R7      74942.606    421 150727.211   155876.835   152493.914
+ 37  cpREV+R8      74935.839    423 150717.679   156071.470   152492.775
+ 38  cpREV+R9      74930.011    425 150710.023   156280.792   152493.512
+ 40  cpREV+F       78204.425    428 157264.850   163187.818   159060.928
+ 41  cpREV+F+I     78068.767    429 156995.533   163043.730   158795.808
+ 42  cpREV+F+G4    75105.816    429 151069.633   157117.829   152869.907
+ 43  cpREV+F+I+G4  75084.510    430 151029.020   157206.687   152833.491
+ 44  cpREV+F+R2    76016.612    430 152893.223   159070.890   154697.694
+ 45  cpREV+F+R3    75283.102    432 151430.205   157880.412   153243.068
+ 46  cpREV+F+R4    75064.775    434 150997.550   157740.050   152818.807
+ 47  cpREV+F+R5    74908.701    436 150689.402   157746.142   152519.051
+ 48  cpREV+F+R6    74860.532    438 150597.064   157992.526   152435.107
+ 49  cpREV+F+R7    74840.645    440 150561.291   158322.891   152407.726
+ 50  cpREV+F+R8    74832.552    442 150549.104   158707.688   152403.933
+ 51  cpREV+F+R9    74827.413    444 150542.826   159133.261   152406.047
+ 53  Dayhoff       78615.311    409 158048.622   162189.116   159764.968
+ 54  Dayhoff+I     78469.873    410 157759.745   161972.495   159480.287
+ 55  Dayhoff+G4    75276.741    410 151373.482   155586.232   153094.024
+ 56  Dayhoff+I+G4  75257.664    411 151337.329   155624.215   153062.067
+ 57  Dayhoff+R2    76153.038    411 153128.075   157414.961   154852.814
+ 58  Dayhoff+R3    75508.323    413 151842.647   156283.737   153575.778
+ 59  Dayhoff+R4    75238.368    415 151306.735   155910.468   153048.259
+ 60  Dayhoff+R5    75111.561    417 151057.123   155832.630   152807.040
+ 61  Dayhoff+R6    75057.869    419 150953.737   155910.921   152712.048
+ 62  Dayhoff+R7    75032.448    421 150906.895   156056.519   152673.598
+ 63  Dayhoff+R8    75023.871    423 150893.741   156247.532   152668.837
+ 64  Dayhoff+R9    75023.899    425 150897.797   156468.567   152681.286
+ 66  Dayhoff+F     78423.532    428 157703.064   163626.032   159499.142
+ 67  Dayhoff+F+I   78287.105    429 157432.209   163480.406   159232.484
+ 68  Dayhoff+F+G4  75063.909    429 150985.817   157034.014   152786.092
+ 69  Dayhoff+F+I+G4 75051.039    430 150962.077   157139.744   152766.548
+ 70  Dayhoff+F+R2  75898.805    430 152657.609   158835.276   154462.080
+ 71  Dayhoff+F+R3  75302.274    432 151468.548   157918.755   153281.412
+ 72  Dayhoff+F+R4  75008.611    434 150885.222   157627.722   152706.478
+ 73  Dayhoff+F+R5  74889.215    436 150650.430   157707.170   152480.079
+ 74  Dayhoff+F+R6  74844.850    438 150565.700   157961.161   152403.742
+ 75  Dayhoff+F+R7  74815.987    440 150511.975   158273.575   152358.410
+ 76  Dayhoff+F+R8  74805.179    442 150494.358   158652.941   152349.186
+WARNING: Log-likelihood -74807.1 of Dayhoff+F+R9 worse than Dayhoff+F+R8 -74805.2
+ 77  Dayhoff+F+R9  74807.135    444 150502.270   159092.705   152365.491
+ 79  DCMut         78612.951    409 158043.902   162184.395   159760.247
+ 80  DCMut+I       78467.524    410 157755.048   161967.798   159475.590
+ 81  DCMut+G4      75279.450    410 151378.899   155591.649   153099.441
+ 82  DCMut+I+G4    75260.323    411 151342.647   155629.533   153067.385
+ 83  DCMut+R2      76153.582    411 153129.164   157416.050   154853.903
+ 84  DCMut+R3      75510.154    413 151846.308   156287.399   153579.440
+ 85  DCMut+R4      75241.028    415 151312.056   155915.789   153053.580
+ 86  DCMut+R5      75114.196    417 151062.392   155837.899   152812.309
+ 87  DCMut+R6      75060.448    419 150958.897   155916.080   152717.207
+ 88  DCMut+R7      75034.700    421 150911.401   156061.024   152678.104
+ 89  DCMut+R8      75024.453    423 150894.907   156248.698   152670.002
+WARNING: Log-likelihood -75026.8 of DCMut+R9 worse than DCMut+R8 -75024.5
+ 90  DCMut+R9      75026.840    425 150903.679   156474.449   152687.168
+ 92  DCMut+F       78420.316    428 157696.632   163619.599   159492.710
+ 93  DCMut+F+I     78283.932    429 157425.864   163474.061   159226.139
+ 94  DCMut+F+G4    75065.673    429 150989.345   157037.542   152789.620
+ 95  DCMut+F+I+G4  75052.810    430 150965.621   157143.287   152770.092
+ 96  DCMut+F+R2    75898.479    430 152656.957   158834.624   154461.428
+ 97  DCMut+F+R3    75302.879    432 151469.758   157919.965   153282.622
+ 98  DCMut+F+R4    75010.305    434 150888.610   157631.110   152709.866
+ 99  DCMut+F+R5    74890.940    436 150653.880   157710.621   152483.530
+100  DCMut+F+R6    74846.283    438 150568.567   157964.028   152406.609
+101  DCMut+F+R7    74817.373    440 150514.746   158276.346   152361.181
+102  DCMut+F+R8    74804.950    442 150493.899   158652.482   152348.727
+WARNING: Log-likelihood -74807 of DCMut+F+R9 worse than DCMut+F+R8 -74804.9
+103  DCMut+F+R9    74806.998    444 150501.997   159092.431   152365.218
+105  FLU           80537.962    409 161893.923   166034.417   163610.269
+106  FLU+I         80344.484    410 161508.968   165721.718   163229.510
+107  FLU+G4        76438.269    410 153696.538   157909.288   155417.081
+108  FLU+I+G4      76405.884    411 153633.768   157920.654   155358.506
+109  FLU+R2        77459.451    411 155740.902   160027.788   157465.640
+110  FLU+R3        76711.554    413 154249.107   158690.198   155982.239
+111  FLU+R4        76387.737    415 153605.474   158209.208   155346.999
+112  FLU+R5        76204.417    417 153242.833   158018.340   154992.751
+113  FLU+R6        76145.773    419 153129.545   158086.728   154887.855
+114  FLU+R7        76121.782    421 153085.564   158235.188   154852.267
+115  FLU+R8        76105.059    423 153056.118   158409.909   154831.214
+WARNING: Log-likelihood -76121.2 of FLU+R9 worse than FLU+R8 -76105.1
+116  FLU+R9        76121.209    425 153092.418   158663.187   154875.906
+118  FLU+F         80267.269    428 161390.539   167313.507   163186.617
+119  FLU+F+I       80051.398    429 160960.795   167008.992   162761.070
+120  FLU+F+G4      76122.076    429 153102.152   159150.348   154902.426
+121  FLU+F+I+G4    76088.326    430 153036.652   159214.319   154841.123
+122  FLU+F+R2      77128.601    430 155117.202   161294.869   156921.673
+123  FLU+F+R3      76393.254    432 153650.507   160100.714   155463.371
+124  FLU+F+R4      76076.846    434 153021.693   159764.193   154842.950
+125  FLU+F+R5      75916.372    436 152704.745   159761.485   154534.394
+126  FLU+F+R6      75850.292    438 152576.584   159972.045   154414.626
+127  FLU+F+R7      75826.909    440 152533.819   160295.419   154380.254
+128  FLU+F+R8      75807.233    442 152498.466   160657.050   154353.295
+WARNING: Log-likelihood -75816.6 of FLU+F+R9 worse than FLU+F+R8 -75807.2
+129  FLU+F+R9      75816.622    444 152521.244   161111.679   154384.465
+131  HIVb          80808.514    409 162435.028   166575.522   164151.374
+132  HIVb+I        80601.350    410 162022.699   166235.449   163743.241
+133  HIVb+G4       76748.003    410 154316.006   158528.756   156036.548
+134  HIVb+I+G4     76719.531    411 154261.061   158547.947   155985.800
+135  HIVb+R2       77782.733    411 156387.466   160674.352   158112.204
+136  HIVb+R3       76991.371    413 154808.742   159249.833   156541.873
+137  HIVb+R4       76710.310    415 154250.620   158854.353   155992.144
+138  HIVb+R5       76552.206    417 153938.411   158713.918   155688.328
+139  HIVb+R6       76481.610    419 153801.221   158758.404   155559.531
+140  HIVb+R7       76448.528    421 153739.056   158888.679   155505.759
+141  HIVb+R8       76430.580    423 153707.160   159060.951   155482.256
+WARNING: Log-likelihood -76433.5 of HIVb+R9 worse than HIVb+R8 -76430.6
+142  HIVb+R9       76433.497    425 153716.994   159287.763   155500.483
+144  HIVb+F        80451.374    428 161758.747   167681.715   163554.825
+145  HIVb+F+I      80222.053    429 161302.105   167350.302   163102.380
+146  HIVb+F+G4     76300.170    429 153458.341   159506.537   155258.615
+147  HIVb+F+I+G4   76269.675    430 153399.349   159577.016   155203.820
+148  HIVb+F+R2     77346.045    430 155552.089   161729.756   157356.560
+149  HIVb+F+R3     76557.685    432 153979.370   160429.576   155792.233
+150  HIVb+F+R4     76266.722    434 153401.444   160143.944   155222.701
+151  HIVb+F+R5     76110.446    436 153092.893   160149.634   154922.542
+152  HIVb+F+R6     76023.509    438 152923.019   160318.480   154761.061
+153  HIVb+F+R7     76003.212    440 152886.424   160648.024   154732.860
+154  HIVb+F+R8     75983.938    442 152851.876   161010.459   154706.704
+WARNING: Log-likelihood -75987.4 of HIVb+F+R9 worse than HIVb+F+R8 -75983.9
+155  HIVb+F+R9     75987.372    444 152862.744   161453.179   154725.965
+157  HIVw          84687.256    409 170192.511   174333.005   171908.857
+158  HIVw+I        84439.423    410 169698.846   173911.596   171419.388
+159  HIVw+G4       80436.770    410 161693.540   165906.290   163414.082
+160  HIVw+I+G4     80402.520    411 161627.040   165913.926   163351.779
+161  HIVw+R2       81623.687    411 164069.375   168356.261   165794.113
+162  HIVw+R3       80727.938    413 162281.877   166722.968   164015.008
+163  HIVw+R4       80399.745    415 161629.489   166233.223   163371.014
+164  HIVw+R5       80229.221    417 161292.441   166067.948   163042.359
+165  HIVw+R6       80140.266    419 161118.532   166075.715   162876.842
+166  HIVw+R7       80098.777    421 161039.554   166189.178   162806.257
+167  HIVw+R8       80084.135    423 161014.269   166368.060   162789.365
+WARNING: Log-likelihood -80092.6 of HIVw+R9 worse than HIVw+R8 -80084.1
+168  HIVw+R9       80092.552    425 161035.104   166605.873   162818.592
+170  HIVw+F        83277.225    428 167410.449   173333.417   169206.527
+171  HIVw+F+I      83005.144    429 166868.289   172916.485   168668.563
+172  HIVw+F+G4     78952.413    429 158762.826   164811.022   160563.100
+173  HIVw+F+I+G4   78909.015    430 158678.030   164855.696   160482.501
+174  HIVw+F+R2     80127.951    430 161115.901   167293.568   162920.372
+175  HIVw+F+R3     79252.993    432 159369.986   165820.193   161182.850
+176  HIVw+F+R4     78914.882    434 158697.765   165440.265   160519.021
+177  HIVw+F+R5     78743.112    436 158358.224   165414.965   160187.874
+178  HIVw+F+R6     78657.024    438 158190.048   165585.509   160028.090
+179  HIVw+F+R7     78614.713    440 158109.426   165871.026   159955.861
+180  HIVw+F+R8     78598.466    442 158080.933   166239.516   159935.761
+WARNING: Log-likelihood -78608.9 of HIVw+F+R9 worse than HIVw+F+R8 -78598.5
+181  HIVw+F+R9     78608.926    444 158105.851   166696.286   159969.072
+183  JTT           78265.982    409 157349.965   161490.459   159066.310
+184  JTT+I         78100.893    410 157021.786   161234.536   158742.328
+185  JTT+G4        74789.664    410 150399.327   154612.077   152119.869
+186  JTT+I+G4      74766.063    411 150354.125   154641.012   152078.864
+187  JTT+R2        75618.760    411 152059.520   156346.406   153784.259
+188  JTT+R3        75011.505    413 150849.010   155290.101   152582.141
+189  JTT+R4        74750.778    415 150331.557   154935.290   152073.081
+190  JTT+R5        74597.985    417 150029.971   154805.478   151779.888
+191  JTT+R6        74559.702    419 149957.404   154914.588   151715.715
+192  JTT+R7        74526.584    421 149895.169   155044.792   151661.872
+193  JTT+R8        74520.636    423 149887.273   155241.064   151662.369
+196  JTT+F         78168.472    428 157192.943   163115.911   158989.021
+197  JTT+F+I       77995.293    429 156848.586   162896.783   158648.860
+198  JTT+F+G4      74739.594    429 150337.188   156385.385   152137.463
+199  JTT+F+I+G4    74715.996    430 150291.992   156469.659   152096.463
+200  JTT+F+R2      75562.001    430 151984.002   158161.669   153788.473
+201  JTT+F+R3      74958.420    432 150780.840   157231.047   152593.704
+202  JTT+F+R4      74693.989    434 150255.978   156998.478   152077.234
+203  JTT+F+R5      74553.186    436 149978.372   157035.113   151808.022
+204  JTT+F+R6      74515.794    438 149907.589   157303.050   151745.631
+205  JTT+F+R7      74484.817    440 149849.634   157611.234   151696.069
+206  JTT+F+R8      74473.001    442 149830.003   157988.586   151684.831
+WARNING: Log-likelihood -74477.1 of JTT+F+R9 worse than JTT+F+R8 -74473
+207  JTT+F+R9      74477.068    444 149842.137   158432.571   151705.358
+209  JTTDCMut      78243.745    409 157305.489   161445.983   159021.835
+210  JTTDCMut+I    78080.870    410 156981.741   161194.491   158702.283
+211  JTTDCMut+G4   74788.746    410 150397.493   154610.243   152118.035
+212  JTTDCMut+I+G4 74765.268    411 150352.536   154639.423   152077.275
+213  JTTDCMut+R2   75616.126    411 152054.252   156341.138   153778.990
+214  JTTDCMut+R3   75005.920    413 150837.840   155278.931   152570.971
+215  JTTDCMut+R4   74750.323    415 150330.647   154934.380   152072.171
+216  JTTDCMut+R5   74596.947    417 150027.895   154803.401   151777.812
+217  JTTDCMut+R6   74558.869    419 149955.738   154912.921   151714.048
+218  JTTDCMut+R7   74526.139    421 149894.279   155043.902   151660.982
+219  JTTDCMut+R8   74520.376    423 149886.751   155240.542   151661.847
+222  JTTDCMut+F    78156.344    428 157168.689   163091.657   158964.767
+223  JTTDCMut+F+I  77986.133    429 156830.266   162878.462   158630.540
+224  JTTDCMut+F+G4 74741.170    429 150340.339   156388.536   152140.614
+225  JTTDCMut+F+I+G4 74717.854    430 150295.707   156473.374   152100.178
+226  JTTDCMut+F+R2 75562.118    430 151984.237   158161.904   153788.708
+227  JTTDCMut+F+R3 74955.508    432 150775.017   157225.224   152587.881
+228  JTTDCMut+F+R4 74695.517    434 150259.034   157001.534   152080.290
+229  JTTDCMut+F+R5 74553.959    436 149979.918   157036.659   151809.568
+230  JTTDCMut+F+R6 74516.767    438 149909.534   157304.996   151747.577
+231  JTTDCMut+F+R7 74486.159    440 149852.317   157613.917   151698.753
+232  JTTDCMut+F+R8 74474.391    442 149832.782   157991.365   151687.610
+WARNING: Log-likelihood -74478.4 of JTTDCMut+F+R9 worse than JTTDCMut+F+R8 -74474.4
+233  JTTDCMut+F+R9 74478.435    444 149844.871   158435.306   151708.092
+235  LG            77714.065    409 156246.129   160386.623   157962.475
+236  LG+I          77578.978    410 155977.957   160190.707   157698.499
+237  LG+G4         74148.817    410 149117.633   153330.383   150838.175
+238  LG+I+G4       74134.130    411 149090.261   153377.147   150814.999
+239  LG+R2         74946.741    411 150715.482   155002.368   152440.221
+240  LG+R3         74370.165    413 149566.330   154007.421   151299.462
+241  LG+R4         74100.383    415 149030.767   153634.500   150772.291
+242  LG+R5         73953.643    417 148741.286   153516.793   150491.203
+243  LG+R6         73926.419    419 148690.839   153648.022   150449.149
+244  LG+R7         73894.797    421 148631.593   153781.217   150398.296
+245  LG+R8         73883.518    423 148613.036   153966.827   150388.132
+WARNING: Log-likelihood -73889.2 of LG+R9 worse than LG+R8 -73883.5
+246  LG+R9         73889.217    425 148628.435   154199.204   150411.923
+248  LG+F          77638.800    428 156133.600   162056.567   157929.678
+249  LG+F+I        77497.645    429 155853.289   161901.486   157653.564
+250  LG+F+G4       74121.897    429 149101.794   155149.991   150902.069
+251  LG+F+I+G4     74106.457    430 149072.914   155250.581   150877.385
+252  LG+F+R2       74929.117    430 150718.235   156895.902   152522.706
+253  LG+F+R3       74344.800    432 149553.601   156003.807   151366.464
+254  LG+F+R4       74074.449    434 149016.898   155759.398   150838.155
+255  LG+F+R5       73931.438    436 148734.876   155791.617   150564.526
+256  LG+F+R6       73903.237    438 148682.473   156077.935   150520.516
+257  LG+F+R7       73873.576    440 148627.153   156388.753   150473.588
+258  LG+F+R8       73861.008    442 148606.017   156764.600   150460.845
+WARNING: Log-likelihood -73867.6 of LG+F+R9 worse than LG+F+R8 -73861
+259  LG+F+R9       73867.612    444 148623.224   157213.659   150486.446
+261  mtART         85809.678    409 172437.357   176577.851   174153.702
+262  mtART+I       85758.242    410 172336.484   176549.234   174057.026
+263  mtART+G4      78979.589    410 158779.179   162991.929   160499.721
+264  mtART+I+G4    78976.674    411 158775.348   163062.234   160500.087
+265  mtART+R2      80048.651    411 160919.302   165206.188   162644.041
+266  mtART+R3      79288.156    413 159402.312   163843.403   161135.444
+267  mtART+R4      78937.991    415 158705.981   163309.715   160447.505
+268  mtART+R5      78789.123    417 158412.246   163187.753   160162.163
+269  mtART+R6      78722.844    419 158283.688   163240.871   160041.998
+270  mtART+R7      78687.659    421 158217.318   163366.942   159984.021
+271  mtART+R8      78675.580    423 158197.160   163550.951   159972.256
+WARNING: Log-likelihood -78678.8 of mtART+R9 worse than mtART+R8 -78675.6
+272  mtART+R9      78678.777    425 158207.555   163778.324   159991.044
+274  mtART+F       81147.655    428 163151.310   169074.278   164947.388
+275  mtART+F+I     81079.918    429 163017.836   169066.032   164818.110
+276  mtART+F+G4    76093.955    429 153045.909   159094.106   154846.184
+277  mtART+F+I+G4  76087.661    430 153035.322   159212.989   154839.793
+278  mtART+F+R2    77153.917    430 155167.834   161345.501   156972.305
+279  mtART+F+R3    76371.973    432 153607.946   160058.153   155420.810
+280  mtART+F+R4    76066.208    434 153000.417   159742.917   154821.673
+281  mtART+F+R5    75882.883    436 152637.766   159694.507   154467.416
+282  mtART+F+R6    75831.414    438 152538.827   159934.289   154376.870
+283  mtART+F+R7    75805.447    440 152490.893   160252.493   154337.328
+284  mtART+F+R8    75801.666    442 152487.332   160645.916   154342.161
+287  mtMAM         87674.528    409 176167.057   180307.551   177883.402
+288  mtMAM+I       87632.701    410 176085.401   180298.151   177805.944
+289  mtMAM+G4      80532.239    410 161884.478   166097.228   163605.020
+290  mtMAM+I+G4    80532.240    411 161886.480   166173.366   163611.219
+291  mtMAM+R2      81695.167    411 164212.334   168499.221   165937.073
+292  mtMAM+R3      80830.760    413 162487.521   166928.612   164220.652
+293  mtMAM+R4      80508.582    415 161847.164   166450.898   163588.689
+294  mtMAM+R5      80267.836    417 161369.673   166145.179   163119.590
+295  mtMAM+R6      80207.597    419 161253.193   166210.376   163011.503
+296  mtMAM+R7      80157.710    421 161157.420   166307.043   162924.123
+297  mtMAM+R8      80140.561    423 161127.122   166480.913   162902.218
+WARNING: Log-likelihood -80157 of mtMAM+R9 worse than mtMAM+R8 -80140.6
+298  mtMAM+R9      80156.993    425 161163.987   166734.756   162947.476
+300  mtMAM+F       82973.494    428 166802.989   172725.956   168599.067
+301  mtMAM+F+I     82912.764    429 166683.527   172731.724   168483.802
+302  mtMAM+F+G4    77727.419    429 156312.837   162361.034   158113.112
+303  mtMAM+F+I+G4  77727.418    430 156314.836   162492.502   158119.307
+304  mtMAM+F+R2    78780.637    430 158421.275   164598.941   160225.746
+305  mtMAM+F+R3    77996.265    432 156856.530   163306.737   158669.394
+306  mtMAM+F+R4    77668.371    434 156204.743   162947.243   158026.000
+307  mtMAM+F+R5    77445.392    436 155762.785   162819.526   157592.435
+308  mtMAM+F+R6    77392.224    438 155660.449   163055.910   157498.491
+309  mtMAM+F+R7    77360.613    440 155601.226   163362.826   157447.661
+310  mtMAM+F+R8    77348.098    442 155580.195   163738.778   157435.023
+WARNING: Log-likelihood -77372.5 of mtMAM+F+R9 worse than mtMAM+F+R8 -77348.1
+311  mtMAM+F+R9    77372.470    444 155632.940   164223.375   157496.162
+313  mtREV         83630.806    409 168079.612   172220.105   169795.957
+314  mtREV+I       83590.499    410 168000.999   172213.749   169721.541
+315  mtREV+G4      78805.737    410 158431.474   162644.224   160152.016
+316  mtREV+I+G4    78804.194    411 158430.388   162717.274   160155.127
+317  mtREV+R2      79653.177    411 160128.354   164415.240   161853.093
+318  mtREV+R3      79016.829    413 158859.659   163300.750   160592.790
+319  mtREV+R4      78769.475    415 158368.950   162972.684   160110.475
+320  mtREV+R5      78606.906    417 158047.812   162823.319   159797.729
+321  mtREV+R6      78551.182    419 157940.364   162897.547   159698.674
+322  mtREV+R7      78525.496    421 157892.992   163042.615   159659.695
+323  mtREV+R8      78516.809    423 157879.617   163233.408   159654.713
+324  mtREV+R9      78512.397    425 157874.794   163445.563   159658.283
+326  mtREV+F       79716.194    428 160288.389   166211.357   162084.467
+327  mtREV+F+I     79657.531    429 160173.062   166221.258   161973.336
+328  mtREV+F+G4    75956.503    429 152771.006   158819.203   154571.281
+329  mtREV+F+I+G4  75955.696    430 152771.392   158949.059   154575.863
+330  mtREV+F+R2    76789.780    430 154439.559   160617.226   156244.030
+331  mtREV+F+R3    76202.171    432 153268.342   159718.549   155081.206
+332  mtREV+F+R4    75927.475    434 152722.950   159465.450   154544.207
+333  mtREV+F+R5    75771.726    436 152415.452   159472.193   154245.102
+334  mtREV+F+R6    75711.066    438 152298.131   159693.593   154136.174
+335  mtREV+F+R7    75689.454    440 152258.908   160020.508   154105.343
+336  mtREV+F+R8    75683.767    442 152251.534   160410.117   154106.362
+339  mtZOA         83111.615    409 167041.231   171181.724   168757.576
+340  mtZOA+I       83039.868    410 166899.736   171112.486   168620.278
+341  mtZOA+G4      77192.965    410 155205.930   159418.680   156926.472
+342  mtZOA+I+G4    77184.768    411 155191.536   159478.422   156916.274
+343  mtZOA+R2      78132.487    411 157086.974   161373.861   158811.713
+344  mtZOA+R3      77419.450    413 155664.900   160105.991   157398.031
+345  mtZOA+R4      77152.766    415 155135.533   159739.266   156877.057
+346  mtZOA+R5      76990.458    417 154814.916   159590.423   156564.833
+347  mtZOA+R6      76938.011    419 154714.022   159671.205   156472.332
+348  mtZOA+R7      76919.280    421 154680.560   159830.184   156447.263
+349  mtZOA+R8      76911.794    423 154669.588   160023.379   156444.684
+350  mtZOA+R9      76908.889    425 154667.777   160238.546   156451.266
+352  mtZOA+F       79669.197    428 160194.395   166117.363   161990.473
+353  mtZOA+F+I     79574.798    429 160007.596   166055.793   161807.870
+354  mtZOA+F+G4    75309.709    429 151477.417   157525.614   153277.692
+355  mtZOA+F+I+G4  75298.281    430 151456.561   157634.228   153261.032
+356  mtZOA+F+R2    76244.995    430 153349.989   159527.656   155154.460
+357  mtZOA+F+R3    75556.186    432 151976.373   158426.580   153789.236
+358  mtZOA+F+R4    75283.156    434 151434.313   158176.813   153255.569
+359  mtZOA+F+R5    75105.937    436 151083.874   158140.615   152913.524
+360  mtZOA+F+R6    75064.128    438 151004.256   158399.717   152842.298
+361  mtZOA+F+R7    75027.367    440 150934.733   158696.333   152781.169
+362  mtZOA+F+R8    75017.229    442 150918.458   159077.041   152773.286
+WARNING: Log-likelihood -75030.4 of mtZOA+F+R9 worse than mtZOA+F+R8 -75017.2
+363  mtZOA+F+R9    75030.444    444 150948.887   159539.322   152812.108
+365  mtMet         83977.153    409 168772.306   172912.799   170488.651
+366  mtMet+I       83898.103    410 168616.206   172828.956   170336.748
+367  mtMet+G4      78503.911    410 157827.822   162040.572   159548.364
+368  mtMet+I+G4    78497.613    411 157817.227   162104.113   159541.965
+369  mtMet+R2      79370.261    411 159562.523   163849.409   161287.261
+370  mtMet+R3      78697.289    413 158220.578   162661.669   159953.709
+371  mtMet+R4      78449.901    415 157729.801   162333.534   159471.325
+372  mtMet+R5      78280.700    417 157395.399   162170.906   159145.316
+373  mtMet+R6      78211.533    419 157261.065   162218.248   159019.375
+374  mtMet+R7      78182.395    421 157206.791   162356.414   158973.494
+375  mtMet+R8      78172.815    423 157191.629   162545.420   158966.725
+376  mtMet+R9      78172.797    425 157195.593   162766.362   158979.082
+378  mtMet+F       79922.416    428 160700.831   166623.799   162496.910
+379  mtMet+F+I     79813.252    429 160484.504   166532.700   162284.778
+380  mtMet+F+G4    75737.117    429 152332.233   158380.430   154132.508
+381  mtMet+F+I+G4  75730.077    430 152320.155   158497.821   154124.626
+382  mtMet+F+R2    76618.714    430 154097.429   160275.095   155901.900
+383  mtMet+F+R3    75982.352    432 152828.705   159278.912   154641.569
+384  mtMet+F+R4    75689.927    434 152247.854   158990.354   154069.111
+385  mtMet+F+R5    75529.683    436 151931.366   158988.106   153761.015
+386  mtMet+F+R6    75472.323    438 151820.645   159216.107   153658.688
+387  mtMet+F+R7    75449.010    440 151778.020   159539.620   153624.456
+388  mtMet+F+R8    75441.841    442 151767.683   159926.266   153622.511
+WARNING: Log-likelihood -75446.7 of mtMet+F+R9 worse than mtMet+F+R8 -75441.8
+389  mtMet+F+R9    75446.659    444 151781.317   160371.752   153644.539
+391  mtVer         85676.380    409 172170.760   176311.254   173887.105
+392  mtVer+I       85596.769    410 172013.539   176226.289   173734.081
+393  mtVer+G4      79620.103    410 160060.207   164272.957   161780.749
+394  mtVer+I+G4    79618.898    411 160059.797   164346.683   161784.536
+395  mtVer+R2      80650.536    411 162123.071   166409.957   163847.810
+396  mtVer+R3      79851.231    413 160528.462   164969.553   162261.593
+397  mtVer+R4      79569.506    415 159969.012   164572.745   161710.536
+398  mtVer+R5      79376.759    417 159587.518   164363.025   161337.435
+399  mtVer+R6      79308.262    419 159454.524   164411.708   161212.835
+400  mtVer+R7      79272.527    421 159387.055   164536.678   161153.758
+401  mtVer+R8      79265.458    423 159376.917   164730.708   161152.013
+402  mtVer+R9      79263.479    425 159376.959   164947.728   161160.448
+404  mtVer+F       81805.534    428 164467.067   170390.035   166263.145
+405  mtVer+F+I     81693.293    429 164244.586   170292.783   166044.861
+406  mtVer+F+G4    77117.520    429 155093.039   161141.236   156893.314
+407  mtVer+F+I+G4  77113.888    430 155087.775   161265.442   156892.246
+408  mtVer+F+R2    78173.100    430 157206.200   163383.866   159010.671
+409  mtVer+F+R3    77398.083    432 155660.166   162110.373   157473.030
+410  mtVer+F+R4    77072.053    434 155012.106   161754.606   156833.363
+411  mtVer+F+R5    76879.584    436 154631.168   161687.908   156460.817
+412  mtVer+F+R6    76819.956    438 154515.912   161911.374   156353.955
+413  mtVer+F+R7    76790.339    440 154460.678   162222.278   156307.113
+414  mtVer+F+R8    76783.663    442 154451.325   162609.909   156306.154
+WARNING: Log-likelihood -76799.8 of mtVer+F+R9 worse than mtVer+F+R8 -76783.7
+415  mtVer+F+R9    76799.773    444 154487.547   163077.981   156350.768
+417  mtInv         83627.488    409 168072.976   172213.470   169789.322
+418  mtInv+I       83537.837    410 167895.674   172108.424   169616.216
+419  mtInv+G4      78658.403    410 158136.806   162349.556   159857.348
+420  mtInv+I+G4    78648.342    411 158118.684   162405.570   159843.422
+421  mtInv+R2      79442.903    411 159707.807   163994.693   161432.545
+422  mtInv+R3      78835.398    413 158496.796   162937.886   160229.927
+423  mtInv+R4      78591.296    415 158012.592   162616.325   159754.116
+424  mtInv+R5      78446.996    417 157727.992   162503.499   159477.909
+425  mtInv+R6      78383.525    419 157605.050   162562.233   159363.360
+426  mtInv+R7      78353.882    421 157549.764   162699.387   159316.467
+427  mtInv+R8      78348.235    423 157542.471   162896.262   159317.567
+430  mtInv+F       78908.888    428 158673.776   164596.743   160469.854
+431  mtInv+F+I     78791.541    429 158441.083   164489.280   160241.357
+432  mtInv+F+G4    75129.577    429 151117.154   157165.351   152917.429
+433  mtInv+F+I+G4  75120.154    430 151100.309   157277.975   152904.780
+434  mtInv+F+R2    75971.779    430 152803.559   158981.225   154608.030
+435  mtInv+F+R3    75370.210    432 151604.421   158054.628   153417.285
+436  mtInv+F+R4    75087.089    434 151042.178   157784.678   152863.435
+437  mtInv+F+R5    74943.803    436 150759.605   157816.346   152589.255
+438  mtInv+F+R6    74897.971    438 150671.941   158067.403   152509.984
+439  mtInv+F+R7    74879.379    440 150638.757   158400.357   152485.192
+440  mtInv+F+R8    74858.082    442 150600.164   158758.747   152454.992
+WARNING: Log-likelihood -74868.2 of mtInv+F+R9 worse than mtInv+F+R8 -74858.1
+441  mtInv+F+R9    74868.166    444 150624.332   159214.767   152487.553
+443  Poisson       85915.274    409 172648.548   176789.042   174364.894
+444  Poisson+I     85739.179    410 172298.358   176511.108   174018.900
+445  Poisson+G4    82654.173    410 166128.347   170341.097   167848.889
+446  Poisson+I+G4  82631.299    411 166084.599   170371.485   167809.337
+447  Poisson+R2    83423.602    411 167669.204   171956.090   169393.943
+448  Poisson+R3    82866.043    413 166558.085   170999.176   168291.217
+449  Poisson+R4    82605.318    415 166040.636   170644.369   167782.160
+450  Poisson+R5    82501.524    417 165837.047   170612.554   167586.964
+451  Poisson+R6    82447.016    419 165732.032   170689.215   167490.342
+452  Poisson+R7    82425.707    421 165693.415   170843.038   167460.118
+453  Poisson+R8    82419.767    423 165685.534   171039.325   167460.630
+456  Poisson+F     84460.384    428 169776.768   175699.735   171572.846
+457  Poisson+F+I   84281.928    429 169421.857   175470.053   171222.131
+458  Poisson+F+G4  81061.630    429 162981.259   169029.456   164781.534
+459  Poisson+F+I+G4 81041.279    430 162942.558   169120.225   164747.029
+460  Poisson+F+R2  81900.622    430 164661.244   170838.911   166465.715
+461  Poisson+F+R3  81332.492    432 163528.983   169979.190   165341.847
+462  Poisson+F+R4  81016.593    434 162901.185   169643.685   164722.442
+463  Poisson+F+R5  80911.783    436 162695.565   169752.306   164525.215
+464  Poisson+F+R6  80855.493    438 162586.985   169982.447   164425.028
+465  Poisson+F+R7  80834.158    440 162548.316   170309.916   164394.751
+466  Poisson+F+R8  80827.361    442 162538.722   170697.306   164393.551
+WARNING: Log-likelihood -80830.2 of Poisson+F+R9 worse than Poisson+F+R8 -80827.4
+467  Poisson+F+R9  80830.167    444 162548.333   171138.768   164411.554
+469  PMB           78255.662    409 157329.324   161469.818   159045.670
+470  PMB+I         78129.281    410 157078.561   161291.311   158799.104
+471  PMB+G4        75151.576    410 151123.152   155335.902   152843.694
+472  PMB+I+G4      75133.279    411 151088.558   155375.444   152813.297
+473  PMB+R2        75858.745    411 152539.490   156826.376   154264.228
+474  PMB+R3        75337.301    413 151500.602   155941.693   153233.733
+475  PMB+R4        75109.631    415 151049.263   155652.996   152790.787
+476  PMB+R5        74978.802    417 150791.604   155567.111   152541.521
+477  PMB+R6        74946.625    419 150731.250   155688.433   152489.560
+478  PMB+R7        74924.131    421 150690.262   155839.885   152456.965
+479  PMB+R8        74917.122    423 150680.244   156034.036   152455.340
+480  PMB+R9        74917.782    425 150685.563   156256.333   152469.052
+482  PMB+F         78218.376    428 157292.751   163215.719   159088.829
+483  PMB+F+I       78082.121    429 157022.242   163070.439   158822.516
+484  PMB+F+G4      75163.186    429 151184.372   157232.569   152984.647
+485  PMB+F+I+G4    75143.837    430 151147.673   157325.340   152952.144
+486  PMB+F+R2      75897.656    430 152655.312   158832.978   154459.783
+487  PMB+F+R3      75351.592    432 151567.183   158017.390   153380.047
+488  PMB+F+R4      75118.649    434 151105.298   157847.798   152926.555
+489  PMB+F+R5      74991.299    436 150854.598   157911.338   152684.247
+490  PMB+F+R6      74954.398    438 150784.795   158180.257   152622.838
+491  PMB+F+R7      74931.999    440 150743.998   158505.598   152590.433
+492  PMB+F+R8      74926.039    442 150736.078   158894.661   152590.906
+495  rtREV         78246.828    409 157311.655   161452.149   159028.001
+496  rtREV+I       78119.666    410 157059.331   161272.081   158779.873
+497  rtREV+G4      74889.743    410 150599.487   154812.237   152320.029
+498  rtREV+I+G4    74872.400    411 150566.799   154853.685   152291.538
+499  rtREV+R2      75623.736    411 152069.471   156356.357   153794.210
+500  rtREV+R3      75093.628    413 151013.257   155454.348   152746.388
+501  rtREV+R4      74845.691    415 150521.381   155125.114   152262.905
+502  rtREV+R5      74706.808    417 150247.616   155023.123   151997.533
+503  rtREV+R6      74676.961    419 150191.922   155149.105   151950.232
+504  rtREV+R7      74644.144    421 150130.288   155279.911   151896.991
+505  rtREV+R8      74638.598    423 150123.196   155476.987   151898.292
+508  rtREV+F       77762.216    428 156380.433   162303.401   158176.511
+509  rtREV+F+I     77637.390    429 156132.780   162180.976   157933.054
+510  rtREV+F+G4    74323.310    429 149504.620   155552.817   151304.895
+511  rtREV+F+I+G4  74307.884    430 149475.768   155653.435   151280.239
+512  rtREV+F+R2    75089.827    430 151039.653   157217.320   152844.124
+513  rtREV+F+R3    74544.188    432 149952.376   156402.583   151765.240
+514  rtREV+F+R4    74277.630    434 149423.259   156165.759   151244.516
+515  rtREV+F+R5    74138.481    436 149148.963   156205.704   150978.613
+516  rtREV+F+R6    74107.665    438 149091.330   156486.792   150929.373
+517  rtREV+F+R7    74079.247    440 149038.493   156800.093   150884.929
+518  rtREV+F+R8    74071.188    442 149026.376   157184.960   150881.205
+WARNING: Log-likelihood -74073.8 of rtREV+F+R9 worse than rtREV+F+R8 -74071.2
+519  rtREV+F+R9    74073.848    444 149035.696   157626.131   150898.917
+521  VT            77758.575    409 156335.151   160475.645   158051.497
+522  VT+I          77619.300    410 156058.600   160271.350   157779.142
+523  VT+G4         74667.980    410 150155.960   154368.710   151876.502
+524  VT+I+G4       74649.537    411 150121.074   154407.960   151845.813
+525  VT+R2         75429.894    411 151681.789   155968.675   153406.527
+526  VT+R3         74872.890    413 150571.780   155012.871   152304.912
+527  VT+R4         74627.308    415 150084.616   154688.349   151826.140
+528  VT+R5         74491.563    417 149817.126   154592.633   151567.043
+529  VT+R6         74459.186    419 149756.373   154713.556   151514.683
+530  VT+R7         74431.806    421 149705.613   154855.236   151472.316
+531  VT+R8         74426.625    423 149699.250   155053.041   151474.346
+534  VT+F          77717.203    428 156290.405   162213.373   158086.483
+535  VT+F+I        77572.470    429 156002.940   162051.137   157803.214
+536  VT+F+G4       74665.373    429 150188.746   156236.943   151989.021
+537  VT+F+I+G4     74646.376    430 150152.752   156330.419   151957.223
+538  VT+F+R2       75418.581    430 151697.162   157874.829   153501.633
+539  VT+F+R3       74865.837    432 150595.674   157045.881   152408.538
+540  VT+F+R4       74623.287    434 150114.574   156857.074   151935.831
+541  VT+F+R5       74493.412    436 149858.823   156915.564   151688.473
+542  VT+F+R6       74460.306    438 149796.613   157192.074   151634.655
+543  VT+F+R7       74435.577    440 149751.153   157512.753   151597.589
+544  VT+F+R8       74429.767    442 149743.535   157902.118   151598.363
+547  WAG           77650.194    409 156118.388   160258.882   157834.734
+548  WAG+I         77515.600    410 155851.199   160063.949   157571.742
+549  WAG+G4        74569.709    410 149959.418   154172.168   151679.960
+550  WAG+I+G4      74553.868    411 149929.735   154216.621   151654.474
+551  WAG+R2        75387.285    411 151596.569   155883.455   153321.308
+552  WAG+R3        74774.786    413 150375.572   154816.663   152108.704
+553  WAG+R4        74526.835    415 149883.670   154487.403   151625.194
+554  WAG+R5        74392.087    417 149618.173   154393.680   151368.091
+555  WAG+R6        74356.668    419 149551.337   154508.520   151309.647
+556  WAG+R7        74327.307    421 149496.615   154646.238   151263.318
+557  WAG+R8        74320.543    423 149487.087   154840.878   151262.182
+558  WAG+R9        74320.217    425 149490.434   155061.203   151273.923
+560  WAG+F         77646.721    428 156149.442   162072.410   157945.520
+561  WAG+F+I       77510.656    429 155879.311   161927.508   157679.586
+562  WAG+F+G4      74544.937    429 149947.874   155996.070   151748.148
+563  WAG+F+I+G4    74531.650    430 149923.301   156100.967   151727.772
+564  WAG+F+R2      75361.289    430 151582.578   157760.245   153387.049
+565  WAG+F+R3      74745.747    432 150355.495   156805.702   152168.359
+566  WAG+F+R4      74500.556    434 149869.111   156611.611   151690.368
+567  WAG+F+R5      74368.805    436 149609.611   156666.352   151439.261
+568  WAG+F+R6      74331.436    438 149538.873   156934.334   151376.915
+569  WAG+F+R7      74304.371    440 149488.742   157250.342   151335.177
+570  WAG+F+R8      74297.798    442 149479.596   157638.179   151334.424
+571  WAG+F+R9      74297.885    444 149483.770   158074.204   151346.991
+WARNING: GTR20 model will estimate 189 substitution rates that might be overfitting!
+WARNING: Please only use GTR20 with very large data and always test for model fit!
+573  GTR20+F       76856.736    617 154947.471   917559.471   157536.677
+WARNING: GTR20 model will estimate 189 substitution rates that might be overfitting!
+WARNING: Please only use GTR20 with very large data and always test for model fit!
+574  GTR20+F+I     76705.886    618 154647.771   919731.771   157241.174
+WARNING: GTR20 model will estimate 189 substitution rates that might be overfitting!
+WARNING: Please only use GTR20 with very large data and always test for model fit!
+575  GTR20+F+G4    73801.306    618 148838.611   913922.611   151432.014
+WARNING: GTR20 model will estimate 189 substitution rates that might be overfitting!
+WARNING: Please only use GTR20 with very large data and always test for model fit!
+576  GTR20+F+I+G4  73779.079    619 148796.157   916356.157   151393.756
+WARNING: GTR20 model will estimate 189 substitution rates that might be overfitting!
+WARNING: Please only use GTR20 with very large data and always test for model fit!
+577  GTR20+F+R2    74553.634    619 150345.268   917905.268   152942.867
+WARNING: GTR20 model will estimate 189 substitution rates that might be overfitting!
+WARNING: Please only use GTR20 with very large data and always test for model fit!
+578  GTR20+F+R3    74007.277    621 149256.554   921780.554   151862.546
+WARNING: GTR20 model will estimate 189 substitution rates that might be overfitting!
+WARNING: Please only use GTR20 with very large data and always test for model fit!
+579  GTR20+F+R4    73748.774    623 148743.548   926247.548   151357.933
+WARNING: GTR20 model will estimate 189 substitution rates that might be overfitting!
+WARNING: Please only use GTR20 with very large data and always test for model fit!
+580  GTR20+F+R5    73617.504    625 148485.008   930985.008   151107.786
+WARNING: GTR20 model will estimate 189 substitution rates that might be overfitting!
+WARNING: Please only use GTR20 with very large data and always test for model fit!
+581  GTR20+F+R6    73588.273    627 148430.547   935942.547   151061.717
+WARNING: GTR20 model will estimate 189 substitution rates that might be overfitting!
+WARNING: Please only use GTR20 with very large data and always test for model fit!
+582  GTR20+F+R7    73565.468    629 148388.937   940928.937   151028.500
+WARNING: GTR20 model will estimate 189 substitution rates that might be overfitting!
+WARNING: Please only use GTR20 with very large data and always test for model fit!
+583  GTR20+F+R8    73554.515    631 148371.029   945955.029   151018.985
+WARNING: GTR20 model will estimate 189 substitution rates that might be overfitting!
+WARNING: Please only use GTR20 with very large data and always test for model fit!
+WARNING: Log-likelihood -73556.6 of GTR20+F+R9 worse than GTR20+F+R8 -73554.5
+584  GTR20+F+R9    73556.619    633 148379.237   951023.237   151035.586
+WARNING: GTR20 model will estimate 189 substitution rates that might be overfitting!
+WARNING: Please only use GTR20 with very large data and always test for model fit!
+586  GTR20+F       76856.736    617 154947.471   917559.471   157536.677
+WARNING: GTR20 model will estimate 189 substitution rates that might be overfitting!
+WARNING: Please only use GTR20 with very large data and always test for model fit!
+587  GTR20+F+I     76705.886    618 154647.771   919731.771   157241.174
+WARNING: GTR20 model will estimate 189 substitution rates that might be overfitting!
+WARNING: Please only use GTR20 with very large data and always test for model fit!
+588  GTR20+F+G4    73801.306    618 148838.611   913922.611   151432.014
+WARNING: GTR20 model will estimate 189 substitution rates that might be overfitting!
+WARNING: Please only use GTR20 with very large data and always test for model fit!
+589  GTR20+F+I+G4  73779.079    619 148796.157   916356.157   151393.756
+WARNING: GTR20 model will estimate 189 substitution rates that might be overfitting!
+WARNING: Please only use GTR20 with very large data and always test for model fit!
+590  GTR20+F+R2    74553.634    619 150345.268   917905.268   152942.867
+WARNING: GTR20 model will estimate 189 substitution rates that might be overfitting!
+WARNING: Please only use GTR20 with very large data and always test for model fit!
+591  GTR20+F+R3    74007.277    621 149256.554   921780.554   151862.546
+WARNING: GTR20 model will estimate 189 substitution rates that might be overfitting!
+WARNING: Please only use GTR20 with very large data and always test for model fit!
+592  GTR20+F+R4    73748.774    623 148743.548   926247.548   151357.933
+WARNING: GTR20 model will estimate 189 substitution rates that might be overfitting!
+WARNING: Please only use GTR20 with very large data and always test for model fit!
+593  GTR20+F+R5    73617.504    625 148485.008   930985.008   151107.786
+WARNING: GTR20 model will estimate 189 substitution rates that might be overfitting!
+WARNING: Please only use GTR20 with very large data and always test for model fit!
+594  GTR20+F+R6    73588.273    627 148430.547   935942.547   151061.717
+WARNING: GTR20 model will estimate 189 substitution rates that might be overfitting!
+WARNING: Please only use GTR20 with very large data and always test for model fit!
+595  GTR20+F+R7    73565.469    629 148388.937   940928.937   151028.500
+WARNING: GTR20 model will estimate 189 substitution rates that might be overfitting!
+WARNING: Please only use GTR20 with very large data and always test for model fit!
+596  GTR20+F+R8    73554.515    631 148371.029   945955.029   151018.985
+WARNING: GTR20 model will estimate 189 substitution rates that might be overfitting!
+WARNING: Please only use GTR20 with very large data and always test for model fit!
+597  GTR20+F+R9    73556.619    633 148379.237   951023.237   151035.586
+Akaike Information Criterion:           GTR20+F+R8
+Corrected Akaike Information Criterion: LG+G4
+Bayesian Information Criterion:         LG+R8
+Best-fit model: LG+R8 chosen according to BIC
+
+All model information printed to CamkII.doublefiltered.fasta.annot.clean.mafft.trimal.UFB.model.gz
+CPU time for ModelFinder: 42746.852 seconds (11h:52m:26s)
+Wall-clock time for ModelFinder: 4350.710 seconds (1h:12m:30s)
+Generating 1000 samples for ultrafast bootstrap (seed: 573671)...
+
+NOTE: 132 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -73883.518
+Optimal log-likelihood: -73883.490
+Site proportion and rates:  (0.057,0.040) (0.080,0.134) (0.168,0.293) (0.136,0.554) (0.206,0.795) (0.207,1.255) (0.102,2.263) (0.044,4.682)
+Parameters optimization took 1 rounds (0.991 sec)
+Computing ML distances based on estimated model parameters... 12.365 sec
+WARNING: Some pairwise ML distances are too long (saturated)
+Computing BIONJ tree...
+0.038 seconds
+Log-likelihood of BIONJ tree: -75602.326
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.741 second
+Computing log-likelihood of 98 initial trees ... 7.396 seconds
+Current best score: -73883.490
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -73879.759
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -73809.964
+Iteration 10 / LogL: -73866.413 / Time: 0h:1m:2s
+Iteration 20 / LogL: -73922.394 / Time: 0h:1m:57s
+Finish initializing candidate tree set (20)
+Current best tree score: -73809.964 / CPU time: 112.463
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 22: -73807.083
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 26: -73801.036
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 29: -73791.365
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 30: -73784.933
+Iteration 30 / LogL: -73784.933 / Time: 0h:2m:32s (0h:8m:45s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 32: -73781.403
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 39: -73775.819
+Iteration 40 / LogL: -73777.049 / Time: 0h:3m:2s (0h:7m:42s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 42: -73774.626
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 44: -73771.272
+Iteration 50 / LogL: -73776.891 / Time: 0h:3m:30s (0h:6m:43s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 56: -73764.168
+Iteration 60 / LogL: -73768.654 / Time: 0h:3m:57s (0h:6m:27s left)
+Iteration 70 / LogL: -73772.704 / Time: 0h:4m:24s (0h:5m:29s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 75: -73761.791
+Iteration 80 / LogL: -73786.781 / Time: 0h:4m:50s (0h:5m:49s left)
+Iteration 90 / LogL: -73766.084 / Time: 0h:5m:13s (0h:4m:58s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 98: -73757.812
+Iteration 100 / LogL: -73763.992 / Time: 0h:5m:37s (0h:5m:33s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 103: -73756.741
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 104: -73754.361
+Iteration 110 / LogL: -73763.361 / Time: 0h:6m:4s (0h:5m:14s left)
+Iteration 120 / LogL: -73764.141 / Time: 0h:6m:29s (0h:4m:35s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 129: -73753.458
+Iteration 130 / LogL: -73817.727 / Time: 0h:6m:57s (0h:5m:20s left)
+Iteration 140 / LogL: -73771.984 / Time: 0h:7m:21s (0h:4m:42s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 141: -73753.343
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 143: -73752.431
+Iteration 150 / LogL: -73762.928 / Time: 0h:7m:48s (0h:4m:52s left)
+Iteration 160 / LogL: -73761.658 / Time: 0h:8m:12s (0h:4m:17s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 162: -73747.632
+Iteration 170 / LogL: -73767.308 / Time: 0h:8m:37s (0h:4m:41s left)
+Iteration 180 / LogL: -73752.426 / Time: 0h:8m:59s (0h:4m:7s left)
+Iteration 190 / LogL: -73759.999 / Time: 0h:9m:21s (0h:3m:34s left)
+Iteration 200 / LogL: -73831.960 / Time: 0h:9m:45s (0h:3m:2s left)
+Iteration 210 / LogL: -73757.949 / Time: 0h:10m:8s (0h:2m:31s left)
+Iteration 220 / LogL: -73758.981 / Time: 0h:10m:30s (0h:2m:0s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 222: -73746.553
+Iteration 230 / LogL: -73754.506 / Time: 0h:10m:54s (0h:4m:22s left)
+Iteration 240 / LogL: -73751.766 / Time: 0h:11m:15s (0h:3m:51s left)
+Iteration 250 / LogL: -73777.973 / Time: 0h:11m:37s (0h:3m:21s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 254: -73745.394
+Iteration 260 / LogL: -73772.727 / Time: 0h:12m:1s (0h:4m:21s left)
+Iteration 270 / LogL: -73750.202 / Time: 0h:12m:23s (0h:3m:52s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 271: -73744.653
+Iteration 280 / LogL: -73747.615 / Time: 0h:12m:45s (0h:4m:9s left)
+Iteration 290 / LogL: -73760.020 / Time: 0h:13m:7s (0h:3m:40s left)
+Iteration 300 / LogL: -73745.040 / Time: 0h:13m:28s (0h:3m:11s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 307: -73743.835
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 309: -73743.085
+Iteration 310 / LogL: -73777.094 / Time: 0h:13m:52s (0h:4m:26s left)
+Iteration 320 / LogL: -73745.178 / Time: 0h:14m:14s (0h:3m:58s left)
+Iteration 330 / LogL: -73755.036 / Time: 0h:14m:35s (0h:3m:30s left)
+Iteration 340 / LogL: -73745.579 / Time: 0h:14m:56s (0h:3m:2s left)
+Iteration 350 / LogL: -73749.314 / Time: 0h:15m:19s (0h:2m:35s left)
+Iteration 360 / LogL: -73758.337 / Time: 0h:15m:40s (0h:2m:8s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 363: -73742.570
+Iteration 370 / LogL: -73825.735 / Time: 0h:16m:2s (0h:4m:2s left)
+Iteration 380 / LogL: -73755.075 / Time: 0h:16m:26s (0h:3m:35s left)
+Iteration 390 / LogL: -73750.729 / Time: 0h:16m:48s (0h:3m:9s left)
+Iteration 400 / LogL: -73745.270 / Time: 0h:17m:10s (0h:2m:42s left)
+Iteration 410 / LogL: -73764.153 / Time: 0h:17m:31s (0h:2m:16s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 411: -73741.553
+Iteration 420 / LogL: -73745.351 / Time: 0h:17m:53s (0h:3m:53s left)
+Iteration 430 / LogL: -73763.387 / Time: 0h:18m:16s (0h:3m:27s left)
+Iteration 440 / LogL: -73752.292 / Time: 0h:18m:39s (0h:3m:1s left)
+Iteration 450 / LogL: -73746.754 / Time: 0h:19m:2s (0h:2m:35s left)
+Iteration 460 / LogL: -73750.015 / Time: 0h:19m:24s (0h:2m:9s left)
+Iteration 470 / LogL: -73748.188 / Time: 0h:19m:47s (0h:1m:43s left)
+Iteration 480 / LogL: -73761.135 / Time: 0h:20m:8s (0h:1m:18s left)
+Iteration 490 / LogL: -73747.308 / Time: 0h:20m:29s (0h:0m:52s left)
+Iteration 500 / LogL: -73747.632 / Time: 0h:20m:51s (0h:0m:27s left)
+Iteration 510 / LogL: -73757.863 / Time: 0h:21m:13s (0h:0m:2s left)
+Refining ufboot trees with NNI 1 branch...
+100 samples done
+200 samples done
+300 samples done
+400 samples done
+500 samples done
+600 samples done
+700 samples done
+800 samples done
+900 samples done
+1000 samples done
+Total 1000 ufboot trees refined
+TREE SEARCH COMPLETED AFTER 512 ITERATIONS / Time: 0h:29m:2s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -73741.553
+Optimal log-likelihood: -73741.552
+Site proportion and rates:  (0.061,0.042) (0.087,0.146) (0.161,0.303) (0.163,0.575) (0.184,0.833) (0.206,1.272) (0.099,2.331) (0.040,4.863)
+Parameters optimization took 1 rounds (0.250 sec)
+BEST SCORE FOUND : -73741.552
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+Testing tree branches by aBayes parametric test...
+0.404 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file CamkII.doublefiltered.fasta.annot.clean.mafft.trimal.UFB.splits.nex
+Total tree length: 121.319
+
+Total number of iterations: 512
+CPU time used for tree search: 17008.662 sec (4h:43m:28s)
+Wall-clock time used for tree search: 1737.811 sec (0h:28m:57s)
+Total CPU time used: 17068.203 sec (4h:44m:28s)
+Total wall-clock time used: 1744.458 sec (0h:29m:4s)
+UFBoot trees printed to CamkII.doublefiltered.fasta.annot.clean.mafft.trimal.UFB.ufboot
+
+Computing bootstrap consensus tree...
+Reading input file CamkII.doublefiltered.fasta.annot.clean.mafft.trimal.UFB.splits.nex...
+206 taxa and 3335 splits.
+Consensus tree written to CamkII.doublefiltered.fasta.annot.clean.mafft.trimal.UFB.contree
+Reading input trees file CamkII.doublefiltered.fasta.annot.clean.mafft.trimal.UFB.contree
+Log-likelihood of consensus tree: -73746.082
+
+Analysis results written to: 
+  IQ-TREE report:                CamkII.doublefiltered.fasta.annot.clean.mafft.trimal.UFB.iqtree
+  Maximum-likelihood tree:       CamkII.doublefiltered.fasta.annot.clean.mafft.trimal.UFB.treefile
+  Likelihood distances:          CamkII.doublefiltered.fasta.annot.clean.mafft.trimal.UFB.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          CamkII.doublefiltered.fasta.annot.clean.mafft.trimal.UFB.splits.nex
+  Consensus tree:                CamkII.doublefiltered.fasta.annot.clean.mafft.trimal.UFB.contree
+  UFBoot trees:                  CamkII.doublefiltered.fasta.annot.clean.mafft.trimal.UFB.ufboot
+  Screen log file:               CamkII.doublefiltered.fasta.annot.clean.mafft.trimal.UFB.log
+
+Date and Time: Wed Aug 16 18:13:42 2023
