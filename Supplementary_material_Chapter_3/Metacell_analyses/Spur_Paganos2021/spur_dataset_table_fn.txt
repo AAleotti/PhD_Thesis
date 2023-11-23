@@ -1,0 +1,7 @@
+Batch.Set.ID  mat_fn  genes_fn  cells_fn
+sp3dpf_1a sp3dpf_1a_matrix.mtx  sp3dpf_1a_genes.tsv sp3dpf_1a_barcodes.tsv
+sp3dpf_1 sp3dpf_1_matrix.mtx  sp3dpf_1_genes.tsv  sp3dpf_1_barcodes.tsv
+sp3dpf_2 sp3dpf_2_matrix.mtx  sp3dpf_2_genes.tsv  sp3dpf_2_barcodes.tsv
+sp3dpf_2b sp3dpf_2b_matrix.mtx  sp3dpf_2b_genes.tsv sp3dpf_2b_barcodes.tsv
+sp3dpf_3 sp3dpf_3_matrix.mtx  sp3dpf_3_genes.tsv  sp3dpf_3_barcodes.tsv
+sp3dpf_4 sp3dpf_4_matrix.mtx  sp3dpf_4_genes.tsv  sp3dpf_4_barcodes.tsv
