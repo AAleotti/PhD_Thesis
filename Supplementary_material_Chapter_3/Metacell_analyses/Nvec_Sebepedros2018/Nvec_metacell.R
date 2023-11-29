@@ -4,7 +4,7 @@
 # Based on the tutorial: https://tanaylab.github.io/metacell/articles/d-amphimedon.html
 # Modified by: Alessandra Aleotti, Maryam Ghaffari Saadat
 
-# Spur single cell dataset obtained from here: https://www.wisdom.weizmann.ac.il/~arnau/
+# Nvec single cell dataset obtained from here: https://www.wisdom.weizmann.ac.il/~arnau/
 # Corresponding research paper: https://www.cell.com/cell/fulltext/S0092-8674(18)30596-8?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS0092867418305968%3Fshowall%3Dtrue
 
 
