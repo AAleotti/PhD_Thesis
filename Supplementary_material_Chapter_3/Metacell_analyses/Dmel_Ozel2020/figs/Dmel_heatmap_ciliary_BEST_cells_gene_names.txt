@@ -1,0 +1,26 @@
+x
+1	Gprk2
+2	CG42450
+3	Pde6
+4	Rh7
+5	Rh6
+6	Rh5
+7	Rh4
+8	Rh3
+9	ninaE
+10	CG1090
+11	Nckx30C
+12	zyd
+13	CG17167
+14	CG34357
+15	Gbeta5
+16	Ggamma30A
+17	Gbeta13F
+18	Galphai
+19	CG42260
+20	Cngl
+21	CngA
+22	CngB
+23	Cam
+24	CG32683
+25	krz
