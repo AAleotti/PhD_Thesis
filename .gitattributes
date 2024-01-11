@@ -21,3 +21,4 @@ Supplementary_material_Chapter_3/Metacell_analyses/Dmel_Ozel2020/dmel/gstat.dmel
 Supplementary_material_Chapter_3/Metacell_analyses/Dmel_Ozel2020/dmel/mc.dmel_mc_f.Rda.gz filter=lfs diff=lfs merge=lfs -text
 Supplementary_material_Chapter_3/Metacell_analyses/Dmel_Ozel2020/dmel/coclust.dmel_coc100.Rda.gz filter=lfs diff=lfs merge=lfs -text
 Supplementary_material_Chapter_3/Metacell_analyses/Dmel_Ozel2020/dmel/mc2d.dmel_2dproj.Rda.gz filter=lfs diff=lfs merge=lfs -text
+Supplementary_material_Chapter_3/Metacell_analyses/Mmus_Macosko2015/mmus/coclust.mmus_coc1000.Rda.gz filter=lfs diff=lfs merge=lfs -text
