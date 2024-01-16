@@ -1,0 +1,1003 @@
+IQ-TREE multicore version 2.0.6 for Linux 64-bit built May 30 2020
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    node077 (AVX2, FMA3, 125 GB RAM)
+Command: iqtree2 -s AOX.fasta.cdhit.mafft.trimal -m MFP -B 1000 --alrt 1000 --abayes -T AUTO --prefix AOX.fasta.cdhit.mafft.trimal.UFB
+Seed:    159039 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Thu Jan  5 15:17:18 2023
+Kernel:  AVX+FMA - auto-detect threads (24 CPU cores detected)
+
+Reading alignment file AOX.fasta.cdhit.mafft.trimal ... Fasta format detected
+Alignment most likely contains protein sequences
+Alignment has 599 sequences with 1282 columns, 1282 distinct patterns
+1267 parsimony-informative, 13 singleton sites, 2 constant sites
+                                                                                                                              Gap/Ambiguity  Composition  p-value
+   1  MetazoaPlacozoaHoilungiahongkongensis_4546117__AOXA_HUMAN_Aldehyde_oxidase_OS_                                                 91.73%    passed     23.50%
+   2  MetazoaHemichordataSaccoglossuskowalevskii_4047438__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                               88.85%    passed      5.23%
+   3  MetazoaPoriferaAmphimedonqueenslandica_4706212__XDH_DROME_Xanthine_dehydrogenase_OS_                                           80.66%    failed      3.21%
+   4  MetazoaCephalochordataBranchiostomabelcheri_2818735__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                              84.32%    passed     36.98%
+   5  IchthyosporeaEP00123Amoebidiumparasiticum_14571151__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                               83.23%    passed     54.03%
+   6  MetazoaEchinodermataEP00057Strongylocentrotuspurpuratus_3824264__XDH_DROME_Xanthine_dehydrogenase_OS_                          55.46%    passed     76.68%
+   7  MetazoaEchinodermataEP00057Strongylocentrotuspurpuratus_3822883__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                  66.22%    passed     20.24%
+   8  MetazoaBryozoaBugulaneritina_1903165__XDH_CALVI_Xanthine_dehydrogenase_OS_                                                     90.48%    passed     92.50%
+   9  MetazoaBryozoaBugulaneritina_1688405__XDH_DROSU_Xanthine_dehydrogenase_OS_                                                     85.57%    passed     60.82%
+  10  MetazoaBryozoaBugulaneritina_2639065__XDH_DROSU_Xanthine_dehydrogenase_OS_                                                     78.47%    passed     26.95%
+  11  ChoanoflagellataEP00039Didymoecacostata_10853682__XDH_BOVIN_Xanthine_dehydrogenase_oxidase_OS_                                 73.40%    failed      1.76%
+  12  MetazoaCephalochordataBranchiostomabelcheri_2802928__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                              80.50%    passed     55.45%
+  13  MetazoaCephalochordataBranchiostomabelcheri_2802929__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                              52.18%    passed      7.00%
+  14  MetazoaCnidariaFungiascutaria_3186388__XDH_MOUSE_Xanthine_dehydrogenase_oxidase_OS_                                            68.64%    passed     71.58%
+  15  MetazoaPlacozoaHoilungiahongkongensis_4564740__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                    66.07%    passed     50.53%
+  16  MetazoaCnidariaGorgoniaventalina_3230866__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                         87.99%    passed     28.90%
+  17  MetazoaPoriferaLeucosoleniacomplicata_5040309__XDH_BOVIN_Xanthine_dehydrogenase_oxidase_OS_                                    88.07%    passed     62.32%
+  18  MetazoaCnidariaGorgoniaventalina_3210517__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                         59.36%    passed     26.68%
+  19  MetazoaCnidariaFungiascutaria_3204747__XDH_FELCA_Xanthine_dehydrogenase_oxidase_OS_                                            71.06%    passed     69.51%
+  20  MetazoaPoriferaHaliclonatubifera_4958559__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                         61.31%    passed     89.58%
+  21  MetazoaPoriferaStylissacarteri_5078247__XDH_HUMAN_Xanthine_dehydrogenase_oxidase_OS_                                           87.99%    passed     82.85%
+  22  RigifilidaEP00004Rigifilaramosa_23128428__XDH_MOUSE_Xanthine_dehydrogenase_oxidase_OS_                                         84.48%    failed      0.43%
+  23  MetazoaAnnelidaEP00103Capitellateleta_83813__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                      76.83%    passed     69.09%
+  24  MetazoaCnidariaMadracisauretenra_3288873__XDH_MOUSE_Xanthine_dehydrogenase_oxidase_OS_                                         67.94%    passed     67.72%
+  25  MetazoaCnidariaMadracisauretenra_3288874__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                         77.54%    passed     67.36%
+  26  MetazoaCnidariaMadracisauretenra_3288875__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                         81.83%    passed     82.27%
+  27  MetazoaCnidariaAstreoporasp_3033621__XDH_MOUSE_Xanthine_dehydrogenase_oxidase_OS_                                              90.56%    passed     47.88%
+  28  BreviataEP00033Pygsuiabiforma_5535656__XDH_FELCA_Xanthine_dehydrogenase_oxidase_OS_                                            62.95%    passed     24.95%
+  29  BreviataEP00033Pygsuiabiforma_5529074__XDH_DICDI_Xanthine_dehydrogenase_OS_                                                    75.51%    passed     66.64%
+  30  MetazoaPoriferaStylissacarteri_5077948__XDH_MOUSE_Xanthine_dehydrogenase_oxidase_OS_                                           66.38%    passed     80.17%
+  31  MetazoaPlacozoaHoilungiahongkongensis_4522446__XDH_BOVIN_Xanthine_dehydrogenase_oxidase_OS_                                    67.63%    passed     19.86%
+  32  MetazoaPlacozoaHoilungiahongkongensis_4522448__XDH_BOVIN_Xanthine_dehydrogenase_oxidase_OS_                                    76.13%    failed      2.76%
+  33  MetazoaPlacozoaHoilungiahongkongensis_4522449__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                    89.47%    passed     82.02%
+  34  MetazoaPlacozoaHoilungiahongkongensis_4522445__XDH_BOVIN_Xanthine_dehydrogenase_oxidase_OS_                                    73.40%    passed      8.47%
+  35  MetazoaCnidariaMontastraeacavernosa_3342246__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                      71.61%    passed     91.14%
+  36  MetazoaCnidariaAnthopleuraelegantissima_3001364__XDH_HUMAN_Xanthine_dehydrogenase_oxidase_OS_                                  79.33%    passed     27.70%
+  37  MetazoaCnidariaMontastraeacavernosa_3349040__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                      76.44%    passed     48.21%
+  38  RigifilidaEP00004Rigifilaramosa_23126863__XDH_DROME_Xanthine_dehydrogenase_OS_                                                 86.51%    passed     60.47%
+  39  MetazoaPlacozoaHoilungiahongkongensis_4552328__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                    84.56%    failed      0.77%
+  40  MetazoaPlacozoaHoilungiahongkongensis_4552329__XDH_BOVIN_Xanthine_dehydrogenase_oxidase_OS_                                    76.52%    failed      2.63%
+  41  MetazoaEchinodermataAcanthasterplanci_3785003__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                    30.03%    passed     96.28%
+  42  MetazoaPlacozoaEP00114TrichoplaxspH2_4504412__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                     37.36%    passed     39.79%
+  43  MetazoaPoriferaStylissacarteri_5078248__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                           75.98%    passed     54.88%
+  44  MetazoaCnidariaNematostellavectensis_3389413__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                     44.93%    passed     31.32%
+  45  MetazoaCnidariaNematostellavectensis_3390039__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                     82.92%    passed     44.38%
+  46  MetazoaPoriferaHaliclonatubifera_4955614__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                         36.90%    passed     90.37%
+  47  MetazoaPlacozoaHoilungiahongkongensis_4546116__XDH_BOVIN_Xanthine_dehydrogenase_oxidase_OS_                                    44.15%    failed      1.37%
+  48  RhodelphisEP00736Rhodelphismarinus_22806043__XDH_ORYSJ_Xanthine_dehydrogenase_OS_                                              36.66%    passed     10.78%
+  49  MetazoaCnidariaAureliaGenome_3048941__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                             56.86%    passed     77.20%
+  50  MetazoaCnidariaAureliaGenome_3052532__XDH_DROME_Xanthine_dehydrogenase_OS_                                                     64.27%    failed      0.21%
+  51  IchthyosporeaEP00126Sphaerothecumdestruens_14608276__XDH_HUMAN_Xanthine_dehydrogenase_oxidase_OS_                              59.44%    passed     70.75%
+  52  MetazoaCnidariaFungiascutaria_3189186__XDH_FELCA_Xanthine_dehydrogenase_oxidase_OS_                                            87.44%    failed      2.53%
+  53  MetazoaPoriferaStylissacarteri_5082310__XDH_DICDI_Xanthine_dehydrogenase_OS_                                                   81.75%    failed      0.02%
+  54  MetazoaCnidariaAnthopleuraelegantissima_2996010__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                  69.11%    passed     60.80%
+  55  BreviataEP00033Pygsuiabiforma_5529937__XDH_DICDI_Xanthine_dehydrogenase_OS_                                                    38.14%    passed     90.50%
+  56  MetazoaPoriferaLeucosoleniacomplicata_5019735__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                    83.07%    passed     87.74%
+  57  MetazoaEchinodermataEP00057Strongylocentrotuspurpuratus_3810528__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                  30.50%    passed     74.84%
+  58  MetazoaEchinodermataEP00057Strongylocentrotuspurpuratus_3816592__XDH_HUMAN_Xanthine_dehydrogenase_oxidase_OS_                  86.58%    passed     50.60%
+  59  MetazoaBryozoaBugulaneritina_1847046__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                             82.68%    passed     63.96%
+  60  HaptophytaEP00319Phaeocystisglobosa_14062895__XDH_ORYSJ_Xanthine_dehydrogenase_OS_                                             85.02%    failed      1.49%
+  61  RotosphaeridaEP00160Parvulariaatlantis_23163891__XDH_BOVIN_Xanthine_dehydrogenase_oxidase_OS_                                  90.41%    passed     70.06%
+  62  CentroplasthelidaEP00300ChoanocystisspHF7_5609595__XDH_ORYSJ_Xanthine_dehydrogenase_OS_                                        90.33%    passed     92.59%
+  63  CentroplasthelidaEP00300ChoanocystisspHF7_5620447__XDH_DROPS_Xanthine_dehydrogenase_OS_                                        90.64%    failed      0.11%
+  64  MetazoaAnnelidaEP00103Capitellateleta_76426__XDH_FELCA_Xanthine_dehydrogenase_oxidase_OS_                                      82.06%    passed     80.23%
+  65  MetazoaCnidariaAstreoporasp_3037233__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                              28.32%    passed     73.20%
+  66  ChoanoflagellataEP00039Didymoecacostata_10853684__XDH1_ARATH_Xanthine_dehydrogenase_1_OS_                                      67.86%    failed      1.05%
+  67  MetazoaBryozoaBugulaneritina_2760501__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                             86.58%    passed     93.28%
+  68  MetazoaCnidariaAstreoporasp_3035854__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                              84.87%    passed     72.11%
+  69  MetazoaCnidariaMontastraeacavernosa_3321076__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                      84.71%    passed     91.19%
+  70  MetazoaPoriferaHaliclonatubifera_4959058__XDH_DROPS_Xanthine_dehydrogenase_OS_                                                 69.81%    passed      6.52%
+  71  MetazoaPoriferaHaliclonatubifera_4956745__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                         25.74%    passed     46.61%
+  72  ApusomonadidaThecamonastrahensUP000054408_5484754__XDH_DICDI_Xanthine_dehydrogenase_OS_                                        26.83%    failed      0.00%
+  73  MetazoaCnidariaGorgoniaventalina_3222950__XDH_DROPS_Xanthine_dehydrogenase_OS_                                                 85.80%    passed     43.20%
+  74  MetazoaCnidariaGorgoniaventalina_3208439__IORA_BREDI_Isoquinoline_1-oxidoreductase_subunit_alpha_OS_                           88.69%    passed     30.67%
+  75  MetazoaVertebrateEptatretusburgeri_6402174__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                       42.12%    failed      1.94%
+  76  MetazoaPlacozoaEP00114TrichoplaxspH2_4513105__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                     17.08%    failed      0.01%
+  77  MetazoaPlacozoaEP00114TrichoplaxspH2_4504067__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                     74.65%    failed      4.97%
+  78  MetazoaHemichordataSaccoglossuskowalevskii_4068685__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                               44.46%    passed     18.65%
+  79  MetazoaPoriferaHaliclonatubifera_4954882__XDH_HUMAN_Xanthine_dehydrogenase_oxidase_OS_                                         76.68%    passed     30.45%
+  80  MetazoaCnidariaAnthopleuraelegantissima_3005267__XDH_DROME_Xanthine_dehydrogenase_OS_                                          90.87%    passed     31.51%
+  81  MetazoaPoriferaLeucosoleniacomplicata_5029574__XDH_DROME_Xanthine_dehydrogenase_OS_                                            92.28%    passed     75.13%
+  82  MetazoaHemichordataSaccoglossuskowalevskii_4047435__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                               53.20%    passed     42.81%
+  83  MetazoaCnidariaGorgoniaventalina_3218911__IORA_BREDI_Isoquinoline_1-oxidoreductase_subunit_alpha_OS_                           91.34%    passed     37.92%
+  84  MetazoaHemichordataSaccoglossuskowalevskii_4075561__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                               41.97%    passed     13.99%
+  85  MetazoaCnidariaAnthopleuraelegantissima_3005268__XDH_DROPS_Xanthine_dehydrogenase_OS_                                          91.50%    passed     68.40%
+  86  BreviataEP00033Pygsuiabiforma_5536529__AOXA_HUMAN_Aldehyde_oxidase_OS_                                                         87.05%    passed     28.41%
+  87  MetazoaCnidariaMontastraeacavernosa_3315369__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                      82.45%    passed     61.65%
+  88  MetazoaArthropodaEP00090Calanusglacialis_694497__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                  44.93%    passed     39.79%
+  89  MetazoaHemichordataSaccoglossuskowalevskii_4063707__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                3.51%    passed      7.38%
+  90  MetazoaArthropodaEP00090Calanusglacialis_689811__XDH_FELCA_Xanthine_dehydrogenase_oxidase_OS_                                  41.11%    passed     62.42%
+  91  ChoanoflagellataEP00047Mylnosigafluctuans_11124722__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                               12.01%    passed      5.61%
+  92  MetazoaCnidariaAureliaGenome_3065497__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                             24.34%    failed      3.74%
+  93  MetazoaCnidariaAureliaGenome_3054525__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                             50.94%    passed     34.97%
+  94  MetazoaCnidariaAureliaGenome_3065500__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                             72.54%    passed     38.91%
+  95  MetazoaCnidariaAureliaGenome_3065499__XDH_RAT_Xanthine_dehydrogenase_oxidase_OS_                                               81.98%    passed     56.44%
+  96  MetazoaCnidariaAureliaGenome_3054913__XDH_DROME_Xanthine_dehydrogenase_OS_                                                     93.99%    failed      4.30%
+  97  MetazoaCnidariaAureliaGenome_3069115__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                             45.63%    passed     27.98%
+  98  MetazoaCnidariaAureliaGenome_3070242__XDH_DROSU_Xanthine_dehydrogenase_OS_                                                     78.55%    passed     99.26%
+  99  MetazoaPoriferaEP00118Oscarellapearsei_4813767__XDH_BLAAD_Xanthine_dehydrogenase_OS_                                           94.23%    passed     59.60%
+ 100  MetazoaPoriferaHaliclonatubifera_4956171__XDH_MOUSE_Xanthine_dehydrogenase_oxidase_OS_                                         81.83%    passed     22.05%
+ 101  MetazoaBryozoaBugulaneritina_1394566__XDH1_ARATH_Xanthine_dehydrogenase_1_OS_                                                  90.48%    passed     88.64%
+ 102  MetazoaCnidariaAstreoporasp_3029642__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                              83.31%    passed      8.16%
+ 103  AlveolataEP00742ColponemidiaspColp10_4302356__IORA_BREDI_Isoquinoline_1-oxidoreductase_subunit_alpha_OS_                       91.03%    passed     20.49%
+ 104  HaptophytaEP00319Phaeocystisglobosa_14065297__XDH_DICDI_Xanthine_dehydrogenase_OS_                                              3.12%    passed     17.46%
+ 105  ChloroplastidaEP00738Chloropiconprimus_8599569__XDH_ORYSJ_Xanthine_dehydrogenase_OS_                                            2.50%    passed     11.19%
+ 106  MetazoaRotiferaBrachionusplicatilis_5268255__XDH_EMENI_Xanthine_dehydrogenase_OS_                                               2.50%    failed      0.00%
+ 107  HeteroloboseaEP00761Pharyngomonaskirbyi_14493340__XDH_DICDI_Xanthine_dehydrogenase_OS_                                          2.42%    passed     27.51%
+ 108  RhodophytaEP00185Porphyridiumpurpureum_23047616__XDH_ORYSJ_Xanthine_dehydrogenase_OS_                                           2.65%    failed      0.03%
+ 109  IchthyosporeaSphaeroformaarcticaUP000054560_14625514__XDH_DROME_Xanthine_dehydrogenase_OS_                                      0.86%    passed     14.60%
+ 110  ChoanoflagellataEP00050Salpingoecakvevrii_11207866__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                1.40%    passed     93.64%
+ 111  CryptophyceaeGuillardiathetaUP000011087_12255375__XDH_DICDI_Xanthine_dehydrogenase_OS_                                          1.72%    passed     62.42%
+ 112  FilastreaCapsasporaowczarzakiUP000008743_12982140__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                 0.86%    passed     40.13%
+ 113  MetazoaUrochordataOikopleuradioica_5356253__XDH_DROME_Xanthine_dehydrogenase_OS_                                                6.24%    failed      0.16%
+ 114  MetazoaUrochordataOikopleuradioica_5368637__XDH_DROSU_Xanthine_dehydrogenase_OS_                                                3.51%    passed     26.18%
+ 115  GlaucophytaEP00276Gloeochaetewittrockiana_13484661__XDH_ORYSJ_Xanthine_dehydrogenase_OS_                                        1.40%    passed     98.86%
+ 116  GlaucophytaEP00276Gloeochaetewittrockiana_13496209__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                2.89%    passed     71.32%
+ 117  ChoanoflagellataEP00045Choanoecaperplexa_11093621__XDH_DROPS_Xanthine_dehydrogenase_OS_                                         3.90%    failed      1.95%
+ 118  MetazoaCnidariaStylophorapistillata_3679240__XDH_HUMAN_Xanthine_dehydrogenase_oxidase_OS_                                      32.37%    passed     36.39%
+ 119  MetazoaHemichordataSaccoglossuskowalevskii_4075826__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                9.28%    passed     19.24%
+ 120  AmoebozoaEP00029Vermamoebavermiformis_5280559__XDH_DICDI_Xanthine_dehydrogenase_OS_                                            11.15%    passed     77.49%
+ 121  MetazoaAnnelidaEP00103Capitellateleta_71971__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                      34.17%    passed     12.96%
+ 122  MetazoaAnnelidaEP00103Capitellateleta_71027__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                      72.07%    passed     93.87%
+ 123  MetazoaBryozoaBugulaneritina_2585372__XDH_FELCA_Xanthine_dehydrogenase_oxidase_OS_                                             12.56%    passed     12.44%
+ 124  MetazoaBryozoaBugulaneritina_1401819__XDH_FELCA_Xanthine_dehydrogenase_oxidase_OS_                                             86.90%    passed     34.79%
+ 125  MetazoaBryozoaBugulaneritina_1833918__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                             84.01%    passed      6.03%
+ 126  MetazoaBryozoaBugulaneritina_2103690__XDH_HUMAN_Xanthine_dehydrogenase_oxidase_OS_                                             88.85%    passed     18.65%
+ 127  RhizariaEP00473Plasmodiophorabrassicae_22114628__XDH_DICDI_Xanthine_dehydrogenase_OS_                                           6.55%    failed      0.37%
+ 128  MetazoaBrachiopodaLingulaunguis_1290147__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                           5.15%    passed     95.41%
+ 129  IchthyosporeaEP00126Sphaerothecumdestruens_14608512__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                              43.76%    failed      0.42%
+ 130  IchthyosporeaEP00126Sphaerothecumdestruens_14608513__XDH_DROSU_Xanthine_dehydrogenase_OS_                                      76.60%    failed      0.02%
+ 131  MetazoaPoriferaLeucosoleniacomplicata_5014549__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                     9.91%    passed     81.84%
+ 132  MetazoaPoriferaLeucosoleniacomplicata_5015010__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                    18.41%    passed     90.32%
+ 133  MetazoaPoriferaLeucosoleniacomplicata_5034257__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                    63.65%    passed     87.43%
+ 134  FungiEP00150Ustilagomaydis_13254205__XDH_EMENI_Xanthine_dehydrogenase_OS_                                                       2.96%    passed     76.79%
+ 135  AmoebozoaEP00007CuneaspBSH02190019_4975378__XDH_DICDI_Xanthine_dehydrogenase_OS_                                                3.67%    failed      0.00%
+ 136  MetazoaCephalochordataBranchiostomabelcheri_2799265__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                              71.92%    passed     10.05%
+ 137  MetazoaCephalochordataBranchiostomabelcheri_2799279__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                               0.70%    passed     30.90%
+ 138  MetazoaCephalochordataBranchiostomabelcheri_2799328__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                              32.14%    passed     20.92%
+ 139  MetazoaCephalochordataBranchiostomabelcheri_2818712__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                              40.33%    passed     31.60%
+ 140  MetazoaCephalochordataBranchiostomabelcheri_2818713__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                              39.94%    passed     30.33%
+ 141  MetazoaCephalochordataBranchiostomabelcheri_2818717__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                              78.63%    passed     89.71%
+ 142  MetazoaEchinodermataAcanthasterplanci_3784972__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                     4.60%    passed     97.86%
+ 143  StramenopilesPhytophthorainfestansUP000006643_26369483__XDH1_ARATH_Xanthine_dehydrogenase_1_OS_                                 1.09%    passed     81.53%
+ 144  MetazoaNematodaCaenorhabditiselegans_4310229__XDH_DROME_Xanthine_dehydrogenase_OS_                                              2.42%    failed      2.27%
+ 145  CryptophyceaeEP00290BaffinellaspCCMP2293_12037386__XDH_DICDI_Xanthine_dehydrogenase_OS_                                         1.79%    passed     38.65%
+ 146  StramenopilesEP00652Aphanomycesastaci_26152345__XDH_ORYSJ_Xanthine_dehydrogenase_OS_                                            2.11%    failed      0.00%
+ 147  ChoanoflagellataEP00039Didymoecacostata_10878228__XDH_BOVIN_Xanthine_dehydrogenase_oxidase_OS_                                  2.26%    passed     87.48%
+ 148  FungiFusariumoxysporumUP000002489_13362804__XDH_EMENI_Xanthine_dehydrogenase_OS_                                                2.42%    passed     41.78%
+ 149  FungiMortierellaelongataUP000078512_13383811__XDH_EMENI_Xanthine_dehydrogenase_OS_                                              2.50%    passed     71.15%
+ 150  FungiFusariumoxysporumUP000002489_13365322__HXNS_EMENI_Nicotinate_hydroxylase_hnxS_OS_                                          6.86%    passed     76.43%
+ 151  MetazoaEchinodermataAcanthasterplanci_3782047__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                     7.49%    passed     82.27%
+ 152  MetazoaEchinodermataEP00057Strongylocentrotuspurpuratus_3816591__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                  79.41%    passed     93.63%
+ 153  MetazoaAnnelidaHelobdellarobusta_106480__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                           3.12%    failed      2.85%
+ 154  MetazoaCnidariaStylophorapistillata_3680237__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                       6.79%    passed     22.69%
+ 155  MetazoaPoriferaEphydatiamuelleri_4930563__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                          1.17%    passed     27.44%
+ 156  MetazoaUrochordataEP00059Cionaintestinalis_5342474__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                1.95%    passed     92.03%
+ 157  MetazoaArthropodaDaphniapulex_216407__XDH_DROPS_Xanthine_dehydrogenase_OS_                                                      0.55%    passed      5.39%
+ 158  AlveolataEP00742ColponemidiaspColp10_4275389__XDH_ORYSJ_Xanthine_dehydrogenase_OS_                                              0.86%    passed     97.22%
+ 159  MetazoaUrochordataEP00059Cionaintestinalis_5348981__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                2.11%    passed     49.27%
+ 160  MetazoaPlacozoaEP00114TrichoplaxspH2_4512500__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                      2.50%    failed      0.14%
+ 161  MetazoaBrachiopodaLingulaunguis_1291571__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                           0.94%    passed     98.41%
+ 162  MetazoaVertebrateDaniorerio_5415369__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                               0.55%    passed     98.83%
+ 163  HaptophytaEP00327Prymnesiumparvum_14299081__XDH1_ARATH_Xanthine_dehydrogenase_1_OS_                                             1.40%    failed      0.00%
+ 164  HaptophytaEP00327Prymnesiumparvum_14278535__XDH1_ARATH_Xanthine_dehydrogenase_1_OS_                                            46.57%    failed      0.06%
+ 165  MalawimonadidaeEP00698Gefionellaokellyi_14704124__XDH_BOVIN_Xanthine_dehydrogenase_oxidase_OS_                                  1.72%    passed     26.27%
+ 166  MetazoaPoriferaLeucosoleniacomplicata_5001999__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                     1.09%    passed     85.53%
+ 167  MetazoaVertebrateDaniorerio_5424791__AOXA_BOVIN_Aldehyde_oxidase_1_OS_                                                          1.33%    passed     68.33%
+ 168  MetazoaVertebrateDaniorerio_5430074__AOXB_MACFA_Aldehyde_oxidase_2_OS_                                                          1.25%    passed     11.05%
+ 169  MetazoaBrachiopodaLingulaunguis_1303966__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                           1.64%    passed     57.32%
+ 170  MetazoaBrachiopodaLingulaunguis_1303971__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                          33.23%    passed     62.36%
+ 171  MetazoaBrachiopodaLingulaunguis_1304130__XDH_MOUSE_Xanthine_dehydrogenase_oxidase_OS_                                           5.62%    passed     73.02%
+ 172  MetazoaBrachiopodaLingulaunguis_1292774__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                          81.51%    passed     62.11%
+ 173  MetazoaBrachiopodaLingulaunguis_1281497__XDH_FELCA_Xanthine_dehydrogenase_oxidase_OS_                                           5.77%    passed     55.10%
+ 174  MetazoaBrachiopodaLingulaunguis_1280979__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                           5.93%    passed     75.42%
+ 175  ChloroplastidaArabidopsisthalianaUP000006548_5868668__XDH2_ARATH_Xanthine_dehydrogenase_2_OS_                                   2.03%    passed     20.96%
+ 176  MetazoaCnidariaAnthopleuraelegantissima_3005265__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                   0.70%    passed     93.12%
+ 177  MetazoaCnidariaAnthopleuraelegantissima_3005266__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                  70.28%    passed     96.33%
+ 178  MetazoaVertebrateMusmusculus_6530287__AOXC_MOUSE_Aldehyde_oxidase_3_OS_                                                         1.17%    passed     70.34%
+ 179  MetazoaVertebrateMusmusculus_6531291__AOXA_MOUSE_Aldehyde_oxidase_1_OS_                                                         1.40%    passed     14.96%
+ 180  ChloroplastidaChlamydomonasreinhardtiiUP000006906_6357777__XDH_ORYSJ_Xanthine_dehydrogenase_OS_                                 1.72%    failed      0.00%
+ 181  MetazoaVertebrateMusmusculus_6534822__XDH_MOUSE_Xanthine_dehydrogenase_oxidase_OS_                                              1.40%    passed     40.17%
+ 182  MetazoaVertebrateMusmusculus_6535654__AOXD_MOUSE_Aldehyde_oxidase_4_OS_                                                         1.17%    passed      8.83%
+ 183  ChloroplastidaArabidopsisthalianaUP000006548_5876638__XDH1_ARATH_Xanthine_dehydrogenase_1_OS_                                   1.79%    passed     29.89%
+ 184  MetazoaVertebrateMusmusculus_6536845__AOXB_MOUSE_Aldehyde_oxidase_2_OS_                                                         1.17%    passed     24.93%
+ 185  MetazoaVertebrateHomosapiens_6456402__XDH_HUMAN_Xanthine_dehydrogenase_oxidase_OS_                                              1.40%    passed     48.09%
+ 186  MetazoaVertebrateHomosapiens_6457913__AOXA_HUMAN_Aldehyde_oxidase_OS_                                                           1.25%    passed      6.80%
+ 187  ChoanoflagellataEP00040Diaphanoecagrandis_10905351__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                2.57%    passed     80.77%
+ 188  MetazoaArthropodaDrosophilamelanogaster_243202__XDH_DROME_Xanthine_dehydrogenase_OS_                                            0.70%    passed     12.82%
+ 189  ChoanoflagellataEP00035Acanthoecaspectabilis_10753053__XDH_HUMAN_Xanthine_dehydrogenase_oxidase_OS_                             2.42%    failed      1.89%
+ 190  MetazoaPlacozoaHoilungiahongkongensis_4543177__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                    44.23%    passed     15.79%
+ 191  MetazoaPlacozoaHoilungiahongkongensis_4543179__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                    59.44%    failed      4.76%
+ 192  MetazoaPlacozoaHoilungiahongkongensis_4543180__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                     5.69%    passed      7.95%
+ 193  MetazoaPlacozoaHoilungiahongkongensis_4543181__XDH_DROME_Xanthine_dehydrogenase_OS_                                            85.26%    passed     11.84%
+ 194  MetazoaPlacozoaHoilungiahongkongensis_4543182__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                     1.25%    passed      5.23%
+ 195  MetazoaPlacozoaHoilungiahongkongensis_4543183__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                    59.44%    failed      3.24%
+ 196  MetazoaPlacozoaHoilungiahongkongensis_4543184__XDH_FELCA_Xanthine_dehydrogenase_oxidase_OS_                                    71.06%    passed     24.67%
+ 197  MetazoaPlacozoaHoilungiahongkongensis_4543170__XDH_FELCA_Xanthine_dehydrogenase_oxidase_OS_                                    69.19%    passed     23.94%
+ 198  MetazoaPlacozoaHoilungiahongkongensis_4543171__XDH_DROME_Xanthine_dehydrogenase_OS_                                            85.26%    passed     11.95%
+ 199  MetazoaPlacozoaHoilungiahongkongensis_4543172__AOXB_MACFA_Aldehyde_oxidase_2_OS_                                               86.97%    passed     29.74%
+ 200  MetazoaPlacozoaHoilungiahongkongensis_4543174__XDH_FELCA_Xanthine_dehydrogenase_oxidase_OS_                                    56.86%    passed     36.55%
+ 201  AmoebozoaDictyosteliumdiscoideumUP000002195_4926538__XDH_DICDI_Xanthine_dehydrogenase_OS_                                       5.85%    failed      4.92%
+ 202  ChoanoflagellataEP00037Helgoecanana_10815752__XDH_HUMAN_Xanthine_dehydrogenase_oxidase_OS_                                      2.18%    failed      0.02%
+ 203  MetazoaMolluscaLottiagigantea_4204142__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                             1.48%    failed      0.16%
+ 204  MetazoaAnnelidaEP00103Capitellateleta_79564__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                       1.56%    passed     98.42%
+ 205  MetazoaPlacozoaHoilungiahongkongensis_4574136__XDH_BOVIN_Xanthine_dehydrogenase_oxidase_OS_                                    70.98%    failed      3.45%
+ 206  MetazoaPlacozoaHoilungiahongkongensis_4574137__XDH_FELCA_Xanthine_dehydrogenase_oxidase_OS_                                    90.87%    passed     53.86%
+ 207  MetazoaPlacozoaHoilungiahongkongensis_4574142__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                    11.31%    passed      5.30%
+ 208  MetazoaPlacozoaHoilungiahongkongensis_4574144__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                     1.09%    failed      2.53%
+ 209  MetazoaMolluscaLottiagigantea_4220357__XDH_DROME_Xanthine_dehydrogenase_OS_                                                     1.72%    failed      4.79%
+ 210  MetazoaMolluscaLottiagigantea_4209337__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                             1.72%    passed     10.80%
+ 211  MetazoaAnnelidaEP00103Capitellateleta_83280__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                       5.23%    passed     79.56%
+ 212  MetazoaAnnelidaEP00103Capitellateleta_77349__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                      55.07%    passed     99.96%
+ 213  MetazoaHemichordataSaccoglossuskowalevskii_4075689__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                2.03%    passed     36.25%
+ 214  MetazoaCnidariaFungiascutaria_3206845__XDH_DROSU_Xanthine_dehydrogenase_OS_                                                    92.36%    passed     58.48%
+ 215  MetazoaCnidariaFungiascutaria_3198680__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                             0.39%    passed     26.67%
+ 216  MetazoaMolluscaLottiagigantea_4223092__XDH_DROME_Xanthine_dehydrogenase_OS_                                                     3.28%    failed      0.49%
+ 217  MetazoaCnidariaPoritesaustraliensis_3548784__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                       0.39%    passed     64.81%
+ 218  MetazoaPoriferaSyconciliatum_5138187__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                              4.99%    passed     88.92%
+ 219  MetazoaPoriferaSyconciliatum_5138480__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                             36.58%    passed     31.41%
+ 220  MetazoaPoriferaSyconciliatum_5139407__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                             14.51%    passed     34.30%
+ 221  MetazoaPoriferaSyconciliatum_5140340__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                             14.59%    passed     57.40%
+ 222  MetazoaPoriferaSyconciliatum_5142229__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                             56.86%    passed     97.89%
+ 223  MetazoaPoriferaSyconciliatum_5115502__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                             14.51%    passed     40.94%
+ 224  MetazoaPoriferaSyconciliatum_5143188__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                              0.86%    passed     77.37%
+ 225  MetazoaPoriferaSyconciliatum_5144080__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                             14.51%    passed     30.88%
+ 226  MetazoaPoriferaSyconciliatum_5117674__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                              0.86%    passed     65.03%
+ 227  MetazoaPoriferaSyconciliatum_5144929__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                             18.72%    passed     71.04%
+ 228  MetazoaPoriferaSyconciliatum_5118907__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                             14.59%    passed     62.87%
+ 229  MetazoaPoriferaSyconciliatum_5145157__XDH_DROME_Xanthine_dehydrogenase_OS_                                                     22.93%    passed     65.89%
+ 230  MetazoaPoriferaSyconciliatum_5145306__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                              5.07%    passed     79.17%
+ 231  MetazoaPoriferaSyconciliatum_5145471__XDH_FELCA_Xanthine_dehydrogenase_oxidase_OS_                                             56.86%    passed     63.52%
+ 232  MetazoaPoriferaSyconciliatum_5118815__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                             14.59%    passed     57.94%
+ 233  MetazoaPoriferaSyconciliatum_5120708__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                              0.86%    passed     76.19%
+ 234  MetazoaPoriferaSyconciliatum_5146365__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                              0.86%    passed     82.61%
+ 235  MetazoaPoriferaSyconciliatum_5146719__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                             51.87%    passed     88.40%
+ 236  MetazoaPoriferaSyconciliatum_5122172__XDH_FELCA_Xanthine_dehydrogenase_oxidase_OS_                                             61.00%    passed     98.93%
+ 237  MetazoaPoriferaSyconciliatum_5148142__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                              4.99%    passed     84.91%
+ 238  MetazoaPoriferaSyconciliatum_5148393__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                              5.07%    passed     84.09%
+ 239  MetazoaPoriferaSyconciliatum_5122857__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                             18.64%    passed     52.93%
+ 240  MetazoaPoriferaSyconciliatum_5122533__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                              0.94%    passed     85.71%
+ 241  MetazoaPoriferaSyconciliatum_5123331__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                              0.86%    passed     72.29%
+ 242  MetazoaPoriferaSyconciliatum_5123412__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                             22.93%    passed     54.65%
+ 243  MetazoaPoriferaSyconciliatum_5124641__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                              0.86%    passed     63.66%
+ 244  MetazoaPoriferaSyconciliatum_5125292__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                              0.94%    passed     81.26%
+ 245  MetazoaPoriferaSyconciliatum_5102573__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                             73.95%    passed     75.09%
+ 246  MetazoaPoriferaSyconciliatum_5103030__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                             22.93%    passed     63.78%
+ 247  MetazoaPoriferaSyconciliatum_5103244__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                              4.99%    passed     73.70%
+ 248  MetazoaPoriferaSyconciliatum_5128810__XDH_FELCA_Xanthine_dehydrogenase_oxidase_OS_                                             56.01%    passed     91.91%
+ 249  MetazoaPoriferaSyconciliatum_5129063__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                              5.07%    passed     94.15%
+ 250  MetazoaPoriferaSyconciliatum_5129192__XDH_DROME_Xanthine_dehydrogenase_OS_                                                     22.93%    passed     73.89%
+ 251  MetazoaPoriferaSyconciliatum_5103788__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                             18.64%    passed     52.03%
+ 252  MetazoaPoriferaSyconciliatum_5130575__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                             51.87%    passed     66.84%
+ 253  MetazoaPoriferaSyconciliatum_5131871__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                              0.94%    passed     75.67%
+ 254  MetazoaPoriferaSyconciliatum_5106324__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                             18.72%    passed     78.08%
+ 255  MetazoaPoriferaSyconciliatum_5132763__XDH_FELCA_Xanthine_dehydrogenase_oxidase_OS_                                             78.94%    passed     72.30%
+ 256  MetazoaPoriferaSyconciliatum_5133897__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                             14.59%    passed     55.48%
+ 257  MetazoaPoriferaSyconciliatum_5108493__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                              5.07%    passed     91.53%
+ 258  MetazoaPoriferaSyconciliatum_5134048__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                              0.86%    passed     73.02%
+ 259  MetazoaPoriferaSyconciliatum_5109030__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                             14.51%    passed     37.70%
+ 260  MetazoaPoriferaSyconciliatum_5109300__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                              0.94%    passed     89.59%
+ 261  MetazoaPoriferaSyconciliatum_5109792__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                              0.86%    passed     69.77%
+ 262  MetazoaPoriferaSyconciliatum_5134894__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                              4.99%    passed     79.50%
+ 263  MetazoaPoriferaSyconciliatum_5112122__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                             36.58%    passed     35.59%
+ 264  ChloroplastidaEP00248Marchantiapolymorpha_7477283__XDH1_ARATH_Xanthine_dehydrogenase_1_OS_                                      1.33%    passed     29.37%
+ 265  MetazoaCnidariaAcroporadigitifera_2926996__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                        59.52%    passed     80.40%
+ 266  MetazoaCnidariaAcroporadigitifera_2928094__XDH_CALVI_Xanthine_dehydrogenase_OS_                                                52.89%    passed     34.10%
+ 267  MetazoaCnidariaAcroporadigitifera_2934261__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                        14.59%    passed     59.17%
+ 268  MetazoaAnnelidaHelobdellarobusta_86313__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                            3.51%    passed      6.97%
+ 269  MetazoaEchinodermataEP00057Strongylocentrotuspurpuratus_3813041__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                  45.79%    passed     56.10%
+ 270  MetazoaEchinodermataEP00057Strongylocentrotuspurpuratus_3826255__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                   0.62%    passed     29.76%
+ 271  MetazoaArthropodaEP00090Calanusglacialis_694686__XDH_DROPS_Xanthine_dehydrogenase_OS_                                           1.95%    passed     54.77%
+ 272  MetazoaArthropodaEP00090Calanusglacialis_694685__XDH_DROPS_Xanthine_dehydrogenase_OS_                                           1.95%    passed     50.67%
+ 273  MetazoaEchinodermataAcanthasterplanci_3789964__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                    12.79%    passed     91.22%
+ 274  RhodophytaGaldieriasulphurariaUP000030680_23112863__XDH1_ARATH_Xanthine_dehydrogenase_1_OS_                                    25.04%    failed      2.33%
+ 275  MetazoaPoriferaAmphimedonqueenslandica_4676751__XDH_CALVI_Xanthine_dehydrogenase_OS_                                           89.08%    passed     91.16%
+ 276  MetazoaPoriferaAmphimedonqueenslandica_4710508__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                    1.64%    failed      2.12%
+ 277  MetazoaCnidariaStylophorapistillata_3680544__XDH_FELCA_Xanthine_dehydrogenase_oxidase_OS_                                      17.63%    passed     99.69%
+ 278  MetazoaEchinodermataAcanthasterplanci_3789971__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                     8.97%    passed     84.23%
+ 279  MetazoaBrachiopodaLingulaunguis_1298116__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                           0.39%    passed     94.65%
+ 280  MetazoaBrachiopodaLingulaunguis_1282531__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                           0.39%    passed     91.32%
+ 281  MetazoaPlacozoaEP00114TrichoplaxspH2_4513106__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                      7.80%    passed     21.19%
+ 282  TelonemiaP00656Telonemasubtile_26558624__XDH_RAT_Xanthine_dehydrogenase_oxidase_OS_                                             2.73%    failed      0.05%
+ 283  MetazoaCnidariaMontastraeacavernosa_3342245__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                      28.00%    passed     26.89%
+ 284  MetazoaPoriferaAmphimedonqueenslandica_4702355__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                    1.48%    passed     52.83%
+ 285  MetazoaPlacozoaEP00114TrichoplaxspH2_4513108__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                      6.16%    failed      0.00%
+ 286  MetazoaCnidariaNematostellavectensis_3389496__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                     12.25%    passed     98.31%
+ 287  MetazoaEchinodermataEP00057Strongylocentrotuspurpuratus_3809969__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                   2.73%    passed     31.94%
+ 288  CentroplasthelidaEP00300ChoanocystisspHF7_5609592__XDH1_ARATH_Xanthine_dehydrogenase_1_OS_                                     21.61%    passed      6.30%
+ 289  CentroplasthelidaEP00300ChoanocystisspHF7_5609594__XDH_ORYSJ_Xanthine_dehydrogenase_OS_                                        13.42%    failed      3.99%
+ 290  CentroplasthelidaEP00300ChoanocystisspHF7_5612748__XDH_ORYSJ_Xanthine_dehydrogenase_OS_                                        17.47%    passed     22.48%
+ 291  MetazoaMolluscaLottiagigantea_4214867__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                            19.27%    failed      0.64%
+ 292  MetazoaMolluscaLottiagigantea_4205165__XDH_FELCA_Xanthine_dehydrogenase_oxidase_OS_                                            52.18%    passed     20.09%
+ 293  MetazoaCnidariaMadracisauretenra_3286028__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                         53.90%    passed     42.39%
+ 294  MetazoaHemichordataSaccoglossuskowalevskii_4075679__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                7.96%    passed     10.73%
+ 295  MetazoaHemichordataSaccoglossuskowalevskii_4076251__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                8.50%    passed      5.38%
+ 296  TelonemiaP00656Telonemasubtile_26543356__XDH_DICDI_Xanthine_dehydrogenase_OS_                                                  81.98%    passed     33.33%
+ 297  MetazoaBrachiopodaLingulaunguis_1283314__XDH_BOVIN_Xanthine_dehydrogenase_oxidase_OS_                                           2.03%    passed     91.68%
+ 298  MetazoaCnidariaAureliaGenome_3065498__XDH_DROME_Xanthine_dehydrogenase_OS_                                                     90.64%    passed     28.94%
+ 299  MetazoaBryozoaBugulaneritina_2639558__XDH_RAT_Xanthine_dehydrogenase_oxidase_OS_                                               89.08%    passed     72.29%
+ 300  MetazoaBryozoaBugulaneritina_2744344__XDH_DROME_Xanthine_dehydrogenase_OS_                                                     86.74%    passed      6.93%
+ 301  MetazoaBryozoaBugulaneritina_2484340__XDH_CALVI_Xanthine_dehydrogenase_OS_                                                     83.23%    passed     21.12%
+ 302  MetazoaBryozoaBugulaneritina_2098316__XDH_DROME_Xanthine_dehydrogenase_OS_                                                     80.73%    failed      4.66%
+ 303  MetazoaPoriferaAmphimedonqueenslandica_4706207__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                    3.90%    failed      1.81%
+ 304  MetazoaVertebrateEptatretusburgeri_6404541__XDH_DROPS_Xanthine_dehydrogenase_OS_                                               79.41%    failed      0.31%
+ 305  ChloroplastidaEP00248Marchantiapolymorpha_7476499__XDH1_ARATH_Xanthine_dehydrogenase_1_OS_                                     78.00%    passed     76.87%
+ 306  MetazoaNematodaCaenorhabditiselegans_4321109__GAD3_CAEEL_Probable_aldehyde_oxidase_gad-3_OS_                                   10.22%    failed      0.22%
+ 307  BreviataEP00033Pygsuiabiforma_5528439__XDH_DICDI_Xanthine_dehydrogenase_OS_                                                    25.74%    failed      0.94%
+ 308  MetazoaEchinodermataAcanthasterplanci_3784962__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                    80.66%    passed     68.81%
+ 309  ChoanoflagellataEP00047Mylnosigafluctuans_11124723__XDH_FELCA_Xanthine_dehydrogenase_oxidase_OS_                               88.30%    passed     35.06%
+ 310  MetazoaPlacozoaEP00114TrichoplaxspH2_4504278__XDH_DROSU_Xanthine_dehydrogenase_OS_                                             86.97%    failed      4.81%
+ 311  MetazoaPlacozoaHoilungiahongkongensis_4522439__XDH_BOVIN_Xanthine_dehydrogenase_oxidase_OS_                                    61.93%    failed      0.07%
+ 312  MetazoaPlacozoaHoilungiahongkongensis_4522440__XDH_DROME_Xanthine_dehydrogenase_OS_                                            80.27%    passed      8.71%
+ 313  MetazoaPlacozoaHoilungiahongkongensis_4522441__AOXA_MOUSE_Aldehyde_oxidase_1_OS_                                               90.95%    passed     12.18%
+ 314  MetazoaPlacozoaHoilungiahongkongensis_4522433__AOXA_MOUSE_Aldehyde_oxidase_1_OS_                                               64.27%    failed      0.96%
+ 315  MetazoaPlacozoaHoilungiahongkongensis_4522434__AOXA_MOUSE_Aldehyde_oxidase_1_OS_                                               91.03%    passed     15.23%
+ 316  MetazoaPlacozoaHoilungiahongkongensis_4522435__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                    74.41%    failed      4.52%
+ 317  MetazoaPlacozoaHoilungiahongkongensis_4522436__XDH_BOVIN_Xanthine_dehydrogenase_oxidase_OS_                                    46.65%    failed      0.00%
+ 318  MetazoaPlacozoaHoilungiahongkongensis_4522437__XDH_DICDI_Xanthine_dehydrogenase_OS_                                            87.05%    passed     28.66%
+ 319  MetazoaCnidariaNematostellavectensis_3391000__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                     63.81%    passed     46.11%
+ 320  MetazoaEchinodermataEP00057Strongylocentrotuspurpuratus_3816709__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                  75.98%    passed     67.38%
+ 321  MetazoaNematodaCaenorhabditiselegans_4311510__GAD3_CAEEL_Probable_aldehyde_oxidase_gad-3_OS_                                   10.14%    failed      1.37%
+ 322  MetazoaArthropodaEP00090Calanusglacialis_697177__XDH_DROME_Xanthine_dehydrogenase_OS_                                           9.91%    passed     36.96%
+ 323  ChoanoflagellataEP00035Acanthoecaspectabilis_10746163__XDH_DROSU_Xanthine_dehydrogenase_OS_                                     6.01%    failed      0.00%
+ 324  ChoanoflagellataEP00037Helgoecanana_10796433__XDH_DROPS_Xanthine_dehydrogenase_OS_                                              4.06%    failed      0.00%
+ 325  ChoanoflagellataEP00037Helgoecanana_10796436__AOXB_MOUSE_Aldehyde_oxidase_2_OS_                                                83.15%    failed      0.01%
+ 326  MetazoaArthropodaEP00090Calanusglacialis_684986__XDH_BOVIN_Xanthine_dehydrogenase_oxidase_OS_                                  12.09%    passed      6.02%
+ 327  RhodelphisEP00736Rhodelphismarinus_22806044__XDH_DICDI_Xanthine_dehydrogenase_OS_                                              60.84%    passed     12.07%
+ 328  MetazoaCnidariaMadracisauretenra_3286751__XDH_DROME_Xanthine_dehydrogenase_OS_                                                 84.17%    failed      0.04%
+ 329  CentroplasthelidaEP00300ChoanocystisspHF7_5612749__XDH_DICDI_Xanthine_dehydrogenase_OS_                                        91.58%    passed     84.63%
+ 330  MetazoaCnidariaAureliaGenome_3052531__XDH_DROPS_Xanthine_dehydrogenase_OS_                                                     59.13%    passed     31.84%
+ 331  MetazoaHemichordataSaccoglossuskowalevskii_4059668__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                               23.87%    failed      1.22%
+ 332  MetazoaHemichordataSaccoglossuskowalevskii_4059674__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                               23.87%    failed      2.46%
+ 333  MetazoaHemichordataSaccoglossuskowalevskii_4059677__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                               24.02%    failed      2.74%
+ 334  MetazoaHemichordataSaccoglossuskowalevskii_4059685__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                               35.73%    passed     57.43%
+ 335  MetazoaHemichordataSaccoglossuskowalevskii_4047783__XDH_CALVI_Xanthine_dehydrogenase_OS_                                       89.55%    passed     56.49%
+ 336  TelonemiaP00656Telonemasubtile_26518420__XDH_ORYSJ_Xanthine_dehydrogenase_OS_                                                  74.18%    failed      2.02%
+ 337  MetazoaPlacozoaHoilungiahongkongensis_4522447__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                    88.61%    passed     95.04%
+ 338  MetazoaPoriferaHaliclonatubifera_4951730__XDH_DROPS_Xanthine_dehydrogenase_OS_                                                 90.72%    passed     35.96%
+ 339  MetazoaPoriferaHaliclonatubifera_4964560__XDH_DROME_Xanthine_dehydrogenase_OS_                                                 58.27%    failed      1.10%
+ 340  MetazoaPlacozoaHoilungiahongkongensis_4522442__AOXC_MOUSE_Aldehyde_oxidase_3_OS_                                               89.47%    failed      4.34%
+ 341  MetazoaPlacozoaHoilungiahongkongensis_4522444__AOXC_MOUSE_Aldehyde_oxidase_3_OS_                                               82.53%    passed     23.77%
+ 342  ChoanoflagellataEP00035Acanthoecaspectabilis_10748200__IORA_BREDI_Isoquinoline_1-oxidoreductase_subunit_alpha_OS_              88.46%    passed     62.09%
+ 343  MetazoaEchinodermataAcanthasterplanci_3784998__XDH_FELCA_Xanthine_dehydrogenase_oxidase_OS_                                    84.17%    failed      0.70%
+ 344  MetazoaPoriferaStylissacarteri_5078246__XDH_DROSU_Xanthine_dehydrogenase_OS_                                                   91.97%    passed     22.13%
+ 345  MetazoaPoriferaLeucosoleniacomplicata_5056660__XDH_DROME_Xanthine_dehydrogenase_OS_                                            89.24%    passed     27.49%
+ 346  MetazoaPoriferaLeucosoleniacomplicata_5017632__XDH_DROME_Xanthine_dehydrogenase_OS_                                            89.24%    passed     19.48%
+ 347  MetazoaPoriferaLeucosoleniacomplicata_4988443__XDH_DROME_Xanthine_dehydrogenase_OS_                                            89.24%    passed     32.30%
+ 348  MetazoaCnidariaGorgoniaventalina_3214886__AOXD_RAT_Aldehyde_oxidase_4_OS_                                                      91.19%    passed     47.74%
+ 349  MetazoaCnidariaAnthopleuraelegantissima_3002274__XDH_DROSU_Xanthine_dehydrogenase_OS_                                          84.71%    passed     10.63%
+ 350  MetazoaArthropodaEP00090Calanusglacialis_714767__AOXC_MOUSE_Aldehyde_oxidase_3_OS_                                             86.74%    passed      6.49%
+ 351  ChoanoflagellataEP00039Didymoecacostata_10853683__XDH_DICDI_Xanthine_dehydrogenase_OS_                                         62.79%    passed      6.90%
+ 352  MetazoaCnidariaAnthopleuraelegantissima_3003292__XDH1_ARATH_Xanthine_dehydrogenase_1_OS_                                       90.56%    passed     83.79%
+ 353  MetazoaPlacozoaHoilungiahongkongensis_4528267__XDH_CALVI_Xanthine_dehydrogenase_OS_                                            91.73%    passed     40.05%
+ 354  RigifilidaEP00004Rigifilaramosa_23146171__IORA_BREDI_Isoquinoline_1-oxidoreductase_subunit_alpha_OS_                           87.68%    passed      7.07%
+ 355  MetazoaCnidariaMadracisauretenra_3279928__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                         90.41%    passed     65.50%
+ 356  MetazoaAnnelidaEP00103Capitellateleta_77348__XDH_DROSU_Xanthine_dehydrogenase_OS_                                              96.10%    passed     85.78%
+ 357  MetazoaPoriferaLeucosoleniacomplicata_4996520__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                    90.48%    passed     28.13%
+ 358  MetazoaBryozoaBugulaneritina_1305524__XDH_DROME_Xanthine_dehydrogenase_OS_                                                     95.87%    passed     60.81%
+ 359  BreviataEP00033Pygsuiabiforma_5533702__XDH_DICDI_Xanthine_dehydrogenase_OS_                                                    54.45%    passed      7.97%
+ 360  MetazoaPoriferaHaliclonatubifera_4956535__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                         85.49%    passed     58.17%
+ 361  MetazoaPoriferaLeucosoleniacomplicata_4969974__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                    91.42%    passed     58.74%
+ 362  MetazoaCnidariaMontastraeacavernosa_3341101__AOXB_MACFA_Aldehyde_oxidase_2_OS_                                                 90.33%    passed     28.31%
+ 363  MetazoaPoriferaHaliclonatubifera_4956744__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                         78.78%    passed     72.50%
+ 364  MetazoaPoriferaHaliclonatubifera_4960201__XDH_DROSU_Xanthine_dehydrogenase_OS_                                                 89.63%    passed     44.22%
+ 365  MetazoaCnidariaNematostellavectensis_3390999__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                     92.12%    passed     90.15%
+ 366  TelonemiaP00656Telonemasubtile_26518506__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                          87.68%    passed     99.52%
+ 367  MetazoaCnidariaFungiascutaria_3190924__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                            91.03%    passed     43.06%
+ 368  MetazoaEchinodermataEP00057Strongylocentrotuspurpuratus_3802507__XDH_DROME_Xanthine_dehydrogenase_OS_                          91.26%    passed      5.26%
+ 369  MetazoaPlacozoaHoilungiahongkongensis_4574891__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                    91.26%    passed     95.99%
+ 370  MetazoaCnidariaMadracisauretenra_3290007__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                         88.92%    passed     54.48%
+ 371  MetazoaPlacozoaHoilungiahongkongensis_4574135__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                    92.98%    passed     81.23%
+ 372  MetazoaPlacozoaHoilungiahongkongensis_4546118__XDH_HUMAN_Xanthine_dehydrogenase_oxidase_OS_                                    91.03%    passed     56.64%
+ 373  TelonemiaP00656Telonemasubtile_26552190__XDH_DROME_Xanthine_dehydrogenase_OS_                                                  86.35%    passed     28.14%
+ 374  BreviataEP00033Pygsuiabiforma_5528970__XDH_DROME_Xanthine_dehydrogenase_OS_                                                    70.83%    passed     78.76%
+ 375  MetazoaPoriferaHaliclonatubifera_4956625__ALDO4_ARATH_Aldehyde_oxidase_4_OS_                                                   91.97%    passed     66.55%
+ 376  MetazoaPoriferaAmphimedonqueenslandica_4671950__XDH_DROME_Xanthine_dehydrogenase_OS_                                           86.97%    failed      2.41%
+ 377  MetazoaPoriferaAmphimedonqueenslandica_4672538__XDH_DROME_Xanthine_dehydrogenase_OS_                                           93.45%    failed      3.43%
+ 378  TelonemiaP00656Telonemasubtile_26517654__XDH_DICDI_Xanthine_dehydrogenase_OS_                                                  85.57%    passed     42.83%
+ 379  CentroplasthelidaEP00300ChoanocystisspHF7_5617406__IORA_BREDI_Isoquinoline_1-oxidoreductase_subunit_alpha_OS_                  90.95%    passed     74.91%
+ 380  MetazoaPoriferaEP00118Oscarellapearsei_4816581__ALDO2_ARATH_Indole-3-acetaldehyde_oxidase_OS_                                  93.37%    passed     86.32%
+ 381  MetazoaCnidariaNematostellavectensis_3387174__XDH_BLAAD_Xanthine_dehydrogenase_OS_                                             90.09%    passed     19.51%
+ 382  MetazoaCnidariaGorgoniaventalina_3226550__PAOA_ECOLI_Aldehyde_oxidoreductase_iron-sulfur-binding_subunit_PaoA_OS_              89.31%    failed      0.34%
+ 383  MetazoaArthropodaEP00090Calanusglacialis_711440__AOXB_CAVPO_Aldehyde_oxidase_2_OS_                                             86.35%    passed     47.77%
+ 384  MetazoaPoriferaLeucosoleniacomplicata_5033686__XDH_DICDI_Xanthine_dehydrogenase_OS_                                            92.90%    passed     33.63%
+ 385  MetazoaBryozoaBugulaneritina_2308495__XDH_DROSU_Xanthine_dehydrogenase_OS_                                                     90.25%    passed     16.10%
+ 386  MetazoaCnidariaMontastraeacavernosa_3349039__XDH_ORYSJ_Xanthine_dehydrogenase_OS_                                              87.36%    passed     68.17%
+ 387  MetazoaPoriferaHaliclonatubifera_4957798__AOXD_MOUSE_Aldehyde_oxidase_4_OS_                                                    90.33%    passed     10.99%
+ 388  MetazoaCnidariaGorgoniaventalina_3212855__NICA_PSEPK_Nicotinate_dehydrogenase_subunit_A_OS_                                    88.30%    passed     26.23%
+ 389  CentroplasthelidaEP00300ChoanocystisspHF7_5627360__CUTC_SULAC_Glyceraldehyde_dehydrogenase_small_chain_OS_                     91.19%    passed     33.85%
+ 390  MetazoaPlacozoaEP00114TrichoplaxspH2_4504411__XDH_BOVIN_Xanthine_dehydrogenase_oxidase_OS_                                     95.48%    passed     97.27%
+ 391  MetazoaCnidariaGorgoniaventalina_3233873__XDH_DROSU_Xanthine_dehydrogenase_OS_                                                 85.65%    passed     10.29%
+ 392  MetazoaBryozoaBugulaneritina_1712803__XDH_CALVI_Xanthine_dehydrogenase_OS_                                                     93.84%    failed      1.44%
+ 393  MetazoaCnidariaMadracisauretenra_3301123__XDH_ORYSJ_Xanthine_dehydrogenase_OS_                                                 88.22%    passed     29.19%
+ 394  CentroplasthelidaEP00300ChoanocystisspHF7_5617743__IORA_BREDI_Isoquinoline_1-oxidoreductase_subunit_alpha_OS_                  91.97%    passed     23.31%
+ 395  MetazoaAnnelidaEP00103Capitellateleta_61428__XDHC_ECOLI_Putative_xanthine_dehydrogenase_iron-sulfur-binding_subunit_XdhC_OS_   89.08%    passed      5.85%
+ 396  MetazoaPlacozoaHoilungiahongkongensis_4567270__XDH_DROME_Xanthine_dehydrogenase_OS_                                            90.41%    passed     68.55%
+ 397  MetazoaCnidariaGorgoniaventalina_3227958__XDH_BLAAD_Xanthine_dehydrogenase_OS_                                                 86.51%    passed     54.72%
+ 398  MetazoaPoriferaHaliclonatubifera_4957858__XDH_DROME_Xanthine_dehydrogenase_OS_                                                 60.92%    failed      1.46%
+ 399  MetazoaCnidariaFungiascutaria_3194124__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                            91.58%    failed      0.01%
+ 400  MetazoaAnnelidaEP00103Capitellateleta_72677__XDH_EMENI_Xanthine_dehydrogenase_OS_                                              72.93%    failed      0.99%
+ 401  MetazoaPlacozoaHoilungiahongkongensis_4574892__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                    91.26%    passed     98.64%
+ 402  MetazoaPoriferaStylissacarteri_5078249__XDH_DROME_Xanthine_dehydrogenase_OS_                                                   86.51%    failed      0.24%
+ 403  MetazoaHemichordataSaccoglossuskowalevskii_4068682__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                               55.69%    passed     69.35%
+ 404  MetazoaPoriferaLeucosoleniacomplicata_4989306__XDH_DROPS_Xanthine_dehydrogenase_OS_                                            91.89%    passed     86.36%
+ 405  MetazoaArthropodaEP00090Calanusglacialis_706980__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                  90.64%    passed     96.14%
+ 406  ChloroplastidaArabidopsisthalianaUP000006548_5890650__XDH_ORYSJ_Xanthine_dehydrogenase_OS_                                     90.64%    passed     89.27%
+ 407  MetazoaRotiferaBrachionusplicatilis_5223368__XDH_CALVI_Xanthine_dehydrogenase_OS_                                              86.19%    failed      0.50%
+ 408  MetazoaCnidariaGorgoniaventalina_3223621__XDH_ORYSJ_Xanthine_dehydrogenase_OS_                                                 83.54%    passed     82.24%
+ 409  MetazoaPoriferaLeucosoleniacomplicata_5024035__XDH_ORYSJ_Xanthine_dehydrogenase_OS_                                            81.67%    passed     75.46%
+ 410  MetazoaCnidariaGorgoniaventalina_3234170__XDH_EMENI_Xanthine_dehydrogenase_OS_                                                 74.65%    passed     52.81%
+ 411  MetazoaCnidariaGorgoniaventalina_3218793__XDH_EMENI_Xanthine_dehydrogenase_OS_                                                 77.07%    passed     20.86%
+ 412  MetazoaCnidariaAstreoporasp_3026137__XDH_BOVIN_Xanthine_dehydrogenase_oxidase_OS_                                              82.14%    passed     54.58%
+ 413  ChoanoflagellateaMonosigabrevicollisUP000001357_11429485__XDH_EMENI_Xanthine_dehydrogenase_OS_                                 51.01%    failed      2.05%
+ 414  MetazoaCnidariaGorgoniaventalina_3207063__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                         66.77%    passed      6.50%
+ 415  MetazoaCnidariaMadracisauretenra_3291689__XDH_HUMAN_Xanthine_dehydrogenase_oxidase_OS_                                         76.68%    failed      4.31%
+ 416  MetazoaCnidariaNematostellavectensis_3391967__ALDO3_ORYSJ_Probable_aldehyde_oxidase_3_OS_                                      86.04%    passed     88.37%
+ 417  MetazoaCnidariaAnthopleuraelegantissima_3022086__XDH_BOVIN_Xanthine_dehydrogenase_oxidase_OS_                                  75.04%    passed     88.11%
+ 418  MetazoaRotiferaBrachionusplicatilis_5235026__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                      59.28%    failed      0.21%
+ 419  MetazoaPoriferaEP00118Oscarellapearsei_4823192__ALDO3_ARATH_Abscisic-aldehyde_oxidase_OS_                                      65.29%    passed     76.94%
+ 420  MetazoaCnidariaFungiascutaria_3201219__XDH_HUMAN_Xanthine_dehydrogenase_oxidase_OS_                                            68.95%    passed     74.08%
+ 421  MetazoaCnidariaAcroporadigitifera_2941930__XDH_DROME_Xanthine_dehydrogenase_OS_                                                81.05%    passed     50.74%
+ 422  GlaucophytaEP00276Gloeochaetewittrockiana_13493918__ALDO3_ORYSJ_Probable_aldehyde_oxidase_3_OS_                                89.78%    passed     40.31%
+ 423  MetazoaUrochordataOikopleuradioica_5366002__ALDO2_MAIZE_Indole-3-acetaldehyde_oxidase_OS_                                      25.27%    passed     61.11%
+ 424  MetazoaCnidariaMadracisauretenra_3306993__ALDO2_ARATH_Indole-3-acetaldehyde_oxidase_OS_                                        65.60%    passed      5.75%
+ 425  CentroplasthelidaEP00300ChoanocystisspHF7_5617320__XDH_DROME_Xanthine_dehydrogenase_OS_                                        78.32%    failed      0.33%
+ 426  MetazoaCephalochordataBranchiostomabelcheri_2816053__ALDO2_ORYSJ_Probable_aldehyde_oxidase_2_OS_                               84.87%    passed     64.49%
+ 427  MetazoaCephalochordataBranchiostomabelcheri_2816054__ALDO2_ORYSJ_Probable_aldehyde_oxidase_2_OS_                               84.95%    passed     72.63%
+ 428  MetazoaPoriferaLeucosoleniacomplicata_5009620__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                    74.41%    passed     58.86%
+ 429  MetazoaCnidariaAstreoporasp_3025758__GAD3_CAEEL_Probable_aldehyde_oxidase_gad-3_OS_                                            89.24%    passed     15.04%
+ 430  MetazoaBryozoaBugulaneritina_2790807__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                             66.07%    passed     33.96%
+ 431  MetazoaBryozoaBugulaneritina_2318297__XDH_ORYSJ_Xanthine_dehydrogenase_OS_                                                     74.49%    passed     70.52%
+ 432  MetazoaBryozoaBugulaneritina_2748370__HXNS_EMENI_Nicotinate_hydroxylase_hnxS_OS_                                               76.21%    passed     17.81%
+ 433  MetazoaBryozoaBugulaneritina_2329956__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                             81.28%    passed     81.84%
+ 434  MetazoaBryozoaBugulaneritina_2228447__XDH_DICDI_Xanthine_dehydrogenase_OS_                                                     83.00%    passed     61.71%
+ 435  MetazoaPoriferaEP00118Oscarellapearsei_4837321__ALDO3_ARATH_Abscisic-aldehyde_oxidase_OS_                                      88.46%    passed     81.84%
+ 436  IchthyosporeaEP00126Sphaerothecumdestruens_14598362__XDH_DICDI_Xanthine_dehydrogenase_OS_                                      30.11%    passed     58.34%
+ 437  MetazoaPoriferaLeucosoleniacomplicata_5007136__XDH_MOUSE_Xanthine_dehydrogenase_oxidase_OS_                                    88.92%    passed     85.27%
+ 438  MetazoaCnidariaAstreoporasp_3038800__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                              48.52%    passed     23.53%
+ 439  MetazoaBryozoaBugulaneritina_2569432__ALDO3_ARATH_Abscisic-aldehyde_oxidase_OS_                                                75.98%    passed     15.78%
+ 440  MetazoaPoriferaAmphimedonqueenslandica_4690830__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                   34.17%    passed      7.42%
+ 441  MetazoaCnidariaAureliaGenome_3065198__XDH_ORYSJ_Xanthine_dehydrogenase_OS_                                                     19.19%    failed      0.61%
+ 442  MetazoaPoriferaHaliclonatubifera_4956463__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                         61.39%    passed      6.54%
+ 443  AlveolataEP00742ColponemidiaspColp10_4272929__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                     23.87%    passed     75.61%
+ 444  MetazoaArthropodaDaphniapulex_213595__XDH2_ARATH_Xanthine_dehydrogenase_2_OS_                                                  92.12%    passed     39.53%
+ 445  CentroplasthelidaEP00300ChoanocystisspHF7_5599457__ALDO3_ARATH_Abscisic-aldehyde_oxidase_OS_                                   18.80%    failed      0.04%
+ 446  CentroplasthelidaEP00300ChoanocystisspHF7_5599458__ALDO3_ARATH_Abscisic-aldehyde_oxidase_OS_                                   46.57%    failed      0.00%
+ 447  TelonemiaP00656Telonemasubtile_26527374__XDH_DICDI_Xanthine_dehydrogenase_OS_                                                   9.75%    failed      0.01%
+ 448  TelonemiaP00656Telonemasubtile_26527375__XDH_DICDI_Xanthine_dehydrogenase_OS_                                                  14.82%    failed      0.09%
+ 449  MetazoaCnidariaFungiascutaria_3201218__ALDO2_ARATH_Indole-3-acetaldehyde_oxidase_OS_                                           36.90%    passed     76.05%
+ 450  MetazoaCnidariaAcroporadigitifera_2941931__XDH_DROPS_Xanthine_dehydrogenase_OS_                                                54.84%    passed     37.32%
+ 451  MetazoaPoriferaAmphimedonqueenslandica_4691056__AOXD_MOUSE_Aldehyde_oxidase_4_OS_                                              13.57%    failed      1.89%
+ 452  MetazoaArthropodaDrosophilamelanogaster_248645__ALDO2_ARATH_Indole-3-acetaldehyde_oxidase_OS_                                  10.30%    passed     68.23%
+ 453  MetazoaPoriferaAmphimedonqueenslandica_4682360__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                   65.83%    passed     27.69%
+ 454  MetazoaPoriferaAmphimedonqueenslandica_4680063__PPT1_BOVIN_Palmitoyl-protein_thioesterase_1_OS_                                64.35%    failed      2.30%
+ 455  MetazoaPoriferaAmphimedonqueenslandica_4696925__XDH_RAT_Xanthine_dehydrogenase_oxidase_OS_                                      7.41%    failed      1.14%
+ 456  MetazoaPoriferaAmphimedonqueenslandica_4685918__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                   51.40%    passed     22.02%
+ 457  MetazoaRotiferaBrachionusplicatilis_5235508__ALDOL_ORYSJ_Putative_aldehyde_oxidase-like_protein_OS_                            53.51%    failed      0.00%
+ 458  MetazoaCnidariaNematostellavectensis_3375217__XDH_RAT_Xanthine_dehydrogenase_oxidase_OS_                                       72.07%    passed     80.00%
+ 459  MetazoaCnidariaNematostellavectensis_3375218__XDH_FELCA_Xanthine_dehydrogenase_oxidase_OS_                                     44.46%    passed     12.17%
+ 460  AlveolataEP00742ColponemidiaspColp10_4283514__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                     14.12%    failed      0.00%
+ 461  MetazoaAnnelidaEP00103Capitellateleta_62856__ALDO3_ARATH_Abscisic-aldehyde_oxidase_OS_                                         41.42%    failed      4.91%
+ 462  MetazoaAnnelidaEP00103Capitellateleta_62857__XDH_DROME_Xanthine_dehydrogenase_OS_                                              11.47%    failed      1.38%
+ 463  MetazoaArthropodaDrosophilamelanogaster_248644__ALDO2_ARATH_Indole-3-acetaldehyde_oxidase_OS_                                  10.30%    passed     77.73%
+ 464  MetazoaCnidariaAureliaGenome_3074008__XDH_DICDI_Xanthine_dehydrogenase_OS_                                                      8.03%    failed      0.28%
+ 465  MetazoaCephalochordataBranchiostomabelcheri_2816058__XDH_EMENI_Xanthine_dehydrogenase_OS_                                      23.24%    passed     33.27%
+ 466  MetazoaUrochordataEP00059Cionaintestinalis_5335530__ALDO2_ARATH_Indole-3-acetaldehyde_oxidase_OS_                               7.64%    failed      0.46%
+ 467  MetazoaPoriferaEP00118Oscarellapearsei_4829110__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                    8.81%    passed     80.45%
+ 468  MetazoaPoriferaEP00118Oscarellapearsei_4829111__XDH_DROME_Xanthine_dehydrogenase_OS_                                           29.49%    passed     12.16%
+ 469  MetazoaPoriferaEP00118Oscarellapearsei_4829113__XDH_DROSU_Xanthine_dehydrogenase_OS_                                           58.27%    passed     22.67%
+ 470  MetazoaPoriferaEP00118Oscarellapearsei_4829116__XDH_DROSU_Xanthine_dehydrogenase_OS_                                           81.59%    passed     15.54%
+ 471  MetazoaPoriferaEP00118Oscarellapearsei_4829117__XDH_DROSU_Xanthine_dehydrogenase_OS_                                           78.71%    failed      1.17%
+ 472  MetazoaPoriferaAmphimedonqueenslandica_4708328__XDH_RAT_Xanthine_dehydrogenase_oxidase_OS_                                      7.49%    failed      0.02%
+ 473  MetazoaCnidariaNematostellavectensis_3394229__XDH_DROSU_Xanthine_dehydrogenase_OS_                                             87.91%    passed     61.00%
+ 474  MetazoaCnidariaNematostellavectensis_3378376__XDH_DROSU_Xanthine_dehydrogenase_OS_                                             13.10%    passed     26.15%
+ 475  MetazoaCnidariaStylophorapistillata_3664789__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                      12.01%    passed     28.86%
+ 476  MetazoaMolluscaLottiagigantea_4204982__XDH_DICDI_Xanthine_dehydrogenase_OS_                                                    85.49%    passed      9.06%
+ 477  MetazoaPoriferaEP00118Oscarellapearsei_4813765__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                   93.45%    passed     39.42%
+ 478  MetazoaRotiferaBrachionusplicatilis_5273054__AOXB_RAT_Aldehyde_oxidase_2_OS_                                                   38.69%    failed      0.00%
+ 479  MetazoaRotiferaBrachionusplicatilis_5248045__AOXD_MOUSE_Aldehyde_oxidase_4_OS_                                                 34.01%    failed      0.00%
+ 480  MetazoaArthropodaEP00090Calanusglacialis_716899__XDH_DROME_Xanthine_dehydrogenase_OS_                                           9.28%    failed      1.93%
+ 481  MetazoaPoriferaLeucosoleniacomplicata_4972825__XDH_DROME_Xanthine_dehydrogenase_OS_                                             7.72%    passed     26.76%
+ 482  MetazoaPoriferaLeucosoleniacomplicata_5054007__ALDO4_ARATH_Aldehyde_oxidase_4_OS_                                              66.30%    passed     65.02%
+ 483  MetazoaPoriferaLeucosoleniacomplicata_4970743__ALDO4_ARATH_Aldehyde_oxidase_4_OS_                                              64.98%    passed     43.09%
+ 484  MetazoaPoriferaHaliclonatubifera_4955924__ALDO2_ARATH_Indole-3-acetaldehyde_oxidase_OS_                                         7.72%    failed      1.25%
+ 485  MetazoaPoriferaSyconciliatum_5128425__XDH_DROSU_Xanthine_dehydrogenase_OS_                                                      7.57%    passed     15.91%
+ 486  AmoebozoaEP00029Vermamoebavermiformis_5281748__XDH_DROME_Xanthine_dehydrogenase_OS_                                            13.96%    failed      0.00%
+ 487  MetazoaArthropodaDrosophilamelanogaster_248646__ALDO2_ARATH_Indole-3-acetaldehyde_oxidase_OS_                                   9.44%    passed     45.99%
+ 488  MetazoaTardigradaRamazzotiusvarieornatus_5283333__XDH_DROME_Xanthine_dehydrogenase_OS_                                          6.94%    failed      4.61%
+ 489  MetazoaVertebrateEptatretusburgeri_6404047__XDH_DICDI_Xanthine_dehydrogenase_OS_                                                7.72%    failed      2.77%
+ 490  MetazoaVertebrateEptatretusburgeri_6404048__XDH_DROME_Xanthine_dehydrogenase_OS_                                               11.15%    failed      3.23%
+ 491  MetazoaVertebrateEptatretusburgeri_6404050__XDH_CALVI_Xanthine_dehydrogenase_OS_                                               20.36%    passed     16.62%
+ 492  MetazoaCnidariaGorgoniaventalina_3221283__XDH_DROSU_Xanthine_dehydrogenase_OS_                                                 87.60%    passed     62.08%
+ 493  HaptophytaEP00319Phaeocystisglobosa_14061950__XDH_DROME_Xanthine_dehydrogenase_OS_                                              7.96%    failed      0.00%
+ 494  MetazoaCnidariaAnthopleuraelegantissima_3004333__XDH_EMENI_Xanthine_dehydrogenase_OS_                                           7.64%    passed     29.16%
+ 495  MetazoaBrachiopodaLingulaunguis_1278584__XDH_DICDI_Xanthine_dehydrogenase_OS_                                                   6.86%    passed      9.62%
+ 496  MetazoaBrachiopodaLingulaunguis_1303697__ALDO1_ARATH_Indole-3-acetaldehyde_oxidase_OS_                                         91.11%    passed     78.94%
+ 497  MetazoaBrachiopodaLingulaunguis_1303700__XDH_EMENI_Xanthine_dehydrogenase_OS_                                                  20.20%    failed      0.74%
+ 498  MetazoaCnidariaGorgoniaventalina_3220371__ALDO4_ARATH_Aldehyde_oxidase_4_OS_                                                   81.28%    passed     30.54%
+ 499  TelonemiaP00656Telonemasubtile_26525258__XDH_FELCA_Xanthine_dehydrogenase_oxidase_OS_                                          79.64%    passed     26.02%
+ 500  MetazoaPoriferaEP00118Oscarellapearsei_4813766__XDH_ORYSJ_Xanthine_dehydrogenase_OS_                                           92.98%    passed     39.57%
+ 501  ChoanoflagellataEP00050Salpingoecakvevrii_11195832__ALDO2_ARATH_Indole-3-acetaldehyde_oxidase_OS_                               7.72%    failed      0.27%
+ 502  MetazoaPoriferaEphydatiamuelleri_4913592__XDH_MOUSE_Xanthine_dehydrogenase_oxidase_OS_                                          7.49%    failed      1.01%
+ 503  MetazoaPoriferaEphydatiamuelleri_4923685__XDH_ORYSJ_Xanthine_dehydrogenase_OS_                                                  7.64%    failed      0.02%
+ 504  MetazoaArthropodaDaphniapulex_195220__ALDO2_ARATH_Indole-3-acetaldehyde_oxidase_OS_                                            10.76%    passed     31.81%
+ 505  MetazoaArthropodaDaphniapulex_195219__ALDO2_ARATH_Indole-3-acetaldehyde_oxidase_OS_                                             7.88%    passed      6.49%
+ 506  MetazoaPoriferaStylissacarteri_5090729__XDH_MOUSE_Xanthine_dehydrogenase_oxidase_OS_                                           39.31%    passed     12.84%
+ 507  MetazoaCephalochordataBranchiostomabelcheri_2821088__XDH_DROME_Xanthine_dehydrogenase_OS_                                      11.31%    passed     68.38%
+ 508  FilastreaCapsasporaowczarzakiUP000008743_12984579__XDH_DICDI_Xanthine_dehydrogenase_OS_                                         7.88%    failed      0.00%
+ 509  ChloroplastidaEP00738Chloropiconprimus_8603393__XDH_DROME_Xanthine_dehydrogenase_OS_                                            8.27%    failed      0.06%
+ 510  MetazoaArthropodaDrosophilamelanogaster_245843__ALDO2_ARATH_Indole-3-acetaldehyde_oxidase_OS_                                   9.59%    failed      0.04%
+ 511  ChoanoflagellataEP00047Mylnosigafluctuans_11125294__XDH_DROSU_Xanthine_dehydrogenase_OS_                                        6.94%    failed      0.00%
+ 512  MetazoaRotiferaBrachionusplicatilis_5244607__XDH_DICDI_Xanthine_dehydrogenase_OS_                                               7.25%    failed      0.00%
+ 513  MetazoaTardigradaRamazzotiusvarieornatus_5288757__XDH_EMENI_Xanthine_dehydrogenase_OS_                                         17.08%    passed     23.27%
+ 514  MetazoaTardigradaRamazzotiusvarieornatus_5289414__XDH_DICDI_Xanthine_dehydrogenase_OS_                                          7.80%    passed     18.66%
+ 515  MetazoaTardigradaRamazzotiusvarieornatus_5290184__XDH_ORYSJ_Xanthine_dehydrogenase_OS_                                         31.44%    passed     52.56%
+ 516  MetazoaPoriferaEP00118Oscarellapearsei_4832930__XDH_DICDI_Xanthine_dehydrogenase_OS_                                            7.64%    passed      8.50%
+ 517  MetazoaTardigradaRamazzotiusvarieornatus_5293663__XDH_EMENI_Xanthine_dehydrogenase_OS_                                          7.18%    passed     68.35%
+ 518  MetazoaCnidariaPoritesaustraliensis_3539251__XDH_DROPS_Xanthine_dehydrogenase_OS_                                               7.33%    failed      2.42%
+ 519  MetazoaMolluscaLottiagigantea_4215347__XDH_DICDI_Xanthine_dehydrogenase_OS_                                                     6.63%    failed      0.00%
+ 520  ChoanoflagellataEP00039Didymoecacostata_10866741__XDH_DROSU_Xanthine_dehydrogenase_OS_                                          7.25%    failed      0.00%
+ 521  MetazoaCnidariaMontastraeacavernosa_3341601__XDH_DICDI_Xanthine_dehydrogenase_OS_                                               7.33%    passed     17.35%
+ 522  ApusomonadidaThecamonastrahensUP000054408_5484678__XDH_DROSU_Xanthine_dehydrogenase_OS_                                         8.35%    failed      0.00%
+ 523  ChoanoflagellataEP00045Choanoecaperplexa_11094547__XDH_DROME_Xanthine_dehydrogenase_OS_                                         7.57%    failed      0.58%
+ 524  MetazoaTardigradaRamazzotiusvarieornatus_5285069__XDH_ORYSJ_Xanthine_dehydrogenase_OS_                                          7.49%    failed      4.56%
+ 525  MetazoaMolluscaLottiagigantea_4201884__XDH_EMENI_Xanthine_dehydrogenase_OS_                                                    88.85%    failed      4.66%
+ 526  TelonemiaP00656Telonemasubtile_26562733__XDH_HUMAN_Xanthine_dehydrogenase_oxidase_OS_                                          52.81%    failed      0.19%
+ 527  TelonemiaP00656Telonemasubtile_26562734__XDH_DICDI_Xanthine_dehydrogenase_OS_                                                   8.81%    failed      0.00%
+ 528  MetazoaArthropodaEP00090Calanusglacialis_719083__XDH_DROSU_Xanthine_dehydrogenase_OS_                                           9.13%    failed      4.30%
+ 529  MetazoaArthropodaEP00090Calanusglacialis_719084__XDH_DROSU_Xanthine_dehydrogenase_OS_                                           9.13%    passed      5.17%
+ 530  ChloroplastidaChlamydomonasreinhardtiiUP000006906_6358064__ALDO3_ORYSJ_Probable_aldehyde_oxidase_3_OS_                          8.89%    failed      0.00%
+ 531  ChloroplastidaArabidopsisthalianaUP000006548_5876042__ALDO4_ARATH_Aldehyde_oxidase_4_OS_                                        7.02%    passed     39.61%
+ 532  ChloroplastidaArabidopsisthalianaUP000006548_5876043__ALDO2_ARATH_Indole-3-acetaldehyde_oxidase_OS_                             7.10%    passed     12.51%
+ 533  ChloroplastidaEP00248Marchantiapolymorpha_7470896__XDH_DICDI_Xanthine_dehydrogenase_OS_                                         8.11%    passed     72.04%
+ 534  MetazoaCnidariaMadracisauretenra_3298743__XDH_DROPS_Xanthine_dehydrogenase_OS_                                                 74.80%    passed     37.47%
+ 535  MetazoaPoriferaEP00118Oscarellapearsei_4816364__XDH_DICDI_Xanthine_dehydrogenase_OS_                                           94.62%    passed     84.67%
+ 536  MetazoaCnidariaAstreoporasp_3025757__XDH1_ARATH_Xanthine_dehydrogenase_1_OS_                                                   93.53%    passed     28.03%
+ 537  RigifilidaEP00004Rigifilaramosa_23126135__PAOA_ECO57_Aldehyde_oxidoreductase_iron-sulfur-binding_subunit_PaoA_OS_              87.99%    passed     13.53%
+ 538  MetazoaRotiferaBrachionusplicatilis_5225238__ALDO3_ORYSJ_Probable_aldehyde_oxidase_3_OS_                                       92.75%    passed     82.29%
+ 539  MetazoaPoriferaEP00118Oscarellapearsei_4810232__XDH_DROPS_Xanthine_dehydrogenase_OS_                                           94.62%    passed     81.28%
+ 540  ChloroplastidaEP00248Marchantiapolymorpha_7477618__ALDO1_ORYSJ_Probable_aldehyde_oxidase_1_OS_                                  6.08%    failed      0.69%
+ 541  ChloroplastidaEP00248Marchantiapolymorpha_7477619__ALDO1_ORYSJ_Probable_aldehyde_oxidase_1_OS_                                  6.08%    failed      0.60%
+ 542  AmoebozoaEP00007CuneaspBSH02190019_4984525__ALDO4_ARATH_Aldehyde_oxidase_4_OS_                                                  7.18%    passed     11.02%
+ 543  ChloroplastidaArabidopsisthalianaUP000006548_5876044__ALDO1_ARATH_Indole-3-acetaldehyde_oxidase_OS_                             6.79%    passed     14.25%
+ 544  ChloroplastidaArabidopsisthalianaUP000006548_5876050__ALDO3_ARATH_Abscisic-aldehyde_oxidase_OS_                                 7.10%    passed      8.20%
+ 545  IchthyosporeaEP00126Sphaerothecumdestruens_14599614__XDH_DROME_Xanthine_dehydrogenase_OS_                                      85.88%    passed      6.28%
+ 546  TelonemiaP00656Telonemasubtile_26521585__XDH_DICDI_Xanthine_dehydrogenase_OS_                                                   7.64%    failed      1.89%
+ 547  TelonemiaP00656Telonemasubtile_26521587__XDH_DICDI_Xanthine_dehydrogenase_OS_                                                  15.05%    failed      2.34%
+ 548  TelonemiaP00656Telonemasubtile_26521588__ALDO4_ARATH_Aldehyde_oxidase_4_OS_                                                    71.68%    passed      8.84%
+ 549  TelonemiaP00656Telonemasubtile_26521589__XDH_DICDI_Xanthine_dehydrogenase_OS_                                                  21.45%    failed      1.06%
+ 550  AmoebozoaEP00007CuneaspBSH02190019_4982346__ALDO3_ARATH_Abscisic-aldehyde_oxidase_OS_                                           5.77%    failed      0.00%
+ 551  HaptophytaEP00319Phaeocystisglobosa_14068562__ALDO1_MAIZE_Indole-3-acetaldehyde_oxidase_OS_                                     8.27%    failed      1.84%
+ 552  MetazoaPoriferaHaliclonatubifera_4956837__XDH_ORYSJ_Xanthine_dehydrogenase_OS_                                                 19.34%    failed      0.07%
+ 553  ChoanoflagellateaMonosigabrevicollisUP000001357_11429484__XDH_DROPS_Xanthine_dehydrogenase_OS_                                 88.07%    passed     29.92%
+ 554  ChoanoflagellataEP00040Diaphanoecagrandis_10922270__XDH_DICDI_Xanthine_dehydrogenase_OS_                                        7.88%    failed      2.62%
+ 555  ChoanoflagellataEP00035Acanthoecaspectabilis_10754993__XDH_DROSU_Xanthine_dehydrogenase_OS_                                     7.72%    failed      0.02%
+ 556  ChoanoflagellataEP00037Helgoecanana_10782805__XDH_DICDI_Xanthine_dehydrogenase_OS_                                              7.64%    failed      0.30%
+ 557  TelonemiaP00656Telonemasubtile_26567769__XDH_DICDI_Xanthine_dehydrogenase_OS_                                                   8.89%    passed     11.32%
+ 558  TelonemiaP00656Telonemasubtile_26549806__ALDO2_ARATH_Indole-3-acetaldehyde_oxidase_OS_                                          8.50%    failed      0.30%
+ 559  RigifilidaEP00004Rigifilaramosa_23144590__XDH_DROME_Xanthine_dehydrogenase_OS_                                                 90.02%    failed      2.00%
+ 560  AlveolataEP00742ColponemidiaspColp10_4275126__XDH_DICDI_Xanthine_dehydrogenase_OS_                                             82.14%    passed     22.90%
+ 561  HaptophytaEP00319Phaeocystisglobosa_14067783__ALDO2_ARATH_Indole-3-acetaldehyde_oxidase_OS_                                    10.61%    failed      0.00%
+ 562  ChoanoflagellataEP00035Acanthoecaspectabilis_10747292__XDH_DROPS_Xanthine_dehydrogenase_OS_                                    10.69%    failed      0.00%
+ 563  ChoanoflagellataEP00037Helgoecanana_10813728__XDH_DROPS_Xanthine_dehydrogenase_OS_                                             10.69%    failed      0.00%
+ 564  HaptophytaEP00327Prymnesiumparvum_14293751__XDH_DROME_Xanthine_dehydrogenase_OS_                                               78.08%    failed      0.02%
+ 565  HaptophytaEP00327Prymnesiumparvum_14278111__XDH_EMENI_Xanthine_dehydrogenase_OS_                                                7.10%    failed      0.00%
+ 566  MetazoaCnidariaAnthopleuraelegantissima_2999255__ALDO2_ARATH_Indole-3-acetaldehyde_oxidase_OS_                                 80.42%    failed      1.14%
+ 567  ChoanoflagellataEP00035Acanthoecaspectabilis_10735774__XDH_DICDI_Xanthine_dehydrogenase_OS_                                     8.19%    failed      4.20%
+ 568  MetazoaBrachiopodaLingulaunguis_1293925__XDH_FELCA_Xanthine_dehydrogenase_oxidase_OS_                                           8.11%    failed      0.22%
+ 569  AlveolataEP00742ColponemidiaspColp10_4276730__XDH_DROSU_Xanthine_dehydrogenase_OS_                                              6.71%    passed     85.75%
+ 570  RigifilidaEP00004Rigifilaramosa_23144589__ALDO2_ARATH_Indole-3-acetaldehyde_oxidase_OS_                                         7.72%    failed      0.10%
+ 571  RigifilidaEP00004Rigifilaramosa_23144588__ALDO2_ARATH_Indole-3-acetaldehyde_oxidase_OS_                                         7.57%    failed      0.00%
+ 572  ChoanoflagellataEP00039Didymoecacostata_10854311__XDH_DICDI_Xanthine_dehydrogenase_OS_                                          7.41%    passed     10.12%
+ 573  ChoanoflagellataEP00037Helgoecanana_10804268__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                      8.35%    failed      0.13%
+ 574  ChoanoflagellataEP00040Diaphanoecagrandis_10916718__XDH_BLAAD_Xanthine_dehydrogenase_OS_                                       91.26%    failed      0.00%
+ 575  ChoanoflagellataEP00040Diaphanoecagrandis_10916720__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                7.64%    passed      6.62%
+ 576  MetazoaPoriferaStylissacarteri_5097087__XDH_DROSU_Xanthine_dehydrogenase_OS_                                                   85.73%    passed     11.80%
+ 577  ChoanoflagellataEP00040Diaphanoecagrandis_10892137__ALDO2_ARATH_Indole-3-acetaldehyde_oxidase_OS_                               9.75%    passed      8.07%
+ 578  StramenopilesEP00652Aphanomycesastaci_26146915__XDH_DICDI_Xanthine_dehydrogenase_OS_                                            7.33%    failed      0.02%
+ 579  StramenopilesEP00652Aphanomycesastaci_26146916__XDH_DICDI_Xanthine_dehydrogenase_OS_                                           16.61%    failed      0.00%
+ 580  StramenopilesEP00652Aphanomycesastaci_26146917__XDH_DICDI_Xanthine_dehydrogenase_OS_                                           24.18%    failed      0.04%
+ 581  ChoanoflagellataEP00035Acanthoecaspectabilis_10726836__XDH_DROME_Xanthine_dehydrogenase_OS_                                     7.25%    passed     83.82%
+ 582  IchthyosporeaSphaeroformaarcticaUP000054560_14630506__XDH_EMENI_Xanthine_dehydrogenase_OS_                                     92.98%    failed      0.01%
+ 583  ApusomonadidaThecamonastrahensUP000054408_5484145__AOXA_BOVIN_Aldehyde_oxidase_1_OS_                                           12.71%    failed      0.00%
+ 584  MetazoaPoriferaEP00118Oscarellapearsei_4823193__XDH_EMENI_Xanthine_dehydrogenase_OS_                                           89.47%    failed      4.11%
+ 585  MetazoaBryozoaBugulaneritina_1987177__XDH_DROME_Xanthine_dehydrogenase_OS_                                                     83.46%    passed     13.39%
+ 586  MetazoaPoriferaAmphimedonqueenslandica_4676324__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                   94.62%    passed     63.50%
+ 587  MetazoaCnidariaGorgoniaventalina_3234726__NICA_PSEPK_Nicotinate_dehydrogenase_subunit_A_OS_                                    88.61%    passed     11.59%
+ 588  MetazoaPoriferaStylissacarteri_5075903__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                           89.47%    passed     82.08%
+ 589  MetazoaPoriferaAmphimedonqueenslandica_4670584__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                   94.62%    passed     67.43%
+ 590  MetazoaPoriferaLeucosoleniacomplicata_5053573__XDH_DROME_Xanthine_dehydrogenase_OS_                                            85.18%    passed     55.25%
+ 591  MetazoaCnidariaGorgoniaventalina_3223395__PAOA_ECOLI_Aldehyde_oxidoreductase_iron-sulfur-binding_subunit_PaoA_OS_              90.87%    failed      1.37%
+ 592  TelonemiaP00656Telonemasubtile_26531944__XDH_CHICK_Xanthine_dehydrogenase_oxidase_OS_                                          83.39%    passed     60.99%
+ 593  AmoebozoaEP00007CuneaspBSH02190019_4982133__XDH_HUMAN_Xanthine_dehydrogenase_oxidase_OS_                                       19.27%    failed      0.00%
+ 594  MetazoaPoriferaLeucosoleniacomplicata_5032009__XDH_ORYSJ_Xanthine_dehydrogenase_OS_                                            90.80%    passed     40.50%
+ 595  MetazoaPoriferaStylissacarteri_5079906__XDH_DROPS_Xanthine_dehydrogenase_OS_                                                   89.86%    passed     65.50%
+ 596  MetazoaPoriferaStylissacarteri_5092475__XDH_DROPS_Xanthine_dehydrogenase_OS_                                                   89.70%    passed     13.82%
+ 597  MetazoaCnidariaGorgoniaventalina_3220908__DCML_HYDPS_Carbon_monoxide_dehydrogenase_large_chain_OS_                             83.85%    passed     26.43%
+ 598  MetazoaPoriferaLeucosoleniacomplicata_4970730__XDH_MOUSE_Xanthine_dehydrogenase_oxidase_OS_                                    92.20%    passed     92.69%
+ 599  MetazoaAnnelidaEP00103Capitellateleta_65260__XDHA_ECOLI_Putative_xanthine_dehydrogenase_molybdenum-binding_subunit_XdhA_OS_    58.89%    passed     30.02%
+WARNING: 299 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                                                                                                          46.14%  163 sequences failed composition chi2 test (p-value<5%; df=19)
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 1.026 seconds
+Measuring multi-threading efficiency up to 24 CPU cores
+Increase to 10 rounds for branch lengths
+2 trees examined
+Threads: 1 / Time: 30.433 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -696588
+Threads: 2 / Time: 18.197 sec / Speedup: 1.672 / Efficiency: 84% / LogL: -696588
+Threads: 3 / Time: 12.927 sec / Speedup: 2.354 / Efficiency: 78% / LogL: -696588
+Threads: 4 / Time: 10.325 sec / Speedup: 2.947 / Efficiency: 74% / LogL: -696588
+Threads: 5 / Time: 8.911 sec / Speedup: 3.415 / Efficiency: 68% / LogL: -696588
+Threads: 6 / Time: 8.256 sec / Speedup: 3.686 / Efficiency: 61% / LogL: -696588
+Threads: 7 / Time: 7.425 sec / Speedup: 4.099 / Efficiency: 59% / LogL: -696588
+Threads: 8 / Time: 7.022 sec / Speedup: 4.334 / Efficiency: 54% / LogL: -696588
+Threads: 9 / Time: 6.615 sec / Speedup: 4.601 / Efficiency: 51% / LogL: -696588
+Threads: 10 / Time: 6.475 sec / Speedup: 4.700 / Efficiency: 47% / LogL: -696588
+BEST NUMBER OF THREADS: 9
+
+Perform fast likelihood tree search using LG+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -451337.304
+Optimal log-likelihood: -451336.278
+Proportion of invariable sites: 0.002
+Gamma shape alpha: 1.268
+Parameters optimization took 1 rounds (0.798 sec)
+Time for fast ML tree search: 14.466 seconds
+
+NOTE: ModelFinder requires 1211 MB RAM!
+ModelFinder will test up to 546 protein models (sample size: 1282) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  LG            471962.377   1195 946314.755   979552.429   952476.386
+  2  LG+I          471819.069   1196 946030.137   979715.126   952196.925
+  3  LG+G4         451358.681   1196 905109.361   938794.350   911276.149
+  4  LG+I+G4       451335.071   1197 905064.142   939207.142   911236.086
+  5  LG+R2         456282.355   1197 914958.710   949101.710   921130.653
+  6  LG+R3         452806.457   1199 908010.914   943103.597   914193.170
+  7  LG+R4         451151.982   1201 904705.963   940796.013   910898.532
+  8  LG+R5         450647.167   1203 903700.333   940839.103   909903.214
+  9  LG+R6         450380.278   1205 903170.557   941413.451   909383.749
+ 10  LG+R7         450217.156   1207 902848.313   942255.232   909071.818
+ 11  LG+R8         450160.592   1209 902739.183   943375.016   908973.001
+ 12  LG+R9         450140.607   1211 902703.214   944638.414   908947.344
+ 13  LG+R10        450119.727   1213 902665.453   945976.689   908919.896
+ 26  LG+F+R10      449983.430   1232 902430.861   964433.147   908783.271
+ 39  WAG+R10       452034.710   1213 906495.419   949806.655   912749.862
+ 52  WAG+F+R10     451453.085   1232 905370.170   967372.456   911722.580
+ 65  JTT+R10       456122.062   1213 914670.124   957981.360   920924.566
+ 78  JTT+F+R10     456153.589   1232 914771.177   976773.463   921123.587
+ 91  JTTDCMut+R10  456003.486   1213 914432.973   957744.208   920687.415
+104  JTTDCMut+F+R10 456032.058   1232 914528.115   976530.401   920880.525
+117  DCMut+R10     458845.148   1213 920116.296   963427.531   926370.738
+130  DCMut+F+R10   458494.920   1232 919453.840   981456.125   925806.249
+143  VT+R10        452914.296   1213 908254.592   951565.827   914509.034
+156  VT+F+R10      452484.791   1232 907433.582   969435.867   913785.991
+169  PMB+R10       454441.313   1213 911308.626   954619.861   917563.068
+182  PMB+F+R10     454333.419   1232 911130.839   973133.124   917483.248
+195  Blosum62+R10  454042.230   1213 910510.459   953821.694   916764.901
+208  Blosum62+F+R10 453897.152   1232 910258.304   972260.589   916610.713
+221  Dayhoff+R10   458806.346   1213 920038.692   963349.927   926293.134
+234  Dayhoff+F+R10 458457.556   1232 919379.113   981381.399   925731.523
+247  mtREV+R10     475533.739   1213 953493.478   996804.714   959747.921
+260  mtREV+F+R10   461063.830   1232 924591.661   986593.946   930944.070
+273  mtART+R10     478613.933   1213 959653.865   1002965.101  965908.308
+286  mtART+F+R10   465481.038   1232 933426.076   995428.361   939778.485
+299  mtZOA+R10     467480.540   1213 937387.080   980698.315   943641.522
+312  mtZOA+F+R10   459928.275   1232 922320.551   984322.837   928672.961
+325  mtMet+R10     475019.998   1213 952465.995   995777.231   958720.438
+338  mtMet+F+R10   462407.336   1232 927278.672   989280.958   933631.082
+351  mtVer+R10     480999.788   1213 964425.575   1007736.810  970680.017
+364  mtVer+F+R10   469669.388   1232 941802.776   1003805.062  948155.186
+377  mtInv+R10     475345.291   1213 953116.583   996427.818   959371.025
+390  mtInv+F+R10   458015.280   1232 918494.560   980496.846   924846.970
+403  mtMAM+R10     487875.218   1213 978176.436   1021487.671  984430.878
+416  mtMAM+F+R10   473640.191   1232 949744.383   1011746.668  956096.792
+429  HIVb+R10      469813.992   1213 942053.984   985365.219   948308.426
+442  HIVb+F+R10    467836.193   1232 938136.386   1000138.672  944488.796
+455  HIVw+R10      492991.548   1213 988409.096   1031720.331  994663.538
+468  HIVw+F+R10    484567.738   1232 971599.475   1033601.761  977951.885
+481  FLU+R10       468432.733   1213 939291.467   982602.702   945545.909
+494  FLU+F+R10     465092.692   1232 932649.384   994651.670   939001.794
+507  rtREV+R10     454213.839   1213 910853.679   954164.914   917108.121
+520  rtREV+F+R10   452065.092   1232 906594.184   968596.470   912946.594
+533  cpREV+R10     456298.043   1213 915022.085   958333.321   921276.528
+546  cpREV+F+R10   455052.059   1232 912568.118   974570.404   918920.528
+Akaike Information Criterion:           LG+F+R10
+Corrected Akaike Information Criterion: LG+G4
+Bayesian Information Criterion:         LG+F+R10
+Best-fit model: LG+F+R10 chosen according to BIC
+
+All model information printed to AOX.fasta.cdhit.mafft.trimal.UFB.model.gz
+CPU time for ModelFinder: 61130.339 seconds (16h:58m:50s)
+Wall-clock time for ModelFinder: 6951.268 seconds (1h:55m:51s)
+Generating 1000 samples for ultrafast bootstrap (seed: 159039)...
+
+NOTE: 1211 MB RAM (1 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -449983.430
+Optimal log-likelihood: -449983.348
+Site proportion and rates:  (0.055,0.056) (0.067,0.164) (0.083,0.295) (0.119,0.441) (0.137,0.627) (0.149,0.915) (0.128,1.208) (0.115,1.602) (0.109,2.180) (0.038,2.915)
+Parameters optimization took 1 rounds (11.686 sec)
+Computing ML distances based on estimated model parameters... 107.728 sec
+WARNING: Some pairwise ML distances are too long (saturated)
+Computing BIONJ tree...
+0.557 seconds
+Log-likelihood of BIONJ tree: -478808.965
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 115.038 second
+Computing log-likelihood of 98 initial trees ... 64.394 seconds
+Current best score: -449983.348
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -449937.056
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -448470.350
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 3: -448279.329
+Iteration 10 / LogL: -448769.219 / Time: 0h:14m:50s
+Iteration 20 / LogL: -448842.280 / Time: 0h:25m:55s
+Finish initializing candidate tree set (20)
+Current best tree score: -448279.329 / CPU time: 1487.081
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 22: -448262.770
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 25: -448229.665
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 30: -448207.360
+Iteration 30 / LogL: -448207.360 / Time: 0h:33m:18s (1h:54m:50s left)
+Iteration 40 / LogL: -448415.200 / Time: 0h:40m:21s (1h:33m:9s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 43: -448142.172
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 44: -448093.171
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 45: -448050.705
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 49: -448012.474
+Iteration 50 / LogL: -448034.972 / Time: 0h:49m:33s (1h:40m:7s left)
+Log-likelihood cutoff on original alignment: -448160.545
+Iteration 60 / LogL: -448031.984 / Time: 0h:56m:17s (1h:24m:55s left)
+Iteration 70 / LogL: -448376.560 / Time: 1h:2m:41s (1h:11m:47s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 77: -448001.696
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 80: -448001.187
+Iteration 80 / LogL: -448001.187 / Time: 1h:10m:21s (1h:29m:3s left)
+Iteration 90 / LogL: -448160.517 / Time: 1h:18m:40s (1h:19m:33s left)
+Iteration 100 / LogL: -448032.850 / Time: 1h:25m:7s (1h:8m:47s left)
+Log-likelihood cutoff on original alignment: -448116.143
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.907
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 105: -447969.669
+Iteration 110 / LogL: -448048.841 / Time: 1h:32m:43s (1h:20m:48s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 112: -447967.426
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 120: -447962.522
+Iteration 120 / LogL: -447962.522 / Time: 1h:40m:11s (1h:24m:11s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 129: -447957.234
+Iteration 130 / LogL: -448124.900 / Time: 1h:47m:59s (1h:22m:52s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 137: -447943.481
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 138: -447918.160
+Iteration 140 / LogL: -448315.662 / Time: 1h:55m:56s (1h:21m:44s left)
+Iteration 150 / LogL: -448408.656 / Time: 2h:3m:41s (1h:13m:3s left)
+Log-likelihood cutoff on original alignment: -448116.143
+Iteration 160 / LogL: -448017.047 / Time: 2h:12m:1s (1h:4m:46s left)
+Iteration 170 / LogL: -448443.249 / Time: 2h:20m:30s (0h:56m:32s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 171: -447909.357
+Iteration 180 / LogL: -447912.132 / Time: 2h:29m:34s (1h:16m:2s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 190: -447892.920
+Iteration 190 / LogL: -447892.920 / Time: 2h:37m:32s (1h:23m:21s left)
+Iteration 200 / LogL: -447901.914 / Time: 2h:45m:16s (1h:14m:44s left)
+Log-likelihood cutoff on original alignment: -448053.873
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.876
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 210: -447890.943
+Iteration 210 / LogL: -447890.943 / Time: 2h:52m:59s (1h:22m:46s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 217: -447887.428
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 218: -447877.278
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 219: -447858.817
+Iteration 220 / LogL: -447974.900 / Time: 3h:1m:12s (1h:21m:54s left)
+Iteration 230 / LogL: -447966.276 / Time: 3h:8m:23s (1h:13m:12s left)
+Iteration 240 / LogL: -448050.437 / Time: 3h:16m:11s (1h:4m:50s left)
+Iteration 250 / LogL: -448451.104 / Time: 3h:23m:19s (0h:56m:20s left)
+Log-likelihood cutoff on original alignment: -448041.439
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 256: -447851.126
+Iteration 260 / LogL: -448000.280 / Time: 3h:30m:38s (1h:18m:4s left)
+Iteration 270 / LogL: -447870.999 / Time: 3h:37m:38s (1h:9m:34s left)
+Iteration 280 / LogL: -447941.242 / Time: 3h:44m:54s (1h:1m:15s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 289: -447849.798
+Iteration 290 / LogL: -448060.518 / Time: 3h:52m:30s (1h:19m:38s left)
+Iteration 300 / LogL: -448208.880 / Time: 3h:59m:35s (1h:11m:18s left)
+Log-likelihood cutoff on original alignment: -448041.439
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.913
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 310 / LogL: -448088.527 / Time: 4h:5m:49s (1h:11m:35s left)
+Iteration 320 / LogL: -447958.361 / Time: 4h:13m:55s (1h:3m:40s left)
+Iteration 330 / LogL: -447871.704 / Time: 4h:24m:3s (0h:56m:11s left)
+Iteration 340 / LogL: -447864.061 / Time: 4h:31m:40s (0h:48m:4s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 349: -447836.323
+Iteration 350 / LogL: -447843.627 / Time: 4h:40m:5s (1h:19m:27s left)
+Log-likelihood cutoff on original alignment: -448041.439
+Iteration 360 / LogL: -447889.248 / Time: 4h:47m:35s (1h:11m:17s left)
+Iteration 370 / LogL: -447845.536 / Time: 4h:55m:27s (1h:3m:15s left)
+Iteration 380 / LogL: -448036.606 / Time: 5h:2m:55s (0h:55m:8s left)
+Iteration 390 / LogL: -448013.924 / Time: 5h:9m:24s (0h:46m:55s left)
+Iteration 400 / LogL: -447901.179 / Time: 5h:15m:56s (0h:38m:47s left)
+Log-likelihood cutoff on original alignment: -448041.439
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.937
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 410 / LogL: -447882.195 / Time: 5h:24m:16s (1h:11m:21s left)
+Iteration 420 / LogL: -447880.531 / Time: 5h:31m:36s (1h:3m:18s left)
+Iteration 430 / LogL: -448203.122 / Time: 5h:39m:25s (0h:55m:23s left)
+Iteration 440 / LogL: -448047.911 / Time: 5h:46m:53s (0h:47m:24s left)
+Iteration 450 / LogL: -448190.187 / Time: 5h:53m:26s (0h:39m:21s left)
+Log-likelihood cutoff on original alignment: -448041.439
+Iteration 460 / LogL: -448401.665 / Time: 6h:0m:47s (0h:31m:26s left)
+Iteration 470 / LogL: -448241.087 / Time: 6h:7m:10s (0h:23m:29s left)
+Iteration 480 / LogL: -448134.055 / Time: 6h:13m:34s (0h:15m:35s left)
+Iteration 490 / LogL: -448197.933 / Time: 6h:20m:19s (0h:7m:46s left)
+Iteration 500 / LogL: -448201.076 / Time: 6h:27m:48s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -448000.769
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.973
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 510 / LogL: -448061.894 / Time: 6h:33m:32s (1h:9m:35s left)
+Iteration 520 / LogL: -448092.089 / Time: 6h:42m:9s (1h:1m:59s left)
+Iteration 530 / LogL: -447999.444 / Time: 6h:48m:21s (0h:54m:2s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 531: -447835.810
+Iteration 540 / LogL: -447879.230 / Time: 6h:56m:54s (1h:10m:23s left)
+Iteration 550 / LogL: -448146.882 / Time: 7h:4m:49s (1h:2m:40s left)
+Log-likelihood cutoff on original alignment: -448000.769
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 560: -447822.391
+Iteration 560 / LogL: -447822.391 / Time: 7h:13m:12s (1h:17m:29s left)
+Iteration 570 / LogL: -447968.794 / Time: 7h:20m:58s (1h:9m:45s left)
+Iteration 580 / LogL: -448039.218 / Time: 7h:27m:5s (1h:1m:46s left)
+Iteration 590 / LogL: -448062.162 / Time: 7h:33m:59s (0h:53m:57s left)
+Iteration 600 / LogL: -448031.230 / Time: 7h:41m:53s (0h:46m:15s left)
+Log-likelihood cutoff on original alignment: -448000.769
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.982
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 610 / LogL: -448344.196 / Time: 7h:49m:14s (1h:9m:20s left)
+Iteration 620 / LogL: -447854.804 / Time: 7h:58m:9s (1h:1m:47s left)
+Iteration 630 / LogL: -447865.053 / Time: 8h:6m:1s (0h:54m:5s left)
+Iteration 640 / LogL: -447840.577 / Time: 8h:12m:27s (0h:46m:14s left)
+Iteration 650 / LogL: -447831.346 / Time: 8h:19m:24s (0h:38m:28s left)
+Log-likelihood cutoff on original alignment: -448000.769
+Iteration 660 / LogL: -447860.018 / Time: 8h:27m:17s (0h:30m:47s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 670: -447810.245
+Iteration 670 / LogL: -447810.245 / Time: 8h:34m:5s (1h:16m:50s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 678: -447806.049
+Iteration 680 / LogL: -447969.118 / Time: 8h:42m:7s (1h:15m:21s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 687: -447788.455
+Iteration 690 / LogL: -448336.545 / Time: 8h:49m:55s (1h:14m:36s left)
+Iteration 700 / LogL: -447973.900 / Time: 8h:58m:0s (1h:6m:57s left)
+Log-likelihood cutoff on original alignment: -448000.769
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.942
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 706: -447783.774
+Iteration 710 / LogL: -447851.214 / Time: 9h:6m:21s (1h:13m:58s left)
+Iteration 720 / LogL: -447834.661 / Time: 9h:14m:25s (1h:6m:18s left)
+Iteration 730 / LogL: -447983.355 / Time: 9h:23m:40s (0h:58m:45s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 737: -447782.520
+Iteration 740 / LogL: -447928.252 / Time: 9h:31m:36s (1h:15m:1s left)
+Iteration 750 / LogL: -448043.430 / Time: 9h:38m:38s (1h:7m:12s left)
+Log-likelihood cutoff on original alignment: -448000.769
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 759: -447766.949
+Iteration 760 / LogL: -447825.826 / Time: 9h:49m:39s (1h:16m:54s left)
+Iteration 770 / LogL: -447942.583 / Time: 9h:56m:19s (1h:9m:0s left)
+Iteration 780 / LogL: -448215.530 / Time: 10h:2m:37s (1h:1m:6s left)
+Iteration 790 / LogL: -447952.021 / Time: 10h:10m:25s (0h:53m:22s left)
+Iteration 800 / LogL: -447791.573 / Time: 10h:16m:52s (0h:45m:33s left)
+Log-likelihood cutoff on original alignment: -448000.769
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.921
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 810: -447766.378
+Iteration 810 / LogL: -447766.378 / Time: 10h:25m:32s (1h:17m:19s left)
+Iteration 820 / LogL: -447843.428 / Time: 10h:33m:13s (1h:9m:35s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 823: -447754.633
+Iteration 830 / LogL: -447765.756 / Time: 10h:41m:25s (1h:11m:57s left)
+Iteration 840 / LogL: -447988.027 / Time: 10h:49m:8s (1h:4m:13s left)
+Iteration 850 / LogL: -447775.652 / Time: 10h:56m:52s (0h:56m:28s left)
+Log-likelihood cutoff on original alignment: -448000.769
+Iteration 860 / LogL: -447800.841 / Time: 11h:5m:41s (0h:48m:49s left)
+Iteration 870 / LogL: -447802.425 / Time: 11h:13m:7s (0h:41m:3s left)
+Iteration 880 / LogL: -448105.283 / Time: 11h:20m:7s (0h:33m:16s left)
+Iteration 890 / LogL: -447802.186 / Time: 11h:26m:23s (0h:25m:28s left)
+Iteration 900 / LogL: -447888.374 / Time: 11h:34m:29s (0h:17m:46s left)
+Log-likelihood cutoff on original alignment: -448000.769
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.911
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 910 / LogL: -447838.812 / Time: 11h:42m:8s (1h:9m:31s left)
+Iteration 920 / LogL: -448011.149 / Time: 11h:50m:3s (1h:1m:48s left)
+Iteration 930 / LogL: -447857.505 / Time: 11h:58m:38s (0h:54m:8s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 937: -447751.143
+Iteration 940 / LogL: -448167.719 / Time: 12h:5m:40s (1h:14m:57s left)
+Iteration 950 / LogL: -447884.063 / Time: 12h:12m:32s (1h:7m:9s left)
+Log-likelihood cutoff on original alignment: -448000.769
+Iteration 960 / LogL: -447952.430 / Time: 12h:20m:36s (0h:59m:27s left)
+Iteration 970 / LogL: -447765.935 / Time: 12h:28m:19s (0h:51m:44s left)
+Iteration 980 / LogL: -447906.555 / Time: 12h:35m:22s (0h:43m:58s left)
+Iteration 990 / LogL: -447792.723 / Time: 12h:41m:18s (0h:36m:10s left)
+Iteration 1000 / LogL: -447767.165 / Time: 12h:49m:36s (0h:28m:30s left)
+Log-likelihood cutoff on original alignment: -447933.769
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.912
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+WARNING: bootstrap analysis did not converge. You should rerun with higher number of iterations (-nm option)
+TREE SEARCH COMPLETED AFTER 1001 ITERATIONS / Time: 12h:50m:22s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -447751.143
+Optimal log-likelihood: -447751.141
+Site proportion and rates:  (0.054,0.056) (0.064,0.159) (0.079,0.285) (0.124,0.435) (0.146,0.626) (0.166,0.934) (0.138,1.285) (0.113,1.728) (0.105,2.387) (0.012,3.504)
+Parameters optimization took 1 rounds (3.024 sec)
+BEST SCORE FOUND : -447751.141
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+Testing tree branches by aBayes parametric test...
+Alternative NNI shows better log-likelihood -447751.071 > -447751.141
+Alternative NNI shows better log-likelihood -447750.998 > -447751.141
+Alternative NNI shows better log-likelihood -447750.726 > -447751.141
+Alternative NNI shows better log-likelihood -447751.129 > -447751.141
+Alternative NNI shows better log-likelihood -447750.981 > -447751.141
+3.549 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file AOX.fasta.cdhit.mafft.trimal.UFB.splits.nex
+Total tree length: 241.839
+
+Total number of iterations: 1001
+CPU time used for tree search: 408321.583 sec (113h:25m:21s)
+Wall-clock time used for tree search: 46154.125 sec (12h:49m:14s)
+Total CPU time used: 408984.359 sec (113h:36m:24s)
+Total wall-clock time used: 46231.364 sec (12h:50m:31s)
+
+Computing bootstrap consensus tree...
+Reading input file AOX.fasta.cdhit.mafft.trimal.UFB.splits.nex...
+599 taxa and 3391 splits.
+Consensus tree written to AOX.fasta.cdhit.mafft.trimal.UFB.contree
+Reading input trees file AOX.fasta.cdhit.mafft.trimal.UFB.contree
+Log-likelihood of consensus tree: -447746.772
+
+Analysis results written to: 
+  IQ-TREE report:                AOX.fasta.cdhit.mafft.trimal.UFB.iqtree
+  Maximum-likelihood tree:       AOX.fasta.cdhit.mafft.trimal.UFB.treefile
+  Likelihood distances:          AOX.fasta.cdhit.mafft.trimal.UFB.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          AOX.fasta.cdhit.mafft.trimal.UFB.splits.nex
+  Consensus tree:                AOX.fasta.cdhit.mafft.trimal.UFB.contree
+  Screen log file:               AOX.fasta.cdhit.mafft.trimal.UFB.log
+
+Date and Time: Fri Jan  6 06:04:17 2023
