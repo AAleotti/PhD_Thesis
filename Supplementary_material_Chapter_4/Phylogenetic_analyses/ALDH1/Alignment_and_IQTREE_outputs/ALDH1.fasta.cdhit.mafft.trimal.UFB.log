@@ -1,0 +1,1148 @@
+IQ-TREE multicore version 2.0.6 for Linux 64-bit built May 30 2020
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    node127 (AVX2, FMA3, 125 GB RAM)
+Command: iqtree2 -s ALDH1.fasta.cdhit.mafft.trimal -m MFP -B 1000 --alrt 1000 --abayes -T AUTO --prefix ALDH1.fasta.cdhit.mafft.trimal.UFB
+Seed:    774468 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri Dec  9 11:10:48 2022
+Kernel:  AVX+FMA - auto-detect threads (24 CPU cores detected)
+
+Reading alignment file ALDH1.fasta.cdhit.mafft.trimal ... Fasta format detected
+Alignment most likely contains protein sequences
+Alignment has 765 sequences with 502 columns, 502 distinct patterns
+498 parsimony-informative, 4 singleton sites, 0 constant sites
+                                                                                                                                                  Gap/Ambiguity  Composition  p-value
+   1  MetazoaPoriferaLeucosoleniacomplicata_5037098__AL1L1_XENLA_Cytosolic_10-formyltetrahydrofolate_dehydrogenase_OS_                                   77.89%    passed     60.32%
+   2  MetazoaPoriferaLeucosoleniacomplicata_5061283__AL1A2_HUMAN_Retinal_dehydrogenase_2_OS_                                                             79.28%    passed     84.74%
+   3  FungiFusariumoxysporumUP000002489_13354526__AL8A1_DANRE_2-aminomuconic_semialdehyde_dehydrogenase_OS_                                               6.18%    passed     24.28%
+   4  MetazoaCnidariaNematostellavectensis_3393877__PUUC_ECOLI_NADP_NAD-dependent_aldehyde_dehydrogenase_PuuC_OS_                                        20.52%    failed      1.18%
+   5  MetazoaHemichordataSaccoglossuskowalevskii_4065739__ALDH2_PONAB_Aldehyde_dehydrogenase__mitochondrial_OS_                                          39.04%    passed     96.35%
+   6  MetazoaHemichordataSaccoglossuskowalevskii_4051960__ALDH2_PONAB_Aldehyde_dehydrogenase__mitochondrial_OS_                                           3.59%    passed     75.02%
+   7  MetazoaHemichordataSaccoglossuskowalevskii_4051979__ALDH2_PONAB_Aldehyde_dehydrogenase__mitochondrial_OS_                                           5.18%    passed     61.68%
+   8  MetazoaPoriferaStylissacarteri_5075219__ALDH2_MESAU_Aldehyde_dehydrogenase__mitochondrial_OS_                                                      37.85%    passed     85.29%
+   9  CentroplasthelidaEP00300ChoanocystisspHF7_5632624__DAVD_PSEPK_Glutarate-semialdehyde_dehydrogenase_OS_                                             55.38%    passed     67.81%
+  10  FungiFusariumoxysporumUP000002489_13353974__UGA2_YEAST_Succinate-semialdehyde_dehydrogenase__NADP_____OS_                                           5.78%    passed     98.75%
+  11  AlveolataEP00742ColponemidiaspColp10_4291792__GABD_ECOLI_Succinate-semialdehyde_dehydrogenase__NADP_____GabD_OS_                                   45.02%    passed     13.55%
+  12  ChoanoflagellataEP00037Helgoecanana_10794913__ALDH_ENCBU_Aldehyde_dehydrogenase_OS_                                                                 6.57%    passed     25.04%
+  13  FungiFusariumoxysporumUP000002489_13356274__GABD_ECOLI_Succinate-semialdehyde_dehydrogenase__NADP_____GabD_OS_                                      6.18%    passed     97.94%
+  14  FungiFusariumoxysporumUP000002489_13365498__DAVD_PSEAE_Glutarate-semialdehyde_dehydrogenase_OS_                                                     6.97%    passed     77.45%
+  15  MetazoaHemichordataSaccoglossuskowalevskii_4051745__A9A1A_DANRE_4-trimethylaminobutyraldehyde_dehydrogenase_A_OS_                                  11.55%    passed     84.28%
+  16  MetazoaCnidariaStylophorapistillata_3666156__AL1B1_RAT_Aldehyde_dehydrogenase_X__mitochondrial_OS_                                                 19.32%    passed     66.80%
+  17  MetazoaPlacozoaHoilungiahongkongensis_4536968__A9A1B_DANRE_4-trimethylaminobutyraldehyde_dehydrogenase_B_OS_                                        4.38%    passed     17.05%
+  18  MetazoaUrochordataEP00059Cionaintestinalis_5345950__A9A1A_DANRE_4-trimethylaminobutyraldehyde_dehydrogenase_A_OS_                                   4.58%    passed     78.44%
+  19  ChoanoflagellataEP00039Didymoecacostata_10859823__ALDH2_PONAB_Aldehyde_dehydrogenase__mitochondrial_OS_                                             6.37%    passed     73.22%
+  20  MetazoaPoriferaLeucosoleniacomplicata_4981238__AL1L2_MOUSE_Mitochondrial_10-formyltetrahydrofolate_dehydrogenase_OS_                               62.75%    passed     61.34%
+  21  MetazoaMolluscaLottiagigantea_4218601__AL1L1_XENLA_Cytosolic_10-formyltetrahydrofolate_dehydrogenase_OS_                                            1.79%    passed     95.79%
+  22  MetazoaCephalochordataBranchiostomabelcheri_2827767__AL1A2_MOUSE_Retinal_dehydrogenase_2_OS_                                                        3.39%    passed     70.36%
+  23  MetazoaAcoelaHofsteniamiamia_348__AL1A7_MOUSE_Aldehyde_dehydrogenase__cytosolic_1_OS_                                                              16.53%    passed     48.50%
+  24  FungiFusariumoxysporumUP000002489_13354287__YLX7_SCHPO_Putative_aldehyde_dehydrogenase-like_protein_C922.07c_OS_                                    2.39%    passed     62.94%
+  25  FungiFusariumoxysporumUP000002489_13363852__SSDH1_SCHPO_Putative_succinate-semialdehyde_dehydrogenase_C1002.12c__NADP_____OS_                       7.17%    passed     88.06%
+  26  MetazoaHemichordataSaccoglossuskowalevskii_4072165__ALDH2_MESAU_Aldehyde_dehydrogenase__mitochondrial_OS_                                           2.79%    passed     95.09%
+  27  MetazoaMolluscaEP00106Octopusbimaculoides_4166038__AL9A1_MOUSE_4-trimethylaminobutyraldehyde_dehydrogenase_OS_                                      5.78%    passed     95.34%
+  28  MetazoaVertebrateDaniorerio_5420557__A9A1A_DANRE_4-trimethylaminobutyraldehyde_dehydrogenase_A_OS_                                                  5.98%    passed     55.55%
+  29  MetazoaHemichordataSaccoglossuskowalevskii_4058901__AL1B1_RAT_Aldehyde_dehydrogenase_X__mitochondrial_OS_                                           2.99%    passed     98.36%
+  30  FungiFusariumoxysporumUP000002489_13361150__ALDH_ALTAL_Aldehyde_dehydrogenase_OS_                                                                   3.39%    passed     81.35%
+  31  MetazoaBrachiopodaLingulaunguis_1278460__ALDH2_RAT_Aldehyde_dehydrogenase__mitochondrial_OS_                                                        1.39%    passed     99.13%
+  32  MetazoaVertebrateHomosapiens_6453655__AL1A1_HUMAN_Retinal_dehydrogenase_1_OS_                                                                       1.99%    passed     97.07%
+  33  MetazoaCephalochordataBranchiostomabelcheri_2797103__AL1A1_CHICK_Retinal_dehydrogenase_1_OS_                                                        2.19%    passed     85.98%
+  34  MetazoaCephalochordataBranchiostomabelcheri_2797104__AL1A1_CHICK_Retinal_dehydrogenase_1_OS_                                                        2.19%    passed     85.98%
+  35  MetazoaPlacozoaHoilungiahongkongensis_4534108__AL1L1_XENLA_Cytosolic_10-formyltetrahydrofolate_dehydrogenase_OS_                                   34.46%    passed     92.77%
+  36  MetazoaPlacozoaHoilungiahongkongensis_4534109__AL1L2_HUMAN_Mitochondrial_10-formyltetrahydrofolate_dehydrogenase_OS_                               59.16%    passed     40.80%
+  37  MetazoaPlacozoaHoilungiahongkongensis_4534110__AL1L1_XENLA_Cytosolic_10-formyltetrahydrofolate_dehydrogenase_OS_                                    2.19%    passed     89.71%
+  38  MetazoaPlacozoaHoilungiahongkongensis_4534107__AL1L1_XENLA_Cytosolic_10-formyltetrahydrofolate_dehydrogenase_OS_                                    2.19%    passed     89.71%
+  39  MetazoaCnidariaNematostellavectensis_3387108__AL1A1_CHICK_Retinal_dehydrogenase_1_OS_                                                               8.76%    passed     99.99%
+  40  FungiFusariumoxysporumUP000002489_13360741__GABD_ECOLI_Succinate-semialdehyde_dehydrogenase__NADP_____GabD_OS_                                      7.17%    passed     39.83%
+  41  MetazoaAnnelidaEP00103Capitellateleta_84976__AL1A2_MOUSE_Retinal_dehydrogenase_2_OS_                                                               59.36%    passed     51.52%
+  42  MetazoaAnnelidaEP00103Capitellateleta_55408__AL1A1_MACFA_Retinal_dehydrogenase_1_OS_                                                               52.59%    passed     94.26%
+  43  MetazoaAnnelidaEP00103Capitellateleta_66882__AL1A2_HUMAN_Retinal_dehydrogenase_2_OS_                                                                4.38%    passed     62.50%
+  44  MetazoaArthropodaDaphniapulex_209711__AL1L1_XENLA_Cytosolic_10-formyltetrahydrofolate_dehydrogenase_OS_                                             1.99%    passed     98.48%
+  45  MetazoaMolluscaLottiagigantea_4219518__AL9A1_HUMAN_4-trimethylaminobutyraldehyde_dehydrogenase_OS_                                                  6.18%    passed     42.64%
+  46  MetazoaUrochordataEP00059Cionaintestinalis_5338666__AL1A7_RAT_Aldehyde_dehydrogenase__cytosolic_1_OS_                                               2.99%    passed     73.34%
+  47  MetazoaUrochordataEP00059Cionaintestinalis_5338730__AL1A2_RAT_Retinal_dehydrogenase_2_OS_                                                           2.99%    passed     94.77%
+  48  MetazoaMolluscaEP00106Octopusbimaculoides_4158651__CROM_ENTDO_Omega-crystallin_OS_                                                                  2.39%    failed      4.68%
+  49  MetazoaCnidariaNematostellavectensis_3395539__GABD_ECOLI_Succinate-semialdehyde_dehydrogenase__NADP_____GabD_OS_                                   20.72%    failed      0.03%
+  50  MetazoaAnnelidaHelobdellarobusta_86092__AL1L1_XENLA_Cytosolic_10-formyltetrahydrofolate_dehydrogenase_OS_                                          10.96%    passed     37.69%
+  51  MetazoaVertebrateDaniorerio_5415434__AL1L1_XENTR_Cytosolic_10-formyltetrahydrofolate_dehydrogenase_OS_                                              1.99%    passed     78.55%
+  52  EuglenozoaEP00668Euglenalonga_12438347__ALDH5_YEAS7_Aldehyde_dehydrogenase_5__mitochondrial_OS_                                                    79.28%    passed     94.80%
+  53  MetazoaVertebrateDaniorerio_5430473__AL1A3_MOUSE_Aldehyde_dehydrogenase_family_1_member_A3_OS_                                                      1.59%    passed     97.04%
+  54  FungiFusariumoxysporumUP000002489_13363294__ALDH_DAVTA_Aldehyde_dehydrogenase_OS_                                                                   4.38%    passed     85.38%
+  55  MetazoaCephalochordataBranchiostomabelcheri_2808904__A16A1_RAT_Aldehyde_dehydrogenase_family_16_member_A1_OS_                                       4.58%    passed     92.00%
+  56  MetazoaEchinodermataAcanthasterplanci_3797236__AL1A2_HUMAN_Retinal_dehydrogenase_2_OS_                                                              7.97%    passed     79.80%
+  57  MetazoaUrochordataEP00059Cionaintestinalis_5348376__AL1A2_HUMAN_Retinal_dehydrogenase_2_OS_                                                         2.19%    passed     98.18%
+  58  MetazoaBrachiopodaLingulaunguis_1298279__ALDH2_BOVIN_Aldehyde_dehydrogenase__mitochondrial_OS_                                                      2.39%    passed      8.10%
+  59  MetazoaBrachiopodaLingulaunguis_1283235__ALDH2_BOVIN_Aldehyde_dehydrogenase__mitochondrial_OS_                                                      2.79%    passed      7.27%
+  60  MetazoaAnnelidaEP00103Capitellateleta_75834__ACLDH_PSEAI_Acetaldehyde_dehydrogenase_OS_                                                             9.96%    passed     82.71%
+  61  MetazoaUrochordataEP00059Cionaintestinalis_5340096__AL1L2_MOUSE_Mitochondrial_10-formyltetrahydrofolate_dehydrogenase_OS_                           1.99%    passed     37.33%
+  62  MetazoaVertebrateMusmusculus_6547521__AL1A3_MOUSE_Aldehyde_dehydrogenase_family_1_member_A3_OS_                                                     1.39%    passed     63.77%
+  63  MetazoaVertebrateDaniorerio_5434984__A9A1A_DANRE_4-trimethylaminobutyraldehyde_dehydrogenase_A_OS_                                                  5.98%    passed     46.63%
+  64  MetazoaAnnelidaEP00103Capitellateleta_78730__SSDH_RAT_Succinate-semialdehyde_dehydrogenase__mitochondrial_OS_                                       6.57%    passed     87.21%
+  65  MetazoaAcoelaHofsteniamiamia_2402__SSDH_MOUSE_Succinate-semialdehyde_dehydrogenase__mitochondrial_OS_                                               7.17%    failed      0.00%
+  66  MetazoaAcoelaHofsteniamiamia_15397__GABD_ECOLI_Succinate-semialdehyde_dehydrogenase__NADP_____GabD_OS_                                              7.17%    passed     36.46%
+  67  MetazoaRotiferaBrachionusplicatilis_5266408__AL1B1_MOUSE_Aldehyde_dehydrogenase_X__mitochondrial_OS_                                               75.90%    passed     14.47%
+  68  MetazoaRotiferaBrachionusplicatilis_5227909__AL1B1_MOUSE_Aldehyde_dehydrogenase_X__mitochondrial_OS_                                               75.90%    passed     14.47%
+  69  FungiFusariumoxysporumUP000002489_13361174__YLX7_SCHPO_Putative_aldehyde_dehydrogenase-like_protein_C922.07c_OS_                                    3.19%    passed     66.91%
+  70  MetazoaAnnelidaEP00103Capitellateleta_79125__AL1L1_XENLA_Cytosolic_10-formyltetrahydrofolate_dehydrogenase_OS_                                      1.99%    passed     46.52%
+  71  CryptophyceaeEP00290BaffinellaspCCMP2293_12079752__ALDH2_MOUSE_Aldehyde_dehydrogenase__mitochondrial_OS_                                           79.48%    passed     41.89%
+  72  FungiFusariumoxysporumUP000002489_13368439__YLX7_SCHPO_Putative_aldehyde_dehydrogenase-like_protein_C922.07c_OS_                                    2.99%    passed     40.34%
+  73  MetazoaVertebrateMusmusculus_6533449__ALDH2_MOUSE_Aldehyde_dehydrogenase__mitochondrial_OS_                                                         1.79%    passed     88.92%
+  74  MetazoaUrochordataEP00059Cionaintestinalis_5349363__AL1A2_HUMAN_Retinal_dehydrogenase_2_OS_                                                        31.08%    passed     94.95%
+  75  MetazoaEchinodermataEP00057Strongylocentrotuspurpuratus_3833865__AL9A1_HUMAN_4-trimethylaminobutyraldehyde_dehydrogenase_OS_                       11.75%    passed     83.96%
+  76  MetazoaVertebrateDaniorerio_5435183__A9A1B_DANRE_4-trimethylaminobutyraldehyde_dehydrogenase_B_OS_                                                  5.18%    passed     65.94%
+  77  MetazoaEchinodermataAcanthasterplanci_3783353__ALDH2_RAT_Aldehyde_dehydrogenase__mitochondrial_OS_                                                  5.78%    passed     89.55%
+  78  AlveolataEP00742ColponemidiaspColp10_4281503__ALDH2_MESAU_Aldehyde_dehydrogenase__mitochondrial_OS_                                                28.69%    passed     98.07%
+  79  AlveolataEP00742ColponemidiaspColp10_4274623__BETB_BURCM_NAD_NADP-dependent_betaine_aldehyde_dehydrogenase_OS_                                     25.90%    passed     47.95%
+  80  MetazoaBrachiopodaLingulaunguis_1287549__AL1L1_XENTR_Cytosolic_10-formyltetrahydrofolate_dehydrogenase_OS_                                         20.52%    passed     63.38%
+  81  MetazoaBrachiopodaLingulaunguis_1288199__AL1L1_XENTR_Cytosolic_10-formyltetrahydrofolate_dehydrogenase_OS_                                          2.19%    passed     71.19%
+  82  MetazoaCnidariaAstreoporasp_3025442__AL1L1_XENLA_Cytosolic_10-formyltetrahydrofolate_dehydrogenase_OS_                                              1.99%    passed     84.50%
+  83  MetazoaVertebrateHomosapiens_6455776__AL1B1_HUMAN_Aldehyde_dehydrogenase_X__mitochondrial_OS_                                                       1.39%    passed     46.95%
+  84  MetazoaBrachiopodaLingulaunguis_1280299__SSDH_RAT_Succinate-semialdehyde_dehydrogenase__mitochondrial_OS_                                           6.57%    passed     58.02%
+  85  MetazoaBrachiopodaLingulaunguis_1292291__SSDH_RAT_Succinate-semialdehyde_dehydrogenase__mitochondrial_OS_                                           6.57%    passed     63.47%
+  86  MetazoaEchinodermataEP00057Strongylocentrotuspurpuratus_3813067__AL1L2_HUMAN_Mitochondrial_10-formyltetrahydrofolate_dehydrogenase_OS_              1.99%    passed     35.77%
+  87  MetazoaEchinodermataEP00057Strongylocentrotuspurpuratus_3807748__ALDH2_HUMAN_Aldehyde_dehydrogenase__mitochondrial_OS_                             25.90%    passed     80.13%
+  88  MetazoaEchinodermataEP00057Strongylocentrotuspurpuratus_3823335__ALDH2_BOVIN_Aldehyde_dehydrogenase__mitochondrial_OS_                              3.19%    passed     97.41%
+  89  MetazoaMolluscaEP00106Octopusbimaculoides_4166507__AL1L1_XENLA_Cytosolic_10-formyltetrahydrofolate_dehydrogenase_OS_                                1.99%    passed     69.72%
+  90  MetazoaMolluscaLottiagigantea_4217612__ALDH2_RAT_Aldehyde_dehydrogenase__mitochondrial_OS_                                                          2.39%    passed     89.96%
+  91  MetazoaVertebrateDaniorerio_5411579__ALDH2_MESAU_Aldehyde_dehydrogenase__mitochondrial_OS_                                                         35.26%    passed     98.90%
+  92  MetazoaVertebrateDaniorerio_5427746__ALDH2_RAT_Aldehyde_dehydrogenase__mitochondrial_OS_                                                            1.79%    passed     99.63%
+  93  MetazoaVertebrateDaniorerio_5418910__ALDH2_BOVIN_Aldehyde_dehydrogenase__mitochondrial_OS_                                                          1.79%    passed     99.58%
+  94  MetazoaVertebrateDaniorerio_5435513__AL1A2_HUMAN_Retinal_dehydrogenase_2_OS_                                                                        1.39%    passed     92.05%
+  95  CentroplasthelidaEP00300ChoanocystisspHF7_5611114__FLUDE_STREN_Fluoroacetaldehyde_dehydrogenase_OS_                                                 9.76%    passed     30.55%
+  96  MetazoaBrachiopodaLingulaunguis_1283200__A16A1_BOVIN_Aldehyde_dehydrogenase_family_16_member_A1_OS_                                                 5.78%    passed     43.26%
+  97  AlveolataEP00742ColponemidiaspColp10_4289522__AL2B7_ARATH_Aldehyde_dehydrogenase_family_2_member_B7__mitochondrial_OS_                             40.04%    passed     60.71%
+  98  MetazoaBrachiopodaLingulaunguis_1278234__ALDH2_RAT_Aldehyde_dehydrogenase__mitochondrial_OS_                                                        1.39%    passed     77.67%
+  99  MetazoaHemichordataSaccoglossuskowalevskii_4050268__AL8A1_MOUSE_2-aminomuconic_semialdehyde_dehydrogenase_OS_                                      56.18%    passed     79.42%
+ 100  MetazoaHemichordataSaccoglossuskowalevskii_4050269__AL8A1_MOUSE_2-aminomuconic_semialdehyde_dehydrogenase_OS_                                      34.86%    passed     40.44%
+ 101  MetazoaMolluscaLottiagigantea_4206087__AL1A2_HUMAN_Retinal_dehydrogenase_2_OS_                                                                      2.39%    passed     83.89%
+ 102  MetazoaPlacozoaEP00114TrichoplaxspH2_4508612__ALDH2_MESAU_Aldehyde_dehydrogenase__mitochondrial_OS_                                                 2.19%    passed     73.31%
+ 103  MetazoaVertebrateMusmusculus_6545861__AL1B1_MOUSE_Aldehyde_dehydrogenase_X__mitochondrial_OS_                                                       1.39%    passed     57.82%
+ 104  MetazoaBrachiopodaLingulaunguis_1283593__ALDH2_BOVIN_Aldehyde_dehydrogenase__mitochondrial_OS_                                                      2.59%    passed     88.39%
+ 105  MetazoaPoriferaEphydatiamuelleri_4930263__AL1L1_XENLA_Cytosolic_10-formyltetrahydrofolate_dehydrogenase_OS_                                         1.99%    passed     75.41%
+ 106  MetazoaCnidariaAnthopleuraelegantissima_3010897__ALDH2_RAT_Aldehyde_dehydrogenase__mitochondrial_OS_                                                1.79%    passed     83.05%
+ 107  MetazoaCnidariaAnthopleuraelegantissima_3017671__AL1L1_XENLA_Cytosolic_10-formyltetrahydrofolate_dehydrogenase_OS_                                  1.99%    passed     41.53%
+ 108  MetazoaMolluscaEP00106Octopusbimaculoides_4158655__AL1A2_HUMAN_Retinal_dehydrogenase_2_OS_                                                          2.99%    passed     88.48%
+ 109  MetazoaMolluscaEP00106Octopusbimaculoides_4158656__AL1A2_HUMAN_Retinal_dehydrogenase_2_OS_                                                          2.99%    passed     65.01%
+ 110  MetazoaMolluscaLottiagigantea_4209345__AL1A2_MOUSE_Retinal_dehydrogenase_2_OS_                                                                      3.19%    passed     65.49%
+ 111  MetazoaPlacozoaHoilungiahongkongensis_4575503__AL1B1_RAT_Aldehyde_dehydrogenase_X__mitochondrial_OS_                                                2.19%    passed     29.21%
+ 112  MetazoaHemichordataSaccoglossuskowalevskii_4061553__AL1A1_RABIT_Retinal_dehydrogenase_1_OS_                                                         2.99%    passed     51.65%
+ 113  MetazoaArthropodaEP00090Calanusglacialis_716679__AL1L1_XENLA_Cytosolic_10-formyltetrahydrofolate_dehydrogenase_OS_                                  1.79%    passed     33.67%
+ 114  MetazoaArthropodaEP00090Calanusglacialis_716680__AL1L1_XENLA_Cytosolic_10-formyltetrahydrofolate_dehydrogenase_OS_                                  9.96%    passed     45.43%
+ 115  MetazoaVertebrateMusmusculus_6531265__AL1A7_MOUSE_Aldehyde_dehydrogenase__cytosolic_1_OS_                                                           1.99%    passed     97.14%
+ 116  RotosphaeridaEP00160Parvulariaatlantis_23172476__ALDH2_HORSE_Aldehyde_dehydrogenase__mitochondrial_OS_                                             65.54%    passed     83.32%
+ 117  AlveolataEP00742ColponemidiaspColp10_4271526__AL1A1_CHICK_Retinal_dehydrogenase_1_OS_                                                               3.19%    passed     99.95%
+ 118  MetazoaArthropodaDaphniapulex_201148__ALDH2_MOUSE_Aldehyde_dehydrogenase__mitochondrial_OS_                                                         1.79%    passed     99.39%
+ 119  MetazoaCnidariaNematostellavectensis_3375790__ALDH2_HUMAN_Aldehyde_dehydrogenase__mitochondrial_OS_                                                 1.99%    passed     63.69%
+ 120  MetazoaCnidariaNematostellavectensis_3395268__AL1A1_RAT_Retinal_dehydrogenase_1_OS_                                                                15.94%    passed     11.59%
+ 121  MetazoaCnidariaNematostellavectensis_3377718__AL1A1_CHICK_Retinal_dehydrogenase_1_OS_                                                               2.79%    passed     87.14%
+ 122  MetazoaAcoelaHofsteniamiamia_10245__ALDH2_BOVIN_Aldehyde_dehydrogenase__mitochondrial_OS_                                                           2.39%    passed     89.41%
+ 123  MetazoaAcoelaHofsteniamiamia_18652__ALDH2_BOVIN_Aldehyde_dehydrogenase__mitochondrial_OS_                                                           3.98%    passed     94.96%
+ 124  MetazoaPlacozoaEP00114TrichoplaxspH2_4514295__AL1L1_XENLA_Cytosolic_10-formyltetrahydrofolate_dehydrogenase_OS_                                     2.19%    passed     96.26%
+ 125  MetazoaMolluscaEP00106Octopusbimaculoides_4167646__ALDH2_RAT_Aldehyde_dehydrogenase__mitochondrial_OS_                                              2.99%    passed     98.38%
+ 126  MetazoaPlacozoaHoilungiahongkongensis_4543604__ALDH2_PONAB_Aldehyde_dehydrogenase__mitochondrial_OS_                                                2.19%    passed     99.96%
+ 127  MetazoaPlacozoaHoilungiahongkongensis_4575511__ALDH2_HUMAN_Aldehyde_dehydrogenase__mitochondrial_OS_                                                2.19%    passed     54.74%
+ 128  MetazoaEchinodermataEP00057Strongylocentrotuspurpuratus_3834106__ALDH2_PONAB_Aldehyde_dehydrogenase__mitochondrial_OS_                              1.39%    passed     94.61%
+ 129  MetazoaArthropodaEP00090Calanusglacialis_710837__ALDH2_PONAB_Aldehyde_dehydrogenase__mitochondrial_OS_                                              2.39%    passed     67.93%
+ 130  MetazoaVertebrateHomosapiens_6456389__AL1A3_HUMAN_Aldehyde_dehydrogenase_family_1_member_A3_OS_                                                     1.39%    passed     81.29%
+ 131  MetazoaCnidariaAstreoporasp_3038150__ALDH2_PONAB_Aldehyde_dehydrogenase__mitochondrial_OS_                                                          1.39%    passed     94.43%
+ 132  MetazoaPlacozoaHoilungiahongkongensis_4540886__ALDH2_HUMAN_Aldehyde_dehydrogenase__mitochondrial_OS_                                               29.08%    passed     82.96%
+ 133  MetazoaPlacozoaHoilungiahongkongensis_4540888__ALDH2_HUMAN_Aldehyde_dehydrogenase__mitochondrial_OS_                                                2.19%    passed     92.54%
+ 134  MetazoaHemichordataSaccoglossuskowalevskii_4079539__AL1A1_CHICK_Retinal_dehydrogenase_1_OS_                                                         3.59%    passed     47.21%
+ 135  MetazoaBrachiopodaLingulaunguis_1283050__AL1A2_HUMAN_Retinal_dehydrogenase_2_OS_                                                                    2.59%    passed     90.57%
+ 136  MetazoaBrachiopodaLingulaunguis_1290358__AL1A2_HUMAN_Retinal_dehydrogenase_2_OS_                                                                    2.59%    passed     91.29%
+ 137  MetazoaBrachiopodaLingulaunguis_1283334__AL1B1_RAT_Aldehyde_dehydrogenase_X__mitochondrial_OS_                                                     78.09%    passed     87.85%
+ 138  MetazoaAnnelidaEP00103Capitellateleta_67497__AL1A1_MESAU_Retinal_dehydrogenase_1_OS_                                                                2.79%    passed     23.23%
+ 139  CentroplasthelidaEP00300ChoanocystisspHF7_5604653__ABDH_SERP5_Gamma-aminobutyraldehyde_dehydrogenase_OS_                                            7.17%    failed      0.33%
+ 140  MetazoaHemichordataSaccoglossuskowalevskii_4062443__SSDH_MOUSE_Succinate-semialdehyde_dehydrogenase__mitochondrial_OS_                              6.77%    passed     97.93%
+ 141  MetazoaVertebrateHomosapiens_6453993__ALDH2_HUMAN_Aldehyde_dehydrogenase__mitochondrial_OS_                                                         1.79%    passed     86.97%
+ 142  MetazoaVertebrateMusmusculus_6537566__AL1A2_MOUSE_Retinal_dehydrogenase_2_OS_                                                                       1.39%    passed     93.04%
+ 143  MetazoaAnnelidaEP00103Capitellateleta_68584__ALDH2_BOVIN_Aldehyde_dehydrogenase__mitochondrial_OS_                                                  2.79%    passed     94.22%
+ 144  MetazoaVertebrateHomosapiens_6453244__AL1A2_HUMAN_Retinal_dehydrogenase_2_OS_                                                                       1.39%    passed     88.18%
+ 145  MetazoaCnidariaAstreoporasp_3035545__ALDH2_BOVIN_Aldehyde_dehydrogenase__mitochondrial_OS_                                                         17.73%    passed     91.48%
+ 146  ChoanoflagellataEP00037Helgoecanana_10805152__BADH1_ARATH_Betaine_aldehyde_dehydrogenase_1__chloroplastic_OS_                                       5.38%    failed      0.01%
+ 147  MetazoaUrochordataEP00059Cionaintestinalis_5339229__SSDH_MOUSE_Succinate-semialdehyde_dehydrogenase__mitochondrial_OS_                              7.37%    passed     40.95%
+ 148  MetazoaCephalochordataBranchiostomabelcheri_2796953__AL1A2_HUMAN_Retinal_dehydrogenase_2_OS_                                                        2.79%    passed     84.83%
+ 149  MetazoaCnidariaStylophorapistillata_3673012__AL1A1_CHICK_Retinal_dehydrogenase_1_OS_                                                                9.96%    passed     61.16%
+ 150  MetazoaCnidariaGorgoniaventalina_3213894__ALDH2_RAT_Aldehyde_dehydrogenase__mitochondrial_OS_                                                       1.39%    passed     97.44%
+ 151  MetazoaCephalochordataBranchiostomabelcheri_2810227__AL1A2_HUMAN_Retinal_dehydrogenase_2_OS_                                                        2.19%    passed     72.65%
+ 152  AlveolataEP00742ColponemidiaspColp10_4271500__ALDH2_RAT_Aldehyde_dehydrogenase__mitochondrial_OS_                                                   3.98%    passed     83.61%
+ 153  MetazoaCnidariaClytiahemisphaerica_3077799__ALDH2_HUMAN_Aldehyde_dehydrogenase__mitochondrial_OS_                                                   1.79%    passed     87.20%
+ 154  MetazoaNematodaCaenorhabditiselegans_4316597__ALDH2_HUMAN_Aldehyde_dehydrogenase__mitochondrial_OS_                                                 1.59%    passed     76.17%
+ 155  MetazoaCnidariaClytiahemisphaerica_3097010__AL1A1_RAT_Retinal_dehydrogenase_1_OS_                                                                   3.59%    passed     65.18%
+ 156  MetazoaCnidariaClytiahemisphaerica_3098017__AL1L1_XENLA_Cytosolic_10-formyltetrahydrofolate_dehydrogenase_OS_                                       1.99%    passed     95.72%
+ 157  MetazoaNematodaCaenorhabditiselegans_4322623__ALDH2_HUMAN_Aldehyde_dehydrogenase__mitochondrial_OS_                                                 1.59%    passed     84.77%
+ 158  MetazoaPoriferaHaliclonatubifera_4960912__ALDH2_RAT_Aldehyde_dehydrogenase__mitochondrial_OS_                                                       2.99%    passed     92.77%
+ 159  MetazoaPoriferaHaliclonatubifera_4963088__AL1L1_XENLA_Cytosolic_10-formyltetrahydrofolate_dehydrogenase_OS_                                         1.79%    passed     85.48%
+ 160  AlveolataEP00333Tetrahymenathermophila_74556__AL1B1_RAT_Aldehyde_dehydrogenase_X__mitochondrial_OS_                                                 4.78%    passed     52.17%
+ 161  MetazoaArthropodaDrosophilamelanogaster_249315__AL1L1_XENLA_Cytosolic_10-formyltetrahydrofolate_dehydrogenase_OS_                                   2.19%    passed     96.35%
+ 162  MetazoaArthropodaDrosophilamelanogaster_249982__ALDH2_RAT_Aldehyde_dehydrogenase__mitochondrial_OS_                                                 1.59%    passed     91.50%
+ 163  GlaucophytaEP00276Gloeochaetewittrockiana_13495776__ALDH2_PONAB_Aldehyde_dehydrogenase__mitochondrial_OS_                                           3.39%    passed     84.25%
+ 164  AmoebozoaDictyosteliumdiscoideumUP000002195_4926722__ALDH1_ELEED_Aldehyde_dehydrogenase__cytosolic_1_OS_                                            4.18%    passed      5.84%
+ 165  AmoebozoaDictyosteliumdiscoideumUP000002195_4926723__ALDH2_PONAB_Aldehyde_dehydrogenase__mitochondrial_OS_                                          3.59%    passed     48.83%
+ 166  AmoebozoaDictyosteliumdiscoideumUP000002195_4926724__AL1A1_CHICK_Retinal_dehydrogenase_1_OS_                                                        3.78%    passed     21.45%
+ 167  AmoebozoaDictyosteliumdiscoideumUP000002195_4927591__AL1A1_RAT_Retinal_dehydrogenase_1_OS_                                                          3.39%    passed      7.52%
+ 168  MetazoaRotiferaBrachionusplicatilis_5250114__AL1A1_MACFA_Retinal_dehydrogenase_1_OS_                                                                4.18%    passed     62.05%
+ 169  EuglenozoaEP00668Euglenalonga_12436315__ALDH2_RAT_Aldehyde_dehydrogenase__mitochondrial_OS_                                                        32.87%    passed     94.15%
+ 170  EuglenozoaEP00668Euglenalonga_12399119__ALDH2_PONAB_Aldehyde_dehydrogenase__mitochondrial_OS_                                                       4.18%    passed     89.43%
+ 171  EuglenozoaEP00668Euglenalonga_12399120__ALDH2_RAT_Aldehyde_dehydrogenase__mitochondrial_OS_                                                         4.18%    passed     83.10%
+ 172  EuglenozoaEP00668Euglenalonga_12399121__ALDH2_RAT_Aldehyde_dehydrogenase__mitochondrial_OS_                                                         4.18%    passed     89.40%
+ 173  EuglenozoaEP00668Euglenalonga_12413446__ALDH2_PONAB_Aldehyde_dehydrogenase__mitochondrial_OS_                                                       4.18%    passed     87.38%
+ 174  EuglenozoaEP00668Euglenalonga_12413447__ALDH2_RAT_Aldehyde_dehydrogenase__mitochondrial_OS_                                                         4.18%    passed     85.37%
+ 175  EuglenozoaEP00668Euglenalonga_12413448__ALDH2_MESAU_Aldehyde_dehydrogenase__mitochondrial_OS_                                                      57.97%    passed     63.94%
+ 176  EuglenozoaEP00668Euglenalonga_12413449__ALDH2_PONAB_Aldehyde_dehydrogenase__mitochondrial_OS_                                                       4.18%    passed     88.73%
+ 177  EuglenozoaEP00668Euglenalonga_12427751__ALDH2_PONAB_Aldehyde_dehydrogenase__mitochondrial_OS_                                                       4.18%    passed     89.34%
+ 178  EuglenozoaEP00668Euglenalonga_12437315__ALDH2_PONAB_Aldehyde_dehydrogenase__mitochondrial_OS_                                                      61.35%    passed     61.54%
+ 179  EuglenozoaEP00668Euglenalonga_12437597__ALDH2_PONAB_Aldehyde_dehydrogenase__mitochondrial_OS_                                                       4.18%    passed     99.92%
+ 180  IchthyosporeaEP00123Amoebidiumparasiticum_14562796__ALDH2_RAT_Aldehyde_dehydrogenase__mitochondrial_OS_                                             3.19%    passed     97.24%
+ 181  MetazoaArthropodaDaphniapulex_204289__ALDH2_BOVIN_Aldehyde_dehydrogenase__mitochondrial_OS_                                                         2.99%    passed     97.05%
+ 182  MetazoaArthropodaDaphniapulex_207367__AL1A1_MESAU_Retinal_dehydrogenase_1_OS_                                                                       3.59%    passed     89.48%
+ 183  MetazoaCtenophoraMnemiopsisleidyi_3732740__AL1L1_XENTR_Cytosolic_10-formyltetrahydrofolate_dehydrogenase_OS_                                        1.99%    passed     99.33%
+ 184  PluriformeaEP00127Corallochytriumlimacisporum_21621209__AL1A1_MOUSE_Retinal_dehydrogenase_1_OS_                                                     3.78%    passed     87.11%
+ 185  PluriformeaEP00127Corallochytriumlimacisporum_21622167__AL1A1_RABIT_Retinal_dehydrogenase_1_OS_                                                     3.78%    passed     97.07%
+ 186  MetazoaCnidariaHydramagnapapillata_3264744__ALDH2_PIG_Aldehyde_dehydrogenase__mitochondrial_OS_                                                     3.19%    passed     79.64%
+ 187  RigifilidaEP00004Rigifilaramosa_23131262__AL1L1_XENLA_Cytosolic_10-formyltetrahydrofolate_dehydrogenase_OS_                                         1.59%    passed     91.76%
+ 188  FungiEP00150Ustilagomaydis_13253453__ALDH_AGABI_Aldehyde_dehydrogenase_OS_                                                                          4.18%    passed     92.07%
+ 189  MetazoaTardigradaRamazzotiusvarieornatus_5279658__AL1L1_XENLA_Cytosolic_10-formyltetrahydrofolate_dehydrogenase_OS_                                 1.99%    passed     99.92%
+ 190  RhodelphisEP00736Rhodelphismarinus_22802935__AL1A2_HUMAN_Retinal_dehydrogenase_2_OS_                                                                3.39%    passed     48.64%
+ 191  MetazoaTardigradaRamazzotiusvarieornatus_5296282__ALDH2_PONAB_Aldehyde_dehydrogenase__mitochondrial_OS_                                             1.39%    passed     98.52%
+ 192  MetazoaCnidariaPoritesaustraliensis_3534430__ALDH2_MESAU_Aldehyde_dehydrogenase__mitochondrial_OS_                                                 16.33%    passed     95.66%
+ 193  MetazoaCnidariaMontastraeacavernosa_3321285__ALDH2_BOVIN_Aldehyde_dehydrogenase__mitochondrial_OS_                                                  1.39%    passed     80.26%
+ 194  RhizariaEP00473Plasmodiophorabrassicae_22117927__ALDH_DAVTA_Aldehyde_dehydrogenase_OS_                                                              2.99%    passed     90.03%
+ 195  FungiSaccharomycescerevisiaeUP000002311_13447812__ALDH5_YEAS7_Aldehyde_dehydrogenase_5__mitochondrial_OS_                                           2.39%    passed     88.71%
+ 196  FungiSaccharomycescerevisiaeUP000002311_13448331__ALDH4_YEAST_Potassium-activated_aldehyde_dehydrogenase__mitochondrial_OS_                         1.99%    passed     36.04%
+ 197  FungiSaccharomycescerevisiaeUP000002311_13449203__ALDH6_YEAST_Magnesium-activated_aldehyde_dehydrogenase__cytosolic_OS_                             3.19%    passed     64.79%
+ 198  MetazoaEchinodermataAcanthasterplanci_3782688__AL1L1_XENLA_Cytosolic_10-formyltetrahydrofolate_dehydrogenase_OS_                                    1.99%    passed     61.67%
+ 199  MetazoaCnidariaMadracisauretenra_3272786__AL1A2_HUMAN_Retinal_dehydrogenase_2_OS_                                                                   1.79%    passed     62.57%
+ 200  MetazoaCnidariaMadracisauretenra_3272787__AL1A2_CHICK_Retinal_dehydrogenase_2_OS_                                                                  49.40%    passed     78.68%
+ 201  MetazoaEchinodermataAcanthasterplanci_3787058__AL1A2_RAT_Retinal_dehydrogenase_2_OS_                                                                1.59%    passed     75.22%
+ 202  MalawimonadidaeEP00698Gefionellaokellyi_14691901__ALDH2_PONAB_Aldehyde_dehydrogenase__mitochondrial_OS_                                             3.59%    passed     63.70%
+ 203  MalawimonadidaeEP00698Gefionellaokellyi_14696856__ALDH2_BOVIN_Aldehyde_dehydrogenase__mitochondrial_OS_                                            54.98%    passed     32.25%
+ 204  MalawimonadidaeEP00698Gefionellaokellyi_14696857__AL1A2_MOUSE_Retinal_dehydrogenase_2_OS_                                                           3.59%    passed     92.04%
+ 205  MalawimonadidaeEP00698Gefionellaokellyi_14709002__ALDH2_MOUSE_Aldehyde_dehydrogenase__mitochondrial_OS_                                            48.61%    passed     96.20%
+ 206  MalawimonadidaeEP00698Gefionellaokellyi_14709003__AL1B1_RAT_Aldehyde_dehydrogenase_X__mitochondrial_OS_                                             3.78%    passed     76.00%
+ 207  ChloroplastidaChlamydomonasreinhardtiiUP000006906_6356954__AL2B7_ARATH_Aldehyde_dehydrogenase_family_2_member_B7__mitochondrial_OS_                 2.79%    passed      5.24%
+ 208  MetazoaPoriferaEP00118Oscarellapearsei_4812515__ALDH2_BOVIN_Aldehyde_dehydrogenase__mitochondrial_OS_                                               1.79%    passed     75.97%
+ 209  MetazoaPoriferaEP00118Oscarellapearsei_4835013__AL1L1_XENLA_Cytosolic_10-formyltetrahydrofolate_dehydrogenase_OS_                                   1.99%    passed     84.82%
+ 210  MetazoaCnidariaFungiascutaria_3205329__ALDH2_BOVIN_Aldehyde_dehydrogenase__mitochondrial_OS_                                                        1.39%    passed     96.51%
+ 211  MetazoaPoriferaEphydatiamuelleri_4913321__ALDH2_RAT_Aldehyde_dehydrogenase__mitochondrial_OS_                                                       1.99%    passed     78.12%
+ 212  MetazoaPoriferaEphydatiamuelleri_4930615__ALDH2_BOVIN_Aldehyde_dehydrogenase__mitochondrial_OS_                                                     3.39%    passed     80.98%
+ 213  MetazoaPoriferaStylissacarteri_5086562__AL1A1_CHICK_Retinal_dehydrogenase_1_OS_                                                                     3.39%    passed     99.50%
+ 214  MetazoaPoriferaLeucosoleniacomplicata_5003689__ALDH2_RAT_Aldehyde_dehydrogenase__mitochondrial_OS_                                                  1.79%    passed     96.17%
+ 215  MetazoaPoriferaLeucosoleniacomplicata_5048948__ALDH9_POLMI_Aldehyde_dehydrogenase_9__Fragment__OS_                                                 75.30%    passed     84.60%
+ 216  CryptophyceaeEP00290BaffinellaspCCMP2293_12049157__ALDH2_MOUSE_Aldehyde_dehydrogenase__mitochondrial_OS_                                            3.39%    passed     58.52%
+ 217  MetazoaCnidariaAnthopleuraelegantissima_2995577__AL1A1_CHICK_Retinal_dehydrogenase_1_OS_                                                            2.59%    passed     70.86%
+ 218  MetazoaCnidariaAnthopleuraelegantissima_2997567__AL1A1_CHICK_Retinal_dehydrogenase_1_OS_                                                            3.19%    passed     93.54%
+ 219  ChoanoflagellataEP00040Diaphanoecagrandis_10887599__AL1L1_XENTR_Cytosolic_10-formyltetrahydrofolate_dehydrogenase_OS_                               2.19%    passed     99.51%
+ 220  ChoanoflagellataEP00040Diaphanoecagrandis_10918664__ALDH2_HUMAN_Aldehyde_dehydrogenase__mitochondrial_OS_                                           2.59%    passed     33.81%
+ 221  TelonemiaP00656Telonemasubtile_26512064__ALDH2_PONAB_Aldehyde_dehydrogenase__mitochondrial_OS_                                                      3.39%    passed     84.84%
+ 222  MetazoaCnidariaAstreoporasp_3040475__AL1A1_CHICK_Retinal_dehydrogenase_1_OS_                                                                        1.79%    passed     43.82%
+ 223  MetazoaCnidariaAureliaGenome_3048601__ALDH2_PIG_Aldehyde_dehydrogenase__mitochondrial_OS_                                                           1.59%    passed     99.79%
+ 224  MetazoaPoriferaSyconciliatum_5125449__AL1L1_XENLA_Cytosolic_10-formyltetrahydrofolate_dehydrogenase_OS_                                             1.99%    passed     87.84%
+ 225  MetazoaPoriferaSyconciliatum_5129655__AL1L1_XENLA_Cytosolic_10-formyltetrahydrofolate_dehydrogenase_OS_                                             1.99%    passed     67.22%
+ 226  MetazoaPoriferaSyconciliatum_5148025__ALDH2_PIG_Aldehyde_dehydrogenase__mitochondrial_OS_                                                           1.99%    passed     86.28%
+ 227  MetazoaPoriferaSyconciliatum_5112145__AL1A1_RABIT_Retinal_dehydrogenase_1_OS_                                                                       1.99%    passed     94.32%
+ 228  MetazoaPoriferaSyconciliatum_5142893__ALDH2_PIG_Aldehyde_dehydrogenase__mitochondrial_OS_                                                           1.99%    passed     97.63%
+ 229  MetazoaPoriferaSyconciliatum_5118475__ALDH2_RAT_Aldehyde_dehydrogenase__mitochondrial_OS_                                                           1.99%    passed     80.63%
+ 230  MetazoaVertebrateEptatretusburgeri_6386749__AL1L1_XENLA_Cytosolic_10-formyltetrahydrofolate_dehydrogenase_OS_                                       1.99%    passed     95.09%
+ 231  MetazoaVertebrateEptatretusburgeri_6386750__AL1L1_XENLA_Cytosolic_10-formyltetrahydrofolate_dehydrogenase_OS_                                       8.57%    passed     99.00%
+ 232  MetazoaAnnelidaHelobdellarobusta_101593__ALDH_ENCBU_Aldehyde_dehydrogenase_OS_                                                                      2.99%    passed     97.94%
+ 233  MetazoaAnnelidaHelobdellarobusta_101725__ALDH2_BOVIN_Aldehyde_dehydrogenase__mitochondrial_OS_                                                      1.99%    passed     80.90%
+ 234  MetazoaAnnelidaHelobdellarobusta_103927__ALDH2_BOVIN_Aldehyde_dehydrogenase__mitochondrial_OS_                                                      1.39%    passed     87.89%
+ 235  MetazoaMolluscaLottiagigantea_4221916__AL1A1_CHICK_Retinal_dehydrogenase_1_OS_                                                                      2.39%    passed     10.68%
+ 236  MetazoaNematodaCaenorhabditiselegans_4307171__AL1L1_XENLA_Cytosolic_10-formyltetrahydrofolate_dehydrogenase_OS_                                     1.99%    passed     98.98%
+ 237  ChoanoflagellataEP00037Helgoecanana_10809127__AL1L1_XENTR_Cytosolic_10-formyltetrahydrofolate_dehydrogenase_OS_                                     2.19%    passed     93.86%
+ 238  MetazoaCnidariaAnthopleuraelegantissima_2999644__ALDH_AGABI_Aldehyde_dehydrogenase_OS_                                                             29.08%    passed     92.52%
+ 239  MetazoaCnidariaAstreoporasp_3039040__AL1A1_MACFA_Retinal_dehydrogenase_1_OS_                                                                        3.19%    passed     91.94%
+ 240  MetazoaAnnelidaEP00103Capitellateleta_72042__AL1A1_RABIT_Retinal_dehydrogenase_1_OS_                                                                2.79%    passed     87.13%
+ 241  ChoanoflagellateaMonosigabrevicollisUP000001357_11431340__ALDH_DEIRA_Aldehyde_dehydrogenase_OS_                                                    74.70%    passed     70.86%
+ 242  MetazoaArthropodaEP00090Calanusglacialis_718918__A16A1_RAT_Aldehyde_dehydrogenase_family_16_member_A1_OS_                                           6.57%    passed     51.69%
+ 243  AlveolataEP00742ColponemidiaspColp10_4276312__AL1B1_PONAB_Aldehyde_dehydrogenase_X__mitochondrial_OS_                                               4.78%    passed     65.87%
+ 244  AlveolataEP00333Tetrahymenathermophila_67743__ALDH_AGABI_Aldehyde_dehydrogenase_OS_                                                                 4.38%    passed     51.31%
+ 245  ChoanoflagellataEP00047Mylnosigafluctuans_11112272__ALDH2_PONAB_Aldehyde_dehydrogenase__mitochondrial_OS_                                           3.19%    passed     98.91%
+ 246  FungiRhizopusmicrosporusUP000242254_13430262__ALDH_EMENI_Aldehyde_dehydrogenase_OS_                                                                 6.57%    passed     58.54%
+ 247  FungiRhizopusmicrosporusUP000242254_13430333__ALDH_ALTAL_Aldehyde_dehydrogenase_OS_                                                                 4.38%    passed     68.06%
+ 248  MetazoaCtenophoraMnemiopsisleidyi_3735611__ALDH2_RAT_Aldehyde_dehydrogenase__mitochondrial_OS_                                                      2.59%    passed     76.88%
+ 249  CryptophyceaeGuillardiathetaUP000011087_12263859__ALDH2_PONAB_Aldehyde_dehydrogenase__mitochondrial_OS_                                             5.58%    passed     91.62%
+ 250  CryptophyceaeGuillardiathetaUP000011087_12268362__ALDH2_PONAB_Aldehyde_dehydrogenase__mitochondrial_OS_                                             5.58%    passed     87.70%
+ 251  RotosphaeridaEP00160Parvulariaatlantis_23167199__AL1A1_HUMAN_Retinal_dehydrogenase_1_OS_                                                            5.18%    passed     56.56%
+ 252  RotosphaeridaEP00160Parvulariaatlantis_23167201__AL1A2_MOUSE_Retinal_dehydrogenase_2_OS_                                                            5.38%    passed     91.12%
+ 253  MetazoaCnidariaHydramagnapapillata_3260692__ALDH2_HUMAN_Aldehyde_dehydrogenase__mitochondrial_OS_                                                   6.97%    passed     99.04%
+ 254  MetazoaUrochordataOikopleuradioica_5357190__ALDH2_MOUSE_Aldehyde_dehydrogenase__mitochondrial_OS_                                                   3.19%    passed     76.10%
+ 255  MetazoaUrochordataOikopleuradioica_5357192__ALDH2_MOUSE_Aldehyde_dehydrogenase__mitochondrial_OS_                                                   3.39%    passed     76.65%
+ 256  FungiEP00150Ustilagomaydis_13253722__ALDH_ASPNG_Aldehyde_dehydrogenase_OS_                                                                          3.19%    passed     74.81%
+ 257  FungiSpizellomycespunctatusUP000053201_13453677__YF19_SCHPO_Putative_aldehyde_dehydrogenase-like_protein_C9E9.09c_OS_                               3.59%    passed     99.73%
+ 258  MetazoaCnidariaPoritesaustraliensis_3534499__AL1A1_RABIT_Retinal_dehydrogenase_1_OS_                                                                3.19%    passed     93.08%
+ 259  IchthyosporeaEP00126Sphaerothecumdestruens_14599352__AL1A2_HUMAN_Retinal_dehydrogenase_2_OS_                                                       22.51%    passed     31.03%
+ 260  MetazoaCnidariaPoritesaustraliensis_3551618__AL1L1_XENLA_Cytosolic_10-formyltetrahydrofolate_dehydrogenase_OS_                                      1.99%    passed     74.82%
+ 261  MetazoaCnidariaMontastraeacavernosa_3336656__AL1L1_XENLA_Cytosolic_10-formyltetrahydrofolate_dehydrogenase_OS_                                      5.38%    passed     90.56%
+ 262  IchthyosporeaSphaeroformaarcticaUP000054560_14628074__ALDH2_MOUSE_Aldehyde_dehydrogenase__mitochondrial_OS_                                         4.38%    passed     94.30%
+ 263  FungiSaccharomycescerevisiaeUP000002311_13448551__ALDH2_YEAST_Aldehyde_dehydrogenase__NAD_P____1_OS_                                                3.98%    passed     10.06%
+ 264  FungiSaccharomycescerevisiaeUP000002311_13449202__ALDH3_YEAST_Aldehyde_dehydrogenase__NAD_P____2_OS_                                                3.98%    passed     16.80%
+ 265  MetazoaPlatyhelminthesEchinococcusmultilocularis_4606208__AL1A3_MOUSE_Aldehyde_dehydrogenase_family_1_member_A3_OS_                                 3.39%    passed     73.85%
+ 266  JakobidaEP00762Andaluciagodoyi_14655433__ALDH_DAVTA_Aldehyde_dehydrogenase_OS_                                                                      4.18%    passed     87.71%
+ 267  MetazoaCnidariaMadracisauretenra_3309387__AL1A1_CHICK_Retinal_dehydrogenase_1_OS_                                                                   3.19%    passed     85.73%
+ 268  MalawimonadidaeEP00698Gefionellaokellyi_14700857__ALDH2_HUMAN_Aldehyde_dehydrogenase__mitochondrial_OS_                                             3.19%    passed     48.66%
+ 269  AmoebozoaEP00029Vermamoebavermiformis_5279233__ALDH2_BOVIN_Aldehyde_dehydrogenase__mitochondrial_OS_                                                4.38%    passed     50.84%
+ 270  ChoanoflagellataEP00035Acanthoecaspectabilis_10736678__ALDH2_MESAU_Aldehyde_dehydrogenase__mitochondrial_OS_                                        4.78%    passed     94.09%
+ 271  ChoanoflagellataEP00035Acanthoecaspectabilis_10752816__AL1L1_XENTR_Cytosolic_10-formyltetrahydrofolate_dehydrogenase_OS_                            2.19%    passed     87.23%
+ 272  MetazoaCnidariaFungiascutaria_3199497__AL1L1_XENLA_Cytosolic_10-formyltetrahydrofolate_dehydrogenase_OS_                                            1.99%    passed     89.91%
+ 273  MetazoaAcoelaHofsteniamiamia_4504__AL1A1_MESAU_Retinal_dehydrogenase_1_OS_                                                                          1.59%    passed     67.98%
+ 274  MetazoaPoriferaEphydatiamuelleri_4920291__ALDH2_PIG_Aldehyde_dehydrogenase__mitochondrial_OS_                                                       1.99%    passed     93.44%
+ 275  MetazoaPoriferaStylissacarteri_5096732__AL1A1_CHICK_Retinal_dehydrogenase_1_OS_                                                                     1.99%    passed     93.87%
+ 276  StramenopilesPhytophthorainfestansUP000006643_26369165__ALDH2_MOUSE_Aldehyde_dehydrogenase__mitochondrial_OS_                                       3.39%    passed     94.94%
+ 277  StramenopilesPhytophthorainfestansUP000006643_26376399__ALDH2_MESAU_Aldehyde_dehydrogenase__mitochondrial_OS_                                       2.99%    passed     61.58%
+ 278  StramenopilesPhytophthorainfestansUP000006643_26382190__ALDH2_MOUSE_Aldehyde_dehydrogenase__mitochondrial_OS_                                       4.38%    passed     84.39%
+ 279  ChoanoflagellataEP00037Helgoecanana_10791426__ALDH2_PIG_Aldehyde_dehydrogenase__mitochondrial_OS_                                                   4.78%    passed     96.65%
+ 280  MetazoaCnidariaClytiahemisphaerica_3082597__A16A1_RAT_Aldehyde_dehydrogenase_family_16_member_A1_OS_                                               22.31%    passed     62.58%
+ 281  MetazoaCnidariaStylophorapistillata_3672098__AL1A1_CHICK_Retinal_dehydrogenase_1_OS_                                                                3.19%    passed     97.04%
+ 282  MetazoaCnidariaStylophorapistillata_3674675__AL1L1_XENLA_Cytosolic_10-formyltetrahydrofolate_dehydrogenase_OS_                                      2.19%    passed     96.87%
+ 283  MetazoaPlacozoaEP00114TrichoplaxspH2_4508597__AL1A2_HUMAN_Retinal_dehydrogenase_2_OS_                                                               3.19%    passed     94.80%
+ 284  MetazoaPlacozoaEP00114TrichoplaxspH2_4508598__ALDH2_HUMAN_Aldehyde_dehydrogenase__mitochondrial_OS_                                                 2.79%    passed     91.41%
+ 285  MetazoaArthropodaDrosophilamelanogaster_240479__AL1B1_RAT_Aldehyde_dehydrogenase_X__mitochondrial_OS_                                               3.59%    passed     97.16%
+ 286  ChloroplastidaArabidopsisthalianaUP000006548_5875009__AL2C4_ARATH_Aldehyde_dehydrogenase_family_2_member_C4_OS_                                     3.59%    passed     35.28%
+ 287  ChloroplastidaArabidopsisthalianaUP000006548_5878408__AL2B7_ARATH_Aldehyde_dehydrogenase_family_2_member_B7__mitochondrial_OS_                      3.39%    passed     99.19%
+ 288  ChloroplastidaArabidopsisthalianaUP000006548_5889923__AL2B4_ARATH_Aldehyde_dehydrogenase_family_2_member_B4__mitochondrial_OS_                      3.39%    passed     95.39%
+ 289  ChloroplastidaEP00248Marchantiapolymorpha_7474037__AL2B7_ARATH_Aldehyde_dehydrogenase_family_2_member_B7__mitochondrial_OS_                         2.99%    passed     92.99%
+ 290  MetazoaArthropodaEP00090Calanusglacialis_719788__ALDH2_MESAU_Aldehyde_dehydrogenase__mitochondrial_OS_                                              2.79%    passed     99.51%
+ 291  MetazoaUrochordataEP00059Cionaintestinalis_5338865__ALDH2_BOVIN_Aldehyde_dehydrogenase__mitochondrial_OS_                                           2.79%    passed     97.79%
+ 292  MetazoaVertebrateEptatretusburgeri_6398975__AL1A2_MOUSE_Retinal_dehydrogenase_2_OS_                                                                 1.39%    passed     56.08%
+ 293  MetazoaVertebrateEptatretusburgeri_6398976__AL1A2_RAT_Retinal_dehydrogenase_2_OS_                                                                  18.73%    passed     22.95%
+ 294  MetazoaVertebrateEptatretusburgeri_6401879__AL1L2_MOUSE_Mitochondrial_10-formyltetrahydrofolate_dehydrogenase_OS_                                   1.99%    passed     99.69%
+ 295  MetazoaVertebrateEptatretusburgeri_6401880__AL1L2_MOUSE_Mitochondrial_10-formyltetrahydrofolate_dehydrogenase_OS_                                   2.39%    passed     98.87%
+ 296  MetazoaVertebrateEptatretusburgeri_6407403__ALDH2_RAT_Aldehyde_dehydrogenase__mitochondrial_OS_                                                     1.39%    passed     94.29%
+ 297  TelonemiaP00656Telonemasubtile_26535652__ALDH2_PONAB_Aldehyde_dehydrogenase__mitochondrial_OS_                                                     58.76%    passed     69.83%
+ 298  MetazoaHemichordataSaccoglossuskowalevskii_4075928__SSDH_MOUSE_Succinate-semialdehyde_dehydrogenase__mitochondrial_OS_                              6.57%    passed     65.80%
+ 299  MetazoaMolluscaEP00106Octopusbimaculoides_4171880__SSDH_MOUSE_Succinate-semialdehyde_dehydrogenase__mitochondrial_OS_                               7.77%    passed     28.21%
+ 300  MetazoaMolluscaEP00106Octopusbimaculoides_4171881__SSDH_MOUSE_Succinate-semialdehyde_dehydrogenase__mitochondrial_OS_                               7.17%    passed     34.16%
+ 301  MetazoaCephalochordataBranchiostomabelcheri_2820759__ALDH2_HUMAN_Aldehyde_dehydrogenase__mitochondrial_OS_                                          1.59%    passed     92.16%
+ 302  MetazoaCnidariaNematostellavectensis_3397414__ALDH5_YEAS7_Aldehyde_dehydrogenase_5__mitochondrial_OS_                                              48.21%    passed     35.10%
+ 303  MetazoaCnidariaMontastraeacavernosa_3324554__AL1A1_CHICK_Retinal_dehydrogenase_1_OS_                                                               35.26%    passed     94.14%
+ 304  MetazoaCnidariaAureliaGenome_3049467__AL1L1_XENLA_Cytosolic_10-formyltetrahydrofolate_dehydrogenase_OS_                                            47.81%    passed     45.20%
+ 305  CentroplasthelidaEP00300ChoanocystisspHF7_5595915__AL1B1_PONAB_Aldehyde_dehydrogenase_X__mitochondrial_OS_                                         19.32%    passed      6.91%
+ 306  MetazoaCnidariaAcroporadigitifera_2929265__AL1L1_XENLA_Cytosolic_10-formyltetrahydrofolate_dehydrogenase_OS_                                       62.15%    passed     67.59%
+ 307  MetazoaCnidariaGorgoniaventalina_3221010__PUUC_ECOLI_NADP_NAD-dependent_aldehyde_dehydrogenase_PuuC_OS_                                            60.36%    passed     24.36%
+ 308  FungiFusariumoxysporumUP000002489_13356550__BETB_ACIAD_NAD_NADP-dependent_betaine_aldehyde_dehydrogenase_OS_                                        6.18%    passed      9.76%
+ 309  MetazoaVertebrateDaniorerio_5421773__AL1L2_HUMAN_Mitochondrial_10-formyltetrahydrofolate_dehydrogenase_OS_                                          1.99%    passed     87.12%
+ 310  MetazoaMolluscaEP00106Octopusbimaculoides_4156365__A16A1_RAT_Aldehyde_dehydrogenase_family_16_member_A1_OS_                                         4.98%    passed     98.35%
+ 311  ChoanoflagellataEP00037Helgoecanana_10802908__SSDH_RAT_Succinate-semialdehyde_dehydrogenase__mitochondrial_OS_                                      6.37%    failed      0.22%
+ 312  MetazoaBryozoaBugulaneritina_2683073__ALDH2_BOVIN_Aldehyde_dehydrogenase__mitochondrial_OS_                                                        78.29%    passed     24.14%
+ 313  MetazoaCnidariaNematostellavectensis_3377040__AL8A1_DANRE_2-aminomuconic_semialdehyde_dehydrogenase_OS_                                             6.77%    passed      5.58%
+ 314  MetazoaPoriferaEphydatiamuelleri_4903303__A16A1_RAT_Aldehyde_dehydrogenase_family_16_member_A1_OS_                                                  4.78%    passed     94.37%
+ 315  MetazoaAcoelaHofsteniamiamia_2426__AL1A1_RABIT_Retinal_dehydrogenase_1_OS_                                                                          3.19%    passed     97.87%
+ 316  MetazoaPoriferaStylissacarteri_5075486__AL1L2_HUMAN_Mitochondrial_10-formyltetrahydrofolate_dehydrogenase_OS_                                      55.38%    passed     23.05%
+ 317  MetazoaVertebrateDaniorerio_5412839__SSDH_MOUSE_Succinate-semialdehyde_dehydrogenase__mitochondrial_OS_                                             6.97%    passed     88.93%
+ 318  ApusomonadidaThecamonastrahensUP000054408_5485017__A16A1_RAT_Aldehyde_dehydrogenase_family_16_member_A1_OS_                                        74.10%    passed      7.47%
+ 319  MetazoaCnidariaNematostellavectensis_3377169__AL1L1_XENLA_Cytosolic_10-formyltetrahydrofolate_dehydrogenase_OS_                                     1.99%    passed     80.06%
+ 320  MetazoaMolluscaLottiagigantea_4203816__SSDH_RAT_Succinate-semialdehyde_dehydrogenase__mitochondrial_OS_                                             6.57%    passed     65.21%
+ 321  TelonemiaP00656Telonemasubtile_26552208__ACLDH_PSEAI_Acetaldehyde_dehydrogenase_OS_                                                                31.08%    passed     55.53%
+ 322  MetazoaPoriferaLeucosoleniacomplicata_4983597__AL1B1_RAT_Aldehyde_dehydrogenase_X__mitochondrial_OS_                                               37.65%    passed     88.77%
+ 323  MetazoaPoriferaLeucosoleniacomplicata_5021348__AL1A1_CHICK_Retinal_dehydrogenase_1_OS_                                                             81.47%    passed     74.82%
+ 324  MetazoaAnnelidaEP00103Capitellateleta_63432__A16A1_BOVIN_Aldehyde_dehydrogenase_family_16_member_A1_OS_                                             4.78%    passed     50.35%
+ 325  MetazoaHemichordataSaccoglossuskowalevskii_4071632__AL1L2_HUMAN_Mitochondrial_10-formyltetrahydrofolate_dehydrogenase_OS_                           1.99%    passed     19.21%
+ 326  MetazoaEchinodermataEP00057Strongylocentrotuspurpuratus_3837081__A16A1_BOVIN_Aldehyde_dehydrogenase_family_16_member_A1_OS_                         4.78%    passed     20.87%
+ 327  MetazoaUrochordataEP00059Cionaintestinalis_5336593__SSDH_RAT_Succinate-semialdehyde_dehydrogenase__mitochondrial_OS_                                6.97%    passed     84.86%
+ 328  MetazoaPlacozoaEP00114TrichoplaxspH2_4506505__A16A1_RAT_Aldehyde_dehydrogenase_family_16_member_A1_OS_                                              4.78%    passed     64.53%
+ 329  ChoanoflagellataEP00037Helgoecanana_10798175__A16A1_BOVIN_Aldehyde_dehydrogenase_family_16_member_A1_OS_                                            5.78%    passed     90.84%
+ 330  ChoanoflagellataEP00040Diaphanoecagrandis_10917618__A16A1_RAT_Aldehyde_dehydrogenase_family_16_member_A1_OS_                                        4.78%    passed     68.21%
+ 331  RigifilidaEP00004Rigifilaramosa_23118871__DHA2_CUPNH_Acetaldehyde_dehydrogenase_2_OS_                                                               9.96%    passed     31.26%
+ 332  RigifilidaEP00004Rigifilaramosa_23136484__ALDH_PARDP_Aldehyde_dehydrogenase_OS_                                                                     9.96%    passed     73.72%
+ 333  RhodophytaGaldieriasulphurariaUP000030680_23111697__ALDH_DEIRA_Aldehyde_dehydrogenase_OS_                                                           9.76%    passed     29.77%
+ 334  RhodophytaGaldieriasulphurariaUP000030680_23115635__ALDH_DEIRA_Aldehyde_dehydrogenase_OS_                                                           9.76%    passed     77.12%
+ 335  MetazoaPoriferaHaliclonatubifera_4957827__AL1A2_HUMAN_Retinal_dehydrogenase_2_OS_                                                                  40.44%    passed     42.12%
+ 336  MetazoaBryozoaBugulaneritina_2612081__AL1B1_RAT_Aldehyde_dehydrogenase_X__mitochondrial_OS_                                                        37.65%    passed     71.27%
+ 337  MetazoaBryozoaBugulaneritina_2561594__AL1B1_RAT_Aldehyde_dehydrogenase_X__mitochondrial_OS_                                                        38.84%    passed     66.95%
+ 338  MetazoaCnidariaMadracisauretenra_3286079__ALDH2_PONAB_Aldehyde_dehydrogenase__mitochondrial_OS_                                                    32.27%    passed     86.53%
+ 339  MetazoaCnidariaMadracisauretenra_3292376__ALDH_EMENI_Aldehyde_dehydrogenase_OS_                                                                    36.85%    passed     84.14%
+ 340  MetazoaArthropodaDaphniapulex_194455__SSDH_MOUSE_Succinate-semialdehyde_dehydrogenase__mitochondrial_OS_                                           14.14%    passed     54.26%
+ 341  MetazoaPoriferaLeucosoleniacomplicata_5051095__AL1B1_MOUSE_Aldehyde_dehydrogenase_X__mitochondrial_OS_                                             79.28%    passed     28.87%
+ 342  ChoanoflagellataEP00040Diaphanoecagrandis_10908195__SAPD_PSESP_3-succinoylsemialdehyde-pyridine_dehydrogenase_OS_                                   6.57%    failed      1.57%
+ 343  ChoanoflagellateaMonosigabrevicollisUP000001357_11431339__ALD1_ACISP_Long-chain-aldehyde_dehydrogenase_OS_                                         36.06%    passed     70.70%
+ 344  FungiFusariumoxysporumUP000002489_13366045__ALDH_DAVTA_Aldehyde_dehydrogenase_OS_                                                                  11.35%    passed     80.70%
+ 345  ChoanoflagellataEP00039Didymoecacostata_10861061__GABD_ECOLI_Succinate-semialdehyde_dehydrogenase__NADP_____GabD_OS_                                5.18%    passed     33.46%
+ 346  MetazoaCephalochordataBranchiostomabelcheri_2810298__AL9A1_HUMAN_4-trimethylaminobutyraldehyde_dehydrogenase_OS_                                    5.18%    passed     62.16%
+ 347  MetazoaVertebrateMusmusculus_6547839__AL9A1_MOUSE_4-trimethylaminobutyraldehyde_dehydrogenase_OS_                                                   6.57%    passed     54.78%
+ 348  MetazoaCnidariaAstreoporasp_3024482__A9A1B_DANRE_4-trimethylaminobutyraldehyde_dehydrogenase_B_OS_                                                 22.11%    passed     84.78%
+ 349  FungiEP00150Ustilagomaydis_13254488__ALDH_ALTAL_Aldehyde_dehydrogenase_OS_                                                                          1.79%    passed     69.14%
+ 350  ChoanoflagellataEP00039Didymoecacostata_10881790__A16A1_BOVIN_Aldehyde_dehydrogenase_family_16_member_A1_OS_                                        4.98%    passed     79.86%
+ 351  MetazoaBrachiopodaLingulaunguis_1290598__AL8A1_DANRE_2-aminomuconic_semialdehyde_dehydrogenase_OS_                                                  6.77%    passed     23.45%
+ 352  MetazoaCephalochordataBranchiostomabelcheri_2796933__AL1A1_RABIT_Retinal_dehydrogenase_1_OS_                                                        2.19%    passed     95.86%
+ 353  MetazoaCnidariaAnthopleuraelegantissima_3008054__SSDH_RAT_Succinate-semialdehyde_dehydrogenase__mitochondrial_OS_                                   6.97%    passed     57.04%
+ 354  HaptophytaEP00327Prymnesiumparvum_14309439__ALDH_DEIRA_Aldehyde_dehydrogenase_OS_                                                                  10.16%    passed     41.68%
+ 355  ChoanoflagellataEP00045Choanoecaperplexa_11082580__ALDH_DEIRA_Aldehyde_dehydrogenase_OS_                                                            9.76%    passed     51.98%
+ 356  MetazoaHemichordataSaccoglossuskowalevskii_4071754__A16A1_MOUSE_Aldehyde_dehydrogenase_family_16_member_A1_OS_                                     22.11%    passed     93.45%
+ 357  MetazoaHemichordataSaccoglossuskowalevskii_4066224__A16A1_MOUSE_Aldehyde_dehydrogenase_family_16_member_A1_OS_                                     10.56%    passed     84.73%
+ 358  CentroplasthelidaEP00300ChoanocystisspHF7_5626997__ALDH5_YEAS7_Aldehyde_dehydrogenase_5__mitochondrial_OS_                                         24.50%    passed      6.74%
+ 359  TelonemiaP00656Telonemasubtile_26537906__BADH2_ARATH_Betaine_aldehyde_dehydrogenase_2__mitochondrial_OS_                                           39.04%    passed     17.05%
+ 360  FungiRhizopusmicrosporusUP000242254_13431157__ALDH2_LEITA_Aldehyde_dehydrogenase__mitochondrial_OS_                                                 9.16%    passed     15.17%
+ 361  MetazoaCtenophoraPleurobrachiabachei_3761131__ALDH2_PONAB_Aldehyde_dehydrogenase__mitochondrial_OS_                                                48.01%    passed     10.35%
+ 362  FungiMortierellaelongataUP000078512_13377014__AL1B1_PONAB_Aldehyde_dehydrogenase_X__mitochondrial_OS_                                               6.57%    passed     59.00%
+ 363  MetazoaBrachiopodaLingulaunguis_1296701__A9A1B_DANRE_4-trimethylaminobutyraldehyde_dehydrogenase_B_OS_                                              5.58%    passed     96.39%
+ 364  MetazoaMolluscaLottiagigantea_4205265__A16A1_RAT_Aldehyde_dehydrogenase_family_16_member_A1_OS_                                                     5.78%    passed     28.18%
+ 365  MetazoaUrochordataEP00059Cionaintestinalis_5338820__A16A1_RAT_Aldehyde_dehydrogenase_family_16_member_A1_OS_                                        5.38%    passed     89.74%
+ 366  MetazoaPoriferaLeucosoleniacomplicata_5021940__AL1A7_RAT_Aldehyde_dehydrogenase__cytosolic_1_OS_                                                   76.89%    passed     90.57%
+ 367  HaptophytaEP00319Phaeocystisglobosa_14069595__ALDH_DEIRA_Aldehyde_dehydrogenase_OS_                                                                43.23%    passed     48.62%
+ 368  AmoebozoaEP00029Vermamoebavermiformis_5288742__ALDH_PARDP_Aldehyde_dehydrogenase_OS_                                                               39.84%    passed     29.39%
+ 369  MetazoaVertebrateHomosapiens_6456491__AL9A1_HUMAN_4-trimethylaminobutyraldehyde_dehydrogenase_OS_                                                   6.57%    passed     65.93%
+ 370  MetazoaHemichordataSaccoglossuskowalevskii_4068329__AL1A1_CHICK_Retinal_dehydrogenase_1_OS_                                                         3.19%    passed     92.62%
+ 371  IchthyosporeaEP00123Amoebidiumparasiticum_14568528__ALDH_EMENI_Aldehyde_dehydrogenase_OS_                                                          67.93%    passed     32.11%
+ 372  MetazoaVertebrateMusmusculus_6542143__AL1L2_MOUSE_Mitochondrial_10-formyltetrahydrofolate_dehydrogenase_OS_                                         1.99%    passed     97.47%
+ 373  MetazoaCnidariaGorgoniaventalina_3214518__BADH1_ORYSJ_Betaine_aldehyde_dehydrogenase_1_OS_                                                         38.25%    failed      1.44%
+ 374  MetazoaAcoelaHofsteniamiamia_18517__AL1A2_MOUSE_Retinal_dehydrogenase_2_OS_                                                                         3.59%    passed     68.06%
+ 375  MetazoaCnidariaAstreoporasp_3044204__AL1L1_XENLA_Cytosolic_10-formyltetrahydrofolate_dehydrogenase_OS_                                              5.38%    passed     99.12%
+ 376  MetazoaEchinodermataEP00057Strongylocentrotuspurpuratus_3824055__A9A1A_DANRE_4-trimethylaminobutyraldehyde_dehydrogenase_A_OS_                      3.98%    passed     99.56%
+ 377  MetazoaPlacozoaHoilungiahongkongensis_4572267__GABD_ECOLI_Succinate-semialdehyde_dehydrogenase__NADP_____GabD_OS_                                   6.37%    passed     99.59%
+ 378  MetazoaPoriferaLeucosoleniacomplicata_5040041__ALDH2_MESAU_Aldehyde_dehydrogenase__mitochondrial_OS_                                               65.74%    passed     61.34%
+ 379  MetazoaPoriferaLeucosoleniacomplicata_4992365__ALDH2_MACPR_Aldehyde_dehydrogenase__cytosolic_2__Fragment__OS_                                      79.68%    passed     56.57%
+ 380  MetazoaArthropodaEP00090Calanusglacialis_710609__SSDH_RAT_Succinate-semialdehyde_dehydrogenase__mitochondrial_OS_                                  12.55%    passed     39.65%
+ 381  MetazoaArthropodaDaphniapulex_199667__A9A1A_DANRE_4-trimethylaminobutyraldehyde_dehydrogenase_A_OS_                                                 5.38%    passed      9.36%
+ 382  MetazoaVertebrateMusmusculus_6532853__AL1A1_MOUSE_Retinal_dehydrogenase_1_OS_                                                                       1.99%    passed     98.36%
+ 383  TelonemiaP00656Telonemasubtile_26568423__SAD_ECOLI_Succinate_semialdehyde_dehydrogenase__NAD_P____Sad_OS_                                          16.53%    passed     14.45%
+ 384  TelonemiaP00656Telonemasubtile_26568424__GABD_DEIRA_Succinate-semialdehyde_dehydrogenase__NADP_____OS_                                              9.56%    passed     20.09%
+ 385  MetazoaAnnelidaEP00103Capitellateleta_84360__AL8A1_DANRE_2-aminomuconic_semialdehyde_dehydrogenase_OS_                                              6.77%    passed     44.61%
+ 386  MetazoaNematodaCaenorhabditiselegans_4315293__AL8A1_HUMAN_2-aminomuconic_semialdehyde_dehydrogenase_OS_                                             5.78%    passed     76.93%
+ 387  ChoanoflagellataEP00045Choanoecaperplexa_11094552__DAVD_PSEAE_Glutarate-semialdehyde_dehydrogenase_OS_                                              7.57%    passed      9.54%
+ 388  ChloroplastidaEP00738Chloropiconprimus_8601009__SSDH_ORYSJ_Succinate-semialdehyde_dehydrogenase__mitochondrial_OS_                                  8.17%    passed     51.37%
+ 389  ChoanoflagellateaMonosigabrevicollisUP000001357_11429110__GABD_ECOLI_Succinate-semialdehyde_dehydrogenase__NADP_____GabD_OS_                       12.35%    passed     62.64%
+ 390  MetazoaPoriferaStylissacarteri_5085829__DAVD_PSEAE_Glutarate-semialdehyde_dehydrogenase_OS_                                                         7.57%    passed      5.25%
+ 391  ChoanoflagellataEP00047Mylnosigafluctuans_11114474__DAVD_PSEAE_Glutarate-semialdehyde_dehydrogenase_OS_                                             7.37%    failed      3.53%
+ 392  MetazoaRotiferaBrachionusplicatilis_5224289__SSDH_RAT_Succinate-semialdehyde_dehydrogenase__mitochondrial_OS_                                       4.98%    passed     30.34%
+ 393  FungiRhizopusmicrosporusUP000242254_13434065__DAVD_PSEPK_Glutarate-semialdehyde_dehydrogenase_OS_                                                   7.37%    passed     39.53%
+ 394  ChoanoflagellataEP00050Salpingoecakvevrii_11205937__DAVD_PSEAE_Glutarate-semialdehyde_dehydrogenase_OS_                                             8.17%    passed     63.77%
+ 395  MetazoaCtenophoraMnemiopsisleidyi_3728057__SSDH_RAT_Succinate-semialdehyde_dehydrogenase__mitochondrial_OS_                                         6.77%    passed      8.95%
+ 396  MetazoaUrochordataOikopleuradioica_5363928__SSDH_RAT_Succinate-semialdehyde_dehydrogenase__mitochondrial_OS_                                       10.56%    passed     91.43%
+ 397  RhodophytaGaldieriasulphurariaUP000030680_23114492__DAVD_PSEAE_Glutarate-semialdehyde_dehydrogenase_OS_                                             6.18%    passed     67.01%
+ 398  ChoanoflagellataEP00035Acanthoecaspectabilis_10735476__SSDH_RAT_Succinate-semialdehyde_dehydrogenase__mitochondrial_OS_                             6.57%    failed      1.79%
+ 399  StramenopilesPhytophthorainfestansUP000006643_26368634__DAVD_PSEPK_Glutarate-semialdehyde_dehydrogenase_OS_                                         5.78%    passed     67.08%
+ 400  MetazoaPoriferaLeucosoleniacomplicata_5012755__A16A1_RAT_Aldehyde_dehydrogenase_family_16_member_A1_OS_                                             4.78%    passed     78.17%
+ 401  MetazoaPoriferaLeucosoleniacomplicata_4972634__A16A1_RAT_Aldehyde_dehydrogenase_family_16_member_A1_OS_                                             6.77%    passed     64.05%
+ 402  RhodophytaGaldieriasulphurariaUP000030680_23111508__DAVD_PSEAE_Glutarate-semialdehyde_dehydrogenase_OS_                                            10.16%    passed     45.27%
+ 403  MetazoaBryozoaBugulaneritina_2759275__AL1L1_XENTR_Cytosolic_10-formyltetrahydrofolate_dehydrogenase_OS_                                            51.79%    passed     29.41%
+ 404  MetazoaBryozoaBugulaneritina_2488755__AL1L1_XENLA_Cytosolic_10-formyltetrahydrofolate_dehydrogenase_OS_                                            45.22%    passed     38.59%
+ 405  MetazoaArthropodaDaphniapulex_204729__AL8A1_HUMAN_2-aminomuconic_semialdehyde_dehydrogenase_OS_                                                     6.37%    passed     61.79%
+ 406  MetazoaArthropodaDrosophilamelanogaster_247901__GABD_ECOLI_Succinate-semialdehyde_dehydrogenase__NADP_____GabD_OS_                                  6.18%    passed     66.85%
+ 407  ChloroplastidaEP00248Marchantiapolymorpha_7464793__SSDH_ORYSJ_Succinate-semialdehyde_dehydrogenase__mitochondrial_OS_                               6.77%    passed     53.24%
+ 408  TelonemiaP00656Telonemasubtile_26520212__GABD_ECOLI_Succinate-semialdehyde_dehydrogenase__NADP_____GabD_OS_                                         6.18%    failed      2.15%
+ 409  IchthyosporeaEP00123Amoebidiumparasiticum_14564277__DAVD_PSEAE_Glutarate-semialdehyde_dehydrogenase_OS_                                             5.98%    passed     53.28%
+ 410  StramenopilesEP00652Aphanomycesastaci_26135437__GABD_ECOLI_Succinate-semialdehyde_dehydrogenase__NADP_____GabD_OS_                                  6.37%    failed      0.55%
+ 411  CentroplasthelidaEP00300ChoanocystisspHF7_5597645__FUS7_GIBM7_Putative_aldehyde_dehydrogenase_FUS7_OS_                                              6.37%    passed     18.14%
+ 412  MetazoaTardigradaRamazzotiusvarieornatus_5279798__SSDH_RAT_Succinate-semialdehyde_dehydrogenase__mitochondrial_OS_                                  6.77%    passed     58.26%
+ 413  MetazoaPoriferaAmphimedonqueenslandica_4711709__SSDH_RAT_Succinate-semialdehyde_dehydrogenase__mitochondrial_OS_                                    6.37%    passed     44.75%
+ 414  MetazoaPoriferaLeucosoleniacomplicata_5035540__ALDH2_HUMAN_Aldehyde_dehydrogenase__mitochondrial_OS_                                               49.60%    passed     76.53%
+ 415  MetazoaPlacozoaEP00114TrichoplaxspH2_4511717__A9A1B_DANRE_4-trimethylaminobutyraldehyde_dehydrogenase_B_OS_                                         4.78%    passed     23.99%
+ 416  MetazoaVertebrateMusmusculus_6542675__AL1L1_MOUSE_Cytosolic_10-formyltetrahydrofolate_dehydrogenase_OS_                                             1.99%    passed     99.78%
+ 417  ChoanoflagellataEP00039Didymoecacostata_10867230__BADH_SPIOL_Betaine_aldehyde_dehydrogenase__chloroplastic_OS_                                      9.56%    passed     42.84%
+ 418  MetazoaNematodaLoaloa_4405592__SSDH_RAT_Succinate-semialdehyde_dehydrogenase__mitochondrial_OS_                                                    35.06%    passed     73.19%
+ 419  ChoanoflagellataEP00040Diaphanoecagrandis_10917897__DAVD_PSEAE_Glutarate-semialdehyde_dehydrogenase_OS_                                             5.98%    passed     76.39%
+ 420  MetazoaCephalochordataBranchiostomabelcheri_2826604__AL1L1_XENLA_Cytosolic_10-formyltetrahydrofolate_dehydrogenase_OS_                              1.99%    passed     86.87%
+ 421  MetazoaPoriferaEphydatiamuelleri_4924089__SSDH_RAT_Succinate-semialdehyde_dehydrogenase__mitochondrial_OS_                                          6.18%    passed     79.06%
+ 422  MetazoaPoriferaEphydatiamuelleri_4924091__GABD_ECOLI_Succinate-semialdehyde_dehydrogenase__NADP_____GabD_OS_                                       53.39%    passed      6.78%
+ 423  MetazoaAnnelidaEP00103Capitellateleta_76962__A9A1A_DANRE_4-trimethylaminobutyraldehyde_dehydrogenase_A_OS_                                          4.38%    passed     72.73%
+ 424  MetazoaPoriferaLeucosoleniacomplicata_5039998__AL1L1_XENLA_Cytosolic_10-formyltetrahydrofolate_dehydrogenase_OS_                                    1.99%    passed     89.69%
+ 425  ChoanoflagellataEP00037Helgoecanana_10810234__ALDH2_LEITA_Aldehyde_dehydrogenase__mitochondrial_OS_                                                 8.17%    passed     18.41%
+ 426  FungiRhizopusmicrosporusUP000242254_13430273__ALDH_DAVTA_Aldehyde_dehydrogenase_OS_                                                                13.55%    passed     59.40%
+ 427  ChoanoflagellataEP00039Didymoecacostata_10864979__GABD_ECOLI_Succinate-semialdehyde_dehydrogenase__NADP_____GabD_OS_                                9.16%    passed     21.30%
+ 428  AmoebozoaEP00029Vermamoebavermiformis_5280517__AL221_ARATH_Aldehyde_dehydrogenase_22A1_OS_                                                          7.57%    passed     89.87%
+ 429  RigifilidaEP00004Rigifilaramosa_23125142__ALDH4_BACSU_Putative_aldehyde_dehydrogenase_DhaS_OS_                                                      9.36%    passed     48.72%
+ 430  RigifilidaEP00004Rigifilaramosa_23125138__ALDH2_LEITA_Aldehyde_dehydrogenase__mitochondrial_OS_                                                     9.36%    passed     13.22%
+ 431  RigifilidaEP00004Rigifilaramosa_23125139__ALDH4_BACSU_Putative_aldehyde_dehydrogenase_DhaS_OS_                                                      9.36%    passed     56.09%
+ 432  RigifilidaEP00004Rigifilaramosa_23125140__ALDH2_LEITA_Aldehyde_dehydrogenase__mitochondrial_OS_                                                     9.36%    passed     22.27%
+ 433  RigifilidaEP00004Rigifilaramosa_23125141__ALDH2_LEITA_Aldehyde_dehydrogenase__mitochondrial_OS_                                                     9.36%    passed     23.26%
+ 434  IchthyosporeaSphaeroformaarcticaUP000054560_14623531__ALDH5_YEAS7_Aldehyde_dehydrogenase_5__mitochondrial_OS_                                       8.37%    passed     73.86%
+ 435  EuglenozoaEP00668Euglenalonga_12427018__Y4UC_SINFN_Putative_aldehyde-dehydrogenase-like_protein_y4uC_OS_                                           35.26%    failed      0.00%
+ 436  MetazoaArthropodaEP00090Calanusglacialis_716955__A9A1A_DANRE_4-trimethylaminobutyraldehyde_dehydrogenase_A_OS_                                      4.18%    passed     66.32%
+ 437  MetazoaArthropodaEP00090Calanusglacialis_716957__A9A1A_DANRE_4-trimethylaminobutyraldehyde_dehydrogenase_A_OS_                                      4.18%    passed     67.71%
+ 438  CollodictyonidaeEP00002Diphylleiarotans_11658686__BADH2_ORYSI_Betaine_aldehyde_dehydrogenase_2_OS_                                                 10.36%    passed     98.29%
+ 439  ChoanoflagellataEP00050Salpingoecakvevrii_11205620__ALDH2_MACPR_Aldehyde_dehydrogenase__cytosolic_2__Fragment__OS_                                 60.56%    passed     89.03%
+ 440  ChoanoflagellataEP00050Salpingoecakvevrii_11205619__AL1A1_HUMAN_Retinal_dehydrogenase_1_OS_                                                         9.96%    passed     97.90%
+ 441  FungiEP00150Ustilagomaydis_13254401__FUS7_GIBF5_Putative_aldehyde_dehydrogenase_FUS7_OS_                                                            7.37%    passed      7.27%
+ 442  FungiEP00150Ustilagomaydis_13255012__VDH_PSEUH_Vanillin_dehydrogenase_OS_                                                                           9.76%    failed      0.71%
+ 443  MetazoaCnidariaGorgoniaventalina_3221921__HPCC_ECOLX_5-carboxymethyl-2-hydroxymuconate_semialdehyde_dehydrogenase_OS_                              74.90%    passed     74.60%
+ 444  MetazoaPoriferaHaliclonatubifera_4954704__SSDH_RAT_Succinate-semialdehyde_dehydrogenase__mitochondrial_OS_                                          5.58%    passed     70.19%
+ 445  FilastreaCapsasporaowczarzakiUP000008743_12977230__GABD_ECOLI_Succinate-semialdehyde_dehydrogenase__NADP_____GabD_OS_                               6.37%    passed     49.59%
+ 446  FungiSpizellomycespunctatusUP000053201_13452141__DAVD_PSEAE_Glutarate-semialdehyde_dehydrogenase_OS_                                                6.97%    passed     80.06%
+ 447  FungiSaccharomycescerevisiaeUP000002311_13447081__UGA2_YEAST_Succinate-semialdehyde_dehydrogenase__NADP_____OS_                                     6.77%    passed     86.72%
+ 448  MetazoaPoriferaEP00118Oscarellapearsei_4821274__SSDH_RAT_Succinate-semialdehyde_dehydrogenase__mitochondrial_OS_                                    6.18%    passed     63.14%
+ 449  FungiMortierellaelongataUP000078512_13381055__GABD_ECOLI_Succinate-semialdehyde_dehydrogenase__NADP_____GabD_OS_                                    5.38%    passed     83.02%
+ 450  ChoanoflagellataEP00035Acanthoecaspectabilis_10737042__ALDH2_LEITA_Aldehyde_dehydrogenase__mitochondrial_OS_                                        8.57%    passed     78.87%
+ 451  MetazoaCnidariaGorgoniaventalina_3211594__DAVD_PSEPK_Glutarate-semialdehyde_dehydrogenase_OS_                                                       7.77%    passed     31.37%
+ 452  MetazoaVertebrateHomosapiens_6459517__AL1L2_HUMAN_Mitochondrial_10-formyltetrahydrofolate_dehydrogenase_OS_                                         1.99%    passed     88.57%
+ 453  RotosphaeridaEP00160Parvulariaatlantis_23161675__ALD1_ACISP_Long-chain-aldehyde_dehydrogenase_OS_                                                  60.36%    passed     12.29%
+ 454  MetazoaCnidariaGorgoniaventalina_3207843__DAVD_PSEAE_Glutarate-semialdehyde_dehydrogenase_OS_                                                      40.64%    passed     17.47%
+ 455  IchthyosporeaEP00126Sphaerothecumdestruens_14607029__DAVD_PSEAE_Glutarate-semialdehyde_dehydrogenase_OS_                                            6.18%    passed      5.26%
+ 456  RigifilidaEP00004Rigifilaramosa_23145927__DAVD_PSEAE_Glutarate-semialdehyde_dehydrogenase_OS_                                                       6.97%    passed     37.95%
+ 457  IchthyosporeaEP00123Amoebidiumparasiticum_14559995__MMSA_AEDAE_Probable_methylmalonate-semialdehyde_dehydrogenase__acylating___mitochondrial_OS_    8.57%    passed     45.70%
+ 458  CryptophyceaeGuillardiathetaUP000011087_12256909__DAVD_PSEPK_Glutarate-semialdehyde_dehydrogenase_OS_                                               6.37%    failed      4.27%
+ 459  ChloroplastidaArabidopsisthalianaUP000006548_5888044__SSDH_ARATH_Succinate-semialdehyde_dehydrogenase__mitochondrial_OS_                            7.17%    passed     90.10%
+ 460  MetazoaPoriferaAmphimedonqueenslandica_4676161__AL1L1_XENLA_Cytosolic_10-formyltetrahydrofolate_dehydrogenase_OS_                                  63.15%    passed     60.15%
+ 461  MetazoaBryozoaBugulaneritina_2759287__AL1A7_MOUSE_Aldehyde_dehydrogenase__cytosolic_1_OS_                                                          80.48%    passed     93.74%
+ 462  MetazoaPoriferaLeucosoleniacomplicata_4990766__AL2B4_ARATH_Aldehyde_dehydrogenase_family_2_member_B4__mitochondrial_OS_                             2.79%    passed     18.84%
+ 463  MetazoaPoriferaAmphimedonqueenslandica_4703808__AL1A1_CHICK_Retinal_dehydrogenase_1_OS_                                                            42.43%    passed     71.59%
+ 464  MetazoaPoriferaAmphimedonqueenslandica_4703851__AL1A1_CHICK_Retinal_dehydrogenase_1_OS_                                                            46.02%    passed     80.68%
+ 465  MetazoaAnnelidaEP00103Capitellateleta_84096__AL8A1_DANRE_2-aminomuconic_semialdehyde_dehydrogenase_OS_                                              6.57%    passed     86.46%
+ 466  MetazoaAnnelidaEP00103Capitellateleta_84971__AL8A1_DANRE_2-aminomuconic_semialdehyde_dehydrogenase_OS_                                              6.57%    passed     78.81%
+ 467  MetazoaAnnelidaEP00103Capitellateleta_55227__AL8A1_DANRE_2-aminomuconic_semialdehyde_dehydrogenase_OS_                                              6.77%    passed     83.67%
+ 468  IchthyosporeaEP00126Sphaerothecumdestruens_14599453__SSDH_MOUSE_Succinate-semialdehyde_dehydrogenase__mitochondrial_OS_                            19.92%    passed      8.83%
+ 469  MetazoaUrochordataEP00059Cionaintestinalis_5337966__AL8A1_DANRE_2-aminomuconic_semialdehyde_dehydrogenase_OS_                                       5.58%    passed     21.79%
+ 470  MetazoaPoriferaLeucosoleniacomplicata_4971569__AL1L1_XENLA_Cytosolic_10-formyltetrahydrofolate_dehydrogenase_OS_                                    1.99%    passed     82.66%
+ 471  MetazoaPlacozoaEP00114TrichoplaxspH2_4512043__SSDH_RAT_Succinate-semialdehyde_dehydrogenase__mitochondrial_OS_                                      6.37%    passed     98.26%
+ 472  FungiFusariumoxysporumUP000002489_13353786__ALDH_DAVTA_Aldehyde_dehydrogenase_OS_                                                                   4.58%    passed     89.06%
+ 473  CentroplasthelidaEP00300ChoanocystisspHF7_5614181__ALDA_ECOLI_Lactaldehyde_dehydrogenase_OS_                                                       32.47%    passed     67.17%
+ 474  MetazoaCnidariaGorgoniaventalina_3211563__ABDH_SERP5_Gamma-aminobutyraldehyde_dehydrogenase_OS_                                                    11.16%    passed     32.91%
+ 475  HaptophytaEP00327Prymnesiumparvum_14290901__BETB_VIBTL_NAD_NADP-dependent_betaine_aldehyde_dehydrogenase_OS_                                        5.18%    passed      6.78%
+ 476  HaptophytaEP00327Prymnesiumparvum_14300742__BETB_VIBPA_NAD_NADP-dependent_betaine_aldehyde_dehydrogenase_OS_                                       15.94%    passed     12.84%
+ 477  MetazoaCnidariaHydramagnapapillata_3264908__A9A1A_DANRE_4-trimethylaminobutyraldehyde_dehydrogenase_A_OS_                                          59.16%    failed      0.95%
+ 478  FungiFusariumoxysporumUP000002489_13358942__ALDH_ALTAL_Aldehyde_dehydrogenase_OS_                                                                   1.99%    passed     95.70%
+ 479  RotosphaeridaEP00160Parvulariaatlantis_23165667__BETB_VIBPA_NAD_NADP-dependent_betaine_aldehyde_dehydrogenase_OS_                                   6.37%    failed      4.95%
+ 480  CentroplasthelidaEP00300ChoanocystisspHF7_5622663__BETB_ACIBT_NAD_NADP-dependent_betaine_aldehyde_dehydrogenase_OS_                                 4.18%    passed     14.80%
+ 481  JakobidaEP00762Andaluciagodoyi_14659987__BETB_BURCM_NAD_NADP-dependent_betaine_aldehyde_dehydrogenase_OS_                                           5.78%    passed     22.51%
+ 482  StramenopilesPhytophthorainfestansUP000006643_26381339__BETB_VIBTL_NAD_NADP-dependent_betaine_aldehyde_dehydrogenase_OS_                           26.29%    passed     59.74%
+ 483  MetazoaCnidariaGorgoniaventalina_3211673__BETB_PSEFS_NAD_NADP-dependent_betaine_aldehyde_dehydrogenase_OS_                                         50.80%    passed     95.73%
+ 484  MetazoaMolluscaLottiagigantea_4202672__AL8A1_HUMAN_2-aminomuconic_semialdehyde_dehydrogenase_OS_                                                    5.58%    passed     15.08%
+ 485  ChoanoflagellataEP00040Diaphanoecagrandis_10906104__ALDH4_YEAST_Potassium-activated_aldehyde_dehydrogenase__mitochondrial_OS_                       8.96%    passed     52.99%
+ 486  MetazoaPoriferaAmphimedonqueenslandica_4709496__AL1L1_XENLA_Cytosolic_10-formyltetrahydrofolate_dehydrogenase_OS_                                  69.72%    passed     19.83%
+ 487  MetazoaPoriferaAmphimedonqueenslandica_4709884__KCRM_CANLF_Creatine_kinase_M-type_OS_                                                              48.21%    passed      5.07%
+ 488  ChoanoflagellataEP00047Mylnosigafluctuans_11120816__ABDH_SALTY_Gamma-aminobutyraldehyde_dehydrogenase_OS_                                           4.98%    failed      0.00%
+ 489  MetazoaPoriferaStylissacarteri_5092885__ALDH_GEOSE_Aldehyde_dehydrogenase__thermostable_OS_                                                         8.96%    passed      7.82%
+ 490  MetazoaVertebrateHomosapiens_6453149__AL1L1_HUMAN_Cytosolic_10-formyltetrahydrofolate_dehydrogenase_OS_                                             1.99%    passed     99.21%
+ 491  MetazoaPoriferaLeucosoleniacomplicata_5009509__AL9A1_BOVIN_4-trimethylaminobutyraldehyde_dehydrogenase_OS_                                          5.78%    passed     27.38%
+ 492  MetazoaPoriferaAmphimedonqueenslandica_4709274__AL1L1_XENTR_Cytosolic_10-formyltetrahydrofolate_dehydrogenase_OS_                                  66.93%    passed     73.11%
+ 493  MetazoaBrachiopodaLingulaunguis_1304580__AL1A2_HUMAN_Retinal_dehydrogenase_2_OS_                                                                    6.97%    passed     94.81%
+ 494  MetazoaBrachiopodaLingulaunguis_1290670__AL1B1_RAT_Aldehyde_dehydrogenase_X__mitochondrial_OS_                                                     13.35%    passed     93.17%
+ 495  MetazoaPlacozoaHoilungiahongkongensis_4553536__A16A1_RAT_Aldehyde_dehydrogenase_family_16_member_A1_OS_                                             4.78%    passed     96.40%
+ 496  MetazoaCtenophoraPleurobrachiabachei_3765490__AL9A1_GADMC_4-trimethylaminobutyraldehyde_dehydrogenase_OS_                                          69.92%    passed     56.78%
+ 497  IchthyosporeaEP00126Sphaerothecumdestruens_14607754__A9A1A_DANRE_4-trimethylaminobutyraldehyde_dehydrogenase_A_OS_                                 72.71%    passed     27.95%
+ 498  MetazoaCnidariaNematostellavectensis_3385052__A16A1_RAT_Aldehyde_dehydrogenase_family_16_member_A1_OS_                                              4.98%    passed     83.11%
+ 499  MetazoaCnidariaFungiascutaria_3180939__AL1A1_CHICK_Retinal_dehydrogenase_1_OS_                                                                     60.16%    passed     95.61%
+ 500  MetazoaCnidariaGorgoniaventalina_3211726__PUUC_ECOLI_NADP_NAD-dependent_aldehyde_dehydrogenase_PuuC_OS_                                             6.57%    failed      0.04%
+ 501  EuglenozoaEP00668Euglenalonga_12426424__BADH2_ARATH_Betaine_aldehyde_dehydrogenase_2__mitochondrial_OS_                                             5.78%    failed      0.01%
+ 502  IchthyosporeaEP00123Amoebidiumparasiticum_14553884__BADH_BETVU_Betaine_aldehyde_dehydrogenase__chloroplastic_OS_                                   20.52%    passed     23.45%
+ 503  IchthyosporeaEP00123Amoebidiumparasiticum_14564452__BADH1_ARATH_Betaine_aldehyde_dehydrogenase_1__chloroplastic_OS_                                 6.57%    passed     63.30%
+ 504  CryptophyceaeGuillardiathetaUP000011087_12251637__BADH2_ARATH_Betaine_aldehyde_dehydrogenase_2__mitochondrial_OS_                                   8.17%    passed     52.31%
+ 505  CollodictyonidaeEP00002Diphylleiarotans_11648775__BADH2_ARATH_Betaine_aldehyde_dehydrogenase_2__mitochondrial_OS_                                   6.57%    passed      7.85%
+ 506  ChoanoflagellataEP00035Acanthoecaspectabilis_10745446__BADH1_ARATH_Betaine_aldehyde_dehydrogenase_1__chloroplastic_OS_                              5.18%    failed      0.01%
+ 507  CryptophyceaeEP00290BaffinellaspCCMP2293_12083040__BADH2_ARATH_Betaine_aldehyde_dehydrogenase_2__mitochondrial_OS_                                 12.35%    passed     15.93%
+ 508  CryptophyceaeEP00290BaffinellaspCCMP2293_12034451__BADH2_ARATH_Betaine_aldehyde_dehydrogenase_2__mitochondrial_OS_                                  5.78%    passed      9.35%
+ 509  ChoanoflagellataEP00040Diaphanoecagrandis_10904662__BADH2_ARATH_Betaine_aldehyde_dehydrogenase_2__mitochondrial_OS_                                 3.59%    passed     52.98%
+ 510  MetazoaAnnelidaHelobdellarobusta_108636__DAVD_PSEAE_Glutarate-semialdehyde_dehydrogenase_OS_                                                        7.57%    passed     28.77%
+ 511  ChoanoflagellataEP00039Didymoecacostata_10884039__SAPD_PSESP_3-succinoylsemialdehyde-pyridine_dehydrogenase_OS_                                     5.98%    passed     73.97%
+ 512  MetazoaEchinodermataEP00057Strongylocentrotuspurpuratus_3834827__SSDH_MOUSE_Succinate-semialdehyde_dehydrogenase__mitochondrial_OS_                 6.77%    passed     81.60%
+ 513  ChloroplastidaArabidopsisthalianaUP000006548_5887741__BADH1_ARATH_Betaine_aldehyde_dehydrogenase_1__chloroplastic_OS_                               4.98%    passed     34.90%
+ 514  MetazoaEchinodermataEP00057Strongylocentrotuspurpuratus_3835983__SSDH_RAT_Succinate-semialdehyde_dehydrogenase__mitochondrial_OS_                   6.97%    passed     93.80%
+ 515  MetazoaCnidariaClytiahemisphaerica_3085238__AL9A1_BOVIN_4-trimethylaminobutyraldehyde_dehydrogenase_OS_                                             4.98%    passed     19.91%
+ 516  ChoanoflagellataEP00045Choanoecaperplexa_11089969__BETB_SINMW_NAD_NADP-dependent_betaine_aldehyde_dehydrogenase_OS_                                 5.18%    passed     30.42%
+ 517  ChoanoflagellataEP00050Salpingoecakvevrii_11190117__AL9A1_HUMAN_4-trimethylaminobutyraldehyde_dehydrogenase_OS_                                     9.76%    failed      0.07%
+ 518  MetazoaCtenophoraMnemiopsisleidyi_3722322__A9A1B_DANRE_4-trimethylaminobutyraldehyde_dehydrogenase_B_OS_                                            6.37%    passed     58.93%
+ 519  CryptophyceaeGuillardiathetaUP000011087_12250246__BETB_MARMS_NAD_NADP-dependent_betaine_aldehyde_dehydrogenase_OS_                                 18.73%    passed     97.04%
+ 520  MetazoaCnidariaNematostellavectensis_3388935__AL9A1_GADMC_4-trimethylaminobutyraldehyde_dehydrogenase_OS_                                          10.16%    passed     91.44%
+ 521  FilastreaCapsasporaowczarzakiUP000008743_12978146__A9A1A_DANRE_4-trimethylaminobutyraldehyde_dehydrogenase_A_OS_                                    5.18%    passed     82.15%
+ 522  PluriformeaEP00127Corallochytriumlimacisporum_21618981__BETB_MARMS_NAD_NADP-dependent_betaine_aldehyde_dehydrogenase_OS_                            4.98%    passed     41.66%
+ 523  ChoanoflagellateaMonosigabrevicollisUP000001357_11433773__AL9A1_HUMAN_4-trimethylaminobutyraldehyde_dehydrogenase_OS_                               5.18%    failed      2.31%
+ 524  RhodelphisEP00736Rhodelphismarinus_22808468__BETB_MARMS_NAD_NADP-dependent_betaine_aldehyde_dehydrogenase_OS_                                       5.38%    passed     96.01%
+ 525  MetazoaCnidariaPoritesaustraliensis_3536194__A9A1A_DANRE_4-trimethylaminobutyraldehyde_dehydrogenase_A_OS_                                          4.38%    passed     97.10%
+ 526  MetazoaNematodaLoaloa_4405626__A9A1B_DANRE_4-trimethylaminobutyraldehyde_dehydrogenase_B_OS_                                                        3.19%    passed     78.16%
+ 527  StramenopilesEP00652Aphanomycesastaci_26159994__BETB_SINFN_NAD_NADP-dependent_betaine_aldehyde_dehydrogenase_OS_                                    6.57%    failed      3.88%
+ 528  MetazoaPoriferaEP00118Oscarellapearsei_4812761__AL9A1_BOVIN_4-trimethylaminobutyraldehyde_dehydrogenase_OS_                                         5.58%    passed     95.37%
+ 529  MetazoaCnidariaAcroporadigitifera_2945719__A9A1A_DANRE_4-trimethylaminobutyraldehyde_dehydrogenase_A_OS_                                            4.38%    passed     93.91%
+ 530  StramenopilesPhytophthorainfestansUP000006643_26374401__BETB_AGRFC_NAD_NADP-dependent_betaine_aldehyde_dehydrogenase_OS_                            6.77%    passed     89.40%
+ 531  CryptophyceaeEP00290BaffinellaspCCMP2293_12050588__BETB_AGRRK_NAD_NADP-dependent_betaine_aldehyde_dehydrogenase_OS_                                 6.37%    passed      9.28%
+ 532  MetazoaCnidariaAnthopleuraelegantissima_3022311__AL9A1_GADMC_4-trimethylaminobutyraldehyde_dehydrogenase_OS_                                        5.18%    passed     87.17%
+ 533  MetazoaCnidariaAureliaGenome_3056518__A9A1A_DANRE_4-trimethylaminobutyraldehyde_dehydrogenase_A_OS_                                                 4.18%    passed     66.62%
+ 534  MetazoaAnnelidaHelobdellarobusta_86511__AL9A1_HUMAN_4-trimethylaminobutyraldehyde_dehydrogenase_OS_                                                 5.98%    passed     52.42%
+ 535  MetazoaCnidariaStylophorapistillata_3673799__A9A1A_DANRE_4-trimethylaminobutyraldehyde_dehydrogenase_A_OS_                                          4.38%    passed     96.23%
+ 536  MetazoaNematodaCaenorhabditiselegans_4316335__AL9A1_HUMAN_4-trimethylaminobutyraldehyde_dehydrogenase_OS_                                           3.19%    passed     45.19%
+ 537  MetazoaNematodaCaenorhabditiselegans_4319674__AL9A1_RAT_4-trimethylaminobutyraldehyde_dehydrogenase_OS_                                             6.37%    passed     25.84%
+ 538  MetazoaEchinodermataAcanthasterplanci_3789902__A9A1A_DANRE_4-trimethylaminobutyraldehyde_dehydrogenase_A_OS_                                        4.18%    passed     64.87%
+ 539  MetazoaPoriferaSyconciliatum_5130467__AL9A1_HUMAN_4-trimethylaminobutyraldehyde_dehydrogenase_OS_                                                   3.98%    passed     50.75%
+ 540  MetazoaVertebrateEptatretusburgeri_6410133__AL9A1_ORYLA_4-trimethylaminobutyraldehyde_dehydrogenase_OS_                                             4.78%    failed      0.63%
+ 541  MetazoaVertebrateEptatretusburgeri_6410135__AL9A1_ORYLA_4-trimethylaminobutyraldehyde_dehydrogenase_OS_                                            18.13%    passed      5.69%
+ 542  MetazoaPoriferaLeucosoleniacomplicata_5020698__AL9A1_PONAB_4-trimethylaminobutyraldehyde_dehydrogenase_OS_                                          4.78%    passed     37.83%
+ 543  MetazoaCnidariaFungiascutaria_3183938__AL9A1_BOVIN_4-trimethylaminobutyraldehyde_dehydrogenase_OS_                                                 60.16%    passed     76.90%
+ 544  MetazoaBryozoaBugulaneritina_1749604__A9A1A_DANRE_4-trimethylaminobutyraldehyde_dehydrogenase_A_OS_                                                36.06%    passed     82.91%
+ 545  MetazoaBryozoaBugulaneritina_2608833__A9A1A_DANRE_4-trimethylaminobutyraldehyde_dehydrogenase_A_OS_                                                35.66%    passed     82.78%
+ 546  MetazoaBryozoaBugulaneritina_2555403__A9A1A_DANRE_4-trimethylaminobutyraldehyde_dehydrogenase_A_OS_                                                35.66%    passed     83.65%
+ 547  MetazoaBryozoaBugulaneritina_2226327__BETB_MARMS_NAD_NADP-dependent_betaine_aldehyde_dehydrogenase_OS_                                             42.23%    passed     96.55%
+ 548  MetazoaUrochordataOikopleuradioica_5370876__A9A1B_DANRE_4-trimethylaminobutyraldehyde_dehydrogenase_B_OS_                                           6.97%    passed     39.29%
+ 549  FungiEP00150Ustilagomaydis_13256624__GBSA_BACSU_Betaine_aldehyde_dehydrogenase_OS_                                                                  2.79%    passed      8.10%
+ 550  IchthyosporeaEP00126Sphaerothecumdestruens_14601615__BETB_VIBTL_NAD_NADP-dependent_betaine_aldehyde_dehydrogenase_OS_                              31.67%    failed      0.22%
+ 551  MetazoaCnidariaFungiascutaria_3183926__A9A1A_DANRE_4-trimethylaminobutyraldehyde_dehydrogenase_A_OS_                                               39.64%    passed     60.82%
+ 552  RotosphaeridaEP00160Parvulariaatlantis_23160419__ACLDH_PSEAI_Acetaldehyde_dehydrogenase_OS_                                                        65.74%    passed     42.41%
+ 553  MetazoaPoriferaLeucosoleniacomplicata_4980505__ALDH1_MACPR_Aldehyde_dehydrogenase__cytosolic_1_OS_                                                 70.92%    passed     91.57%
+ 554  MetazoaCnidariaMontastraeacavernosa_3348184__A9A1A_DANRE_4-trimethylaminobutyraldehyde_dehydrogenase_A_OS_                                         28.69%    passed     99.84%
+ 555  MetazoaPoriferaStylissacarteri_5091025__TGNC_ACIAD__Z_-2-__N-methylformamido_methylene_-5-hydroxybutyrolactone_dehydrogenase_OS_                    5.78%    passed      5.25%
+ 556  ChoanoflagellateaMonosigabrevicollisUP000001357_11432157__ALDH5_YEAS7_Aldehyde_dehydrogenase_5__mitochondrial_OS_                                  23.71%    passed     45.24%
+ 557  MetazoaPoriferaEphydatiamuelleri_4920622__AL8A1_DANRE_2-aminomuconic_semialdehyde_dehydrogenase_OS_                                                 6.18%    passed     41.08%
+ 558  HaptophytaEP00327Prymnesiumparvum_14301234__BADH2_ARATH_Betaine_aldehyde_dehydrogenase_2__mitochondrial_OS_                                        43.23%    passed     33.67%
+ 559  HaptophytaEP00327Prymnesiumparvum_14298562__BADH2_ARATH_Betaine_aldehyde_dehydrogenase_2__mitochondrial_OS_                                        27.09%    failed      2.68%
+ 560  GlaucophytaEP00276Gloeochaetewittrockiana_13481055__BADH2_ARATH_Betaine_aldehyde_dehydrogenase_2__mitochondrial_OS_                                32.67%    passed     82.05%
+ 561  GlaucophytaEP00276Gloeochaetewittrockiana_13492232__BADH1_ARATH_Betaine_aldehyde_dehydrogenase_1__chloroplastic_OS_                                 6.97%    passed     75.85%
+ 562  CentroplasthelidaEP00300ChoanocystisspHF7_5622144__BADH1_ARATH_Betaine_aldehyde_dehydrogenase_1__chloroplastic_OS_                                  6.37%    passed     67.55%
+ 563  CollodictyonidaeEP00002Diphylleiarotans_11641754__BADH1_ORYSJ_Betaine_aldehyde_dehydrogenase_1_OS_                                                  6.77%    failed      2.29%
+ 564  CollodictyonidaeEP00002Diphylleiarotans_11641751__BADH2_ARATH_Betaine_aldehyde_dehydrogenase_2__mitochondrial_OS_                                   6.57%    failed      1.48%
+ 565  HeteroloboseaEP00761Pharyngomonaskirbyi_14493432__BADH_SPIOL_Betaine_aldehyde_dehydrogenase__chloroplastic_OS_                                     11.75%    passed     72.26%
+ 566  AmoebozoaEP00029Vermamoebavermiformis_5284952__BADH2_ARATH_Betaine_aldehyde_dehydrogenase_2__mitochondrial_OS_                                      3.98%    passed     82.06%
+ 567  ChloroplastidaChlamydomonasreinhardtiiUP000006906_6369540__BADH1_ARATH_Betaine_aldehyde_dehydrogenase_1__chloroplastic_OS_                          5.38%    failed      0.35%
+ 568  MetazoaCnidariaMadracisauretenra_3296314__ALDH2_BOVIN_Aldehyde_dehydrogenase__mitochondrial_OS_                                                    44.42%    passed     96.36%
+ 569  GlaucophytaEP00276Gloeochaetewittrockiana_13490533__A16A1_RAT_Aldehyde_dehydrogenase_family_16_member_A1_OS_                                        6.77%    passed     98.22%
+ 570  MetazoaPoriferaAmphimedonqueenslandica_4690521__A16A1_RAT_Aldehyde_dehydrogenase_family_16_member_A1_OS_                                           28.88%    passed     91.65%
+ 571  MetazoaCnidariaFungiascutaria_3191814__A16A1_MOUSE_Aldehyde_dehydrogenase_family_16_member_A1_OS_                                                  17.13%    passed     77.28%
+ 572  MetazoaCnidariaAcroporadigitifera_2935380__ALDH2_BOVIN_Aldehyde_dehydrogenase__mitochondrial_OS_                                                   31.27%    passed     35.61%
+ 573  MetazoaCnidariaGorgoniaventalina_3232502__AL1L1_XENTR_Cytosolic_10-formyltetrahydrofolate_dehydrogenase_OS_                                        66.93%    passed     29.31%
+ 574  MetazoaCnidariaGorgoniaventalina_3208428__ALD1_STAHJ_Putative_aldehyde_dehydrogenase_SH0913_OS_                                                    18.53%    passed     20.25%
+ 575  MetazoaCnidariaGorgoniaventalina_3221639__ALDH_DEIRA_Aldehyde_dehydrogenase_OS_                                                                    73.11%    failed      2.94%
+ 576  MetazoaVertebrateDaniorerio_5432839__AL8A1_DANRE_2-aminomuconic_semialdehyde_dehydrogenase_OS_                                                      5.58%    passed     68.47%
+ 577  MetazoaNematodaCaenorhabditiselegans_4309190__SSDH_MOUSE_Succinate-semialdehyde_dehydrogenase__mitochondrial_OS_                                    7.57%    passed     79.54%
+ 578  MetazoaCnidariaClytiahemisphaerica_3075672__DAVD_PSEPK_Glutarate-semialdehyde_dehydrogenase_OS_                                                    37.45%    passed     61.25%
+ 579  MetazoaCnidariaGorgoniaventalina_3210197__FEAB_ECOLI_Phenylacetaldehyde_dehydrogenase_OS_                                                          75.70%    passed     51.33%
+ 580  MetazoaAnnelidaHelobdellarobusta_108735__A16A1_RAT_Aldehyde_dehydrogenase_family_16_member_A1_OS_                                                   5.18%    passed     11.21%
+ 581  ChloroplastidaArabidopsisthalianaUP000006548_5889847__BADH2_ARATH_Betaine_aldehyde_dehydrogenase_2__mitochondrial_OS_                               4.78%    passed     47.72%
+ 582  ChloroplastidaEP00248Marchantiapolymorpha_7472213__BADH1_ARATH_Betaine_aldehyde_dehydrogenase_1__chloroplastic_OS_                                  4.78%    passed     30.72%
+ 583  TelonemiaP00656Telonemasubtile_26516555__BADH_SPIOL_Betaine_aldehyde_dehydrogenase__chloroplastic_OS_                                               5.98%    passed     29.03%
+ 584  ChoanoflagellataEP00039Didymoecacostata_10876867__BADH2_ARATH_Betaine_aldehyde_dehydrogenase_2__mitochondrial_OS_                                   5.18%    passed     20.30%
+ 585  ChoanoflagellataEP00037Helgoecanana_10816300__AL8A1_DANRE_2-aminomuconic_semialdehyde_dehydrogenase_OS_                                             5.78%    passed      9.54%
+ 586  ApusomonadidaThecamonastrahensUP000054408_5485146__A16A1_BOVIN_Aldehyde_dehydrogenase_family_16_member_A1_OS_                                      32.67%    passed     91.42%
+ 587  MetazoaVertebrateMusmusculus_6540185__AL8A1_MOUSE_2-aminomuconic_semialdehyde_dehydrogenase_OS_                                                     5.58%    passed     20.43%
+ 588  RotosphaeridaEP00160Parvulariaatlantis_23168768__ALDH4_BACSU_Putative_aldehyde_dehydrogenase_DhaS_OS_                                              39.24%    passed     91.49%
+ 589  MetazoaCnidariaStylophorapistillata_3664382__TTL12_MOUSE_Tubulin--tyrosine_ligase-like_protein_12_OS_                                               7.17%    passed     71.81%
+ 590  ChoanoflagellataEP00040Diaphanoecagrandis_10913789__AL8A1_HUMAN_2-aminomuconic_semialdehyde_dehydrogenase_OS_                                       6.57%    passed     25.45%
+ 591  FungiFusariumoxysporumUP000002489_13363679__FUS7_GIBF5_Putative_aldehyde_dehydrogenase_FUS7_OS_                                                     8.17%    passed      8.01%
+ 592  FungiFusariumoxysporumUP000002489_13367260__FUS7_GIBM7_Putative_aldehyde_dehydrogenase_FUS7_OS_                                                     6.57%    passed     47.80%
+ 593  AmoebozoaEP00029Vermamoebavermiformis_5280394__BETB_KLEP3_NAD_NADP-dependent_betaine_aldehyde_dehydrogenase_OS_                                    54.38%    passed      6.70%
+ 594  AmoebozoaEP00029Vermamoebavermiformis_5280395__BETB_ACIAD_NAD_NADP-dependent_betaine_aldehyde_dehydrogenase_OS_                                    11.95%    passed     69.80%
+ 595  ChoanoflagellataEP00047Mylnosigafluctuans_11112407__A16A1_BOVIN_Aldehyde_dehydrogenase_family_16_member_A1_OS_                                      6.18%    passed     96.83%
+ 596  HaptophytaEP00319Phaeocystisglobosa_14062016__A16A1_RAT_Aldehyde_dehydrogenase_family_16_member_A1_OS_                                              4.98%    passed     81.33%
+ 597  CryptophyceaeGuillardiathetaUP000011087_12260646__A16A1_RAT_Aldehyde_dehydrogenase_family_16_member_A1_OS_                                          5.98%    passed     86.57%
+ 598  MetazoaUrochordataOikopleuradioica_5361579__A16A1_RAT_Aldehyde_dehydrogenase_family_16_member_A1_OS_                                                4.98%    passed     83.95%
+ 599  AmoebozoaEP00007CuneaspBSH02190019_4980577__A16A1_RAT_Aldehyde_dehydrogenase_family_16_member_A1_OS_                                                4.38%    passed     67.23%
+ 600  TelonemiaP00656Telonemasubtile_26563629__A16A1_RAT_Aldehyde_dehydrogenase_family_16_member_A1_OS_                                                   5.38%    passed     22.70%
+ 601  TelonemiaP00656Telonemasubtile_26563630__A16A1_RAT_Aldehyde_dehydrogenase_family_16_member_A1_OS_                                                   5.38%    passed     22.70%
+ 602  MetazoaCnidariaAstreoporasp_3028325__A9A1A_DANRE_4-trimethylaminobutyraldehyde_dehydrogenase_A_OS_                                                  4.38%    passed     95.48%
+ 603  ChoanoflagellataEP00045Choanoecaperplexa_11088820__A16A1_BOVIN_Aldehyde_dehydrogenase_family_16_member_A1_OS_                                       4.78%    passed      9.72%
+ 604  MetazoaCnidariaPoritesaustraliensis_3549123__A16A1_RAT_Aldehyde_dehydrogenase_family_16_member_A1_OS_                                               6.18%    passed     75.10%
+ 605  MetazoaCnidariaAureliaGenome_3057999__A16A1_BOVIN_Aldehyde_dehydrogenase_family_16_member_A1_OS_                                                   10.96%    passed     60.00%
+ 606  MetazoaCnidariaAureliaGenome_3065251__A16A1_RAT_Aldehyde_dehydrogenase_family_16_member_A1_OS_                                                     30.08%    passed     10.76%
+ 607  MetazoaPoriferaSyconciliatum_5135058__A16A1_RAT_Aldehyde_dehydrogenase_family_16_member_A1_OS_                                                      4.78%    passed     68.52%
+ 608  MetazoaPoriferaStylissacarteri_5081888__A16A1_RAT_Aldehyde_dehydrogenase_family_16_member_A1_OS_                                                   57.37%    passed      7.52%
+ 609  MetazoaCnidariaAstreoporasp_3026047__AL8A1_DANRE_2-aminomuconic_semialdehyde_dehydrogenase_OS_                                                     14.34%    passed     78.24%
+ 610  MetazoaCnidariaMadracisauretenra_3290177__AL1L1_XENLA_Cytosolic_10-formyltetrahydrofolate_dehydrogenase_OS_                                        75.10%    passed     36.00%
+ 611  CentroplasthelidaEP00300ChoanocystisspHF7_5619361__PUUC_ECOLI_NADP_NAD-dependent_aldehyde_dehydrogenase_PuuC_OS_                                   39.84%    passed     52.40%
+ 612  RotosphaeridaEP00160Parvulariaatlantis_23174855__ALDB_ECOLI_Aldehyde_dehydrogenase_B_OS_                                                           50.80%    passed     25.78%
+ 613  RotosphaeridaEP00160Parvulariaatlantis_23174856__ACLDH_PSEAI_Acetaldehyde_dehydrogenase_OS_                                                        50.80%    passed     72.19%
+ 614  MetazoaBryozoaBugulaneritina_2392058__ALDH_ENCBU_Aldehyde_dehydrogenase_OS_                                                                        72.71%    passed     45.13%
+ 615  MetazoaBryozoaBugulaneritina_2336041__AL1A7_MOUSE_Aldehyde_dehydrogenase__cytosolic_1_OS_                                                          79.88%    passed     92.50%
+ 616  AlveolataEP00742ColponemidiaspColp10_4271760__AL8A1_HUMAN_2-aminomuconic_semialdehyde_dehydrogenase_OS_                                             4.78%    passed     98.67%
+ 617  MetazoaPoriferaHaliclonatubifera_4963901__A16A1_BOVIN_Aldehyde_dehydrogenase_family_16_member_A1_OS_                                                4.78%    passed     87.26%
+ 618  MetazoaCnidariaMontastraeacavernosa_3329122__A16A1_RAT_Aldehyde_dehydrogenase_family_16_member_A1_OS_                                               5.38%    passed     81.11%
+ 619  ChoanoflagellataEP00035Acanthoecaspectabilis_10735752__A16A1_BOVIN_Aldehyde_dehydrogenase_family_16_member_A1_OS_                                   4.98%    passed     78.44%
+ 620  MetazoaPoriferaEP00118Oscarellapearsei_4834561__A16A1_BOVIN_Aldehyde_dehydrogenase_family_16_member_A1_OS_                                          4.78%    passed     98.51%
+ 621  CentroplasthelidaEP00300ChoanocystisspHF7_5617104__FUS7_GIBF5_Putative_aldehyde_dehydrogenase_FUS7_OS_                                              8.76%    failed      3.04%
+ 622  MetazoaCephalochordataBranchiostomabelcheri_2796333__AL8A1_DANRE_2-aminomuconic_semialdehyde_dehydrogenase_OS_                                      4.58%    passed     66.89%
+ 623  MetazoaCnidariaClytiahemisphaerica_3081738__AL8A1_DANRE_2-aminomuconic_semialdehyde_dehydrogenase_OS_                                               6.77%    passed     55.11%
+ 624  RotosphaeridaEP00160Parvulariaatlantis_23162647__DHA2_CUPNH_Acetaldehyde_dehydrogenase_2_OS_                                                       61.75%    passed     66.88%
+ 625  MetazoaVertebrateHomosapiens_6467716__AL8A1_HUMAN_2-aminomuconic_semialdehyde_dehydrogenase_OS_                                                     5.58%    passed     33.60%
+ 626  MetazoaPoriferaLeucosoleniacomplicata_5033812__AL8A1_DANRE_2-aminomuconic_semialdehyde_dehydrogenase_OS_                                            6.37%    passed     48.81%
+ 627  MetazoaPoriferaLeucosoleniacomplicata_4995688__ALDH2_MESAU_Aldehyde_dehydrogenase__mitochondrial_OS_                                               66.93%    passed     13.71%
+ 628  MetazoaCnidariaGorgoniaventalina_3207749__ACLDH_PSEAI_Acetaldehyde_dehydrogenase_OS_                                                               45.42%    passed     22.70%
+ 629  MetazoaBryozoaBugulaneritina_2240619__AL8A1_DANRE_2-aminomuconic_semialdehyde_dehydrogenase_OS_                                                    46.61%    passed     81.94%
+ 630  MetazoaBryozoaBugulaneritina_2700614__AL1L1_XENLA_Cytosolic_10-formyltetrahydrofolate_dehydrogenase_OS_                                            75.50%    passed     18.12%
+ 631  MetazoaPoriferaHaliclonatubifera_4953001__AL8A1_HUMAN_2-aminomuconic_semialdehyde_dehydrogenase_OS_                                                 6.57%    passed     64.19%
+ 632  ChoanoflagellataEP00047Mylnosigafluctuans_11129297__AL8A1_HUMAN_2-aminomuconic_semialdehyde_dehydrogenase_OS_                                       5.58%    passed     88.90%
+ 633  GlaucophytaEP00276Gloeochaetewittrockiana_13500895__AL8A1_DANRE_2-aminomuconic_semialdehyde_dehydrogenase_OS_                                       9.16%    passed     71.10%
+ 634  AmoebozoaDictyosteliumdiscoideumUP000002195_4929632__AL8A1_DANRE_2-aminomuconic_semialdehyde_dehydrogenase_OS_                                      5.38%    failed      0.68%
+ 635  MetazoaRotiferaBrachionusplicatilis_5264062__AL8A1_HUMAN_2-aminomuconic_semialdehyde_dehydrogenase_OS_                                              6.37%    passed     18.24%
+ 636  ChoanoflagellataEP00050Salpingoecakvevrii_11201273__AL8A1_HUMAN_2-aminomuconic_semialdehyde_dehydrogenase_OS_                                       5.58%    passed     69.35%
+ 637  RotosphaeridaEP00160Parvulariaatlantis_23157348__AL8A1_BOVIN_2-aminomuconic_semialdehyde_dehydrogenase_OS_                                         15.34%    failed      0.47%
+ 638  FilastreaCapsasporaowczarzakiUP000008743_12977651__AL8A1_MOUSE_2-aminomuconic_semialdehyde_dehydrogenase_OS_                                       49.20%    passed     45.78%
+ 639  MetazoaCnidariaHydramagnapapillata_3264586__AL8A1_DANRE_2-aminomuconic_semialdehyde_dehydrogenase_OS_                                               6.77%    passed      7.75%
+ 640  RigifilidaEP00004Rigifilaramosa_23139773__AL8A1_HUMAN_2-aminomuconic_semialdehyde_dehydrogenase_OS_                                                 4.98%    passed     99.39%
+ 641  RigifilidaEP00004Rigifilaramosa_23139774__AL8A1_HUMAN_2-aminomuconic_semialdehyde_dehydrogenase_OS_                                                 4.98%    passed     99.39%
+ 642  CollodictyonidaeEP00002Diphylleiarotans_11634707__AL8A1_HUMAN_2-aminomuconic_semialdehyde_dehydrogenase_OS_                                         5.18%    passed     78.36%
+ 643  AmoebozoaEP00007CuneaspBSH02190019_4979863__AL8A1_DANRE_2-aminomuconic_semialdehyde_dehydrogenase_OS_                                               4.18%    passed     46.82%
+ 644  MetazoaTardigradaRamazzotiusvarieornatus_5293317__AL8A1_HUMAN_2-aminomuconic_semialdehyde_dehydrogenase_OS_                                         5.38%    passed     59.94%
+ 645  RhodelphisEP00736Rhodelphismarinus_22806004__AL8A1_HUMAN_2-aminomuconic_semialdehyde_dehydrogenase_OS_                                              7.37%    passed     84.98%
+ 646  MetazoaCnidariaPoritesaustraliensis_3541287__AL8A1_DANRE_2-aminomuconic_semialdehyde_dehydrogenase_OS_                                              5.78%    passed     82.25%
+ 647  IchthyosporeaEP00126Sphaerothecumdestruens_14606116__AL8A1_DANRE_2-aminomuconic_semialdehyde_dehydrogenase_OS_                                      4.38%    passed     28.95%
+ 648  MetazoaCnidariaMontastraeacavernosa_3333379__AL8A1_HUMAN_2-aminomuconic_semialdehyde_dehydrogenase_OS_                                             38.65%    passed     78.29%
+ 649  MetazoaCnidariaMontastraeacavernosa_3333380__AL8A1_MOUSE_2-aminomuconic_semialdehyde_dehydrogenase_OS_                                             37.25%    passed     89.94%
+ 650  RhizariaEP00473Plasmodiophorabrassicae_22122501__AL8A1_HUMAN_2-aminomuconic_semialdehyde_dehydrogenase_OS_                                          7.57%    passed     22.12%
+ 651  IchthyosporeaSphaeroformaarcticaUP000054560_14621496__AMNC_PSESP_2-aminomuconic_6-semialdehyde_dehydrogenase_OS_                                    5.18%    passed     47.87%
+ 652  MetazoaPoriferaAmphimedonqueenslandica_4698047__AL8A1_HUMAN_2-aminomuconic_semialdehyde_dehydrogenase_OS_                                           6.57%    passed     77.46%
+ 653  MetazoaCnidariaMadracisauretenra_3272519__AL8A1_DANRE_2-aminomuconic_semialdehyde_dehydrogenase_OS_                                                 5.78%    passed     98.56%
+ 654  JakobidaEP00762Andaluciagodoyi_14660254__AL8A1_HUMAN_2-aminomuconic_semialdehyde_dehydrogenase_OS_                                                  4.58%    passed     18.05%
+ 655  MalawimonadidaeEP00698Gefionellaokellyi_14707980__AL8A1_HUMAN_2-aminomuconic_semialdehyde_dehydrogenase_OS_                                         5.78%    passed     86.38%
+ 656  AmoebozoaEP00029Vermamoebavermiformis_5279924__AL8A1_DANRE_2-aminomuconic_semialdehyde_dehydrogenase_OS_                                            5.58%    passed     98.52%
+ 657  MetazoaPoriferaEP00118Oscarellapearsei_4816681__AL8A1_HUMAN_2-aminomuconic_semialdehyde_dehydrogenase_OS_                                           6.57%    passed     52.48%
+ 658  MetazoaCnidariaFungiascutaria_3196710__AL8A1_DANRE_2-aminomuconic_semialdehyde_dehydrogenase_OS_                                                   12.95%    passed     92.57%
+ 659  FungiMortierellaelongataUP000078512_13382597__AL8A1_DANRE_2-aminomuconic_semialdehyde_dehydrogenase_OS_                                             5.98%    passed     89.69%
+ 660  MetazoaEchinodermataAcanthasterplanci_3780491__AL8A1_HUMAN_2-aminomuconic_semialdehyde_dehydrogenase_OS_                                            6.37%    passed     64.72%
+ 661  MetazoaArthropodaEP00090Calanusglacialis_700459__AL8A1_HUMAN_2-aminomuconic_semialdehyde_dehydrogenase_OS_                                          5.78%    passed     61.43%
+ 662  MetazoaArthropodaEP00090Calanusglacialis_700462__AL8A1_HUMAN_2-aminomuconic_semialdehyde_dehydrogenase_OS_                                          5.78%    passed     68.96%
+ 663  MetazoaPoriferaSyconciliatum_5126837__AL8A1_MOUSE_2-aminomuconic_semialdehyde_dehydrogenase_OS_                                                    21.31%    passed     24.43%
+ 664  MetazoaVertebrateEptatretusburgeri_6383162__AL8A1_MOUSE_2-aminomuconic_semialdehyde_dehydrogenase_OS_                                              42.63%    passed     78.99%
+ 665  MetazoaPoriferaStylissacarteri_5092495__AL8A1_HUMAN_2-aminomuconic_semialdehyde_dehydrogenase_OS_                                                  21.91%    passed     83.38%
+ 666  MetazoaCnidariaStylophorapistillata_3663589__AL8A1_DANRE_2-aminomuconic_semialdehyde_dehydrogenase_OS_                                             14.54%    passed     87.07%
+ 667  ChoanoflagellataEP00039Didymoecacostata_10860840__AL8A1_DANRE_2-aminomuconic_semialdehyde_dehydrogenase_OS_                                         7.57%    passed     32.92%
+ 668  MetazoaCnidariaGorgoniaventalina_3218713__PUUC_ECOLI_NADP_NAD-dependent_aldehyde_dehydrogenase_PuuC_OS_                                            52.79%    passed     36.60%
+ 669  MetazoaAnnelidaHelobdellarobusta_85681__AL8A1_DANRE_2-aminomuconic_semialdehyde_dehydrogenase_OS_                                                   5.58%    passed     19.44%
+ 670  MetazoaCnidariaGorgoniaventalina_3226709__MPDC_MYCAO_Hydroxyisobutyraldehyde_dehydrogenase_OS_                                                     54.78%    failed      0.14%
+ 671  MetazoaCnidariaPoritesaustraliensis_3534431__ALDH2_BOVIN_Aldehyde_dehydrogenase__mitochondrial_OS_                                                 84.66%    passed     90.70%
+ 672  MetazoaEchinodermataAcanthasterplanci_3800048__A16A1_MOUSE_Aldehyde_dehydrogenase_family_16_member_A1_OS_                                           4.78%    passed     62.31%
+ 673  MetazoaPoriferaLeucosoleniacomplicata_5003979__AL1B1_MOUSE_Aldehyde_dehydrogenase_X__mitochondrial_OS_                                             68.33%    passed     73.50%
+ 674  MetazoaCnidariaGorgoniaventalina_3223017__AL1B1_PONAB_Aldehyde_dehydrogenase_X__mitochondrial_OS_                                                  76.10%    passed     53.98%
+ 675  AlveolataEP00742ColponemidiaspColp10_4273029__GABD_DEIRA_Succinate-semialdehyde_dehydrogenase__NADP_____OS_                                        10.16%    passed     48.62%
+ 676  MetazoaPoriferaLeucosoleniacomplicata_5045927__AL1B1_HUMAN_Aldehyde_dehydrogenase_X__mitochondrial_OS_                                             47.61%    passed     98.30%
+ 677  CentroplasthelidaEP00300ChoanocystisspHF7_5626106__ALDH_DEIRA_Aldehyde_dehydrogenase_OS_                                                           68.92%    passed     20.44%
+ 678  MetazoaPoriferaLeucosoleniacomplicata_5058658__AL1A1_CHICK_Retinal_dehydrogenase_1_OS_                                                             74.30%    passed     71.60%
+ 679  MetazoaPoriferaLeucosoleniacomplicata_5053037__AL1A1_SHEEP_Retinal_dehydrogenase_1_OS_                                                             63.55%    passed     85.56%
+ 680  MetazoaPoriferaHaliclonatubifera_4967843__ALDH2_BOVIN_Aldehyde_dehydrogenase__mitochondrial_OS_                                                    64.74%    passed     43.88%
+ 681  MetazoaCnidariaMadracisauretenra_3275675__ALDH2_MACPR_Aldehyde_dehydrogenase__cytosolic_2__Fragment__OS_                                           76.49%    passed     45.19%
+ 682  MetazoaCnidariaGorgoniaventalina_3212969__BETB_PSEFS_NAD_NADP-dependent_betaine_aldehyde_dehydrogenase_OS_                                         74.10%    passed     13.18%
+ 683  MetazoaPoriferaStylissacarteri_5083632__GEOB_CASDE_Geranial_dehydrogenase_OS_                                                                      56.37%    failed      3.48%
+ 684  MetazoaAcoelaHofsteniamiamia_21511__AL1B1_MOUSE_Aldehyde_dehydrogenase_X__mitochondrial_OS_                                                        49.20%    passed     73.89%
+ 685  MetazoaHemichordataSaccoglossuskowalevskii_4069441__AL1A1_CHICK_Retinal_dehydrogenase_1_OS_                                                        78.88%    passed     66.33%
+ 686  MetazoaArthropodaEP00090Calanusglacialis_708029__ALDH2_MACPR_Aldehyde_dehydrogenase__cytosolic_2__Fragment__OS_                                    71.31%    passed     40.53%
+ 687  MetazoaPoriferaLeucosoleniacomplicata_5050090__AL1A2_RAT_Retinal_dehydrogenase_2_OS_                                                               59.76%    passed     29.44%
+ 688  RigifilidaEP00004Rigifilaramosa_23136483__ALDH_PARDP_Aldehyde_dehydrogenase_OS_                                                                    77.09%    passed     12.17%
+ 689  MetazoaCnidariaGorgoniaventalina_3229241__FEAB_ECOLI_Phenylacetaldehyde_dehydrogenase_OS_                                                          67.73%    passed      9.68%
+ 690  MetazoaPlacozoaEP00114TrichoplaxspH2_4508613__AL1B1_MOUSE_Aldehyde_dehydrogenase_X__mitochondrial_OS_                                              77.09%    passed     41.94%
+ 691  RotosphaeridaEP00160Parvulariaatlantis_23164404__PUUC_ECOLI_NADP_NAD-dependent_aldehyde_dehydrogenase_PuuC_OS_                                     75.90%    passed     77.68%
+ 692  MetazoaCnidariaMadracisauretenra_3274608__AL1A7_RAT_Aldehyde_dehydrogenase__cytosolic_1_OS_                                                        79.68%    passed     81.18%
+ 693  MetazoaCnidariaMontastraeacavernosa_3315037__ALDH2_MACPR_Aldehyde_dehydrogenase__cytosolic_2__Fragment__OS_                                        77.89%    passed     98.95%
+ 694  MetazoaCnidariaMontastraeacavernosa_3323829__AL9A1_GADMC_4-trimethylaminobutyraldehyde_dehydrogenase_OS_                                           75.30%    passed     67.05%
+ 695  MetazoaCnidariaMadracisauretenra_3303733__AL1B1_MOUSE_Aldehyde_dehydrogenase_X__mitochondrial_OS_                                                  70.92%    passed     78.40%
+ 696  CentroplasthelidaEP00300ChoanocystisspHF7_5627400__DHA2_CUPNH_Acetaldehyde_dehydrogenase_2_OS_                                                     73.90%    passed     21.26%
+ 697  AlveolataEP00742ColponemidiaspColp10_4282418__ALDH2_MOUSE_Aldehyde_dehydrogenase__mitochondrial_OS_                                                73.11%    passed     68.50%
+ 698  ChoanoflagellataEP00040Diaphanoecagrandis_10923487__BADH_SPIOL_Betaine_aldehyde_dehydrogenase__chloroplastic_OS_                                    9.16%    passed     99.54%
+ 699  MetazoaAnnelidaEP00103Capitellateleta_55226__AL1A1_CHICK_Retinal_dehydrogenase_1_OS_                                                               71.71%    passed     47.22%
+ 700  MetazoaCnidariaGorgoniaventalina_3216905__ALDH2_PONAB_Aldehyde_dehydrogenase__mitochondrial_OS_                                                    71.31%    passed     43.10%
+ 701  MetazoaBryozoaBugulaneritina_2450268__AL1B1_MOUSE_Aldehyde_dehydrogenase_X__mitochondrial_OS_                                                      83.47%    failed      4.27%
+ 702  MetazoaPoriferaLeucosoleniacomplicata_4975809__AL1B1_HUMAN_Aldehyde_dehydrogenase_X__mitochondrial_OS_                                             50.80%    failed      4.56%
+ 703  MetazoaPoriferaHaliclonatubifera_4965475__ALDH2_BOVIN_Aldehyde_dehydrogenase__mitochondrial_OS_                                                    80.48%    passed     26.02%
+ 704  MetazoaCtenophoraMnemiopsisleidyi_3731790__AL3B2_MOUSE_Aldehyde_dehydrogenase_family_3_member_B2_OS_                                                9.76%    passed     22.95%
+ 705  MetazoaPoriferaStylissacarteri_5089888__TGNC_ACIAD__Z_-2-__N-methylformamido_methylene_-5-hydroxybutyrolactone_dehydrogenase_OS_                   37.65%    passed      8.50%
+ 706  MetazoaCnidariaGorgoniaventalina_3208647__PUUC_ECOLI_NADP_NAD-dependent_aldehyde_dehydrogenase_PuuC_OS_                                            55.58%    passed     85.70%
+ 707  MetazoaCnidariaMadracisauretenra_3306055__AL1A2_TAEGU_Retinal_dehydrogenase_2_OS_                                                                  72.71%    passed     67.69%
+ 708  MetazoaCnidariaMadracisauretenra_3300480__AL9A1_GADMC_4-trimethylaminobutyraldehyde_dehydrogenase_OS_                                              68.73%    passed     30.07%
+ 709  MetazoaCnidariaGorgoniaventalina_3225663__AL1L2_HUMAN_Mitochondrial_10-formyltetrahydrofolate_dehydrogenase_OS_                                    74.10%    passed     75.60%
+ 710  MetazoaCnidariaAnthopleuraelegantissima_3014876__ALDH2_MACPR_Aldehyde_dehydrogenase__cytosolic_2__Fragment__OS_                                    79.68%    passed      7.02%
+ 711  MetazoaAnnelidaEP00103Capitellateleta_58400__AL1B1_MOUSE_Aldehyde_dehydrogenase_X__mitochondrial_OS_                                               59.96%    passed     55.86%
+ 712  MetazoaPoriferaLeucosoleniacomplicata_5037436__AL1B1_MOUSE_Aldehyde_dehydrogenase_X__mitochondrial_OS_                                             48.80%    passed     70.47%
+ 713  MetazoaCnidariaClytiahemisphaerica_3097011__ALDH2_MACPR_Aldehyde_dehydrogenase__cytosolic_2__Fragment__OS_                                         73.51%    passed     92.10%
+ 714  TelonemiaP00656Telonemasubtile_26514285__ALDH_DEIRA_Aldehyde_dehydrogenase_OS_                                                                     63.55%    passed     45.36%
+ 715  MetazoaPoriferaEP00118Oscarellapearsei_4820094__ALDH2_BOVIN_Aldehyde_dehydrogenase__mitochondrial_OS_                                              69.72%    passed     24.43%
+ 716  MetazoaCnidariaFungiascutaria_3180941__ALDH2_MACPR_Aldehyde_dehydrogenase__cytosolic_2__Fragment__OS_                                              76.10%    passed     94.10%
+ 717  MetazoaCnidariaMadracisauretenra_3308486__AL1A2_RAT_Retinal_dehydrogenase_2_OS_                                                                    80.08%    passed     21.26%
+ 718  MetazoaEchinodermataEP00057Strongylocentrotuspurpuratus_3820989__AL8A1_HUMAN_2-aminomuconic_semialdehyde_dehydrogenase_OS_                         14.54%    passed     54.37%
+ 719  MetazoaEchinodermataEP00057Strongylocentrotuspurpuratus_3826013__AL8A1_DANRE_2-aminomuconic_semialdehyde_dehydrogenase_OS_                         58.37%    passed     15.36%
+ 720  RigifilidaEP00004Rigifilaramosa_23120812__ACLDH_PSEAI_Acetaldehyde_dehydrogenase_OS_                                                               62.35%    passed     29.56%
+ 721  BreviataEP00033Pygsuiabiforma_5528199__ADHE_ECO57_Aldehyde-alcohol_dehydrogenase_OS_                                                               23.51%    passed     37.71%
+ 722  MetazoaCnidariaGorgoniaventalina_3211252__ABDH_SERP5_Gamma-aminobutyraldehyde_dehydrogenase_OS_                                                    44.62%    passed      8.66%
+ 723  MetazoaHemichordataSaccoglossuskowalevskii_4069457__ALDH2_PONAB_Aldehyde_dehydrogenase__mitochondrial_OS_                                          32.67%    passed     77.43%
+ 724  HaptophytaEP00327Prymnesiumparvum_14283006__ADHE_ECO57_Aldehyde-alcohol_dehydrogenase_OS_                                                          73.90%    passed      9.47%
+ 725  HaptophytaEP00327Prymnesiumparvum_14279246__ADHE_CLOAB_Aldehyde-alcohol_dehydrogenase_OS_                                                          28.88%    passed     22.41%
+ 726  HaptophytaEP00327Prymnesiumparvum_14291750__ADHE_ECO57_Aldehyde-alcohol_dehydrogenase_OS_                                                          18.53%    passed     13.07%
+ 727  HaptophytaEP00327Prymnesiumparvum_14279540__ADHE_ECO57_Aldehyde-alcohol_dehydrogenase_OS_                                                          34.46%    failed      0.00%
+ 728  HaptophytaEP00327Prymnesiumparvum_14310830__ADHE_CLOAB_Aldehyde-alcohol_dehydrogenase_OS_                                                          58.57%    passed     14.18%
+ 729  MetazoaCnidariaFungiascutaria_3180940__ALDH2_MACPR_Aldehyde_dehydrogenase__cytosolic_2__Fragment__OS_                                              75.10%    passed     98.37%
+ 730  MetazoaPoriferaEP00118Oscarellapearsei_4818724__AL1A2_MOUSE_Retinal_dehydrogenase_2_OS_                                                            66.33%    passed     99.35%
+ 731  ChloroplastidaChlamydomonasreinhardtiiUP000006906_6369957__ADHE_ECO57_Aldehyde-alcohol_dehydrogenase_OS_                                           16.14%    passed     44.60%
+ 732  ChloroplastidaChlamydomonasreinhardtiiUP000006906_6354558__ADHE_ECO57_Aldehyde-alcohol_dehydrogenase_OS_                                           47.61%    failed      0.03%
+ 733  BreviataEP00033Pygsuiabiforma_5529235__ADHE_ECO57_Aldehyde-alcohol_dehydrogenase_OS_                                                               16.93%    passed     18.78%
+ 734  MetazoaAcoelaHofsteniamiamia_3177__AL2B7_ARATH_Aldehyde_dehydrogenase_family_2_member_B7__mitochondrial_OS_                                        50.60%    passed     25.64%
+ 735  CentroplasthelidaEP00300ChoanocystisspHF7_5611117__ALDH_PARDP_Aldehyde_dehydrogenase_OS_                                                           52.39%    passed     22.75%
+ 736  MetazoaBryozoaBugulaneritina_2327472__AL8A1_DANRE_2-aminomuconic_semialdehyde_dehydrogenase_OS_                                                    74.50%    passed     29.31%
+ 737  MetazoaPoriferaLeucosoleniacomplicata_5036446__AL1A1_MOUSE_Retinal_dehydrogenase_1_OS_                                                             59.16%    passed     93.80%
+ 738  FungiFusariumoxysporumUP000002489_13356648__ALDH_DAVTA_Aldehyde_dehydrogenase_OS_                                                                  10.76%    passed     93.67%
+ 739  MetazoaPoriferaEP00118Oscarellapearsei_4814254__ALDH2_MACPR_Aldehyde_dehydrogenase__cytosolic_2__Fragment__OS_                                     67.93%    passed     30.67%
+ 740  MetazoaCnidariaMadracisauretenra_3296313__ALDH2_HUMAN_Aldehyde_dehydrogenase__mitochondrial_OS_                                                    75.50%    passed     64.54%
+ 741  MetazoaCnidariaGorgoniaventalina_3210434__HPCC_ECOLX_5-carboxymethyl-2-hydroxymuconate_semialdehyde_dehydrogenase_OS_                              54.38%    passed     51.83%
+ 742  MetazoaCnidariaGorgoniaventalina_3213921__DAVD_PSEAE_Glutarate-semialdehyde_dehydrogenase_OS_                                                      66.14%    passed     27.81%
+ 743  FungiFusariumoxysporumUP000002489_13355244__ALDH_ALTAL_Aldehyde_dehydrogenase_OS_                                                                   5.98%    passed     38.22%
+ 744  FungiFusariumoxysporumUP000002489_13359519__AL1A1_BOVIN_Retinal_dehydrogenase_1_OS_                                                                18.92%    passed     73.92%
+ 745  TelonemiaP00656Telonemasubtile_26543880__AL1A1_HORSE_Retinal_dehydrogenase_1_OS_                                                                   69.92%    passed     35.19%
+ 746  MetazoaCnidariaAcroporadigitifera_2926364__AL8A1_DANRE_2-aminomuconic_semialdehyde_dehydrogenase_OS_                                               31.67%    passed     23.35%
+ 747  FungiFusariumoxysporumUP000002489_13357671__FUS7_GIBF5_Putative_aldehyde_dehydrogenase_FUS7_OS_                                                     7.77%    passed     99.76%
+ 748  FungiFusariumoxysporumUP000002489_13367604__ALDH_DAVTA_Aldehyde_dehydrogenase_OS_                                                                   6.18%    passed     70.26%
+ 749  MetazoaPoriferaStylissacarteri_5092276__ALDH4_BACSU_Putative_aldehyde_dehydrogenase_DhaS_OS_                                                       48.21%    passed     30.05%
+ 750  FungiFusariumoxysporumUP000002489_13362759__FUS7_GIBF5_Putative_aldehyde_dehydrogenase_FUS7_OS_                                                     7.17%    passed     12.48%
+ 751  FungiFusariumoxysporumUP000002489_13355245__AL1A2_HUMAN_Retinal_dehydrogenase_2_OS_                                                                18.92%    passed     72.24%
+ 752  FungiFusariumoxysporumUP000002489_13368030__ALDH_DAVTA_Aldehyde_dehydrogenase_OS_                                                                   3.19%    passed     51.20%
+ 753  FungiFusariumoxysporumUP000002489_13356562__GABD_ECOLI_Succinate-semialdehyde_dehydrogenase__NADP_____GabD_OS_                                     21.91%    passed     94.42%
+ 754  FungiFusariumoxysporumUP000002489_13356707__AL1A7_MOUSE_Aldehyde_dehydrogenase__cytosolic_1_OS_                                                     6.37%    passed     69.32%
+ 755  FungiFusariumoxysporumUP000002489_13363735__ALDH1_TANCI_Aldehyde_dehydrogenase_1_OS_                                                                6.37%    passed     46.91%
+ 756  MetazoaCnidariaGorgoniaventalina_3233263__BETB_RHOS1_NAD_NADP-dependent_betaine_aldehyde_dehydrogenase_OS_                                         67.93%    passed     39.64%
+ 757  MetazoaBrachiopodaLingulaunguis_1294097__AL3A2_MACFA_Aldehyde_dehydrogenase_family_3_member_A2_OS_                                                 20.52%    passed     49.68%
+ 758  MetazoaHemichordataSaccoglossuskowalevskii_4055849__AL8A1_DANRE_2-aminomuconic_semialdehyde_dehydrogenase_OS_                                      60.16%    passed     81.49%
+ 759  FungiFusariumoxysporumUP000002489_13361624__AL1A2_MOUSE_Retinal_dehydrogenase_2_OS_                                                                 4.78%    passed     72.94%
+ 760  FungiFusariumoxysporumUP000002489_13369218__ALDH2_MESAU_Aldehyde_dehydrogenase__mitochondrial_OS_                                                  40.24%    passed     47.82%
+ 761  StramenopilesPhytophthorainfestansUP000006643_26371015__GABD_DEIRA_Succinate-semialdehyde_dehydrogenase__NADP_____OS_                               5.98%    passed     63.86%
+ 762  MetazoaPoriferaLeucosoleniacomplicata_5017188__AL2B4_ARATH_Aldehyde_dehydrogenase_family_2_member_B4__mitochondrial_OS_                            67.73%    passed     54.83%
+ 763  MetazoaPoriferaSyconciliatum_5126016__AL3B2_MOUSE_Aldehyde_dehydrogenase_family_3_member_B2_OS_                                                    19.92%    passed     57.43%
+ 764  MetazoaCnidariaGorgoniaventalina_3238257__ASTD_PSEF5_N-succinylglutamate_5-semialdehyde_dehydrogenase_OS_                                          50.40%    passed     29.48%
+ 765  MetazoaCnidariaNematostellavectensis_3396067__AL1A3_HUMAN_Aldehyde_dehydrogenase_family_1_member_A3_OS_                                            71.71%    passed     68.97%
+WARNING: 122 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                                                                                                                              19.10%  41 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: MetazoaCephalochordataBranchiostomabelcheri_2797104__AL1A1_CHICK_Retinal_dehydrogenase_1_OS_ is identical to MetazoaCephalochordataBranchiostomabelcheri_2797103__AL1A1_CHICK_Retinal_dehydrogenase_1_OS_ but kept for subsequent analysis
+NOTE: MetazoaPlacozoaHoilungiahongkongensis_4534107__AL1L1_XENLA_Cytosolic_10-formyltetrahydrofolate_dehydrogenase_OS_ is identical to MetazoaPlacozoaHoilungiahongkongensis_4534110__AL1L1_XENLA_Cytosolic_10-formyltetrahydrofolate_dehydrogenase_OS_ but kept for subsequent analysis
+NOTE: MetazoaRotiferaBrachionusplicatilis_5227909__AL1B1_MOUSE_Aldehyde_dehydrogenase_X__mitochondrial_OS_ is identical to MetazoaRotiferaBrachionusplicatilis_5266408__AL1B1_MOUSE_Aldehyde_dehydrogenase_X__mitochondrial_OS_ but kept for subsequent analysis
+NOTE: TelonemiaP00656Telonemasubtile_26563630__A16A1_RAT_Aldehyde_dehydrogenase_family_16_member_A1_OS_ is identical to TelonemiaP00656Telonemasubtile_26563629__A16A1_RAT_Aldehyde_dehydrogenase_family_16_member_A1_OS_ but kept for subsequent analysis
+NOTE: RigifilidaEP00004Rigifilaramosa_23139774__AL8A1_HUMAN_2-aminomuconic_semialdehyde_dehydrogenase_OS_ is identical to RigifilidaEP00004Rigifilaramosa_23139773__AL8A1_HUMAN_2-aminomuconic_semialdehyde_dehydrogenase_OS_ but kept for subsequent analysis
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.658 seconds
+Measuring multi-threading efficiency up to 24 CPU cores
+Increase to 10 rounds for branch lengths
+3 trees examined
+Threads: 1 / Time: 33.195 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -515068
+Threads: 2 / Time: 19.890 sec / Speedup: 1.669 / Efficiency: 83% / LogL: -515068
+Threads: 3 / Time: 16.315 sec / Speedup: 2.035 / Efficiency: 68% / LogL: -515068
+Threads: 4 / Time: 14.614 sec / Speedup: 2.271 / Efficiency: 57% / LogL: -515068
+Threads: 5 / Time: 13.548 sec / Speedup: 2.450 / Efficiency: 49% / LogL: -515068
+BEST NUMBER OF THREADS: 4
+
+Perform fast likelihood tree search using LG+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -326328.544
+Optimal log-likelihood: -326328.375
+Gamma shape alpha: 1.365
+Parameters optimization took 1 rounds (0.895 sec)
+Time for fast ML tree search: 15.222 seconds
+
+NOTE: ModelFinder requires 621 MB RAM!
+ModelFinder will test up to 462 protein models (sample size: 502) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  LG            341300.350   1527 685654.701   5352166.701  692096.503
+  2  LG+G4         326328.393   1528 655712.786   5328336.786  662158.807
+  3  LG+R2         330189.210   1529 663436.420   5342176.420  669886.660
+  4  LG+R3         327309.633   1531 657681.265   5348665.265  664139.942
+  5  LG+R4         326186.768   1533 655439.535   5358683.535  661906.649
+  6  LG+R5         325847.589   1535 654765.177   5370285.177  661240.728
+  7  LG+R6         325494.028   1537 654062.055   5381874.055  660546.043
+  8  LG+R7         325352.679   1539 653783.358   5393903.358  660275.784
+  9  LG+R8         325276.173   1541 653634.347   5406078.347  660135.210
+ 10  LG+R9         325239.897   1543 653565.794   5418349.794  660075.094
+ 11  LG+R10        325207.332   1545 653504.665   5430644.665  660022.402
+ 22  LG+F+R10      325465.898   1564 654059.796   5549379.796  660657.686
+ 33  WAG+R10       327694.487   1545 658478.974   5435618.974  664996.711
+ 44  WAG+F+R10     327937.888   1564 659003.776   5554323.776  665601.667
+ 55  JTT+R10       331728.907   1545 666547.814   5443687.814  673065.552
+ 66  JTT+F+R10     332478.406   1564 668084.811   5563404.811  674682.702
+ 77  JTTDCMut+R10  331594.018   1545 666278.037   5443418.037  672795.774
+ 88  JTTDCMut+F+R10 332295.458   1564 667718.917   5563038.917  674316.807
+ 99  DCMut+R10     333110.975   1545 669311.950   5446451.950  675829.687
+110  DCMut+F+R10   333906.441   1564 670940.883   5566260.883  677538.773
+121  VT+R10        328487.237   1545 660064.475   5437204.475  666582.212
+132  VT+F+R10      328838.529   1564 660805.058   5556125.058  667402.948
+143  PMB+R10       329468.464   1545 662026.927   5439166.927  668544.664
+154  PMB+F+R10     330124.600   1564 663377.200   5558697.200  669975.091
+165  Blosum62+R10  328718.160   1545 660526.320   5437666.320  667044.057
+176  Blosum62+F+R10 329398.780   1564 661925.560   5557245.560  668523.450
+187  Dayhoff+R10   333111.255   1545 669312.509   5446452.509  675830.246
+198  Dayhoff+F+R10 333914.197   1564 670956.394   5566276.394  677554.284
+209  mtREV+R10     346529.135   1545 696148.271   5473288.271  702666.008
+220  mtREV+F+R10   335827.144   1564 674782.287   5570102.287  681380.178
+231  mtART+R10     346838.342   1545 696766.684   5473906.684  703284.422
+242  mtART+F+R10   337716.532   1564 678561.065   5573881.065  685158.955
+253  mtZOA+R10     338288.856   1545 679667.711   5456807.711  686185.448
+264  mtZOA+F+R10   333563.663   1564 670255.327   5565575.327  676853.217
+275  mtMet+R10     346045.779   1545 695181.557   5472321.557  701699.294
+286  mtMet+F+R10   337459.452   1564 678046.905   5573366.905  684644.795
+297  mtVer+R10     351827.471   1545 706744.943   5483884.943  713262.680
+308  mtVer+F+R10   344441.960   1564 692011.920   5587331.920  698609.810
+319  mtInv+R10     345244.192   1545 693578.385   5470718.385  700096.122
+330  mtInv+F+R10   333343.341   1564 669814.683   5565134.683  676412.573
+341  mtMAM+R10     357300.804   1545 717691.608   5494831.608  724209.345
+352  mtMAM+F+R10   347311.267   1564 697750.535   5593070.535  704348.425
+363  HIVb+R10      343928.550   1545 690947.100   5468087.100  697464.838
+374  HIVb+F+R10    343505.540   1564 690139.079   5585459.079  696736.970
+385  HIVw+R10      363825.198   1545 730740.396   5507880.396  737258.133
+396  HIVw+F+R10    359465.373   1564 722058.746   5617378.746  728656.636
+407  FLU+R10       342888.007   1545 688866.014   5466006.014  695383.751
+418  FLU+F+R10     341600.374   1564 686328.749   5581648.749  692926.640
+429  rtREV+R10     328429.185   1545 659948.369   5437088.369  666466.106
+440  rtREV+F+R10   326799.681   1564 656727.362   5552047.362  663325.252
+451  cpREV+R10     331159.550   1545 665409.099   5442549.099  671926.837
+462  cpREV+F+R10   330816.825   1564 664761.651   5560081.651  671359.541
+Akaike Information Criterion:           LG+R10
+Corrected Akaike Information Criterion: LG+G4
+Bayesian Information Criterion:         LG+R10
+Best-fit model: LG+R10 chosen according to BIC
+
+All model information printed to ALDH1.fasta.cdhit.mafft.trimal.UFB.model.gz
+CPU time for ModelFinder: 28508.277 seconds (7h:55m:8s)
+Wall-clock time for ModelFinder: 7253.664 seconds (2h:0m:53s)
+Generating 1000 samples for ultrafast bootstrap (seed: 774468)...
+
+NOTE: 621 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -325207.332
+Optimal log-likelihood: -325207.311
+Site proportion and rates:  (0.055,0.053) (0.086,0.164) (0.064,0.289) (0.110,0.456) (0.141,0.644) (0.133,0.902) (0.124,1.153) (0.124,1.515) (0.093,1.943) (0.070,2.727)
+Parameters optimization took 1 rounds (8.401 sec)
+Computing ML distances based on estimated model parameters... 175.930 sec
+WARNING: Some pairwise ML distances are too long (saturated)
+Computing BIONJ tree...
+1.320 seconds
+Log-likelihood of BIONJ tree: -334733.759
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 79.589 second
+Computing log-likelihood of 98 initial trees ... 89.741 seconds
+Current best score: -325207.311
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -325100.391
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -324598.591
+Iteration 10 / LogL: -324696.702 / Time: 0h:9m:50s
+Iteration 20 / LogL: -324998.840 / Time: 0h:14m:54s
+Finish initializing candidate tree set (20)
+Current best tree score: -324598.591 / CPU time: 795.483
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 21: -324513.626
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 24: -324500.883
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 28: -324424.861
+Iteration 30 / LogL: -324513.432 / Time: 0h:20m:35s (1h:9m:33s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 34: -324386.815
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 35: -324326.812
+Iteration 40 / LogL: -324398.182 / Time: 0h:25m:10s (1h:1m:20s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 41: -324284.394
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 43: -324277.401
+Iteration 50 / LogL: -324307.683 / Time: 0h:30m:37s (0h:58m:8s left)
+Log-likelihood cutoff on original alignment: -324774.480
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 55: -324274.614
+Iteration 60 / LogL: -324305.937 / Time: 0h:35m:27s (0h:57m:6s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 68: -324249.553
+Iteration 70 / LogL: -324316.582 / Time: 0h:40m:11s (0h:57m:4s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 73: -324238.006
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 77: -324224.182
+Iteration 80 / LogL: -324297.381 / Time: 0h:45m:32s (0h:55m:55s left)
+Iteration 90 / LogL: -324263.247 / Time: 0h:50m:0s (0h:48m:53s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 92: -324206.173
+Iteration 100 / LogL: -324277.123 / Time: 0h:54m:32s (0h:50m:40s left)
+Log-likelihood cutoff on original alignment: -324605.470
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.925
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 104: -324205.853
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 105: -324180.521
+Iteration 110 / LogL: -324218.714 / Time: 0h:59m:34s (0h:51m:55s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 113: -324178.898
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 118: -324172.662
+Iteration 120 / LogL: -324240.777 / Time: 1h:4m:35s (0h:53m:11s left)
+Iteration 130 / LogL: -324199.211 / Time: 1h:8m:48s (0h:46m:56s left)
+Iteration 140 / LogL: -324241.310 / Time: 1h:13m:25s (0h:41m:12s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 141: -324171.135
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 150: -324167.008
+Iteration 150 / LogL: -324167.008 / Time: 1h:18m:20s (0h:52m:34s left)
+Log-likelihood cutoff on original alignment: -324528.389
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 155: -324161.091
+Iteration 160 / LogL: -324265.833 / Time: 1h:22m:51s (0h:49m:30s left)
+Iteration 170 / LogL: -324183.823 / Time: 1h:27m:10s (0h:43m:50s left)
+Iteration 180 / LogL: -324188.787 / Time: 1h:31m:42s (0h:38m:25s left)
+Iteration 190 / LogL: -324202.147 / Time: 1h:36m:4s (0h:33m:2s left)
+Iteration 200 / LogL: -324186.639 / Time: 1h:41m:12s (0h:27m:58s left)
+Log-likelihood cutoff on original alignment: -324528.389
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.929
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 210 / LogL: -324190.776 / Time: 1h:45m:53s (0h:45m:35s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 212: -324146.876
+Iteration 220 / LogL: -324168.637 / Time: 1h:50m:41s (0h:46m:29s left)
+Iteration 230 / LogL: -324216.820 / Time: 1h:55m:15s (0h:41m:16s left)
+Iteration 240 / LogL: -324253.176 / Time: 1h:59m:41s (0h:36m:3s left)
+Iteration 250 / LogL: -324185.417 / Time: 2h:4m:26s (0h:30m:59s left)
+Log-likelihood cutoff on original alignment: -324528.389
+Iteration 260 / LogL: -324304.013 / Time: 2h:9m:2s (0h:25m:54s left)
+Iteration 270 / LogL: -324196.390 / Time: 2h:13m:43s (0h:20m:52s left)
+Iteration 280 / LogL: -324239.786 / Time: 2h:18m:6s (0h:15m:50s left)
+Iteration 290 / LogL: -324193.592 / Time: 2h:22m:36s (0h:10m:51s left)
+Iteration 300 / LogL: -324157.646 / Time: 2h:27m:25s (0h:5m:54s left)
+Log-likelihood cutoff on original alignment: -324528.389
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.976
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 309: -324127.235
+Iteration 310 / LogL: -324186.593 / Time: 2h:32m:24s (0h:48m:49s left)
+Iteration 320 / LogL: -324171.108 / Time: 2h:36m:44s (0h:43m:43s left)
+Iteration 330 / LogL: -324189.645 / Time: 2h:41m:24s (0h:38m:45s left)
+Iteration 340 / LogL: -324230.331 / Time: 2h:45m:34s (0h:33m:42s left)
+Iteration 350 / LogL: -324172.848 / Time: 2h:49m:59s (0h:28m:44s left)
+Log-likelihood cutoff on original alignment: -324528.389
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 353: -324118.902
+Iteration 360 / LogL: -324167.545 / Time: 2h:54m:29s (0h:45m:12s left)
+Iteration 370 / LogL: -324154.228 / Time: 2h:59m:7s (0h:40m:17s left)
+Iteration 380 / LogL: -324176.838 / Time: 3h:3m:9s (0h:35m:16s left)
+Iteration 390 / LogL: -324326.783 / Time: 3h:7m:4s (0h:30m:17s left)
+Iteration 400 / LogL: -324205.660 / Time: 3h:11m:44s (0h:25m:28s left)
+Log-likelihood cutoff on original alignment: -324528.389
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.961
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 410 / LogL: -324166.838 / Time: 3h:15m:55s (0h:43m:6s left)
+Iteration 420 / LogL: -324166.766 / Time: 3h:20m:1s (0h:38m:11s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 424: -324115.962
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 428: -324107.196
+Iteration 430 / LogL: -324132.089 / Time: 3h:24m:55s (0h:46m:48s left)
+Iteration 440 / LogL: -324288.264 / Time: 3h:29m:6s (0h:41m:55s left)
+Iteration 450 / LogL: -324174.144 / Time: 3h:33m:11s (0h:37m:2s left)
+Log-likelihood cutoff on original alignment: -324528.389
+Iteration 460 / LogL: -324152.612 / Time: 3h:37m:18s (0h:32m:11s left)
+Iteration 470 / LogL: -324143.186 / Time: 3h:41m:15s (0h:27m:21s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 471: -324090.139
+Iteration 480 / LogL: -324155.157 / Time: 3h:45m:52s (0h:42m:54s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 484: -324067.494
+Iteration 490 / LogL: -324099.246 / Time: 3h:50m:31s (0h:44m:18s left)
+Iteration 500 / LogL: -324102.009 / Time: 3h:54m:34s (0h:39m:29s left)
+Log-likelihood cutoff on original alignment: -324528.389
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.935
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 510 / LogL: -324196.317 / Time: 3h:59m:38s (0h:42m:22s left)
+Iteration 520 / LogL: -324132.007 / Time: 4h:4m:27s (0h:37m:40s left)
+Iteration 530 / LogL: -324123.877 / Time: 4h:9m:1s (0h:32m:57s left)
+Iteration 540 / LogL: -324133.694 / Time: 4h:14m:2s (0h:28m:16s left)
+Iteration 550 / LogL: -324165.783 / Time: 4h:18m:29s (0h:23m:32s left)
+Log-likelihood cutoff on original alignment: -324528.389
+Iteration 560 / LogL: -324122.549 / Time: 4h:22m:46s (0h:18m:48s left)
+Iteration 570 / LogL: -324193.250 / Time: 4h:27m:10s (0h:14m:5s left)
+Iteration 580 / LogL: -324113.550 / Time: 4h:32m:6s (0h:9m:23s left)
+Iteration 590 / LogL: -324143.199 / Time: 4h:36m:46s (0h:4m:41s left)
+Iteration 600 / LogL: -324108.600 / Time: 4h:41m:14s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -324528.389
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.942
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 610 / LogL: -324107.560 / Time: 4h:45m:59s (0h:42m:15s left)
+Iteration 620 / LogL: -324122.522 / Time: 4h:50m:33s (0h:37m:33s left)
+Iteration 630 / LogL: -324089.831 / Time: 4h:54m:52s (0h:32m:48s left)
+Iteration 640 / LogL: -324070.239 / Time: 4h:58m:54s (0h:28m:4s left)
+Iteration 650 / LogL: -324203.450 / Time: 5h:3m:15s (0h:23m:21s left)
+Log-likelihood cutoff on original alignment: -324528.389
+Iteration 660 / LogL: -324135.264 / Time: 5h:7m:24s (0h:18m:39s left)
+Iteration 670 / LogL: -324108.456 / Time: 5h:11m:45s (0h:13m:58s left)
+Iteration 680 / LogL: -324079.436 / Time: 5h:15m:55s (0h:9m:18s left)
+Iteration 690 / LogL: -324150.860 / Time: 5h:20m:20s (0h:4m:38s left)
+Iteration 700 / LogL: -324088.589 / Time: 5h:24m:24s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -324340.900
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.950
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 710 / LogL: -324108.361 / Time: 5h:28m:33s (0h:41m:42s left)
+Iteration 720 / LogL: -324178.577 / Time: 5h:32m:29s (0h:36m:59s left)
+Iteration 730 / LogL: -324094.490 / Time: 5h:36m:59s (0h:32m:21s left)
+Iteration 740 / LogL: -324128.198 / Time: 5h:41m:13s (0h:27m:42s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 748: -324057.135
+Iteration 750 / LogL: -324306.456 / Time: 5h:45m:52s (0h:45m:15s left)
+Log-likelihood cutoff on original alignment: -324339.733
+Iteration 760 / LogL: -324152.575 / Time: 5h:50m:12s (0h:40m:36s left)
+Iteration 770 / LogL: -324242.778 / Time: 5h:54m:23s (0h:35m:56s left)
+Iteration 780 / LogL: -324202.167 / Time: 5h:58m:46s (0h:31m:19s left)
+Iteration 790 / LogL: -324198.307 / Time: 6h:3m:8s (0h:26m:41s left)
+Iteration 800 / LogL: -324094.441 / Time: 6h:7m:37s (0h:22m:5s left)
+Log-likelihood cutoff on original alignment: -324339.733
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.960
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 810 / LogL: -324100.041 / Time: 6h:12m:0s (0h:41m:23s left)
+Iteration 820 / LogL: -324083.987 / Time: 6h:16m:41s (0h:36m:47s left)
+Iteration 830 / LogL: -324104.374 / Time: 6h:20m:51s (0h:32m:9s left)
+Iteration 840 / LogL: -324126.836 / Time: 6h:24m:59s (0h:27m:31s left)
+Iteration 850 / LogL: -324083.361 / Time: 6h:29m:14s (0h:22m:55s left)
+Log-likelihood cutoff on original alignment: -324339.733
+Iteration 860 / LogL: -324172.347 / Time: 6h:33m:43s (0h:18m:20s left)
+Iteration 870 / LogL: -324079.436 / Time: 6h:37m:51s (0h:13m:44s left)
+Iteration 880 / LogL: -324120.050 / Time: 6h:41m:53s (0h:9m:8s left)
+Iteration 890 / LogL: -324137.504 / Time: 6h:46m:21s (0h:4m:34s left)
+Iteration 900 / LogL: -324088.931 / Time: 6h:50m:31s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -324339.733
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.961
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 910 / LogL: -324113.509 / Time: 6h:54m:54s (0h:41m:4s left)
+Iteration 920 / LogL: -324149.629 / Time: 6h:59m:6s (0h:36m:29s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 926: -324055.002
+Iteration 930 / LogL: -324125.497 / Time: 7h:3m:18s (0h:43m:44s left)
+Iteration 940 / LogL: -324273.819 / Time: 7h:7m:31s (0h:39m:9s left)
+Iteration 950 / LogL: -324079.689 / Time: 7h:11m:44s (0h:34m:34s left)
+Log-likelihood cutoff on original alignment: -324339.733
+Iteration 960 / LogL: -324110.935 / Time: 7h:15m:59s (0h:30m:0s left)
+Iteration 970 / LogL: -324106.416 / Time: 7h:20m:10s (0h:25m:26s left)
+Iteration 980 / LogL: -324118.249 / Time: 7h:24m:33s (0h:20m:53s left)
+Iteration 990 / LogL: -324152.849 / Time: 7h:28m:24s (0h:16m:19s left)
+Iteration 1000 / LogL: -324253.616 / Time: 7h:32m:42s (0h:11m:46s left)
+Log-likelihood cutoff on original alignment: -324339.733
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.983
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+WARNING: bootstrap analysis did not converge. You should rerun with higher number of iterations (-nm option)
+TREE SEARCH COMPLETED AFTER 1001 ITERATIONS / Time: 7h:33m:9s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -324055.002
+Optimal log-likelihood: -324054.993
+Site proportion and rates:  (0.055,0.052) (0.087,0.163) (0.068,0.294) (0.100,0.454) (0.140,0.631) (0.099,0.853) (0.145,1.095) (0.137,1.472) (0.100,1.938) (0.070,2.737)
+Parameters optimization took 1 rounds (6.419 sec)
+BEST SCORE FOUND : -324054.993
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+Testing tree branches by aBayes parametric test...
+Alternative NNI shows better log-likelihood -324054.985 > -324054.993
+Alternative NNI shows better log-likelihood -324053.467 > -324054.993
+Alternative NNI shows better log-likelihood -324051.958 > -324054.993
+4.227 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file ALDH1.fasta.cdhit.mafft.trimal.UFB.splits.nex
+Total tree length: 256.321
+
+Total number of iterations: 1001
+CPU time used for tree search: 105926.070 sec (29h:25m:26s)
+Wall-clock time used for tree search: 27090.998 sec (7h:31m:30s)
+Total CPU time used: 106358.720 sec (29h:32m:38s)
+Total wall-clock time used: 27204.159 sec (7h:33m:24s)
+
+Computing bootstrap consensus tree...
+Reading input file ALDH1.fasta.cdhit.mafft.trimal.UFB.splits.nex...
+765 taxa and 5237 splits.
+Consensus tree written to ALDH1.fasta.cdhit.mafft.trimal.UFB.contree
+Reading input trees file ALDH1.fasta.cdhit.mafft.trimal.UFB.contree
+Log-likelihood of consensus tree: -324051.812
+
+Analysis results written to: 
+  IQ-TREE report:                ALDH1.fasta.cdhit.mafft.trimal.UFB.iqtree
+  Maximum-likelihood tree:       ALDH1.fasta.cdhit.mafft.trimal.UFB.treefile
+  Likelihood distances:          ALDH1.fasta.cdhit.mafft.trimal.UFB.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          ALDH1.fasta.cdhit.mafft.trimal.UFB.splits.nex
+  Consensus tree:                ALDH1.fasta.cdhit.mafft.trimal.UFB.contree
+  Screen log file:               ALDH1.fasta.cdhit.mafft.trimal.UFB.log
+
+Date and Time: Fri Dec  9 20:45:30 2022
