@@ -1,0 +1,3574 @@
+<recPhylo 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.recg.org ./recGeneTreeXML.xsd"
+	xmlns="http://www.recg.org">
+<spTree>
+<phylogeny>
+<clade>
+		<name>node_99</name>
+	<clade>
+			<name>node_0</name>
+		<clade>
+				<name>node_1</name>
+			<clade>
+					<name>node_2</name>
+				<clade>
+						<name>node_3</name>
+					<clade>
+							<name>node_4</name>
+						<clade>
+								<name>node_5</name>
+							<clade>
+									<name>node_6</name>
+								<clade>
+										<name>node_7</name>
+									<clade>
+											<name>node_8</name>
+										<clade>
+												<name>node_9</name>
+											<clade>
+													<name>node_10</name>
+												<clade>
+														<name>node_11</name>
+													<clade>
+															<name>node_12</name>
+														<clade>
+																<name>node_13</name>
+															<clade>
+																	<name>node_14</name>
+																<clade>
+																		<name>node_15</name>
+																	<clade>
+																			<name>node_16</name>
+																		<clade>
+																				<name>MetazoaMolluscaEP00106Octopusbimaculoides</name>
+																		</clade>
+																		<clade>
+																				<name>MetazoaMolluscaLottiagigantea</name>
+																		</clade>
+																	</clade>
+																	<clade>
+																			<name>MetazoaBrachiopodaLingulaunguis</name>
+																	</clade>
+																</clade>
+																<clade>
+																		<name>node_17</name>
+																	<clade>
+																			<name>MetazoaAnnelidaEP00103Capitellateleta</name>
+																	</clade>
+																	<clade>
+																			<name>MetazoaAnnelidaHelobdellarobusta</name>
+																	</clade>
+																</clade>
+															</clade>
+															<clade>
+																	<name>MetazoaBryozoaBugulaneritina</name>
+															</clade>
+														</clade>
+														<clade>
+																<name>node_18</name>
+															<clade>
+																	<name>MetazoaAcoelaHofsteniamiamia</name>
+															</clade>
+															<clade>
+																	<name>MetazoaPlatyhelminthesEchinococcusmultilocularis</name>
+															</clade>
+														</clade>
+													</clade>
+													<clade>
+															<name>node_19</name>
+														<clade>
+																<name>node_20</name>
+															<clade>
+																	<name>node_21</name>
+																<clade>
+																		<name>MetazoaNematodaCaenorhabditiselegans</name>
+																</clade>
+																<clade>
+																		<name>MetazoaNematodaLoaloa</name>
+																</clade>
+															</clade>
+															<clade>
+																	<name>node_22</name>
+																<clade>
+																		<name>MetazoaRotiferaBrachionusplicatilis</name>
+																</clade>
+																<clade>
+																		<name>MetazoaTardigradaRamazzotiusvarieornatus</name>
+																</clade>
+															</clade>
+														</clade>
+														<clade>
+																<name>node_23</name>
+															<clade>
+																	<name>node_24</name>
+																<clade>
+																		<name>MetazoaArthropodaDaphniapulex</name>
+																</clade>
+																<clade>
+																		<name>MetazoaArthropodaDrosophilamelanogaster</name>
+																</clade>
+															</clade>
+															<clade>
+																	<name>MetazoaArthropodaEP00090Calanusglacialis</name>
+															</clade>
+														</clade>
+													</clade>
+												</clade>
+												<clade>
+														<name>node_25</name>
+													<clade>
+															<name>node_26</name>
+														<clade>
+																<name>node_27</name>
+															<clade>
+																	<name>node_28</name>
+																<clade>
+																		<name>node_29</name>
+																	<clade>
+																			<name>node_30</name>
+																		<clade>
+																				<name>MetazoaVertebrateHomosapiens</name>
+																		</clade>
+																		<clade>
+																				<name>MetazoaVertebrateMusmusculus</name>
+																		</clade>
+																	</clade>
+																	<clade>
+																			<name>MetazoaVertebrateDaniorerio</name>
+																	</clade>
+																</clade>
+																<clade>
+																		<name>MetazoaVertebrateEptatretusburgeri</name>
+																</clade>
+															</clade>
+															<clade>
+																	<name>node_31</name>
+																<clade>
+																		<name>MetazoaUrochordataEP00059Cionaintestinalis</name>
+																</clade>
+																<clade>
+																		<name>MetazoaUrochordataOikopleuradioica</name>
+																</clade>
+															</clade>
+														</clade>
+														<clade>
+																<name>MetazoaCephalochordataBranchiostomabelcheri</name>
+														</clade>
+													</clade>
+													<clade>
+															<name>node_32</name>
+														<clade>
+																<name>node_33</name>
+															<clade>
+																	<name>MetazoaEchinodermataAcanthasterplanci</name>
+															</clade>
+															<clade>
+																	<name>MetazoaEchinodermataEP00057Strongylocentrotuspurpuratus</name>
+															</clade>
+														</clade>
+														<clade>
+																<name>MetazoaHemichordataSaccoglossuskowalevskii</name>
+														</clade>
+													</clade>
+												</clade>
+											</clade>
+											<clade>
+													<name>node_34</name>
+												<clade>
+														<name>node_35</name>
+													<clade>
+															<name>node_36</name>
+														<clade>
+																<name>node_37</name>
+															<clade>
+																	<name>node_38</name>
+																<clade>
+																		<name>node_39</name>
+																	<clade>
+																			<name>node_40</name>
+																		<clade>
+																				<name>MetazoaCnidariaFungiascutaria</name>
+																		</clade>
+																		<clade>
+																				<name>MetazoaCnidariaMontastraeacavernosa</name>
+																		</clade>
+																	</clade>
+																	<clade>
+																			<name>node_41</name>
+																		<clade>
+																				<name>MetazoaCnidariaMadracisauretenra</name>
+																		</clade>
+																		<clade>
+																				<name>MetazoaCnidariaStylophorapistillata</name>
+																		</clade>
+																	</clade>
+																</clade>
+																<clade>
+																		<name>node_42</name>
+																	<clade>
+																			<name>node_43</name>
+																		<clade>
+																				<name>MetazoaCnidariaAstreoporasp</name>
+																		</clade>
+																		<clade>
+																				<name>MetazoaCnidariaPoritesaustraliensis</name>
+																		</clade>
+																	</clade>
+																	<clade>
+																			<name>MetazoaCnidariaAcroporadigitifera</name>
+																	</clade>
+																</clade>
+															</clade>
+															<clade>
+																	<name>node_44</name>
+																<clade>
+																		<name>MetazoaCnidariaAnthopleuraelegantissima</name>
+																</clade>
+																<clade>
+																		<name>MetazoaCnidariaNematostellavectensis</name>
+																</clade>
+															</clade>
+														</clade>
+														<clade>
+																<name>MetazoaCnidariaGorgoniaventalina</name>
+														</clade>
+													</clade>
+													<clade>
+															<name>node_45</name>
+														<clade>
+																<name>node_46</name>
+															<clade>
+																	<name>MetazoaCnidariaClytiahemisphaerica</name>
+															</clade>
+															<clade>
+																	<name>MetazoaCnidariaHydramagnapapillata</name>
+															</clade>
+														</clade>
+														<clade>
+																<name>MetazoaCnidariaAureliaGenome</name>
+														</clade>
+													</clade>
+												</clade>
+												<clade>
+														<name>MetazoaCnidariaMyxozoaThelohanelluskitauei</name>
+												</clade>
+											</clade>
+										</clade>
+										<clade>
+												<name>node_47</name>
+											<clade>
+													<name>MetazoaPlacozoaEP00114TrichoplaxspH2</name>
+											</clade>
+											<clade>
+													<name>MetazoaPlacozoaHoilungiahongkongensis</name>
+											</clade>
+										</clade>
+									</clade>
+									<clade>
+											<name>node_48</name>
+										<clade>
+												<name>MetazoaCtenophoraMnemiopsisleidyi</name>
+										</clade>
+										<clade>
+												<name>MetazoaCtenophoraPleurobrachiabachei</name>
+										</clade>
+									</clade>
+								</clade>
+								<clade>
+										<name>node_49</name>
+									<clade>
+											<name>node_50</name>
+										<clade>
+												<name>node_51</name>
+											<clade>
+													<name>node_52</name>
+												<clade>
+														<name>MetazoaPoriferaLeucosoleniacomplicata</name>
+												</clade>
+												<clade>
+														<name>MetazoaPoriferaSyconciliatum</name>
+												</clade>
+											</clade>
+											<clade>
+													<name>MetazoaPoriferaStylissacarteri</name>
+											</clade>
+										</clade>
+										<clade>
+												<name>MetazoaPoriferaEP00118Oscarellapearsei</name>
+										</clade>
+									</clade>
+									<clade>
+											<name>node_53</name>
+										<clade>
+												<name>node_54</name>
+											<clade>
+													<name>MetazoaPoriferaAmphimedonqueenslandica</name>
+											</clade>
+											<clade>
+													<name>MetazoaPoriferaHaliclonatubifera</name>
+											</clade>
+										</clade>
+										<clade>
+												<name>MetazoaPoriferaEphydatiamuelleri</name>
+										</clade>
+									</clade>
+								</clade>
+							</clade>
+							<clade>
+									<name>node_55</name>
+								<clade>
+										<name>node_56</name>
+									<clade>
+											<name>node_57</name>
+										<clade>
+												<name>node_58</name>
+											<clade>
+													<name>ChoanoflagellataEP00035Acanthoecaspectabilis</name>
+											</clade>
+											<clade>
+													<name>ChoanoflagellataEP00037Helgoecanana</name>
+											</clade>
+										</clade>
+										<clade>
+												<name>ChoanoflagellataEP00040Diaphanoecagrandis</name>
+										</clade>
+									</clade>
+									<clade>
+											<name>ChoanoflagellataEP00039Didymoecacostata</name>
+									</clade>
+								</clade>
+								<clade>
+										<name>node_59</name>
+									<clade>
+											<name>node_60</name>
+										<clade>
+												<name>ChoanoflagellataEP00045Choanoecaperplexa</name>
+										</clade>
+										<clade>
+												<name>ChoanoflagellateaMonosigabrevicollisUP000001357</name>
+										</clade>
+									</clade>
+									<clade>
+											<name>node_61</name>
+										<clade>
+												<name>ChoanoflagellataEP00047Mylnosigafluctuans</name>
+										</clade>
+										<clade>
+												<name>ChoanoflagellataEP00050Salpingoecakvevrii</name>
+										</clade>
+									</clade>
+								</clade>
+							</clade>
+						</clade>
+						<clade>
+								<name>node_62</name>
+							<clade>
+									<name>node_63</name>
+								<clade>
+										<name>node_64</name>
+									<clade>
+											<name>node_65</name>
+										<clade>
+												<name>IchthyosporeaEP00123Amoebidiumparasiticum</name>
+										</clade>
+										<clade>
+												<name>IchthyosporeaSphaeroformaarcticaUP000054560</name>
+										</clade>
+									</clade>
+									<clade>
+											<name>IchthyosporeaEP00126Sphaerothecumdestruens</name>
+									</clade>
+								</clade>
+								<clade>
+										<name>PluriformeaEP00127Corallochytriumlimacisporum</name>
+								</clade>
+							</clade>
+							<clade>
+									<name>FilastreaCapsasporaowczarzakiUP000008743</name>
+							</clade>
+						</clade>
+					</clade>
+					<clade>
+							<name>node_66</name>
+						<clade>
+								<name>node_67</name>
+							<clade>
+									<name>node_68</name>
+								<clade>
+										<name>node_69</name>
+									<clade>
+											<name>node_70</name>
+										<clade>
+												<name>FungiFusariumoxysporumUP000002489</name>
+										</clade>
+										<clade>
+												<name>FungiSaccharomycescerevisiaeUP000002311</name>
+										</clade>
+									</clade>
+									<clade>
+											<name>FungiEP00150Ustilagomaydis</name>
+									</clade>
+								</clade>
+								<clade>
+										<name>node_71</name>
+									<clade>
+											<name>FungiMortierellaelongataUP000078512</name>
+									</clade>
+									<clade>
+											<name>FungiRhizopusmicrosporusUP000242254</name>
+									</clade>
+								</clade>
+							</clade>
+							<clade>
+									<name>FungiSpizellomycespunctatusUP000053201</name>
+							</clade>
+						</clade>
+						<clade>
+								<name>node_72</name>
+							<clade>
+									<name>RotosphaeridaEP00160Parvulariaatlantis</name>
+							</clade>
+							<clade>
+									<name>RotosphaeridaFonticulaalbaUP000030693</name>
+							</clade>
+						</clade>
+					</clade>
+				</clade>
+				<clade>
+						<name>node_73</name>
+					<clade>
+							<name>ApusomonadidaThecamonastrahensUP000054408</name>
+					</clade>
+					<clade>
+							<name>BreviataEP00033Pygsuiabiforma</name>
+					</clade>
+				</clade>
+			</clade>
+			<clade>
+					<name>node_74</name>
+				<clade>
+						<name>node_75</name>
+					<clade>
+							<name>AmoebozoaDictyosteliumdiscoideumUP000002195</name>
+					</clade>
+					<clade>
+							<name>AmoebozoaEP00029Vermamoebavermiformis</name>
+					</clade>
+				</clade>
+				<clade>
+						<name>AmoebozoaEP00007CuneaspBSH02190019</name>
+				</clade>
+			</clade>
+		</clade>
+		<clade>
+				<name>node_76</name>
+			<clade>
+					<name>node_77</name>
+				<clade>
+						<name>CollodictyonidaeEP00002Diphylleiarotans</name>
+				</clade>
+				<clade>
+						<name>RigifilidaEP00004Rigifilaramosa</name>
+				</clade>
+			</clade>
+			<clade>
+					<name>MalawimonadidaeEP00698Gefionellaokellyi</name>
+			</clade>
+		</clade>
+	</clade>
+	<clade>
+			<name>node_78</name>
+		<clade>
+				<name>node_79</name>
+			<clade>
+					<name>node_80</name>
+				<clade>
+						<name>node_81</name>
+					<clade>
+							<name>node_82</name>
+						<clade>
+								<name>node_83</name>
+							<clade>
+									<name>node_84</name>
+								<clade>
+										<name>ChloroplastidaArabidopsisthalianaUP000006548</name>
+								</clade>
+								<clade>
+										<name>ChloroplastidaEP00248Marchantiapolymorpha</name>
+								</clade>
+							</clade>
+							<clade>
+									<name>node_85</name>
+								<clade>
+										<name>ChloroplastidaChlamydomonasreinhardtiiUP000006906</name>
+								</clade>
+								<clade>
+										<name>ChloroplastidaEP00738Chloropiconprimus</name>
+								</clade>
+							</clade>
+						</clade>
+						<clade>
+								<name>GlaucophytaEP00276Gloeochaetewittrockiana</name>
+						</clade>
+					</clade>
+					<clade>
+							<name>node_86</name>
+						<clade>
+								<name>node_87</name>
+							<clade>
+									<name>RhodophytaEP00185Porphyridiumpurpureum</name>
+							</clade>
+							<clade>
+									<name>RhodophytaGaldieriasulphurariaUP000030680</name>
+							</clade>
+						</clade>
+						<clade>
+								<name>RhodelphisEP00736Rhodelphismarinus</name>
+						</clade>
+					</clade>
+				</clade>
+				<clade>
+						<name>node_88</name>
+					<clade>
+							<name>node_89</name>
+						<clade>
+								<name>node_90</name>
+							<clade>
+									<name>HaptophytaEP00327Prymnesiumparvum</name>
+							</clade>
+							<clade>
+									<name>HaptophytaEP00319Phaeocystisglobosa</name>
+							</clade>
+						</clade>
+						<clade>
+								<name>CentroplasthelidaEP00300ChoanocystisspHF7</name>
+						</clade>
+					</clade>
+					<clade>
+							<name>node_91</name>
+						<clade>
+								<name>CryptophyceaeEP00290BaffinellaspCCMP2293</name>
+						</clade>
+						<clade>
+								<name>CryptophyceaeGuillardiathetaUP000011087</name>
+						</clade>
+					</clade>
+				</clade>
+			</clade>
+			<clade>
+					<name>node_92</name>
+				<clade>
+						<name>node_93</name>
+					<clade>
+							<name>node_94</name>
+						<clade>
+								<name>node_95</name>
+							<clade>
+									<name>StramenopilesEP00652Aphanomycesastaci</name>
+							</clade>
+							<clade>
+									<name>StramenopilesPhytophthorainfestansUP000006643</name>
+							</clade>
+						</clade>
+						<clade>
+								<name>RhizariaEP00473Plasmodiophorabrassicae</name>
+						</clade>
+					</clade>
+					<clade>
+							<name>node_96</name>
+						<clade>
+								<name>AlveolataEP00742ColponemidiaspColp10</name>
+						</clade>
+						<clade>
+								<name>AlveolataEP00333Tetrahymenathermophila</name>
+						</clade>
+					</clade>
+				</clade>
+				<clade>
+						<name>TelonemiaP00656Telonemasubtile</name>
+				</clade>
+			</clade>
+		</clade>
+		<clade>
+				<name>node_97</name>
+			<clade>
+					<name>node_98</name>
+				<clade>
+						<name>EuglenozoaEP00668Euglenalonga</name>
+				</clade>
+				<clade>
+						<name>HeteroloboseaEP00761Pharyngomonaskirbyi</name>
+				</clade>
+			</clade>
+			<clade>
+					<name>JakobidaEP00762Andaluciagodoyi</name>
+			</clade>
+		</clade>
+	</clade>
+</clade>
+</phylogeny>
+</spTree>
+<recGeneTree>
+<phylogeny rooted="true">
+<clade>
+	<name>NULL</name>
+	<eventsRec>
+		<duplication speciesLocation="node_99"/>
+	</eventsRec>
+	<clade>
+		<name>64</name>
+		<eventsRec>
+			<speciation speciesLocation="node_99"/>
+		</eventsRec>
+		<clade>
+			<name>87</name>
+			<eventsRec>
+				<speciation speciesLocation="node_0"/>
+			</eventsRec>
+				<clade>
+				<name>loss</name>
+				<eventsRec>
+					<loss speciesLocation="node_76"/>
+				</eventsRec>
+			</clade>
+			<clade>
+				<name>87</name>
+				<eventsRec>
+					<speciation speciesLocation="node_1"/>
+				</eventsRec>
+					<clade>
+					<name>loss</name>
+					<eventsRec>
+						<loss speciesLocation="node_74"/>
+					</eventsRec>
+				</clade>
+				<clade>
+					<name>87</name>
+					<eventsRec>
+						<speciation speciesLocation="node_2"/>
+					</eventsRec>
+						<clade>
+						<name>loss</name>
+						<eventsRec>
+							<loss speciesLocation="node_73"/>
+						</eventsRec>
+					</clade>
+					<clade>
+						<name>87</name>
+						<eventsRec>
+							<speciation speciesLocation="node_3"/>
+						</eventsRec>
+							<clade>
+							<name>loss</name>
+							<eventsRec>
+								<loss speciesLocation="node_66"/>
+							</eventsRec>
+						</clade>
+						<clade>
+							<name>87</name>
+							<eventsRec>
+								<speciation speciesLocation="node_4"/>
+							</eventsRec>
+								<clade>
+								<name>loss</name>
+								<eventsRec>
+									<loss speciesLocation="node_62"/>
+								</eventsRec>
+							</clade>
+							<clade>
+								<name>87</name>
+								<eventsRec>
+									<speciation speciesLocation="node_5"/>
+								</eventsRec>
+									<clade>
+									<name>loss</name>
+									<eventsRec>
+										<loss speciesLocation="node_55"/>
+									</eventsRec>
+								</clade>
+								<clade>
+									<name>87</name>
+									<eventsRec>
+										<duplication speciesLocation="node_6"/>
+									</eventsRec>
+									<clade>
+										<name>53</name>
+										<eventsRec>
+											<duplication speciesLocation="node_6"/>
+										</eventsRec>
+										<clade>
+											<name>100</name>
+											<eventsRec>
+												<speciation speciesLocation="node_6"/>
+											</eventsRec>
+												<clade>
+												<name>loss</name>
+												<eventsRec>
+													<loss speciesLocation="node_7"/>
+												</eventsRec>
+											</clade>
+											<clade>
+												<name>100</name>
+												<eventsRec>
+													<speciation speciesLocation="node_49"/>
+												</eventsRec>
+												<clade>
+													<name>MetazoaPoriferaHaliclonatubifera_4958144__LRAT2_HUMAN_Protein_LRATD2_OS_</name>
+													<eventsRec>
+														<speciation speciesLocation="node_53"/>
+													</eventsRec>
+														<clade>
+														<name>loss</name>
+														<eventsRec>
+															<loss speciesLocation="MetazoaPoriferaEphydatiamuelleri"/>
+														</eventsRec>
+													</clade>
+													<clade>
+														<name>MetazoaPoriferaHaliclonatubifera_4958144__LRAT2_HUMAN_Protein_LRATD2_OS_</name>
+														<eventsRec>
+															<speciation speciesLocation="node_54"/>
+														</eventsRec>
+															<clade>
+															<name>loss</name>
+															<eventsRec>
+																<loss speciesLocation="MetazoaPoriferaAmphimedonqueenslandica"/>
+															</eventsRec>
+														</clade>
+														<clade>
+															<name>MetazoaPoriferaHaliclonatubifera_4958144__LRAT2_HUMAN_Protein_LRATD2_OS_</name>
+															<eventsRec>
+																<leaf speciesLocation="MetazoaPoriferaHaliclonatubifera"/>
+															</eventsRec>
+														</clade>
+													</clade>
+												</clade>
+												<clade>
+													<name>MetazoaPoriferaStylissacarteri_5098842__PLAT1_HUMAN_Phospholipase_A_and_acyltransferase_1_OS_</name>
+													<eventsRec>
+														<speciation speciesLocation="node_50"/>
+													</eventsRec>
+														<clade>
+														<name>loss</name>
+														<eventsRec>
+															<loss speciesLocation="MetazoaPoriferaEP00118Oscarellapearsei"/>
+														</eventsRec>
+													</clade>
+													<clade>
+														<name>MetazoaPoriferaStylissacarteri_5098842__PLAT1_HUMAN_Phospholipase_A_and_acyltransferase_1_OS_</name>
+														<eventsRec>
+															<speciation speciesLocation="node_51"/>
+														</eventsRec>
+															<clade>
+															<name>loss</name>
+															<eventsRec>
+																<loss speciesLocation="node_52"/>
+															</eventsRec>
+														</clade>
+														<clade>
+															<name>MetazoaPoriferaStylissacarteri_5098842__PLAT1_HUMAN_Phospholipase_A_and_acyltransferase_1_OS_</name>
+															<eventsRec>
+																<leaf speciesLocation="MetazoaPoriferaStylissacarteri"/>
+															</eventsRec>
+														</clade>
+													</clade>
+												</clade>
+											</clade>
+										</clade>
+										<clade>
+											<name>75</name>
+											<eventsRec>
+												<duplication speciesLocation="node_6"/>
+											</eventsRec>
+											<clade>
+												<name>60</name>
+												<eventsRec>
+													<duplication speciesLocation="node_6"/>
+												</eventsRec>
+												<clade>
+													<name>21</name>
+													<eventsRec>
+														<duplication speciesLocation="node_6"/>
+													</eventsRec>
+													<clade>
+														<name>100</name>
+														<eventsRec>
+															<speciation speciesLocation="node_6"/>
+														</eventsRec>
+														<clade>
+															<name>MetazoaCnidariaClytiahemisphaerica_3096585__PLAT4_HUMAN_Phospholipase_A_and_acyltransferase_4_OS_</name>
+															<eventsRec>
+																<speciation speciesLocation="node_7"/>
+															</eventsRec>
+																<clade>
+																<name>loss</name>
+																<eventsRec>
+																	<loss speciesLocation="node_48"/>
+																</eventsRec>
+															</clade>
+															<clade>
+																<name>MetazoaCnidariaClytiahemisphaerica_3096585__PLAT4_HUMAN_Phospholipase_A_and_acyltransferase_4_OS_</name>
+																<eventsRec>
+																	<speciation speciesLocation="node_8"/>
+																</eventsRec>
+																	<clade>
+																	<name>loss</name>
+																	<eventsRec>
+																		<loss speciesLocation="node_47"/>
+																	</eventsRec>
+																</clade>
+																<clade>
+																	<name>MetazoaCnidariaClytiahemisphaerica_3096585__PLAT4_HUMAN_Phospholipase_A_and_acyltransferase_4_OS_</name>
+																	<eventsRec>
+																		<speciation speciesLocation="node_9"/>
+																	</eventsRec>
+																		<clade>
+																		<name>loss</name>
+																		<eventsRec>
+																			<loss speciesLocation="node_10"/>
+																		</eventsRec>
+																	</clade>
+																	<clade>
+																		<name>MetazoaCnidariaClytiahemisphaerica_3096585__PLAT4_HUMAN_Phospholipase_A_and_acyltransferase_4_OS_</name>
+																		<eventsRec>
+																			<speciation speciesLocation="node_34"/>
+																		</eventsRec>
+																			<clade>
+																			<name>loss</name>
+																			<eventsRec>
+																				<loss speciesLocation="MetazoaCnidariaMyxozoaThelohanelluskitauei"/>
+																			</eventsRec>
+																		</clade>
+																		<clade>
+																			<name>MetazoaCnidariaClytiahemisphaerica_3096585__PLAT4_HUMAN_Phospholipase_A_and_acyltransferase_4_OS_</name>
+																			<eventsRec>
+																				<speciation speciesLocation="node_35"/>
+																			</eventsRec>
+																				<clade>
+																				<name>loss</name>
+																				<eventsRec>
+																					<loss speciesLocation="node_36"/>
+																				</eventsRec>
+																			</clade>
+																			<clade>
+																				<name>MetazoaCnidariaClytiahemisphaerica_3096585__PLAT4_HUMAN_Phospholipase_A_and_acyltransferase_4_OS_</name>
+																				<eventsRec>
+																					<speciation speciesLocation="node_45"/>
+																				</eventsRec>
+																					<clade>
+																					<name>loss</name>
+																					<eventsRec>
+																						<loss speciesLocation="MetazoaCnidariaAureliaGenome"/>
+																					</eventsRec>
+																				</clade>
+																				<clade>
+																					<name>MetazoaCnidariaClytiahemisphaerica_3096585__PLAT4_HUMAN_Phospholipase_A_and_acyltransferase_4_OS_</name>
+																					<eventsRec>
+																						<speciation speciesLocation="node_46"/>
+																					</eventsRec>
+																						<clade>
+																						<name>loss</name>
+																						<eventsRec>
+																							<loss speciesLocation="MetazoaCnidariaHydramagnapapillata"/>
+																						</eventsRec>
+																					</clade>
+																					<clade>
+																						<name>MetazoaCnidariaClytiahemisphaerica_3096585__PLAT4_HUMAN_Phospholipase_A_and_acyltransferase_4_OS_</name>
+																						<eventsRec>
+																							<leaf speciesLocation="MetazoaCnidariaClytiahemisphaerica"/>
+																						</eventsRec>
+																					</clade>
+																				</clade>
+																			</clade>
+																		</clade>
+																	</clade>
+																</clade>
+															</clade>
+														</clade>
+														<clade>
+															<name>MetazoaPoriferaLeucosoleniacomplicata_5045739__PLAT2_HUMAN_Phospholipase_A_and_acyltransferase_2_OS_</name>
+															<eventsRec>
+																<speciation speciesLocation="node_49"/>
+															</eventsRec>
+																<clade>
+																<name>loss</name>
+																<eventsRec>
+																	<loss speciesLocation="node_53"/>
+																</eventsRec>
+															</clade>
+															<clade>
+																<name>MetazoaPoriferaLeucosoleniacomplicata_5045739__PLAT2_HUMAN_Phospholipase_A_and_acyltransferase_2_OS_</name>
+																<eventsRec>
+																	<speciation speciesLocation="node_50"/>
+																</eventsRec>
+																	<clade>
+																	<name>loss</name>
+																	<eventsRec>
+																		<loss speciesLocation="MetazoaPoriferaEP00118Oscarellapearsei"/>
+																	</eventsRec>
+																</clade>
+																<clade>
+																	<name>MetazoaPoriferaLeucosoleniacomplicata_5045739__PLAT2_HUMAN_Phospholipase_A_and_acyltransferase_2_OS_</name>
+																	<eventsRec>
+																		<speciation speciesLocation="node_51"/>
+																	</eventsRec>
+																		<clade>
+																		<name>loss</name>
+																		<eventsRec>
+																			<loss speciesLocation="MetazoaPoriferaStylissacarteri"/>
+																		</eventsRec>
+																	</clade>
+																	<clade>
+																		<name>MetazoaPoriferaLeucosoleniacomplicata_5045739__PLAT2_HUMAN_Phospholipase_A_and_acyltransferase_2_OS_</name>
+																		<eventsRec>
+																			<speciation speciesLocation="node_52"/>
+																		</eventsRec>
+																			<clade>
+																			<name>loss</name>
+																			<eventsRec>
+																				<loss speciesLocation="MetazoaPoriferaSyconciliatum"/>
+																			</eventsRec>
+																		</clade>
+																		<clade>
+																			<name>MetazoaPoriferaLeucosoleniacomplicata_5045739__PLAT2_HUMAN_Phospholipase_A_and_acyltransferase_2_OS_</name>
+																			<eventsRec>
+																				<leaf speciesLocation="MetazoaPoriferaLeucosoleniacomplicata"/>
+																			</eventsRec>
+																		</clade>
+																	</clade>
+																</clade>
+															</clade>
+														</clade>
+													</clade>
+													<clade>
+														<name>13</name>
+														<eventsRec>
+															<speciation speciesLocation="node_6"/>
+														</eventsRec>
+															<clade>
+															<name>loss</name>
+															<eventsRec>
+																<loss speciesLocation="node_49"/>
+															</eventsRec>
+														</clade>
+														<clade>
+															<name>13</name>
+															<eventsRec>
+																<speciation speciesLocation="node_7"/>
+															</eventsRec>
+																<clade>
+																<name>loss</name>
+																<eventsRec>
+																	<loss speciesLocation="node_48"/>
+																</eventsRec>
+															</clade>
+															<clade>
+																<name>13</name>
+																<eventsRec>
+																	<speciation speciesLocation="node_8"/>
+																</eventsRec>
+																	<clade>
+																	<name>loss</name>
+																	<eventsRec>
+																		<loss speciesLocation="node_47"/>
+																	</eventsRec>
+																</clade>
+																<clade>
+																	<name>13</name>
+																	<eventsRec>
+																		<speciation speciesLocation="node_9"/>
+																	</eventsRec>
+																		<clade>
+																		<name>loss</name>
+																		<eventsRec>
+																			<loss speciesLocation="node_34"/>
+																		</eventsRec>
+																	</clade>
+																	<clade>
+																		<name>13</name>
+																		<eventsRec>
+																			<speciation speciesLocation="node_10"/>
+																		</eventsRec>
+																		<clade>
+																			<name>70</name>
+																			<eventsRec>
+																				<speciation speciesLocation="node_25"/>
+																			</eventsRec>
+																			<clade>
+																				<name>63</name>
+																				<eventsRec>
+																					<speciation speciesLocation="node_32"/>
+																				</eventsRec>
+																					<clade>
+																					<name>loss</name>
+																					<eventsRec>
+																						<loss speciesLocation="node_33"/>
+																					</eventsRec>
+																				</clade>
+																				<clade>
+																					<name>63</name>
+																					<eventsRec>
+																						<duplication speciesLocation="MetazoaHemichordataSaccoglossuskowalevskii"/>
+																					</eventsRec>
+																					<clade>
+																						<name>MetazoaHemichordataSaccoglossuskowalevskii_4069108__LRAT2_HUMAN_Protein_LRATD2_OS_</name>
+																						<eventsRec>
+																							<leaf speciesLocation="MetazoaHemichordataSaccoglossuskowalevskii"/>
+																						</eventsRec>
+																					</clade>
+																					<clade>
+																						<name>MetazoaHemichordataSaccoglossuskowalevskii_4059982__PLAT3_RAT_Phospholipase_A_and_acyltransferase_3_OS_</name>
+																						<eventsRec>
+																							<leaf speciesLocation="MetazoaHemichordataSaccoglossuskowalevskii"/>
+																						</eventsRec>
+																					</clade>
+																				</clade>
+																			</clade>
+																			<clade>
+																				<name>78</name>
+																				<eventsRec>
+																					<speciation speciesLocation="node_26"/>
+																				</eventsRec>
+																					<clade>
+																					<name>loss</name>
+																					<eventsRec>
+																						<loss speciesLocation="MetazoaCephalochordataBranchiostomabelcheri"/>
+																					</eventsRec>
+																				</clade>
+																				<clade>
+																					<name>78</name>
+																					<eventsRec>
+																						<speciation speciesLocation="node_27"/>
+																					</eventsRec>
+																						<clade>
+																						<name>loss</name>
+																						<eventsRec>
+																							<loss speciesLocation="node_31"/>
+																						</eventsRec>
+																					</clade>
+																					<clade>
+																						<name>78</name>
+																						<eventsRec>
+																							<speciation speciesLocation="node_28"/>
+																						</eventsRec>
+																						<clade>
+																							<name>MetazoaVertebrateEptatretusburgeri_6409487__PLAT3_RAT_Phospholipase_A_and_acyltransferase_3_OS_</name>
+																							<eventsRec>
+																								<leaf speciesLocation="MetazoaVertebrateEptatretusburgeri"/>
+																							</eventsRec>
+																						</clade>
+																						<clade>
+																							<name>100</name>
+																							<eventsRec>
+																								<speciation speciesLocation="node_29"/>
+																							</eventsRec>
+																								<clade>
+																								<name>loss</name>
+																								<eventsRec>
+																									<loss speciesLocation="node_30"/>
+																								</eventsRec>
+																							</clade>
+																							<clade>
+																								<name>100</name>
+																								<eventsRec>
+																									<duplication speciesLocation="MetazoaVertebrateDaniorerio"/>
+																								</eventsRec>
+																								<clade>
+																									<name>MetazoaVertebrateDaniorerio_5420356__PLAT2_HUMAN_Phospholipase_A_and_acyltransferase_2_OS_</name>
+																									<eventsRec>
+																										<leaf speciesLocation="MetazoaVertebrateDaniorerio"/>
+																									</eventsRec>
+																								</clade>
+																								<clade>
+																									<name>MetazoaVertebrateDaniorerio_5420357__PLAT4_HUMAN_Phospholipase_A_and_acyltransferase_4_OS_</name>
+																									<eventsRec>
+																										<leaf speciesLocation="MetazoaVertebrateDaniorerio"/>
+																									</eventsRec>
+																								</clade>
+																							</clade>
+																						</clade>
+																					</clade>
+																				</clade>
+																			</clade>
+																		</clade>
+																		<clade>
+																			<name>44</name>
+																			<eventsRec>
+																				<speciation speciesLocation="node_11"/>
+																			</eventsRec>
+																				<clade>
+																				<name>loss</name>
+																				<eventsRec>
+																					<loss speciesLocation="node_12"/>
+																				</eventsRec>
+																			</clade>
+																			<clade>
+																				<name>44</name>
+																				<eventsRec>
+																					<speciation speciesLocation="node_19"/>
+																				</eventsRec>
+																					<clade>
+																					<name>loss</name>
+																					<eventsRec>
+																						<loss speciesLocation="node_20"/>
+																					</eventsRec>
+																				</clade>
+																				<clade>
+																					<name>44</name>
+																					<eventsRec>
+																						<speciation speciesLocation="node_23"/>
+																					</eventsRec>
+																					<clade>
+																						<name>MetazoaArthropodaDaphniapulex_214295__PLAT2_HUMAN_Phospholipase_A_and_acyltransferase_2_OS_</name>
+																						<eventsRec>
+																							<speciation speciesLocation="node_24"/>
+																						</eventsRec>
+																							<clade>
+																							<name>loss</name>
+																							<eventsRec>
+																								<loss speciesLocation="MetazoaArthropodaDrosophilamelanogaster"/>
+																							</eventsRec>
+																						</clade>
+																						<clade>
+																							<name>MetazoaArthropodaDaphniapulex_214295__PLAT2_HUMAN_Phospholipase_A_and_acyltransferase_2_OS_</name>
+																							<eventsRec>
+																								<leaf speciesLocation="MetazoaArthropodaDaphniapulex"/>
+																							</eventsRec>
+																						</clade>
+																					</clade>
+																					<clade>
+																						<name>MetazoaArthropodaEP00090Calanusglacialis_678642__PLAT1_HUMAN_Phospholipase_A_and_acyltransferase_1_OS_</name>
+																						<eventsRec>
+																							<leaf speciesLocation="MetazoaArthropodaEP00090Calanusglacialis"/>
+																						</eventsRec>
+																					</clade>
+																				</clade>
+																			</clade>
+																		</clade>
+																	</clade>
+																</clade>
+															</clade>
+														</clade>
+													</clade>
+												</clade>
+												<clade>
+													<name>10</name>
+													<eventsRec>
+														<duplication speciesLocation="node_6"/>
+													</eventsRec>
+													<clade>
+														<name>43</name>
+														<eventsRec>
+															<speciation speciesLocation="node_6"/>
+														</eventsRec>
+														<clade>
+															<name>19</name>
+															<eventsRec>
+																<speciation speciesLocation="node_7"/>
+															</eventsRec>
+																<clade>
+																<name>loss</name>
+																<eventsRec>
+																	<loss speciesLocation="node_48"/>
+																</eventsRec>
+															</clade>
+															<clade>
+																<name>19</name>
+																<eventsRec>
+																	<speciation speciesLocation="node_8"/>
+																</eventsRec>
+																	<clade>
+																	<name>loss</name>
+																	<eventsRec>
+																		<loss speciesLocation="node_47"/>
+																	</eventsRec>
+																</clade>
+																<clade>
+																	<name>19</name>
+																	<eventsRec>
+																		<duplication speciesLocation="node_9"/>
+																	</eventsRec>
+																	<clade>
+																		<name>64</name>
+																		<eventsRec>
+																			<speciation speciesLocation="node_9"/>
+																		</eventsRec>
+																		<clade>
+																			<name>MetazoaHemichordataSaccoglossuskowalevskii_4048805__PLAT3_RAT_Phospholipase_A_and_acyltransferase_3_OS_</name>
+																			<eventsRec>
+																				<speciation speciesLocation="node_10"/>
+																			</eventsRec>
+																				<clade>
+																				<name>loss</name>
+																				<eventsRec>
+																					<loss speciesLocation="node_11"/>
+																				</eventsRec>
+																			</clade>
+																			<clade>
+																				<name>MetazoaHemichordataSaccoglossuskowalevskii_4048805__PLAT3_RAT_Phospholipase_A_and_acyltransferase_3_OS_</name>
+																				<eventsRec>
+																					<speciation speciesLocation="node_25"/>
+																				</eventsRec>
+																					<clade>
+																					<name>loss</name>
+																					<eventsRec>
+																						<loss speciesLocation="node_26"/>
+																					</eventsRec>
+																				</clade>
+																				<clade>
+																					<name>MetazoaHemichordataSaccoglossuskowalevskii_4048805__PLAT3_RAT_Phospholipase_A_and_acyltransferase_3_OS_</name>
+																					<eventsRec>
+																						<speciation speciesLocation="node_32"/>
+																					</eventsRec>
+																						<clade>
+																						<name>loss</name>
+																						<eventsRec>
+																							<loss speciesLocation="node_33"/>
+																						</eventsRec>
+																					</clade>
+																					<clade>
+																						<name>MetazoaHemichordataSaccoglossuskowalevskii_4048805__PLAT3_RAT_Phospholipase_A_and_acyltransferase_3_OS_</name>
+																						<eventsRec>
+																							<leaf speciesLocation="MetazoaHemichordataSaccoglossuskowalevskii"/>
+																						</eventsRec>
+																					</clade>
+																				</clade>
+																			</clade>
+																		</clade>
+																		<clade>
+																			<name>100</name>
+																			<eventsRec>
+																				<speciation speciesLocation="node_34"/>
+																			</eventsRec>
+																				<clade>
+																				<name>loss</name>
+																				<eventsRec>
+																					<loss speciesLocation="MetazoaCnidariaMyxozoaThelohanelluskitauei"/>
+																				</eventsRec>
+																			</clade>
+																			<clade>
+																				<name>100</name>
+																				<eventsRec>
+																					<speciation speciesLocation="node_35"/>
+																				</eventsRec>
+																					<clade>
+																					<name>loss</name>
+																					<eventsRec>
+																						<loss speciesLocation="node_45"/>
+																					</eventsRec>
+																				</clade>
+																				<clade>
+																					<name>100</name>
+																					<eventsRec>
+																						<speciation speciesLocation="node_36"/>
+																					</eventsRec>
+																						<clade>
+																						<name>loss</name>
+																						<eventsRec>
+																							<loss speciesLocation="MetazoaCnidariaGorgoniaventalina"/>
+																						</eventsRec>
+																					</clade>
+																					<clade>
+																						<name>100</name>
+																						<eventsRec>
+																							<duplication speciesLocation="node_37"/>
+																						</eventsRec>
+																						<clade>
+																							<name>99</name>
+																							<eventsRec>
+																								<speciation speciesLocation="node_37"/>
+																							</eventsRec>
+																							<clade>
+																								<name>93</name>
+																								<eventsRec>
+																									<speciation speciesLocation="node_44"/>
+																								</eventsRec>
+																									<clade>
+																									<name>loss</name>
+																									<eventsRec>
+																										<loss speciesLocation="MetazoaCnidariaNematostellavectensis"/>
+																									</eventsRec>
+																								</clade>
+																								<clade>
+																									<name>93</name>
+																									<eventsRec>
+																										<duplication speciesLocation="MetazoaCnidariaAnthopleuraelegantissima"/>
+																									</eventsRec>
+																									<clade>
+																										<name>MetazoaCnidariaAnthopleuraelegantissima_3005818__PLAT3_MOUSE_Phospholipase_A_and_acyltransferase_3_OS_</name>
+																										<eventsRec>
+																											<leaf speciesLocation="MetazoaCnidariaAnthopleuraelegantissima"/>
+																										</eventsRec>
+																									</clade>
+																									<clade>
+																										<name>MetazoaCnidariaAnthopleuraelegantissima_2997299__PLAT3_RAT_Phospholipase_A_and_acyltransferase_3_OS_</name>
+																										<eventsRec>
+																											<leaf speciesLocation="MetazoaCnidariaAnthopleuraelegantissima"/>
+																										</eventsRec>
+																									</clade>
+																								</clade>
+																							</clade>
+																							<clade>
+																								<name>MetazoaCnidariaStylophorapistillata_3678277__PLAT3_RAT_Phospholipase_A_and_acyltransferase_3_OS_</name>
+																								<eventsRec>
+																									<speciation speciesLocation="node_38"/>
+																								</eventsRec>
+																									<clade>
+																									<name>loss</name>
+																									<eventsRec>
+																										<loss speciesLocation="node_42"/>
+																									</eventsRec>
+																								</clade>
+																								<clade>
+																									<name>MetazoaCnidariaStylophorapistillata_3678277__PLAT3_RAT_Phospholipase_A_and_acyltransferase_3_OS_</name>
+																									<eventsRec>
+																										<speciation speciesLocation="node_39"/>
+																									</eventsRec>
+																										<clade>
+																										<name>loss</name>
+																										<eventsRec>
+																											<loss speciesLocation="node_40"/>
+																										</eventsRec>
+																									</clade>
+																									<clade>
+																										<name>MetazoaCnidariaStylophorapistillata_3678277__PLAT3_RAT_Phospholipase_A_and_acyltransferase_3_OS_</name>
+																										<eventsRec>
+																											<speciation speciesLocation="node_41"/>
+																										</eventsRec>
+																											<clade>
+																											<name>loss</name>
+																											<eventsRec>
+																												<loss speciesLocation="MetazoaCnidariaMadracisauretenra"/>
+																											</eventsRec>
+																										</clade>
+																										<clade>
+																											<name>MetazoaCnidariaStylophorapistillata_3678277__PLAT3_RAT_Phospholipase_A_and_acyltransferase_3_OS_</name>
+																											<eventsRec>
+																												<leaf speciesLocation="MetazoaCnidariaStylophorapistillata"/>
+																											</eventsRec>
+																										</clade>
+																									</clade>
+																								</clade>
+																							</clade>
+																						</clade>
+																						<clade>
+																							<name>100</name>
+																							<eventsRec>
+																								<speciation speciesLocation="node_37"/>
+																							</eventsRec>
+																								<clade>
+																								<name>loss</name>
+																								<eventsRec>
+																									<loss speciesLocation="node_38"/>
+																								</eventsRec>
+																							</clade>
+																							<clade>
+																								<name>100</name>
+																								<eventsRec>
+																									<speciation speciesLocation="node_44"/>
+																								</eventsRec>
+																									<clade>
+																									<name>loss</name>
+																									<eventsRec>
+																										<loss speciesLocation="MetazoaCnidariaNematostellavectensis"/>
+																									</eventsRec>
+																								</clade>
+																								<clade>
+																									<name>100</name>
+																									<eventsRec>
+																										<duplication speciesLocation="MetazoaCnidariaAnthopleuraelegantissima"/>
+																									</eventsRec>
+																									<clade>
+																										<name>MetazoaCnidariaAnthopleuraelegantissima_2998386__PLAT1_RAT_Phospholipase_A_and_acyltransferase_1_OS_</name>
+																										<eventsRec>
+																											<leaf speciesLocation="MetazoaCnidariaAnthopleuraelegantissima"/>
+																										</eventsRec>
+																									</clade>
+																									<clade>
+																										<name>MetazoaCnidariaAnthopleuraelegantissima_3005089__PLAT3_HUMAN_Phospholipase_A_and_acyltransferase_3_OS_</name>
+																										<eventsRec>
+																											<leaf speciesLocation="MetazoaCnidariaAnthopleuraelegantissima"/>
+																										</eventsRec>
+																									</clade>
+																								</clade>
+																							</clade>
+																						</clade>
+																					</clade>
+																				</clade>
+																			</clade>
+																		</clade>
+																	</clade>
+																	<clade>
+																		<name>39</name>
+																		<eventsRec>
+																			<speciation speciesLocation="node_9"/>
+																		</eventsRec>
+																			<clade>
+																			<name>loss</name>
+																			<eventsRec>
+																				<loss speciesLocation="node_34"/>
+																			</eventsRec>
+																		</clade>
+																		<clade>
+																			<name>39</name>
+																			<eventsRec>
+																				<speciation speciesLocation="node_10"/>
+																			</eventsRec>
+																			<clade>
+																				<name>23</name>
+																				<eventsRec>
+																					<speciation speciesLocation="node_25"/>
+																				</eventsRec>
+																					<clade>
+																					<name>loss</name>
+																					<eventsRec>
+																						<loss speciesLocation="node_32"/>
+																					</eventsRec>
+																				</clade>
+																				<clade>
+																					<name>23</name>
+																					<eventsRec>
+																						<speciation speciesLocation="node_26"/>
+																					</eventsRec>
+																						<clade>
+																						<name>loss</name>
+																						<eventsRec>
+																							<loss speciesLocation="MetazoaCephalochordataBranchiostomabelcheri"/>
+																						</eventsRec>
+																					</clade>
+																					<clade>
+																						<name>23</name>
+																						<eventsRec>
+																							<speciation speciesLocation="node_27"/>
+																						</eventsRec>
+																							<clade>
+																							<name>loss</name>
+																							<eventsRec>
+																								<loss speciesLocation="node_31"/>
+																							</eventsRec>
+																						</clade>
+																						<clade>
+																							<name>23</name>
+																							<eventsRec>
+																								<duplication speciesLocation="node_28"/>
+																							</eventsRec>
+																							<clade>
+																								<name>100</name>
+																								<eventsRec>
+																									<speciation speciesLocation="node_28"/>
+																								</eventsRec>
+																								<clade>
+																									<name>41</name>
+																									<eventsRec>
+																										<duplication speciesLocation="node_29"/>
+																									</eventsRec>
+																									<clade>
+																										<name>100</name>
+																										<eventsRec>
+																											<speciation speciesLocation="node_29"/>
+																										</eventsRec>
+																											<clade>
+																											<name>loss</name>
+																											<eventsRec>
+																												<loss speciesLocation="node_30"/>
+																											</eventsRec>
+																										</clade>
+																										<clade>
+																											<name>100</name>
+																											<eventsRec>
+																												<duplication speciesLocation="MetazoaVertebrateDaniorerio"/>
+																											</eventsRec>
+																											<clade>
+																												<name>MetazoaVertebrateDaniorerio_5435836__LRAT_BOVIN_Lecithin_retinol_acyltransferase_OS_</name>
+																												<eventsRec>
+																													<leaf speciesLocation="MetazoaVertebrateDaniorerio"/>
+																												</eventsRec>
+																											</clade>
+																											<clade>
+																												<name>MetazoaVertebrateDaniorerio_5416499__LRAT_MOUSE_Lecithin_retinol_acyltransferase_OS_</name>
+																												<eventsRec>
+																													<leaf speciesLocation="MetazoaVertebrateDaniorerio"/>
+																												</eventsRec>
+																											</clade>
+																										</clade>
+																									</clade>
+																									<clade>
+																										<name>75</name>
+																										<eventsRec>
+																											<duplication speciesLocation="node_29"/>
+																										</eventsRec>
+																										<clade>
+																											<name>72</name>
+																											<eventsRec>
+																												<speciation speciesLocation="node_29"/>
+																											</eventsRec>
+																											<clade>
+																												<name>100</name>
+																												<eventsRec>
+																													<speciation speciesLocation="node_30"/>
+																												</eventsRec>
+																												<clade>
+																													<name>MetazoaVertebrateMusmusculus_6547546__LRAT_MOUSE_Lecithin_retinol_acyltransferase_OS_</name>
+																													<eventsRec>
+																														<leaf speciesLocation="MetazoaVertebrateMusmusculus"/>
+																													</eventsRec>
+																												</clade>
+																												<clade>
+																													<name>MetazoaVertebrateHomosapiens_6453389__LRAT_HUMAN_Lecithin_retinol_acyltransferase_OS_</name>
+																													<eventsRec>
+																														<leaf speciesLocation="MetazoaVertebrateHomosapiens"/>
+																													</eventsRec>
+																												</clade>
+																											</clade>
+																											<clade>
+																												<name>MetazoaVertebrateDaniorerio_5425012__LRAT_BOVIN_Lecithin_retinol_acyltransferase_OS_</name>
+																												<eventsRec>
+																													<leaf speciesLocation="MetazoaVertebrateDaniorerio"/>
+																												</eventsRec>
+																											</clade>
+																										</clade>
+																										<clade>
+																											<name>MetazoaVertebrateDaniorerio_5415241__LRAT_BOVIN_Lecithin_retinol_acyltransferase_OS_</name>
+																											<eventsRec>
+																												<speciation speciesLocation="node_29"/>
+																											</eventsRec>
+																												<clade>
+																												<name>loss</name>
+																												<eventsRec>
+																													<loss speciesLocation="node_30"/>
+																												</eventsRec>
+																											</clade>
+																											<clade>
+																												<name>MetazoaVertebrateDaniorerio_5415241__LRAT_BOVIN_Lecithin_retinol_acyltransferase_OS_</name>
+																												<eventsRec>
+																													<leaf speciesLocation="MetazoaVertebrateDaniorerio"/>
+																												</eventsRec>
+																											</clade>
+																										</clade>
+																									</clade>
+																								</clade>
+																								<clade>
+																									<name>MetazoaVertebrateEptatretusburgeri_6407140__LRAT_BOVIN_Lecithin_retinol_acyltransferase_OS_</name>
+																									<eventsRec>
+																										<leaf speciesLocation="MetazoaVertebrateEptatretusburgeri"/>
+																									</eventsRec>
+																								</clade>
+																							</clade>
+																							<clade>
+																								<name>MetazoaVertebrateDaniorerio_5420912__PLAT1_RAT_Phospholipase_A_and_acyltransferase_1_OS_</name>
+																								<eventsRec>
+																									<speciation speciesLocation="node_28"/>
+																								</eventsRec>
+																									<clade>
+																									<name>loss</name>
+																									<eventsRec>
+																										<loss speciesLocation="MetazoaVertebrateEptatretusburgeri"/>
+																									</eventsRec>
+																								</clade>
+																								<clade>
+																									<name>MetazoaVertebrateDaniorerio_5420912__PLAT1_RAT_Phospholipase_A_and_acyltransferase_1_OS_</name>
+																									<eventsRec>
+																										<speciation speciesLocation="node_29"/>
+																									</eventsRec>
+																										<clade>
+																										<name>loss</name>
+																										<eventsRec>
+																											<loss speciesLocation="node_30"/>
+																										</eventsRec>
+																									</clade>
+																									<clade>
+																										<name>MetazoaVertebrateDaniorerio_5420912__PLAT1_RAT_Phospholipase_A_and_acyltransferase_1_OS_</name>
+																										<eventsRec>
+																											<leaf speciesLocation="MetazoaVertebrateDaniorerio"/>
+																										</eventsRec>
+																									</clade>
+																								</clade>
+																							</clade>
+																						</clade>
+																					</clade>
+																				</clade>
+																			</clade>
+																			<clade>
+																				<name>MetazoaNematodaLoaloa_4406313__F172A_CAEEL_FAM172_family_protein_homolog_Y75B8A.31_OS_</name>
+																				<eventsRec>
+																					<speciation speciesLocation="node_11"/>
+																				</eventsRec>
+																					<clade>
+																					<name>loss</name>
+																					<eventsRec>
+																						<loss speciesLocation="node_12"/>
+																					</eventsRec>
+																				</clade>
+																				<clade>
+																					<name>MetazoaNematodaLoaloa_4406313__F172A_CAEEL_FAM172_family_protein_homolog_Y75B8A.31_OS_</name>
+																					<eventsRec>
+																						<speciation speciesLocation="node_19"/>
+																					</eventsRec>
+																						<clade>
+																						<name>loss</name>
+																						<eventsRec>
+																							<loss speciesLocation="node_23"/>
+																						</eventsRec>
+																					</clade>
+																					<clade>
+																						<name>MetazoaNematodaLoaloa_4406313__F172A_CAEEL_FAM172_family_protein_homolog_Y75B8A.31_OS_</name>
+																						<eventsRec>
+																							<speciation speciesLocation="node_20"/>
+																						</eventsRec>
+																							<clade>
+																							<name>loss</name>
+																							<eventsRec>
+																								<loss speciesLocation="node_22"/>
+																							</eventsRec>
+																						</clade>
+																						<clade>
+																							<name>MetazoaNematodaLoaloa_4406313__F172A_CAEEL_FAM172_family_protein_homolog_Y75B8A.31_OS_</name>
+																							<eventsRec>
+																								<speciation speciesLocation="node_21"/>
+																							</eventsRec>
+																								<clade>
+																								<name>loss</name>
+																								<eventsRec>
+																									<loss speciesLocation="MetazoaNematodaCaenorhabditiselegans"/>
+																								</eventsRec>
+																							</clade>
+																							<clade>
+																								<name>MetazoaNematodaLoaloa_4406313__F172A_CAEEL_FAM172_family_protein_homolog_Y75B8A.31_OS_</name>
+																								<eventsRec>
+																									<leaf speciesLocation="MetazoaNematodaLoaloa"/>
+																								</eventsRec>
+																							</clade>
+																						</clade>
+																					</clade>
+																				</clade>
+																			</clade>
+																		</clade>
+																	</clade>
+																</clade>
+															</clade>
+														</clade>
+														<clade>
+															<name>100</name>
+															<eventsRec>
+																<speciation speciesLocation="node_49"/>
+															</eventsRec>
+																<clade>
+																<name>loss</name>
+																<eventsRec>
+																	<loss speciesLocation="node_53"/>
+																</eventsRec>
+															</clade>
+															<clade>
+																<name>100</name>
+																<eventsRec>
+																	<speciation speciesLocation="node_50"/>
+																</eventsRec>
+																	<clade>
+																	<name>loss</name>
+																	<eventsRec>
+																		<loss speciesLocation="MetazoaPoriferaEP00118Oscarellapearsei"/>
+																	</eventsRec>
+																</clade>
+																<clade>
+																	<name>100</name>
+																	<eventsRec>
+																		<speciation speciesLocation="node_51"/>
+																	</eventsRec>
+																		<clade>
+																		<name>loss</name>
+																		<eventsRec>
+																			<loss speciesLocation="MetazoaPoriferaStylissacarteri"/>
+																		</eventsRec>
+																	</clade>
+																	<clade>
+																		<name>100</name>
+																		<eventsRec>
+																			<speciation speciesLocation="node_52"/>
+																		</eventsRec>
+																		<clade>
+																			<name>MetazoaPoriferaSyconciliatum_5143426__PLAT1_MOUSE_Phospholipase_A_and_acyltransferase_1_OS_</name>
+																			<eventsRec>
+																				<leaf speciesLocation="MetazoaPoriferaSyconciliatum"/>
+																			</eventsRec>
+																		</clade>
+																		<clade>
+																			<name>100</name>
+																			<eventsRec>
+																				<duplication speciesLocation="MetazoaPoriferaLeucosoleniacomplicata"/>
+																			</eventsRec>
+																			<clade>
+																				<name>MetazoaPoriferaLeucosoleniacomplicata_4984178__PLAT1_MOUSE_Phospholipase_A_and_acyltransferase_1_OS_</name>
+																				<eventsRec>
+																					<leaf speciesLocation="MetazoaPoriferaLeucosoleniacomplicata"/>
+																				</eventsRec>
+																			</clade>
+																			<clade>
+																				<name>MetazoaPoriferaLeucosoleniacomplicata_5035242__PLAT1_MOUSE_Phospholipase_A_and_acyltransferase_1_OS_</name>
+																				<eventsRec>
+																					<leaf speciesLocation="MetazoaPoriferaLeucosoleniacomplicata"/>
+																				</eventsRec>
+																			</clade>
+																		</clade>
+																	</clade>
+																</clade>
+															</clade>
+														</clade>
+													</clade>
+													<clade>
+														<name>77</name>
+														<eventsRec>
+															<speciation speciesLocation="node_6"/>
+														</eventsRec>
+														<clade>
+															<name>58</name>
+															<eventsRec>
+																<speciation speciesLocation="node_7"/>
+															</eventsRec>
+																<clade>
+																<name>loss</name>
+																<eventsRec>
+																	<loss speciesLocation="node_48"/>
+																</eventsRec>
+															</clade>
+															<clade>
+																<name>58</name>
+																<eventsRec>
+																	<speciation speciesLocation="node_8"/>
+																</eventsRec>
+																	<clade>
+																	<name>loss</name>
+																	<eventsRec>
+																		<loss speciesLocation="node_47"/>
+																	</eventsRec>
+																</clade>
+																<clade>
+																	<name>58</name>
+																	<eventsRec>
+																		<speciation speciesLocation="node_9"/>
+																	</eventsRec>
+																		<clade>
+																		<name>loss</name>
+																		<eventsRec>
+																			<loss speciesLocation="node_34"/>
+																		</eventsRec>
+																	</clade>
+																	<clade>
+																		<name>58</name>
+																		<eventsRec>
+																			<speciation speciesLocation="node_10"/>
+																		</eventsRec>
+																		<clade>
+																			<name>79</name>
+																			<eventsRec>
+																				<speciation speciesLocation="node_25"/>
+																			</eventsRec>
+																			<clade>
+																				<name>93</name>
+																				<eventsRec>
+																					<speciation speciesLocation="node_26"/>
+																				</eventsRec>
+																					<clade>
+																					<name>loss</name>
+																					<eventsRec>
+																						<loss speciesLocation="node_27"/>
+																					</eventsRec>
+																				</clade>
+																				<clade>
+																					<name>93</name>
+																					<eventsRec>
+																						<duplication speciesLocation="MetazoaCephalochordataBranchiostomabelcheri"/>
+																					</eventsRec>
+																					<clade>
+																						<name>75</name>
+																						<eventsRec>
+																							<duplication speciesLocation="MetazoaCephalochordataBranchiostomabelcheri"/>
+																						</eventsRec>
+																						<clade>
+																							<name>MetazoaCephalochordataBranchiostomabelcheri_2795997__PLAT1_RAT_Phospholipase_A_and_acyltransferase_1_OS_</name>
+																							<eventsRec>
+																								<leaf speciesLocation="MetazoaCephalochordataBranchiostomabelcheri"/>
+																							</eventsRec>
+																						</clade>
+																						<clade>
+																							<name>MetazoaCephalochordataBranchiostomabelcheri_2796139__PLAT1_MOUSE_Phospholipase_A_and_acyltransferase_1_OS_</name>
+																							<eventsRec>
+																								<leaf speciesLocation="MetazoaCephalochordataBranchiostomabelcheri"/>
+																							</eventsRec>
+																						</clade>
+																					</clade>
+																					<clade>
+																						<name>69</name>
+																						<eventsRec>
+																							<duplication speciesLocation="MetazoaCephalochordataBranchiostomabelcheri"/>
+																						</eventsRec>
+																						<clade>
+																							<name>MetazoaCephalochordataBranchiostomabelcheri_2796045__PLAT3_RAT_Phospholipase_A_and_acyltransferase_3_OS_</name>
+																							<eventsRec>
+																								<leaf speciesLocation="MetazoaCephalochordataBranchiostomabelcheri"/>
+																							</eventsRec>
+																						</clade>
+																						<clade>
+																							<name>98</name>
+																							<eventsRec>
+																								<duplication speciesLocation="MetazoaCephalochordataBranchiostomabelcheri"/>
+																							</eventsRec>
+																							<clade>
+																								<name>MetazoaCephalochordataBranchiostomabelcheri_2796061__PLAT1_HUMAN_Phospholipase_A_and_acyltransferase_1_OS_</name>
+																								<eventsRec>
+																									<leaf speciesLocation="MetazoaCephalochordataBranchiostomabelcheri"/>
+																								</eventsRec>
+																							</clade>
+																							<clade>
+																								<name>100</name>
+																								<eventsRec>
+																									<duplication speciesLocation="MetazoaCephalochordataBranchiostomabelcheri"/>
+																								</eventsRec>
+																								<clade>
+																									<name>MetazoaCephalochordataBranchiostomabelcheri_2799601__PLAT3_RAT_Phospholipase_A_and_acyltransferase_3_OS_</name>
+																									<eventsRec>
+																										<leaf speciesLocation="MetazoaCephalochordataBranchiostomabelcheri"/>
+																									</eventsRec>
+																								</clade>
+																								<clade>
+																									<name>MetazoaCephalochordataBranchiostomabelcheri_2799602__PLAT3_RAT_Phospholipase_A_and_acyltransferase_3_OS_</name>
+																									<eventsRec>
+																										<leaf speciesLocation="MetazoaCephalochordataBranchiostomabelcheri"/>
+																									</eventsRec>
+																								</clade>
+																							</clade>
+																						</clade>
+																					</clade>
+																				</clade>
+																			</clade>
+																			<clade>
+																				<name>100</name>
+																				<eventsRec>
+																					<speciation speciesLocation="node_32"/>
+																				</eventsRec>
+																					<clade>
+																					<name>loss</name>
+																					<eventsRec>
+																						<loss speciesLocation="node_33"/>
+																					</eventsRec>
+																				</clade>
+																				<clade>
+																					<name>100</name>
+																					<eventsRec>
+																						<duplication speciesLocation="MetazoaHemichordataSaccoglossuskowalevskii"/>
+																					</eventsRec>
+																					<clade>
+																						<name>MetazoaHemichordataSaccoglossuskowalevskii_4057012__PLAT3_RAT_Phospholipase_A_and_acyltransferase_3_OS_</name>
+																						<eventsRec>
+																							<leaf speciesLocation="MetazoaHemichordataSaccoglossuskowalevskii"/>
+																						</eventsRec>
+																					</clade>
+																					<clade>
+																						<name>MetazoaHemichordataSaccoglossuskowalevskii_4062344__PLAT3_RAT_Phospholipase_A_and_acyltransferase_3_OS_</name>
+																						<eventsRec>
+																							<leaf speciesLocation="MetazoaHemichordataSaccoglossuskowalevskii"/>
+																						</eventsRec>
+																					</clade>
+																				</clade>
+																			</clade>
+																		</clade>
+																		<clade>
+																			<name>94</name>
+																			<eventsRec>
+																				<speciation speciesLocation="node_11"/>
+																			</eventsRec>
+																			<clade>
+																				<name>MetazoaRotiferaBrachionusplicatilis_5253929__PLAT3_RAT_Phospholipase_A_and_acyltransferase_3_OS_</name>
+																				<eventsRec>
+																					<speciation speciesLocation="node_19"/>
+																				</eventsRec>
+																					<clade>
+																					<name>loss</name>
+																					<eventsRec>
+																						<loss speciesLocation="node_23"/>
+																					</eventsRec>
+																				</clade>
+																				<clade>
+																					<name>MetazoaRotiferaBrachionusplicatilis_5253929__PLAT3_RAT_Phospholipase_A_and_acyltransferase_3_OS_</name>
+																					<eventsRec>
+																						<speciation speciesLocation="node_20"/>
+																					</eventsRec>
+																						<clade>
+																						<name>loss</name>
+																						<eventsRec>
+																							<loss speciesLocation="node_21"/>
+																						</eventsRec>
+																					</clade>
+																					<clade>
+																						<name>MetazoaRotiferaBrachionusplicatilis_5253929__PLAT3_RAT_Phospholipase_A_and_acyltransferase_3_OS_</name>
+																						<eventsRec>
+																							<speciation speciesLocation="node_22"/>
+																						</eventsRec>
+																							<clade>
+																							<name>loss</name>
+																							<eventsRec>
+																								<loss speciesLocation="MetazoaTardigradaRamazzotiusvarieornatus"/>
+																							</eventsRec>
+																						</clade>
+																						<clade>
+																							<name>MetazoaRotiferaBrachionusplicatilis_5253929__PLAT3_RAT_Phospholipase_A_and_acyltransferase_3_OS_</name>
+																							<eventsRec>
+																								<leaf speciesLocation="MetazoaRotiferaBrachionusplicatilis"/>
+																							</eventsRec>
+																						</clade>
+																					</clade>
+																				</clade>
+																			</clade>
+																			<clade>
+																				<name>94</name>
+																				<eventsRec>
+																					<speciation speciesLocation="node_12"/>
+																				</eventsRec>
+																					<clade>
+																					<name>loss</name>
+																					<eventsRec>
+																						<loss speciesLocation="node_18"/>
+																					</eventsRec>
+																				</clade>
+																				<clade>
+																					<name>94</name>
+																					<eventsRec>
+																						<speciation speciesLocation="node_13"/>
+																					</eventsRec>
+																						<clade>
+																						<name>loss</name>
+																						<eventsRec>
+																							<loss speciesLocation="MetazoaBryozoaBugulaneritina"/>
+																						</eventsRec>
+																					</clade>
+																					<clade>
+																						<name>94</name>
+																						<eventsRec>
+																							<speciation speciesLocation="node_14"/>
+																						</eventsRec>
+																							<clade>
+																							<name>loss</name>
+																							<eventsRec>
+																								<loss speciesLocation="node_17"/>
+																							</eventsRec>
+																						</clade>
+																						<clade>
+																							<name>94</name>
+																							<eventsRec>
+																								<speciation speciesLocation="node_15"/>
+																							</eventsRec>
+																							<clade>
+																								<name>MetazoaMolluscaLottiagigantea_4204378__PLAT3_MOUSE_Phospholipase_A_and_acyltransferase_3_OS_</name>
+																								<eventsRec>
+																									<speciation speciesLocation="node_16"/>
+																								</eventsRec>
+																									<clade>
+																									<name>loss</name>
+																									<eventsRec>
+																										<loss speciesLocation="MetazoaMolluscaEP00106Octopusbimaculoides"/>
+																									</eventsRec>
+																								</clade>
+																								<clade>
+																									<name>MetazoaMolluscaLottiagigantea_4204378__PLAT3_MOUSE_Phospholipase_A_and_acyltransferase_3_OS_</name>
+																									<eventsRec>
+																										<leaf speciesLocation="MetazoaMolluscaLottiagigantea"/>
+																									</eventsRec>
+																								</clade>
+																							</clade>
+																							<clade>
+																								<name>92</name>
+																								<eventsRec>
+																									<duplication speciesLocation="MetazoaBrachiopodaLingulaunguis"/>
+																								</eventsRec>
+																								<clade>
+																									<name>99</name>
+																									<eventsRec>
+																										<duplication speciesLocation="MetazoaBrachiopodaLingulaunguis"/>
+																									</eventsRec>
+																									<clade>
+																										<name>MetazoaBrachiopodaLingulaunguis_1298288__PLAT3_HUMAN_Phospholipase_A_and_acyltransferase_3_OS_</name>
+																										<eventsRec>
+																											<leaf speciesLocation="MetazoaBrachiopodaLingulaunguis"/>
+																										</eventsRec>
+																									</clade>
+																									<clade>
+																										<name>MetazoaBrachiopodaLingulaunguis_1302550__PLAT1_HUMAN_Phospholipase_A_and_acyltransferase_1_OS_</name>
+																										<eventsRec>
+																											<leaf speciesLocation="MetazoaBrachiopodaLingulaunguis"/>
+																										</eventsRec>
+																									</clade>
+																								</clade>
+																								<clade>
+																									<name>99</name>
+																									<eventsRec>
+																										<duplication speciesLocation="MetazoaBrachiopodaLingulaunguis"/>
+																									</eventsRec>
+																									<clade>
+																										<name>MetazoaBrachiopodaLingulaunguis_1299417__PLAT3_HUMAN_Phospholipase_A_and_acyltransferase_3_OS_</name>
+																										<eventsRec>
+																											<leaf speciesLocation="MetazoaBrachiopodaLingulaunguis"/>
+																										</eventsRec>
+																									</clade>
+																									<clade>
+																										<name>MetazoaBrachiopodaLingulaunguis_1283932__PLAT3_HUMAN_Phospholipase_A_and_acyltransferase_3_OS_</name>
+																										<eventsRec>
+																											<leaf speciesLocation="MetazoaBrachiopodaLingulaunguis"/>
+																										</eventsRec>
+																									</clade>
+																								</clade>
+																							</clade>
+																						</clade>
+																					</clade>
+																				</clade>
+																			</clade>
+																		</clade>
+																	</clade>
+																</clade>
+															</clade>
+														</clade>
+														<clade>
+															<name>MetazoaPoriferaLeucosoleniacomplicata_4975009__PLAT3_HUMAN_Phospholipase_A_and_acyltransferase_3_OS_</name>
+															<eventsRec>
+																<speciation speciesLocation="node_49"/>
+															</eventsRec>
+																<clade>
+																<name>loss</name>
+																<eventsRec>
+																	<loss speciesLocation="node_53"/>
+																</eventsRec>
+															</clade>
+															<clade>
+																<name>MetazoaPoriferaLeucosoleniacomplicata_4975009__PLAT3_HUMAN_Phospholipase_A_and_acyltransferase_3_OS_</name>
+																<eventsRec>
+																	<speciation speciesLocation="node_50"/>
+																</eventsRec>
+																	<clade>
+																	<name>loss</name>
+																	<eventsRec>
+																		<loss speciesLocation="MetazoaPoriferaEP00118Oscarellapearsei"/>
+																	</eventsRec>
+																</clade>
+																<clade>
+																	<name>MetazoaPoriferaLeucosoleniacomplicata_4975009__PLAT3_HUMAN_Phospholipase_A_and_acyltransferase_3_OS_</name>
+																	<eventsRec>
+																		<speciation speciesLocation="node_51"/>
+																	</eventsRec>
+																		<clade>
+																		<name>loss</name>
+																		<eventsRec>
+																			<loss speciesLocation="MetazoaPoriferaStylissacarteri"/>
+																		</eventsRec>
+																	</clade>
+																	<clade>
+																		<name>MetazoaPoriferaLeucosoleniacomplicata_4975009__PLAT3_HUMAN_Phospholipase_A_and_acyltransferase_3_OS_</name>
+																		<eventsRec>
+																			<speciation speciesLocation="node_52"/>
+																		</eventsRec>
+																			<clade>
+																			<name>loss</name>
+																			<eventsRec>
+																				<loss speciesLocation="MetazoaPoriferaSyconciliatum"/>
+																			</eventsRec>
+																		</clade>
+																		<clade>
+																			<name>MetazoaPoriferaLeucosoleniacomplicata_4975009__PLAT3_HUMAN_Phospholipase_A_and_acyltransferase_3_OS_</name>
+																			<eventsRec>
+																				<leaf speciesLocation="MetazoaPoriferaLeucosoleniacomplicata"/>
+																			</eventsRec>
+																		</clade>
+																	</clade>
+																</clade>
+															</clade>
+														</clade>
+													</clade>
+												</clade>
+											</clade>
+											<clade>
+												<name>54</name>
+												<eventsRec>
+													<speciation speciesLocation="node_6"/>
+												</eventsRec>
+													<clade>
+													<name>loss</name>
+													<eventsRec>
+														<loss speciesLocation="node_49"/>
+													</eventsRec>
+												</clade>
+												<clade>
+													<name>54</name>
+													<eventsRec>
+														<speciation speciesLocation="node_7"/>
+													</eventsRec>
+														<clade>
+														<name>loss</name>
+														<eventsRec>
+															<loss speciesLocation="node_48"/>
+														</eventsRec>
+													</clade>
+													<clade>
+														<name>54</name>
+														<eventsRec>
+															<speciation speciesLocation="node_8"/>
+														</eventsRec>
+															<clade>
+															<name>loss</name>
+															<eventsRec>
+																<loss speciesLocation="node_47"/>
+															</eventsRec>
+														</clade>
+														<clade>
+															<name>54</name>
+															<eventsRec>
+																<speciation speciesLocation="node_9"/>
+															</eventsRec>
+																<clade>
+																<name>loss</name>
+																<eventsRec>
+																	<loss speciesLocation="node_34"/>
+																</eventsRec>
+															</clade>
+															<clade>
+																<name>54</name>
+																<eventsRec>
+																	<duplication speciesLocation="node_10"/>
+																</eventsRec>
+																<clade>
+																	<name>26</name>
+																	<eventsRec>
+																		<speciation speciesLocation="node_10"/>
+																	</eventsRec>
+																	<clade>
+																		<name>99</name>
+																		<eventsRec>
+																			<speciation speciesLocation="node_11"/>
+																		</eventsRec>
+																		<clade>
+																			<name>99</name>
+																			<eventsRec>
+																				<speciation speciesLocation="node_12"/>
+																			</eventsRec>
+																				<clade>
+																				<name>loss</name>
+																				<eventsRec>
+																					<loss speciesLocation="node_18"/>
+																				</eventsRec>
+																			</clade>
+																			<clade>
+																				<name>99</name>
+																				<eventsRec>
+																					<speciation speciesLocation="node_13"/>
+																				</eventsRec>
+																					<clade>
+																					<name>loss</name>
+																					<eventsRec>
+																						<loss speciesLocation="MetazoaBryozoaBugulaneritina"/>
+																					</eventsRec>
+																				</clade>
+																				<clade>
+																					<name>99</name>
+																					<eventsRec>
+																						<speciation speciesLocation="node_14"/>
+																					</eventsRec>
+																						<clade>
+																						<name>loss</name>
+																						<eventsRec>
+																							<loss speciesLocation="node_17"/>
+																						</eventsRec>
+																					</clade>
+																					<clade>
+																						<name>99</name>
+																						<eventsRec>
+																							<speciation speciesLocation="node_15"/>
+																						</eventsRec>
+																							<clade>
+																							<name>loss</name>
+																							<eventsRec>
+																								<loss speciesLocation="MetazoaBrachiopodaLingulaunguis"/>
+																							</eventsRec>
+																						</clade>
+																						<clade>
+																							<name>99</name>
+																							<eventsRec>
+																								<speciation speciesLocation="node_16"/>
+																							</eventsRec>
+																							<clade>
+																								<name>MetazoaMolluscaEP00106Octopusbimaculoides_4156353__PLAT1_RAT_Phospholipase_A_and_acyltransferase_1_OS_</name>
+																								<eventsRec>
+																									<leaf speciesLocation="MetazoaMolluscaEP00106Octopusbimaculoides"/>
+																								</eventsRec>
+																							</clade>
+																							<clade>
+																								<name>MetazoaMolluscaLottiagigantea_4203388__PLAT3_RAT_Phospholipase_A_and_acyltransferase_3_OS_</name>
+																								<eventsRec>
+																									<leaf speciesLocation="MetazoaMolluscaLottiagigantea"/>
+																								</eventsRec>
+																							</clade>
+																						</clade>
+																					</clade>
+																				</clade>
+																			</clade>
+																		</clade>
+																		<clade>
+																			<name>MetazoaTardigradaRamazzotiusvarieornatus_5290952__PLAT3_MOUSE_Phospholipase_A_and_acyltransferase_3_OS_</name>
+																			<eventsRec>
+																				<speciation speciesLocation="node_19"/>
+																			</eventsRec>
+																				<clade>
+																				<name>loss</name>
+																				<eventsRec>
+																					<loss speciesLocation="node_23"/>
+																				</eventsRec>
+																			</clade>
+																			<clade>
+																				<name>MetazoaTardigradaRamazzotiusvarieornatus_5290952__PLAT3_MOUSE_Phospholipase_A_and_acyltransferase_3_OS_</name>
+																				<eventsRec>
+																					<speciation speciesLocation="node_20"/>
+																				</eventsRec>
+																					<clade>
+																					<name>loss</name>
+																					<eventsRec>
+																						<loss speciesLocation="node_21"/>
+																					</eventsRec>
+																				</clade>
+																				<clade>
+																					<name>MetazoaTardigradaRamazzotiusvarieornatus_5290952__PLAT3_MOUSE_Phospholipase_A_and_acyltransferase_3_OS_</name>
+																					<eventsRec>
+																						<speciation speciesLocation="node_22"/>
+																					</eventsRec>
+																						<clade>
+																						<name>loss</name>
+																						<eventsRec>
+																							<loss speciesLocation="MetazoaRotiferaBrachionusplicatilis"/>
+																						</eventsRec>
+																					</clade>
+																					<clade>
+																						<name>MetazoaTardigradaRamazzotiusvarieornatus_5290952__PLAT3_MOUSE_Phospholipase_A_and_acyltransferase_3_OS_</name>
+																						<eventsRec>
+																							<leaf speciesLocation="MetazoaTardigradaRamazzotiusvarieornatus"/>
+																						</eventsRec>
+																					</clade>
+																				</clade>
+																			</clade>
+																		</clade>
+																	</clade>
+																	<clade>
+																		<name>100</name>
+																		<eventsRec>
+																			<speciation speciesLocation="node_25"/>
+																		</eventsRec>
+																			<clade>
+																			<name>loss</name>
+																			<eventsRec>
+																				<loss speciesLocation="node_26"/>
+																			</eventsRec>
+																		</clade>
+																		<clade>
+																			<name>100</name>
+																			<eventsRec>
+																				<speciation speciesLocation="node_32"/>
+																			</eventsRec>
+																				<clade>
+																				<name>loss</name>
+																				<eventsRec>
+																					<loss speciesLocation="MetazoaHemichordataSaccoglossuskowalevskii"/>
+																				</eventsRec>
+																			</clade>
+																			<clade>
+																				<name>100</name>
+																				<eventsRec>
+																					<speciation speciesLocation="node_33"/>
+																				</eventsRec>
+																					<clade>
+																					<name>loss</name>
+																					<eventsRec>
+																						<loss speciesLocation="MetazoaEchinodermataEP00057Strongylocentrotuspurpuratus"/>
+																					</eventsRec>
+																				</clade>
+																				<clade>
+																					<name>100</name>
+																					<eventsRec>
+																						<duplication speciesLocation="MetazoaEchinodermataAcanthasterplanci"/>
+																					</eventsRec>
+																					<clade>
+																						<name>83</name>
+																						<eventsRec>
+																							<duplication speciesLocation="MetazoaEchinodermataAcanthasterplanci"/>
+																						</eventsRec>
+																						<clade>
+																							<name>99</name>
+																							<eventsRec>
+																								<duplication speciesLocation="MetazoaEchinodermataAcanthasterplanci"/>
+																							</eventsRec>
+																							<clade>
+																								<name>99</name>
+																								<eventsRec>
+																									<duplication speciesLocation="MetazoaEchinodermataAcanthasterplanci"/>
+																								</eventsRec>
+																								<clade>
+																									<name>MetazoaEchinodermataAcanthasterplanci_3779535__PLAT3_RAT_Phospholipase_A_and_acyltransferase_3_OS_</name>
+																									<eventsRec>
+																										<leaf speciesLocation="MetazoaEchinodermataAcanthasterplanci"/>
+																									</eventsRec>
+																								</clade>
+																								<clade>
+																									<name>MetazoaEchinodermataAcanthasterplanci_3781807__PLAT4_HUMAN_Phospholipase_A_and_acyltransferase_4_OS_</name>
+																									<eventsRec>
+																										<leaf speciesLocation="MetazoaEchinodermataAcanthasterplanci"/>
+																									</eventsRec>
+																								</clade>
+																							</clade>
+																							<clade>
+																								<name>MetazoaEchinodermataAcanthasterplanci_3781729__PLAT3_RAT_Phospholipase_A_and_acyltransferase_3_OS_</name>
+																								<eventsRec>
+																									<leaf speciesLocation="MetazoaEchinodermataAcanthasterplanci"/>
+																								</eventsRec>
+																							</clade>
+																						</clade>
+																						<clade>
+																							<name>MetazoaEchinodermataAcanthasterplanci_3791876__PLAT1_HUMAN_Phospholipase_A_and_acyltransferase_1_OS_</name>
+																							<eventsRec>
+																								<leaf speciesLocation="MetazoaEchinodermataAcanthasterplanci"/>
+																							</eventsRec>
+																						</clade>
+																					</clade>
+																					<clade>
+																						<name>100</name>
+																						<eventsRec>
+																							<duplication speciesLocation="MetazoaEchinodermataAcanthasterplanci"/>
+																						</eventsRec>
+																						<clade>
+																							<name>MetazoaEchinodermataAcanthasterplanci_3781827__PLAT1_MOUSE_Phospholipase_A_and_acyltransferase_1_OS_</name>
+																							<eventsRec>
+																								<leaf speciesLocation="MetazoaEchinodermataAcanthasterplanci"/>
+																							</eventsRec>
+																						</clade>
+																						<clade>
+																							<name>MetazoaEchinodermataAcanthasterplanci_3782589__PLAT4_HUMAN_Phospholipase_A_and_acyltransferase_4_OS_</name>
+																							<eventsRec>
+																								<leaf speciesLocation="MetazoaEchinodermataAcanthasterplanci"/>
+																							</eventsRec>
+																						</clade>
+																					</clade>
+																				</clade>
+																			</clade>
+																		</clade>
+																	</clade>
+																</clade>
+																<clade>
+																	<name>76</name>
+																	<eventsRec>
+																		<speciation speciesLocation="node_10"/>
+																	</eventsRec>
+																	<clade>
+																		<name>MetazoaAcoelaHofsteniamiamia_16354__PLAT1_HUMAN_Phospholipase_A_and_acyltransferase_1_OS_</name>
+																		<eventsRec>
+																			<speciation speciesLocation="node_11"/>
+																		</eventsRec>
+																			<clade>
+																			<name>loss</name>
+																			<eventsRec>
+																				<loss speciesLocation="node_19"/>
+																			</eventsRec>
+																		</clade>
+																		<clade>
+																			<name>MetazoaAcoelaHofsteniamiamia_16354__PLAT1_HUMAN_Phospholipase_A_and_acyltransferase_1_OS_</name>
+																			<eventsRec>
+																				<speciation speciesLocation="node_12"/>
+																			</eventsRec>
+																				<clade>
+																				<name>loss</name>
+																				<eventsRec>
+																					<loss speciesLocation="node_13"/>
+																				</eventsRec>
+																			</clade>
+																			<clade>
+																				<name>MetazoaAcoelaHofsteniamiamia_16354__PLAT1_HUMAN_Phospholipase_A_and_acyltransferase_1_OS_</name>
+																				<eventsRec>
+																					<speciation speciesLocation="node_18"/>
+																				</eventsRec>
+																					<clade>
+																					<name>loss</name>
+																					<eventsRec>
+																						<loss speciesLocation="MetazoaPlatyhelminthesEchinococcusmultilocularis"/>
+																					</eventsRec>
+																				</clade>
+																				<clade>
+																					<name>MetazoaAcoelaHofsteniamiamia_16354__PLAT1_HUMAN_Phospholipase_A_and_acyltransferase_1_OS_</name>
+																					<eventsRec>
+																						<leaf speciesLocation="MetazoaAcoelaHofsteniamiamia"/>
+																					</eventsRec>
+																				</clade>
+																			</clade>
+																		</clade>
+																	</clade>
+																	<clade>
+																		<name>98</name>
+																		<eventsRec>
+																			<speciation speciesLocation="node_25"/>
+																		</eventsRec>
+																			<clade>
+																			<name>loss</name>
+																			<eventsRec>
+																				<loss speciesLocation="node_32"/>
+																			</eventsRec>
+																		</clade>
+																		<clade>
+																			<name>98</name>
+																			<eventsRec>
+																				<speciation speciesLocation="node_26"/>
+																			</eventsRec>
+																			<clade>
+																				<name>98</name>
+																				<eventsRec>
+																					<speciation speciesLocation="node_27"/>
+																				</eventsRec>
+																					<clade>
+																					<name>loss</name>
+																					<eventsRec>
+																						<loss speciesLocation="node_31"/>
+																					</eventsRec>
+																				</clade>
+																				<clade>
+																					<name>98</name>
+																					<eventsRec>
+																						<speciation speciesLocation="node_28"/>
+																					</eventsRec>
+																					<clade>
+																						<name>91</name>
+																						<eventsRec>
+																							<duplication speciesLocation="node_29"/>
+																						</eventsRec>
+																						<clade>
+																							<name>99</name>
+																							<eventsRec>
+																								<speciation speciesLocation="node_29"/>
+																							</eventsRec>
+																							<clade>
+																								<name>92</name>
+																								<eventsRec>
+																									<duplication speciesLocation="node_30"/>
+																								</eventsRec>
+																								<clade>
+																									<name>99</name>
+																									<eventsRec>
+																										<duplication speciesLocation="node_30"/>
+																									</eventsRec>
+																									<clade>
+																										<name>100</name>
+																										<eventsRec>
+																											<speciation speciesLocation="node_30"/>
+																										</eventsRec>
+																										<clade>
+																											<name>MetazoaVertebrateMusmusculus_6542956__PLAT3_MOUSE_Phospholipase_A_and_acyltransferase_3_OS_</name>
+																											<eventsRec>
+																												<leaf speciesLocation="MetazoaVertebrateMusmusculus"/>
+																											</eventsRec>
+																										</clade>
+																										<clade>
+																											<name>MetazoaVertebrateHomosapiens_6456871__PLAT3_HUMAN_Phospholipase_A_and_acyltransferase_3_OS_</name>
+																											<eventsRec>
+																												<leaf speciesLocation="MetazoaVertebrateHomosapiens"/>
+																											</eventsRec>
+																										</clade>
+																									</clade>
+																									<clade>
+																										<name>MetazoaVertebrateHomosapiens_6468958__PLAT2_HUMAN_Phospholipase_A_and_acyltransferase_2_OS_</name>
+																										<eventsRec>
+																											<speciation speciesLocation="node_30"/>
+																										</eventsRec>
+																											<clade>
+																											<name>loss</name>
+																											<eventsRec>
+																												<loss speciesLocation="MetazoaVertebrateMusmusculus"/>
+																											</eventsRec>
+																										</clade>
+																										<clade>
+																											<name>MetazoaVertebrateHomosapiens_6468958__PLAT2_HUMAN_Phospholipase_A_and_acyltransferase_2_OS_</name>
+																											<eventsRec>
+																												<leaf speciesLocation="MetazoaVertebrateHomosapiens"/>
+																											</eventsRec>
+																										</clade>
+																									</clade>
+																								</clade>
+																								<clade>
+																									<name>82</name>
+																									<eventsRec>
+																										<duplication speciesLocation="node_30"/>
+																									</eventsRec>
+																									<clade>
+																										<name>100</name>
+																										<eventsRec>
+																											<speciation speciesLocation="node_30"/>
+																										</eventsRec>
+																										<clade>
+																											<name>MetazoaVertebrateMusmusculus_6545226__PLAT5_MOUSE_Phospholipase_A_and_acyltransferase_5_OS_</name>
+																											<eventsRec>
+																												<leaf speciesLocation="MetazoaVertebrateMusmusculus"/>
+																											</eventsRec>
+																										</clade>
+																										<clade>
+																											<name>MetazoaVertebrateHomosapiens_6465905__PLAT5_HUMAN_Phospholipase_A_and_acyltransferase_5_OS_</name>
+																											<eventsRec>
+																												<leaf speciesLocation="MetazoaVertebrateHomosapiens"/>
+																											</eventsRec>
+																										</clade>
+																									</clade>
+																									<clade>
+																										<name>MetazoaVertebrateHomosapiens_6469942__PLAT4_HUMAN_Phospholipase_A_and_acyltransferase_4_OS_</name>
+																										<eventsRec>
+																											<speciation speciesLocation="node_30"/>
+																										</eventsRec>
+																											<clade>
+																											<name>loss</name>
+																											<eventsRec>
+																												<loss speciesLocation="MetazoaVertebrateMusmusculus"/>
+																											</eventsRec>
+																										</clade>
+																										<clade>
+																											<name>MetazoaVertebrateHomosapiens_6469942__PLAT4_HUMAN_Phospholipase_A_and_acyltransferase_4_OS_</name>
+																											<eventsRec>
+																												<leaf speciesLocation="MetazoaVertebrateHomosapiens"/>
+																											</eventsRec>
+																										</clade>
+																									</clade>
+																								</clade>
+																							</clade>
+																							<clade>
+																								<name>100</name>
+																								<eventsRec>
+																									<duplication speciesLocation="MetazoaVertebrateDaniorerio"/>
+																								</eventsRec>
+																								<clade>
+																									<name>MetazoaVertebrateDaniorerio_5433263__PLAT3_PONAB_Phospholipase_A_and_acyltransferase_3_OS_</name>
+																									<eventsRec>
+																										<leaf speciesLocation="MetazoaVertebrateDaniorerio"/>
+																									</eventsRec>
+																								</clade>
+																								<clade>
+																									<name>MetazoaVertebrateDaniorerio_5413327__PLAT3_PONAB_Phospholipase_A_and_acyltransferase_3_OS_</name>
+																									<eventsRec>
+																										<leaf speciesLocation="MetazoaVertebrateDaniorerio"/>
+																									</eventsRec>
+																								</clade>
+																							</clade>
+																						</clade>
+																						<clade>
+																							<name>100</name>
+																							<eventsRec>
+																								<speciation speciesLocation="node_29"/>
+																							</eventsRec>
+																							<clade>
+																								<name>100</name>
+																								<eventsRec>
+																									<speciation speciesLocation="node_30"/>
+																								</eventsRec>
+																								<clade>
+																									<name>MetazoaVertebrateMusmusculus_6548232__PLAT1_MOUSE_Phospholipase_A_and_acyltransferase_1_OS_</name>
+																									<eventsRec>
+																										<leaf speciesLocation="MetazoaVertebrateMusmusculus"/>
+																									</eventsRec>
+																								</clade>
+																								<clade>
+																									<name>MetazoaVertebrateHomosapiens_6468389__PLAT1_HUMAN_Phospholipase_A_and_acyltransferase_1_OS_</name>
+																									<eventsRec>
+																										<leaf speciesLocation="MetazoaVertebrateHomosapiens"/>
+																									</eventsRec>
+																								</clade>
+																							</clade>
+																							<clade>
+																								<name>MetazoaVertebrateDaniorerio_5414209__PLAT1_MOUSE_Phospholipase_A_and_acyltransferase_1_OS_</name>
+																								<eventsRec>
+																									<leaf speciesLocation="MetazoaVertebrateDaniorerio"/>
+																								</eventsRec>
+																							</clade>
+																						</clade>
+																					</clade>
+																					<clade>
+																						<name>100</name>
+																						<eventsRec>
+																							<duplication speciesLocation="MetazoaVertebrateEptatretusburgeri"/>
+																						</eventsRec>
+																						<clade>
+																							<name>MetazoaVertebrateEptatretusburgeri_6385209__PLAT1_RAT_Phospholipase_A_and_acyltransferase_1_OS_</name>
+																							<eventsRec>
+																								<leaf speciesLocation="MetazoaVertebrateEptatretusburgeri"/>
+																							</eventsRec>
+																						</clade>
+																						<clade>
+																							<name>MetazoaVertebrateEptatretusburgeri_6385211__PLAT1_MOUSE_Phospholipase_A_and_acyltransferase_1_OS_</name>
+																							<eventsRec>
+																								<leaf speciesLocation="MetazoaVertebrateEptatretusburgeri"/>
+																							</eventsRec>
+																						</clade>
+																					</clade>
+																				</clade>
+																			</clade>
+																			<clade>
+																				<name>MetazoaCephalochordataBranchiostomabelcheri_2827403__PLAT1_RAT_Phospholipase_A_and_acyltransferase_1_OS_</name>
+																				<eventsRec>
+																					<leaf speciesLocation="MetazoaCephalochordataBranchiostomabelcheri"/>
+																				</eventsRec>
+																			</clade>
+																		</clade>
+																	</clade>
+																</clade>
+															</clade>
+														</clade>
+													</clade>
+												</clade>
+											</clade>
+										</clade>
+									</clade>
+									<clade>
+										<name>81</name>
+										<eventsRec>
+											<speciation speciesLocation="node_6"/>
+										</eventsRec>
+										<clade>
+											<name>93</name>
+											<eventsRec>
+												<speciation speciesLocation="node_49"/>
+											</eventsRec>
+												<clade>
+												<name>loss</name>
+												<eventsRec>
+													<loss speciesLocation="node_53"/>
+												</eventsRec>
+											</clade>
+											<clade>
+												<name>93</name>
+												<eventsRec>
+													<speciation speciesLocation="node_50"/>
+												</eventsRec>
+													<clade>
+													<name>loss</name>
+													<eventsRec>
+														<loss speciesLocation="MetazoaPoriferaEP00118Oscarellapearsei"/>
+													</eventsRec>
+												</clade>
+												<clade>
+													<name>93</name>
+													<eventsRec>
+														<speciation speciesLocation="node_51"/>
+													</eventsRec>
+														<clade>
+														<name>loss</name>
+														<eventsRec>
+															<loss speciesLocation="MetazoaPoriferaStylissacarteri"/>
+														</eventsRec>
+													</clade>
+													<clade>
+														<name>93</name>
+														<eventsRec>
+															<duplication speciesLocation="node_52"/>
+														</eventsRec>
+														<clade>
+															<name>100</name>
+															<eventsRec>
+																<speciation speciesLocation="node_52"/>
+															</eventsRec>
+																<clade>
+																<name>loss</name>
+																<eventsRec>
+																	<loss speciesLocation="MetazoaPoriferaSyconciliatum"/>
+																</eventsRec>
+															</clade>
+															<clade>
+																<name>100</name>
+																<eventsRec>
+																	<duplication speciesLocation="MetazoaPoriferaLeucosoleniacomplicata"/>
+																</eventsRec>
+																<clade>
+																	<name>MetazoaPoriferaLeucosoleniacomplicata_5010111__PLAT3_PONAB_Phospholipase_A_and_acyltransferase_3_OS_</name>
+																	<eventsRec>
+																		<leaf speciesLocation="MetazoaPoriferaLeucosoleniacomplicata"/>
+																	</eventsRec>
+																</clade>
+																<clade>
+																	<name>MetazoaPoriferaLeucosoleniacomplicata_5042006__PLAT2_HUMAN_Phospholipase_A_and_acyltransferase_2_OS_</name>
+																	<eventsRec>
+																		<leaf speciesLocation="MetazoaPoriferaLeucosoleniacomplicata"/>
+																	</eventsRec>
+																</clade>
+															</clade>
+														</clade>
+														<clade>
+															<name>84</name>
+															<eventsRec>
+																<duplication speciesLocation="node_52"/>
+															</eventsRec>
+															<clade>
+																<name>100</name>
+																<eventsRec>
+																	<speciation speciesLocation="node_52"/>
+																</eventsRec>
+																<clade>
+																	<name>MetazoaPoriferaSyconciliatum_5138130__PLAT3_PONAB_Phospholipase_A_and_acyltransferase_3_OS_</name>
+																	<eventsRec>
+																		<leaf speciesLocation="MetazoaPoriferaSyconciliatum"/>
+																	</eventsRec>
+																</clade>
+																<clade>
+																	<name>MetazoaPoriferaLeucosoleniacomplicata_5052466__PLAT3_MOUSE_Phospholipase_A_and_acyltransferase_3_OS_</name>
+																	<eventsRec>
+																		<leaf speciesLocation="MetazoaPoriferaLeucosoleniacomplicata"/>
+																	</eventsRec>
+																</clade>
+															</clade>
+															<clade>
+																<name>100</name>
+																<eventsRec>
+																	<speciation speciesLocation="node_52"/>
+																</eventsRec>
+																<clade>
+																	<name>MetazoaPoriferaLeucosoleniacomplicata_5018539__PLAT2_HUMAN_Phospholipase_A_and_acyltransferase_2_OS_</name>
+																	<eventsRec>
+																		<leaf speciesLocation="MetazoaPoriferaLeucosoleniacomplicata"/>
+																	</eventsRec>
+																</clade>
+																<clade>
+																	<name>MetazoaPoriferaSyconciliatum_5104370__PLAT3_PONAB_Phospholipase_A_and_acyltransferase_3_OS_</name>
+																	<eventsRec>
+																		<leaf speciesLocation="MetazoaPoriferaSyconciliatum"/>
+																	</eventsRec>
+																</clade>
+															</clade>
+														</clade>
+													</clade>
+												</clade>
+											</clade>
+										</clade>
+										<clade>
+											<name>MetazoaMolluscaEP00106Octopusbimaculoides_4160369__PLAT2_HUMAN_Phospholipase_A_and_acyltransferase_2_OS_</name>
+											<eventsRec>
+												<speciation speciesLocation="node_7"/>
+											</eventsRec>
+												<clade>
+												<name>loss</name>
+												<eventsRec>
+													<loss speciesLocation="node_48"/>
+												</eventsRec>
+											</clade>
+											<clade>
+												<name>MetazoaMolluscaEP00106Octopusbimaculoides_4160369__PLAT2_HUMAN_Phospholipase_A_and_acyltransferase_2_OS_</name>
+												<eventsRec>
+													<speciation speciesLocation="node_8"/>
+												</eventsRec>
+													<clade>
+													<name>loss</name>
+													<eventsRec>
+														<loss speciesLocation="node_47"/>
+													</eventsRec>
+												</clade>
+												<clade>
+													<name>MetazoaMolluscaEP00106Octopusbimaculoides_4160369__PLAT2_HUMAN_Phospholipase_A_and_acyltransferase_2_OS_</name>
+													<eventsRec>
+														<speciation speciesLocation="node_9"/>
+													</eventsRec>
+														<clade>
+														<name>loss</name>
+														<eventsRec>
+															<loss speciesLocation="node_34"/>
+														</eventsRec>
+													</clade>
+													<clade>
+														<name>MetazoaMolluscaEP00106Octopusbimaculoides_4160369__PLAT2_HUMAN_Phospholipase_A_and_acyltransferase_2_OS_</name>
+														<eventsRec>
+															<speciation speciesLocation="node_10"/>
+														</eventsRec>
+															<clade>
+															<name>loss</name>
+															<eventsRec>
+																<loss speciesLocation="node_25"/>
+															</eventsRec>
+														</clade>
+														<clade>
+															<name>MetazoaMolluscaEP00106Octopusbimaculoides_4160369__PLAT2_HUMAN_Phospholipase_A_and_acyltransferase_2_OS_</name>
+															<eventsRec>
+																<speciation speciesLocation="node_11"/>
+															</eventsRec>
+																<clade>
+																<name>loss</name>
+																<eventsRec>
+																	<loss speciesLocation="node_19"/>
+																</eventsRec>
+															</clade>
+															<clade>
+																<name>MetazoaMolluscaEP00106Octopusbimaculoides_4160369__PLAT2_HUMAN_Phospholipase_A_and_acyltransferase_2_OS_</name>
+																<eventsRec>
+																	<speciation speciesLocation="node_12"/>
+																</eventsRec>
+																	<clade>
+																	<name>loss</name>
+																	<eventsRec>
+																		<loss speciesLocation="node_18"/>
+																	</eventsRec>
+																</clade>
+																<clade>
+																	<name>MetazoaMolluscaEP00106Octopusbimaculoides_4160369__PLAT2_HUMAN_Phospholipase_A_and_acyltransferase_2_OS_</name>
+																	<eventsRec>
+																		<speciation speciesLocation="node_13"/>
+																	</eventsRec>
+																		<clade>
+																		<name>loss</name>
+																		<eventsRec>
+																			<loss speciesLocation="MetazoaBryozoaBugulaneritina"/>
+																		</eventsRec>
+																	</clade>
+																	<clade>
+																		<name>MetazoaMolluscaEP00106Octopusbimaculoides_4160369__PLAT2_HUMAN_Phospholipase_A_and_acyltransferase_2_OS_</name>
+																		<eventsRec>
+																			<speciation speciesLocation="node_14"/>
+																		</eventsRec>
+																			<clade>
+																			<name>loss</name>
+																			<eventsRec>
+																				<loss speciesLocation="node_17"/>
+																			</eventsRec>
+																		</clade>
+																		<clade>
+																			<name>MetazoaMolluscaEP00106Octopusbimaculoides_4160369__PLAT2_HUMAN_Phospholipase_A_and_acyltransferase_2_OS_</name>
+																			<eventsRec>
+																				<speciation speciesLocation="node_15"/>
+																			</eventsRec>
+																				<clade>
+																				<name>loss</name>
+																				<eventsRec>
+																					<loss speciesLocation="MetazoaBrachiopodaLingulaunguis"/>
+																				</eventsRec>
+																			</clade>
+																			<clade>
+																				<name>MetazoaMolluscaEP00106Octopusbimaculoides_4160369__PLAT2_HUMAN_Phospholipase_A_and_acyltransferase_2_OS_</name>
+																				<eventsRec>
+																					<speciation speciesLocation="node_16"/>
+																				</eventsRec>
+																					<clade>
+																					<name>loss</name>
+																					<eventsRec>
+																						<loss speciesLocation="MetazoaMolluscaLottiagigantea"/>
+																					</eventsRec>
+																				</clade>
+																				<clade>
+																					<name>MetazoaMolluscaEP00106Octopusbimaculoides_4160369__PLAT2_HUMAN_Phospholipase_A_and_acyltransferase_2_OS_</name>
+																					<eventsRec>
+																						<leaf speciesLocation="MetazoaMolluscaEP00106Octopusbimaculoides"/>
+																					</eventsRec>
+																				</clade>
+																			</clade>
+																		</clade>
+																	</clade>
+																</clade>
+															</clade>
+														</clade>
+													</clade>
+												</clade>
+											</clade>
+										</clade>
+									</clade>
+								</clade>
+							</clade>
+						</clade>
+					</clade>
+				</clade>
+			</clade>
+		</clade>
+		<clade>
+			<name>StramenopilesPhytophthorainfestansUP000006643_26376550__LRAT_RAT_Lecithin_retinol_acyltransferase_OS_</name>
+			<eventsRec>
+				<speciation speciesLocation="node_78"/>
+			</eventsRec>
+				<clade>
+				<name>loss</name>
+				<eventsRec>
+					<loss speciesLocation="node_97"/>
+				</eventsRec>
+			</clade>
+			<clade>
+				<name>StramenopilesPhytophthorainfestansUP000006643_26376550__LRAT_RAT_Lecithin_retinol_acyltransferase_OS_</name>
+				<eventsRec>
+					<speciation speciesLocation="node_79"/>
+				</eventsRec>
+					<clade>
+					<name>loss</name>
+					<eventsRec>
+						<loss speciesLocation="node_80"/>
+					</eventsRec>
+				</clade>
+				<clade>
+					<name>StramenopilesPhytophthorainfestansUP000006643_26376550__LRAT_RAT_Lecithin_retinol_acyltransferase_OS_</name>
+					<eventsRec>
+						<speciation speciesLocation="node_92"/>
+					</eventsRec>
+						<clade>
+						<name>loss</name>
+						<eventsRec>
+							<loss speciesLocation="TelonemiaP00656Telonemasubtile"/>
+						</eventsRec>
+					</clade>
+					<clade>
+						<name>StramenopilesPhytophthorainfestansUP000006643_26376550__LRAT_RAT_Lecithin_retinol_acyltransferase_OS_</name>
+						<eventsRec>
+							<speciation speciesLocation="node_93"/>
+						</eventsRec>
+							<clade>
+							<name>loss</name>
+							<eventsRec>
+								<loss speciesLocation="node_96"/>
+							</eventsRec>
+						</clade>
+						<clade>
+							<name>StramenopilesPhytophthorainfestansUP000006643_26376550__LRAT_RAT_Lecithin_retinol_acyltransferase_OS_</name>
+							<eventsRec>
+								<speciation speciesLocation="node_94"/>
+							</eventsRec>
+								<clade>
+								<name>loss</name>
+								<eventsRec>
+									<loss speciesLocation="RhizariaEP00473Plasmodiophorabrassicae"/>
+								</eventsRec>
+							</clade>
+							<clade>
+								<name>StramenopilesPhytophthorainfestansUP000006643_26376550__LRAT_RAT_Lecithin_retinol_acyltransferase_OS_</name>
+								<eventsRec>
+									<speciation speciesLocation="node_95"/>
+								</eventsRec>
+									<clade>
+									<name>loss</name>
+									<eventsRec>
+										<loss speciesLocation="StramenopilesEP00652Aphanomycesastaci"/>
+									</eventsRec>
+								</clade>
+								<clade>
+									<name>StramenopilesPhytophthorainfestansUP000006643_26376550__LRAT_RAT_Lecithin_retinol_acyltransferase_OS_</name>
+									<eventsRec>
+										<leaf speciesLocation="StramenopilesPhytophthorainfestansUP000006643"/>
+									</eventsRec>
+								</clade>
+							</clade>
+						</clade>
+					</clade>
+				</clade>
+			</clade>
+		</clade>
+	</clade>
+	<clade>
+		<name>45</name>
+		<eventsRec>
+			<speciation speciesLocation="node_99"/>
+		</eventsRec>
+		<clade>
+			<name>50</name>
+			<eventsRec>
+				<speciation speciesLocation="node_0"/>
+			</eventsRec>
+				<clade>
+				<name>loss</name>
+				<eventsRec>
+					<loss speciesLocation="node_76"/>
+				</eventsRec>
+			</clade>
+			<clade>
+				<name>50</name>
+				<eventsRec>
+					<speciation speciesLocation="node_1"/>
+				</eventsRec>
+					<clade>
+					<name>loss</name>
+					<eventsRec>
+						<loss speciesLocation="node_74"/>
+					</eventsRec>
+				</clade>
+				<clade>
+					<name>50</name>
+					<eventsRec>
+						<speciation speciesLocation="node_2"/>
+					</eventsRec>
+						<clade>
+						<name>loss</name>
+						<eventsRec>
+							<loss speciesLocation="node_73"/>
+						</eventsRec>
+					</clade>
+					<clade>
+						<name>50</name>
+						<eventsRec>
+							<speciation speciesLocation="node_3"/>
+						</eventsRec>
+							<clade>
+							<name>loss</name>
+							<eventsRec>
+								<loss speciesLocation="node_66"/>
+							</eventsRec>
+						</clade>
+						<clade>
+							<name>50</name>
+							<eventsRec>
+								<duplication speciesLocation="node_4"/>
+							</eventsRec>
+							<clade>
+								<name>58</name>
+								<eventsRec>
+									<speciation speciesLocation="node_4"/>
+								</eventsRec>
+								<clade>
+									<name>PluriformeaEP00127Corallochytriumlimacisporum_21618992__LRAT_MOUSE_Lecithin_retinol_acyltransferase_OS_</name>
+									<eventsRec>
+										<speciation speciesLocation="node_62"/>
+									</eventsRec>
+										<clade>
+										<name>loss</name>
+										<eventsRec>
+											<loss speciesLocation="FilastreaCapsasporaowczarzakiUP000008743"/>
+										</eventsRec>
+									</clade>
+									<clade>
+										<name>PluriformeaEP00127Corallochytriumlimacisporum_21618992__LRAT_MOUSE_Lecithin_retinol_acyltransferase_OS_</name>
+										<eventsRec>
+											<speciation speciesLocation="node_63"/>
+										</eventsRec>
+											<clade>
+											<name>loss</name>
+											<eventsRec>
+												<loss speciesLocation="node_64"/>
+											</eventsRec>
+										</clade>
+										<clade>
+											<name>PluriformeaEP00127Corallochytriumlimacisporum_21618992__LRAT_MOUSE_Lecithin_retinol_acyltransferase_OS_</name>
+											<eventsRec>
+												<leaf speciesLocation="PluriformeaEP00127Corallochytriumlimacisporum"/>
+											</eventsRec>
+										</clade>
+									</clade>
+								</clade>
+								<clade>
+									<name>100</name>
+									<eventsRec>
+										<speciation speciesLocation="node_5"/>
+									</eventsRec>
+										<clade>
+										<name>loss</name>
+										<eventsRec>
+											<loss speciesLocation="node_55"/>
+										</eventsRec>
+									</clade>
+									<clade>
+										<name>100</name>
+										<eventsRec>
+											<speciation speciesLocation="node_6"/>
+										</eventsRec>
+											<clade>
+											<name>loss</name>
+											<eventsRec>
+												<loss speciesLocation="node_7"/>
+											</eventsRec>
+										</clade>
+										<clade>
+											<name>100</name>
+											<eventsRec>
+												<speciation speciesLocation="node_49"/>
+											</eventsRec>
+												<clade>
+												<name>loss</name>
+												<eventsRec>
+													<loss speciesLocation="node_53"/>
+												</eventsRec>
+											</clade>
+											<clade>
+												<name>100</name>
+												<eventsRec>
+													<speciation speciesLocation="node_50"/>
+												</eventsRec>
+													<clade>
+													<name>loss</name>
+													<eventsRec>
+														<loss speciesLocation="node_51"/>
+													</eventsRec>
+												</clade>
+												<clade>
+													<name>100</name>
+													<eventsRec>
+														<duplication speciesLocation="MetazoaPoriferaEP00118Oscarellapearsei"/>
+													</eventsRec>
+													<clade>
+														<name>MetazoaPoriferaEP00118Oscarellapearsei_4817229__LRAT_HUMAN_Lecithin_retinol_acyltransferase_OS_</name>
+														<eventsRec>
+															<leaf speciesLocation="MetazoaPoriferaEP00118Oscarellapearsei"/>
+														</eventsRec>
+													</clade>
+													<clade>
+														<name>MetazoaPoriferaEP00118Oscarellapearsei_4817230__LRAT_BOVIN_Lecithin_retinol_acyltransferase_OS_</name>
+														<eventsRec>
+															<leaf speciesLocation="MetazoaPoriferaEP00118Oscarellapearsei"/>
+														</eventsRec>
+													</clade>
+												</clade>
+											</clade>
+										</clade>
+									</clade>
+								</clade>
+							</clade>
+							<clade>
+								<name>50</name>
+								<eventsRec>
+									<speciation speciesLocation="node_4"/>
+								</eventsRec>
+									<clade>
+									<name>loss</name>
+									<eventsRec>
+										<loss speciesLocation="node_62"/>
+									</eventsRec>
+								</clade>
+								<clade>
+									<name>50</name>
+									<eventsRec>
+										<speciation speciesLocation="node_5"/>
+									</eventsRec>
+										<clade>
+										<name>loss</name>
+										<eventsRec>
+											<loss speciesLocation="node_55"/>
+										</eventsRec>
+									</clade>
+									<clade>
+										<name>50</name>
+										<eventsRec>
+											<speciation speciesLocation="node_6"/>
+										</eventsRec>
+											<clade>
+											<name>loss</name>
+											<eventsRec>
+												<loss speciesLocation="node_49"/>
+											</eventsRec>
+										</clade>
+										<clade>
+											<name>50</name>
+											<eventsRec>
+												<speciation speciesLocation="node_7"/>
+											</eventsRec>
+												<clade>
+												<name>loss</name>
+												<eventsRec>
+													<loss speciesLocation="node_48"/>
+												</eventsRec>
+											</clade>
+											<clade>
+												<name>50</name>
+												<eventsRec>
+													<speciation speciesLocation="node_8"/>
+												</eventsRec>
+													<clade>
+													<name>loss</name>
+													<eventsRec>
+														<loss speciesLocation="node_47"/>
+													</eventsRec>
+												</clade>
+												<clade>
+													<name>50</name>
+													<eventsRec>
+														<speciation speciesLocation="node_9"/>
+													</eventsRec>
+													<clade>
+														<name>100</name>
+														<eventsRec>
+															<speciation speciesLocation="node_34"/>
+														</eventsRec>
+															<clade>
+															<name>loss</name>
+															<eventsRec>
+																<loss speciesLocation="MetazoaCnidariaMyxozoaThelohanelluskitauei"/>
+															</eventsRec>
+														</clade>
+														<clade>
+															<name>100</name>
+															<eventsRec>
+																<speciation speciesLocation="node_35"/>
+															</eventsRec>
+																<clade>
+																<name>loss</name>
+																<eventsRec>
+																	<loss speciesLocation="node_45"/>
+																</eventsRec>
+															</clade>
+															<clade>
+																<name>100</name>
+																<eventsRec>
+																	<speciation speciesLocation="node_36"/>
+																</eventsRec>
+																	<clade>
+																	<name>loss</name>
+																	<eventsRec>
+																		<loss speciesLocation="MetazoaCnidariaGorgoniaventalina"/>
+																	</eventsRec>
+																</clade>
+																<clade>
+																	<name>100</name>
+																	<eventsRec>
+																		<duplication speciesLocation="node_37"/>
+																	</eventsRec>
+																	<clade>
+																		<name>100</name>
+																		<eventsRec>
+																			<speciation speciesLocation="node_37"/>
+																		</eventsRec>
+																		<clade>
+																			<name>MetazoaCnidariaAnthopleuraelegantissima_3013074_</name>
+																			<eventsRec>
+																				<speciation speciesLocation="node_44"/>
+																			</eventsRec>
+																				<clade>
+																				<name>loss</name>
+																				<eventsRec>
+																					<loss speciesLocation="MetazoaCnidariaNematostellavectensis"/>
+																				</eventsRec>
+																			</clade>
+																			<clade>
+																				<name>MetazoaCnidariaAnthopleuraelegantissima_3013074_</name>
+																				<eventsRec>
+																					<leaf speciesLocation="MetazoaCnidariaAnthopleuraelegantissima"/>
+																				</eventsRec>
+																			</clade>
+																		</clade>
+																		<clade>
+																			<name>94</name>
+																			<eventsRec>
+																				<speciation speciesLocation="node_38"/>
+																			</eventsRec>
+																			<clade>
+																				<name>95</name>
+																				<eventsRec>
+																					<speciation speciesLocation="node_42"/>
+																				</eventsRec>
+																					<clade>
+																					<name>loss</name>
+																					<eventsRec>
+																						<loss speciesLocation="MetazoaCnidariaAcroporadigitifera"/>
+																					</eventsRec>
+																				</clade>
+																				<clade>
+																					<name>95</name>
+																					<eventsRec>
+																						<speciation speciesLocation="node_43"/>
+																					</eventsRec>
+																					<clade>
+																						<name>MetazoaCnidariaPoritesaustraliensis_3539203_</name>
+																						<eventsRec>
+																							<leaf speciesLocation="MetazoaCnidariaPoritesaustraliensis"/>
+																						</eventsRec>
+																					</clade>
+																					<clade>
+																						<name>MetazoaCnidariaAstreoporasp_3045117_</name>
+																						<eventsRec>
+																							<leaf speciesLocation="MetazoaCnidariaAstreoporasp"/>
+																						</eventsRec>
+																					</clade>
+																				</clade>
+																			</clade>
+																			<clade>
+																				<name>0</name>
+																				<eventsRec>
+																					<speciation speciesLocation="node_39"/>
+																				</eventsRec>
+																				<clade>
+																					<name>MetazoaCnidariaStylophorapistillata_3669339_</name>
+																					<eventsRec>
+																						<speciation speciesLocation="node_41"/>
+																					</eventsRec>
+																						<clade>
+																						<name>loss</name>
+																						<eventsRec>
+																							<loss speciesLocation="MetazoaCnidariaMadracisauretenra"/>
+																						</eventsRec>
+																					</clade>
+																					<clade>
+																						<name>MetazoaCnidariaStylophorapistillata_3669339_</name>
+																						<eventsRec>
+																							<leaf speciesLocation="MetazoaCnidariaStylophorapistillata"/>
+																						</eventsRec>
+																					</clade>
+																				</clade>
+																				<clade>
+																					<name>95</name>
+																					<eventsRec>
+																						<speciation speciesLocation="node_40"/>
+																					</eventsRec>
+																					<clade>
+																						<name>MetazoaCnidariaMontastraeacavernosa_3351517_</name>
+																						<eventsRec>
+																							<leaf speciesLocation="MetazoaCnidariaMontastraeacavernosa"/>
+																						</eventsRec>
+																					</clade>
+																					<clade>
+																						<name>MetazoaCnidariaFungiascutaria_3204893_</name>
+																						<eventsRec>
+																							<leaf speciesLocation="MetazoaCnidariaFungiascutaria"/>
+																						</eventsRec>
+																					</clade>
+																				</clade>
+																			</clade>
+																		</clade>
+																	</clade>
+																	<clade>
+																		<name>99</name>
+																		<eventsRec>
+																			<speciation speciesLocation="node_37"/>
+																		</eventsRec>
+																		<clade>
+																			<name>MetazoaCnidariaAnthopleuraelegantissima_3018731_</name>
+																			<eventsRec>
+																				<speciation speciesLocation="node_44"/>
+																			</eventsRec>
+																				<clade>
+																				<name>loss</name>
+																				<eventsRec>
+																					<loss speciesLocation="MetazoaCnidariaNematostellavectensis"/>
+																				</eventsRec>
+																			</clade>
+																			<clade>
+																				<name>MetazoaCnidariaAnthopleuraelegantissima_3018731_</name>
+																				<eventsRec>
+																					<leaf speciesLocation="MetazoaCnidariaAnthopleuraelegantissima"/>
+																				</eventsRec>
+																			</clade>
+																		</clade>
+																		<clade>
+																			<name>100</name>
+																			<eventsRec>
+																				<speciation speciesLocation="node_38"/>
+																			</eventsRec>
+																			<clade>
+																				<name>MetazoaCnidariaMadracisauretenra_3309881_</name>
+																				<eventsRec>
+																					<speciation speciesLocation="node_39"/>
+																				</eventsRec>
+																					<clade>
+																					<name>loss</name>
+																					<eventsRec>
+																						<loss speciesLocation="node_40"/>
+																					</eventsRec>
+																				</clade>
+																				<clade>
+																					<name>MetazoaCnidariaMadracisauretenra_3309881_</name>
+																					<eventsRec>
+																						<speciation speciesLocation="node_41"/>
+																					</eventsRec>
+																						<clade>
+																						<name>loss</name>
+																						<eventsRec>
+																							<loss speciesLocation="MetazoaCnidariaStylophorapistillata"/>
+																						</eventsRec>
+																					</clade>
+																					<clade>
+																						<name>MetazoaCnidariaMadracisauretenra_3309881_</name>
+																						<eventsRec>
+																							<leaf speciesLocation="MetazoaCnidariaMadracisauretenra"/>
+																						</eventsRec>
+																					</clade>
+																				</clade>
+																			</clade>
+																			<clade>
+																				<name>MetazoaCnidariaPoritesaustraliensis_3537271_</name>
+																				<eventsRec>
+																					<speciation speciesLocation="node_42"/>
+																				</eventsRec>
+																					<clade>
+																					<name>loss</name>
+																					<eventsRec>
+																						<loss speciesLocation="MetazoaCnidariaAcroporadigitifera"/>
+																					</eventsRec>
+																				</clade>
+																				<clade>
+																					<name>MetazoaCnidariaPoritesaustraliensis_3537271_</name>
+																					<eventsRec>
+																						<speciation speciesLocation="node_43"/>
+																					</eventsRec>
+																						<clade>
+																						<name>loss</name>
+																						<eventsRec>
+																							<loss speciesLocation="MetazoaCnidariaAstreoporasp"/>
+																						</eventsRec>
+																					</clade>
+																					<clade>
+																						<name>MetazoaCnidariaPoritesaustraliensis_3537271_</name>
+																						<eventsRec>
+																							<leaf speciesLocation="MetazoaCnidariaPoritesaustraliensis"/>
+																						</eventsRec>
+																					</clade>
+																				</clade>
+																			</clade>
+																		</clade>
+																	</clade>
+																</clade>
+															</clade>
+														</clade>
+													</clade>
+													<clade>
+														<name>MetazoaAcoelaHofsteniamiamia_4411_</name>
+														<eventsRec>
+															<speciation speciesLocation="node_10"/>
+														</eventsRec>
+															<clade>
+															<name>loss</name>
+															<eventsRec>
+																<loss speciesLocation="node_25"/>
+															</eventsRec>
+														</clade>
+														<clade>
+															<name>MetazoaAcoelaHofsteniamiamia_4411_</name>
+															<eventsRec>
+																<speciation speciesLocation="node_11"/>
+															</eventsRec>
+																<clade>
+																<name>loss</name>
+																<eventsRec>
+																	<loss speciesLocation="node_19"/>
+																</eventsRec>
+															</clade>
+															<clade>
+																<name>MetazoaAcoelaHofsteniamiamia_4411_</name>
+																<eventsRec>
+																	<speciation speciesLocation="node_12"/>
+																</eventsRec>
+																	<clade>
+																	<name>loss</name>
+																	<eventsRec>
+																		<loss speciesLocation="node_13"/>
+																	</eventsRec>
+																</clade>
+																<clade>
+																	<name>MetazoaAcoelaHofsteniamiamia_4411_</name>
+																	<eventsRec>
+																		<speciation speciesLocation="node_18"/>
+																	</eventsRec>
+																		<clade>
+																		<name>loss</name>
+																		<eventsRec>
+																			<loss speciesLocation="MetazoaPlatyhelminthesEchinococcusmultilocularis"/>
+																		</eventsRec>
+																	</clade>
+																	<clade>
+																		<name>MetazoaAcoelaHofsteniamiamia_4411_</name>
+																		<eventsRec>
+																			<leaf speciesLocation="MetazoaAcoelaHofsteniamiamia"/>
+																		</eventsRec>
+																	</clade>
+																</clade>
+															</clade>
+														</clade>
+													</clade>
+												</clade>
+											</clade>
+										</clade>
+									</clade>
+								</clade>
+							</clade>
+						</clade>
+					</clade>
+				</clade>
+			</clade>
+		</clade>
+		<clade>
+			<name>52</name>
+			<eventsRec>
+				<speciation speciesLocation="node_78"/>
+			</eventsRec>
+				<clade>
+				<name>loss</name>
+				<eventsRec>
+					<loss speciesLocation="node_97"/>
+				</eventsRec>
+			</clade>
+			<clade>
+				<name>52</name>
+				<eventsRec>
+					<speciation speciesLocation="node_79"/>
+				</eventsRec>
+					<clade>
+					<name>loss</name>
+					<eventsRec>
+						<loss speciesLocation="node_92"/>
+					</eventsRec>
+				</clade>
+				<clade>
+					<name>52</name>
+					<eventsRec>
+						<speciation speciesLocation="node_80"/>
+					</eventsRec>
+					<clade>
+						<name>RhodelphisEP00736Rhodelphismarinus_22805195__LRAT_BOVIN_Lecithin_retinol_acyltransferase_OS_</name>
+						<eventsRec>
+							<speciation speciesLocation="node_81"/>
+						</eventsRec>
+							<clade>
+							<name>loss</name>
+							<eventsRec>
+								<loss speciesLocation="node_82"/>
+							</eventsRec>
+						</clade>
+						<clade>
+							<name>RhodelphisEP00736Rhodelphismarinus_22805195__LRAT_BOVIN_Lecithin_retinol_acyltransferase_OS_</name>
+							<eventsRec>
+								<speciation speciesLocation="node_86"/>
+							</eventsRec>
+								<clade>
+								<name>loss</name>
+								<eventsRec>
+									<loss speciesLocation="node_87"/>
+								</eventsRec>
+							</clade>
+							<clade>
+								<name>RhodelphisEP00736Rhodelphismarinus_22805195__LRAT_BOVIN_Lecithin_retinol_acyltransferase_OS_</name>
+								<eventsRec>
+									<leaf speciesLocation="RhodelphisEP00736Rhodelphismarinus"/>
+								</eventsRec>
+							</clade>
+						</clade>
+					</clade>
+					<clade>
+						<name>100</name>
+						<eventsRec>
+							<speciation speciesLocation="node_88"/>
+						</eventsRec>
+							<clade>
+							<name>loss</name>
+							<eventsRec>
+								<loss speciesLocation="node_89"/>
+							</eventsRec>
+						</clade>
+						<clade>
+							<name>100</name>
+							<eventsRec>
+								<speciation speciesLocation="node_91"/>
+							</eventsRec>
+							<clade>
+								<name>100</name>
+								<eventsRec>
+									<duplication speciesLocation="CryptophyceaeEP00290BaffinellaspCCMP2293"/>
+								</eventsRec>
+								<clade>
+									<name>CryptophyceaeEP00290BaffinellaspCCMP2293_12059753__LRAT_BOVIN_Lecithin_retinol_acyltransferase_OS_</name>
+									<eventsRec>
+										<leaf speciesLocation="CryptophyceaeEP00290BaffinellaspCCMP2293"/>
+									</eventsRec>
+								</clade>
+								<clade>
+									<name>CryptophyceaeEP00290BaffinellaspCCMP2293_12040984__LRAT_BOVIN_Lecithin_retinol_acyltransferase_OS_</name>
+									<eventsRec>
+										<leaf speciesLocation="CryptophyceaeEP00290BaffinellaspCCMP2293"/>
+									</eventsRec>
+								</clade>
+							</clade>
+							<clade>
+								<name>CryptophyceaeGuillardiathetaUP000011087_12256407__PLAT3_RAT_Phospholipase_A_and_acyltransferase_3_OS_</name>
+								<eventsRec>
+									<leaf speciesLocation="CryptophyceaeGuillardiathetaUP000011087"/>
+								</eventsRec>
+							</clade>
+						</clade>
+					</clade>
+				</clade>
+			</clade>
+		</clade>
+	</clade>
+</clade>
+</phylogeny>
+</recGeneTree>
+</recPhylo>

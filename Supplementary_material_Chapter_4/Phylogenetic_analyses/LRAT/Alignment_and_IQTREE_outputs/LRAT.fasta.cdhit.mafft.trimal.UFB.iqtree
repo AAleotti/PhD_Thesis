@@ -1,0 +1,541 @@
+IQ-TREE 2.0.6 built Jun  5 2020
+
+Input file name: LRAT.fasta.cdhit.mafft.trimal
+Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 358562
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 93 sequences with 226 amino-acid sites
+Number of constant sites: 0 (= 0% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 0 (= 0% of all sites)
+Number of parsimony informative sites: 220
+Number of distinct site patterns: 226
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: VT+R6
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+VT+R6            -28914.940   58215.880 - 1.45e-07   60556.005 - 1.81e-105   58876.043 +        1
+LG+R6            -28930.192   58246.385 - 3.45e-14   60586.510 - 4.3e-112   58906.548 - 2.38e-07
+VT+F+R6          -28880.193   58184.386 +        1   65131.463 -        0   58909.540 - 5.32e-08
+PMB+R6           -28931.792   58249.585 - 6.95e-15   60589.710 - 8.68e-113   58909.748 -  4.8e-08
+LG+R7            -28929.930   58249.860 - 6.06e-15   60797.860 - 5.49e-158   58916.864 - 1.37e-09
+LG+R5            -28941.683   58265.366 -  2.6e-18   60422.543 - 1.73e-76   58918.688 - 5.49e-10
+WAG+R6           -28946.584   58279.167 - 2.62e-21   60619.292 - 3.27e-119   58939.331 - 1.81e-14
+LG+R4            -28960.278   58298.555 - 1.62e-25   60293.555 - 1.77e-48   58945.036 - 1.04e-15
+WAG+F+R6         -28901.358   58226.716 - 6.43e-10   65173.793 -        0   58951.870 - 3.42e-17
+Blosum62+R6      -28960.669   58307.338 -    2e-27   60647.463 - 2.5e-125   58967.501 - 1.38e-20
+LG+F+R6          -28917.005   58258.009 - 1.03e-16   65205.086 -        0   58983.163 - 5.49e-24
+PMB+F+R6         -28928.462   58280.925 - 1.09e-21   65228.001 -        0   59006.078 -  5.8e-29
+LG+G4            -29022.580   58413.160 -  2.1e-50   60073.648 +        1   59042.539 - 7.01e-37
+LG+R3            -29021.817   58417.634 - 2.24e-51   60267.949 - 6.43e-43   59057.274 - 4.43e-40
+Blosum62+F+R6    -28956.572   58337.145 - 6.74e-34   65284.222 -        0   59062.298 - 3.59e-41
+JTT+R6           -29042.410   58470.820 - 6.33e-63   60810.945 - 7.91e-161   59130.984 - 4.37e-56
+JTTDCMut+R6      -29044.792   58475.583 - 5.85e-64   60815.708 - 7.31e-162   59135.746 - 4.04e-57
+cpREV+F+R6       -28998.564   58421.128 - 3.91e-52   65368.204 -        0   59146.281 - 2.08e-59
+rtREV+F+R6       -29002.665   58429.331 - 6.47e-54   65376.408 -        0   59154.484 - 3.45e-61
+cpREV+R6         -29075.002   58536.003 - 4.44e-77   60876.128 - 5.54e-175   59196.167 - 3.06e-70
+JTT+F+R6         -29026.196   58476.392 - 3.91e-64   65423.469 -        0   59201.545 - 2.08e-71
+JTTDCMut+F+R6    -29029.732   58483.465 - 1.14e-65   65430.542 -        0   59208.618 - 6.06e-73
+LG+R2            -29152.444   58674.888 - 3.08e-107   60395.388 - 1.36e-70   59307.687 - 1.86e-94
+mtInv+F+R6       -29140.854   58705.708 - 6.26e-114   65652.785 -        0   59430.861 - 3.33e-121
+rtREV+R6         -29275.225   58936.451 - 4.91e-164   61276.576 - 6.13e-262   59596.614 - 3.39e-157
+DCMut+F+R6       -29235.076   58894.151 - 7.52e-155   65841.228 -        0   59619.305 - 4.01e-162
+Dayhoff+F+R6     -29236.187   58896.373 - 2.48e-155   65843.450 -        0   59621.527 - 1.32e-162
+mtMet+F+R6       -29255.669   58935.339 - 8.56e-164   65882.416 -        0   59660.492 - 4.56e-171
+mtREV+F+R6       -29272.642   58969.284 - 3.64e-171   65916.361 -        0   59694.437 - 1.94e-178
+DCMut+R6         -29355.489   59096.977 - 6.81e-199   61437.102 - 8.51e-297   59757.141 - 4.7e-192
+Dayhoff+R6       -29356.713   59099.425 -   2e-199   61439.550 - 2.5e-297   59759.589 - 1.38e-192
+mtZOA+F+R6       -29332.545   59089.091 - 3.51e-197   66036.168 -        0   59814.244 - 1.87e-204
+FLU+F+R6         -29333.831   59091.662 - 9.72e-198   66038.739 -        0   59816.816 - 5.17e-205
+HIVb+F+R6        -29351.268   59126.537 - 2.6e-205   66073.614 -        0   59851.690 - 1.38e-212
+HIVb+R6          -29478.650   59343.301 - 2.21e-252   61683.426 -        0   60003.464 - 1.53e-245
+mtVer+F+R6       -29527.834   59479.669 - 5.41e-282   66426.745 -        0   60204.822 - 2.88e-289
+FLU+R6           -29581.361   59548.722 - 5.47e-297   61888.847 -        0   60208.885 - 3.78e-290
+mtART+F+R6       -29614.500   59653.001 - 1.24e-319   66600.078 -        0   60378.154 -        0
+mtMAM+F+R6       -29728.492   59880.985 -        0   66828.062 -        0   60606.138 -        0
+HIVw+F+R6        -29976.779   60377.559 -        0   67324.636 -        0   61102.712 -        0
+mtZOA+R6         -30029.784   60445.567 -        0   62785.692 -        0   61105.730 -        0
+LG               -30305.634   60977.268 -        0   62580.696 -        0   61603.225 -        0
+mtMet+R6         -30283.288   60952.577 -        0   63292.702 -        0   61612.740 -        0
+mtInv+R6         -30392.479   61170.958 -        0   63511.083 -        0   61831.121 -        0
+mtREV+R6         -30479.767   61345.533 -        0   63685.658 -        0   62005.697 -        0
+mtVer+R6         -30590.550   61567.101 -        0   63907.226 -        0   62227.264 -        0
+HIVw+R6          -30640.992   61667.985 -        0   64008.110 -        0   62328.148 -        0
+mtART+R6         -30693.155   61772.310 -        0   64112.435 -        0   62432.473 -        0
+mtMAM+R6         -30964.522   62315.044 -        0   64655.169 -        0   62975.207 -        0
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: VT+R6
+
+State frequencies: (model)
+
+Model of rate heterogeneity: FreeRate with 6 categories
+Site proportion and rates:  (0.0600,0.0542) (0.0702,0.1897) (0.1255,0.3716) (0.2181,0.7861) (0.4494,1.3117) (0.0769,2.2870)
+
+ Category  Relative_rate  Proportion
+  1         0.0542         0.0600
+  2         0.1897         0.0702
+  3         0.3716         0.1255
+  4         0.7861         0.2181
+  5         1.3117         0.4494
+  6         2.2870         0.0769
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -28866.2279 (s.e. 809.1698)
+Unconstrained log-likelihood (without tree): -1225.0409
+Number of free parameters (#branches + #model parameters): 193
+Akaike information criterion (AIC) score: 58118.4558
+Corrected Akaike information criterion (AICc) score: 60458.5808
+Bayesian information criterion (BIC) score: 58778.6191
+
+Total tree length (sum of branch lengths): 77.6038
+Sum of internal branch lengths: 28.1679 (36.2971% of tree length)
+
+WARNING: 2 near-zero internal branches (<0.0044) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'MetazoaCnidariaStylophorapistillata_3669339_' is drawn at root
+Numbers in parentheses are SH-aLRT support (%) / aBayes support / ultrafast bootstrap support (%)
+
++--MetazoaCnidariaStylophorapistillata_3669339_
+|
+|                                                                 +--MetazoaVertebrateDaniorerio_5420356__PLAT2_HUMAN_Phospholipase_A_and_acyltransferase_2_OS_
+|                                                  +--------------| (100/1/100)
+|                                                  |              +--MetazoaVertebrateDaniorerio_5420357__PLAT4_HUMAN_Phospholipase_A_and_acyltransferase_4_OS_
+|                                               +--| (85.4/0.994/70)
+|                                               |  |      +--------------MetazoaHemichordataSaccoglossuskowalevskii_4059982__PLAT3_RAT_Phospholipase_A_and_acyltransferase_3_OS_
+|                                               |  |  +---| (82.1/0.791/78)
+|                                               |  |  |   +----------------MetazoaVertebrateEptatretusburgeri_6409487__PLAT3_RAT_Phospholipase_A_and_acyltransferase_3_OS_
+|                                               |  +--| (19.7/0.365/63)
+|                                               |     +-----------------MetazoaHemichordataSaccoglossuskowalevskii_4069108__LRAT2_HUMAN_Protein_LRATD2_OS_
+|                                            +**| (0/0.333/13)
+|                                            |  |            +---MetazoaCnidariaClytiahemisphaerica_3096585__PLAT4_HUMAN_Phospholipase_A_and_acyltransferase_4_OS_
+|                                            |  +------------| (100/1/100)
+|                                            |               +--------MetazoaPoriferaLeucosoleniacomplicata_5045739__PLAT2_HUMAN_Phospholipase_A_and_acyltransferase_2_OS_
+|                                         +--| (56.6/0.533/21)
+|                                         |  |  +------------------MetazoaArthropodaDaphniapulex_214295__PLAT2_HUMAN_Phospholipase_A_and_acyltransferase_2_OS_
+|                                         |  +--| (70/0.593/44)
+|                                         |     +-------------MetazoaArthropodaEP00090Calanusglacialis_678642__PLAT1_HUMAN_Phospholipase_A_and_acyltransferase_1_OS_
+|                                      +--| (89.1/0.997/60)
+|                                      |  |                               +--MetazoaVertebrateDaniorerio_5435836__LRAT_BOVIN_Lecithin_retinol_acyltransferase_OS_
+|                                      |  |                            +--| (97.4/1/100)
+|                                      |  |                            |  +---MetazoaVertebrateDaniorerio_5416499__LRAT_MOUSE_Lecithin_retinol_acyltransferase_OS_
+|                                      |  |                         +--| (0/0.345/41)
+|                                      |  |                         |  |        +--MetazoaVertebrateMusmusculus_6547546__LRAT_MOUSE_Lecithin_retinol_acyltransferase_OS_
+|                                      |  |                         |  |     +--| (100/1/100)
+|                                      |  |                         |  |     |  +--MetazoaVertebrateHomosapiens_6453389__LRAT_HUMAN_Lecithin_retinol_acyltransferase_OS_
+|                                      |  |                         |  |  +--| (57.6/0.856/72)
+|                                      |  |                         |  |  |  +--MetazoaVertebrateDaniorerio_5425012__LRAT_BOVIN_Lecithin_retinol_acyltransferase_OS_
+|                                      |  |                         |  +--| (91.5/0.978/75)
+|                                      |  |                         |     +--MetazoaVertebrateDaniorerio_5415241__LRAT_BOVIN_Lecithin_retinol_acyltransferase_OS_
+|                                      |  |           +-------------| (100/1/100)
+|                                      |  |           |             +------MetazoaVertebrateEptatretusburgeri_6407140__LRAT_BOVIN_Lecithin_retinol_acyltransferase_OS_
+|                                      |  |        +**| (0/0.333/18)
+|                                      |  |        |  +-----------------MetazoaNematodaLoaloa_4406313__F172A_CAEEL_FAM172_family_protein_homolog_Y75B8A.31_OS_
+|                                      |  |     +--| (90.4/0.993/39)
+|                                      |  |     |  +--------------------MetazoaVertebrateDaniorerio_5420912__PLAT1_RAT_Phospholipase_A_and_acyltransferase_1_OS_
+|                                      |  |  +--| (0/0.343/11)
+|                                      |  |  |  |                 +-----MetazoaCephalochordataBranchiostomabelcheri_2795997__PLAT1_RAT_Phospholipase_A_and_acyltransferase_1_OS_
+|                                      |  |  |  |              +--| (84.7/0.885/75)
+|                                      |  |  |  |              |  +---------MetazoaCephalochordataBranchiostomabelcheri_2796139__PLAT1_MOUSE_Phospholipase_A_and_acyltransferase_1_OS_
+|                                      |  |  |  |           +--| (85.5/0.958/93)
+|                                      |  |  |  |           |  |  +---MetazoaCephalochordataBranchiostomabelcheri_2796045__PLAT3_RAT_Phospholipase_A_and_acyltransferase_3_OS_
+|                                      |  |  |  |           |  +--| (50.9/0.883/69)
+|                                      |  |  |  |           |     |  +---MetazoaCephalochordataBranchiostomabelcheri_2796061__PLAT1_HUMAN_Phospholipase_A_and_acyltransferase_1_OS_
+|                                      |  |  |  |           |     +--| (86.8/0.99/98)
+|                                      |  |  |  |           |        |            +**MetazoaCephalochordataBranchiostomabelcheri_2799601__PLAT3_RAT_Phospholipase_A_and_acyltransferase_3_OS_
+|                                      |  |  |  |           |        +------------| (100/1/100)
+|                                      |  |  |  |           |                     +**MetazoaCephalochordataBranchiostomabelcheri_2799602__PLAT3_RAT_Phospholipase_A_and_acyltransferase_3_OS_
+|                                      |  |  |  |        +--| (87.2/0.997/79)
+|                                      |  |  |  |        |  |     +**MetazoaHemichordataSaccoglossuskowalevskii_4057012__PLAT3_RAT_Phospholipase_A_and_acyltransferase_3_OS_
+|                                      |  |  |  |        |  +-----| (100/1/100)
+|                                      |  |  |  |        |        +--MetazoaHemichordataSaccoglossuskowalevskii_4062344__PLAT3_RAT_Phospholipase_A_and_acyltransferase_3_OS_
+|                                      |  |  |  |     +--| (23.3/0.666/58)
+|                                      |  |  |  |     |  |        +--MetazoaBrachiopodaLingulaunguis_1298288__PLAT3_HUMAN_Phospholipase_A_and_acyltransferase_3_OS_
+|                                      |  |  |  |     |  |     +--| (89.9/0.998/99)
+|                                      |  |  |  |     |  |     |  +--MetazoaBrachiopodaLingulaunguis_1302550__PLAT1_HUMAN_Phospholipase_A_and_acyltransferase_1_OS_
+|                                      |  |  |  |     |  |  +--| (82.1/0.948/92)
+|                                      |  |  |  |     |  |  |  +----------------MetazoaRotiferaBrachionusplicatilis_5253929__PLAT3_RAT_Phospholipase_A_and_acyltransferase_3_OS_
+|                                      |  |  |  |     |  +--| (97.7/1/94)
+|                                      |  |  |  |     |     |  +--MetazoaBrachiopodaLingulaunguis_1299417__PLAT3_HUMAN_Phospholipase_A_and_acyltransferase_3_OS_
+|                                      |  |  |  |     |     +--| (96.8/1/99)
+|                                      |  |  |  |     |        +--MetazoaBrachiopodaLingulaunguis_1283932__PLAT3_HUMAN_Phospholipase_A_and_acyltransferase_3_OS_
+|                                      |  |  |  |  +--| (67.5/0.968/77)
+|                                      |  |  |  |  |  |  +-----MetazoaMolluscaLottiagigantea_4204378__PLAT3_MOUSE_Phospholipase_A_and_acyltransferase_3_OS_
+|                                      |  |  |  |  |  +--| (89.8/0.985/94)
+|                                      |  |  |  |  |     +-------MetazoaPoriferaLeucosoleniacomplicata_4975009__PLAT3_HUMAN_Phospholipase_A_and_acyltransferase_3_OS_
+|                                      |  |  |  +--| (72.7/0.893/64)
+|                                      |  |  |     |            +--------MetazoaCnidariaStylophorapistillata_3678277__PLAT3_RAT_Phospholipase_A_and_acyltransferase_3_OS_
+|                                      |  |  |     |         +--| (77.3/0.615/99)
+|                                      |  |  |     |         |  +----------MetazoaCnidariaAnthopleuraelegantissima_3005818__PLAT3_MOUSE_Phospholipase_A_and_acyltransferase_3_OS_
+|                                      |  |  |     |      +--| (84.9/0.963/93)
+|                                      |  |  |     |      |  +-------MetazoaCnidariaAnthopleuraelegantissima_2997299__PLAT3_RAT_Phospholipase_A_and_acyltransferase_3_OS_
+|                                      |  |  |     |  +---| (94/1/100)
+|                                      |  |  |     |  |   |    +----------MetazoaCnidariaAnthopleuraelegantissima_2998386__PLAT1_RAT_Phospholipase_A_and_acyltransferase_1_OS_
+|                                      |  |  |     |  |   +----| (97.3/1/100)
+|                                      |  |  |     |  |        +----MetazoaCnidariaAnthopleuraelegantissima_3005089__PLAT3_HUMAN_Phospholipase_A_and_acyltransferase_3_OS_
+|                                      |  |  |     +--| (34.5/0.58/28)
+|                                      |  |  |        +----------MetazoaHemichordataSaccoglossuskowalevskii_4048805__PLAT3_RAT_Phospholipase_A_and_acyltransferase_3_OS_
+|                                      |  +--| (87.8/0.943/23)
+|                                      |     |            +--MetazoaPoriferaSyconciliatum_5143426__PLAT1_MOUSE_Phospholipase_A_and_acyltransferase_1_OS_
+|                                      |     +------------| (100/1/100)
+|                                      |                  |       +**MetazoaPoriferaLeucosoleniacomplicata_4984178__PLAT1_MOUSE_Phospholipase_A_and_acyltransferase_1_OS_
+|                                      |                  +-------| (99.4/1/100)
+|                                      |                          +**MetazoaPoriferaLeucosoleniacomplicata_5035242__PLAT1_MOUSE_Phospholipase_A_and_acyltransferase_1_OS_
+|                                   +--| (73.4/0.583/36)
+|                                   |  |                    +---MetazoaEchinodermataAcanthasterplanci_3779535__PLAT3_RAT_Phospholipase_A_and_acyltransferase_3_OS_
+|                                   |  |                 +--| (91.1/0.996/99)
+|                                   |  |                 |  +--MetazoaEchinodermataAcanthasterplanci_3781807__PLAT4_HUMAN_Phospholipase_A_and_acyltransferase_4_OS_
+|                                   |  |              +--| (89.2/0.964/99)
+|                                   |  |              |  +--MetazoaEchinodermataAcanthasterplanci_3781729__PLAT3_RAT_Phospholipase_A_and_acyltransferase_3_OS_
+|                                   |  |           +--| (57.2/0.831/83)
+|                                   |  |           |  +--------MetazoaEchinodermataAcanthasterplanci_3791876__PLAT1_HUMAN_Phospholipase_A_and_acyltransferase_1_OS_
+|                                   |  |  +--------| (100/1/100)
+|                                   |  |  |        |     +--MetazoaEchinodermataAcanthasterplanci_3781827__PLAT1_MOUSE_Phospholipase_A_and_acyltransferase_1_OS_
+|                                   |  |  |        +-----| (99.5/1/100)
+|                                   |  |  |              +--MetazoaEchinodermataAcanthasterplanci_3782589__PLAT4_HUMAN_Phospholipase_A_and_acyltransferase_4_OS_
+|                                   |  +--| (0/0.335/25)
+|                                   |     |           +-----MetazoaMolluscaEP00106Octopusbimaculoides_4156353__PLAT1_RAT_Phospholipase_A_and_acyltransferase_1_OS_
+|                                   |     |     +-----| (97.5/1/99)
+|                                   |     |     |     +-------MetazoaMolluscaLottiagigantea_4203388__PLAT3_RAT_Phospholipase_A_and_acyltransferase_3_OS_
+|                                   |     +-----| (97.6/1/99)
+|                                   |           +---------MetazoaTardigradaRamazzotiusvarieornatus_5290952__PLAT3_MOUSE_Phospholipase_A_and_acyltransferase_3_OS_
+|                                +--| (95.9/1/75)
+|                                |  |                       +--MetazoaVertebrateMusmusculus_6542956__PLAT3_MOUSE_Phospholipase_A_and_acyltransferase_3_OS_
+|                                |  |                    +--| (91/0.99/100)
+|                                |  |                    |  +--MetazoaVertebrateHomosapiens_6456871__PLAT3_HUMAN_Phospholipase_A_and_acyltransferase_3_OS_
+|                                |  |                 +--| (98.6/1/99)
+|                                |  |                 |  +--MetazoaVertebrateHomosapiens_6468958__PLAT2_HUMAN_Phospholipase_A_and_acyltransferase_2_OS_
+|                                |  |              +--| (53.5/0.721/92)
+|                                |  |              |  |         +--MetazoaVertebrateMusmusculus_6545226__PLAT5_MOUSE_Phospholipase_A_and_acyltransferase_5_OS_
+|                                |  |              |  |  +------| (100/1/100)
+|                                |  |              |  |  |      +--MetazoaVertebrateHomosapiens_6465905__PLAT5_HUMAN_Phospholipase_A_and_acyltransferase_5_OS_
+|                                |  |              |  +--| (37.9/0.808/82)
+|                                |  |              |     +----MetazoaVertebrateHomosapiens_6469942__PLAT4_HUMAN_Phospholipase_A_and_acyltransferase_4_OS_
+|                                |  |           +--| (97.5/1/99)
+|                                |  |           |  |   +--MetazoaVertebrateDaniorerio_5433263__PLAT3_PONAB_Phospholipase_A_and_acyltransferase_3_OS_
+|                                |  |           |  +---| (99.6/1/100)
+|                                |  |           |      +--MetazoaVertebrateDaniorerio_5413327__PLAT3_PONAB_Phospholipase_A_and_acyltransferase_3_OS_
+|                                |  |        +--| (44.3/0.574/91)
+|                                |  |        |  |      +--MetazoaVertebrateMusmusculus_6548232__PLAT1_MOUSE_Phospholipase_A_and_acyltransferase_1_OS_
+|                                |  |        |  |   +--| (99/1/100)
+|                                |  |        |  |   |  +--MetazoaVertebrateHomosapiens_6468389__PLAT1_HUMAN_Phospholipase_A_and_acyltransferase_1_OS_
+|                                |  |        |  +---| (99.2/1/100)
+|                                |  |        |      +--MetazoaVertebrateDaniorerio_5414209__PLAT1_MOUSE_Phospholipase_A_and_acyltransferase_1_OS_
+|                                |  |     +--| (85.5/0.987/98)
+|                                |  |     |  |       +--MetazoaVertebrateEptatretusburgeri_6385209__PLAT1_RAT_Phospholipase_A_and_acyltransferase_1_OS_
+|                                |  |     |  +-------| (100/1/100)
+|                                |  |     |          +--MetazoaVertebrateEptatretusburgeri_6385211__PLAT1_MOUSE_Phospholipase_A_and_acyltransferase_1_OS_
+|                                |  |  +--| (77.6/0.724/98)
+|                                |  |  |  +-----------MetazoaAcoelaHofsteniamiamia_16354__PLAT1_HUMAN_Phospholipase_A_and_acyltransferase_1_OS_
+|                                |  +--| (94.5/1/76)
+|                                |     +-----------MetazoaCephalochordataBranchiostomabelcheri_2827403__PLAT1_RAT_Phospholipase_A_and_acyltransferase_1_OS_
+|                             +--| (62.8/0.568/53)
+|                             |  |  +--------------StramenopilesPhytophthorainfestansUP000006643_26376550__LRAT_RAT_Lecithin_retinol_acyltransferase_OS_
+|                             |  +--| (76.7/0.669/64)
+|                             |     |             +-------MetazoaPoriferaLeucosoleniacomplicata_5010111__PLAT3_PONAB_Phospholipase_A_and_acyltransferase_3_OS_
+|                             |     |     +-------| (99.4/1/100)
+|                             |     |     |       +-------MetazoaPoriferaLeucosoleniacomplicata_5042006__PLAT2_HUMAN_Phospholipase_A_and_acyltransferase_2_OS_
+|                             |     |  +--| (89.3/0.998/93)
+|                             |     |  |  |          +--MetazoaPoriferaSyconciliatum_5138130__PLAT3_PONAB_Phospholipase_A_and_acyltransferase_3_OS_
+|                             |     |  |  |  +-------| (100/1/100)
+|                             |     |  |  |  |       +---MetazoaPoriferaLeucosoleniacomplicata_5052466__PLAT3_MOUSE_Phospholipase_A_and_acyltransferase_3_OS_
+|                             |     |  |  +--| (34.7/0.362/84)
+|                             |     |  |     |         +--MetazoaPoriferaLeucosoleniacomplicata_5018539__PLAT2_HUMAN_Phospholipase_A_and_acyltransferase_2_OS_
+|                             |     |  |     +---------| (100/1/100)
+|                             |     |  |               +---MetazoaPoriferaSyconciliatum_5104370__PLAT3_PONAB_Phospholipase_A_and_acyltransferase_3_OS_
+|                             |     +--| (19.1/0.446/81)
+|                             |        +------------MetazoaMolluscaEP00106Octopusbimaculoides_4160369__PLAT2_HUMAN_Phospholipase_A_and_acyltransferase_2_OS_
+|                          +--| (92.3/1/87)
+|                          |  |        +-----MetazoaPoriferaHaliclonatubifera_4958144__LRAT2_HUMAN_Protein_LRATD2_OS_
+|                          |  +--------| (99.7/1/100)
+|                          |           +---------MetazoaPoriferaStylissacarteri_5098842__PLAT1_HUMAN_Phospholipase_A_and_acyltransferase_1_OS_
+|                       +--| (76.3/0.641/50)
+|                       |  |                   +--CryptophyceaeEP00290BaffinellaspCCMP2293_12059753__LRAT_BOVIN_Lecithin_retinol_acyltransferase_OS_
+|                       |  |               +---| (95.6/1/100)
+|                       |  |               |   +**CryptophyceaeEP00290BaffinellaspCCMP2293_12040984__LRAT_BOVIN_Lecithin_retinol_acyltransferase_OS_
+|                       |  |  +------------| (99.8/1/100)
+|                       |  |  |            +---CryptophyceaeGuillardiathetaUP000011087_12256407__PLAT3_RAT_Phospholipase_A_and_acyltransferase_3_OS_
+|                       |  +--| (47.6/0.42/45)
+|                       |     |    +-----------PluriformeaEP00127Corallochytriumlimacisporum_21618992__LRAT_MOUSE_Lecithin_retinol_acyltransferase_OS_
+|                       |     +----| (86.2/0.992/58)
+|                       |          |              +--MetazoaPoriferaEP00118Oscarellapearsei_4817229__LRAT_HUMAN_Lecithin_retinol_acyltransferase_OS_
+|                       |          +--------------| (99.8/1/100)
+|                       |                         +--MetazoaPoriferaEP00118Oscarellapearsei_4817230__LRAT_BOVIN_Lecithin_retinol_acyltransferase_OS_
+|                    +--| (56.5/0.448/50)
+|                    |  |     +---------------MetazoaCnidariaAnthopleuraelegantissima_3018731_
+|                    |  +-----| (94.5/1/99)
+|                    |        |  +------------MetazoaCnidariaMadracisauretenra_3309881_
+|                    |        +--| (87.4/0.939/100)
+|                    |           +----------MetazoaCnidariaPoritesaustraliensis_3537271_
+|      +-------------| (99.9/1/100)
+|      |             |  +----------------MetazoaAcoelaHofsteniamiamia_4411_
+|      |             +--| (50.9/0.389/52)
+|      |                +---------------RhodelphisEP00736Rhodelphismarinus_22805195__LRAT_BOVIN_Lecithin_retinol_acyltransferase_OS_
+|  +---| (97.9/1/100)
+|  |   +--MetazoaCnidariaAnthopleuraelegantissima_3013074_
++--| (81.4/0.788/95)
+|  +--MetazoaCnidariaFungiascutaria_3204893_
+|
+|     +--MetazoaCnidariaPoritesaustraliensis_3539203_
+|  +--| (97.3/1/95)
+|  |  +--MetazoaCnidariaAstreoporasp_3045117_
++--| (62.4/0.851/94)
+   +--MetazoaCnidariaMontastraeacavernosa_3351517_
+
+Tree in newick format:
+
+(MetazoaCnidariaStylophorapistillata_3669339_:0.2007089675,((((((((((((((MetazoaVertebrateDaniorerio_5420356__PLAT2_HUMAN_Phospholipase_A_and_acyltransferase_2_OS_:0.0811661312,MetazoaVertebrateDaniorerio_5420357__PLAT4_HUMAN_Phospholipase_A_and_acyltransferase_4_OS_:0.1401107529)100/1/100:1.2473055250,((MetazoaHemichordataSaccoglossuskowalevskii_4059982__PLAT3_RAT_Phospholipase_A_and_acyltransferase_3_OS_:1.2988553161,MetazoaVertebrateEptatretusburgeri_6409487__PLAT3_RAT_Phospholipase_A_and_acyltransferase_3_OS_:1.4513458557)82.1/0.791/78:0.3501655683,MetazoaHemichordataSaccoglossuskowalevskii_4069108__LRAT2_HUMAN_Protein_LRATD2_OS_:1.5183104329)19.7/0.365/63:0.0771096417)85.4/0.994/70:0.1814977598,(MetazoaCnidariaClytiahemisphaerica_3096585__PLAT4_HUMAN_Phospholipase_A_and_acyltransferase_4_OS_:0.4035873874,MetazoaPoriferaLeucosoleniacomplicata_5045739__PLAT2_HUMAN_Phospholipase_A_and_acyltransferase_2_OS_:0.7634467655)100/1/100:1.1625831070)0/0.333/13:0.0000022090,(MetazoaArthropodaDaphniapulex_214295__PLAT2_HUMAN_Phospholipase_A_and_acyltransferase_2_OS_:1.6272955281,MetazoaArthropodaEP00090Calanusglacialis_678642__PLAT1_HUMAN_Phospholipase_A_and_acyltransferase_1_OS_:1.1754093385)70/0.593/44:0.2626281504)56.6/0.533/21:0.1004451927,(((((((MetazoaVertebrateDaniorerio_5435836__LRAT_BOVIN_Lecithin_retinol_acyltransferase_OS_:0.2497276830,MetazoaVertebrateDaniorerio_5416499__LRAT_MOUSE_Lecithin_retinol_acyltransferase_OS_:0.3769464107)97.4/1/100:0.2732193754,(((MetazoaVertebrateMusmusculus_6547546__LRAT_MOUSE_Lecithin_retinol_acyltransferase_OS_:0.2015158399,MetazoaVertebrateHomosapiens_6453389__LRAT_HUMAN_Lecithin_retinol_acyltransferase_OS_:0.0578738904)100/1/100:0.2862149189,MetazoaVertebrateDaniorerio_5425012__LRAT_BOVIN_Lecithin_retinol_acyltransferase_OS_:0.2994680706)57.6/0.856/72:0.0745241728,MetazoaVertebrateDaniorerio_5415241__LRAT_BOVIN_Lecithin_retinol_acyltransferase_OS_:0.2030534942)91.5/0.978/75:0.1590312131)0/0.345/41:0.0253105503,MetazoaVertebrateEptatretusburgeri_6407140__LRAT_BOVIN_Lecithin_retinol_acyltransferase_OS_:0.5957235443)100/1/100:1.1815628610,MetazoaNematodaLoaloa_4406313__F172A_CAEEL_FAM172_family_protein_homolog_Y75B8A.31_OS_:1.5386797552)0/0.333/18:0.0000026756,MetazoaVertebrateDaniorerio_5420912__PLAT1_RAT_Phospholipase_A_and_acyltransferase_1_OS_:1.7498140950)90.4/0.993/39:0.2383790674,((((((MetazoaCephalochordataBranchiostomabelcheri_2795997__PLAT1_RAT_Phospholipase_A_and_acyltransferase_1_OS_:0.5500648279,MetazoaCephalochordataBranchiostomabelcheri_2796139__PLAT1_MOUSE_Phospholipase_A_and_acyltransferase_1_OS_:0.8528411124)84.7/0.885/75:0.1818084028,(MetazoaCephalochordataBranchiostomabelcheri_2796045__PLAT3_RAT_Phospholipase_A_and_acyltransferase_3_OS_:0.3487694439,(MetazoaCephalochordataBranchiostomabelcheri_2796061__PLAT1_HUMAN_Phospholipase_A_and_acyltransferase_1_OS_:0.4103382691,(MetazoaCephalochordataBranchiostomabelcheri_2799601__PLAT3_RAT_Phospholipase_A_and_acyltransferase_3_OS_:0.0000010562,MetazoaCephalochordataBranchiostomabelcheri_2799602__PLAT3_RAT_Phospholipase_A_and_acyltransferase_3_OS_:0.0000010562)100/1/100:1.0964914880)86.8/0.99/98:0.2540852419)50.9/0.883/69:0.1106423386)85.5/0.958/93:0.0789556128,(MetazoaHemichordataSaccoglossuskowalevskii_4057012__PLAT3_RAT_Phospholipase_A_and_acyltransferase_3_OS_:0.0000026010,MetazoaHemichordataSaccoglossuskowalevskii_4062344__PLAT3_RAT_Phospholipase_A_and_acyltransferase_3_OS_:0.0068899771)100/1/100:0.5593816818)87.2/0.997/79:0.1068541695,(((MetazoaBrachiopodaLingulaunguis_1298288__PLAT3_HUMAN_Phospholipase_A_and_acyltransferase_3_OS_:0.2293766451,MetazoaBrachiopodaLingulaunguis_1302550__PLAT1_HUMAN_Phospholipase_A_and_acyltransferase_1_OS_:0.2054800174)89.9/0.998/99:0.2577366302,MetazoaRotiferaBrachionusplicatilis_5253929__PLAT3_RAT_Phospholipase_A_and_acyltransferase_3_OS_:1.4790267569)82.1/0.948/92:0.2401895519,(MetazoaBrachiopodaLingulaunguis_1299417__PLAT3_HUMAN_Phospholipase_A_and_acyltransferase_3_OS_:0.0462675194,MetazoaBrachiopodaLingulaunguis_1283932__PLAT3_HUMAN_Phospholipase_A_and_acyltransferase_3_OS_:0.2004669834)96.8/1/99:0.2343263414)97.7/1/94:0.2673150576)23.3/0.666/58:0.1537870667,(MetazoaMolluscaLottiagigantea_4204378__PLAT3_MOUSE_Phospholipase_A_and_acyltransferase_3_OS_:0.5007689497,MetazoaPoriferaLeucosoleniacomplicata_4975009__PLAT3_HUMAN_Phospholipase_A_and_acyltransferase_3_OS_:0.7431368724)89.8/0.985/94:0.1797053113)67.5/0.968/77:0.1836833840,((((MetazoaCnidariaStylophorapistillata_3678277__PLAT3_RAT_Phospholipase_A_and_acyltransferase_3_OS_:0.8073568915,MetazoaCnidariaAnthopleuraelegantissima_3005818__PLAT3_MOUSE_Phospholipase_A_and_acyltransferase_3_OS_:0.9263539297)77.3/0.615/99:0.1473143714,MetazoaCnidariaAnthopleuraelegantissima_2997299__PLAT3_RAT_Phospholipase_A_and_acyltransferase_3_OS_:0.6953936607)84.9/0.963/93:0.1337057507,(MetazoaCnidariaAnthopleuraelegantissima_2998386__PLAT1_RAT_Phospholipase_A_and_acyltransferase_1_OS_:0.9543230741,MetazoaCnidariaAnthopleuraelegantissima_3005089__PLAT3_HUMAN_Phospholipase_A_and_acyltransferase_3_OS_:0.4620908693)97.3/1/100:0.4572335055)94/1/100:0.3436554104,MetazoaHemichordataSaccoglossuskowalevskii_4048805__PLAT3_RAT_Phospholipase_A_and_acyltransferase_3_OS_:0.9474675312)34.5/0.58/28:0.1475467970)72.7/0.893/64:0.1952241949)0/0.343/11:0.0227281544,(MetazoaPoriferaSyconciliatum_5143426__PLAT1_MOUSE_Phospholipase_A_and_acyltransferase_1_OS_:0.2749709563,(MetazoaPoriferaLeucosoleniacomplicata_4984178__PLAT1_MOUSE_Phospholipase_A_and_acyltransferase_1_OS_:0.0000023677,MetazoaPoriferaLeucosoleniacomplicata_5035242__PLAT1_MOUSE_Phospholipase_A_and_acyltransferase_1_OS_:0.0000021753)99.4/1/100:0.6959313373)100/1/100:1.1141230740)87.8/0.943/23:0.1523116327)89.1/0.997/60:0.1005954295,(((((MetazoaEchinodermataAcanthasterplanci_3779535__PLAT3_RAT_Phospholipase_A_and_acyltransferase_3_OS_:0.3757105745,MetazoaEchinodermataAcanthasterplanci_3781807__PLAT4_HUMAN_Phospholipase_A_and_acyltransferase_4_OS_:0.0549184795)91.1/0.996/99:0.1191808630,MetazoaEchinodermataAcanthasterplanci_3781729__PLAT3_RAT_Phospholipase_A_and_acyltransferase_3_OS_:0.2093642208)89.2/0.964/99:0.2112852647,MetazoaEchinodermataAcanthasterplanci_3791876__PLAT1_HUMAN_Phospholipase_A_and_acyltransferase_1_OS_:0.7869827076)57.2/0.831/83:0.2177359518,(MetazoaEchinodermataAcanthasterplanci_3781827__PLAT1_MOUSE_Phospholipase_A_and_acyltransferase_1_OS_:0.1032120963,MetazoaEchinodermataAcanthasterplanci_3782589__PLAT4_HUMAN_Phospholipase_A_and_acyltransferase_4_OS_:0.0636673911)99.5/1/100:0.5327351016)100/1/100:0.7661864618,((MetazoaMolluscaEP00106Octopusbimaculoides_4156353__PLAT1_RAT_Phospholipase_A_and_acyltransferase_1_OS_:0.5012967178,MetazoaMolluscaLottiagigantea_4203388__PLAT3_RAT_Phospholipase_A_and_acyltransferase_3_OS_:0.7036327843)97.5/1/99:0.5025926837,MetazoaTardigradaRamazzotiusvarieornatus_5290952__PLAT3_MOUSE_Phospholipase_A_and_acyltransferase_3_OS_:0.8368275205)97.6/1/99:0.5774548109)0/0.335/25:0.0094652248)73.4/0.583/36:0.0303622217,((((((((MetazoaVertebrateMusmusculus_6542956__PLAT3_MOUSE_Phospholipase_A_and_acyltransferase_3_OS_:0.1308307412,MetazoaVertebrateHomosapiens_6456871__PLAT3_HUMAN_Phospholipase_A_and_acyltransferase_3_OS_:0.0955935717)91/0.99/100:0.1125812967,MetazoaVertebrateHomosapiens_6468958__PLAT2_HUMAN_Phospholipase_A_and_acyltransferase_2_OS_:0.3257888926)98.6/1/99:0.2552695745,((MetazoaVertebrateMusmusculus_6545226__PLAT5_MOUSE_Phospholipase_A_and_acyltransferase_5_OS_:0.0441807138,MetazoaVertebrateHomosapiens_6465905__PLAT5_HUMAN_Phospholipase_A_and_acyltransferase_5_OS_:0.1113415702)100/1/100:0.6142420395,MetazoaVertebrateHomosapiens_6469942__PLAT4_HUMAN_Phospholipase_A_and_acyltransferase_4_OS_:0.4343317166)37.9/0.808/82:0.1455345295)53.5/0.721/92:0.1023784429,(MetazoaVertebrateDaniorerio_5433263__PLAT3_PONAB_Phospholipase_A_and_acyltransferase_3_OS_:0.2431577219,MetazoaVertebrateDaniorerio_5413327__PLAT3_PONAB_Phospholipase_A_and_acyltransferase_3_OS_:0.1641128573)99.6/1/100:0.4104350366)97.5/1/99:0.2979951525,((MetazoaVertebrateMusmusculus_6548232__PLAT1_MOUSE_Phospholipase_A_and_acyltransferase_1_OS_:0.1013721891,MetazoaVertebrateHomosapiens_6468389__PLAT1_HUMAN_Phospholipase_A_and_acyltransferase_1_OS_:0.1126407825)99/1/100:0.3138294046,MetazoaVertebrateDaniorerio_5414209__PLAT1_MOUSE_Phospholipase_A_and_acyltransferase_1_OS_:0.2810695292)99.2/1/100:0.3930361233)44.3/0.574/91:0.0590708501,(MetazoaVertebrateEptatretusburgeri_6385209__PLAT1_RAT_Phospholipase_A_and_acyltransferase_1_OS_:0.1842361127,MetazoaVertebrateEptatretusburgeri_6385211__PLAT1_MOUSE_Phospholipase_A_and_acyltransferase_1_OS_:0.0466648514)100/1/100:0.6842896846)85.5/0.987/98:0.1271099161,MetazoaAcoelaHofsteniamiamia_16354__PLAT1_HUMAN_Phospholipase_A_and_acyltransferase_1_OS_:1.0290465989)77.6/0.724/98:0.0904685802,MetazoaCephalochordataBranchiostomabelcheri_2827403__PLAT1_RAT_Phospholipase_A_and_acyltransferase_1_OS_:1.0096322037)94.5/1/76:0.2654057058)95.9/1/75:0.1704497996,(StramenopilesPhytophthorainfestansUP000006643_26376550__LRAT_RAT_Lecithin_retinol_acyltransferase_OS_:1.3029537870,(((MetazoaPoriferaLeucosoleniacomplicata_5010111__PLAT3_PONAB_Phospholipase_A_and_acyltransferase_3_OS_:0.6745136996,MetazoaPoriferaLeucosoleniacomplicata_5042006__PLAT2_HUMAN_Phospholipase_A_and_acyltransferase_2_OS_:0.6657094258)99.4/1/100:0.7365353919,((MetazoaPoriferaSyconciliatum_5138130__PLAT3_PONAB_Phospholipase_A_and_acyltransferase_3_OS_:0.2807588544,MetazoaPoriferaLeucosoleniacomplicata_5052466__PLAT3_MOUSE_Phospholipase_A_and_acyltransferase_3_OS_:0.3667826946)100/1/100:0.7326629416,(MetazoaPoriferaLeucosoleniacomplicata_5018539__PLAT2_HUMAN_Phospholipase_A_and_acyltransferase_2_OS_:0.3307902872,MetazoaPoriferaSyconciliatum_5104370__PLAT3_PONAB_Phospholipase_A_and_acyltransferase_3_OS_:0.3367096110)100/1/100:0.8716495141)34.7/0.362/84:0.0438030853)89.3/0.998/93:0.2023627428,MetazoaMolluscaEP00106Octopusbimaculoides_4160369__PLAT2_HUMAN_Phospholipase_A_and_acyltransferase_2_OS_:1.0983978901)19.1/0.446/81:0.0679997557)76.7/0.669/64:0.1154341559)62.8/0.568/53:0.0619248606,(MetazoaPoriferaHaliclonatubifera_4958144__LRAT2_HUMAN_Protein_LRATD2_OS_:0.5437802392,MetazoaPoriferaStylissacarteri_5098842__PLAT1_HUMAN_Phospholipase_A_and_acyltransferase_1_OS_:0.8755809704)99.7/1/100:0.7619864418)92.3/1/87:0.1539307815,(((CryptophyceaeEP00290BaffinellaspCCMP2293_12059753__LRAT_BOVIN_Lecithin_retinol_acyltransferase_OS_:0.0183389031,CryptophyceaeEP00290BaffinellaspCCMP2293_12040984__LRAT_BOVIN_Lecithin_retinol_acyltransferase_OS_:0.0000022729)95.6/1/100:0.3431959384,CryptophyceaeGuillardiathetaUP000011087_12256407__PLAT3_RAT_Phospholipase_A_and_acyltransferase_3_OS_:0.3778487472)99.8/1/100:1.1501844740,(PluriformeaEP00127Corallochytriumlimacisporum_21618992__LRAT_MOUSE_Lecithin_retinol_acyltransferase_OS_:1.0656798281,(MetazoaPoriferaEP00118Oscarellapearsei_4817229__LRAT_HUMAN_Lecithin_retinol_acyltransferase_OS_:0.1570866410,MetazoaPoriferaEP00118Oscarellapearsei_4817230__LRAT_BOVIN_Lecithin_retinol_acyltransferase_OS_:0.2315515825)99.8/1/100:1.3031601320)86.2/0.992/58:0.4515072006)47.6/0.42/45:0.1233316175)76.3/0.641/50:0.1170063387,(MetazoaCnidariaAnthopleuraelegantissima_3018731_:1.3411535132,(MetazoaCnidariaMadracisauretenra_3309881_:1.1581104119,MetazoaCnidariaPoritesaustraliensis_3537271_:0.9579724002)87.4/0.939/100:0.3024963865)94.5/1/99:0.5174822647)56.5/0.448/50:0.0819831832,(MetazoaAcoelaHofsteniamiamia_4411_:1.4647697572,RhodelphisEP00736Rhodelphismarinus_22805195__LRAT_BOVIN_Lecithin_retinol_acyltransferase_OS_:1.3370658847)50.9/0.389/52:0.1116406841)99.9/1/100:1.1903282160,MetazoaCnidariaAnthopleuraelegantissima_3013074_:0.2267570110)97.9/1/100:0.3473641039,MetazoaCnidariaFungiascutaria_3204893_:0.0340037910)81.4/0.788/95:0.0358212032,((MetazoaCnidariaPoritesaustraliensis_3539203_:0.0991276069,MetazoaCnidariaAstreoporasp_3045117_:0.0919657725)97.3/1/95:0.0742879550,MetazoaCnidariaMontastraeacavernosa_3351517_:0.0820447677)62.4/0.851/94:0.0178410381);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -28871.720630
+Robinson-Foulds distance between ML tree and consensus tree: 12
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++--MetazoaCnidariaStylophorapistillata_3669339_
+|
+|                                                             +--MetazoaVertebrateDaniorerio_5420356__PLAT2_HUMAN_Phospholipase_A_and_acyltransferase_2_OS_
+|                                               +-------------| (100)
+|                                               |             +--MetazoaVertebrateDaniorerio_5420357__PLAT4_HUMAN_Phospholipase_A_and_acyltransferase_4_OS_
+|                                            +--| (70)
+|                                            |  |      +--------------MetazoaHemichordataSaccoglossuskowalevskii_4059982__PLAT3_RAT_Phospholipase_A_and_acyltransferase_3_OS_
+|                                            |  |  +---| (78)
+|                                            |  |  |   +----------------MetazoaVertebrateEptatretusburgeri_6409487__PLAT3_RAT_Phospholipase_A_and_acyltransferase_3_OS_
+|                                            |  +--| (63)
+|                                            |     +----------------MetazoaHemichordataSaccoglossuskowalevskii_4069108__LRAT2_HUMAN_Protein_LRATD2_OS_
+|                                         +--| (13)
+|                                         |  |            +---MetazoaCnidariaClytiahemisphaerica_3096585__PLAT4_HUMAN_Phospholipase_A_and_acyltransferase_4_OS_
+|                                         |  +------------| (100)
+|                                         |               +--------MetazoaPoriferaLeucosoleniacomplicata_5045739__PLAT2_HUMAN_Phospholipase_A_and_acyltransferase_2_OS_
+|                                      +--| (21)
+|                                      |  |  +------------------MetazoaArthropodaDaphniapulex_214295__PLAT2_HUMAN_Phospholipase_A_and_acyltransferase_2_OS_
+|                                      |  +--| (44)
+|                                      |     +------------MetazoaArthropodaEP00090Calanusglacialis_678642__PLAT1_HUMAN_Phospholipase_A_and_acyltransferase_1_OS_
+|                                   +--| (60)
+|                                   |  |                        +--MetazoaVertebrateDaniorerio_5435836__LRAT_BOVIN_Lecithin_retinol_acyltransferase_OS_
+|                                   |  |                     +--| (100)
+|                                   |  |                     |  +---MetazoaVertebrateDaniorerio_5416499__LRAT_MOUSE_Lecithin_retinol_acyltransferase_OS_
+|                                   |  |                  +--| (41)
+|                                   |  |                  |  |        +--MetazoaVertebrateMusmusculus_6547546__LRAT_MOUSE_Lecithin_retinol_acyltransferase_OS_
+|                                   |  |                  |  |     +--| (100)
+|                                   |  |                  |  |     |  +--MetazoaVertebrateHomosapiens_6453389__LRAT_HUMAN_Lecithin_retinol_acyltransferase_OS_
+|                                   |  |                  |  |  +--| (72)
+|                                   |  |                  |  |  |  +--MetazoaVertebrateDaniorerio_5425012__LRAT_BOVIN_Lecithin_retinol_acyltransferase_OS_
+|                                   |  |                  |  +--| (75)
+|                                   |  |                  |     +--MetazoaVertebrateDaniorerio_5415241__LRAT_BOVIN_Lecithin_retinol_acyltransferase_OS_
+|                                   |  |  +---------------| (100)
+|                                   |  |  |               +------MetazoaVertebrateEptatretusburgeri_6407140__LRAT_BOVIN_Lecithin_retinol_acyltransferase_OS_
+|                                   |  +--| (23)
+|                                   |     |                          +-----MetazoaCephalochordataBranchiostomabelcheri_2795997__PLAT1_RAT_Phospholipase_A_and_acyltransferase_1_OS_
+|                                   |     |                       +--| (75)
+|                                   |     |                       |  +---------MetazoaCephalochordataBranchiostomabelcheri_2796139__PLAT1_MOUSE_Phospholipase_A_and_acyltransferase_1_OS_
+|                                   |     |                    +--| (93)
+|                                   |     |                    |  |  +---MetazoaCephalochordataBranchiostomabelcheri_2796045__PLAT3_RAT_Phospholipase_A_and_acyltransferase_3_OS_
+|                                   |     |                    |  +--| (69)
+|                                   |     |                    |     |  +---MetazoaCephalochordataBranchiostomabelcheri_2796061__PLAT1_HUMAN_Phospholipase_A_and_acyltransferase_1_OS_
+|                                   |     |                    |     +--| (98)
+|                                   |     |                    |        |            +--MetazoaCephalochordataBranchiostomabelcheri_2799601__PLAT3_RAT_Phospholipase_A_and_acyltransferase_3_OS_
+|                                   |     |                    |        +------------| (100)
+|                                   |     |                    |                     +--MetazoaCephalochordataBranchiostomabelcheri_2799602__PLAT3_RAT_Phospholipase_A_and_acyltransferase_3_OS_
+|                                   |     |                 +--| (79)
+|                                   |     |                 |  |     +--MetazoaHemichordataSaccoglossuskowalevskii_4057012__PLAT3_RAT_Phospholipase_A_and_acyltransferase_3_OS_
+|                                   |     |                 |  +-----| (100)
+|                                   |     |                 |        +--MetazoaHemichordataSaccoglossuskowalevskii_4062344__PLAT3_RAT_Phospholipase_A_and_acyltransferase_3_OS_
+|                                   |     |              +--| (58)
+|                                   |     |              |  |        +--MetazoaBrachiopodaLingulaunguis_1298288__PLAT3_HUMAN_Phospholipase_A_and_acyltransferase_3_OS_
+|                                   |     |              |  |     +--| (99)
+|                                   |     |              |  |     |  +--MetazoaBrachiopodaLingulaunguis_1302550__PLAT1_HUMAN_Phospholipase_A_and_acyltransferase_1_OS_
+|                                   |     |              |  |  +--| (92)
+|                                   |     |              |  |  |  +----------------MetazoaRotiferaBrachionusplicatilis_5253929__PLAT3_RAT_Phospholipase_A_and_acyltransferase_3_OS_
+|                                   |     |              |  +--| (94)
+|                                   |     |              |     |  +--MetazoaBrachiopodaLingulaunguis_1299417__PLAT3_HUMAN_Phospholipase_A_and_acyltransferase_3_OS_
+|                                   |     |              |     +--| (99)
+|                                   |     |              |        +--MetazoaBrachiopodaLingulaunguis_1283932__PLAT3_HUMAN_Phospholipase_A_and_acyltransferase_3_OS_
+|                                   |     |           +--| (77)
+|                                   |     |           |  |  +----MetazoaMolluscaLottiagigantea_4204378__PLAT3_MOUSE_Phospholipase_A_and_acyltransferase_3_OS_
+|                                   |     |           |  +--| (94)
+|                                   |     |           |     +-------MetazoaPoriferaLeucosoleniacomplicata_4975009__PLAT3_HUMAN_Phospholipase_A_and_acyltransferase_3_OS_
+|                                   |     |        +--| (39)
+|                                   |     |        |  +----------MetazoaHemichordataSaccoglossuskowalevskii_4048805__PLAT3_RAT_Phospholipase_A_and_acyltransferase_3_OS_
+|                                   |     |     +--| (64)
+|                                   |     |     |  |          +--------MetazoaCnidariaStylophorapistillata_3678277__PLAT3_RAT_Phospholipase_A_and_acyltransferase_3_OS_
+|                                   |     |     |  |       +--| (99)
+|                                   |     |     |  |       |  +---------MetazoaCnidariaAnthopleuraelegantissima_3005818__PLAT3_MOUSE_Phospholipase_A_and_acyltransferase_3_OS_
+|                                   |     |     |  |    +--| (93)
+|                                   |     |     |  |    |  +-------MetazoaCnidariaAnthopleuraelegantissima_2997299__PLAT3_RAT_Phospholipase_A_and_acyltransferase_3_OS_
+|                                   |     |     |  +----| (100)
+|                                   |     |     |       |    +----------MetazoaCnidariaAnthopleuraelegantissima_2998386__PLAT1_RAT_Phospholipase_A_and_acyltransferase_1_OS_
+|                                   |     |     |       +----| (100)
+|                                   |     |     |            +----MetazoaCnidariaAnthopleuraelegantissima_3005089__PLAT3_HUMAN_Phospholipase_A_and_acyltransferase_3_OS_
+|                                   |     |  +--| (19)
+|                                   |     |  |  +----------------------MetazoaVertebrateDaniorerio_5420912__PLAT1_RAT_Phospholipase_A_and_acyltransferase_1_OS_
+|                                   |     +--| (10)
+|                                   |        |             +--MetazoaPoriferaSyconciliatum_5143426__PLAT1_MOUSE_Phospholipase_A_and_acyltransferase_1_OS_
+|                                   |        |  +----------| (100)
+|                                   |        |  |          |       +--MetazoaPoriferaLeucosoleniacomplicata_4984178__PLAT1_MOUSE_Phospholipase_A_and_acyltransferase_1_OS_
+|                                   |        |  |          +-------| (100)
+|                                   |        |  |                  +--MetazoaPoriferaLeucosoleniacomplicata_5035242__PLAT1_MOUSE_Phospholipase_A_and_acyltransferase_1_OS_
+|                                   |        +--| (43)
+|                                   |           +-----------------MetazoaNematodaLoaloa_4406313__F172A_CAEEL_FAM172_family_protein_homolog_Y75B8A.31_OS_
+|                                +--| (75)
+|                                |  |                             +--MetazoaVertebrateMusmusculus_6542956__PLAT3_MOUSE_Phospholipase_A_and_acyltransferase_3_OS_
+|                                |  |                          +--| (100)
+|                                |  |                          |  +--MetazoaVertebrateHomosapiens_6456871__PLAT3_HUMAN_Phospholipase_A_and_acyltransferase_3_OS_
+|                                |  |                       +--| (99)
+|                                |  |                       |  +--MetazoaVertebrateHomosapiens_6468958__PLAT2_HUMAN_Phospholipase_A_and_acyltransferase_2_OS_
+|                                |  |                    +--| (92)
+|                                |  |                    |  |         +--MetazoaVertebrateMusmusculus_6545226__PLAT5_MOUSE_Phospholipase_A_and_acyltransferase_5_OS_
+|                                |  |                    |  |  +------| (100)
+|                                |  |                    |  |  |      +--MetazoaVertebrateHomosapiens_6465905__PLAT5_HUMAN_Phospholipase_A_and_acyltransferase_5_OS_
+|                                |  |                    |  +--| (82)
+|                                |  |                    |     +----MetazoaVertebrateHomosapiens_6469942__PLAT4_HUMAN_Phospholipase_A_and_acyltransferase_4_OS_
+|                                |  |                 +--| (99)
+|                                |  |                 |  |   +--MetazoaVertebrateDaniorerio_5433263__PLAT3_PONAB_Phospholipase_A_and_acyltransferase_3_OS_
+|                                |  |                 |  +---| (100)
+|                                |  |                 |      +--MetazoaVertebrateDaniorerio_5413327__PLAT3_PONAB_Phospholipase_A_and_acyltransferase_3_OS_
+|                                |  |              +--| (91)
+|                                |  |              |  |      +--MetazoaVertebrateMusmusculus_6548232__PLAT1_MOUSE_Phospholipase_A_and_acyltransferase_1_OS_
+|                                |  |              |  |   +--| (100)
+|                                |  |              |  |   |  +--MetazoaVertebrateHomosapiens_6468389__PLAT1_HUMAN_Phospholipase_A_and_acyltransferase_1_OS_
+|                                |  |              |  +---| (100)
+|                                |  |              |      +--MetazoaVertebrateDaniorerio_5414209__PLAT1_MOUSE_Phospholipase_A_and_acyltransferase_1_OS_
+|                                |  |           +--| (98)
+|                                |  |           |  |       +--MetazoaVertebrateEptatretusburgeri_6385209__PLAT1_RAT_Phospholipase_A_and_acyltransferase_1_OS_
+|                                |  |           |  +-------| (100)
+|                                |  |           |          +--MetazoaVertebrateEptatretusburgeri_6385211__PLAT1_MOUSE_Phospholipase_A_and_acyltransferase_1_OS_
+|                                |  |        +--| (98)
+|                                |  |        |  +-----------MetazoaAcoelaHofsteniamiamia_16354__PLAT1_HUMAN_Phospholipase_A_and_acyltransferase_1_OS_
+|                                |  |     +--| (76)
+|                                |  |     |  +----------MetazoaCephalochordataBranchiostomabelcheri_2827403__PLAT1_RAT_Phospholipase_A_and_acyltransferase_1_OS_
+|                                |  |  +--| (54)
+|                                |  |  |  |          +----MetazoaMolluscaEP00106Octopusbimaculoides_4156353__PLAT1_RAT_Phospholipase_A_and_acyltransferase_1_OS_
+|                                |  |  |  |     +----| (99)
+|                                |  |  |  |     |    +-------MetazoaMolluscaLottiagigantea_4203388__PLAT3_RAT_Phospholipase_A_and_acyltransferase_3_OS_
+|                                |  |  |  +-----| (99)
+|                                |  |  |        +---------MetazoaTardigradaRamazzotiusvarieornatus_5290952__PLAT3_MOUSE_Phospholipase_A_and_acyltransferase_3_OS_
+|                                |  +--| (26)
+|                                |     |                 +---MetazoaEchinodermataAcanthasterplanci_3779535__PLAT3_RAT_Phospholipase_A_and_acyltransferase_3_OS_
+|                                |     |              +--| (99)
+|                                |     |              |  +--MetazoaEchinodermataAcanthasterplanci_3781807__PLAT4_HUMAN_Phospholipase_A_and_acyltransferase_4_OS_
+|                                |     |           +--| (99)
+|                                |     |           |  +--MetazoaEchinodermataAcanthasterplanci_3781729__PLAT3_RAT_Phospholipase_A_and_acyltransferase_3_OS_
+|                                |     |        +--| (83)
+|                                |     |        |  +--------MetazoaEchinodermataAcanthasterplanci_3791876__PLAT1_HUMAN_Phospholipase_A_and_acyltransferase_1_OS_
+|                                |     +--------| (100)
+|                                |              |     +--MetazoaEchinodermataAcanthasterplanci_3781827__PLAT1_MOUSE_Phospholipase_A_and_acyltransferase_1_OS_
+|                                |              +-----| (100)
+|                                |                    +--MetazoaEchinodermataAcanthasterplanci_3782589__PLAT4_HUMAN_Phospholipase_A_and_acyltransferase_4_OS_
+|                             +--| (53)
+|                             |  |  +--------------StramenopilesPhytophthorainfestansUP000006643_26376550__LRAT_RAT_Lecithin_retinol_acyltransferase_OS_
+|                             |  +--| (64)
+|                             |     |             +-------MetazoaPoriferaLeucosoleniacomplicata_5010111__PLAT3_PONAB_Phospholipase_A_and_acyltransferase_3_OS_
+|                             |     |     +-------| (100)
+|                             |     |     |       +------MetazoaPoriferaLeucosoleniacomplicata_5042006__PLAT2_HUMAN_Phospholipase_A_and_acyltransferase_2_OS_
+|                             |     |  +--| (93)
+|                             |     |  |  |          +--MetazoaPoriferaSyconciliatum_5138130__PLAT3_PONAB_Phospholipase_A_and_acyltransferase_3_OS_
+|                             |     |  |  |  +-------| (100)
+|                             |     |  |  |  |       +---MetazoaPoriferaLeucosoleniacomplicata_5052466__PLAT3_MOUSE_Phospholipase_A_and_acyltransferase_3_OS_
+|                             |     |  |  +--| (84)
+|                             |     |  |     |         +--MetazoaPoriferaLeucosoleniacomplicata_5018539__PLAT2_HUMAN_Phospholipase_A_and_acyltransferase_2_OS_
+|                             |     |  |     +---------| (100)
+|                             |     |  |               +---MetazoaPoriferaSyconciliatum_5104370__PLAT3_PONAB_Phospholipase_A_and_acyltransferase_3_OS_
+|                             |     +--| (81)
+|                             |        +------------MetazoaMolluscaEP00106Octopusbimaculoides_4160369__PLAT2_HUMAN_Phospholipase_A_and_acyltransferase_2_OS_
+|                          +--| (87)
+|                          |  |        +-----MetazoaPoriferaHaliclonatubifera_4958144__LRAT2_HUMAN_Protein_LRATD2_OS_
+|                          |  +--------| (100)
+|                          |           +---------MetazoaPoriferaStylissacarteri_5098842__PLAT1_HUMAN_Phospholipase_A_and_acyltransferase_1_OS_
+|                       +--| (50)
+|                       |  |                   +--CryptophyceaeEP00290BaffinellaspCCMP2293_12059753__LRAT_BOVIN_Lecithin_retinol_acyltransferase_OS_
+|                       |  |               +---| (100)
+|                       |  |               |   +--CryptophyceaeEP00290BaffinellaspCCMP2293_12040984__LRAT_BOVIN_Lecithin_retinol_acyltransferase_OS_
+|                       |  |  +------------| (100)
+|                       |  |  |            +---CryptophyceaeGuillardiathetaUP000011087_12256407__PLAT3_RAT_Phospholipase_A_and_acyltransferase_3_OS_
+|                       |  +--| (45)
+|                       |     |    +-----------PluriformeaEP00127Corallochytriumlimacisporum_21618992__LRAT_MOUSE_Lecithin_retinol_acyltransferase_OS_
+|                       |     +----| (58)
+|                       |          |              +--MetazoaPoriferaEP00118Oscarellapearsei_4817229__LRAT_HUMAN_Lecithin_retinol_acyltransferase_OS_
+|                       |          +--------------| (100)
+|                       |                         +--MetazoaPoriferaEP00118Oscarellapearsei_4817230__LRAT_BOVIN_Lecithin_retinol_acyltransferase_OS_
+|                    +--| (50)
+|                    |  |     +--------------MetazoaCnidariaAnthopleuraelegantissima_3018731_
+|                    |  +-----| (99)
+|                    |        |  +------------MetazoaCnidariaMadracisauretenra_3309881_
+|                    |        +--| (100)
+|                    |           +----------MetazoaCnidariaPoritesaustraliensis_3537271_
+|      +-------------| (100)
+|      |             |  +----------------MetazoaAcoelaHofsteniamiamia_4411_
+|      |             +--| (52)
+|      |                +--------------RhodelphisEP00736Rhodelphismarinus_22805195__LRAT_BOVIN_Lecithin_retinol_acyltransferase_OS_
+|  +---| (100)
+|  |   +--MetazoaCnidariaAnthopleuraelegantissima_3013074_
++--| (95)
+|  +--MetazoaCnidariaFungiascutaria_3204893_
+|
+|     +--MetazoaCnidariaPoritesaustraliensis_3539203_
+|  +--| (95)
+|  |  +--MetazoaCnidariaAstreoporasp_3045117_
++--| (94)
+   +--MetazoaCnidariaMontastraeacavernosa_3351517_
+
+
+Consensus tree in newick format: 
+
+(MetazoaCnidariaStylophorapistillata_3669339_:0.2004320227,(((((((((((((MetazoaVertebrateDaniorerio_5420356__PLAT2_HUMAN_Phospholipase_A_and_acyltransferase_2_OS_:0.0803684028,MetazoaVertebrateDaniorerio_5420357__PLAT4_HUMAN_Phospholipase_A_and_acyltransferase_4_OS_:0.1409466992)100:1.2494606292,((MetazoaHemichordataSaccoglossuskowalevskii_4059982__PLAT3_RAT_Phospholipase_A_and_acyltransferase_3_OS_:1.2802399568,MetazoaVertebrateEptatretusburgeri_6409487__PLAT3_RAT_Phospholipase_A_and_acyltransferase_3_OS_:1.4508536519)78:0.3516979686,MetazoaHemichordataSaccoglossuskowalevskii_4069108__LRAT2_HUMAN_Protein_LRATD2_OS_:1.5066890061)63:0.0751344652)70:0.1741108843,(MetazoaCnidariaClytiahemisphaerica_3096585__PLAT4_HUMAN_Phospholipase_A_and_acyltransferase_4_OS_:0.4021359371,MetazoaPoriferaLeucosoleniacomplicata_5045739__PLAT2_HUMAN_Phospholipase_A_and_acyltransferase_2_OS_:0.7606237266)100:1.1379594745)13:0.0000029136,(MetazoaArthropodaDaphniapulex_214295__PLAT2_HUMAN_Phospholipase_A_and_acyltransferase_2_OS_:1.6365595553,MetazoaArthropodaEP00090Calanusglacialis_678642__PLAT1_HUMAN_Phospholipase_A_and_acyltransferase_1_OS_:1.1514515425)44:0.2663481445)21:0.1156900517,((((MetazoaVertebrateDaniorerio_5435836__LRAT_BOVIN_Lecithin_retinol_acyltransferase_OS_:0.2512437203,MetazoaVertebrateDaniorerio_5416499__LRAT_MOUSE_Lecithin_retinol_acyltransferase_OS_:0.3750437832)100:0.2757631277,(((MetazoaVertebrateMusmusculus_6547546__LRAT_MOUSE_Lecithin_retinol_acyltransferase_OS_:0.2013096231,MetazoaVertebrateHomosapiens_6453389__LRAT_HUMAN_Lecithin_retinol_acyltransferase_OS_:0.0577550038)100:0.2848401350,MetazoaVertebrateDaniorerio_5425012__LRAT_BOVIN_Lecithin_retinol_acyltransferase_OS_:0.2995319319)72:0.0745203765,MetazoaVertebrateDaniorerio_5415241__LRAT_BOVIN_Lecithin_retinol_acyltransferase_OS_:0.2033935211)75:0.1556655628)41:0.0111831399,MetazoaVertebrateEptatretusburgeri_6407140__LRAT_BOVIN_Lecithin_retinol_acyltransferase_OS_:0.6083953833)100:1.4227373894,(((((((((MetazoaCephalochordataBranchiostomabelcheri_2795997__PLAT1_RAT_Phospholipase_A_and_acyltransferase_1_OS_:0.5504694191,MetazoaCephalochordataBranchiostomabelcheri_2796139__PLAT1_MOUSE_Phospholipase_A_and_acyltransferase_1_OS_:0.8488659663)75:0.1843572990,(MetazoaCephalochordataBranchiostomabelcheri_2796045__PLAT3_RAT_Phospholipase_A_and_acyltransferase_3_OS_:0.3485039361,(MetazoaCephalochordataBranchiostomabelcheri_2796061__PLAT1_HUMAN_Phospholipase_A_and_acyltransferase_1_OS_:0.4086913456,(MetazoaCephalochordataBranchiostomabelcheri_2799601__PLAT3_RAT_Phospholipase_A_and_acyltransferase_3_OS_:0.0000022475,MetazoaCephalochordataBranchiostomabelcheri_2799602__PLAT3_RAT_Phospholipase_A_and_acyltransferase_3_OS_:0.0000020851)100:1.0926552100)98:0.2546842963)69:0.1076939617)93:0.0809435710,(MetazoaHemichordataSaccoglossuskowalevskii_4057012__PLAT3_RAT_Phospholipase_A_and_acyltransferase_3_OS_:0.0000020851,MetazoaHemichordataSaccoglossuskowalevskii_4062344__PLAT3_RAT_Phospholipase_A_and_acyltransferase_3_OS_:0.0068750652)100:0.5530781531)79:0.1002998715,(((MetazoaBrachiopodaLingulaunguis_1298288__PLAT3_HUMAN_Phospholipase_A_and_acyltransferase_3_OS_:0.2283515777,MetazoaBrachiopodaLingulaunguis_1302550__PLAT1_HUMAN_Phospholipase_A_and_acyltransferase_1_OS_:0.2056822422)99:0.2577973996,MetazoaRotiferaBrachionusplicatilis_5253929__PLAT3_RAT_Phospholipase_A_and_acyltransferase_3_OS_:1.4738072107)92:0.2378737089,(MetazoaBrachiopodaLingulaunguis_1299417__PLAT3_HUMAN_Phospholipase_A_and_acyltransferase_3_OS_:0.0466075937,MetazoaBrachiopodaLingulaunguis_1283932__PLAT3_HUMAN_Phospholipase_A_and_acyltransferase_3_OS_:0.1995184077)99:0.2328437208)94:0.2733055099)58:0.1687515110,(MetazoaMolluscaLottiagigantea_4204378__PLAT3_MOUSE_Phospholipase_A_and_acyltransferase_3_OS_:0.4905053739,MetazoaPoriferaLeucosoleniacomplicata_4975009__PLAT3_HUMAN_Phospholipase_A_and_acyltransferase_3_OS_:0.7425056781)94:0.1696329708)77:0.1231584359,MetazoaHemichordataSaccoglossuskowalevskii_4048805__PLAT3_RAT_Phospholipase_A_and_acyltransferase_3_OS_:1.0039961205)39:0.0887417519,(((MetazoaCnidariaStylophorapistillata_3678277__PLAT3_RAT_Phospholipase_A_and_acyltransferase_3_OS_:0.8069406474,MetazoaCnidariaAnthopleuraelegantissima_3005818__PLAT3_MOUSE_Phospholipase_A_and_acyltransferase_3_OS_:0.9176786535)99:0.1535063158,MetazoaCnidariaAnthopleuraelegantissima_2997299__PLAT3_RAT_Phospholipase_A_and_acyltransferase_3_OS_:0.6855356099)93:0.1165187852,(MetazoaCnidariaAnthopleuraelegantissima_2998386__PLAT1_RAT_Phospholipase_A_and_acyltransferase_1_OS_:0.9357458942,MetazoaCnidariaAnthopleuraelegantissima_3005089__PLAT3_HUMAN_Phospholipase_A_and_acyltransferase_3_OS_:0.4767188289)100:0.4645280528)100:0.4235479628)64:0.2339634144,MetazoaVertebrateDaniorerio_5420912__PLAT1_RAT_Phospholipase_A_and_acyltransferase_1_OS_:1.9276758582)19:0.0000023219,((MetazoaPoriferaSyconciliatum_5143426__PLAT1_MOUSE_Phospholipase_A_and_acyltransferase_1_OS_:0.2605578788,(MetazoaPoriferaLeucosoleniacomplicata_4984178__PLAT1_MOUSE_Phospholipase_A_and_acyltransferase_1_OS_:0.0000020851,MetazoaPoriferaLeucosoleniacomplicata_5035242__PLAT1_MOUSE_Phospholipase_A_and_acyltransferase_1_OS_:0.0000020851)100:0.7089149046)100:0.9496822501,MetazoaNematodaLoaloa_4406313__F172A_CAEEL_FAM172_family_protein_homolog_Y75B8A.31_OS_:1.5303598897)43:0.1777807470)10:0.0163211164)23:0.1526195244)60:0.0983471775,((((((((((MetazoaVertebrateMusmusculus_6542956__PLAT3_MOUSE_Phospholipase_A_and_acyltransferase_3_OS_:0.1305481738,MetazoaVertebrateHomosapiens_6456871__PLAT3_HUMAN_Phospholipase_A_and_acyltransferase_3_OS_:0.0955233058)100:0.1124474249,MetazoaVertebrateHomosapiens_6468958__PLAT2_HUMAN_Phospholipase_A_and_acyltransferase_2_OS_:0.3252649479)99:0.2546066498,((MetazoaVertebrateMusmusculus_6545226__PLAT5_MOUSE_Phospholipase_A_and_acyltransferase_5_OS_:0.0438087183,MetazoaVertebrateHomosapiens_6465905__PLAT5_HUMAN_Phospholipase_A_and_acyltransferase_5_OS_:0.1114765334)100:0.6122269748,MetazoaVertebrateHomosapiens_6469942__PLAT4_HUMAN_Phospholipase_A_and_acyltransferase_4_OS_:0.4342916305)82:0.1455770414)92:0.1027400520,(MetazoaVertebrateDaniorerio_5433263__PLAT3_PONAB_Phospholipase_A_and_acyltransferase_3_OS_:0.2424737178,MetazoaVertebrateDaniorerio_5413327__PLAT3_PONAB_Phospholipase_A_and_acyltransferase_3_OS_:0.1640979796)100:0.4097435540)99:0.2967062150,((MetazoaVertebrateMusmusculus_6548232__PLAT1_MOUSE_Phospholipase_A_and_acyltransferase_1_OS_:0.1013360944,MetazoaVertebrateHomosapiens_6468389__PLAT1_HUMAN_Phospholipase_A_and_acyltransferase_1_OS_:0.1124327269)100:0.3127826245,MetazoaVertebrateDaniorerio_5414209__PLAT1_MOUSE_Phospholipase_A_and_acyltransferase_1_OS_:0.2809746504)100:0.3950302861)91:0.0589329405,(MetazoaVertebrateEptatretusburgeri_6385209__PLAT1_RAT_Phospholipase_A_and_acyltransferase_1_OS_:0.1839126638,MetazoaVertebrateEptatretusburgeri_6385211__PLAT1_MOUSE_Phospholipase_A_and_acyltransferase_1_OS_:0.0464378553)100:0.6798941667)98:0.1267595579,MetazoaAcoelaHofsteniamiamia_16354__PLAT1_HUMAN_Phospholipase_A_and_acyltransferase_1_OS_:1.0277116966)98:0.0923354264,MetazoaCephalochordataBranchiostomabelcheri_2827403__PLAT1_RAT_Phospholipase_A_and_acyltransferase_1_OS_:0.9974002985)76:0.2073679885,((MetazoaMolluscaEP00106Octopusbimaculoides_4156353__PLAT1_RAT_Phospholipase_A_and_acyltransferase_1_OS_:0.4960309823,MetazoaMolluscaLottiagigantea_4203388__PLAT3_RAT_Phospholipase_A_and_acyltransferase_3_OS_:0.7059029694)99:0.4818307280,MetazoaTardigradaRamazzotiusvarieornatus_5290952__PLAT3_MOUSE_Phospholipase_A_and_acyltransferase_3_OS_:0.8554770053)99:0.5721935563)54:0.0825138687,((((MetazoaEchinodermataAcanthasterplanci_3779535__PLAT3_RAT_Phospholipase_A_and_acyltransferase_3_OS_:0.3755558511,MetazoaEchinodermataAcanthasterplanci_3781807__PLAT4_HUMAN_Phospholipase_A_and_acyltransferase_4_OS_:0.0546971782)99:0.1187605106,MetazoaEchinodermataAcanthasterplanci_3781729__PLAT3_RAT_Phospholipase_A_and_acyltransferase_3_OS_:0.2092354496)99:0.2034067303,MetazoaEchinodermataAcanthasterplanci_3791876__PLAT1_HUMAN_Phospholipase_A_and_acyltransferase_1_OS_:0.7913825337)83:0.2061636338,(MetazoaEchinodermataAcanthasterplanci_3781827__PLAT1_MOUSE_Phospholipase_A_and_acyltransferase_1_OS_:0.1002661261,MetazoaEchinodermataAcanthasterplanci_3782589__PLAT4_HUMAN_Phospholipase_A_and_acyltransferase_4_OS_:0.0662155390)100:0.5507511830)100:0.7966349006)26:0.0024167740)75:0.1758206062,(StramenopilesPhytophthorainfestansUP000006643_26376550__LRAT_RAT_Lecithin_retinol_acyltransferase_OS_:1.2942895128,(((MetazoaPoriferaLeucosoleniacomplicata_5010111__PLAT3_PONAB_Phospholipase_A_and_acyltransferase_3_OS_:0.6719325716,MetazoaPoriferaLeucosoleniacomplicata_5042006__PLAT2_HUMAN_Phospholipase_A_and_acyltransferase_2_OS_:0.6651844614)100:0.7311502903,((MetazoaPoriferaSyconciliatum_5138130__PLAT3_PONAB_Phospholipase_A_and_acyltransferase_3_OS_:0.2803245200,MetazoaPoriferaLeucosoleniacomplicata_5052466__PLAT3_MOUSE_Phospholipase_A_and_acyltransferase_3_OS_:0.3663409056)100:0.7371934585,(MetazoaPoriferaLeucosoleniacomplicata_5018539__PLAT2_HUMAN_Phospholipase_A_and_acyltransferase_2_OS_:0.3291272982,MetazoaPoriferaSyconciliatum_5104370__PLAT3_PONAB_Phospholipase_A_and_acyltransferase_3_OS_:0.3371817295)100:0.8656525593)84:0.0421576751)93:0.2017926999,MetazoaMolluscaEP00106Octopusbimaculoides_4160369__PLAT2_HUMAN_Phospholipase_A_and_acyltransferase_2_OS_:1.0911277255)81:0.0667996883)64:0.1163441273)53:0.0604500958,(MetazoaPoriferaHaliclonatubifera_4958144__LRAT2_HUMAN_Protein_LRATD2_OS_:0.5490550059,MetazoaPoriferaStylissacarteri_5098842__PLAT1_HUMAN_Phospholipase_A_and_acyltransferase_1_OS_:0.8674431338)100:0.7626352528)87:0.1528207123,(((CryptophyceaeEP00290BaffinellaspCCMP2293_12059753__LRAT_BOVIN_Lecithin_retinol_acyltransferase_OS_:0.0183054014,CryptophyceaeEP00290BaffinellaspCCMP2293_12040984__LRAT_BOVIN_Lecithin_retinol_acyltransferase_OS_:0.0000020904)100:0.3422876773,CryptophyceaeGuillardiathetaUP000011087_12256407__PLAT3_RAT_Phospholipase_A_and_acyltransferase_3_OS_:0.3773707464)100:1.1448512380,(PluriformeaEP00127Corallochytriumlimacisporum_21618992__LRAT_MOUSE_Lecithin_retinol_acyltransferase_OS_:1.0719161138,(MetazoaPoriferaEP00118Oscarellapearsei_4817229__LRAT_HUMAN_Lecithin_retinol_acyltransferase_OS_:0.1563203486,MetazoaPoriferaEP00118Oscarellapearsei_4817230__LRAT_BOVIN_Lecithin_retinol_acyltransferase_OS_:0.2316726015)100:1.2925359963)58:0.4502331777)45:0.1237558187)50:0.1166519105,(MetazoaCnidariaAnthopleuraelegantissima_3018731_:1.3316841015,(MetazoaCnidariaMadracisauretenra_3309881_:1.1539097710,MetazoaCnidariaPoritesaustraliensis_3537271_:0.9564743237)100:0.3018924109)99:0.5174370572)50:0.0817199961,(MetazoaAcoelaHofsteniamiamia_4411_:1.4534379141,RhodelphisEP00736Rhodelphismarinus_22805195__LRAT_BOVIN_Lecithin_retinol_acyltransferase_OS_:1.3336185153)52:0.1094416242)100:1.1908621547,MetazoaCnidariaAnthopleuraelegantissima_3013074_:0.2264966112)100:0.3470582021,MetazoaCnidariaFungiascutaria_3204893_:0.0339644677)95:0.0357931389,((MetazoaCnidariaPoritesaustraliensis_3539203_:0.0990418888,MetazoaCnidariaAstreoporasp_3045117_:0.0918574776)95:0.0742244873,MetazoaCnidariaMontastraeacavernosa_3351517_:0.0819724372)94:0.0178324424);
+
+TIME STAMP
+----------
+
+Date and time: Fri Dec  9 11:15:40 2022
+Total CPU time used: 1732.06939 seconds (0h:28m:52s)
+Total wall-clock time used: 353.6183181 seconds (0h:5m:53s)
+
