@@ -1,0 +1,568 @@
+IQ-TREE multicore version 2.0.6 for Linux 64-bit built May 30 2020
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    node123 (AVX2, FMA3, 125 GB RAM)
+Command: iqtree2 -s DGAT.fasta.cdhit.mafft.trimal -m MFP -B 1000 --alrt 1000 --abayes -T AUTO --prefix DGAT.fasta.cdhit.mafft.trimal.UFB
+Seed:    56065 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri Dec  9 13:47:02 2022
+Kernel:  AVX+FMA - auto-detect threads (24 CPU cores detected)
+
+Reading alignment file DGAT.fasta.cdhit.mafft.trimal ... Fasta format detected
+Alignment most likely contains protein sequences
+Alignment has 246 sequences with 504 columns, 504 distinct patterns
+500 parsimony-informative, 4 singleton sites, 0 constant sites
+                                                                                                                     Gap/Ambiguity  Composition  p-value
+   1  RotosphaeridaEP00160Parvulariaatlantis_23167332__AREH2_SCHPO_Probable_sterol_O-acyltransferase_2_OS_                  43.85%    passed     93.23%
+   2  EuglenozoaEP00668Euglenalonga_12438991__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_                            11.90%    passed     80.74%
+   3  MetazoaCnidariaStylophorapistillata_3671554__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_                       38.29%    passed     11.90%
+   4  MetazoaArthropodaEP00090Calanusglacialis_706584__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_                   78.57%    passed     34.71%
+   5  IchthyosporeaEP00123Amoebidiumparasiticum_14559664__ARE2_SACU7_Sterol_O-acyltransferase_2_OS_                         17.26%    passed     32.28%
+   6  HaptophytaEP00319Phaeocystisglobosa_14043383__DGAT1_DICDI_Diacylglycerol_O-acyltransferase_1_OS_                      80.75%    passed     18.09%
+   7  MetazoaPoriferaAmphimedonqueenslandica_4687947__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_                    27.18%    passed     45.02%
+   8  MetazoaPoriferaAmphimedonqueenslandica_4713813__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_                    17.26%    passed     65.43%
+   9  MetazoaPoriferaAmphimedonqueenslandica_4675108__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_                    47.42%    passed     89.94%
+  10  FungiEP00150Ustilagomaydis_13256582__AREH1_SCHPO_Probable_sterol_O-acyltransferase_1_OS_                              13.10%    passed     70.83%
+  11  MetazoaPlatyhelminthesEchinococcusmultilocularis_4608333__DGAT1_RAT_Diacylglycerol_O-acyltransferase_1_OS_            15.48%    passed     94.66%
+  12  FungiSpizellomycespunctatusUP000053201_13453645__AREH1_SCHPO_Probable_sterol_O-acyltransferase_1_OS_                  13.49%    passed     32.95%
+  13  MetazoaCnidariaMontastraeacavernosa_3321701__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_                       67.86%    passed     74.40%
+  14  MetazoaPoriferaHaliclonatubifera_4953816__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_                          16.07%    passed     70.80%
+  15  GlaucophytaEP00276Gloeochaetewittrockiana_13499831__DAT1B_SOYBN_Diacylglycerol_O-acyltransferase_1B_OS_               15.67%    passed     92.27%
+  16  MetazoaCnidariaMyxozoaThelohanelluskitauei_3359343__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_                64.68%    passed     45.78%
+  17  FungiRhizopusmicrosporusUP000242254_13434296__AREH1_SCHPO_Probable_sterol_O-acyltransferase_1_OS_                     19.64%    passed      8.32%
+  18  CentroplasthelidaEP00300ChoanocystisspHF7_5627063__AREH2_SCHPO_Probable_sterol_O-acyltransferase_2_OS_                41.87%    passed     32.00%
+  19  MetazoaTardigradaRamazzotiusvarieornatus_5281788__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_                  10.52%    passed     42.03%
+  20  MetazoaPoriferaEP00118Oscarellapearsei_4819331__DGAT1_RAT_Diacylglycerol_O-acyltransferase_1_OS_                      15.87%    passed     98.16%
+  21  FungiMortierellaelongataUP000078512_13381500__DAT1C_SOYBN_Diacylglycerol_O-acyltransferase_1C_OS_                     11.51%    passed     13.13%
+  22  MetazoaCnidariaAnthopleuraelegantissima_3011260__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_                   13.49%    passed     93.19%
+  23  AlveolataEP00742ColponemidiaspColp10_4278854__DGAT1_CORAE_Diacylglycerol_O-acyltransferase_1_OS_                      16.27%    passed     56.97%
+  24  MetazoaPoriferaStylissacarteri_5098611__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_                            41.67%    passed     37.69%
+  25  AlveolataEP00333Tetrahymenathermophila_75336__AREH1_SCHPO_Probable_sterol_O-acyltransferase_1_OS_                     18.85%    failed      0.47%
+  26  MetazoaCnidariaFungiascutaria_3180548__DGAT1_RAT_Diacylglycerol_O-acyltransferase_1_OS_                               48.61%    passed     84.97%
+  27  MetazoaUrochordataOikopleuradioica_5360473__PORCN_ANOGA_Protein-serine_O-palmitoleoyltransferase_porcupine_OS_        46.43%    passed      6.20%
+  28  MetazoaEchinodermataEP00057Strongylocentrotuspurpuratus_3831980__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_   16.27%    passed     74.29%
+  29  HaptophytaEP00319Phaeocystisglobosa_14048151__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_                              74.80%    passed     36.19%
+  30  MetazoaUrochordataOikopleuradioica_5366837__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_                        13.69%    passed     45.74%
+  31  MetazoaPoriferaLeucosoleniacomplicata_4997968__DGAT1_BOVIN_Diacylglycerol_O-acyltransferase_1_OS_                     78.37%    passed     88.05%
+  32  MetazoaArthropodaDrosophilamelanogaster_246882__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_                     7.94%    passed     40.02%
+  33  MetazoaArthropodaDaphniapulex_191399__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_                               9.52%    passed     45.49%
+  34  MetazoaCephalochordataBranchiostomabelcheri_2800282__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_               11.31%    passed     99.99%
+  35  MetazoaVertebrateMusmusculus_6548891__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_                              11.90%    passed     69.55%
+  36  MetazoaVertebrateDaniorerio_5425246__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_                               11.71%    passed     84.13%
+  37  HaptophytaEP00319Phaeocystisglobosa_14048562__DGAT1_DICDI_Diacylglycerol_O-acyltransferase_1_OS_                      17.66%    passed     73.92%
+  38  MetazoaPlacozoaHoilungiahongkongensis_4580249__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_                     21.63%    passed     45.99%
+  39  MetazoaPlacozoaHoilungiahongkongensis_4580250__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_                     22.82%    passed     35.67%
+  40  MetazoaPlacozoaHoilungiahongkongensis_4580251__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_                     12.90%    passed     33.72%
+  41  MetazoaPlacozoaHoilungiahongkongensis_4580252__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_                     64.88%    passed      7.59%
+  42  MetazoaMolluscaLottiagigantea_4223631__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_                             13.29%    passed     95.89%
+  43  MetazoaAnnelidaEP00103Capitellateleta_55251__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_                       17.86%    passed     19.17%
+  44  MetazoaPoriferaLeucosoleniacomplicata_5018071__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_                     12.50%    passed     64.33%
+  45  MetazoaNematodaCaenorhabditiselegans_4322517__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_                      11.51%    passed     89.26%
+  46  MetazoaVertebrateDaniorerio_5433937__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_                               12.50%    passed     96.79%
+  47  MetazoaPoriferaSyconciliatum_5112163__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_                              13.10%    passed     78.09%
+  48  MetazoaMolluscaEP00106Octopusbimaculoides_4156992__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_                 12.50%    passed     31.22%
+  49  MetazoaHemichordataSaccoglossuskowalevskii_4052373__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_                11.71%    passed     57.03%
+  50  MetazoaBryozoaBugulaneritina_2101001__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_                              77.38%    passed     71.97%
+  51  MetazoaCnidariaNematostellavectensis_3376074__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_                      13.49%    passed     64.48%
+  52  MetazoaVertebrateHomosapiens_6453155__DGAT1_HUMAN_Diacylglycerol_O-acyltransferase_1_OS_                              12.70%    passed     33.95%
+  53  MetazoaVertebrateEptatretusburgeri_6404295__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_                        30.16%    passed     87.25%
+  54  MetazoaUrochordataEP00059Cionaintestinalis_5352861__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_                12.10%    passed     34.28%
+  55  MetazoaPlacozoaEP00114TrichoplaxspH2_4515200__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_                      12.90%    passed     35.02%
+  56  RigifilidaEP00004Rigifilaramosa_23132564__AREH1_SCHPO_Probable_sterol_O-acyltransferase_1_OS_                         15.48%    passed      8.64%
+  57  MetazoaArthropodaEP00090Calanusglacialis_694210__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_                   10.71%    passed     92.88%
+  58  MetazoaAnnelidaHelobdellarobusta_103748__DGAT1_RAT_Diacylglycerol_O-acyltransferase_1_OS_                             16.67%    passed     21.72%
+  59  FungiSaccharomycescerevisiaeUP000002311_13446240__ARE1_YEAST_Sterol_O-acyltransferase_1_OS_                           10.52%    passed     14.23%
+  60  MetazoaBryozoaBugulaneritina_2751344__DGAT1_RAT_Diacylglycerol_O-acyltransferase_1_OS_                                79.76%    passed     15.85%
+  61  FungiSaccharomycescerevisiaeUP000002311_13449006__ARE2_YEAST_Sterol_O-acyltransferase_2_OS_                            9.72%    passed     13.46%
+  62  BreviataEP00033Pygsuiabiforma_5529826__DGAT1_DICDI_Diacylglycerol_O-acyltransferase_1_OS_                             27.18%    passed      8.98%
+  63  HaptophytaEP00319Phaeocystisglobosa_14053193__AREH2_SCHPO_Probable_sterol_O-acyltransferase_2_OS_                     29.17%    passed     24.29%
+  64  TelonemiaP00656Telonemasubtile_26511820__ARE2_CANAX_Sterol_O-acyltransferase_2_OS_                                    34.72%    passed     82.67%
+  65  TelonemiaP00656Telonemasubtile_26511821__ARE2_CANAX_Sterol_O-acyltransferase_2_OS_                                    18.25%    passed     68.55%
+  66  FungiFusariumoxysporumUP000002489_13354115__ARE2_CANAX_Sterol_O-acyltransferase_2_OS_                                 15.08%    passed     77.39%
+  67  TelonemiaP00656Telonemasubtile_26514975__DAT1A_SOYBN_Diacylglycerol_O-acyltransferase_1A_OS_                          36.71%    passed     10.38%
+  68  TelonemiaP00656Telonemasubtile_26514976__DAT1B_SOYBN_Diacylglycerol_O-acyltransferase_1B_OS_                          38.10%    failed      0.43%
+  69  TelonemiaP00656Telonemasubtile_26514977__DAT1A_SOYBN_Diacylglycerol_O-acyltransferase_1A_OS_                          10.32%    passed     65.53%
+  70  FungiSpizellomycespunctatusUP000053201_13453137__DAT1B_SOYBN_Diacylglycerol_O-acyltransferase_1B_OS_                  13.10%    passed     83.49%
+  71  MetazoaAcoelaHofsteniamiamia_1730__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_                                 19.05%    passed     31.51%
+  72  FungiRhizopusmicrosporusUP000242254_13431603__DAT1B_SOYBN_Diacylglycerol_O-acyltransferase_1B_OS_                     15.28%    passed     63.81%
+  73  GlaucophytaEP00276Gloeochaetewittrockiana_13503661__DAT1A_SOYBN_Diacylglycerol_O-acyltransferase_1A_OS_               14.88%    passed     97.76%
+  74  ChoanoflagellataEP00037Helgoecanana_10784418__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_                      10.12%    passed     17.16%
+  75  ChoanoflagellataEP00037Helgoecanana_10784419__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_                      10.91%    passed      5.74%
+  76  FungiMortierellaelongataUP000078512_13383038__AREH1_SCHPO_Probable_sterol_O-acyltransferase_1_OS_                     20.24%    passed    100.00%
+  77  RhizariaEP00473Plasmodiophorabrassicae_22114852__DGAT1_CORAE_Diacylglycerol_O-acyltransferase_1_OS_                   12.50%    passed     22.45%
+  78  RotosphaeridaEP00160Parvulariaatlantis_23153909__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_                   58.73%    passed     15.62%
+  79  FungiFusariumoxysporumUP000002489_13368459__DAT1C_SOYBN_Diacylglycerol_O-acyltransferase_1C_OS_                       12.10%    passed     64.60%
+  80  RotosphaeridaFonticulaalbaUP000030693_23191143__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_                    14.48%    passed      7.88%
+  81  JakobidaEP00762Andaluciagodoyi_14651976__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_                            8.93%    passed     25.92%
+  82  JakobidaEP00762Andaluciagodoyi_14654936__ARE2_CANAX_Sterol_O-acyltransferase_2_OS_                                    19.05%    passed     35.62%
+  83  ChoanoflagellataEP00040Diaphanoecagrandis_10914621__DGAT1_RAT_Diacylglycerol_O-acyltransferase_1_OS_                  10.52%    passed     72.15%
+  84  MetazoaEchinodermataAcanthasterplanci_3777781__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_                     41.47%    failed      0.39%
+  85  ChoanoflagellataEP00047Mylnosigafluctuans_11126316__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_                15.87%    passed     64.03%
+  86  ChoanoflagellataEP00035Acanthoecaspectabilis_10753056__DGAT1_RAT_Diacylglycerol_O-acyltransferase_1_OS_                8.93%    failed      3.59%
+  87  IchthyosporeaEP00126Sphaerothecumdestruens_14603832__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_               24.01%    passed     86.70%
+  88  IchthyosporeaEP00126Sphaerothecumdestruens_14603833__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_               21.23%    passed     85.37%
+  89  CollodictyonidaeEP00002Diphylleiarotans_11643194__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_                  15.67%    passed     37.92%
+  90  GlaucophytaEP00276Gloeochaetewittrockiana_13483004__DGAT1_DICDI_Diacylglycerol_O-acyltransferase_1_OS_                12.30%    passed     55.64%
+  91  ChloroplastidaArabidopsisthalianaUP000006548_5889220__DGAT1_ARATH_Diacylglycerol_O-acyltransferase_1_OS_              14.48%    passed     77.15%
+  92  FilastreaCapsasporaowczarzakiUP000008743_12984513__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_                  8.73%    failed      3.72%
+  93  CryptophyceaeEP00290BaffinellaspCCMP2293_12046535__DGAT1_DICDI_Diacylglycerol_O-acyltransferase_1_OS_                 59.13%    passed     69.54%
+  94  CryptophyceaeEP00290BaffinellaspCCMP2293_12057177__DGAT1_DICDI_Diacylglycerol_O-acyltransferase_1_OS_                 14.09%    passed     11.11%
+  95  RhodophytaEP00185Porphyridiumpurpureum_23044280__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_                   22.22%    passed     43.53%
+  96  AmoebozoaEP00029Vermamoebavermiformis_5284231__DAT1C_SOYBN_Diacylglycerol_O-acyltransferase_1C_OS_                    13.49%    passed     27.89%
+  97  ChloroplastidaEP00248Marchantiapolymorpha_7477846__DGAT1_CORAE_Diacylglycerol_O-acyltransferase_1_OS_                 11.31%    passed     65.34%
+  98  PluriformeaEP00127Corallochytriumlimacisporum_21623487__ARE2_CANAX_Sterol_O-acyltransferase_2_OS_                     21.63%    passed     70.61%
+  99  FungiMortierellaelongataUP000078512_13380628__DAT1B_SOYBN_Diacylglycerol_O-acyltransferase_1B_OS_                     12.50%    passed     11.69%
+ 100  CentroplasthelidaEP00300ChoanocystisspHF7_5634770__DGAT1_DICDI_Diacylglycerol_O-acyltransferase_1_OS_                 16.07%    passed     28.63%
+ 101  ChoanoflagellateaMonosigabrevicollisUP000001357_11429688__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_          53.77%    passed     33.00%
+ 102  ApusomonadidaThecamonastrahensUP000054408_5480042__DGAT1_DICDI_Diacylglycerol_O-acyltransferase_1_OS_                 23.41%    failed      0.77%
+ 103  AmoebozoaDictyosteliumdiscoideumUP000002195_4933798__DGAT1_DICDI_Diacylglycerol_O-acyltransferase_1_OS_                8.33%    failed      0.00%
+ 104  CryptophyceaeGuillardiathetaUP000011087_12255636__DGAT1_DICDI_Diacylglycerol_O-acyltransferase_1_OS_                  20.83%    passed     34.51%
+ 105  RhodophytaGaldieriasulphurariaUP000030680_23117956__ARE2_SACU7_Sterol_O-acyltransferase_2_OS_                         19.64%    passed     37.75%
+ 106  AlveolataEP00333Tetrahymenathermophila_68134__DAT1A_SOYBN_Diacylglycerol_O-acyltransferase_1A_OS_                     10.52%    failed      2.39%
+ 107  ChloroplastidaChlamydomonasreinhardtiiUP000006906_6367408__DGAT1_CORAE_Diacylglycerol_O-acyltransferase_1_OS_         61.71%    passed     60.58%
+ 108  RhodelphisEP00736Rhodelphismarinus_22796072__DAT11_ORYSJ_Diacylglycerol_O-acyltransferase_1-1_OS_                     80.16%    passed     85.75%
+ 109  RhodelphisEP00736Rhodelphismarinus_22800701__DAT12_ORYSJ_Diacylglycerol_O-acyltransferase_1-2_OS_                      7.74%    passed     81.69%
+ 110  MalawimonadidaeEP00698Gefionellaokellyi_14690841__DGAT1_DICDI_Diacylglycerol_O-acyltransferase_1_OS_                  20.24%    passed     62.00%
+ 111  HaptophytaEP00327Prymnesiumparvum_14279425__DAT1C_SOYBN_Diacylglycerol_O-acyltransferase_1C_OS_                       19.05%    failed      2.53%
+ 112  MetazoaBryozoaBugulaneritina_2590345__SOAT1_MACFA_Sterol_O-acyltransferase_1_OS_                                      80.95%    passed     48.84%
+ 113  StramenopilesPhytophthorainfestansUP000006643_26377687__ARE2_SACU7_Sterol_O-acyltransferase_2_OS_                     20.63%    passed     45.10%
+ 114  MetazoaCnidariaClytiahemisphaerica_3075994__DGAT1_RAT_Diacylglycerol_O-acyltransferase_1_OS_                          10.52%    passed     15.21%
+ 115  MetazoaBrachiopodaLingulaunguis_1304726__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_                            9.33%    passed     72.93%
+ 116  MetazoaRotiferaBrachionusplicatilis_5229975__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_                       16.67%    passed     19.57%
+ 117  AlveolataEP00333Tetrahymenathermophila_80462__AREH1_SCHPO_Probable_sterol_O-acyltransferase_1_OS_                     14.68%    failed      0.83%
+ 118  MetazoaPoriferaEphydatiamuelleri_4909048__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_                          46.43%    passed     81.66%
+ 119  MetazoaEchinodermataAcanthasterplanci_3777782__DGAT1_HUMAN_Diacylglycerol_O-acyltransferase_1_OS_                     74.60%    passed     49.30%
+ 120  MetazoaCnidariaFungiascutaria_3202380__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_                             72.82%    passed     61.16%
+ 121  MetazoaCnidariaAstreoporasp_3031194__DGAT1_CHLAE_Diacylglycerol_O-acyltransferase_1_OS_                               74.01%    passed     33.42%
+ 122  ChoanoflagellataEP00039Didymoecacostata_10871273__DGAT1_DICDI_Diacylglycerol_O-acyltransferase_1_OS_                  44.84%    passed     77.41%
+ 123  MetazoaCnidariaMadracisauretenra_3293501__DGAT1_CHLAE_Diacylglycerol_O-acyltransferase_1_OS_                          61.71%    passed     50.00%
+ 124  MetazoaBryozoaBugulaneritina_2662608__DGAT1_RAT_Diacylglycerol_O-acyltransferase_1_OS_                                81.15%    passed     89.79%
+ 125  MetazoaArthropodaEP00090Calanusglacialis_707437__DGAT1_RAT_Diacylglycerol_O-acyltransferase_1_OS_                     66.67%    passed      9.89%
+ 126  MetazoaCnidariaMadracisauretenra_3270993__DGAT1_RAT_Diacylglycerol_O-acyltransferase_1_OS_                            78.37%    passed     21.50%
+ 127  MetazoaBryozoaBugulaneritina_1643238__DGAT1_RAT_Diacylglycerol_O-acyltransferase_1_OS_                                80.16%    passed     90.19%
+ 128  FungiFusariumoxysporumUP000002489_13356715__ARE2_CANAX_Sterol_O-acyltransferase_2_OS_                                 12.50%    passed     88.98%
+ 129  RhodophytaGaldieriasulphurariaUP000030680_23116056__AREH1_SCHPO_Probable_sterol_O-acyltransferase_1_OS_               23.61%    passed     57.16%
+ 130  HeteroloboseaEP00761Pharyngomonaskirbyi_14483709__DGAT1_DICDI_Diacylglycerol_O-acyltransferase_1_OS_                  62.50%    passed     70.73%
+ 131  ChoanoflagellataEP00040Diaphanoecagrandis_10910441__ARE2_CANAX_Sterol_O-acyltransferase_2_OS_                         15.28%    passed     33.56%
+ 132  RotosphaeridaEP00160Parvulariaatlantis_23170279__DGAT1_DICDI_Diacylglycerol_O-acyltransferase_1_OS_                   56.94%    passed     52.18%
+ 133  HeteroloboseaEP00761Pharyngomonaskirbyi_14488777__DGAT1_ARATH_Diacylglycerol_O-acyltransferase_1_OS_                  53.17%    passed     23.76%
+ 134  RotosphaeridaEP00160Parvulariaatlantis_23171829__DAT1B_SOYBN_Diacylglycerol_O-acyltransferase_1B_OS_                  45.63%    failed      0.00%
+ 135  RotosphaeridaEP00160Parvulariaatlantis_23171830__DAT1C_SOYBN_Diacylglycerol_O-acyltransferase_1C_OS_                  15.08%    passed     11.51%
+ 136  CollodictyonidaeEP00002Diphylleiarotans_11642749__DAT1B_SOYBN_Diacylglycerol_O-acyltransferase_1B_OS_                 46.23%    passed     16.04%
+ 137  CollodictyonidaeEP00002Diphylleiarotans_11642750__DAT1C_SOYBN_Diacylglycerol_O-acyltransferase_1C_OS_                 39.88%    passed     14.67%
+ 138  CollodictyonidaeEP00002Diphylleiarotans_11642751__DAT1C_SOYBN_Diacylglycerol_O-acyltransferase_1C_OS_                 35.52%    passed     17.90%
+ 139  CollodictyonidaeEP00002Diphylleiarotans_11642752__ARE2_CANAX_Sterol_O-acyltransferase_2_OS_                           19.25%    passed     35.24%
+ 140  CollodictyonidaeEP00002Diphylleiarotans_11642753__ARE2_CANAX_Sterol_O-acyltransferase_2_OS_                           19.25%    passed     35.24%
+ 141  CollodictyonidaeEP00002Diphylleiarotans_11642754__DAT1C_SOYBN_Diacylglycerol_O-acyltransferase_1C_OS_                 32.74%    passed     19.44%
+ 142  CollodictyonidaeEP00002Diphylleiarotans_11642755__ARE2_CANAX_Sterol_O-acyltransferase_2_OS_                           15.67%    passed     36.45%
+ 143  CentroplasthelidaEP00300ChoanocystisspHF7_5605202__DGAT1_DICDI_Diacylglycerol_O-acyltransferase_1_OS_                 16.67%    passed     24.74%
+ 144  FilastreaCapsasporaowczarzakiUP000008743_12984776__AREH2_SCHPO_Probable_sterol_O-acyltransferase_2_OS_                19.44%    passed     93.44%
+ 145  AmoebozoaEP00029Vermamoebavermiformis_5280956__DAT1B_SOYBN_Diacylglycerol_O-acyltransferase_1B_OS_                    15.67%    passed     73.79%
+ 146  RhodophytaEP00185Porphyridiumpurpureum_23047108__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_                   10.71%    passed     64.49%
+ 147  AmoebozoaDictyosteliumdiscoideumUP000002195_4930403__DGAT1_CORAE_Diacylglycerol_O-acyltransferase_1_OS_               19.05%    passed     21.07%
+ 148  RhodophytaGaldieriasulphurariaUP000030680_23116817__DAT1B_SOYBN_Diacylglycerol_O-acyltransferase_1B_OS_               18.65%    passed     83.76%
+ 149  ChoanoflagellataEP00045Choanoecaperplexa_11086214__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_                 10.32%    passed     84.38%
+ 150  ChoanoflagellataEP00050Salpingoecakvevrii_11191780__DGAT1_RAT_Diacylglycerol_O-acyltransferase_1_OS_                  69.05%    failed      3.26%
+ 151  ChoanoflagellataEP00050Salpingoecakvevrii_11191781__DGAT1_RAT_Diacylglycerol_O-acyltransferase_1_OS_                  35.52%    failed      2.21%
+ 152  ChoanoflagellataEP00050Salpingoecakvevrii_11191782__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_                15.28%    passed     67.64%
+ 153  MetazoaBryozoaBugulaneritina_2578493__DGAT1_BOVIN_Diacylglycerol_O-acyltransferase_1_OS_                              87.70%    passed     70.96%
+ 154  MetazoaCnidariaAcroporadigitifera_2947711__DGAT1_CHLAE_Diacylglycerol_O-acyltransferase_1_OS_                         87.10%    passed     63.65%
+ 155  MetazoaCnidariaAstreoporasp_3031473__DGAT1_RAT_Diacylglycerol_O-acyltransferase_1_OS_                                 68.65%    passed     54.58%
+ 156  MetazoaPoriferaEphydatiamuelleri_4930123__DGAT1_BOVIN_Diacylglycerol_O-acyltransferase_1_OS_                          58.73%    failed      1.22%
+ 157  MetazoaCnidariaMontastraeacavernosa_3323034__DGAT1_RAT_Diacylglycerol_O-acyltransferase_1_OS_                         65.08%    passed     86.95%
+ 158  IchthyosporeaEP00126Sphaerothecumdestruens_14612801__SOAT1_RAT_Sterol_O-acyltransferase_1_OS_                         46.23%    passed     72.75%
+ 159  MetazoaBryozoaBugulaneritina_2197024__SOAT1_MACFA_Sterol_O-acyltransferase_1_OS_                                      81.94%    passed     67.08%
+ 160  MetazoaAnnelidaEP00103Capitellateleta_73183__DGAT1_CHLAE_Diacylglycerol_O-acyltransferase_1_OS_                       78.37%    passed     54.85%
+ 161  MetazoaPoriferaEP00118Oscarellapearsei_4810716__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_                    85.52%    passed      5.01%
+ 162  MetazoaCnidariaHydramagnapapillata_3259026__DGAT1_BOVIN_Diacylglycerol_O-acyltransferase_1_OS_                        82.14%    passed      5.78%
+ 163  MetazoaPlatyhelminthesEchinococcusmultilocularis_4605866__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_                   6.55%    passed     90.54%
+ 164  MetazoaCnidariaMyxozoaThelohanelluskitauei_3371308__SOAT1_CRIGR_Sterol_O-acyltransferase_1_OS_                        68.06%    passed      7.61%
+ 165  RhizariaEP00473Plasmodiophorabrassicae_22116322__SOAT1_MACFA_Sterol_O-acyltransferase_1_OS_                           11.90%    failed      1.50%
+ 166  ChoanoflagellataEP00047Mylnosigafluctuans_11114416__SOAT1_CHLAE_Sterol_O-acyltransferase_1_OS_                        11.31%    passed     53.88%
+ 167  MetazoaCnidariaAcroporadigitifera_2949279__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_                                 85.32%    passed     42.21%
+ 168  MetazoaMolluscaLottiagigantea_4216855__SOAT1_HUMAN_Sterol_O-acyltransferase_1_OS_                                     20.83%    passed     58.07%
+ 169  MetazoaPoriferaAmphimedonqueenslandica_4702382__SOAT1_CHLAE_Sterol_O-acyltransferase_1_OS_                            15.28%    passed     19.64%
+ 170  MetazoaVertebrateDaniorerio_5420643__SOAT1_HUMAN_Sterol_O-acyltransferase_1_OS_                                        9.13%    passed     64.64%
+ 171  MetazoaArthropodaDrosophilamelanogaster_246412__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_                             8.33%    passed     21.32%
+ 172  MetazoaPoriferaAmphimedonqueenslandica_4702657__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_                            19.44%    passed     55.14%
+ 173  ChoanoflagellataEP00050Salpingoecakvevrii_11207341__SOAT1_CHLAE_Sterol_O-acyltransferase_1_OS_                        12.30%    passed     32.35%
+ 174  MetazoaPoriferaSyconciliatum_5126125__SOAT1_HUMAN_Sterol_O-acyltransferase_1_OS_                                       9.52%    passed     59.03%
+ 175  MetazoaEchinodermataEP00057Strongylocentrotuspurpuratus_3834560__SOAT1_RAT_Sterol_O-acyltransferase_1_OS_             12.90%    passed      9.08%
+ 176  MetazoaPoriferaEphydatiamuelleri_4919418__SOAT1_CHLAE_Sterol_O-acyltransferase_1_OS_                                  74.21%    passed     85.83%
+ 177  MetazoaPoriferaEphydatiamuelleri_4919417__SOAT1_MACFA_Sterol_O-acyltransferase_1_OS_                                  52.98%    passed     79.29%
+ 178  MetazoaNematodaCaenorhabditiselegans_4314465__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_                              16.47%    passed     16.53%
+ 179  MetazoaPoriferaEphydatiamuelleri_4920197__SOAT1_HUMAN_Sterol_O-acyltransferase_1_OS_                                  11.51%    passed     75.26%
+ 180  MetazoaArthropodaDaphniapulex_192370__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_                                      13.69%    passed     82.64%
+ 181  MalawimonadidaeEP00698Gefionellaokellyi_14709428__DGAT1_CORAE_Diacylglycerol_O-acyltransferase_1_OS_                  31.94%    failed      3.77%
+ 182  MetazoaVertebrateDaniorerio_5425249__SOAT1_RAT_Sterol_O-acyltransferase_1_OS_                                         27.58%    passed     76.39%
+ 183  MetazoaPoriferaLeucosoleniacomplicata_5010330__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_                              9.33%    passed     22.50%
+ 184  MetazoaPoriferaAmphimedonqueenslandica_4713832__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_                            16.67%    passed     71.83%
+ 185  MetazoaPoriferaEphydatiamuelleri_4925417__SOAT1_MACFA_Sterol_O-acyltransferase_1_OS_                                  57.14%    passed     48.29%
+ 186  MetazoaPoriferaEphydatiamuelleri_4925418__SOAT2_HUMAN_Sterol_O-acyltransferase_2_OS_                                  53.57%    passed     91.59%
+ 187  MetazoaPoriferaEphydatiamuelleri_4925419__SOAT1_MACFA_Sterol_O-acyltransferase_1_OS_                                  53.37%    passed     83.86%
+ 188  MetazoaPlacozoaHoilungiahongkongensis_4541206__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_                             33.73%    passed     68.18%
+ 189  MetazoaPlacozoaHoilungiahongkongensis_4541207__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_                             12.90%    passed     70.23%
+ 190  CollodictyonidaeEP00002Diphylleiarotans_11645659__SOAT1_RAT_Sterol_O-acyltransferase_1_OS_                             9.52%    passed     30.51%
+ 191  CollodictyonidaeEP00002Diphylleiarotans_11645660__SOAT1_RAT_Sterol_O-acyltransferase_1_OS_                             9.52%    passed     37.66%
+ 192  FilastreaCapsasporaowczarzakiUP000008743_12983113__SOAT1_CHLAE_Sterol_O-acyltransferase_1_OS_                          9.52%    passed     15.62%
+ 193  MetazoaCnidariaClytiahemisphaerica_3085765__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_                                 9.92%    passed     67.72%
+ 194  MetazoaCnidariaFungiascutaria_3204392__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_                                     41.67%    passed     93.64%
+ 195  MetazoaBrachiopodaLingulaunguis_1279068__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_                                   47.62%    passed     49.99%
+ 196  MetazoaBrachiopodaLingulaunguis_1278526__SOAT1_HUMAN_Sterol_O-acyltransferase_1_OS_                                    7.94%    passed     58.33%
+ 197  MetazoaCnidariaStylophorapistillata_3684087__SOAT1_CHLAE_Sterol_O-acyltransferase_1_OS_                                9.72%    passed     98.76%
+ 198  IchthyosporeaEP00126Sphaerothecumdestruens_14612802__SOAT2_HUMAN_Sterol_O-acyltransferase_2_OS_                       69.64%    passed      5.62%
+ 199  MetazoaCnidariaMontastraeacavernosa_3317885__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_                                8.93%    passed     99.14%
+ 200  MetazoaPoriferaStylissacarteri_5075372__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_                                    64.88%    passed     44.44%
+ 201  MetazoaPoriferaHaliclonatubifera_4953205__SOAT1_RAT_Sterol_O-acyltransferase_1_OS_                                    15.28%    passed     18.81%
+ 202  TelonemiaP00656Telonemasubtile_26525536__DGAT1_DICDI_Diacylglycerol_O-acyltransferase_1_OS_                           28.57%    failed      2.19%
+ 203  CollodictyonidaeEP00002Diphylleiarotans_11666034__SOAT1_CHLAE_Sterol_O-acyltransferase_1_OS_                          10.71%    passed     90.88%
+ 204  MetazoaCnidariaGorgoniaventalina_3233658__SOAT1_MACFA_Sterol_O-acyltransferase_1_OS_                                  10.32%    passed     42.09%
+ 205  MetazoaPoriferaHaliclonatubifera_4954756__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_                                  17.46%    passed     16.16%
+ 206  MetazoaPoriferaStylissacarteri_5079575__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_                                    27.78%    passed     71.75%
+ 207  MetazoaCnidariaMadracisauretenra_3284442__SOAT2_HUMAN_Sterol_O-acyltransferase_2_OS_                                  55.16%    passed     79.13%
+ 208  MetazoaHemichordataSaccoglossuskowalevskii_4049739__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_                        18.25%    passed     95.64%
+ 209  MetazoaPoriferaHaliclonatubifera_4957724__SOAT2_RAT_Sterol_O-acyltransferase_2_OS_                                    53.37%    failed      4.93%
+ 210  MetazoaEchinodermataAcanthasterplanci_3793573__SOAT1_RAT_Sterol_O-acyltransferase_1_OS_                                8.73%    passed     91.95%
+ 211  MetazoaAnnelidaEP00103Capitellateleta_67238__SOAT1_CHLAE_Sterol_O-acyltransferase_1_OS_                                9.92%    passed     90.54%
+ 212  MetazoaRotiferaBrachionusplicatilis_5237179__SOAT2_CHLAE_Sterol_O-acyltransferase_2_OS_                               61.31%    passed      6.99%
+ 213  MetazoaCnidariaAstreoporasp_3047100__SOAT1_HUMAN_Sterol_O-acyltransferase_1_OS_                                        9.33%    passed     95.88%
+ 214  MetazoaPoriferaStylissacarteri_5083930__SOAT2_HUMAN_Sterol_O-acyltransferase_2_OS_                                    24.80%    passed     89.19%
+ 215  AlveolataEP00742ColponemidiaspColp10_4272534__SOAT2_RAT_Sterol_O-acyltransferase_2_OS_                                 9.52%    passed     57.52%
+ 216  CentroplasthelidaEP00300ChoanocystisspHF7_5629869__SOAT1_HUMAN_Sterol_O-acyltransferase_1_OS_                         10.91%    failed      2.11%
+ 217  MetazoaPoriferaEP00118Oscarellapearsei_4817195__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_                             8.33%    passed     55.89%
+ 218  ApusomonadidaThecamonastrahensUP000054408_5477754__SOAT1_MACFA_Sterol_O-acyltransferase_1_OS_                         10.12%    failed      0.01%
+ 219  MetazoaCnidariaNematostellavectensis_3373825__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_                              23.41%    passed     64.77%
+ 220  MetazoaCnidariaAnthopleuraelegantissima_3010956__SOAT1_HUMAN_Sterol_O-acyltransferase_1_OS_                           10.12%    passed     34.54%
+ 221  MetazoaVertebrateMusmusculus_6531753__SOAT2_MOUSE_Sterol_O-acyltransferase_2_OS_                                      11.31%    passed     19.92%
+ 222  AmoebozoaDictyosteliumdiscoideumUP000002195_4932587__DGAT1_RAT_Diacylglycerol_O-acyltransferase_1_OS_                 22.62%    failed      0.16%
+ 223  MetazoaRotiferaBrachionusplicatilis_5270612__SOAT1_CRIGR_Sterol_O-acyltransferase_1_OS_                                9.33%    failed      0.06%
+ 224  MetazoaTardigradaRamazzotiusvarieornatus_5290193__SOAT2_HUMAN_Sterol_O-acyltransferase_2_OS_                           9.33%    passed     85.54%
+ 225  MetazoaVertebrateHomosapiens_6453156__SOAT2_HUMAN_Sterol_O-acyltransferase_2_OS_                                      11.90%    failed      3.73%
+ 226  MetazoaPoriferaStylissacarteri_5093435__SOAT1_HUMAN_Sterol_O-acyltransferase_1_OS_                                    62.10%    passed     58.58%
+ 227  MetazoaMolluscaEP00106Octopusbimaculoides_4168033__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_                          9.72%    passed     33.68%
+ 228  MetazoaMolluscaEP00106Octopusbimaculoides_4168034__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_                          9.72%    passed     33.68%
+ 229  MetazoaMolluscaEP00106Octopusbimaculoides_4168036__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_                         11.31%    passed     40.47%
+ 230  MetazoaPlacozoaEP00114TrichoplaxspH2_4510918__SOAT1_CRIGR_Sterol_O-acyltransferase_1_OS_                              10.91%    passed     32.49%
+ 231  MetazoaVertebrateEptatretusburgeri_6402637__SOAT1_HUMAN_Sterol_O-acyltransferase_1_OS_                                10.52%    passed     86.89%
+ 232  MetazoaVertebrateEptatretusburgeri_6402638__SOAT1_CHLAE_Sterol_O-acyltransferase_1_OS_                                11.51%    passed     85.80%
+ 233  MetazoaVertebrateEptatretusburgeri_6402668__SOAT1_HUMAN_Sterol_O-acyltransferase_1_OS_                                10.71%    passed     30.17%
+ 234  RigifilidaEP00004Rigifilaramosa_23125236__SOAT1_HUMAN_Sterol_O-acyltransferase_1_OS_                                  13.29%    passed     86.14%
+ 235  RigifilidaEP00004Rigifilaramosa_23125237__SOAT1_HUMAN_Sterol_O-acyltransferase_1_OS_                                  13.69%    passed     85.24%
+ 236  AlveolataEP00333Tetrahymenathermophila_68197__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_                               9.52%    failed      0.03%
+ 237  RhodelphisEP00736Rhodelphismarinus_22801760__SOAT1_HUMAN_Sterol_O-acyltransferase_1_OS_                                9.52%    passed     67.31%
+ 238  MetazoaAnnelidaHelobdellarobusta_86638__SOAT1_CHLAE_Sterol_O-acyltransferase_1_OS_                                    47.62%    passed      9.44%
+ 239  MetazoaCephalochordataBranchiostomabelcheri_2819752__PK1L1_HUMAN_Polycystic_kidney_disease_protein_1-like_1_OS_       10.32%    passed     26.26%
+ 240  MetazoaCephalochordataBranchiostomabelcheri_2819753__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_                       10.52%    passed     35.70%
+ 241  MetazoaVertebrateMusmusculus_6537317__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_                                       9.52%    passed     84.59%
+ 242  MetazoaVertebrateHomosapiens_6455999__SOAT1_HUMAN_Sterol_O-acyltransferase_1_OS_                                       8.73%    passed     66.42%
+ 243  MetazoaCnidariaAureliaGenome_3051150__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_                                      10.91%    passed     46.36%
+ 244  MetazoaCnidariaPoritesaustraliensis_3534964__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_                               10.91%    passed     94.22%
+ 245  RotosphaeridaFonticulaalbaUP000030693_23193837__YA71_SCHPO_Putative_membrane-bound_O-acyltransferase_C24H6.01c_OS_    20.83%    failed      0.00%
+ 246  RhodelphisEP00736Rhodelphismarinus_22809221__WAXS2_ARATH_Probable_long-chain-alcohol_O-fatty-acyltransferase_2_OS_    43.45%    passed     42.53%
+WARNING: 49 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                                                                                                 28.17%  25 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: CollodictyonidaeEP00002Diphylleiarotans_11642753__ARE2_CANAX_Sterol_O-acyltransferase_2_OS_ is identical to CollodictyonidaeEP00002Diphylleiarotans_11642752__ARE2_CANAX_Sterol_O-acyltransferase_2_OS_ but kept for subsequent analysis
+NOTE: MetazoaMolluscaEP00106Octopusbimaculoides_4168034__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_ is identical to MetazoaMolluscaEP00106Octopusbimaculoides_4168033__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_ but kept for subsequent analysis
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.143 seconds
+Measuring multi-threading efficiency up to 24 CPU cores
+Increase to 10 rounds for branch lengths
+13 trees examined
+Threads: 1 / Time: 25.926 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -185052
+Threads: 2 / Time: 15.285 sec / Speedup: 1.696 / Efficiency: 85% / LogL: -185052
+Threads: 3 / Time: 11.135 sec / Speedup: 2.328 / Efficiency: 78% / LogL: -185052
+Threads: 4 / Time: 9.513 sec / Speedup: 2.725 / Efficiency: 68% / LogL: -185052
+Threads: 5 / Time: 8.491 sec / Speedup: 3.054 / Efficiency: 61% / LogL: -185052
+Threads: 6 / Time: 7.926 sec / Speedup: 3.271 / Efficiency: 55% / LogL: -185052
+Threads: 7 / Time: 7.447 sec / Speedup: 3.481 / Efficiency: 50% / LogL: -185052
+BEST NUMBER OF THREADS: 6
+
+Perform fast likelihood tree search using LG+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -132020.401
+Optimal log-likelihood: -132020.360
+Gamma shape alpha: 1.259
+Parameters optimization took 1 rounds (0.168 sec)
+Time for fast ML tree search: 3.062 seconds
+
+NOTE: ModelFinder requires 201 MB RAM!
+ModelFinder will test up to 462 protein models (sample size: 504) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  LG            137266.162   489 275510.324   309740.324   277575.164
+  2  LG+G4         132020.355   490 265020.711   302034.557   267089.773
+  3  LG+R2         133474.927   491 267931.853   308193.853   270005.138
+  4  LG+R3         132238.550   493 265463.100   314171.500   267544.830
+  5  LG+R4         131929.110   495 264848.220   326228.220   266938.395
+  6  LG+R5         131813.033   497 264620.066   347122.066   266718.686
+  7  LG+R6         131755.242   499 264508.483   389258.483   266615.549
+  8  LG+R7         131718.475   501 264438.951   515940.951   266554.462
+  9  LG+R8         131708.062   503 264422.123   771446.123   266546.079
+ 10  LG+R9         131701.983   505 264413.966   775473.966   266546.367
+ 19  LG+F+R7       131432.119   520 263904.239   805744.239   266099.978
+ 20  LG+F+R8       131428.632   522 263901.264   809913.264   266105.449
+ 30  WAG+R7        132655.501   501 266313.002   517815.002   268428.512
+ 31  WAG+R8        132652.026   503 266310.052   773334.052   268434.008
+ 41  WAG+F+R7      132108.774   520 265257.548   807097.548   267453.288
+ 42  WAG+F+R8      132098.809   522 265241.618   811253.618   267445.803
+ 43  WAG+F+R9      132099.726   524 265247.453   815447.453   267460.083
+ 52  JTT+R7        133384.778   501 267771.557   519273.557   269887.067
+ 53  JTT+R8        133373.457   503 267752.913   774776.913   269876.869
+ 54  JTT+R9        133368.474   505 267746.949   778806.949   269879.350
+ 63  JTT+F+R7      132685.860   520 266411.721   808251.721   268607.460
+ 64  JTT+F+R8      132671.109   522 266386.218   812398.218   268590.403
+ 65  JTT+F+R9      132667.271   524 266382.542   816582.542   268595.172
+ 74  JTTDCMut+R7   133425.439   501 267852.877   519354.877   269968.388
+ 75  JTTDCMut+R8   133417.337   503 267840.674   774864.674   269964.629
+ 76  JTTDCMut+R9   133409.068   505 267828.135   778888.135   269960.536
+ 85  JTTDCMut+F+R7 132726.794   520 266493.588   808333.588   268689.328
+ 86  JTTDCMut+F+R8 132712.401   522 266468.802   812480.802   268672.986
+ 87  JTTDCMut+F+R9 132708.758   524 266465.516   816665.516   268678.146
+ 96  DCMut+R7      134887.319   501 270776.638   522278.638   272892.148
+ 97  DCMut+R8      134876.270   503 270758.540   777782.540   272882.496
+ 98  DCMut+R9      134861.139   505 270732.278   781792.278   272864.679
+107  DCMut+F+R7    133308.453   520 267656.905   809496.905   269852.645
+108  DCMut+F+R8    133291.996   522 267627.993   813639.993   269832.178
+109  DCMut+F+R9    133290.356   524 267628.713   817828.713   269841.343
+118  VT+R7         132492.060   501 265986.120   517488.120   268101.631
+119  VT+R8         132488.736   503 265983.472   773007.472   268107.428
+129  VT+F+R7       131892.217   520 264824.433   806664.433   267020.173
+130  VT+F+R8       131883.301   522 264810.601   810822.601   267014.786
+131  VT+F+R9       131884.246   524 264816.492   815016.492   267029.122
+140  PMB+R7        132370.559   501 265743.117   517245.117   267858.628
+141  PMB+R8        132355.712   503 265717.423   772741.423   267841.379
+WARNING: Log-likelihood -132358 of PMB+R9 worse than PMB+R8 -132356
+142  PMB+R9        132357.917   505 265725.833   776785.833   267858.234
+151  PMB+F+R7      132551.625   520 266143.251   807983.251   268338.990
+152  PMB+F+R8      132549.579   522 266143.158   812155.158   268347.342
+162  Blosum62+R7   132453.475   501 265908.951   517410.951   268024.461
+163  Blosum62+R8   132449.170   503 265904.340   772928.340   268028.296
+173  Blosum62+F+R7 132284.090   520 265608.180   807448.180   267803.920
+174  Blosum62+F+R8 132273.277   522 265590.554   811602.554   267794.739
+WARNING: Log-likelihood -132275 of Blosum62+F+R9 worse than Blosum62+F+R8 -132273
+175  Blosum62+F+R9 132274.955   524 265597.910   815797.910   267810.540
+184  Dayhoff+R7    134889.256   501 270780.512   522282.512   272896.023
+185  Dayhoff+R8    134878.173   503 270762.345   777786.345   272886.301
+186  Dayhoff+R9    134862.720   505 270735.440   781795.440   272867.841
+195  Dayhoff+F+R7  133307.054   520 267654.108   809494.108   269849.848
+196  Dayhoff+F+R8  133290.424   522 267624.848   813636.848   269829.033
+197  Dayhoff+F+R9  133288.619   524 267625.239   817825.239   269837.869
+206  mtREV+R7      137134.436   501 275270.872   526772.872   277386.382
+207  mtREV+R8      137118.707   503 275243.414   782267.414   277367.370
+208  mtREV+R9      137117.043   505 275244.086   786304.086   277376.487
+217  mtREV+F+R7    134105.466   520 269250.932   811090.932   271446.672
+218  mtREV+F+R8    134090.772   522 269225.544   815237.544   271429.729
+219  mtREV+F+R9    134089.056   524 269226.112   819426.112   271438.742
+228  mtART+R7      136543.356   501 274088.712   525590.712   276204.223
+229  mtART+R8      136525.524   503 274057.048   781081.048   276181.004
+230  mtART+R9      136523.193   505 274056.386   785116.386   276188.787
+239  mtART+F+R7    134153.168   520 269346.336   811186.336   271542.076
+240  mtART+F+R8    134136.404   522 269316.808   815328.808   271520.993
+241  mtART+F+R9    134133.928   524 269315.857   819515.857   271528.486
+250  mtZOA+R7      133659.398   501 268320.795   519822.795   270436.306
+251  mtZOA+R8      133650.241   503 268306.483   775330.483   270430.439
+252  mtZOA+R9      133641.913   505 268293.825   779353.825   270426.226
+261  mtZOA+F+R7    132338.602   520 265717.204   807557.204   267912.943
+262  mtZOA+F+R8    132317.588   522 265679.176   811691.176   267883.361
+263  mtZOA+F+R9    132314.568   524 265677.136   815877.136   267889.766
+272  mtMet+R7      135779.415   501 272560.829   524062.829   274676.340
+273  mtMet+R8      135766.154   503 272538.307   779562.307   274662.263
+274  mtMet+R9      135762.406   505 272534.813   783594.813   274667.214
+283  mtMet+F+R7    132978.535   520 266997.070   808837.070   269192.810
+284  mtMet+F+R8    132958.843   522 266961.685   812973.685   269165.870
+285  mtMet+F+R9    132953.399   524 266954.798   817154.798   269167.428
+294  mtVer+R7      138360.103   501 277722.207   529224.207   279837.717
+295  mtVer+R8      138336.376   503 277678.752   784702.752   279802.708
+296  mtVer+R9      138329.662   505 277669.324   788729.324   279801.725
+305  mtVer+F+R7    135411.229   520 271862.457   813702.457   274058.197
+306  mtVer+F+R8    135381.899   522 271807.798   817819.798   274011.983
+307  mtVer+F+R9    135378.218   524 271804.435   822004.435   274017.065
+316  mtInv+R7      135919.066   501 272840.131   524342.131   274955.642
+317  mtInv+R8      135910.011   503 272826.023   779850.023   274949.978
+318  mtInv+R9      135898.369   505 272806.739   783866.739   274939.140
+327  mtInv+F+R7    131933.136   520 264906.271   806746.271   267102.011
+328  mtInv+F+R8    131916.726   522 264877.452   810889.452   267081.637
+329  mtInv+F+R9    131915.426   524 264878.851   815078.851   267091.481
+338  mtMAM+R7      140245.089   501 281492.177   532994.177   283607.688
+339  mtMAM+R8      140212.165   503 281430.331   788454.331   283554.286
+340  mtMAM+R9      140196.225   505 281402.450   792462.450   283534.851
+349  mtMAM+F+R7    137321.127   520 275682.254   817522.254   277877.993
+350  mtMAM+F+R8    137291.028   522 275626.057   821638.057   277830.242
+351  mtMAM+F+R9    137287.198   524 275622.397   825822.397   277835.027
+360  HIVb+R7       136457.800   501 273917.600   525419.600   276033.111
+361  HIVb+R8       136434.982   503 273875.963   780899.963   275999.919
+362  HIVb+R9       136429.296   505 273868.592   784928.592   276000.993
+371  HIVb+F+R7     135598.994   520 272237.988   814077.988   274433.728
+372  HIVb+F+R8     135591.567   522 272227.135   818239.135   274431.319
+373  HIVb+F+R9     135588.726   524 272225.453   822425.453   274438.083
+382  HIVw+R7       143056.665   501 287115.329   538617.329   289230.840
+383  HIVw+R8       143020.745   503 287047.490   794071.490   289171.445
+384  HIVw+R9       143012.541   505 287035.081   798095.081   289167.482
+393  HIVw+F+R7     139008.275   520 279056.550   820896.550   281252.289
+394  HIVw+F+R8     138992.379   522 279028.758   825040.758   281232.943
+395  HIVw+F+R9     138986.173   524 279020.347   829220.347   281232.977
+404  FLU+R7        136342.527   501 273687.054   525189.054   275802.565
+405  FLU+R8        136328.475   503 273662.950   780686.950   275786.906
+406  FLU+R9        136324.878   505 273659.755   784719.755   275792.156
+415  FLU+F+R7      135228.118   520 271496.235   813336.235   273691.975
+416  FLU+F+R8      135208.664   522 271461.328   817473.328   273665.513
+417  FLU+F+R9      135206.063   524 271460.126   821660.126   273672.756
+426  rtREV+R7      133517.036   501 268036.073   519538.073   270151.583
+427  rtREV+R8      133506.807   503 268019.615   775043.615   270143.570
+428  rtREV+R9      133500.979   505 268011.959   779071.959   270144.360
+437  rtREV+F+R7    132151.402   520 265342.804   807182.804   267538.543
+438  rtREV+F+R8    132146.206   522 265336.412   811348.412   267540.597
+448  cpREV+R7      133206.578   501 267415.156   518917.156   269530.667
+449  cpREV+R8      133199.189   503 267404.378   774428.378   269528.334
+450  cpREV+R9      133191.546   505 267393.093   778453.093   269525.494
+459  cpREV+F+R7    132517.650   520 266075.300   807915.300   268271.039
+460  cpREV+F+R8    132503.294   522 266050.588   812062.588   268254.772
+461  cpREV+F+R9    132498.942   524 266045.883   816245.883   268258.513
+Akaike Information Criterion:           LG+F+R8
+Corrected Akaike Information Criterion: LG+G4
+Bayesian Information Criterion:         LG+F+R7
+Best-fit model: LG+F+R7 chosen according to BIC
+
+All model information printed to DGAT.fasta.cdhit.mafft.trimal.UFB.model.gz
+CPU time for ModelFinder: 13963.835 seconds (3h:52m:43s)
+Wall-clock time for ModelFinder: 2388.610 seconds (0h:39m:48s)
+Generating 1000 samples for ultrafast bootstrap (seed: 56065)...
+
+NOTE: 141 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -131432.119
+Optimal log-likelihood: -131432.098
+Site proportion and rates:  (0.089,0.083) (0.057,0.228) (0.162,0.437) (0.225,0.716) (0.177,1.110) (0.187,1.602) (0.103,2.443)
+Parameters optimization took 1 rounds (1.159 sec)
+Computing ML distances based on estimated model parameters... 14.981 sec
+WARNING: Some pairwise ML distances are too long (saturated)
+Computing BIONJ tree...
+0.050 seconds
+Log-likelihood of BIONJ tree: -133000.253
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 13.915 second
+Computing log-likelihood of 98 initial trees ... 12.351 seconds
+Current best score: -131432.098
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -131414.109
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -131407.625
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 3: -131403.856
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 4: -131390.033
+Iteration 10 / LogL: -131412.603 / Time: 0h:1m:30s
+Iteration 20 / LogL: -131453.387 / Time: 0h:2m:20s
+Finish initializing candidate tree set (20)
+Current best tree score: -131390.033 / CPU time: 132.432
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 21: -131357.829
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 26: -131353.537
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 28: -131344.223
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 29: -131339.792
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 30: -131335.496
+Iteration 30 / LogL: -131335.496 / Time: 0h:3m:2s (0h:10m:27s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 32: -131334.695
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 36: -131333.841
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 39: -131332.738
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 40: -131318.350
+Iteration 40 / LogL: -131318.350 / Time: 0h:3m:48s (0h:9m:46s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 48: -131317.349
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 50: -131313.570
+Iteration 50 / LogL: -131313.570 / Time: 0h:4m:23s (0h:8m:57s left)
+Log-likelihood cutoff on original alignment: -131449.076
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 53: -131313.225
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 56: -131298.036
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 57: -131297.598
+Iteration 60 / LogL: -131319.754 / Time: 0h:5m:1s (0h:8m:15s left)
+Iteration 70 / LogL: -131312.885 / Time: 0h:5m:34s (0h:7m:1s left)
+Iteration 80 / LogL: -131328.994 / Time: 0h:6m:6s (0h:5m:57s left)
+Iteration 90 / LogL: -131302.400 / Time: 0h:6m:40s (0h:5m:1s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 93: -131296.245
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 96: -131294.513
+Iteration 100 / LogL: -131305.683 / Time: 0h:7m:14s (0h:7m:1s left)
+Log-likelihood cutoff on original alignment: -131440.521
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.957
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 110 / LogL: -131313.450 / Time: 0h:7m:46s (0h:6m:25s left)
+Iteration 120 / LogL: -131294.786 / Time: 0h:8m:19s (0h:5m:35s left)
+Iteration 130 / LogL: -131296.393 / Time: 0h:8m:50s (0h:4m:48s left)
+Iteration 140 / LogL: -131298.021 / Time: 0h:9m:21s (0h:4m:2s left)
+Iteration 150 / LogL: -131305.080 / Time: 0h:9m:52s (0h:3m:18s left)
+Log-likelihood cutoff on original alignment: -131423.616
+Iteration 160 / LogL: -131307.386 / Time: 0h:10m:25s (0h:2m:37s left)
+Iteration 170 / LogL: -131465.256 / Time: 0h:10m:58s (0h:1m:56s left)
+Iteration 180 / LogL: -131303.488 / Time: 0h:11m:29s (0h:1m:17s left)
+Iteration 190 / LogL: -131301.751 / Time: 0h:12m:2s (0h:0m:38s left)
+Iteration 200 / LogL: -131295.959 / Time: 0h:12m:34s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -131423.616
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.997
+TREE SEARCH COMPLETED AFTER 200 ITERATIONS / Time: 0h:12m:34s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -131294.513
+Optimal log-likelihood: -131294.502
+Site proportion and rates:  (0.088,0.081) (0.055,0.221) (0.164,0.431) (0.229,0.712) (0.177,1.124) (0.177,1.585) (0.110,2.429)
+Parameters optimization took 1 rounds (0.505 sec)
+BEST SCORE FOUND : -131294.502
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+Testing tree branches by aBayes parametric test...
+0.750 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file DGAT.fasta.cdhit.mafft.trimal.UFB.splits.nex
+Total tree length: 187.441
+
+Total number of iterations: 200
+CPU time used for tree search: 4352.043 sec (1h:12m:32s)
+Wall-clock time used for tree search: 747.061 sec (0h:12m:27s)
+Total CPU time used: 4408.009 sec (1h:13m:28s)
+Total wall-clock time used: 756.972 sec (0h:12m:36s)
+
+Computing bootstrap consensus tree...
+Reading input file DGAT.fasta.cdhit.mafft.trimal.UFB.splits.nex...
+246 taxa and 1574 splits.
+Consensus tree written to DGAT.fasta.cdhit.mafft.trimal.UFB.contree
+Reading input trees file DGAT.fasta.cdhit.mafft.trimal.UFB.contree
+Log-likelihood of consensus tree: -131300.178
+
+Analysis results written to: 
+  IQ-TREE report:                DGAT.fasta.cdhit.mafft.trimal.UFB.iqtree
+  Maximum-likelihood tree:       DGAT.fasta.cdhit.mafft.trimal.UFB.treefile
+  Likelihood distances:          DGAT.fasta.cdhit.mafft.trimal.UFB.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          DGAT.fasta.cdhit.mafft.trimal.UFB.splits.nex
+  Consensus tree:                DGAT.fasta.cdhit.mafft.trimal.UFB.contree
+  Screen log file:               DGAT.fasta.cdhit.mafft.trimal.UFB.log
+
+Date and Time: Fri Dec  9 14:39:29 2022

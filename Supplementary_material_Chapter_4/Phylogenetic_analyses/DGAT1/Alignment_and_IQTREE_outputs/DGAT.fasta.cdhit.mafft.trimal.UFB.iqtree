@@ -1,0 +1,1284 @@
+IQ-TREE 2.0.6 built Jun  5 2020
+
+Input file name: DGAT.fasta.cdhit.mafft.trimal
+Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 56065
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 246 sequences with 504 amino-acid sites
+Number of constant sites: 0 (= 0% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 0 (= 0% of all sites)
+Number of parsimony informative sites: 500
+Number of distinct site patterns: 504
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: LG+F+R7
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+LG+F+R7         -131432.119  263904.239 +    0.184  805744.239 -        0  266099.978 +    0.939
+LG+F+R8         -131428.632  263901.264 +    0.816  809913.264 -        0  266105.449 +   0.0609
+LG+R8           -131708.062  264422.123 - 6.43e-114  771446.123 -        0  266546.079 - 1.27e-97
+LG+R9           -131701.983  264413.966 - 3.8e-112  775473.966 -        0  266546.367 -  1.1e-97
+LG+R7           -131718.475  264438.951 - 1.43e-117  515940.951 -        0  266554.462 - 1.92e-99
+LG+R6           -131755.242  264508.483 - 1.14e-132  389258.483 -        0  266615.549 - 1.04e-112
+LG+R5           -131813.033  264620.066 - 6.7e-157  347122.066 -        0  266718.686 - 4.19e-135
+LG+R4           -131929.110  264848.220 - 1.92e-206  326228.220 -        0  266938.395 - 8.18e-183
+VT+F+R8         -131883.301  264810.601 - 2.83e-198  810822.601 -        0  267014.786 - 2.11e-199
+VT+F+R7         -131892.217  264824.433 - 2.81e-201  806664.433 -        0  267020.173 - 1.43e-200
+VT+F+R9         -131884.246  264816.492 - 1.49e-199  815016.492 -        0  267029.122 - 1.63e-202
+mtInv+F+R8      -131916.726  264877.452 - 8.61e-213  810889.452 -        0  267081.637 - 6.43e-214
+LG+G4           -132020.356  265020.711 - 6.71e-244  302034.557 +        1  267089.773 - 1.1e-215
+mtInv+F+R9      -131915.426  264878.851 - 4.28e-213  815078.851 -        0  267091.481 - 4.68e-216
+mtInv+F+R7      -131933.136  264906.271 - 4.75e-219  806746.271 -        0  267102.011 - 2.42e-218
+WAG+F+R8        -132098.809  265241.618 - 7.2e-292  811253.618 -        0  267445.803 - 5.38e-293
+WAG+F+R7        -132108.774  265257.548 - 2.5e-295  807097.548 -        0  267453.288 - 1.27e-294
+WAG+F+R9        -132099.726  265247.453 - 3.89e-293  815447.453 -        0  267460.083 - 4.26e-296
+rtREV+F+R7      -132151.402  265342.804 - 7.68e-314  807182.804 -        0  267538.543 - 3.91e-313
+rtREV+F+R8      -132146.206  265336.412 - 1.88e-312  811348.412 -        0  267540.597 - 1.4e-313
+LG+R3           -132238.550  265463.100 -        0  314171.500 -        0  267544.830 - 1.69e-314
+Blosum62+F+R8   -132273.277  265590.554 -        0  811602.554 -        0  267794.739 -        0
+Blosum62+F+R7   -132284.090  265608.180 -        0  807448.180 -        0  267803.920 -        0
+Blosum62+F+R9   -132274.955  265597.910 -        0  815797.910 -        0  267810.540 -        0
+PMB+R8          -132355.712  265717.423 -        0  772741.423 -        0  267841.379 -        0
+PMB+R9          -132357.916  265725.833 -        0  776785.833 -        0  267858.234 -        0
+PMB+R7          -132370.559  265743.117 -        0  517245.117 -        0  267858.628 -        0
+mtZOA+F+R8      -132317.588  265679.176 -        0  811691.176 -        0  267883.361 -        0
+mtZOA+F+R9      -132314.568  265677.136 -        0  815877.136 -        0  267889.766 -        0
+mtZOA+F+R7      -132338.602  265717.204 -        0  807557.204 -        0  267912.943 -        0
+Blosum62+R7     -132453.475  265908.951 -        0  517410.951 -        0  268024.462 -        0
+Blosum62+R8     -132449.170  265904.340 -        0  772928.340 -        0  268028.296 -        0
+VT+R7           -132492.060  265986.120 -        0  517488.120 -        0  268101.631 -        0
+VT+R8           -132488.736  265983.472 -        0  773007.472 -        0  268107.428 -        0
+cpREV+F+R8      -132503.294  266050.588 -        0  812062.588 -        0  268254.772 -        0
+cpREV+F+R9      -132498.942  266045.883 -        0  816245.883 -        0  268258.513 -        0
+cpREV+F+R7      -132517.650  266075.300 -        0  807915.300 -        0  268271.039 -        0
+PMB+F+R7        -132551.625  266143.251 -        0  807983.251 -        0  268338.990 -        0
+PMB+F+R8        -132549.579  266143.158 -        0  812155.158 -        0  268347.342 -        0
+WAG+R7          -132655.501  266313.002 -        0  517815.002 -        0  268428.512 -        0
+WAG+R8          -132652.026  266310.052 -        0  773334.052 -        0  268434.008 -        0
+JTT+F+R8        -132671.109  266386.218 -        0  812398.218 -        0  268590.403 -        0
+JTT+F+R9        -132667.271  266382.542 -        0  816582.542 -        0  268595.172 -        0
+JTT+F+R7        -132685.860  266411.721 -        0  808251.721 -        0  268607.460 -        0
+JTTDCMut+F+R8   -132712.401  266468.802 -        0  812480.802 -        0  268672.986 -        0
+JTTDCMut+F+R9   -132708.758  266465.516 -        0  816665.516 -        0  268678.146 -        0
+JTTDCMut+F+R7   -132726.794  266493.588 -        0  808333.588 -        0  268689.328 -        0
+mtMet+F+R8      -132958.843  266961.685 -        0  812973.685 -        0  269165.870 -        0
+mtMet+F+R9      -132953.399  266954.798 -        0  817154.798 -        0  269167.428 -        0
+mtMet+F+R7      -132978.535  266997.070 -        0  808837.070 -        0  269192.810 -        0
+cpREV+R9        -133191.546  267393.093 -        0  778453.093 -        0  269525.494 -        0
+cpREV+R8        -133199.189  267404.378 -        0  774428.378 -        0  269528.334 -        0
+cpREV+R7        -133206.578  267415.156 -        0  518917.156 -        0  269530.667 -        0
+Dayhoff+F+R8    -133290.424  267624.848 -        0  813636.848 -        0  269829.033 -        0
+DCMut+F+R8      -133291.997  267627.993 -        0  813639.993 -        0  269832.178 -        0
+Dayhoff+F+R9    -133288.619  267625.239 -        0  817825.239 -        0  269837.869 -        0
+DCMut+F+R9      -133290.356  267628.713 -        0  817828.713 -        0  269841.343 -        0
+Dayhoff+F+R7    -133307.054  267654.108 -        0  809494.108 -        0  269849.848 -        0
+DCMut+F+R7      -133308.453  267656.905 -        0  809496.905 -        0  269852.645 -        0
+JTT+R8          -133373.457  267752.913 -        0  774776.913 -        0  269876.869 -        0
+JTT+R9          -133368.474  267746.949 -        0  778806.949 -        0  269879.350 -        0
+JTT+R7          -133384.778  267771.557 -        0  519273.557 -        0  269887.067 -        0
+JTTDCMut+R9     -133409.068  267828.135 -        0  778888.135 -        0  269960.536 -        0
+JTTDCMut+R8     -133417.337  267840.674 -        0  774864.674 -        0  269964.629 -        0
+JTTDCMut+R7     -133425.439  267852.877 -        0  519354.877 -        0  269968.388 -        0
+LG+R2           -133474.927  267931.853 -        0  308193.853 -        0  270005.138 -        0
+rtREV+R8        -133506.807  268019.615 -        0  775043.615 -        0  270143.570 -        0
+rtREV+R9        -133500.979  268011.959 -        0  779071.959 -        0  270144.360 -        0
+rtREV+R7        -133517.036  268036.073 -        0  519538.073 -        0  270151.583 -        0
+mtZOA+R9        -133641.913  268293.825 -        0  779353.825 -        0  270426.226 -        0
+mtZOA+R8        -133650.241  268306.483 -        0  775330.483 -        0  270430.439 -        0
+mtZOA+R7        -133659.398  268320.795 -        0  519822.795 -        0  270436.306 -        0
+mtREV+F+R8      -134090.772  269225.544 -        0  815237.544 -        0  271429.729 -        0
+mtREV+F+R9      -134089.056  269226.112 -        0  819426.112 -        0  271438.742 -        0
+mtREV+F+R7      -134105.466  269250.932 -        0  811090.932 -        0  271446.672 -        0
+mtART+F+R8      -134136.404  269316.808 -        0  815328.808 -        0  271520.993 -        0
+mtART+F+R9      -134133.928  269315.857 -        0  819515.857 -        0  271528.487 -        0
+mtART+F+R7      -134153.168  269346.336 -        0  811186.336 -        0  271542.076 -        0
+DCMut+R9        -134861.139  270732.278 -        0  781792.278 -        0  272864.679 -        0
+Dayhoff+R9      -134862.720  270735.440 -        0  781795.440 -        0  272867.841 -        0
+DCMut+R8        -134876.270  270758.540 -        0  777782.540 -        0  272882.496 -        0
+Dayhoff+R8      -134878.173  270762.345 -        0  777786.345 -        0  272886.301 -        0
+DCMut+R7        -134887.319  270776.638 -        0  522278.638 -        0  272892.149 -        0
+Dayhoff+R7      -134889.256  270780.512 -        0  522282.512 -        0  272896.023 -        0
+FLU+F+R8        -135208.664  271461.328 -        0  817473.328 -        0  273665.513 -        0
+FLU+F+R9        -135206.063  271460.126 -        0  821660.126 -        0  273672.756 -        0
+FLU+F+R7        -135228.118  271496.235 -        0  813336.235 -        0  273691.975 -        0
+mtVer+F+R8      -135381.899  271807.798 -        0  817819.798 -        0  274011.982 -        0
+mtVer+F+R9      -135378.218  271804.435 -        0  822004.435 -        0  274017.065 -        0
+mtVer+F+R7      -135411.229  271862.457 -        0  813702.457 -        0  274058.197 -        0
+HIVb+F+R8       -135591.567  272227.135 -        0  818239.135 -        0  274431.319 -        0
+HIVb+F+R7       -135598.994  272237.988 -        0  814077.988 -        0  274433.728 -        0
+HIVb+F+R9       -135588.726  272225.453 -        0  822425.453 -        0  274438.083 -        0
+mtMet+R8        -135766.154  272538.307 -        0  779562.307 -        0  274662.263 -        0
+mtMet+R9        -135762.406  272534.813 -        0  783594.813 -        0  274667.214 -        0
+mtMet+R7        -135779.415  272560.829 -        0  524062.829 -        0  274676.340 -        0
+mtInv+R9        -135898.369  272806.739 -        0  783866.739 -        0  274939.140 -        0
+mtInv+R8        -135910.011  272826.023 -        0  779850.023 -        0  274949.978 -        0
+mtInv+R7        -135919.066  272840.131 -        0  524342.131 -        0  274955.642 -        0
+FLU+R8          -136328.475  273662.950 -        0  780686.950 -        0  275786.906 -        0
+FLU+R9          -136324.878  273659.755 -        0  784719.755 -        0  275792.156 -        0
+FLU+R7          -136342.527  273687.054 -        0  525189.054 -        0  275802.565 -        0
+HIVb+R8         -136434.982  273875.963 -        0  780899.963 -        0  275999.919 -        0
+HIVb+R9         -136429.296  273868.592 -        0  784928.592 -        0  276000.993 -        0
+HIVb+R7         -136457.800  273917.600 -        0  525419.600 -        0  276033.111 -        0
+mtART+R8        -136525.524  274057.048 -        0  781081.048 -        0  276181.004 -        0
+mtART+R9        -136523.193  274056.386 -        0  785116.386 -        0  276188.787 -        0
+mtART+R7        -136543.356  274088.712 -        0  525590.712 -        0  276204.223 -        0
+mtREV+R8        -137118.707  275243.414 -        0  782267.414 -        0  277367.370 -        0
+mtREV+R9        -137117.043  275244.086 -        0  786304.086 -        0  277376.487 -        0
+mtREV+R7        -137134.436  275270.872 -        0  526772.872 -        0  277386.383 -        0
+LG              -137266.162  275510.324 -        0  309740.324 -        0  277575.164 -        0
+mtMAM+F+R8      -137291.028  275626.057 -        0  821638.057 -        0  277830.242 -        0
+mtMAM+F+R9      -137287.198  275622.397 -        0  825822.397 -        0  277835.027 -        0
+mtMAM+F+R7      -137321.127  275682.254 -        0  817522.254 -        0  277877.993 -        0
+mtVer+R9        -138329.662  277669.324 -        0  788729.324 -        0  279801.725 -        0
+mtVer+R8        -138336.376  277678.752 -        0  784702.752 -        0  279802.708 -        0
+mtVer+R7        -138360.103  277722.207 -        0  529224.207 -        0  279837.717 -        0
+HIVw+F+R8       -138992.379  279028.758 -        0  825040.758 -        0  281232.943 -        0
+HIVw+F+R9       -138986.173  279020.347 -        0  829220.347 -        0  281232.977 -        0
+HIVw+F+R7       -139008.275  279056.550 -        0  820896.550 -        0  281252.289 -        0
+mtMAM+R9        -140196.225  281402.450 -        0  792462.450 -        0  283534.851 -        0
+mtMAM+R8        -140212.165  281430.331 -        0  788454.331 -        0  283554.286 -        0
+mtMAM+R7        -140245.089  281492.177 -        0  532994.177 -        0  283607.688 -        0
+HIVw+R9         -143012.541  287035.081 -        0  798095.081 -        0  289167.482 -        0
+HIVw+R8         -143020.745  287047.490 -        0  794071.490 -        0  289171.445 -        0
+HIVw+R7         -143056.665  287115.329 -        0  538617.329 -        0  289230.840 -        0
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: LG+F+R7
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.0648
+  pi(R) = 0.0523
+  pi(N) = 0.0419
+  pi(D) = 0.0280
+  pi(C) = 0.0178
+  pi(Q) = 0.0290
+  pi(E) = 0.0358
+  pi(G) = 0.0408
+  pi(H) = 0.0265
+  pi(I) = 0.0653
+  pi(L) = 0.1273
+  pi(K) = 0.0368
+  pi(M) = 0.0355
+  pi(F) = 0.0808
+  pi(P) = 0.0435
+  pi(S) = 0.0655
+  pi(T) = 0.0474
+  pi(W) = 0.0307
+  pi(Y) = 0.0506
+  pi(V) = 0.0799
+
+Model of rate heterogeneity: FreeRate with 7 categories
+Site proportion and rates:  (0.0880,0.0815) (0.0549,0.2206) (0.1637,0.4313) (0.2293,0.7122) (0.1768,1.1240) (0.1775,1.5854) (0.1098,2.4286)
+
+ Category  Relative_rate  Proportion
+  1         0.0815         0.0880
+  2         0.2206         0.0549
+  3         0.4313         0.1637
+  4         0.7122         0.2293
+  5         1.1240         0.1768
+  6         1.5854         0.1775
+  7         2.4286         0.1098
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -131294.5023 (s.e. 2198.8833)
+Unconstrained log-likelihood (without tree): -3136.1784
+Number of free parameters (#branches + #model parameters): 520
+Akaike information criterion (AIC) score: 263629.0046
+Corrected Akaike information criterion (AICc) score: 805469.0046
+Bayesian information criterion (BIC) score: 265824.7442
+
+**************************** WARNING ****************************
+Number of parameters (K, model parameters and branch lengths): 520
+Sample size (n, alignment length): 504
+
+Given that K>=n, the parameter estimates might be inaccurate.
+Thus, phylogenetic estimates should be interpreted with caution.
+
+Ideally, it is desirable that n >> K. When selecting optimal models,
+1. use AIC or BIC if n > 40K;
+2. use AICc or BIC if 40K >= n > K;
+3. be extremely cautious if n <= K
+
+To improve the situation (3), consider the following options:
+  1. Increase the sample size (n)
+  2. Decrease the number of parameters (K) to be estimated. If
+     possible:
+     a. Remove the least important sequences from the alignment
+     b. Specify some of the parameter values for the substitution
+        model (e.g., the nucleotide or amino acid frequencies)
+     c. Specify some of the parameter values for the rates-across-
+        sites model (e.g., the shape parameter for the discrete
+        Gamma distribution, the proportion of invariable sites, or
+        the rates of change for different rate categories under
+        the FreeRate model)
+
+Reference:
+Burnham KR, Anderson DR (2002). Model Selection and Multimodel
+Inference: A Practical Information-Theoretic Approach. Springer,
+New York.
+************************ END OF WARNING ***********************
+
+Total tree length (sum of branch lengths): 187.4410
+Sum of internal branch lengths: 56.7347 (30.2680% of tree length)
+
+WARNING: 8 near-zero internal branches (<0.0020) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'RotosphaeridaEP00160Parvulariaatlantis_23167332__AREH2_SCHPO_Probable_sterol_O-acyltransferase_2_OS_' is drawn at root
+Numbers in parentheses are SH-aLRT support (%) / aBayes support / ultrafast bootstrap support (%)
+
++----RotosphaeridaEP00160Parvulariaatlantis_23167332__AREH2_SCHPO_Probable_sterol_O-acyltransferase_2_OS_
+|
+|                                                   +------EuglenozoaEP00668Euglenalonga_12438991__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                               +---| (99.1/1/99)
+|                                               |   +-----------MetazoaCnidariaMyxozoaThelohanelluskitauei_3359343__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            +--| (81.5/0.978/92)
+|                                            |  |                             +--MetazoaCnidariaStylophorapistillata_3671554__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |                          +--| (98.6/1/100)
+|                                            |  |                          |  |              +**MetazoaCnidariaMontastraeacavernosa_3321701__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |                          |  |           +--| (80.8/0.993/85)
+|                                            |  |                          |  |           |  +--MetazoaCnidariaAcroporadigitifera_2947711__DGAT1_CHLAE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |                          |  |        +--| (55.2/0.423/81)
+|                                            |  |                          |  |        |  |        +**MetazoaCnidariaFungiascutaria_3180548__DGAT1_RAT_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |                          |  |        |  |     +--| (70/0.727/92)
+|                                            |  |                          |  |        |  |     |  +--MetazoaCnidariaFungiascutaria_3202380__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |                          |  |        |  |  +--| (83.2/0.885/88)
+|                                            |  |                          |  |        |  |  |  +--MetazoaCnidariaMadracisauretenra_3270993__DGAT1_RAT_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |                          |  |        |  +--| (68.6/0.615/88)
+|                                            |  |                          |  |        |     +--MetazoaCnidariaMontastraeacavernosa_3323034__DGAT1_RAT_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |                          |  |     +--| (0/0.337/62)
+|                                            |  |                          |  |     |  +--MetazoaCnidariaAstreoporasp_3031473__DGAT1_RAT_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |                          |  |  +--| (74.7/0.628/86)
+|                                            |  |                          |  |  |  +--MetazoaCnidariaMadracisauretenra_3293501__DGAT1_CHLAE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |                          |  +--| (78.8/0.733/98)
+|                                            |  |                          |     +--MetazoaCnidariaAstreoporasp_3031194__DGAT1_CHLAE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |                       +--| (98.8/1/100)
+|                                            |  |                       |  |  +--MetazoaCnidariaAnthopleuraelegantissima_3011260__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |                       |  +--| (99.5/1/100)
+|                                            |  |                       |     +--MetazoaCnidariaNematostellavectensis_3376074__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |                    +--| (98.5/1/100)
+|                                            |  |                    |  |  +--MetazoaCnidariaClytiahemisphaerica_3075994__DGAT1_RAT_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |                    |  +--| (99.7/1/100)
+|                                            |  |                    |     +--MetazoaCnidariaHydramagnapapillata_3259026__DGAT1_BOVIN_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |                 +--| (93.9/1/71)
+|                                            |  |                 |  |        +--MetazoaPoriferaEP00118Oscarellapearsei_4819331__DGAT1_RAT_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |                 |  |     +--| (99.6/1/100)
+|                                            |  |                 |  |     |  +--MetazoaPoriferaEP00118Oscarellapearsei_4810716__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |                 |  |  +--| (94.2/1/100)
+|                                            |  |                 |  |  |  |  +--MetazoaPoriferaLeucosoleniacomplicata_5018071__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |                 |  |  |  +--| (100/1/100)
+|                                            |  |                 |  |  |     +--MetazoaPoriferaSyconciliatum_5112163__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |                 |  +--| (75.8/0.995/95)
+|                                            |  |                 |     |           +--MetazoaPlacozoaHoilungiahongkongensis_4580249__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |                 |     |        +**| (0/0.334/90)
+|                                            |  |                 |     |        |  +--MetazoaPlacozoaHoilungiahongkongensis_4580250__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |                 |     |     +--| (63.3/0.377/92)
+|                                            |  |                 |     |     |  +**MetazoaPlacozoaHoilungiahongkongensis_4580251__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |                 |     |  +--| (79.9/0.986/96)
+|                                            |  |                 |     |  |  +--MetazoaPlacozoaHoilungiahongkongensis_4580252__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |                 |     +--| (100/1/100)
+|                                            |  |                 |        +--MetazoaPlacozoaEP00114TrichoplaxspH2_4515200__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |              +--| (66.9/0.968/53)
+|                                            |  |              |  |                 +--MetazoaPoriferaAmphimedonqueenslandica_4687947__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |              |  |              +--| (74.5/0.661/100)
+|                                            |  |              |  |              |  +--MetazoaPoriferaAmphimedonqueenslandica_4675108__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |              |  |           +--| (100/1/100)
+|                                            |  |              |  |           |  +**MetazoaPoriferaAmphimedonqueenslandica_4713813__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |              |  |        +--| (63.5/0.661/98)
+|                                            |  |              |  |        |  +--MetazoaPoriferaHaliclonatubifera_4953816__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |              |  |     +--| (76.2/0.735/100)
+|                                            |  |              |  |     |  +---MetazoaPoriferaEphydatiamuelleri_4909048__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |              |  |  +--| (99.9/1/100)
+|                                            |  |              |  |  |  |  +--MetazoaPoriferaStylissacarteri_5098611__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |              |  |  |  +--| (97.7/1/100)
+|                                            |  |              |  |  |     +--MetazoaPoriferaEphydatiamuelleri_4930123__DGAT1_BOVIN_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |              |  +--| (33.8/0.438/53)
+|                                            |  |              |     |              +**ChoanoflagellataEP00037Helgoecanana_10784418__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |              |     |           +--| (98.5/1/100)
+|                                            |  |              |     |           |  +--ChoanoflagellataEP00037Helgoecanana_10784419__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |              |     |        +--| (100/1/100)
+|                                            |  |              |     |        |  +--ChoanoflagellataEP00035Acanthoecaspectabilis_10753056__DGAT1_RAT_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |              |     |     +--| (100/1/100)
+|                                            |  |              |     |     |  +--ChoanoflagellataEP00040Diaphanoecagrandis_10914621__DGAT1_RAT_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |              |     |  +--| (99.3/1/100)
+|                                            |  |              |     |  |  |     +--ChoanoflagellataEP00047Mylnosigafluctuans_11126316__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |              |     |  |  |  +--| (62.2/0.962/84)
+|                                            |  |              |     |  |  |  |  |      +--ChoanoflagellataEP00050Salpingoecakvevrii_11191780__DGAT1_RAT_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |              |     |  |  |  |  |   +--| (63/0.993/100)
+|                                            |  |              |     |  |  |  |  |   |  +**ChoanoflagellataEP00050Salpingoecakvevrii_11191781__DGAT1_RAT_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |              |     |  |  |  |  +---| (100/1/100)
+|                                            |  |              |     |  |  |  |      +**ChoanoflagellataEP00050Salpingoecakvevrii_11191782__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |              |     |  |  +--| (93.8/0.999/99)
+|                                            |  |              |     |  |     |  +--ChoanoflagellateaMonosigabrevicollisUP000001357_11429688__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |              |     |  |     +--| (99.7/1/100)
+|                                            |  |              |     |  |        +--ChoanoflagellataEP00045Choanoecaperplexa_11086214__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |              |     +--| (98.8/1/97)
+|                                            |  |              |        |       +**IchthyosporeaEP00126Sphaerothecumdestruens_14603832__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |              |        |  +----| (100/1/100)
+|                                            |  |              |        |  |    +--IchthyosporeaEP00126Sphaerothecumdestruens_14603833__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |              |        +--| (19.2/0.654/72)
+|                                            |  |              |           +---FilastreaCapsasporaowczarzakiUP000008743_12984513__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |           +--| (67.4/0.985/78)
+|                                            |  |           |  |        +-------MetazoaUrochordataOikopleuradioica_5366837__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |           |  |     +--| (98.5/1/99)
+|                                            |  |           |  |     |  +--MetazoaUrochordataEP00059Cionaintestinalis_5352861__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |           |  |  +--| (82.2/0.969/87)
+|                                            |  |           |  |  |  |           +--MetazoaVertebrateMusmusculus_6548891__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |           |  |  |  |        +--| (100/1/100)
+|                                            |  |           |  |  |  |        |  +--MetazoaVertebrateHomosapiens_6453155__DGAT1_HUMAN_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |           |  |  |  |     +--| (93.4/0.999/100)
+|                                            |  |           |  |  |  |     |  |  +--MetazoaVertebrateDaniorerio_5425246__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |           |  |  |  |     |  +--| (97.9/1/100)
+|                                            |  |           |  |  |  |     |     +--MetazoaVertebrateDaniorerio_5433937__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |           |  |  |  |  +--| (97.6/1/100)
+|                                            |  |           |  |  |  |  |  +---MetazoaVertebrateEptatretusburgeri_6404295__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |           |  |  |  +--| (39.5/0.724/67)
+|                                            |  |           |  |  |     |  +---MetazoaRotiferaBrachionusplicatilis_5229975__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |           |  |  |     +--| (64.7/0.695/91)
+|                                            |  |           |  |  |        +--MetazoaEchinodermataAcanthasterplanci_3777782__DGAT1_HUMAN_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |           |  +--| (93/1/88)
+|                                            |  |           |     |        +--MetazoaCephalochordataBranchiostomabelcheri_2800282__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |           |     |     +--| (90.1/0.999/97)
+|                                            |  |           |     |     |  +--MetazoaBryozoaBugulaneritina_2578493__DGAT1_BOVIN_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |           |     |  +--| (52.3/0.918/77)
+|                                            |  |           |     |  |  +--MetazoaHemichordataSaccoglossuskowalevskii_4052373__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |           |     +--| (81.2/0.987/83)
+|                                            |  |           |        |     +--MetazoaMolluscaLottiagigantea_4223631__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |           |        |  +--| (91.2/1/97)
+|                                            |  |           |        |  |  |  +--MetazoaMolluscaEP00106Octopusbimaculoides_4156992__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |           |        |  |  +--| (40/0.887/85)
+|                                            |  |           |        |  |     |  +--MetazoaBryozoaBugulaneritina_2101001__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |           |        |  |     +--| (84.4/0.946/98)
+|                                            |  |           |        |  |        +--MetazoaBrachiopodaLingulaunguis_1304726__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |           |        +--| (70.4/0.988/91)
+|                                            |  |           |           |        +--MetazoaAnnelidaEP00103Capitellateleta_55251__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |           |           |     +--| (99.2/1/100)
+|                                            |  |           |           |     |  +--MetazoaAnnelidaEP00103Capitellateleta_73183__DGAT1_CHLAE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |           |           |  +--| (94.9/1/99)
+|                                            |  |           |           |  |  +----MetazoaAnnelidaHelobdellarobusta_103748__DGAT1_RAT_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |           |           +--| (79.2/0.991/99)
+|                                            |  |           |              +------MetazoaAcoelaHofsteniamiamia_1730__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |        +--| (61.1/0.718/72)
+|                                            |  |        |  |  +--MetazoaEchinodermataEP00057Strongylocentrotuspurpuratus_3831980__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |        |  +--| (93.5/0.999/81)
+|                                            |  |        |     +--MetazoaEchinodermataAcanthasterplanci_3777781__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |     +--| (9/0.583/61)
+|                                            |  |     |  +----MetazoaNematodaCaenorhabditiselegans_4322517__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |  +--| (85.6/0.841/89)
+|                                            |  |  |  |     +-------------MetazoaArthropodaEP00090Calanusglacialis_706584__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |  |  |  +--| (0/0.338/82)
+|                                            |  |  |  |  |  |  +--MetazoaArthropodaDrosophilamelanogaster_246882__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |  |  |  |  +--| (87.7/0.996/89)
+|                                            |  |  |  |  |     |  +--MetazoaArthropodaDaphniapulex_191399__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |  |  |  |     +--| (0.1/0.507/26)
+|                                            |  |  |  |  |        |  +--MetazoaArthropodaEP00090Calanusglacialis_694210__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |  |  |  |        +--| (79.9/0.776/89)
+|                                            |  |  |  |  |           +-----------MetazoaArthropodaEP00090Calanusglacialis_707437__DGAT1_RAT_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |  |  +--| (95.4/1/82)
+|                                            |  |  |     |  +---MetazoaPlatyhelminthesEchinococcusmultilocularis_4608333__DGAT1_RAT_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |  |     +--| (84.4/0.882/84)
+|                                            |  |  |        +---MetazoaPoriferaLeucosoleniacomplicata_4997968__DGAT1_BOVIN_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  +--| (99.4/1/99)
+|                                            |     +----MetazoaTardigradaRamazzotiusvarieornatus_5281788__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                         +--| (61.5/0.818/38)
+|                                         |  |  +-----JakobidaEP00762Andaluciagodoyi_14651976__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                         |  +--| (76.4/0.686/40)
+|                                         |     +------CollodictyonidaeEP00002Diphylleiarotans_11643194__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                      +--| (94.9/0.998/89)
+|                                      |  |                 +--------HaptophytaEP00319Phaeocystisglobosa_14043383__DGAT1_DICDI_Diacylglycerol_O-acyltransferase_1_OS_
+|                                      |  |              +--| (88.2/0.962/81)
+|                                      |  |              |  +--AlveolataEP00742ColponemidiaspColp10_4278854__DGAT1_CORAE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                      |  |           +--| (13/0.629/67)
+|                                      |  |           |  |                 +--FungiMortierellaelongataUP000078512_13381500__DAT1C_SOYBN_Diacylglycerol_O-acyltransferase_1C_OS_
+|                                      |  |           |  |              +--| (100/1/100)
+|                                      |  |           |  |              |  +--FungiMortierellaelongataUP000078512_13380628__DAT1B_SOYBN_Diacylglycerol_O-acyltransferase_1B_OS_
+|                                      |  |           |  |           +--| (26.3/0.558/85)
+|                                      |  |           |  |           |  +---FungiRhizopusmicrosporusUP000242254_13431603__DAT1B_SOYBN_Diacylglycerol_O-acyltransferase_1B_OS_
+|                                      |  |           |  |        +--| (79.9/0.999/98)
+|                                      |  |           |  |        |  +------FungiFusariumoxysporumUP000002489_13368459__DAT1C_SOYBN_Diacylglycerol_O-acyltransferase_1C_OS_
+|                                      |  |           |  |     +--| (99.8/1/100)
+|                                      |  |           |  |     |  +---FungiSpizellomycespunctatusUP000053201_13453137__DAT1B_SOYBN_Diacylglycerol_O-acyltransferase_1B_OS_
+|                                      |  |           |  |  +--| (17.5/0.521/53)
+|                                      |  |           |  |  |  +-------AlveolataEP00333Tetrahymenathermophila_68134__DAT1A_SOYBN_Diacylglycerol_O-acyltransferase_1A_OS_
+|                                      |  |           |  +--| (0/0.424/42)
+|                                      |  |           |     +--------RhizariaEP00473Plasmodiophorabrassicae_22114852__DGAT1_CORAE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                      |  |        +--| (52.9/0.785/55)
+|                                      |  |        |  +-----AmoebozoaEP00029Vermamoebavermiformis_5284231__DAT1C_SOYBN_Diacylglycerol_O-acyltransferase_1C_OS_
+|                                      |  |     +--| (95.9/1/95)
+|                                      |  |     |  |              +**TelonemiaP00656Telonemasubtile_26514975__DAT1A_SOYBN_Diacylglycerol_O-acyltransferase_1A_OS_
+|                                      |  |     |  |           +--| (97.7/0.971/100)
+|                                      |  |     |  |           |  +--TelonemiaP00656Telonemasubtile_26514976__DAT1B_SOYBN_Diacylglycerol_O-acyltransferase_1B_OS_
+|                                      |  |     |  |     +-----| (100/1/100)
+|                                      |  |     |  |     |     +**TelonemiaP00656Telonemasubtile_26514977__DAT1A_SOYBN_Diacylglycerol_O-acyltransferase_1A_OS_
+|                                      |  |     |  |  +--| (39.3/0.756/70)
+|                                      |  |     |  |  |  |        +--ChloroplastidaArabidopsisthalianaUP000006548_5889220__DGAT1_ARATH_Diacylglycerol_O-acyltransferase_1_OS_
+|                                      |  |     |  |  |  |     +--| (33.9/0.758/97)
+|                                      |  |     |  |  |  |     |  +--ChloroplastidaEP00248Marchantiapolymorpha_7477846__DGAT1_CORAE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                      |  |     |  |  |  |  +--| (90.9/0.997/92)
+|                                      |  |     |  |  |  |  |  +----ChloroplastidaChlamydomonasreinhardtiiUP000006906_6367408__DGAT1_CORAE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                      |  |     |  |  |  +--| (77.2/0.953/91)
+|                                      |  |     |  |  |     |     +--RhodelphisEP00736Rhodelphismarinus_22796072__DAT11_ORYSJ_Diacylglycerol_O-acyltransferase_1-1_OS_
+|                                      |  |     |  |  |     +-----| (100/1/100)
+|                                      |  |     |  |  |           +**RhodelphisEP00736Rhodelphismarinus_22800701__DAT12_ORYSJ_Diacylglycerol_O-acyltransferase_1-2_OS_
+|                                      |  |     |  +--| (78.7/0.947/73)
+|                                      |  |     |     +-------HaptophytaEP00327Prymnesiumparvum_14279425__DAT1C_SOYBN_Diacylglycerol_O-acyltransferase_1C_OS_
+|                                      |  |  +--| (88.3/0.975/91)
+|                                      |  |  |  +-----MalawimonadidaeEP00698Gefionellaokellyi_14690841__DGAT1_DICDI_Diacylglycerol_O-acyltransferase_1_OS_
+|                                      |  +--| (22.1/0.672/18)
+|                                      |     |        +-----HaptophytaEP00319Phaeocystisglobosa_14048562__DGAT1_DICDI_Diacylglycerol_O-acyltransferase_1_OS_
+|                                      |     |     +--| (10.9/0.504/81)
+|                                      |     |     |  +------RotosphaeridaEP00160Parvulariaatlantis_23153909__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                      |     |  +--| (89.1/0.999/51)
+|                                      |     |  |  |     +----------RotosphaeridaFonticulaalbaUP000030693_23191143__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                      |     |  |  |  +--| (74.5/0.955/96)
+|                                      |     |  |  |  |  +--RotosphaeridaEP00160Parvulariaatlantis_23170279__DGAT1_DICDI_Diacylglycerol_O-acyltransferase_1_OS_
+|                                      |     |  |  +--| (87.1/0.993/80)
+|                                      |     |  |     +----CentroplasthelidaEP00300ChoanocystisspHF7_5605202__DGAT1_DICDI_Diacylglycerol_O-acyltransferase_1_OS_
+|                                      |     +--| (97.9/1/46)
+|                                      |        |     +----------GlaucophytaEP00276Gloeochaetewittrockiana_13503661__DAT1A_SOYBN_Diacylglycerol_O-acyltransferase_1A_OS_
+|                                      |        |  +--| (89/0.985/76)
+|                                      |        |  |  +---GlaucophytaEP00276Gloeochaetewittrockiana_13483004__DGAT1_DICDI_Diacylglycerol_O-acyltransferase_1_OS_
+|                                      |        +--| (79.5/0.767/30)
+|                                      |           |           +--CryptophyceaeEP00290BaffinellaspCCMP2293_12046535__DGAT1_DICDI_Diacylglycerol_O-acyltransferase_1_OS_
+|                                      |           |        +--| (100/1/100)
+|                                      |           |        |  +--CryptophyceaeEP00290BaffinellaspCCMP2293_12057177__DGAT1_DICDI_Diacylglycerol_O-acyltransferase_1_OS_
+|                                      |           |     +--| (100/1/100)
+|                                      |           |     |  +--CryptophyceaeGuillardiathetaUP000011087_12255636__DGAT1_DICDI_Diacylglycerol_O-acyltransferase_1_OS_
+|                                      |           |  +--| (10.1/0.51/29)
+|                                      |           |  |  |  +----AmoebozoaDictyosteliumdiscoideumUP000002195_4933798__DGAT1_DICDI_Diacylglycerol_O-acyltransferase_1_OS_
+|                                      |           |  |  +--| (58.1/0.391/93)
+|                                      |           |  |     |                               +--MetazoaBryozoaBugulaneritina_2662608__DGAT1_RAT_Diacylglycerol_O-acyltransferase_1_OS_
+|                                      |           |  |     +-------------------------------| (100/1/100)
+|                                      |           |  |                                     +**MetazoaBryozoaBugulaneritina_1643238__DGAT1_RAT_Diacylglycerol_O-acyltransferase_1_OS_
+|                                      |           +--| (70.3/0.567/30)
+|                                      |              |   +--CentroplasthelidaEP00300ChoanocystisspHF7_5634770__DGAT1_DICDI_Diacylglycerol_O-acyltransferase_1_OS_
+|                                      |              +---| (100/1/100)
+|                                      |                  +--ApusomonadidaThecamonastrahensUP000054408_5480042__DGAT1_DICDI_Diacylglycerol_O-acyltransferase_1_OS_
+|                                   +--| (87.9/0.884/98)
+|                                   |  +-----------BreviataEP00033Pygsuiabiforma_5529826__DGAT1_DICDI_Diacylglycerol_O-acyltransferase_1_OS_
+|                                +--| (76.4/0.638/88)
+|                                |  +----------------------RotosphaeridaFonticulaalbaUP000030693_23193837__YA71_SCHPO_Putative_membrane-bound_O-acyltransferase_C24H6.01c_OS_
+|                             +**| (0/0.333/7)
+|                             |  |     +------------------------MetazoaUrochordataOikopleuradioica_5360473__PORCN_ANOGA_Protein-serine_O-palmitoleoyltransferase_porcupine_OS_
+|                             |  |  +--| (0/0.46/11)
+|                             |  |  |  +----------------TelonemiaP00656Telonemasubtile_26525536__DGAT1_DICDI_Diacylglycerol_O-acyltransferase_1_OS_
+|                             |  +--| (49.9/0.598/8)
+|                             |     |      +------------ChoanoflagellataEP00039Didymoecacostata_10871273__DGAT1_DICDI_Diacylglycerol_O-acyltransferase_1_OS_
+|                             |     +------| (94.7/0.999/98)
+|                             |            +----------------RhodelphisEP00736Rhodelphismarinus_22809221__WAXS2_ARATH_Probable_long-chain-alcohol_O-fatty-acyltransferase_2_OS_
+|                          +--| (76.3/0.785/90)
+|                          |  +-----------------------------------------------MetazoaBryozoaBugulaneritina_2751344__DGAT1_RAT_Diacylglycerol_O-acyltransferase_1_OS_
+|                       +--| (86.6/0.992/82)
+|                       |  |     +------HeteroloboseaEP00761Pharyngomonaskirbyi_14483709__DGAT1_DICDI_Diacylglycerol_O-acyltransferase_1_OS_
+|                       |  |  +--| (19.2/0.632/74)
+|                       |  |  |  |       +--RotosphaeridaEP00160Parvulariaatlantis_23171829__DAT1B_SOYBN_Diacylglycerol_O-acyltransferase_1B_OS_
+|                       |  |  |  +-------| (100/1/100)
+|                       |  |  |          +**RotosphaeridaEP00160Parvulariaatlantis_23171830__DAT1C_SOYBN_Diacylglycerol_O-acyltransferase_1C_OS_
+|                       |  +--| (88.8/0.993/98)
+|                       |     |  +----RhodophytaEP00185Porphyridiumpurpureum_23047108__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_
+|                       |     +--| (99.2/1/100)
+|                       |        +---RhodophytaGaldieriasulphurariaUP000030680_23116817__DAT1B_SOYBN_Diacylglycerol_O-acyltransferase_1B_OS_
+|                    +--| (30/0.56/72)
+|                    |  |            +-----HaptophytaEP00319Phaeocystisglobosa_14048151__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_
+|                    |  |         +--| (93.4/0.999/100)
+|                    |  |         |  +----RhodelphisEP00736Rhodelphismarinus_22801760__SOAT1_HUMAN_Sterol_O-acyltransferase_1_OS_
+|                    |  |      +--| (89.8/1/99)
+|                    |  |      |  |                           +--MetazoaBryozoaBugulaneritina_2590345__SOAT1_MACFA_Sterol_O-acyltransferase_1_OS_
+|                    |  |      |  |                       +---| (99.8/1/100)
+|                    |  |      |  |                       |   +--MetazoaBryozoaBugulaneritina_2197024__SOAT1_MACFA_Sterol_O-acyltransferase_1_OS_
+|                    |  |      |  |                    +--| (48.9/0.853/58)
+|                    |  |      |  |                    |  |  +--------RhizariaEP00473Plasmodiophorabrassicae_22116322__SOAT1_MACFA_Sterol_O-acyltransferase_1_OS_
+|                    |  |      |  |                    |  +--| (52.1/0.444/98)
+|                    |  |      |  |                    |     |             +--MetazoaPoriferaAmphimedonqueenslandica_4702382__SOAT1_CHLAE_Sterol_O-acyltransferase_1_OS_
+|                    |  |      |  |                    |     |          +--| (99.8/1/100)
+|                    |  |      |  |                    |     |          |  +--MetazoaPoriferaHaliclonatubifera_4953205__SOAT1_RAT_Sterol_O-acyltransferase_1_OS_
+|                    |  |      |  |                    |     |       +--| (43.6/0.88/96)
+|                    |  |      |  |                    |     |       |  +--MetazoaPoriferaStylissacarteri_5083930__SOAT2_HUMAN_Sterol_O-acyltransferase_2_OS_
+|                    |  |      |  |                    |     |   +---| (100/1/100)
+|                    |  |      |  |                    |     |   |   +--MetazoaPoriferaEphydatiamuelleri_4920197__SOAT1_HUMAN_Sterol_O-acyltransferase_1_OS_
+|                    |  |      |  |                    |     +---| (100/1/100)
+|                    |  |      |  |                    |         |           +----MetazoaPoriferaAmphimedonqueenslandica_4702657__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_
+|                    |  |      |  |                    |         |        +--| (99.6/1/100)
+|                    |  |      |  |                    |         |        |  |  +------MetazoaPoriferaHaliclonatubifera_4954756__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_
+|                    |  |      |  |                    |         |        |  +--| (90.3/1/100)
+|                    |  |      |  |                    |         |        |     +---MetazoaPoriferaHaliclonatubifera_4957724__SOAT2_RAT_Sterol_O-acyltransferase_2_OS_
+|                    |  |      |  |                    |         |     +--| (82/0.761/97)
+|                    |  |      |  |                    |         |     |  |    +--MetazoaPoriferaStylissacarteri_5075372__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_
+|                    |  |      |  |                    |         |     |  +----| (100/1/100)
+|                    |  |      |  |                    |         |     |       +--MetazoaPoriferaStylissacarteri_5079575__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_
+|                    |  |      |  |                    |         |  +--| (75.8/0.846/97)
+|                    |  |      |  |                    |         |  |  +------MetazoaPoriferaStylissacarteri_5093435__SOAT1_HUMAN_Sterol_O-acyltransferase_1_OS_
+|                    |  |      |  |                    |         +--| (96.1/1/98)
+|                    |  |      |  |                    |            |          +--MetazoaPoriferaEphydatiamuelleri_4919418__SOAT1_CHLAE_Sterol_O-acyltransferase_1_OS_
+|                    |  |      |  |                    |            |       +--| (100/1/100)
+|                    |  |      |  |                    |            |       |  +**MetazoaPoriferaEphydatiamuelleri_4919417__SOAT1_MACFA_Sterol_O-acyltransferase_1_OS_
+|                    |  |      |  |                    |            |  +----| (100/1/100)
+|                    |  |      |  |                    |            |  |    |     +--MetazoaPoriferaEphydatiamuelleri_4925417__SOAT1_MACFA_Sterol_O-acyltransferase_1_OS_
+|                    |  |      |  |                    |            |  |    |  +--| (99.4/1/100)
+|                    |  |      |  |                    |            |  |    |  |  +**MetazoaPoriferaEphydatiamuelleri_4925419__SOAT1_MACFA_Sterol_O-acyltransferase_1_OS_
+|                    |  |      |  |                    |            |  |    +--| (95.3/1/100)
+|                    |  |      |  |                    |            |  |       +--MetazoaPoriferaEphydatiamuelleri_4925418__SOAT2_HUMAN_Sterol_O-acyltransferase_2_OS_
+|                    |  |      |  |                    |            +--| (78.9/0.692/96)
+|                    |  |      |  |                    |               +----MetazoaPoriferaAmphimedonqueenslandica_4713832__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_
+|                    |  |      |  |                 +--| (94.9/0.996/79)
+|                    |  |      |  |                 |  |  +-----MetazoaArthropodaDrosophilamelanogaster_246412__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_
+|                    |  |      |  |                 |  +--| (91.6/0.998/95)
+|                    |  |      |  |                 |     +---------MetazoaNematodaCaenorhabditiselegans_4314465__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_
+|                    |  |      |  |              +--| (35.1/0.783/28)
+|                    |  |      |  |              |  |                       +---MetazoaPlatyhelminthesEchinococcusmultilocularis_4605866__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_
+|                    |  |      |  |              |  |                    +--| (78.1/0.993/79)
+|                    |  |      |  |              |  |                    |  |  +--------------MetazoaCnidariaMyxozoaThelohanelluskitauei_3371308__SOAT1_CRIGR_Sterol_O-acyltransferase_1_OS_
+|                    |  |      |  |              |  |                    |  +--| (84.7/0.962/95)
+|                    |  |      |  |              |  |                    |     +----MetazoaRotiferaBrachionusplicatilis_5270612__SOAT1_CRIGR_Sterol_O-acyltransferase_1_OS_
+|                    |  |      |  |              |  |                 +--| (86.9/0.967/78)
+|                    |  |      |  |              |  |                 |  |  +--MetazoaRotiferaBrachionusplicatilis_5237179__SOAT2_CHLAE_Sterol_O-acyltransferase_2_OS_
+|                    |  |      |  |              |  |                 |  +--| (73.3/0.898/85)
+|                    |  |      |  |              |  |                 |     +---MetazoaTardigradaRamazzotiusvarieornatus_5290193__SOAT2_HUMAN_Sterol_O-acyltransferase_2_OS_
+|                    |  |      |  |              |  |              +--| (96.1/1/84)
+|                    |  |      |  |              |  |              |  |  +---MetazoaArthropodaDaphniapulex_192370__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_
+|                    |  |      |  |              |  |              |  +--| (95.1/1/88)
+|                    |  |      |  |              |  |              |     |  +--MetazoaBrachiopodaLingulaunguis_1279068__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_
+|                    |  |      |  |              |  |              |     +--| (100/1/100)
+|                    |  |      |  |              |  |              |        +**MetazoaBrachiopodaLingulaunguis_1278526__SOAT1_HUMAN_Sterol_O-acyltransferase_1_OS_
+|                    |  |      |  |              |  |           +--| (83.3/0.998/79)
+|                    |  |      |  |              |  |           |  |     +--MetazoaMolluscaLottiagigantea_4216855__SOAT1_HUMAN_Sterol_O-acyltransferase_1_OS_
+|                    |  |      |  |              |  |           |  |  +--| (94.6/1/97)
+|                    |  |      |  |              |  |           |  |  |  |     +**MetazoaMolluscaEP00106Octopusbimaculoides_4168033__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_
+|                    |  |      |  |              |  |           |  |  |  |  +**| (0/0.333/92)
+|                    |  |      |  |              |  |           |  |  |  |  |  +**MetazoaMolluscaEP00106Octopusbimaculoides_4168034__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_
+|                    |  |      |  |              |  |           |  |  |  +--| (100/1/100)
+|                    |  |      |  |              |  |           |  |  |     +**MetazoaMolluscaEP00106Octopusbimaculoides_4168036__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_
+|                    |  |      |  |              |  |           |  +--| (93.7/1/92)
+|                    |  |      |  |              |  |           |     |  +--MetazoaAnnelidaEP00103Capitellateleta_67238__SOAT1_CHLAE_Sterol_O-acyltransferase_1_OS_
+|                    |  |      |  |              |  |           |     +--| (50.3/0.891/94)
+|                    |  |      |  |              |  |           |        +--MetazoaAnnelidaHelobdellarobusta_86638__SOAT1_CHLAE_Sterol_O-acyltransferase_1_OS_
+|                    |  |      |  |              |  |        +--| (62.4/0.936/50)
+|                    |  |      |  |              |  |        |  +--MetazoaHemichordataSaccoglossuskowalevskii_4049739__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_
+|                    |  |      |  |              |  |     +--| (70.5/0.996/86)
+|                    |  |      |  |              |  |     |  |              +--MetazoaVertebrateDaniorerio_5420643__SOAT1_HUMAN_Sterol_O-acyltransferase_1_OS_
+|                    |  |      |  |              |  |     |  |           +--| (82.3/0.992/100)
+|                    |  |      |  |              |  |     |  |           |  |  +--MetazoaVertebrateMusmusculus_6537317__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_
+|                    |  |      |  |              |  |     |  |           |  +--| (100/1/100)
+|                    |  |      |  |              |  |     |  |           |     +--MetazoaVertebrateHomosapiens_6455999__SOAT1_HUMAN_Sterol_O-acyltransferase_1_OS_
+|                    |  |      |  |              |  |     |  |        +--| (93.2/1/100)
+|                    |  |      |  |              |  |     |  |        |  +---MetazoaVertebrateEptatretusburgeri_6402668__SOAT1_HUMAN_Sterol_O-acyltransferase_1_OS_
+|                    |  |      |  |              |  |     |  |     +--| (54.6/0.906/98)
+|                    |  |      |  |              |  |     |  |     |  |  +**MetazoaVertebrateEptatretusburgeri_6402637__SOAT1_HUMAN_Sterol_O-acyltransferase_1_OS_
+|                    |  |      |  |              |  |     |  |     |  +--| (100/1/100)
+|                    |  |      |  |              |  |     |  |     |     +--MetazoaVertebrateEptatretusburgeri_6402638__SOAT1_CHLAE_Sterol_O-acyltransferase_1_OS_
+|                    |  |      |  |              |  |     |  |  +--| (100/1/100)
+|                    |  |      |  |              |  |     |  |  |  |  +--MetazoaVertebrateDaniorerio_5425249__SOAT1_RAT_Sterol_O-acyltransferase_1_OS_
+|                    |  |      |  |              |  |     |  |  |  +--| (94/0.999/100)
+|                    |  |      |  |              |  |     |  |  |     |  +--MetazoaVertebrateMusmusculus_6531753__SOAT2_MOUSE_Sterol_O-acyltransferase_2_OS_
+|                    |  |      |  |              |  |     |  |  |     +--| (100/1/100)
+|                    |  |      |  |              |  |     |  |  |        +--MetazoaVertebrateHomosapiens_6453156__SOAT2_HUMAN_Sterol_O-acyltransferase_2_OS_
+|                    |  |      |  |              |  |     |  +--| (90.4/1/92)
+|                    |  |      |  |              |  |     |     |   +--MetazoaCephalochordataBranchiostomabelcheri_2819752__PK1L1_HUMAN_Polycystic_kidney_disease_protein_1-like_1_OS_
+|                    |  |      |  |              |  |     |     +---| (100/1/100)
+|                    |  |      |  |              |  |     |         +**MetazoaCephalochordataBranchiostomabelcheri_2819753__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_
+|                    |  |      |  |              |  |  +--| (53.6/0.947/82)
+|                    |  |      |  |              |  |  |  |  +---MetazoaEchinodermataEP00057Strongylocentrotuspurpuratus_3834560__SOAT1_RAT_Sterol_O-acyltransferase_1_OS_
+|                    |  |      |  |              |  |  |  +--| (99.8/1/98)
+|                    |  |      |  |              |  |  |     +--MetazoaEchinodermataAcanthasterplanci_3793573__SOAT1_RAT_Sterol_O-acyltransferase_1_OS_
+|                    |  |      |  |              |  +--| (98.5/1/40)
+|                    |  |      |  |              |     |                             +--MetazoaCnidariaAcroporadigitifera_2949279__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_
+|                    |  |      |  |              |     |                          +--| (75.3/0.809/100)
+|                    |  |      |  |              |     |                          |  +--MetazoaCnidariaPoritesaustraliensis_3534964__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_
+|                    |  |      |  |              |     |                       +--| (97.3/1/100)
+|                    |  |      |  |              |     |                       |  +--MetazoaCnidariaAstreoporasp_3047100__SOAT1_HUMAN_Sterol_O-acyltransferase_1_OS_
+|                    |  |      |  |              |     |                    +--| (75.7/0.96/100)
+|                    |  |      |  |              |     |                    |  +--MetazoaCnidariaMontastraeacavernosa_3317885__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_
+|                    |  |      |  |              |     |                 +--| (77/0.994/100)
+|                    |  |      |  |              |     |                 |  +--MetazoaCnidariaFungiascutaria_3204392__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_
+|                    |  |      |  |              |     |              +--| (78.6/0.957/100)
+|                    |  |      |  |              |     |              |  +--MetazoaCnidariaMadracisauretenra_3284442__SOAT2_HUMAN_Sterol_O-acyltransferase_2_OS_
+|                    |  |      |  |              |     |           +--| (99.9/1/100)
+|                    |  |      |  |              |     |           |  +--MetazoaCnidariaStylophorapistillata_3684087__SOAT1_CHLAE_Sterol_O-acyltransferase_1_OS_
+|                    |  |      |  |              |     |        +--| (99.5/1/100)
+|                    |  |      |  |              |     |        |  |  +--MetazoaCnidariaNematostellavectensis_3373825__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_
+|                    |  |      |  |              |     |        |  +--| (98.7/1/100)
+|                    |  |      |  |              |     |        |     +--MetazoaCnidariaAnthopleuraelegantissima_3010956__SOAT1_HUMAN_Sterol_O-acyltransferase_1_OS_
+|                    |  |      |  |              |     |     +--| (89.7/0.888/69)
+|                    |  |      |  |              |     |     |  +--MetazoaCnidariaGorgoniaventalina_3233658__SOAT1_MACFA_Sterol_O-acyltransferase_1_OS_
+|                    |  |      |  |              |     |  +--| (98.2/1/100)
+|                    |  |      |  |              |     |  |  |  +----MetazoaCnidariaClytiahemisphaerica_3085765__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_
+|                    |  |      |  |              |     |  |  +--| (91.3/0.997/98)
+|                    |  |      |  |              |     |  |     +--MetazoaCnidariaAureliaGenome_3051150__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_
+|                    |  |      |  |              |     +--| (75.4/0.911/42)
+|                    |  |      |  |              |        |      +**MetazoaPlacozoaHoilungiahongkongensis_4541206__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_
+|                    |  |      |  |              |        |   +--| (98.6/1/100)
+|                    |  |      |  |              |        |   |  +**MetazoaPlacozoaHoilungiahongkongensis_4541207__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_
+|                    |  |      |  |              |        +---| (100/1/100)
+|                    |  |      |  |              |            +--MetazoaPlacozoaEP00114TrichoplaxspH2_4510918__SOAT1_CRIGR_Sterol_O-acyltransferase_1_OS_
+|                    |  |      |  |           +--| (97/1/60)
+|                    |  |      |  |           |  |     +--MetazoaPoriferaSyconciliatum_5126125__SOAT1_HUMAN_Sterol_O-acyltransferase_1_OS_
+|                    |  |      |  |           |  |  +--| (100/1/100)
+|                    |  |      |  |           |  |  |  +--MetazoaPoriferaLeucosoleniacomplicata_5010330__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_
+|                    |  |      |  |           |  +--| (92.2/0.995/67)
+|                    |  |      |  |           |     +---MetazoaPoriferaEP00118Oscarellapearsei_4817195__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_
+|                    |  |      |  |        +--| (91.6/0.987/94)
+|                    |  |      |  |        |  |        +--ChoanoflagellataEP00047Mylnosigafluctuans_11114416__SOAT1_CHLAE_Sterol_O-acyltransferase_1_OS_
+|                    |  |      |  |        |  |     +--| (89/0.997/100)
+|                    |  |      |  |        |  |     |  +----ChoanoflagellataEP00050Salpingoecakvevrii_11207341__SOAT1_CHLAE_Sterol_O-acyltransferase_1_OS_
+|                    |  |      |  |        |  |  +--| (21.2/0.569/45)
+|                    |  |      |  |        |  |  |  +---IchthyosporeaEP00126Sphaerothecumdestruens_14612802__SOAT2_HUMAN_Sterol_O-acyltransferase_2_OS_
+|                    |  |      |  |        |  +--| (89.6/0.998/97)
+|                    |  |      |  |        |     +----FilastreaCapsasporaowczarzakiUP000008743_12983113__SOAT1_CHLAE_Sterol_O-acyltransferase_1_OS_
+|                    |  |      |  |     +--| (95.5/0.999/99)
+|                    |  |      |  |     |  +-----IchthyosporeaEP00126Sphaerothecumdestruens_14612801__SOAT1_RAT_Sterol_O-acyltransferase_1_OS_
+|                    |  |      |  |  +--| (75.8/0.864/73)
+|                    |  |      |  |  |  |  +--AlveolataEP00742ColponemidiaspColp10_4272534__SOAT2_RAT_Sterol_O-acyltransferase_2_OS_
+|                    |  |      |  |  |  +--| (99.6/1/100)
+|                    |  |      |  |  |     +-------AlveolataEP00333Tetrahymenathermophila_68197__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_
+|                    |  |      |  +--| (52.9/0.868/73)
+|                    |  |      |     |    +--CentroplasthelidaEP00300ChoanocystisspHF7_5629869__SOAT1_HUMAN_Sterol_O-acyltransferase_1_OS_
+|                    |  |      |     +----| (100/1/100)
+|                    |  |      |          +--ApusomonadidaThecamonastrahensUP000054408_5477754__SOAT1_MACFA_Sterol_O-acyltransferase_1_OS_
+|                    |  |  +---| (100/1/100)
+|                    |  |  |   |        +--CollodictyonidaeEP00002Diphylleiarotans_11645659__SOAT1_RAT_Sterol_O-acyltransferase_1_OS_
+|                    |  |  |   |     +--| (100/1/100)
+|                    |  |  |   |     |  +--CollodictyonidaeEP00002Diphylleiarotans_11645660__SOAT1_RAT_Sterol_O-acyltransferase_1_OS_
+|                    |  |  |   |  +--| (96.6/1/100)
+|                    |  |  |   |  |  +--CollodictyonidaeEP00002Diphylleiarotans_11666034__SOAT1_CHLAE_Sterol_O-acyltransferase_1_OS_
+|                    |  |  |   +--| (99.9/1/100)
+|                    |  |  |      |    +**RigifilidaEP00004Rigifilaramosa_23125236__SOAT1_HUMAN_Sterol_O-acyltransferase_1_OS_
+|                    |  |  |      +----| (100/1/100)
+|                    |  |  |           +--RigifilidaEP00004Rigifilaramosa_23125237__SOAT1_HUMAN_Sterol_O-acyltransferase_1_OS_
+|                    |  +--| (78.9/0.954/94)
+|                    |     |   +-------------MalawimonadidaeEP00698Gefionellaokellyi_14709428__DGAT1_CORAE_Diacylglycerol_O-acyltransferase_1_OS_
+|                    |     +---| (98.7/1/99)
+|                    |         +---------------AmoebozoaDictyosteliumdiscoideumUP000002195_4932587__DGAT1_RAT_Diacylglycerol_O-acyltransferase_1_OS_
+|                 +--| (99.2/1/99)
+|                 |  |        +----GlaucophytaEP00276Gloeochaetewittrockiana_13499831__DAT1B_SOYBN_Diacylglycerol_O-acyltransferase_1B_OS_
+|                 |  |     +--| (29.6/0.584/95)
+|                 |  |     |  +----HeteroloboseaEP00761Pharyngomonaskirbyi_14488777__DGAT1_ARATH_Diacylglycerol_O-acyltransferase_1_OS_
+|                 |  |  +--| (99.4/1/100)
+|                 |  |  |  +------JakobidaEP00762Andaluciagodoyi_14654936__ARE2_CANAX_Sterol_O-acyltransferase_2_OS_
+|                 |  +--| (91.2/0.999/98)
+|                 |     |  +-----AmoebozoaEP00029Vermamoebavermiformis_5280956__DAT1B_SOYBN_Diacylglycerol_O-acyltransferase_1B_OS_
+|                 |     +--| (94.6/1/100)
+|                 |        +------AmoebozoaDictyosteliumdiscoideumUP000002195_4930403__DGAT1_CORAE_Diacylglycerol_O-acyltransferase_1_OS_
+|              +--| (94.7/1/99)
+|              |  |    +-----RhodophytaEP00185Porphyridiumpurpureum_23044280__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_
+|              |  +----| (100/1/100)
+|              |       |  +-----RhodophytaGaldieriasulphurariaUP000030680_23117956__ARE2_SACU7_Sterol_O-acyltransferase_2_OS_
+|              |       +--| (85.3/0.963/100)
+|              |          +-----RhodophytaGaldieriasulphurariaUP000030680_23116056__AREH1_SCHPO_Probable_sterol_O-acyltransferase_1_OS_
+|           +--| (91.1/1/98)
+|           |  |    +----AlveolataEP00333Tetrahymenathermophila_75336__AREH1_SCHPO_Probable_sterol_O-acyltransferase_1_OS_
+|           |  +----| (100/1/100)
+|           |       +--AlveolataEP00333Tetrahymenathermophila_80462__AREH1_SCHPO_Probable_sterol_O-acyltransferase_1_OS_
+|        +--| (67.4/0.922/87)
+|        |  |  +-------PluriformeaEP00127Corallochytriumlimacisporum_21623487__ARE2_CANAX_Sterol_O-acyltransferase_2_OS_
+|        |  +--| (89.9/0.986/93)
+|        |     +-----FilastreaCapsasporaowczarzakiUP000008743_12984776__AREH2_SCHPO_Probable_sterol_O-acyltransferase_2_OS_
+|     +--| (19.1/0.72/83)
+|     |  |              +--CollodictyonidaeEP00002Diphylleiarotans_11642749__DAT1B_SOYBN_Diacylglycerol_O-acyltransferase_1B_OS_
+|     |  |           +**| (0/0.333/53)
+|     |  |           |  +--CollodictyonidaeEP00002Diphylleiarotans_11642754__DAT1C_SOYBN_Diacylglycerol_O-acyltransferase_1C_OS_
+|     |  |        +**| (0/0.333/46)
+|     |  |        |  +**CollodictyonidaeEP00002Diphylleiarotans_11642750__DAT1C_SOYBN_Diacylglycerol_O-acyltransferase_1C_OS_
+|     |  |     +**| (0/0.333/64)
+|     |  |     |  +**CollodictyonidaeEP00002Diphylleiarotans_11642751__DAT1C_SOYBN_Diacylglycerol_O-acyltransferase_1C_OS_
+|     |  +-----| (100/1/100)
+|     |        |     +**CollodictyonidaeEP00002Diphylleiarotans_11642752__ARE2_CANAX_Sterol_O-acyltransferase_2_OS_
+|     |        |  +**| (0/0.333/93)
+|     |        |  |  +**CollodictyonidaeEP00002Diphylleiarotans_11642753__ARE2_CANAX_Sterol_O-acyltransferase_2_OS_
+|     |        +**| (0/0.333/88)
+|     |           +**CollodictyonidaeEP00002Diphylleiarotans_11642755__ARE2_CANAX_Sterol_O-acyltransferase_2_OS_
+|  +--| (26.6/0.499/74)
+|  |  +--------StramenopilesPhytophthorainfestansUP000006643_26377687__ARE2_SACU7_Sterol_O-acyltransferase_2_OS_
++--| (78.2/0.991/81)
+|  |  +-----RigifilidaEP00004Rigifilaramosa_23132564__AREH1_SCHPO_Probable_sterol_O-acyltransferase_1_OS_
+|  +--| (93.4/0.999/94)
+|     |          +--TelonemiaP00656Telonemasubtile_26511820__ARE2_CANAX_Sterol_O-acyltransferase_2_OS_
+|     |  +-------| (100/1/100)
+|     |  |       +**TelonemiaP00656Telonemasubtile_26511821__ARE2_CANAX_Sterol_O-acyltransferase_2_OS_
+|     +--| (97.3/1/99)
+|        +--------ChoanoflagellataEP00040Diaphanoecagrandis_10910441__ARE2_CANAX_Sterol_O-acyltransferase_2_OS_
+|
+|     +-------IchthyosporeaEP00123Amoebidiumparasiticum_14559664__ARE2_SACU7_Sterol_O-acyltransferase_2_OS_
+|  +--| (26.5/0.543/95)
+|  |  +----HaptophytaEP00319Phaeocystisglobosa_14053193__AREH2_SCHPO_Probable_sterol_O-acyltransferase_2_OS_
++--| (90.9/0.996/100)
+   |           +----FungiEP00150Ustilagomaydis_13256582__AREH1_SCHPO_Probable_sterol_O-acyltransferase_1_OS_
+   |        +--| (87.7/0.983/100)
+   |        |  |       +--CentroplasthelidaEP00300ChoanocystisspHF7_5627063__AREH2_SCHPO_Probable_sterol_O-acyltransferase_2_OS_
+   |        |  |  +----| (100/1/100)
+   |        |  |  |    +--FungiFusariumoxysporumUP000002489_13354115__ARE2_CANAX_Sterol_O-acyltransferase_2_OS_
+   |        |  +--| (98.4/1/100)
+   |        |     |        +--FungiSaccharomycescerevisiaeUP000002311_13446240__ARE1_YEAST_Sterol_O-acyltransferase_1_OS_
+   |        |     |  +-----| (100/1/100)
+   |        |     |  |     +--FungiSaccharomycescerevisiaeUP000002311_13449006__ARE2_YEAST_Sterol_O-acyltransferase_2_OS_
+   |        |     +--| (97.9/1/100)
+   |        |        +---FungiFusariumoxysporumUP000002489_13356715__ARE2_CANAX_Sterol_O-acyltransferase_2_OS_
+   |     +--| (33.3/0.685/99)
+   |     |  +---FungiMortierellaelongataUP000078512_13383038__AREH1_SCHPO_Probable_sterol_O-acyltransferase_1_OS_
+   |  +--| (97.1/1/100)
+   |  |  +---FungiRhizopusmicrosporusUP000242254_13434296__AREH1_SCHPO_Probable_sterol_O-acyltransferase_1_OS_
+   +--| (98.4/1/100)
+      +---FungiSpizellomycespunctatusUP000053201_13453645__AREH1_SCHPO_Probable_sterol_O-acyltransferase_1_OS_
+
+Tree in newick format:
+
+(RotosphaeridaEP00160Parvulariaatlantis_23167332__AREH2_SCHPO_Probable_sterol_O-acyltransferase_2_OS_:0.7756744540,(((((((((((((((((EuglenozoaEP00668Euglenalonga_12438991__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_:1.0365838474,MetazoaCnidariaMyxozoaThelohanelluskitauei_3359343__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_:1.6888097532)99.1/1/99:0.5523654594,((((((((((MetazoaCnidariaStylophorapistillata_3671554__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_:0.4445862518,(((((MetazoaCnidariaMontastraeacavernosa_3321701__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_:0.0012736629,MetazoaCnidariaAcroporadigitifera_2947711__DGAT1_CHLAE_Diacylglycerol_O-acyltransferase_1_OS_:0.4742088008)80.8/0.993/85:0.3387583892,(((MetazoaCnidariaFungiascutaria_3180548__DGAT1_RAT_Diacylglycerol_O-acyltransferase_1_OS_:0.0000021035,MetazoaCnidariaFungiascutaria_3202380__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_:0.0019989844)70/0.727/92:0.0775523138,MetazoaCnidariaMadracisauretenra_3270993__DGAT1_RAT_Diacylglycerol_O-acyltransferase_1_OS_:0.1646144719)83.2/0.885/88:0.0242591264,MetazoaCnidariaMontastraeacavernosa_3323034__DGAT1_RAT_Diacylglycerol_O-acyltransferase_1_OS_:0.0905646825)68.6/0.615/88:0.0302310921)55.2/0.423/81:0.0301499569,MetazoaCnidariaAstreoporasp_3031473__DGAT1_RAT_Diacylglycerol_O-acyltransferase_1_OS_:0.0850765630)0/0.337/62:0.0037478631,MetazoaCnidariaMadracisauretenra_3293501__DGAT1_CHLAE_Diacylglycerol_O-acyltransferase_1_OS_:0.1252184934)74.7/0.628/86:0.0163721278,MetazoaCnidariaAstreoporasp_3031194__DGAT1_CHLAE_Diacylglycerol_O-acyltransferase_1_OS_:0.1411347889)78.8/0.733/98:0.0275504923)98.6/1/100:0.1729175353,(MetazoaCnidariaAnthopleuraelegantissima_3011260__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_:0.1643752810,MetazoaCnidariaNematostellavectensis_3376074__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_:0.2257258188)99.5/1/100:0.1640492792)98.8/1/100:0.2175012168,(MetazoaCnidariaClytiahemisphaerica_3075994__DGAT1_RAT_Diacylglycerol_O-acyltransferase_1_OS_:0.1194850176,MetazoaCnidariaHydramagnapapillata_3259026__DGAT1_BOVIN_Diacylglycerol_O-acyltransferase_1_OS_:0.2629208329)99.7/1/100:0.4478235261)98.5/1/100:0.1625161967,(((MetazoaPoriferaEP00118Oscarellapearsei_4819331__DGAT1_RAT_Diacylglycerol_O-acyltransferase_1_OS_:0.0784568096,MetazoaPoriferaEP00118Oscarellapearsei_4810716__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_:0.2029187241)99.6/1/100:0.3656226258,(MetazoaPoriferaLeucosoleniacomplicata_5018071__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_:0.1501267662,MetazoaPoriferaSyconciliatum_5112163__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_:0.2113846962)100/1/100:0.4305317292)94.2/1/100:0.1268155316,((((MetazoaPlacozoaHoilungiahongkongensis_4580249__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_:0.0027520270,MetazoaPlacozoaHoilungiahongkongensis_4580250__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_:0.0314674562)0/0.334/90:0.0000025472,MetazoaPlacozoaHoilungiahongkongensis_4580251__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_:0.0000025878)63.3/0.377/92:0.0031855619,MetazoaPlacozoaHoilungiahongkongensis_4580252__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_:0.0135291587)79.9/0.986/96:0.0605984113,MetazoaPlacozoaEP00114TrichoplaxspH2_4515200__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_:0.1157341411)100/1/100:0.4246279125)75.8/0.995/95:0.1047399059)93.9/1/71:0.1171212389,((((((MetazoaPoriferaAmphimedonqueenslandica_4687947__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_:0.0065976089,MetazoaPoriferaAmphimedonqueenslandica_4675108__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_:0.0144367861)74.5/0.661/100:0.0032903688,MetazoaPoriferaAmphimedonqueenslandica_4713813__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_:0.0000026806)100/1/100:0.4069943995,MetazoaPoriferaHaliclonatubifera_4953816__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_:0.3734839432)63.5/0.661/98:0.0700111461,MetazoaPoriferaEphydatiamuelleri_4909048__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_:0.6283056268)76.2/0.735/100:0.0795222498,(MetazoaPoriferaStylissacarteri_5098611__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_:0.2941410622,MetazoaPoriferaEphydatiamuelleri_4930123__DGAT1_BOVIN_Diacylglycerol_O-acyltransferase_1_OS_:0.5398815291)97.7/1/100:0.2815636361)99.9/1/100:0.3379972378,(((((ChoanoflagellataEP00037Helgoecanana_10784418__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_:0.0000023120,ChoanoflagellataEP00037Helgoecanana_10784419__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_:0.1103103261)98.5/1/100:0.1628671768,ChoanoflagellataEP00035Acanthoecaspectabilis_10753056__DGAT1_RAT_Diacylglycerol_O-acyltransferase_1_OS_:0.2226621485)100/1/100:0.4702775685,ChoanoflagellataEP00040Diaphanoecagrandis_10914621__DGAT1_RAT_Diacylglycerol_O-acyltransferase_1_OS_:0.4595001705)100/1/100:0.4646975123,((ChoanoflagellataEP00047Mylnosigafluctuans_11126316__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_:0.5093635459,((ChoanoflagellataEP00050Salpingoecakvevrii_11191780__DGAT1_RAT_Diacylglycerol_O-acyltransferase_1_OS_:0.1168836411,ChoanoflagellataEP00050Salpingoecakvevrii_11191781__DGAT1_RAT_Diacylglycerol_O-acyltransferase_1_OS_:0.0000024070)63/0.993/100:0.1048779679,ChoanoflagellataEP00050Salpingoecakvevrii_11191782__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_:0.0000019981)100/1/100:0.5569399246)62.2/0.962/84:0.1105200978,(ChoanoflagellateaMonosigabrevicollisUP000001357_11429688__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_:0.3295420552,ChoanoflagellataEP00045Choanoecaperplexa_11086214__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_:0.2829200464)99.7/1/100:0.2700638654)93.8/0.999/99:0.1433361122)99.3/1/100:0.2942553059,((IchthyosporeaEP00126Sphaerothecumdestruens_14603832__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_:0.0018070671,IchthyosporeaEP00126Sphaerothecumdestruens_14603833__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_:0.0042996989)100/1/100:0.6968863664,FilastreaCapsasporaowczarzakiUP000008743_12984513__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_:0.5474617169)19.2/0.654/72:0.1186144486)98.8/1/97:0.1783908522)33.8/0.438/53:0.0248943497)66.9/0.968/53:0.0727923418,(((MetazoaUrochordataOikopleuradioica_5366837__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_:1.1244063397,MetazoaUrochordataEP00059Cionaintestinalis_5352861__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_:0.5113728446)98.5/1/99:0.2531677376,((((MetazoaVertebrateMusmusculus_6548891__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_:0.0737012334,MetazoaVertebrateHomosapiens_6453155__DGAT1_HUMAN_Diacylglycerol_O-acyltransferase_1_OS_:0.0709935558)100/1/100:0.2013107016,(MetazoaVertebrateDaniorerio_5425246__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_:0.2512052530,MetazoaVertebrateDaniorerio_5433937__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_:0.2373935024)97.9/1/100:0.1127522181)93.4/0.999/100:0.0841559530,MetazoaVertebrateEptatretusburgeri_6404295__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_:0.5512413401)97.6/1/100:0.1094235069,(MetazoaRotiferaBrachionusplicatilis_5229975__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_:0.5982946526,MetazoaEchinodermataAcanthasterplanci_3777782__DGAT1_HUMAN_Diacylglycerol_O-acyltransferase_1_OS_:0.3943685253)64.7/0.695/91:0.0799940386)39.5/0.724/67:0.0368591100)82.2/0.969/87:0.0566954436,(((MetazoaCephalochordataBranchiostomabelcheri_2800282__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_:0.2890544303,MetazoaBryozoaBugulaneritina_2578493__DGAT1_BOVIN_Diacylglycerol_O-acyltransferase_1_OS_:0.2096692521)90.1/0.999/97:0.2734413362,MetazoaHemichordataSaccoglossuskowalevskii_4052373__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_:0.4269539025)52.3/0.918/77:0.0747102225,((MetazoaMolluscaLottiagigantea_4223631__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_:0.3803005815,(MetazoaMolluscaEP00106Octopusbimaculoides_4156992__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_:0.3643993661,(MetazoaBryozoaBugulaneritina_2101001__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_:0.4142499456,MetazoaBrachiopodaLingulaunguis_1304726__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_:0.3232450920)84.4/0.946/98:0.1181800473)40/0.887/85:0.0643676534)91.2/1/97:0.1119167930,(((MetazoaAnnelidaEP00103Capitellateleta_55251__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_:0.0083621762,MetazoaAnnelidaEP00103Capitellateleta_73183__DGAT1_CHLAE_Diacylglycerol_O-acyltransferase_1_OS_:0.2526070831)99.2/1/100:0.2383412439,MetazoaAnnelidaHelobdellarobusta_103748__DGAT1_RAT_Diacylglycerol_O-acyltransferase_1_OS_:0.7756207910)94.9/1/99:0.1425831612,MetazoaAcoelaHofsteniamiamia_1730__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_:1.0077766493)79.2/0.991/99:0.1096214490)70.4/0.988/91:0.0656014136)81.2/0.987/83:0.0575565767)93/1/88:0.0719126638)67.4/0.985/78:0.0619142367,(MetazoaEchinodermataEP00057Strongylocentrotuspurpuratus_3831980__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_:0.4284911785,MetazoaEchinodermataAcanthasterplanci_3777781__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_:0.4513988136)93.5/0.999/81:0.1388839617)61.1/0.718/72:0.0471416151,MetazoaNematodaCaenorhabditiselegans_4322517__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_:0.7228175661)9/0.583/61:0.0508862094,((MetazoaArthropodaEP00090Calanusglacialis_706584__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_:1.9301852906,(MetazoaArthropodaDrosophilamelanogaster_246882__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_:0.4464896141,(MetazoaArthropodaDaphniapulex_191399__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_:0.3981830206,(MetazoaArthropodaEP00090Calanusglacialis_694210__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_:0.4269601405,MetazoaArthropodaEP00090Calanusglacialis_707437__DGAT1_RAT_Diacylglycerol_O-acyltransferase_1_OS_:1.6706680579)79.9/0.776/89:0.0937395427)0.1/0.507/26:0.0514870273)87.7/0.996/89:0.3817453255)0/0.338/82:0.0183568621,(MetazoaPlatyhelminthesEchinococcusmultilocularis_4608333__DGAT1_RAT_Diacylglycerol_O-acyltransferase_1_OS_:0.6618674387,MetazoaPoriferaLeucosoleniacomplicata_4997968__DGAT1_BOVIN_Diacylglycerol_O-acyltransferase_1_OS_:0.5444995831)84.4/0.882/84:0.1874833661)95.4/1/82:0.1575703175)85.6/0.841/89:0.0612686916,MetazoaTardigradaRamazzotiusvarieornatus_5281788__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_:0.7689725532)99.4/1/99:0.2484176332)81.5/0.978/92:0.1003802657,(JakobidaEP00762Andaluciagodoyi_14651976__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_:0.8547580750,CollodictyonidaeEP00002Diphylleiarotans_11643194__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_:1.0143456988)76.4/0.686/40:0.0904431039)61.5/0.818/38:0.0668221914,((((((HaptophytaEP00319Phaeocystisglobosa_14043383__DGAT1_DICDI_Diacylglycerol_O-acyltransferase_1_OS_:1.3218637536,AlveolataEP00742ColponemidiaspColp10_4278854__DGAT1_CORAE_Diacylglycerol_O-acyltransferase_1_OS_:0.4012537038)88.2/0.962/81:0.3108720307,((((((FungiMortierellaelongataUP000078512_13381500__DAT1C_SOYBN_Diacylglycerol_O-acyltransferase_1C_OS_:0.2281851158,FungiMortierellaelongataUP000078512_13380628__DAT1B_SOYBN_Diacylglycerol_O-acyltransferase_1B_OS_:0.2189287600)100/1/100:0.3751327236,FungiRhizopusmicrosporusUP000242254_13431603__DAT1B_SOYBN_Diacylglycerol_O-acyltransferase_1B_OS_:0.5506690855)26.3/0.558/85:0.0801914251,FungiFusariumoxysporumUP000002489_13368459__DAT1C_SOYBN_Diacylglycerol_O-acyltransferase_1C_OS_:0.9669086490)79.9/0.999/98:0.2507159947,FungiSpizellomycespunctatusUP000053201_13453137__DAT1B_SOYBN_Diacylglycerol_O-acyltransferase_1B_OS_:0.6096844577)99.8/1/100:0.4750588834,AlveolataEP00333Tetrahymenathermophila_68134__DAT1A_SOYBN_Diacylglycerol_O-acyltransferase_1A_OS_:1.1475819253)17.5/0.521/53:0.1368958038,RhizariaEP00473Plasmodiophorabrassicae_22114852__DGAT1_CORAE_Diacylglycerol_O-acyltransferase_1_OS_:1.2435099164)0/0.424/42:0.0550133658)13/0.629/67:0.0694028539,AmoebozoaEP00029Vermamoebavermiformis_5284231__DAT1C_SOYBN_Diacylglycerol_O-acyltransferase_1C_OS_:0.8544449694)52.9/0.785/55:0.0736359752,((((TelonemiaP00656Telonemasubtile_26514975__DAT1A_SOYBN_Diacylglycerol_O-acyltransferase_1A_OS_:0.0000023793,TelonemiaP00656Telonemasubtile_26514976__DAT1B_SOYBN_Diacylglycerol_O-acyltransferase_1B_OS_:0.0534542179)97.7/0.971/100:0.0259401229,TelonemiaP00656Telonemasubtile_26514977__DAT1A_SOYBN_Diacylglycerol_O-acyltransferase_1A_OS_:0.0000025391)100/1/100:0.9193577744,(((ChloroplastidaArabidopsisthalianaUP000006548_5889220__DGAT1_ARATH_Diacylglycerol_O-acyltransferase_1_OS_:0.4053341807,ChloroplastidaEP00248Marchantiapolymorpha_7477846__DGAT1_CORAE_Diacylglycerol_O-acyltransferase_1_OS_:0.3564580051)33.9/0.758/97:0.1671307453,ChloroplastidaChlamydomonasreinhardtiiUP000006906_6367408__DGAT1_CORAE_Diacylglycerol_O-acyltransferase_1_OS_:0.8003165431)90.9/0.997/92:0.2513296069,(RhodelphisEP00736Rhodelphismarinus_22796072__DAT11_ORYSJ_Diacylglycerol_O-acyltransferase_1-1_OS_:0.1129442573,RhodelphisEP00736Rhodelphismarinus_22800701__DAT12_ORYSJ_Diacylglycerol_O-acyltransferase_1-2_OS_:0.0000022120)100/1/100:0.8607583442)77.2/0.953/91:0.1335666550)39.3/0.756/70:0.0785706269,HaptophytaEP00327Prymnesiumparvum_14279425__DAT1C_SOYBN_Diacylglycerol_O-acyltransferase_1C_OS_:1.1413483172)78.7/0.947/73:0.0815019812)95.9/1/95:0.1246083066,MalawimonadidaeEP00698Gefionellaokellyi_14690841__DGAT1_DICDI_Diacylglycerol_O-acyltransferase_1_OS_:0.9202211489)88.3/0.975/91:0.0740926435,(((HaptophytaEP00319Phaeocystisglobosa_14048562__DGAT1_DICDI_Diacylglycerol_O-acyltransferase_1_OS_:0.9195277096,RotosphaeridaEP00160Parvulariaatlantis_23153909__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_:1.0129688098)10.9/0.504/81:0.1139738710,((RotosphaeridaFonticulaalbaUP000030693_23191143__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_:1.5442451468,RotosphaeridaEP00160Parvulariaatlantis_23170279__DGAT1_DICDI_Diacylglycerol_O-acyltransferase_1_OS_:0.5419500347)74.5/0.955/96:0.2307650504,CentroplasthelidaEP00300ChoanocystisspHF7_5605202__DGAT1_DICDI_Diacylglycerol_O-acyltransferase_1_OS_:0.7902059617)87.1/0.993/80:0.2223700028)89.1/0.999/51:0.0994361311,((GlaucophytaEP00276Gloeochaetewittrockiana_13503661__DAT1A_SOYBN_Diacylglycerol_O-acyltransferase_1A_OS_:1.5314420311,GlaucophytaEP00276Gloeochaetewittrockiana_13483004__DGAT1_DICDI_Diacylglycerol_O-acyltransferase_1_OS_:0.6348543409)89/0.985/76:0.1722296606,((((CryptophyceaeEP00290BaffinellaspCCMP2293_12046535__DGAT1_DICDI_Diacylglycerol_O-acyltransferase_1_OS_:0.0513474893,CryptophyceaeEP00290BaffinellaspCCMP2293_12057177__DGAT1_DICDI_Diacylglycerol_O-acyltransferase_1_OS_:0.0077840734)100/1/100:0.3578451083,CryptophyceaeGuillardiathetaUP000011087_12255636__DGAT1_DICDI_Diacylglycerol_O-acyltransferase_1_OS_:0.3257639249)100/1/100:0.5010865129,(AmoebozoaDictyosteliumdiscoideumUP000002195_4933798__DGAT1_DICDI_Diacylglycerol_O-acyltransferase_1_OS_:0.7581180132,(MetazoaBryozoaBugulaneritina_2662608__DGAT1_RAT_Diacylglycerol_O-acyltransferase_1_OS_:0.0285496629,MetazoaBryozoaBugulaneritina_1643238__DGAT1_RAT_Diacylglycerol_O-acyltransferase_1_OS_:0.0000021714)100/1/100:4.3485530880)58.1/0.391/93:0.0615288245)10.1/0.51/29:0.0886484380,(CentroplasthelidaEP00300ChoanocystisspHF7_5634770__DGAT1_DICDI_Diacylglycerol_O-acyltransferase_1_OS_:0.4779858356,ApusomonadidaThecamonastrahensUP000054408_5480042__DGAT1_DICDI_Diacylglycerol_O-acyltransferase_1_OS_:0.4337061853)100/1/100:0.6652918924)70.3/0.567/30:0.0475605573)79.5/0.767/30:0.0390132883)97.9/1/46:0.1577273592)22.1/0.672/18:0.0464311802)94.9/0.998/89:0.2191346475,BreviataEP00033Pygsuiabiforma_5529826__DGAT1_DICDI_Diacylglycerol_O-acyltransferase_1_OS_:1.7048740874)87.9/0.884/98:0.2059369186,RotosphaeridaFonticulaalbaUP000030693_23193837__YA71_SCHPO_Putative_membrane-bound_O-acyltransferase_C24H6.01c_OS_:3.2225703511)76.4/0.638/88:0.1263098329,((MetazoaUrochordataOikopleuradioica_5360473__PORCN_ANOGA_Protein-serine_O-palmitoleoyltransferase_porcupine_OS_:3.4681416612,TelonemiaP00656Telonemasubtile_26525536__DGAT1_DICDI_Diacylglycerol_O-acyltransferase_1_OS_:2.4387746031)0/0.46/11:0.1700688354,(ChoanoflagellataEP00039Didymoecacostata_10871273__DGAT1_DICDI_Diacylglycerol_O-acyltransferase_1_OS_:1.8725197066,RhodelphisEP00736Rhodelphismarinus_22809221__WAXS2_ARATH_Probable_long-chain-alcohol_O-fatty-acyltransferase_2_OS_:2.4098249261)94.7/0.999/98:0.9500149645)49.9/0.598/8:0.1609555360)0/0.333/7:0.0000023322,MetazoaBryozoaBugulaneritina_2751344__DGAT1_RAT_Diacylglycerol_O-acyltransferase_1_OS_:6.5940250325)76.3/0.785/90:0.2903676252,((HeteroloboseaEP00761Pharyngomonaskirbyi_14483709__DGAT1_DICDI_Diacylglycerol_O-acyltransferase_1_OS_:1.0050672098,(RotosphaeridaEP00160Parvulariaatlantis_23171829__DAT1B_SOYBN_Diacylglycerol_O-acyltransferase_1B_OS_:0.1912907797,RotosphaeridaEP00160Parvulariaatlantis_23171830__DAT1C_SOYBN_Diacylglycerol_O-acyltransferase_1C_OS_:0.0000026020)100/1/100:1.1699707460)19.2/0.632/74:0.2484094805,(RhodophytaEP00185Porphyridiumpurpureum_23047108__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_:0.7982110478,RhodophytaGaldieriasulphurariaUP000030680_23116817__DAT1B_SOYBN_Diacylglycerol_O-acyltransferase_1B_OS_:0.6505271199)99.2/1/100:0.3827696468)88.8/0.993/98:0.1583538179)86.6/0.992/82:0.1192722775,((((HaptophytaEP00319Phaeocystisglobosa_14048151__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_:0.8201310668,RhodelphisEP00736Rhodelphismarinus_22801760__SOAT1_HUMAN_Sterol_O-acyltransferase_1_OS_:0.7574043080)93.4/0.999/100:0.3733005935,(((((((((MetazoaBryozoaBugulaneritina_2590345__SOAT1_MACFA_Sterol_O-acyltransferase_1_OS_:0.0213649375,MetazoaBryozoaBugulaneritina_2197024__SOAT1_MACFA_Sterol_O-acyltransferase_1_OS_:0.0095934069)99.8/1/100:0.6659013994,(RhizariaEP00473Plasmodiophorabrassicae_22116322__SOAT1_MACFA_Sterol_O-acyltransferase_1_OS_:1.3301753724,((((MetazoaPoriferaAmphimedonqueenslandica_4702382__SOAT1_CHLAE_Sterol_O-acyltransferase_1_OS_:0.3606655273,MetazoaPoriferaHaliclonatubifera_4953205__SOAT1_RAT_Sterol_O-acyltransferase_1_OS_:0.2394708697)99.8/1/100:0.2524338260,MetazoaPoriferaStylissacarteri_5083930__SOAT2_HUMAN_Sterol_O-acyltransferase_2_OS_:0.3494700194)43.6/0.88/96:0.0913169440,MetazoaPoriferaEphydatiamuelleri_4920197__SOAT1_HUMAN_Sterol_O-acyltransferase_1_OS_:0.3431140963)100/1/100:0.5434025198,((((MetazoaPoriferaAmphimedonqueenslandica_4702657__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_:0.7797723415,(MetazoaPoriferaHaliclonatubifera_4954756__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_:0.9485936045,MetazoaPoriferaHaliclonatubifera_4957724__SOAT2_RAT_Sterol_O-acyltransferase_2_OS_:0.6291190817)90.3/1/100:0.2165035783)99.6/1/100:0.4390951713,(MetazoaPoriferaStylissacarteri_5075372__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_:0.2853530848,MetazoaPoriferaStylissacarteri_5079575__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_:0.1160057305)100/1/100:0.7166442395)82/0.761/97:0.1056537260,MetazoaPoriferaStylissacarteri_5093435__SOAT1_HUMAN_Sterol_O-acyltransferase_1_OS_:1.0507347747)75.8/0.846/97:0.0904999924,(((MetazoaPoriferaEphydatiamuelleri_4919418__SOAT1_CHLAE_Sterol_O-acyltransferase_1_OS_:0.1823861712,MetazoaPoriferaEphydatiamuelleri_4919417__SOAT1_MACFA_Sterol_O-acyltransferase_1_OS_:0.0000028354)100/1/100:0.4890474090,((MetazoaPoriferaEphydatiamuelleri_4925417__SOAT1_MACFA_Sterol_O-acyltransferase_1_OS_:0.3441190830,MetazoaPoriferaEphydatiamuelleri_4925419__SOAT1_MACFA_Sterol_O-acyltransferase_1_OS_:0.0000021864)99.4/1/100:0.2426023159,MetazoaPoriferaEphydatiamuelleri_4925418__SOAT2_HUMAN_Sterol_O-acyltransferase_2_OS_:0.1047448597)95.3/1/100:0.1689627356)100/1/100:0.7286240158,MetazoaPoriferaAmphimedonqueenslandica_4713832__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_:0.7613469574)78.9/0.692/96:0.1083161559)96.1/1/98:0.1771355609)100/1/100:0.6269482328)52.1/0.444/98:0.0952701603)48.9/0.853/58:0.1868668985,(MetazoaArthropodaDrosophilamelanogaster_246412__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_:0.9364211955,MetazoaNematodaCaenorhabditiselegans_4314465__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_:1.3888988278)91.6/0.998/95:0.2654539183)94.9/0.996/79:0.1184896334,((((((((MetazoaPlatyhelminthesEchinococcusmultilocularis_4605866__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_:0.6219800491,(MetazoaCnidariaMyxozoaThelohanelluskitauei_3371308__SOAT1_CRIGR_Sterol_O-acyltransferase_1_OS_:2.1409332052,MetazoaRotiferaBrachionusplicatilis_5270612__SOAT1_CRIGR_Sterol_O-acyltransferase_1_OS_:0.8037137086)84.7/0.962/95:0.2709710951)78.1/0.993/79:0.1689930762,(MetazoaRotiferaBrachionusplicatilis_5237179__SOAT2_CHLAE_Sterol_O-acyltransferase_2_OS_:0.4417813861,MetazoaTardigradaRamazzotiusvarieornatus_5290193__SOAT2_HUMAN_Sterol_O-acyltransferase_2_OS_:0.6191664216)73.3/0.898/85:0.1192150659)86.9/0.967/78:0.0777611633,(MetazoaArthropodaDaphniapulex_192370__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_:0.6404341495,(MetazoaBrachiopodaLingulaunguis_1279068__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_:0.0412419285,MetazoaBrachiopodaLingulaunguis_1278526__SOAT1_HUMAN_Sterol_O-acyltransferase_1_OS_:0.0000023377)100/1/100:0.3486227841)95.1/1/88:0.0919995574)96.1/1/84:0.0870331879,((MetazoaMolluscaLottiagigantea_4216855__SOAT1_HUMAN_Sterol_O-acyltransferase_1_OS_:0.2956904440,((MetazoaMolluscaEP00106Octopusbimaculoides_4168033__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_:0.0000010397,MetazoaMolluscaEP00106Octopusbimaculoides_4168034__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_:0.0000010397)0/0.333/92:0.0000010396,MetazoaMolluscaEP00106Octopusbimaculoides_4168036__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_:0.0000010397)100/1/100:0.1903612580)94.6/1/97:0.0895397617,(MetazoaAnnelidaEP00103Capitellateleta_67238__SOAT1_CHLAE_Sterol_O-acyltransferase_1_OS_:0.3009322391,MetazoaAnnelidaHelobdellarobusta_86638__SOAT1_CHLAE_Sterol_O-acyltransferase_1_OS_:0.5150897594)50.3/0.891/94:0.0501665311)93.7/1/92:0.0724968417)83.3/0.998/79:0.0597156027,MetazoaHemichordataSaccoglossuskowalevskii_4049739__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_:0.3786688971)62.4/0.936/50:0.0661243738,(((((MetazoaVertebrateDaniorerio_5420643__SOAT1_HUMAN_Sterol_O-acyltransferase_1_OS_:0.2737082961,(MetazoaVertebrateMusmusculus_6537317__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_:0.0829816074,MetazoaVertebrateHomosapiens_6455999__SOAT1_HUMAN_Sterol_O-acyltransferase_1_OS_:0.0649218550)100/1/100:0.3092685012)82.3/0.992/100:0.0853049913,MetazoaVertebrateEptatretusburgeri_6402668__SOAT1_HUMAN_Sterol_O-acyltransferase_1_OS_:0.5824999227)93.2/1/100:0.0808373624,(MetazoaVertebrateEptatretusburgeri_6402637__SOAT1_HUMAN_Sterol_O-acyltransferase_1_OS_:0.0000021101,MetazoaVertebrateEptatretusburgeri_6402638__SOAT1_CHLAE_Sterol_O-acyltransferase_1_OS_:0.0024654830)100/1/100:0.2720142868)54.6/0.906/98:0.0757828424,(MetazoaVertebrateDaniorerio_5425249__SOAT1_RAT_Sterol_O-acyltransferase_1_OS_:0.5159700614,(MetazoaVertebrateMusmusculus_6531753__SOAT2_MOUSE_Sterol_O-acyltransferase_2_OS_:0.1142160209,MetazoaVertebrateHomosapiens_6453156__SOAT2_HUMAN_Sterol_O-acyltransferase_2_OS_:0.0612513480)100/1/100:0.4279282974)94/0.999/100:0.1345753165)100/1/100:0.3918088380,(MetazoaCephalochordataBranchiostomabelcheri_2819752__PK1L1_HUMAN_Polycystic_kidney_disease_protein_1-like_1_OS_:0.0048380624,MetazoaCephalochordataBranchiostomabelcheri_2819753__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_:0.0000025481)100/1/100:0.5646508145)90.4/1/92:0.1467458415)70.5/0.996/86:0.0553306101,(MetazoaEchinodermataEP00057Strongylocentrotuspurpuratus_3834560__SOAT1_RAT_Sterol_O-acyltransferase_1_OS_:0.5489520710,MetazoaEchinodermataAcanthasterplanci_3793573__SOAT1_RAT_Sterol_O-acyltransferase_1_OS_:0.3458685219)99.8/1/98:0.2072912397)53.6/0.947/82:0.0422665441,((((((((((MetazoaCnidariaAcroporadigitifera_2949279__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_:0.2822438820,MetazoaCnidariaPoritesaustraliensis_3534964__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_:0.0459709464)75.3/0.809/100:0.0535052709,MetazoaCnidariaAstreoporasp_3047100__SOAT1_HUMAN_Sterol_O-acyltransferase_1_OS_:0.0674723108)97.3/1/100:0.0507840543,MetazoaCnidariaMontastraeacavernosa_3317885__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_:0.0636350021)75.7/0.96/100:0.0187332635,MetazoaCnidariaFungiascutaria_3204392__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_:0.0978605302)77/0.994/100:0.0282363171,MetazoaCnidariaMadracisauretenra_3284442__SOAT2_HUMAN_Sterol_O-acyltransferase_2_OS_:0.0428662251)78.6/0.957/100:0.0196908592,MetazoaCnidariaStylophorapistillata_3684087__SOAT1_CHLAE_Sterol_O-acyltransferase_1_OS_:0.0867499094)99.9/1/100:0.1573145654,(MetazoaCnidariaNematostellavectensis_3373825__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_:0.1924771952,MetazoaCnidariaAnthopleuraelegantissima_3010956__SOAT1_HUMAN_Sterol_O-acyltransferase_1_OS_:0.2232442311)98.7/1/100:0.1164942842)99.5/1/100:0.1509218316,MetazoaCnidariaGorgoniaventalina_3233658__SOAT1_MACFA_Sterol_O-acyltransferase_1_OS_:0.4627010240)89.7/0.888/69:0.0538712044,(MetazoaCnidariaClytiahemisphaerica_3085765__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_:0.6983503676,MetazoaCnidariaAureliaGenome_3051150__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_:0.3833172270)91.3/0.997/98:0.1116628324)98.2/1/100:0.1088624111,((MetazoaPlacozoaHoilungiahongkongensis_4541206__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_:0.0000010397,MetazoaPlacozoaHoilungiahongkongensis_4541207__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_:0.0000021909)98.6/1/100:0.0943892772,MetazoaPlacozoaEP00114TrichoplaxspH2_4510918__SOAT1_CRIGR_Sterol_O-acyltransferase_1_OS_:0.0655122196)100/1/100:0.5829722834)75.4/0.911/42:0.0435520686)98.5/1/40:0.1147235682)35.1/0.783/28:0.0299226272,((MetazoaPoriferaSyconciliatum_5126125__SOAT1_HUMAN_Sterol_O-acyltransferase_1_OS_:0.2043503033,MetazoaPoriferaLeucosoleniacomplicata_5010330__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_:0.1430047349)100/1/100:0.4200392408,MetazoaPoriferaEP00118Oscarellapearsei_4817195__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_:0.6173160006)92.2/0.995/67:0.1189464184)97/1/60:0.1296077420,(((ChoanoflagellataEP00047Mylnosigafluctuans_11114416__SOAT1_CHLAE_Sterol_O-acyltransferase_1_OS_:0.3809897011,ChoanoflagellataEP00050Salpingoecakvevrii_11207341__SOAT1_CHLAE_Sterol_O-acyltransferase_1_OS_:0.6837259125)89/0.997/100:0.1616872435,IchthyosporeaEP00126Sphaerothecumdestruens_14612802__SOAT2_HUMAN_Sterol_O-acyltransferase_2_OS_:0.5931926429)21.2/0.569/45:0.0614513599,FilastreaCapsasporaowczarzakiUP000008743_12983113__SOAT1_CHLAE_Sterol_O-acyltransferase_1_OS_:0.6965203328)89.6/0.998/97:0.1148037299)91.6/0.987/94:0.1259668569,IchthyosporeaEP00126Sphaerothecumdestruens_14612801__SOAT1_RAT_Sterol_O-acyltransferase_1_OS_:0.9134703279)95.5/0.999/99:0.1607655994,(AlveolataEP00742ColponemidiaspColp10_4272534__SOAT2_RAT_Sterol_O-acyltransferase_2_OS_:0.5338024149,AlveolataEP00333Tetrahymenathermophila_68197__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_:1.1834113904)99.6/1/100:0.3390807967)75.8/0.864/73:0.0852193294,(CentroplasthelidaEP00300ChoanocystisspHF7_5629869__SOAT1_HUMAN_Sterol_O-acyltransferase_1_OS_:0.4024033687,ApusomonadidaThecamonastrahensUP000054408_5477754__SOAT1_MACFA_Sterol_O-acyltransferase_1_OS_:0.3951886150)100/1/100:0.6842813180)52.9/0.868/73:0.1247143665)89.8/1/99:0.2235149023,(((CollodictyonidaeEP00002Diphylleiarotans_11645659__SOAT1_RAT_Sterol_O-acyltransferase_1_OS_:0.0023764175,CollodictyonidaeEP00002Diphylleiarotans_11645660__SOAT1_RAT_Sterol_O-acyltransferase_1_OS_:0.0044997747)100/1/100:0.4120884317,CollodictyonidaeEP00002Diphylleiarotans_11666034__SOAT1_CHLAE_Sterol_O-acyltransferase_1_OS_:0.4709604653)96.6/1/100:0.2175061715,(RigifilidaEP00004Rigifilaramosa_23125236__SOAT1_HUMAN_Sterol_O-acyltransferase_1_OS_:0.0000027340,RigifilidaEP00004Rigifilaramosa_23125237__SOAT1_HUMAN_Sterol_O-acyltransferase_1_OS_:0.0025575610)100/1/100:0.7035641090)99.9/1/100:0.4522054095)100/1/100:0.5448824925,(MalawimonadidaeEP00698Gefionellaokellyi_14709428__DGAT1_CORAE_Diacylglycerol_O-acyltransferase_1_OS_:1.9611419525,AmoebozoaDictyosteliumdiscoideumUP000002195_4932587__DGAT1_RAT_Diacylglycerol_O-acyltransferase_1_OS_:2.2586550776)98.7/1/99:0.6765189792)78.9/0.954/94:0.1149698714)30/0.56/72:0.0636816317,(((GlaucophytaEP00276Gloeochaetewittrockiana_13499831__DAT1B_SOYBN_Diacylglycerol_O-acyltransferase_1B_OS_:0.7713717889,HeteroloboseaEP00761Pharyngomonaskirbyi_14488777__DGAT1_ARATH_Diacylglycerol_O-acyltransferase_1_OS_:0.7168049600)29.6/0.584/95:0.1291795885,JakobidaEP00762Andaluciagodoyi_14654936__ARE2_CANAX_Sterol_O-acyltransferase_2_OS_:1.0358562432)99.4/1/100:0.3968685890,(AmoebozoaEP00029Vermamoebavermiformis_5280956__DAT1B_SOYBN_Diacylglycerol_O-acyltransferase_1B_OS_:0.8755683784,AmoebozoaDictyosteliumdiscoideumUP000002195_4930403__DGAT1_CORAE_Diacylglycerol_O-acyltransferase_1_OS_:1.0028587379)94.6/1/100:0.2562929721)91.2/0.999/98:0.2020788559)99.2/1/99:0.3011657018,(RhodophytaEP00185Porphyridiumpurpureum_23044280__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_:0.9313695409,(RhodophytaGaldieriasulphurariaUP000030680_23117956__ARE2_SACU7_Sterol_O-acyltransferase_2_OS_:0.8942896511,RhodophytaGaldieriasulphurariaUP000030680_23116056__AREH1_SCHPO_Probable_sterol_O-acyltransferase_1_OS_:0.9409395545)85.3/0.963/100:0.2119762144)100/1/100:0.7259163369)94.7/1/99:0.2071053683,(AlveolataEP00333Tetrahymenathermophila_75336__AREH1_SCHPO_Probable_sterol_O-acyltransferase_1_OS_:0.7425097422,AlveolataEP00333Tetrahymenathermophila_80462__AREH1_SCHPO_Probable_sterol_O-acyltransferase_1_OS_:0.5312246550)100/1/100:0.6852012726)91.1/1/98:0.1588386070,(PluriformeaEP00127Corallochytriumlimacisporum_21623487__ARE2_CANAX_Sterol_O-acyltransferase_2_OS_:1.1875305142,FilastreaCapsasporaowczarzakiUP000008743_12984776__AREH2_SCHPO_Probable_sterol_O-acyltransferase_2_OS_:0.9436472575)89.9/0.986/93:0.2277016958)67.4/0.922/87:0.0980370452,((((CollodictyonidaeEP00002Diphylleiarotans_11642749__DAT1B_SOYBN_Diacylglycerol_O-acyltransferase_1B_OS_:0.0036234687,CollodictyonidaeEP00002Diphylleiarotans_11642754__DAT1C_SOYBN_Diacylglycerol_O-acyltransferase_1C_OS_:0.0514210246)0/0.333/53:0.0000028085,CollodictyonidaeEP00002Diphylleiarotans_11642750__DAT1C_SOYBN_Diacylglycerol_O-acyltransferase_1C_OS_:0.0000010397)0/0.333/46:0.0000022111,CollodictyonidaeEP00002Diphylleiarotans_11642751__DAT1C_SOYBN_Diacylglycerol_O-acyltransferase_1C_OS_:0.0000010397)0/0.333/64:0.0000027604,((CollodictyonidaeEP00002Diphylleiarotans_11642752__ARE2_CANAX_Sterol_O-acyltransferase_2_OS_:0.0000010397,CollodictyonidaeEP00002Diphylleiarotans_11642753__ARE2_CANAX_Sterol_O-acyltransferase_2_OS_:0.0000010397)0/0.333/93:0.0000010396,CollodictyonidaeEP00002Diphylleiarotans_11642755__ARE2_CANAX_Sterol_O-acyltransferase_2_OS_:0.0000010397)0/0.333/88:0.0000028155)100/1/100:0.9142230378)19.1/0.72/83:0.1121682341,StramenopilesPhytophthorainfestansUP000006643_26377687__ARE2_SACU7_Sterol_O-acyltransferase_2_OS_:1.2456467684)26.6/0.499/74:0.0418627376,(RigifilidaEP00004Rigifilaramosa_23132564__AREH1_SCHPO_Probable_sterol_O-acyltransferase_1_OS_:0.8891322530,((TelonemiaP00656Telonemasubtile_26511820__ARE2_CANAX_Sterol_O-acyltransferase_2_OS_:0.0155908075,TelonemiaP00656Telonemasubtile_26511821__ARE2_CANAX_Sterol_O-acyltransferase_2_OS_:0.0000020540)100/1/100:1.0873650580,ChoanoflagellataEP00040Diaphanoecagrandis_10910441__ARE2_CANAX_Sterol_O-acyltransferase_2_OS_:1.2966267439)97.3/1/99:0.3772692786)93.4/0.999/94:0.1746614767)78.2/0.991/81:0.1435640654,((IchthyosporeaEP00123Amoebidiumparasiticum_14559664__ARE2_SACU7_Sterol_O-acyltransferase_2_OS_:1.1261297514,HaptophytaEP00319Phaeocystisglobosa_14053193__AREH2_SCHPO_Probable_sterol_O-acyltransferase_2_OS_:0.7820232875)26.5/0.543/95:0.0895030753,((((FungiEP00150Ustilagomaydis_13256582__AREH1_SCHPO_Probable_sterol_O-acyltransferase_1_OS_:0.7117514990,((CentroplasthelidaEP00300ChoanocystisspHF7_5627063__AREH2_SCHPO_Probable_sterol_O-acyltransferase_2_OS_:0.4078599931,FungiFusariumoxysporumUP000002489_13354115__ARE2_CANAX_Sterol_O-acyltransferase_2_OS_:0.3139370780)100/1/100:0.7485366630,((FungiSaccharomycescerevisiaeUP000002311_13446240__ARE1_YEAST_Sterol_O-acyltransferase_1_OS_:0.4707777355,FungiSaccharomycescerevisiaeUP000002311_13449006__ARE2_YEAST_Sterol_O-acyltransferase_2_OS_:0.4249681109)100/1/100:0.8314261072,FungiFusariumoxysporumUP000002489_13356715__ARE2_CANAX_Sterol_O-acyltransferase_2_OS_:0.5948766373)97.9/1/100:0.3008324303)98.4/1/100:0.3236898487)87.7/0.983/100:0.1429530449,FungiMortierellaelongataUP000078512_13383038__AREH1_SCHPO_Probable_sterol_O-acyltransferase_1_OS_:0.5440248564)33.3/0.685/99:0.0760202478,FungiRhizopusmicrosporusUP000242254_13434296__AREH1_SCHPO_Probable_sterol_O-acyltransferase_1_OS_:0.6376828245)97.1/1/100:0.1518067807,FungiSpizellomycespunctatusUP000053201_13453645__AREH1_SCHPO_Probable_sterol_O-acyltransferase_1_OS_:0.6328465288)98.4/1/100:0.2113513926)90.9/0.996/100:0.1667026897);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -131300.177574
+Robinson-Foulds distance between ML tree and consensus tree: 24
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++----RotosphaeridaEP00160Parvulariaatlantis_23167332__AREH2_SCHPO_Probable_sterol_O-acyltransferase_2_OS_
+|
+|                                                  +------EuglenozoaEP00668Euglenalonga_12438991__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                               +--| (99)
+|                                               |  +-----------MetazoaCnidariaMyxozoaThelohanelluskitauei_3359343__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            +--| (92)
+|                                            |  |                             +--MetazoaCnidariaStylophorapistillata_3671554__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |                          +--| (100)
+|                                            |  |                          |  |              +--MetazoaCnidariaMontastraeacavernosa_3321701__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |                          |  |           +--| (85)
+|                                            |  |                          |  |           |  +--MetazoaCnidariaAcroporadigitifera_2947711__DGAT1_CHLAE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |                          |  |        +--| (81)
+|                                            |  |                          |  |        |  |        +--MetazoaCnidariaFungiascutaria_3180548__DGAT1_RAT_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |                          |  |        |  |     +--| (92)
+|                                            |  |                          |  |        |  |     |  +--MetazoaCnidariaFungiascutaria_3202380__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |                          |  |        |  |  +--| (88)
+|                                            |  |                          |  |        |  |  |  +--MetazoaCnidariaMadracisauretenra_3270993__DGAT1_RAT_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |                          |  |        |  +--| (88)
+|                                            |  |                          |  |        |     +--MetazoaCnidariaMontastraeacavernosa_3323034__DGAT1_RAT_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |                          |  |     +--| (62)
+|                                            |  |                          |  |     |  +--MetazoaCnidariaAstreoporasp_3031473__DGAT1_RAT_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |                          |  |  +--| (86)
+|                                            |  |                          |  |  |  +--MetazoaCnidariaMadracisauretenra_3293501__DGAT1_CHLAE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |                          |  +--| (98)
+|                                            |  |                          |     +--MetazoaCnidariaAstreoporasp_3031194__DGAT1_CHLAE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |                       +--| (100)
+|                                            |  |                       |  |  +--MetazoaCnidariaAnthopleuraelegantissima_3011260__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |                       |  +--| (100)
+|                                            |  |                       |     +--MetazoaCnidariaNematostellavectensis_3376074__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |                    +--| (100)
+|                                            |  |                    |  |  +--MetazoaCnidariaClytiahemisphaerica_3075994__DGAT1_RAT_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |                    |  +--| (100)
+|                                            |  |                    |     +--MetazoaCnidariaHydramagnapapillata_3259026__DGAT1_BOVIN_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |                 +--| (71)
+|                                            |  |                 |  |        +--MetazoaPoriferaEP00118Oscarellapearsei_4819331__DGAT1_RAT_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |                 |  |     +--| (100)
+|                                            |  |                 |  |     |  +--MetazoaPoriferaEP00118Oscarellapearsei_4810716__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |                 |  |  +--| (100)
+|                                            |  |                 |  |  |  |  +--MetazoaPoriferaLeucosoleniacomplicata_5018071__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |                 |  |  |  +--| (100)
+|                                            |  |                 |  |  |     +--MetazoaPoriferaSyconciliatum_5112163__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |                 |  +--| (95)
+|                                            |  |                 |     |           +--MetazoaPlacozoaHoilungiahongkongensis_4580249__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |                 |     |        +--| (90)
+|                                            |  |                 |     |        |  +--MetazoaPlacozoaHoilungiahongkongensis_4580250__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |                 |     |     +--| (92)
+|                                            |  |                 |     |     |  +--MetazoaPlacozoaHoilungiahongkongensis_4580251__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |                 |     |  +--| (96)
+|                                            |  |                 |     |  |  +--MetazoaPlacozoaHoilungiahongkongensis_4580252__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |                 |     +--| (100)
+|                                            |  |                 |        +--MetazoaPlacozoaEP00114TrichoplaxspH2_4515200__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |              +--| (53)
+|                                            |  |              |  |                 +--MetazoaPoriferaAmphimedonqueenslandica_4687947__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |              |  |              +--| (100)
+|                                            |  |              |  |              |  +--MetazoaPoriferaAmphimedonqueenslandica_4675108__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |              |  |           +--| (100)
+|                                            |  |              |  |           |  +--MetazoaPoriferaAmphimedonqueenslandica_4713813__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |              |  |        +--| (98)
+|                                            |  |              |  |        |  +--MetazoaPoriferaHaliclonatubifera_4953816__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |              |  |     +--| (100)
+|                                            |  |              |  |     |  +---MetazoaPoriferaEphydatiamuelleri_4909048__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |              |  |  +--| (100)
+|                                            |  |              |  |  |  |  +--MetazoaPoriferaStylissacarteri_5098611__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |              |  |  |  +--| (100)
+|                                            |  |              |  |  |     +--MetazoaPoriferaEphydatiamuelleri_4930123__DGAT1_BOVIN_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |              |  +--| (53)
+|                                            |  |              |     |              +--ChoanoflagellataEP00037Helgoecanana_10784418__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |              |     |           +--| (100)
+|                                            |  |              |     |           |  +--ChoanoflagellataEP00037Helgoecanana_10784419__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |              |     |        +--| (100)
+|                                            |  |              |     |        |  +--ChoanoflagellataEP00035Acanthoecaspectabilis_10753056__DGAT1_RAT_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |              |     |     +--| (100)
+|                                            |  |              |     |     |  +--ChoanoflagellataEP00040Diaphanoecagrandis_10914621__DGAT1_RAT_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |              |     |  +--| (100)
+|                                            |  |              |     |  |  |     +--ChoanoflagellataEP00047Mylnosigafluctuans_11126316__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |              |     |  |  |  +--| (84)
+|                                            |  |              |     |  |  |  |  |      +--ChoanoflagellataEP00050Salpingoecakvevrii_11191780__DGAT1_RAT_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |              |     |  |  |  |  |   +--| (100)
+|                                            |  |              |     |  |  |  |  |   |  +--ChoanoflagellataEP00050Salpingoecakvevrii_11191781__DGAT1_RAT_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |              |     |  |  |  |  +---| (100)
+|                                            |  |              |     |  |  |  |      +--ChoanoflagellataEP00050Salpingoecakvevrii_11191782__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |              |     |  |  +--| (99)
+|                                            |  |              |     |  |     |  +--ChoanoflagellateaMonosigabrevicollisUP000001357_11429688__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |              |     |  |     +--| (100)
+|                                            |  |              |     |  |        +--ChoanoflagellataEP00045Choanoecaperplexa_11086214__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |              |     +--| (97)
+|                                            |  |              |        |       +--IchthyosporeaEP00126Sphaerothecumdestruens_14603832__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |              |        |  +----| (100)
+|                                            |  |              |        |  |    +--IchthyosporeaEP00126Sphaerothecumdestruens_14603833__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |              |        +--| (72)
+|                                            |  |              |           +--FilastreaCapsasporaowczarzakiUP000008743_12984513__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |           +--| (78)
+|                                            |  |           |  |        +-------MetazoaUrochordataOikopleuradioica_5366837__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |           |  |     +--| (99)
+|                                            |  |           |  |     |  +--MetazoaUrochordataEP00059Cionaintestinalis_5352861__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |           |  |  +--| (87)
+|                                            |  |           |  |  |  |           +--MetazoaVertebrateMusmusculus_6548891__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |           |  |  |  |        +--| (100)
+|                                            |  |           |  |  |  |        |  +--MetazoaVertebrateHomosapiens_6453155__DGAT1_HUMAN_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |           |  |  |  |     +--| (100)
+|                                            |  |           |  |  |  |     |  |  +--MetazoaVertebrateDaniorerio_5425246__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |           |  |  |  |     |  +--| (100)
+|                                            |  |           |  |  |  |     |     +--MetazoaVertebrateDaniorerio_5433937__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |           |  |  |  |  +--| (100)
+|                                            |  |           |  |  |  |  |  +---MetazoaVertebrateEptatretusburgeri_6404295__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |           |  |  |  +--| (67)
+|                                            |  |           |  |  |     |  +---MetazoaRotiferaBrachionusplicatilis_5229975__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |           |  |  |     +--| (91)
+|                                            |  |           |  |  |        +--MetazoaEchinodermataAcanthasterplanci_3777782__DGAT1_HUMAN_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |           |  +--| (88)
+|                                            |  |           |     |        +--MetazoaCephalochordataBranchiostomabelcheri_2800282__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |           |     |     +--| (97)
+|                                            |  |           |     |     |  +--MetazoaBryozoaBugulaneritina_2578493__DGAT1_BOVIN_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |           |     |  +--| (77)
+|                                            |  |           |     |  |  +--MetazoaHemichordataSaccoglossuskowalevskii_4052373__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |           |     +--| (83)
+|                                            |  |           |        |     +--MetazoaMolluscaLottiagigantea_4223631__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |           |        |  +--| (97)
+|                                            |  |           |        |  |  |  +--MetazoaMolluscaEP00106Octopusbimaculoides_4156992__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |           |        |  |  +--| (85)
+|                                            |  |           |        |  |     |  +--MetazoaBryozoaBugulaneritina_2101001__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |           |        |  |     +--| (98)
+|                                            |  |           |        |  |        +--MetazoaBrachiopodaLingulaunguis_1304726__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |           |        +--| (91)
+|                                            |  |           |           |        +--MetazoaAnnelidaEP00103Capitellateleta_55251__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |           |           |     +--| (100)
+|                                            |  |           |           |     |  +--MetazoaAnnelidaEP00103Capitellateleta_73183__DGAT1_CHLAE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |           |           |  +--| (99)
+|                                            |  |           |           |  |  +----MetazoaAnnelidaHelobdellarobusta_103748__DGAT1_RAT_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |           |           +--| (99)
+|                                            |  |           |              +------MetazoaAcoelaHofsteniamiamia_1730__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |        +--| (72)
+|                                            |  |        |  |  +--MetazoaEchinodermataEP00057Strongylocentrotuspurpuratus_3831980__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |        |  +--| (81)
+|                                            |  |        |     +--MetazoaEchinodermataAcanthasterplanci_3777781__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |     +--| (61)
+|                                            |  |     |  +----MetazoaNematodaCaenorhabditiselegans_4322517__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |  +--| (89)
+|                                            |  |  |  |     +------------MetazoaArthropodaEP00090Calanusglacialis_706584__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |  |  |  +--| (82)
+|                                            |  |  |  |  |  |     +--MetazoaArthropodaDrosophilamelanogaster_246882__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |  |  |  |  |  +--| (74)
+|                                            |  |  |  |  |  |  |  +--MetazoaArthropodaDaphniapulex_191399__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |  |  |  |  +--| (89)
+|                                            |  |  |  |  |     |  +--MetazoaArthropodaEP00090Calanusglacialis_694210__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |  |  |  |     +--| (89)
+|                                            |  |  |  |  |        +-----------MetazoaArthropodaEP00090Calanusglacialis_707437__DGAT1_RAT_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |  |  +--| (82)
+|                                            |  |  |     |  +---MetazoaPlatyhelminthesEchinococcusmultilocularis_4608333__DGAT1_RAT_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  |  |     +--| (84)
+|                                            |  |  |        +---MetazoaPoriferaLeucosoleniacomplicata_4997968__DGAT1_BOVIN_Diacylglycerol_O-acyltransferase_1_OS_
+|                                            |  +--| (99)
+|                                            |     +----MetazoaTardigradaRamazzotiusvarieornatus_5281788__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                         +--| (40)
+|                                         |  +------CollodictyonidaeEP00002Diphylleiarotans_11643194__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                      +--| (89)
+|                                      |  |                 +--------HaptophytaEP00319Phaeocystisglobosa_14043383__DGAT1_DICDI_Diacylglycerol_O-acyltransferase_1_OS_
+|                                      |  |              +--| (81)
+|                                      |  |              |  +--AlveolataEP00742ColponemidiaspColp10_4278854__DGAT1_CORAE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                      |  |           +--| (67)
+|                                      |  |           |  |                 +--FungiMortierellaelongataUP000078512_13381500__DAT1C_SOYBN_Diacylglycerol_O-acyltransferase_1C_OS_
+|                                      |  |           |  |              +--| (100)
+|                                      |  |           |  |              |  +--FungiMortierellaelongataUP000078512_13380628__DAT1B_SOYBN_Diacylglycerol_O-acyltransferase_1B_OS_
+|                                      |  |           |  |           +--| (85)
+|                                      |  |           |  |           |  +---FungiRhizopusmicrosporusUP000242254_13431603__DAT1B_SOYBN_Diacylglycerol_O-acyltransferase_1B_OS_
+|                                      |  |           |  |        +--| (98)
+|                                      |  |           |  |        |  +------FungiFusariumoxysporumUP000002489_13368459__DAT1C_SOYBN_Diacylglycerol_O-acyltransferase_1C_OS_
+|                                      |  |           |  |     +--| (100)
+|                                      |  |           |  |     |  +---FungiSpizellomycespunctatusUP000053201_13453137__DAT1B_SOYBN_Diacylglycerol_O-acyltransferase_1B_OS_
+|                                      |  |           |  |  +--| (53)
+|                                      |  |           |  |  |  +-------AlveolataEP00333Tetrahymenathermophila_68134__DAT1A_SOYBN_Diacylglycerol_O-acyltransferase_1A_OS_
+|                                      |  |           |  +--| (42)
+|                                      |  |           |     +--------RhizariaEP00473Plasmodiophorabrassicae_22114852__DGAT1_CORAE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                      |  |        +--| (55)
+|                                      |  |        |  +-----AmoebozoaEP00029Vermamoebavermiformis_5284231__DAT1C_SOYBN_Diacylglycerol_O-acyltransferase_1C_OS_
+|                                      |  |     +--| (95)
+|                                      |  |     |  |              +--TelonemiaP00656Telonemasubtile_26514975__DAT1A_SOYBN_Diacylglycerol_O-acyltransferase_1A_OS_
+|                                      |  |     |  |           +--| (100)
+|                                      |  |     |  |           |  +--TelonemiaP00656Telonemasubtile_26514976__DAT1B_SOYBN_Diacylglycerol_O-acyltransferase_1B_OS_
+|                                      |  |     |  |     +-----| (100)
+|                                      |  |     |  |     |     +--TelonemiaP00656Telonemasubtile_26514977__DAT1A_SOYBN_Diacylglycerol_O-acyltransferase_1A_OS_
+|                                      |  |     |  |  +--| (70)
+|                                      |  |     |  |  |  |        +--ChloroplastidaArabidopsisthalianaUP000006548_5889220__DGAT1_ARATH_Diacylglycerol_O-acyltransferase_1_OS_
+|                                      |  |     |  |  |  |     +--| (97)
+|                                      |  |     |  |  |  |     |  +--ChloroplastidaEP00248Marchantiapolymorpha_7477846__DGAT1_CORAE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                      |  |     |  |  |  |  +--| (92)
+|                                      |  |     |  |  |  |  |  +----ChloroplastidaChlamydomonasreinhardtiiUP000006906_6367408__DGAT1_CORAE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                      |  |     |  |  |  +--| (91)
+|                                      |  |     |  |  |     |     +--RhodelphisEP00736Rhodelphismarinus_22796072__DAT11_ORYSJ_Diacylglycerol_O-acyltransferase_1-1_OS_
+|                                      |  |     |  |  |     +-----| (100)
+|                                      |  |     |  |  |           +--RhodelphisEP00736Rhodelphismarinus_22800701__DAT12_ORYSJ_Diacylglycerol_O-acyltransferase_1-2_OS_
+|                                      |  |     |  +--| (73)
+|                                      |  |     |     +-------HaptophytaEP00327Prymnesiumparvum_14279425__DAT1C_SOYBN_Diacylglycerol_O-acyltransferase_1C_OS_
+|                                      |  |  +--| (91)
+|                                      |  |  |  +-----MalawimonadidaeEP00698Gefionellaokellyi_14690841__DGAT1_DICDI_Diacylglycerol_O-acyltransferase_1_OS_
+|                                      |  +--| (37)
+|                                      |     |              +-----HaptophytaEP00319Phaeocystisglobosa_14048562__DGAT1_DICDI_Diacylglycerol_O-acyltransferase_1_OS_
+|                                      |     |           +--| (81)
+|                                      |     |           |  +------RotosphaeridaEP00160Parvulariaatlantis_23153909__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                      |     |        +--| (51)
+|                                      |     |        |  |     +----------RotosphaeridaFonticulaalbaUP000030693_23191143__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                      |     |        |  |  +--| (96)
+|                                      |     |        |  |  |  +--RotosphaeridaEP00160Parvulariaatlantis_23170279__DGAT1_DICDI_Diacylglycerol_O-acyltransferase_1_OS_
+|                                      |     |        |  +--| (80)
+|                                      |     |        |     +----CentroplasthelidaEP00300ChoanocystisspHF7_5605202__DGAT1_DICDI_Diacylglycerol_O-acyltransferase_1_OS_
+|                                      |     |     +--| (44)
+|                                      |     |     |  |         +--CryptophyceaeEP00290BaffinellaspCCMP2293_12046535__DGAT1_DICDI_Diacylglycerol_O-acyltransferase_1_OS_
+|                                      |     |     |  |      +--| (100)
+|                                      |     |     |  |      |  +--CryptophyceaeEP00290BaffinellaspCCMP2293_12057177__DGAT1_DICDI_Diacylglycerol_O-acyltransferase_1_OS_
+|                                      |     |     |  |  +---| (100)
+|                                      |     |     |  |  |   +--CryptophyceaeGuillardiathetaUP000011087_12255636__DGAT1_DICDI_Diacylglycerol_O-acyltransferase_1_OS_
+|                                      |     |     |  +--| (30)
+|                                      |     |     |     |      +--CentroplasthelidaEP00300ChoanocystisspHF7_5634770__DGAT1_DICDI_Diacylglycerol_O-acyltransferase_1_OS_
+|                                      |     |     |     |  +---| (100)
+|                                      |     |     |     |  |   +--ApusomonadidaThecamonastrahensUP000054408_5480042__DGAT1_DICDI_Diacylglycerol_O-acyltransferase_1_OS_
+|                                      |     |     |     +--| (60)
+|                                      |     |     |        |  +---AmoebozoaDictyosteliumdiscoideumUP000002195_4933798__DGAT1_DICDI_Diacylglycerol_O-acyltransferase_1_OS_
+|                                      |     |     |        +--| (93)
+|                                      |     |     |           |                             +--MetazoaBryozoaBugulaneritina_2662608__DGAT1_RAT_Diacylglycerol_O-acyltransferase_1_OS_
+|                                      |     |     |           +-----------------------------| (100)
+|                                      |     |     |                                         +--MetazoaBryozoaBugulaneritina_1643238__DGAT1_RAT_Diacylglycerol_O-acyltransferase_1_OS_
+|                                      |     |  +--| (46)
+|                                      |     |  |  |  +----------GlaucophytaEP00276Gloeochaetewittrockiana_13503661__DAT1A_SOYBN_Diacylglycerol_O-acyltransferase_1A_OS_
+|                                      |     |  |  +--| (76)
+|                                      |     |  |     +---GlaucophytaEP00276Gloeochaetewittrockiana_13483004__DGAT1_DICDI_Diacylglycerol_O-acyltransferase_1_OS_
+|                                      |     +--| (45)
+|                                      |        +-----JakobidaEP00762Andaluciagodoyi_14651976__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_
+|                                   +--| (98)
+|                                   |  +-----------BreviataEP00033Pygsuiabiforma_5529826__DGAT1_DICDI_Diacylglycerol_O-acyltransferase_1_OS_
+|                                +--| (88)
+|                                |  +----------------------RotosphaeridaFonticulaalbaUP000030693_23193837__YA71_SCHPO_Putative_membrane-bound_O-acyltransferase_C24H6.01c_OS_
+|                             +--| (72)
+|                             |  |       +------------ChoanoflagellataEP00039Didymoecacostata_10871273__DGAT1_DICDI_Diacylglycerol_O-acyltransferase_1_OS_
+|                             |  |  +----| (98)
+|                             |  |  |    +----------------RhodelphisEP00736Rhodelphismarinus_22809221__WAXS2_ARATH_Probable_long-chain-alcohol_O-fatty-acyltransferase_2_OS_
+|                             |  +--| (87)
+|                             |     +----------------TelonemiaP00656Telonemasubtile_26525536__DGAT1_DICDI_Diacylglycerol_O-acyltransferase_1_OS_
+|                          +--| (90)
+|                          |  |  +-----------------------MetazoaUrochordataOikopleuradioica_5360473__PORCN_ANOGA_Protein-serine_O-palmitoleoyltransferase_porcupine_OS_
+|                          |  +--| (72)
+|                          |     +---------------------------------------------MetazoaBryozoaBugulaneritina_2751344__DGAT1_RAT_Diacylglycerol_O-acyltransferase_1_OS_
+|                       +--| (82)
+|                       |  |     +------HeteroloboseaEP00761Pharyngomonaskirbyi_14483709__DGAT1_DICDI_Diacylglycerol_O-acyltransferase_1_OS_
+|                       |  |  +--| (74)
+|                       |  |  |  |       +--RotosphaeridaEP00160Parvulariaatlantis_23171829__DAT1B_SOYBN_Diacylglycerol_O-acyltransferase_1B_OS_
+|                       |  |  |  +-------| (100)
+|                       |  |  |          +--RotosphaeridaEP00160Parvulariaatlantis_23171830__DAT1C_SOYBN_Diacylglycerol_O-acyltransferase_1C_OS_
+|                       |  +--| (98)
+|                       |     |  +----RhodophytaEP00185Porphyridiumpurpureum_23047108__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_
+|                       |     +--| (100)
+|                       |        +---RhodophytaGaldieriasulphurariaUP000030680_23116817__DAT1B_SOYBN_Diacylglycerol_O-acyltransferase_1B_OS_
+|                    +--| (72)
+|                    |  |           +-----HaptophytaEP00319Phaeocystisglobosa_14048151__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_
+|                    |  |        +--| (100)
+|                    |  |        |  +----RhodelphisEP00736Rhodelphismarinus_22801760__SOAT1_HUMAN_Sterol_O-acyltransferase_1_OS_
+|                    |  |     +--| (99)
+|                    |  |     |  |                        +--MetazoaBryozoaBugulaneritina_2590345__SOAT1_MACFA_Sterol_O-acyltransferase_1_OS_
+|                    |  |     |  |                    +---| (100)
+|                    |  |     |  |                    |   +--MetazoaBryozoaBugulaneritina_2197024__SOAT1_MACFA_Sterol_O-acyltransferase_1_OS_
+|                    |  |     |  |                 +--| (58)
+|                    |  |     |  |                 |  |  +--------RhizariaEP00473Plasmodiophorabrassicae_22116322__SOAT1_MACFA_Sterol_O-acyltransferase_1_OS_
+|                    |  |     |  |                 |  +--| (98)
+|                    |  |     |  |                 |     |            +--MetazoaPoriferaAmphimedonqueenslandica_4702382__SOAT1_CHLAE_Sterol_O-acyltransferase_1_OS_
+|                    |  |     |  |                 |     |         +--| (100)
+|                    |  |     |  |                 |     |         |  +--MetazoaPoriferaHaliclonatubifera_4953205__SOAT1_RAT_Sterol_O-acyltransferase_1_OS_
+|                    |  |     |  |                 |     |      +--| (96)
+|                    |  |     |  |                 |     |      |  +--MetazoaPoriferaStylissacarteri_5083930__SOAT2_HUMAN_Sterol_O-acyltransferase_2_OS_
+|                    |  |     |  |                 |     |   +--| (100)
+|                    |  |     |  |                 |     |   |  +--MetazoaPoriferaEphydatiamuelleri_4920197__SOAT1_HUMAN_Sterol_O-acyltransferase_1_OS_
+|                    |  |     |  |                 |     +---| (100)
+|                    |  |     |  |                 |         |           +----MetazoaPoriferaAmphimedonqueenslandica_4702657__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_
+|                    |  |     |  |                 |         |        +--| (100)
+|                    |  |     |  |                 |         |        |  |  +-----MetazoaPoriferaHaliclonatubifera_4954756__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_
+|                    |  |     |  |                 |         |        |  +--| (100)
+|                    |  |     |  |                 |         |        |     +---MetazoaPoriferaHaliclonatubifera_4957724__SOAT2_RAT_Sterol_O-acyltransferase_2_OS_
+|                    |  |     |  |                 |         |     +--| (97)
+|                    |  |     |  |                 |         |     |  |    +--MetazoaPoriferaStylissacarteri_5075372__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_
+|                    |  |     |  |                 |         |     |  +----| (100)
+|                    |  |     |  |                 |         |     |       +--MetazoaPoriferaStylissacarteri_5079575__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_
+|                    |  |     |  |                 |         |  +--| (97)
+|                    |  |     |  |                 |         |  |  +------MetazoaPoriferaStylissacarteri_5093435__SOAT1_HUMAN_Sterol_O-acyltransferase_1_OS_
+|                    |  |     |  |                 |         +--| (98)
+|                    |  |     |  |                 |            |          +--MetazoaPoriferaEphydatiamuelleri_4919418__SOAT1_CHLAE_Sterol_O-acyltransferase_1_OS_
+|                    |  |     |  |                 |            |       +--| (100)
+|                    |  |     |  |                 |            |       |  +--MetazoaPoriferaEphydatiamuelleri_4919417__SOAT1_MACFA_Sterol_O-acyltransferase_1_OS_
+|                    |  |     |  |                 |            |  +----| (100)
+|                    |  |     |  |                 |            |  |    |     +--MetazoaPoriferaEphydatiamuelleri_4925417__SOAT1_MACFA_Sterol_O-acyltransferase_1_OS_
+|                    |  |     |  |                 |            |  |    |  +--| (100)
+|                    |  |     |  |                 |            |  |    |  |  +--MetazoaPoriferaEphydatiamuelleri_4925419__SOAT1_MACFA_Sterol_O-acyltransferase_1_OS_
+|                    |  |     |  |                 |            |  |    +--| (100)
+|                    |  |     |  |                 |            |  |       +--MetazoaPoriferaEphydatiamuelleri_4925418__SOAT2_HUMAN_Sterol_O-acyltransferase_2_OS_
+|                    |  |     |  |                 |            +--| (96)
+|                    |  |     |  |                 |               +----MetazoaPoriferaAmphimedonqueenslandica_4713832__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_
+|                    |  |     |  |              +--| (79)
+|                    |  |     |  |              |  |  +-----MetazoaArthropodaDrosophilamelanogaster_246412__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_
+|                    |  |     |  |              |  +--| (95)
+|                    |  |     |  |              |     +---------MetazoaNematodaCaenorhabditiselegans_4314465__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_
+|                    |  |     |  |           +--| (60)
+|                    |  |     |  |           |  |                       +---MetazoaPlatyhelminthesEchinococcusmultilocularis_4605866__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_
+|                    |  |     |  |           |  |                    +--| (79)
+|                    |  |     |  |           |  |                    |  |  +--------------MetazoaCnidariaMyxozoaThelohanelluskitauei_3371308__SOAT1_CRIGR_Sterol_O-acyltransferase_1_OS_
+|                    |  |     |  |           |  |                    |  +--| (95)
+|                    |  |     |  |           |  |                    |     +----MetazoaRotiferaBrachionusplicatilis_5270612__SOAT1_CRIGR_Sterol_O-acyltransferase_1_OS_
+|                    |  |     |  |           |  |                 +--| (78)
+|                    |  |     |  |           |  |                 |  |  +--MetazoaRotiferaBrachionusplicatilis_5237179__SOAT2_CHLAE_Sterol_O-acyltransferase_2_OS_
+|                    |  |     |  |           |  |                 |  +--| (85)
+|                    |  |     |  |           |  |                 |     +---MetazoaTardigradaRamazzotiusvarieornatus_5290193__SOAT2_HUMAN_Sterol_O-acyltransferase_2_OS_
+|                    |  |     |  |           |  |              +--| (84)
+|                    |  |     |  |           |  |              |  |  +---MetazoaArthropodaDaphniapulex_192370__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_
+|                    |  |     |  |           |  |              |  +--| (88)
+|                    |  |     |  |           |  |              |     |  +--MetazoaBrachiopodaLingulaunguis_1279068__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_
+|                    |  |     |  |           |  |              |     +--| (100)
+|                    |  |     |  |           |  |              |        +--MetazoaBrachiopodaLingulaunguis_1278526__SOAT1_HUMAN_Sterol_O-acyltransferase_1_OS_
+|                    |  |     |  |           |  |           +--| (79)
+|                    |  |     |  |           |  |           |  |     +--MetazoaMolluscaLottiagigantea_4216855__SOAT1_HUMAN_Sterol_O-acyltransferase_1_OS_
+|                    |  |     |  |           |  |           |  |  +--| (97)
+|                    |  |     |  |           |  |           |  |  |  |     +--MetazoaMolluscaEP00106Octopusbimaculoides_4168033__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_
+|                    |  |     |  |           |  |           |  |  |  |  +--| (92)
+|                    |  |     |  |           |  |           |  |  |  |  |  +--MetazoaMolluscaEP00106Octopusbimaculoides_4168034__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_
+|                    |  |     |  |           |  |           |  |  |  +--| (100)
+|                    |  |     |  |           |  |           |  |  |     +--MetazoaMolluscaEP00106Octopusbimaculoides_4168036__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_
+|                    |  |     |  |           |  |           |  +--| (92)
+|                    |  |     |  |           |  |           |     |  +--MetazoaAnnelidaEP00103Capitellateleta_67238__SOAT1_CHLAE_Sterol_O-acyltransferase_1_OS_
+|                    |  |     |  |           |  |           |     +--| (94)
+|                    |  |     |  |           |  |           |        +--MetazoaAnnelidaHelobdellarobusta_86638__SOAT1_CHLAE_Sterol_O-acyltransferase_1_OS_
+|                    |  |     |  |           |  |        +--| (50)
+|                    |  |     |  |           |  |        |  +--MetazoaHemichordataSaccoglossuskowalevskii_4049739__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_
+|                    |  |     |  |           |  |     +--| (86)
+|                    |  |     |  |           |  |     |  |              +--MetazoaVertebrateDaniorerio_5420643__SOAT1_HUMAN_Sterol_O-acyltransferase_1_OS_
+|                    |  |     |  |           |  |     |  |           +--| (100)
+|                    |  |     |  |           |  |     |  |           |  |  +--MetazoaVertebrateMusmusculus_6537317__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_
+|                    |  |     |  |           |  |     |  |           |  +--| (100)
+|                    |  |     |  |           |  |     |  |           |     +--MetazoaVertebrateHomosapiens_6455999__SOAT1_HUMAN_Sterol_O-acyltransferase_1_OS_
+|                    |  |     |  |           |  |     |  |        +--| (100)
+|                    |  |     |  |           |  |     |  |        |  +---MetazoaVertebrateEptatretusburgeri_6402668__SOAT1_HUMAN_Sterol_O-acyltransferase_1_OS_
+|                    |  |     |  |           |  |     |  |     +--| (98)
+|                    |  |     |  |           |  |     |  |     |  |  +--MetazoaVertebrateEptatretusburgeri_6402637__SOAT1_HUMAN_Sterol_O-acyltransferase_1_OS_
+|                    |  |     |  |           |  |     |  |     |  +--| (100)
+|                    |  |     |  |           |  |     |  |     |     +--MetazoaVertebrateEptatretusburgeri_6402638__SOAT1_CHLAE_Sterol_O-acyltransferase_1_OS_
+|                    |  |     |  |           |  |     |  |  +--| (100)
+|                    |  |     |  |           |  |     |  |  |  |  +--MetazoaVertebrateDaniorerio_5425249__SOAT1_RAT_Sterol_O-acyltransferase_1_OS_
+|                    |  |     |  |           |  |     |  |  |  +--| (100)
+|                    |  |     |  |           |  |     |  |  |     |  +--MetazoaVertebrateMusmusculus_6531753__SOAT2_MOUSE_Sterol_O-acyltransferase_2_OS_
+|                    |  |     |  |           |  |     |  |  |     +--| (100)
+|                    |  |     |  |           |  |     |  |  |        +--MetazoaVertebrateHomosapiens_6453156__SOAT2_HUMAN_Sterol_O-acyltransferase_2_OS_
+|                    |  |     |  |           |  |     |  +--| (92)
+|                    |  |     |  |           |  |     |     |   +--MetazoaCephalochordataBranchiostomabelcheri_2819752__PK1L1_HUMAN_Polycystic_kidney_disease_protein_1-like_1_OS_
+|                    |  |     |  |           |  |     |     +---| (100)
+|                    |  |     |  |           |  |     |         +--MetazoaCephalochordataBranchiostomabelcheri_2819753__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_
+|                    |  |     |  |           |  |  +--| (82)
+|                    |  |     |  |           |  |  |  |  +---MetazoaEchinodermataEP00057Strongylocentrotuspurpuratus_3834560__SOAT1_RAT_Sterol_O-acyltransferase_1_OS_
+|                    |  |     |  |           |  |  |  +--| (98)
+|                    |  |     |  |           |  |  |     +--MetazoaEchinodermataAcanthasterplanci_3793573__SOAT1_RAT_Sterol_O-acyltransferase_1_OS_
+|                    |  |     |  |           |  +--| (57)
+|                    |  |     |  |           |     |                                +--MetazoaCnidariaAcroporadigitifera_2949279__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_
+|                    |  |     |  |           |     |                             +--| (100)
+|                    |  |     |  |           |     |                             |  +--MetazoaCnidariaPoritesaustraliensis_3534964__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_
+|                    |  |     |  |           |     |                          +--| (100)
+|                    |  |     |  |           |     |                          |  +--MetazoaCnidariaAstreoporasp_3047100__SOAT1_HUMAN_Sterol_O-acyltransferase_1_OS_
+|                    |  |     |  |           |     |                       +--| (100)
+|                    |  |     |  |           |     |                       |  +--MetazoaCnidariaMontastraeacavernosa_3317885__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_
+|                    |  |     |  |           |     |                    +--| (100)
+|                    |  |     |  |           |     |                    |  +--MetazoaCnidariaFungiascutaria_3204392__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_
+|                    |  |     |  |           |     |                 +--| (100)
+|                    |  |     |  |           |     |                 |  +--MetazoaCnidariaMadracisauretenra_3284442__SOAT2_HUMAN_Sterol_O-acyltransferase_2_OS_
+|                    |  |     |  |           |     |              +--| (100)
+|                    |  |     |  |           |     |              |  +--MetazoaCnidariaStylophorapistillata_3684087__SOAT1_CHLAE_Sterol_O-acyltransferase_1_OS_
+|                    |  |     |  |           |     |           +--| (100)
+|                    |  |     |  |           |     |           |  |  +--MetazoaCnidariaNematostellavectensis_3373825__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_
+|                    |  |     |  |           |     |           |  +--| (100)
+|                    |  |     |  |           |     |           |     +--MetazoaCnidariaAnthopleuraelegantissima_3010956__SOAT1_HUMAN_Sterol_O-acyltransferase_1_OS_
+|                    |  |     |  |           |     |        +--| (69)
+|                    |  |     |  |           |     |        |  +--MetazoaCnidariaGorgoniaventalina_3233658__SOAT1_MACFA_Sterol_O-acyltransferase_1_OS_
+|                    |  |     |  |           |     |     +--| (100)
+|                    |  |     |  |           |     |     |  |  +----MetazoaCnidariaClytiahemisphaerica_3085765__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_
+|                    |  |     |  |           |     |     |  +--| (98)
+|                    |  |     |  |           |     |     |     +--MetazoaCnidariaAureliaGenome_3051150__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_
+|                    |  |     |  |           |     |  +--| (42)
+|                    |  |     |  |           |     |  |  |      +--MetazoaPlacozoaHoilungiahongkongensis_4541206__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_
+|                    |  |     |  |           |     |  |  |   +--| (100)
+|                    |  |     |  |           |     |  |  |   |  +--MetazoaPlacozoaHoilungiahongkongensis_4541207__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_
+|                    |  |     |  |           |     |  |  +---| (100)
+|                    |  |     |  |           |     |  |      +--MetazoaPlacozoaEP00114TrichoplaxspH2_4510918__SOAT1_CRIGR_Sterol_O-acyltransferase_1_OS_
+|                    |  |     |  |           |     +--| (43)
+|                    |  |     |  |           |        |     +--MetazoaPoriferaSyconciliatum_5126125__SOAT1_HUMAN_Sterol_O-acyltransferase_1_OS_
+|                    |  |     |  |           |        |  +--| (100)
+|                    |  |     |  |           |        |  |  +--MetazoaPoriferaLeucosoleniacomplicata_5010330__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_
+|                    |  |     |  |           |        +--| (67)
+|                    |  |     |  |           |           +---MetazoaPoriferaEP00118Oscarellapearsei_4817195__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_
+|                    |  |     |  |        +--| (94)
+|                    |  |     |  |        |  |     +--ChoanoflagellataEP00047Mylnosigafluctuans_11114416__SOAT1_CHLAE_Sterol_O-acyltransferase_1_OS_
+|                    |  |     |  |        |  |  +--| (100)
+|                    |  |     |  |        |  |  |  +----ChoanoflagellataEP00050Salpingoecakvevrii_11207341__SOAT1_CHLAE_Sterol_O-acyltransferase_1_OS_
+|                    |  |     |  |        |  +--| (97)
+|                    |  |     |  |        |     |  +---FilastreaCapsasporaowczarzakiUP000008743_12983113__SOAT1_CHLAE_Sterol_O-acyltransferase_1_OS_
+|                    |  |     |  |        |     +--| (54)
+|                    |  |     |  |        |        +---IchthyosporeaEP00126Sphaerothecumdestruens_14612802__SOAT2_HUMAN_Sterol_O-acyltransferase_2_OS_
+|                    |  |     |  |     +--| (99)
+|                    |  |     |  |     |  +-----IchthyosporeaEP00126Sphaerothecumdestruens_14612801__SOAT1_RAT_Sterol_O-acyltransferase_1_OS_
+|                    |  |     |  |  +--| (73)
+|                    |  |     |  |  |  |  +--AlveolataEP00742ColponemidiaspColp10_4272534__SOAT2_RAT_Sterol_O-acyltransferase_2_OS_
+|                    |  |     |  |  |  +--| (100)
+|                    |  |     |  |  |     +-------AlveolataEP00333Tetrahymenathermophila_68197__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_
+|                    |  |     |  +--| (73)
+|                    |  |     |     |   +--CentroplasthelidaEP00300ChoanocystisspHF7_5629869__SOAT1_HUMAN_Sterol_O-acyltransferase_1_OS_
+|                    |  |     |     +---| (100)
+|                    |  |     |         +--ApusomonadidaThecamonastrahensUP000054408_5477754__SOAT1_MACFA_Sterol_O-acyltransferase_1_OS_
+|                    |  |  +--| (100)
+|                    |  |  |  |        +--CollodictyonidaeEP00002Diphylleiarotans_11645659__SOAT1_RAT_Sterol_O-acyltransferase_1_OS_
+|                    |  |  |  |     +--| (100)
+|                    |  |  |  |     |  +--CollodictyonidaeEP00002Diphylleiarotans_11645660__SOAT1_RAT_Sterol_O-acyltransferase_1_OS_
+|                    |  |  |  |  +--| (100)
+|                    |  |  |  |  |  +--CollodictyonidaeEP00002Diphylleiarotans_11666034__SOAT1_CHLAE_Sterol_O-acyltransferase_1_OS_
+|                    |  |  |  +--| (100)
+|                    |  |  |     |    +--RigifilidaEP00004Rigifilaramosa_23125236__SOAT1_HUMAN_Sterol_O-acyltransferase_1_OS_
+|                    |  |  |     +----| (100)
+|                    |  |  |          +--RigifilidaEP00004Rigifilaramosa_23125237__SOAT1_HUMAN_Sterol_O-acyltransferase_1_OS_
+|                    |  +--| (94)
+|                    |     |   +-------------MalawimonadidaeEP00698Gefionellaokellyi_14709428__DGAT1_CORAE_Diacylglycerol_O-acyltransferase_1_OS_
+|                    |     +---| (99)
+|                    |         +---------------AmoebozoaDictyosteliumdiscoideumUP000002195_4932587__DGAT1_RAT_Diacylglycerol_O-acyltransferase_1_OS_
+|                 +--| (99)
+|                 |  |        +----GlaucophytaEP00276Gloeochaetewittrockiana_13499831__DAT1B_SOYBN_Diacylglycerol_O-acyltransferase_1B_OS_
+|                 |  |     +--| (95)
+|                 |  |     |  +----HeteroloboseaEP00761Pharyngomonaskirbyi_14488777__DGAT1_ARATH_Diacylglycerol_O-acyltransferase_1_OS_
+|                 |  |  +--| (100)
+|                 |  |  |  +------JakobidaEP00762Andaluciagodoyi_14654936__ARE2_CANAX_Sterol_O-acyltransferase_2_OS_
+|                 |  +--| (98)
+|                 |     |  +-----AmoebozoaEP00029Vermamoebavermiformis_5280956__DAT1B_SOYBN_Diacylglycerol_O-acyltransferase_1B_OS_
+|                 |     +--| (100)
+|                 |        +------AmoebozoaDictyosteliumdiscoideumUP000002195_4930403__DGAT1_CORAE_Diacylglycerol_O-acyltransferase_1_OS_
+|              +--| (99)
+|              |  |    +-----RhodophytaEP00185Porphyridiumpurpureum_23044280__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_
+|              |  +----| (100)
+|              |       |  +-----RhodophytaGaldieriasulphurariaUP000030680_23117956__ARE2_SACU7_Sterol_O-acyltransferase_2_OS_
+|              |       +--| (100)
+|              |          +-----RhodophytaGaldieriasulphurariaUP000030680_23116056__AREH1_SCHPO_Probable_sterol_O-acyltransferase_1_OS_
+|           +--| (98)
+|           |  |    +----AlveolataEP00333Tetrahymenathermophila_75336__AREH1_SCHPO_Probable_sterol_O-acyltransferase_1_OS_
+|           |  +----| (100)
+|           |       +--AlveolataEP00333Tetrahymenathermophila_80462__AREH1_SCHPO_Probable_sterol_O-acyltransferase_1_OS_
+|        +--| (87)
+|        |  |  +-------PluriformeaEP00127Corallochytriumlimacisporum_21623487__ARE2_CANAX_Sterol_O-acyltransferase_2_OS_
+|        |  +--| (93)
+|        |     +-----FilastreaCapsasporaowczarzakiUP000008743_12984776__AREH2_SCHPO_Probable_sterol_O-acyltransferase_2_OS_
+|     +--| (83)
+|     |  |              +--CollodictyonidaeEP00002Diphylleiarotans_11642749__DAT1B_SOYBN_Diacylglycerol_O-acyltransferase_1B_OS_
+|     |  |           +--| (53)
+|     |  |           |  +--CollodictyonidaeEP00002Diphylleiarotans_11642754__DAT1C_SOYBN_Diacylglycerol_O-acyltransferase_1C_OS_
+|     |  |        +--| (46)
+|     |  |        |  +--CollodictyonidaeEP00002Diphylleiarotans_11642750__DAT1C_SOYBN_Diacylglycerol_O-acyltransferase_1C_OS_
+|     |  |     +--| (64)
+|     |  |     |  +--CollodictyonidaeEP00002Diphylleiarotans_11642751__DAT1C_SOYBN_Diacylglycerol_O-acyltransferase_1C_OS_
+|     |  +-----| (100)
+|     |        |     +--CollodictyonidaeEP00002Diphylleiarotans_11642752__ARE2_CANAX_Sterol_O-acyltransferase_2_OS_
+|     |        |  +--| (93)
+|     |        |  |  +--CollodictyonidaeEP00002Diphylleiarotans_11642753__ARE2_CANAX_Sterol_O-acyltransferase_2_OS_
+|     |        +--| (88)
+|     |           +--CollodictyonidaeEP00002Diphylleiarotans_11642755__ARE2_CANAX_Sterol_O-acyltransferase_2_OS_
+|  +--| (74)
+|  |  +--------StramenopilesPhytophthorainfestansUP000006643_26377687__ARE2_SACU7_Sterol_O-acyltransferase_2_OS_
++--| (81)
+|  |  +-----RigifilidaEP00004Rigifilaramosa_23132564__AREH1_SCHPO_Probable_sterol_O-acyltransferase_1_OS_
+|  +--| (94)
+|     |         +--TelonemiaP00656Telonemasubtile_26511820__ARE2_CANAX_Sterol_O-acyltransferase_2_OS_
+|     |  +------| (100)
+|     |  |      +--TelonemiaP00656Telonemasubtile_26511821__ARE2_CANAX_Sterol_O-acyltransferase_2_OS_
+|     +--| (99)
+|        +--------ChoanoflagellataEP00040Diaphanoecagrandis_10910441__ARE2_CANAX_Sterol_O-acyltransferase_2_OS_
+|
+|     +-------IchthyosporeaEP00123Amoebidiumparasiticum_14559664__ARE2_SACU7_Sterol_O-acyltransferase_2_OS_
+|  +--| (95)
+|  |  +----HaptophytaEP00319Phaeocystisglobosa_14053193__AREH2_SCHPO_Probable_sterol_O-acyltransferase_2_OS_
++--| (100)
+   |           +----FungiEP00150Ustilagomaydis_13256582__AREH1_SCHPO_Probable_sterol_O-acyltransferase_1_OS_
+   |        +--| (100)
+   |        |  |       +--CentroplasthelidaEP00300ChoanocystisspHF7_5627063__AREH2_SCHPO_Probable_sterol_O-acyltransferase_2_OS_
+   |        |  |  +----| (100)
+   |        |  |  |    +--FungiFusariumoxysporumUP000002489_13354115__ARE2_CANAX_Sterol_O-acyltransferase_2_OS_
+   |        |  +--| (100)
+   |        |     |        +--FungiSaccharomycescerevisiaeUP000002311_13446240__ARE1_YEAST_Sterol_O-acyltransferase_1_OS_
+   |        |     |  +-----| (100)
+   |        |     |  |     +--FungiSaccharomycescerevisiaeUP000002311_13449006__ARE2_YEAST_Sterol_O-acyltransferase_2_OS_
+   |        |     +--| (100)
+   |        |        +---FungiFusariumoxysporumUP000002489_13356715__ARE2_CANAX_Sterol_O-acyltransferase_2_OS_
+   |     +--| (99)
+   |     |  +--FungiMortierellaelongataUP000078512_13383038__AREH1_SCHPO_Probable_sterol_O-acyltransferase_1_OS_
+   |  +--| (100)
+   |  |  +---FungiRhizopusmicrosporusUP000242254_13434296__AREH1_SCHPO_Probable_sterol_O-acyltransferase_1_OS_
+   +--| (100)
+      +---FungiSpizellomycespunctatusUP000053201_13453645__AREH1_SCHPO_Probable_sterol_O-acyltransferase_1_OS_
+
+
+Consensus tree in newick format: 
+
+(RotosphaeridaEP00160Parvulariaatlantis_23167332__AREH2_SCHPO_Probable_sterol_O-acyltransferase_2_OS_:0.7732499362,(((((((((((((((((EuglenozoaEP00668Euglenalonga_12438991__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_:1.0560421680,MetazoaCnidariaMyxozoaThelohanelluskitauei_3359343__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_:1.6827925382)99:0.5219105692,((((((((((MetazoaCnidariaStylophorapistillata_3671554__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_:0.4445495712,(((((MetazoaCnidariaMontastraeacavernosa_3321701__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_:0.0014023443,MetazoaCnidariaAcroporadigitifera_2947711__DGAT1_CHLAE_Diacylglycerol_O-acyltransferase_1_OS_:0.4727955042)85:0.3382449727,(((MetazoaCnidariaFungiascutaria_3180548__DGAT1_RAT_Diacylglycerol_O-acyltransferase_1_OS_:0.0000023119,MetazoaCnidariaFungiascutaria_3202380__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_:0.0015057738)92:0.0774474214,MetazoaCnidariaMadracisauretenra_3270993__DGAT1_RAT_Diacylglycerol_O-acyltransferase_1_OS_:0.1646868899)88:0.0241698153,MetazoaCnidariaMontastraeacavernosa_3323034__DGAT1_RAT_Diacylglycerol_O-acyltransferase_1_OS_:0.0906432454)88:0.0306547179)81:0.0296451493,MetazoaCnidariaAstreoporasp_3031473__DGAT1_RAT_Diacylglycerol_O-acyltransferase_1_OS_:0.0850381482)62:0.0042534327,MetazoaCnidariaMadracisauretenra_3293501__DGAT1_CHLAE_Diacylglycerol_O-acyltransferase_1_OS_:0.1251160299)86:0.0161642521,MetazoaCnidariaAstreoporasp_3031194__DGAT1_CHLAE_Diacylglycerol_O-acyltransferase_1_OS_:0.1411614642)98:0.0273549397)100:0.1733985404,(MetazoaCnidariaAnthopleuraelegantissima_3011260__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_:0.1642517507,MetazoaCnidariaNematostellavectensis_3376074__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_:0.2254198976)100:0.1629454107)100:0.2164894926,(MetazoaCnidariaClytiahemisphaerica_3075994__DGAT1_RAT_Diacylglycerol_O-acyltransferase_1_OS_:0.1198964241,MetazoaCnidariaHydramagnapapillata_3259026__DGAT1_BOVIN_Diacylglycerol_O-acyltransferase_1_OS_:0.2619662849)100:0.4482865476)100:0.1630402376,(((MetazoaPoriferaEP00118Oscarellapearsei_4819331__DGAT1_RAT_Diacylglycerol_O-acyltransferase_1_OS_:0.0783885682,MetazoaPoriferaEP00118Oscarellapearsei_4810716__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_:0.2028940556)100:0.3652517205,(MetazoaPoriferaLeucosoleniacomplicata_5018071__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_:0.1495808046,MetazoaPoriferaSyconciliatum_5112163__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_:0.2117003039)100:0.4304828426)100:0.1262775614,((((MetazoaPlacozoaHoilungiahongkongensis_4580249__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_:0.0019883338,MetazoaPlacozoaHoilungiahongkongensis_4580250__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_:0.0314410226)90:0.0007624809,MetazoaPlacozoaHoilungiahongkongensis_4580251__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_:0.0000024623)92:0.0032056924,MetazoaPlacozoaHoilungiahongkongensis_4580252__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_:0.0134892751)96:0.0610841210,MetazoaPlacozoaEP00114TrichoplaxspH2_4515200__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_:0.1150335228)100:0.4249686481)95:0.1041288822)71:0.1169194102,((((((MetazoaPoriferaAmphimedonqueenslandica_4687947__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_:0.0065906761,MetazoaPoriferaAmphimedonqueenslandica_4675108__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_:0.0144053545)100:0.0032868908,MetazoaPoriferaAmphimedonqueenslandica_4713813__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_:0.0000020027)100:0.4060466828,MetazoaPoriferaHaliclonatubifera_4953816__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_:0.3736161586)98:0.0691613114,MetazoaPoriferaEphydatiamuelleri_4909048__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_:0.6275327518)100:0.0804548655,(MetazoaPoriferaStylissacarteri_5098611__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_:0.2931542402,MetazoaPoriferaEphydatiamuelleri_4930123__DGAT1_BOVIN_Diacylglycerol_O-acyltransferase_1_OS_:0.5389373148)100:0.2801680420)100:0.3362655405,(((((ChoanoflagellataEP00037Helgoecanana_10784418__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_:0.0000028760,ChoanoflagellataEP00037Helgoecanana_10784419__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_:0.1101761793)100:0.1624752158,ChoanoflagellataEP00035Acanthoecaspectabilis_10753056__DGAT1_RAT_Diacylglycerol_O-acyltransferase_1_OS_:0.2225205389)100:0.4691769767,ChoanoflagellataEP00040Diaphanoecagrandis_10914621__DGAT1_RAT_Diacylglycerol_O-acyltransferase_1_OS_:0.4595276539)100:0.4646899554,((ChoanoflagellataEP00047Mylnosigafluctuans_11126316__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_:0.5091701490,((ChoanoflagellataEP00050Salpingoecakvevrii_11191780__DGAT1_RAT_Diacylglycerol_O-acyltransferase_1_OS_:0.1168389822,ChoanoflagellataEP00050Salpingoecakvevrii_11191781__DGAT1_RAT_Diacylglycerol_O-acyltransferase_1_OS_:0.0000027316)100:0.1047322882,ChoanoflagellataEP00050Salpingoecakvevrii_11191782__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_:0.0000028707)100:0.5557851010)84:0.1099901598,(ChoanoflagellateaMonosigabrevicollisUP000001357_11429688__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_:0.3287023195,ChoanoflagellataEP00045Choanoecaperplexa_11086214__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_:0.2829860718)100:0.2699080721)99:0.1430093490)100:0.2943598658,((IchthyosporeaEP00126Sphaerothecumdestruens_14603832__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_:0.0015648794,IchthyosporeaEP00126Sphaerothecumdestruens_14603833__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_:0.0045378336)100:0.6964540655,FilastreaCapsasporaowczarzakiUP000008743_12984513__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_:0.5471259296)72:0.1188295323)97:0.1790015957)53:0.0249043938)53:0.0742205296,(((MetazoaUrochordataOikopleuradioica_5366837__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_:1.1220331596,MetazoaUrochordataEP00059Cionaintestinalis_5352861__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_:0.5119296955)99:0.2523144674,((((MetazoaVertebrateMusmusculus_6548891__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_:0.0738041820,MetazoaVertebrateHomosapiens_6453155__DGAT1_HUMAN_Diacylglycerol_O-acyltransferase_1_OS_:0.0707516563)100:0.2015509207,(MetazoaVertebrateDaniorerio_5425246__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_:0.2513775197,MetazoaVertebrateDaniorerio_5433937__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_:0.2367469527)100:0.1123329268)100:0.0839400463,MetazoaVertebrateEptatretusburgeri_6404295__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_:0.5500364164)100:0.1088767107,(MetazoaRotiferaBrachionusplicatilis_5229975__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_:0.5978259066,MetazoaEchinodermataAcanthasterplanci_3777782__DGAT1_HUMAN_Diacylglycerol_O-acyltransferase_1_OS_:0.3948813639)91:0.0807493305)67:0.0368532870)87:0.0573578862,(((MetazoaCephalochordataBranchiostomabelcheri_2800282__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_:0.2890283873,MetazoaBryozoaBugulaneritina_2578493__DGAT1_BOVIN_Diacylglycerol_O-acyltransferase_1_OS_:0.2093541282)97:0.2720909593,MetazoaHemichordataSaccoglossuskowalevskii_4052373__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_:0.4264770793)77:0.0743933402,((MetazoaMolluscaLottiagigantea_4223631__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_:0.3792000443,(MetazoaMolluscaEP00106Octopusbimaculoides_4156992__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_:0.3640688090,(MetazoaBryozoaBugulaneritina_2101001__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_:0.4143418566,MetazoaBrachiopodaLingulaunguis_1304726__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_:0.3225983985)98:0.1187051485)85:0.0647279154)97:0.1121395626,(((MetazoaAnnelidaEP00103Capitellateleta_55251__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_:0.0083512614,MetazoaAnnelidaEP00103Capitellateleta_73183__DGAT1_CHLAE_Diacylglycerol_O-acyltransferase_1_OS_:0.2523893142)100:0.2382046605,MetazoaAnnelidaHelobdellarobusta_103748__DGAT1_RAT_Diacylglycerol_O-acyltransferase_1_OS_:0.7751285721)99:0.1427341139,MetazoaAcoelaHofsteniamiamia_1730__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_:1.0065028151)99:0.1090568049)91:0.0659599219)83:0.0574225045)88:0.0692996908)78:0.0611352570,(MetazoaEchinodermataEP00057Strongylocentrotuspurpuratus_3831980__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_:0.4278776680,MetazoaEchinodermataAcanthasterplanci_3777781__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_:0.4527315659)81:0.1382869771)72:0.0478711568,MetazoaNematodaCaenorhabditiselegans_4322517__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_:0.7218688092)61:0.0503879562,((MetazoaArthropodaEP00090Calanusglacialis_706584__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_:1.9077294863,((MetazoaArthropodaDrosophilamelanogaster_246882__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_:0.4548913202,MetazoaArthropodaDaphniapulex_191399__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_:0.3949045036)74:0.0757787718,(MetazoaArthropodaEP00090Calanusglacialis_694210__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_:0.4130211594,MetazoaArthropodaEP00090Calanusglacialis_707437__DGAT1_RAT_Diacylglycerol_O-acyltransferase_1_OS_:1.6697844329)89:0.0837150274)89:0.3196275975)82:0.0731885468,(MetazoaPlatyhelminthesEchinococcusmultilocularis_4608333__DGAT1_RAT_Diacylglycerol_O-acyltransferase_1_OS_:0.6702170268,MetazoaPoriferaLeucosoleniacomplicata_4997968__DGAT1_BOVIN_Diacylglycerol_O-acyltransferase_1_OS_:0.5498047813)84:0.1752773123)82:0.1517976910)89:0.0585312949,MetazoaTardigradaRamazzotiusvarieornatus_5281788__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_:0.7780293236)99:0.2590749532)92:0.0893500239,CollodictyonidaeEP00002Diphylleiarotans_11643194__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_:1.0945962681)40:0.0300553441,((((((HaptophytaEP00319Phaeocystisglobosa_14043383__DGAT1_DICDI_Diacylglycerol_O-acyltransferase_1_OS_:1.3266516171,AlveolataEP00742ColponemidiaspColp10_4278854__DGAT1_CORAE_Diacylglycerol_O-acyltransferase_1_OS_:0.3934547305)81:0.3112890789,((((((FungiMortierellaelongataUP000078512_13381500__DAT1C_SOYBN_Diacylglycerol_O-acyltransferase_1C_OS_:0.2272579508,FungiMortierellaelongataUP000078512_13380628__DAT1B_SOYBN_Diacylglycerol_O-acyltransferase_1B_OS_:0.2191662849)100:0.3745000942,FungiRhizopusmicrosporusUP000242254_13431603__DAT1B_SOYBN_Diacylglycerol_O-acyltransferase_1B_OS_:0.5497579169)85:0.0789588727,FungiFusariumoxysporumUP000002489_13368459__DAT1C_SOYBN_Diacylglycerol_O-acyltransferase_1C_OS_:0.9657782575)98:0.2497957457,FungiSpizellomycespunctatusUP000053201_13453137__DAT1B_SOYBN_Diacylglycerol_O-acyltransferase_1B_OS_:0.6117299173)100:0.4752433559,AlveolataEP00333Tetrahymenathermophila_68134__DAT1A_SOYBN_Diacylglycerol_O-acyltransferase_1A_OS_:1.1463807010)53:0.1391629138,RhizariaEP00473Plasmodiophorabrassicae_22114852__DGAT1_CORAE_Diacylglycerol_O-acyltransferase_1_OS_:1.2364856086)42:0.0594097813)67:0.0679363676,AmoebozoaEP00029Vermamoebavermiformis_5284231__DAT1C_SOYBN_Diacylglycerol_O-acyltransferase_1C_OS_:0.8508984033)55:0.0765517742,((((TelonemiaP00656Telonemasubtile_26514975__DAT1A_SOYBN_Diacylglycerol_O-acyltransferase_1A_OS_:0.0000029539,TelonemiaP00656Telonemasubtile_26514976__DAT1B_SOYBN_Diacylglycerol_O-acyltransferase_1B_OS_:0.0533807143)100:0.0259148875,TelonemiaP00656Telonemasubtile_26514977__DAT1A_SOYBN_Diacylglycerol_O-acyltransferase_1A_OS_:0.0000023956)100:0.9184385733,(((ChloroplastidaArabidopsisthalianaUP000006548_5889220__DGAT1_ARATH_Diacylglycerol_O-acyltransferase_1_OS_:0.4052691291,ChloroplastidaEP00248Marchantiapolymorpha_7477846__DGAT1_CORAE_Diacylglycerol_O-acyltransferase_1_OS_:0.3559423123)97:0.1673705194,ChloroplastidaChlamydomonasreinhardtiiUP000006906_6367408__DGAT1_CORAE_Diacylglycerol_O-acyltransferase_1_OS_:0.7986708769)92:0.2521494548,(RhodelphisEP00736Rhodelphismarinus_22796072__DAT11_ORYSJ_Diacylglycerol_O-acyltransferase_1-1_OS_:0.1128890590,RhodelphisEP00736Rhodelphismarinus_22800701__DAT12_ORYSJ_Diacylglycerol_O-acyltransferase_1-2_OS_:0.0000024975)100:0.8580605006)91:0.1335468054)70:0.0780508148,HaptophytaEP00327Prymnesiumparvum_14279425__DAT1C_SOYBN_Diacylglycerol_O-acyltransferase_1C_OS_:1.1425891176)73:0.0750803363)95:0.1377944882,MalawimonadidaeEP00698Gefionellaokellyi_14690841__DGAT1_DICDI_Diacylglycerol_O-acyltransferase_1_OS_:0.9154715047)91:0.0711941792,(((((HaptophytaEP00319Phaeocystisglobosa_14048562__DGAT1_DICDI_Diacylglycerol_O-acyltransferase_1_OS_:0.9187389111,RotosphaeridaEP00160Parvulariaatlantis_23153909__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_:0.9974172296)81:0.1116268226,((RotosphaeridaFonticulaalbaUP000030693_23191143__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_:1.5450378912,RotosphaeridaEP00160Parvulariaatlantis_23170279__DGAT1_DICDI_Diacylglycerol_O-acyltransferase_1_OS_:0.5457938983)96:0.2222056293,CentroplasthelidaEP00300ChoanocystisspHF7_5605202__DGAT1_DICDI_Diacylglycerol_O-acyltransferase_1_OS_:0.7940645964)80:0.2115999533)51:0.0989921512,(((CryptophyceaeEP00290BaffinellaspCCMP2293_12046535__DGAT1_DICDI_Diacylglycerol_O-acyltransferase_1_OS_:0.0512005408,CryptophyceaeEP00290BaffinellaspCCMP2293_12057177__DGAT1_DICDI_Diacylglycerol_O-acyltransferase_1_OS_:0.0077897188)100:0.3697540382,CryptophyceaeGuillardiathetaUP000011087_12255636__DGAT1_DICDI_Diacylglycerol_O-acyltransferase_1_OS_:0.3138899225)100:0.5551620444,((CentroplasthelidaEP00300ChoanocystisspHF7_5634770__DGAT1_DICDI_Diacylglycerol_O-acyltransferase_1_OS_:0.4695103922,ApusomonadidaThecamonastrahensUP000054408_5480042__DGAT1_DICDI_Diacylglycerol_O-acyltransferase_1_OS_:0.4390101941)100:0.6019008962,(AmoebozoaDictyosteliumdiscoideumUP000002195_4933798__DGAT1_DICDI_Diacylglycerol_O-acyltransferase_1_OS_:0.6347514632,(MetazoaBryozoaBugulaneritina_2662608__DGAT1_RAT_Diacylglycerol_O-acyltransferase_1_OS_:0.0285751648,MetazoaBryozoaBugulaneritina_1643238__DGAT1_RAT_Diacylglycerol_O-acyltransferase_1_OS_:0.0000022238)100:4.1977903825)93:0.1819053477)60:0.0926747237)30:0.0427605056)44:0.0535640236,(GlaucophytaEP00276Gloeochaetewittrockiana_13503661__DAT1A_SOYBN_Diacylglycerol_O-acyltransferase_1A_OS_:1.5429479492,GlaucophytaEP00276Gloeochaetewittrockiana_13483004__DGAT1_DICDI_Diacylglycerol_O-acyltransferase_1_OS_:0.6265346348)76:0.1690203453)46:0.0850233953,JakobidaEP00762Andaluciagodoyi_14651976__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_:0.9163112346)45:0.1065482131)37:0.0554707399)89:0.2184435961,BreviataEP00033Pygsuiabiforma_5529826__DGAT1_DICDI_Diacylglycerol_O-acyltransferase_1_OS_:1.7147210519)98:0.2004168362,RotosphaeridaFonticulaalbaUP000030693_23193837__YA71_SCHPO_Putative_membrane-bound_O-acyltransferase_C24H6.01c_OS_:3.2376358503)88:0.1278041811,((ChoanoflagellataEP00039Didymoecacostata_10871273__DGAT1_DICDI_Diacylglycerol_O-acyltransferase_1_OS_:1.8692561781,RhodelphisEP00736Rhodelphismarinus_22809221__WAXS2_ARATH_Probable_long-chain-alcohol_O-fatty-acyltransferase_2_OS_:2.4020309183)98:0.6939404466,TelonemiaP00656Telonemasubtile_26525536__DGAT1_DICDI_Diacylglycerol_O-acyltransferase_1_OS_:2.3676257358)87:0.4044289286)72:0.0344285008,(MetazoaUrochordataOikopleuradioica_5360473__PORCN_ANOGA_Protein-serine_O-palmitoleoyltransferase_porcupine_OS_:3.2946664238,MetazoaBryozoaBugulaneritina_2751344__DGAT1_RAT_Diacylglycerol_O-acyltransferase_1_OS_:6.3448650383)72:0.3839887703)90:0.2483084016,((HeteroloboseaEP00761Pharyngomonaskirbyi_14483709__DGAT1_DICDI_Diacylglycerol_O-acyltransferase_1_OS_:1.0130363042,(RotosphaeridaEP00160Parvulariaatlantis_23171829__DAT1B_SOYBN_Diacylglycerol_O-acyltransferase_1B_OS_:0.1912064118,RotosphaeridaEP00160Parvulariaatlantis_23171830__DAT1C_SOYBN_Diacylglycerol_O-acyltransferase_1C_OS_:0.0000026141)100:1.1636013413)74:0.2476158633,(RhodophytaEP00185Porphyridiumpurpureum_23047108__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_:0.7968582752,RhodophytaGaldieriasulphurariaUP000030680_23116817__DAT1B_SOYBN_Diacylglycerol_O-acyltransferase_1B_OS_:0.6498611792)100:0.3841269393)98:0.1597959740)82:0.1178519476,((((HaptophytaEP00319Phaeocystisglobosa_14048151__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_:0.8247168066,RhodelphisEP00736Rhodelphismarinus_22801760__SOAT1_HUMAN_Sterol_O-acyltransferase_1_OS_:0.7450820764)100:0.3696196669,((((((((MetazoaBryozoaBugulaneritina_2590345__SOAT1_MACFA_Sterol_O-acyltransferase_1_OS_:0.0204548216,MetazoaBryozoaBugulaneritina_2197024__SOAT1_MACFA_Sterol_O-acyltransferase_1_OS_:0.0104768515)100:0.6738635877,(RhizariaEP00473Plasmodiophorabrassicae_22116322__SOAT1_MACFA_Sterol_O-acyltransferase_1_OS_:1.3092890441,((((MetazoaPoriferaAmphimedonqueenslandica_4702382__SOAT1_CHLAE_Sterol_O-acyltransferase_1_OS_:0.3593076330,MetazoaPoriferaHaliclonatubifera_4953205__SOAT1_RAT_Sterol_O-acyltransferase_1_OS_:0.2400515463)100:0.2529120156,MetazoaPoriferaStylissacarteri_5083930__SOAT2_HUMAN_Sterol_O-acyltransferase_2_OS_:0.3477401486)96:0.0868324323,MetazoaPoriferaEphydatiamuelleri_4920197__SOAT1_HUMAN_Sterol_O-acyltransferase_1_OS_:0.3474832990)100:0.5422931108,((((MetazoaPoriferaAmphimedonqueenslandica_4702657__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_:0.7795099114,(MetazoaPoriferaHaliclonatubifera_4954756__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_:0.9456235445,MetazoaPoriferaHaliclonatubifera_4957724__SOAT2_RAT_Sterol_O-acyltransferase_2_OS_:0.6311950020)100:0.2161974111)100:0.4376615442,(MetazoaPoriferaStylissacarteri_5075372__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_:0.2858140569,MetazoaPoriferaStylissacarteri_5079575__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_:0.1155978791)100:0.7211608222)97:0.1053432360,MetazoaPoriferaStylissacarteri_5093435__SOAT1_HUMAN_Sterol_O-acyltransferase_1_OS_:1.0495797365)97:0.0881949901,(((MetazoaPoriferaEphydatiamuelleri_4919418__SOAT1_CHLAE_Sterol_O-acyltransferase_1_OS_:0.1818228749,MetazoaPoriferaEphydatiamuelleri_4919417__SOAT1_MACFA_Sterol_O-acyltransferase_1_OS_:0.0000025167)100:0.4863142566,((MetazoaPoriferaEphydatiamuelleri_4925417__SOAT1_MACFA_Sterol_O-acyltransferase_1_OS_:0.3435064181,MetazoaPoriferaEphydatiamuelleri_4925419__SOAT1_MACFA_Sterol_O-acyltransferase_1_OS_:0.0000029709)100:0.2416851883,MetazoaPoriferaEphydatiamuelleri_4925418__SOAT2_HUMAN_Sterol_O-acyltransferase_2_OS_:0.1047759830)100:0.1694141933)100:0.7247642400,MetazoaPoriferaAmphimedonqueenslandica_4713832__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_:0.7626448594)96:0.1104788933)98:0.1790267298)100:0.6475943926)98:0.0798113821)58:0.1957970444,(MetazoaArthropodaDrosophilamelanogaster_246412__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_:0.9358357853,MetazoaNematodaCaenorhabditiselegans_4314465__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_:1.3819405620)95:0.2529849599)79:0.1266623017,((((((((MetazoaPlatyhelminthesEchinococcusmultilocularis_4605866__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_:0.6206182462,(MetazoaCnidariaMyxozoaThelohanelluskitauei_3371308__SOAT1_CRIGR_Sterol_O-acyltransferase_1_OS_:2.1452887902,MetazoaRotiferaBrachionusplicatilis_5270612__SOAT1_CRIGR_Sterol_O-acyltransferase_1_OS_:0.7969508862)95:0.2780842115)79:0.1691608639,(MetazoaRotiferaBrachionusplicatilis_5237179__SOAT2_CHLAE_Sterol_O-acyltransferase_2_OS_:0.4396694030,MetazoaTardigradaRamazzotiusvarieornatus_5290193__SOAT2_HUMAN_Sterol_O-acyltransferase_2_OS_:0.6166392864)85:0.1185080302)78:0.0788414849,(MetazoaArthropodaDaphniapulex_192370__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_:0.6381997442,(MetazoaBrachiopodaLingulaunguis_1279068__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_:0.0411968725,MetazoaBrachiopodaLingulaunguis_1278526__SOAT1_HUMAN_Sterol_O-acyltransferase_1_OS_:0.0000020141)100:0.3506384141)88:0.0916719827)84:0.0869201601,((MetazoaMolluscaLottiagigantea_4216855__SOAT1_HUMAN_Sterol_O-acyltransferase_1_OS_:0.2970047241,((MetazoaMolluscaEP00106Octopusbimaculoides_4168033__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_:0.0000029408,MetazoaMolluscaEP00106Octopusbimaculoides_4168034__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_:0.0000029408)92:0.0000027208,MetazoaMolluscaEP00106Octopusbimaculoides_4168036__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_:0.0000029408)100:0.1889925097)97:0.0906981080,(MetazoaAnnelidaEP00103Capitellateleta_67238__SOAT1_CHLAE_Sterol_O-acyltransferase_1_OS_:0.2995284999,MetazoaAnnelidaHelobdellarobusta_86638__SOAT1_CHLAE_Sterol_O-acyltransferase_1_OS_:0.5123924063)94:0.0519187421)92:0.0733691092)79:0.0596084751,MetazoaHemichordataSaccoglossuskowalevskii_4049739__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_:0.3779690089)50:0.0622102753,(((((MetazoaVertebrateDaniorerio_5420643__SOAT1_HUMAN_Sterol_O-acyltransferase_1_OS_:0.2733895394,(MetazoaVertebrateMusmusculus_6537317__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_:0.0829681818,MetazoaVertebrateHomosapiens_6455999__SOAT1_HUMAN_Sterol_O-acyltransferase_1_OS_:0.0648208317)100:0.3088007767)100:0.0864092320,MetazoaVertebrateEptatretusburgeri_6402668__SOAT1_HUMAN_Sterol_O-acyltransferase_1_OS_:0.5810373890)100:0.0813028631,(MetazoaVertebrateEptatretusburgeri_6402637__SOAT1_HUMAN_Sterol_O-acyltransferase_1_OS_:0.0000021420,MetazoaVertebrateEptatretusburgeri_6402638__SOAT1_CHLAE_Sterol_O-acyltransferase_1_OS_:0.0024639431)100:0.2698560539)98:0.0743673393,(MetazoaVertebrateDaniorerio_5425249__SOAT1_RAT_Sterol_O-acyltransferase_1_OS_:0.5152828940,(MetazoaVertebrateMusmusculus_6531753__SOAT2_MOUSE_Sterol_O-acyltransferase_2_OS_:0.1143220556,MetazoaVertebrateHomosapiens_6453156__SOAT2_HUMAN_Sterol_O-acyltransferase_2_OS_:0.0609786425)100:0.4284963466)100:0.1350382478)100:0.3967593113,(MetazoaCephalochordataBranchiostomabelcheri_2819752__PK1L1_HUMAN_Polycystic_kidney_disease_protein_1-like_1_OS_:0.0048352733,MetazoaCephalochordataBranchiostomabelcheri_2819753__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_:0.0000026012)100:0.5605572179)92:0.1499060697)86:0.0584903773,(MetazoaEchinodermataEP00057Strongylocentrotuspurpuratus_3834560__SOAT1_RAT_Sterol_O-acyltransferase_1_OS_:0.5491351537,MetazoaEchinodermataAcanthasterplanci_3793573__SOAT1_RAT_Sterol_O-acyltransferase_1_OS_:0.3468609939)98:0.2039923316)82:0.0436209680,(((((((((((MetazoaCnidariaAcroporadigitifera_2949279__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_:0.2819015637,MetazoaCnidariaPoritesaustraliensis_3534964__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_:0.0463703363)100:0.0530118105,MetazoaCnidariaAstreoporasp_3047100__SOAT1_HUMAN_Sterol_O-acyltransferase_1_OS_:0.0674332818)100:0.0510680462,MetazoaCnidariaMontastraeacavernosa_3317885__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_:0.0632478350)100:0.0187251382,MetazoaCnidariaFungiascutaria_3204392__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_:0.0976937210)100:0.0280216691,MetazoaCnidariaMadracisauretenra_3284442__SOAT2_HUMAN_Sterol_O-acyltransferase_2_OS_:0.0427875748)100:0.0194720461,MetazoaCnidariaStylophorapistillata_3684087__SOAT1_CHLAE_Sterol_O-acyltransferase_1_OS_:0.0867549646)100:0.1572203929,(MetazoaCnidariaNematostellavectensis_3373825__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_:0.1920406914,MetazoaCnidariaAnthopleuraelegantissima_3010956__SOAT1_HUMAN_Sterol_O-acyltransferase_1_OS_:0.2242495039)100:0.1166172663)100:0.1525030857,MetazoaCnidariaGorgoniaventalina_3233658__SOAT1_MACFA_Sterol_O-acyltransferase_1_OS_:0.4657455758)69:0.0371809035,(MetazoaCnidariaClytiahemisphaerica_3085765__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_:0.6986720625,MetazoaCnidariaAureliaGenome_3051150__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_:0.3807585124)98:0.1245748641)100:0.1135244379,((MetazoaPlacozoaHoilungiahongkongensis_4541206__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_:0.0000029408,MetazoaPlacozoaHoilungiahongkongensis_4541207__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_:0.0000027471)100:0.0963423482,MetazoaPlacozoaEP00114TrichoplaxspH2_4510918__SOAT1_CRIGR_Sterol_O-acyltransferase_1_OS_:0.0635608473)100:0.5886382000)42:0.0179927131,((MetazoaPoriferaSyconciliatum_5126125__SOAT1_HUMAN_Sterol_O-acyltransferase_1_OS_:0.1874809137,MetazoaPoriferaLeucosoleniacomplicata_5010330__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_:0.1595993624)100:0.4144174587,MetazoaPoriferaEP00118Oscarellapearsei_4817195__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_:0.6233727929)67:0.1541452201)43:0.0518571277)57:0.1298218971)60:0.0983938673,((ChoanoflagellataEP00047Mylnosigafluctuans_11114416__SOAT1_CHLAE_Sterol_O-acyltransferase_1_OS_:0.3738938485,ChoanoflagellataEP00050Salpingoecakvevrii_11207341__SOAT1_CHLAE_Sterol_O-acyltransferase_1_OS_:0.6933862403)100:0.1951146900,(FilastreaCapsasporaowczarzakiUP000008743_12983113__SOAT1_CHLAE_Sterol_O-acyltransferase_1_OS_:0.6290453343,IchthyosporeaEP00126Sphaerothecumdestruens_14612802__SOAT2_HUMAN_Sterol_O-acyltransferase_2_OS_:0.5674486201)54:0.0924301787)97:0.1288820209)94:0.1133480152,IchthyosporeaEP00126Sphaerothecumdestruens_14612801__SOAT1_RAT_Sterol_O-acyltransferase_1_OS_:0.9124118797)99:0.1598522129,(AlveolataEP00742ColponemidiaspColp10_4272534__SOAT2_RAT_Sterol_O-acyltransferase_2_OS_:0.5387333748,AlveolataEP00333Tetrahymenathermophila_68197__SOAT1_MOUSE_Sterol_O-acyltransferase_1_OS_:1.1738540218)100:0.3209077240)73:0.0899796078,(CentroplasthelidaEP00300ChoanocystisspHF7_5629869__SOAT1_HUMAN_Sterol_O-acyltransferase_1_OS_:0.4008424498,ApusomonadidaThecamonastrahensUP000054408_5477754__SOAT1_MACFA_Sterol_O-acyltransferase_1_OS_:0.3949087819)100:0.6818865046)73:0.1231464107)99:0.2256951800,(((CollodictyonidaeEP00002Diphylleiarotans_11645659__SOAT1_RAT_Sterol_O-acyltransferase_1_OS_:0.0023527193,CollodictyonidaeEP00002Diphylleiarotans_11645660__SOAT1_RAT_Sterol_O-acyltransferase_1_OS_:0.0045149546)100:0.4112040503,CollodictyonidaeEP00002Diphylleiarotans_11666034__SOAT1_CHLAE_Sterol_O-acyltransferase_1_OS_:0.4712014113)100:0.2199445291,(RigifilidaEP00004Rigifilaramosa_23125236__SOAT1_HUMAN_Sterol_O-acyltransferase_1_OS_:0.0000020757,RigifilidaEP00004Rigifilaramosa_23125237__SOAT1_HUMAN_Sterol_O-acyltransferase_1_OS_:0.0025558974)100:0.6995391789)100:0.4630041178)100:0.5319699447,(MalawimonadidaeEP00698Gefionellaokellyi_14709428__DGAT1_CORAE_Diacylglycerol_O-acyltransferase_1_OS_:1.9390399650,AmoebozoaDictyosteliumdiscoideumUP000002195_4932587__DGAT1_RAT_Diacylglycerol_O-acyltransferase_1_OS_:2.2643427664)99:0.6715664955)94:0.1175185118)72:0.0654189985,(((GlaucophytaEP00276Gloeochaetewittrockiana_13499831__DAT1B_SOYBN_Diacylglycerol_O-acyltransferase_1B_OS_:0.7732448989,HeteroloboseaEP00761Pharyngomonaskirbyi_14488777__DGAT1_ARATH_Diacylglycerol_O-acyltransferase_1_OS_:0.7140473242)95:0.1293152456,JakobidaEP00762Andaluciagodoyi_14654936__ARE2_CANAX_Sterol_O-acyltransferase_2_OS_:1.0347027775)100:0.3995730737,(AmoebozoaEP00029Vermamoebavermiformis_5280956__DAT1B_SOYBN_Diacylglycerol_O-acyltransferase_1B_OS_:0.8749911207,AmoebozoaDictyosteliumdiscoideumUP000002195_4930403__DGAT1_CORAE_Diacylglycerol_O-acyltransferase_1_OS_:1.0021597367)100:0.2546843705)98:0.2049046692)99:0.2982722687,(RhodophytaEP00185Porphyridiumpurpureum_23044280__DGAT1_MOUSE_Diacylglycerol_O-acyltransferase_1_OS_:0.9271228046,(RhodophytaGaldieriasulphurariaUP000030680_23117956__ARE2_SACU7_Sterol_O-acyltransferase_2_OS_:0.8939928625,RhodophytaGaldieriasulphurariaUP000030680_23116056__AREH1_SCHPO_Probable_sterol_O-acyltransferase_1_OS_:0.9392229640)100:0.2131928701)100:0.7239623985)99:0.2047743254,(AlveolataEP00333Tetrahymenathermophila_75336__AREH1_SCHPO_Probable_sterol_O-acyltransferase_1_OS_:0.7405473936,AlveolataEP00333Tetrahymenathermophila_80462__AREH1_SCHPO_Probable_sterol_O-acyltransferase_1_OS_:0.5323518287)100:0.6905781494)98:0.1576211990,(PluriformeaEP00127Corallochytriumlimacisporum_21623487__ARE2_CANAX_Sterol_O-acyltransferase_2_OS_:1.1870356898,FilastreaCapsasporaowczarzakiUP000008743_12984776__AREH2_SCHPO_Probable_sterol_O-acyltransferase_2_OS_:0.9428232765)93:0.2280586948)87:0.0979597729,((((CollodictyonidaeEP00002Diphylleiarotans_11642749__DAT1B_SOYBN_Diacylglycerol_O-acyltransferase_1B_OS_:0.0034416779,CollodictyonidaeEP00002Diphylleiarotans_11642754__DAT1C_SOYBN_Diacylglycerol_O-acyltransferase_1C_OS_:0.0329858957)53:0.0183496449,CollodictyonidaeEP00002Diphylleiarotans_11642750__DAT1C_SOYBN_Diacylglycerol_O-acyltransferase_1C_OS_:0.0000029408)46:0.0000022371,CollodictyonidaeEP00002Diphylleiarotans_11642751__DAT1C_SOYBN_Diacylglycerol_O-acyltransferase_1C_OS_:0.0000029408)64:0.0000022371,((CollodictyonidaeEP00002Diphylleiarotans_11642752__ARE2_CANAX_Sterol_O-acyltransferase_2_OS_:0.0000029408,CollodictyonidaeEP00002Diphylleiarotans_11642753__ARE2_CANAX_Sterol_O-acyltransferase_2_OS_:0.0000029408)93:0.0000029408,CollodictyonidaeEP00002Diphylleiarotans_11642755__ARE2_CANAX_Sterol_O-acyltransferase_2_OS_:0.0000029408)88:0.0000029396)100:0.9135091679)83:0.1127268636,StramenopilesPhytophthorainfestansUP000006643_26377687__ARE2_SACU7_Sterol_O-acyltransferase_2_OS_:1.2434938448)74:0.0399003008,(RigifilidaEP00004Rigifilaramosa_23132564__AREH1_SCHPO_Probable_sterol_O-acyltransferase_1_OS_:0.8883892730,((TelonemiaP00656Telonemasubtile_26511820__ARE2_CANAX_Sterol_O-acyltransferase_2_OS_:0.0155825557,TelonemiaP00656Telonemasubtile_26511821__ARE2_CANAX_Sterol_O-acyltransferase_2_OS_:0.0000022243)100:1.0862287383,ChoanoflagellataEP00040Diaphanoecagrandis_10910441__ARE2_CANAX_Sterol_O-acyltransferase_2_OS_:1.2945561451)99:0.3769187727)94:0.1755720817)81:0.1436595323,((IchthyosporeaEP00123Amoebidiumparasiticum_14559664__ARE2_SACU7_Sterol_O-acyltransferase_2_OS_:1.1256126572,HaptophytaEP00319Phaeocystisglobosa_14053193__AREH2_SCHPO_Probable_sterol_O-acyltransferase_2_OS_:0.7808012397)95:0.0888415519,((((FungiEP00150Ustilagomaydis_13256582__AREH1_SCHPO_Probable_sterol_O-acyltransferase_1_OS_:0.7112638593,((CentroplasthelidaEP00300ChoanocystisspHF7_5627063__AREH2_SCHPO_Probable_sterol_O-acyltransferase_2_OS_:0.4071769145,FungiFusariumoxysporumUP000002489_13354115__ARE2_CANAX_Sterol_O-acyltransferase_2_OS_:0.3137361772)100:0.7478261080,((FungiSaccharomycescerevisiaeUP000002311_13446240__ARE1_YEAST_Sterol_O-acyltransferase_1_OS_:0.4709255598,FungiSaccharomycescerevisiaeUP000002311_13449006__ARE2_YEAST_Sterol_O-acyltransferase_2_OS_:0.4244498953)100:0.8307379290,FungiFusariumoxysporumUP000002489_13356715__ARE2_CANAX_Sterol_O-acyltransferase_2_OS_:0.5939677553)100:0.3001936681)100:0.3230576476)100:0.1433093359,FungiMortierellaelongataUP000078512_13383038__AREH1_SCHPO_Probable_sterol_O-acyltransferase_1_OS_:0.5438533740)99:0.0756206478,FungiRhizopusmicrosporusUP000242254_13434296__AREH1_SCHPO_Probable_sterol_O-acyltransferase_1_OS_:0.6374728018)100:0.1513950694,FungiSpizellomycespunctatusUP000053201_13453645__AREH1_SCHPO_Probable_sterol_O-acyltransferase_1_OS_:0.6326044711)100:0.2118271960)100:0.1671032760);
+
+TIME STAMP
+----------
+
+Date and time: Fri Dec  9 14:39:29 2022
+Total CPU time used: 4408.008509 seconds (1h:13m:28s)
+Total wall-clock time used: 758.7944989 seconds (0h:12m:38s)
+
