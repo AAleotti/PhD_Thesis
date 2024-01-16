@@ -1,0 +1,1099 @@
+IQ-TREE 2.0.6 built Jun  5 2020
+
+Input file name: PNPLA4.fasta.cdhit.mafft.trimal
+Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 638400
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 215 sequences with 367 amino-acid sites
+Number of constant sites: 0 (= 0% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 0 (= 0% of all sites)
+Number of parsimony informative sites: 364
+Number of distinct site patterns: 367
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: LG+R5
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+LG+R5            -83739.351  168348.702 +    0.101  547668.702 -        0  170047.535 +    0.848
+LG+R6            -83735.167  168344.334 +    0.899  551156.334 -        0  170050.977 +    0.152
+LG+R4            -83793.284  168452.568 - 2.83e-24  544296.568 -        0  170143.589 - 1.18e-21
+LG+F+R6          -83773.712  168459.424 - 9.16e-26  585243.424 -        0  170240.269 - 1.19e-42
+LG+F+R5          -83780.229  168468.459 -    1e-27  581608.459 -        0  170241.493 - 6.47e-43
+LG+G4            -83876.676  168609.352 - 2.55e-58  535833.352 +        1  170280.847 - 1.84e-51
+LG+R3            -83926.910  168715.819 - 1.94e-81  541099.819 -        0  170399.030 -    4e-77
+WAG+F+R5         -84107.681  169123.361 - 6.17e-170  582263.361 -        0  170896.395 - 3.99e-185
+WAG+F+R6         -84104.867  169121.735 - 1.39e-169  585905.735 -        0  170902.580 - 1.81e-186
+rtREV+F+R6       -84201.223  169314.445 - 1.98e-211  586098.445 -        0  171095.290 - 2.58e-228
+rtREV+F+R5       -84207.523  169323.045 - 2.69e-213  582463.045 -        0  171096.080 - 1.74e-228
+WAG+R5           -84295.687  169461.373 - 2.46e-243  548781.373 -        0  171160.206 - 2.07e-242
+WAG+R6           -84292.076  169458.153 - 1.23e-242  552270.153 -        0  171164.796 - 2.08e-243
+VT+R6            -84309.009  169492.018 - 5.46e-250  552304.018 -        0  171198.661 - 9.22e-251
+VT+R5            -84335.279  169540.557 - 1.57e-260  548860.557 -        0  171239.390 - 1.32e-259
+VT+F+R6          -84277.778  169467.557 - 1.12e-244  586251.557 -        0  171248.402 - 1.46e-261
+VT+F+R5          -84303.992  169515.984 - 3.41e-255  582655.984 -        0  171289.018 - 2.21e-270
+LG+R2            -84392.642  169643.283 - 7.77e-283  538583.283 -        0  171318.684 - 7.98e-277
+Blosum62+R5      -84433.272  169736.543 - 4.36e-303  549056.543 -        0  171435.376 - 3.65e-302
+Blosum62+R6      -84431.038  169736.076 - 5.51e-303  552548.076 -        0  171442.719 - 9.29e-304
+PMB+R5           -84469.182  169808.364 - 1.11e-318  549128.364 -        0  171507.196 - 9.27e-318
+PMB+R6           -84467.096  169808.193 - 1.2e-318  552620.193 -        0  171514.836 - 2.03e-319
+Blosum62+F+R6    -84446.624  169805.247 - 5.25e-318  586589.247 -        0  171586.092 -        0
+Blosum62+F+R5    -84468.418  169844.835 -        0  582984.835 -        0  171617.869 -        0
+cpREV+F+R6       -84539.144  169990.288 -        0  586774.288 -        0  171771.133 -        0
+cpREV+F+R5       -84569.520  170047.041 -        0  583187.041 -        0  171820.075 -        0
+PMB+F+R5         -84591.120  170090.241 -        0  583230.241 -        0  171863.275 -        0
+PMB+F+R6         -84587.844  170087.688 -        0  586871.688 -        0  171868.533 -        0
+cpREV+R6         -84681.632  170237.263 -        0  553049.263 -        0  171943.907 -        0
+cpREV+R5         -84690.873  170251.745 -        0  549571.745 -        0  171950.578 -        0
+rtREV+R6         -84738.621  170351.243 -        0  553163.243 -        0  172057.886 -        0
+rtREV+R5         -84768.965  170407.931 -        0  549727.931 -        0  172106.763 -        0
+JTTDCMut+R6      -84803.073  170480.146 -        0  553292.146 -        0  172186.789 -        0
+JTT+R6           -84804.168  170482.336 -        0  553294.336 -        0  172188.979 -        0
+mtInv+F+R6       -84762.869  170437.739 -        0  587221.739 -        0  172218.584 -        0
+JTTDCMut+R5      -84826.080  170522.161 -        0  549842.161 -        0  172220.993 -        0
+JTT+R5           -84827.497  170524.994 -        0  549844.994 -        0  172223.827 -        0
+mtInv+F+R5       -84784.133  170476.266 -        0  583616.266 -        0  172249.300 -        0
+JTTDCMut+F+R6    -84838.592  170589.184 -        0  587373.184 -        0  172370.029 -        0
+JTT+F+R6         -84849.074  170610.149 -        0  587394.149 -        0  172390.994 -        0
+JTTDCMut+F+R5    -84866.423  170640.846 -        0  583780.846 -        0  172413.881 -        0
+JTT+F+R5         -84877.924  170663.847 -        0  583803.847 -        0  172436.882 -        0
+mtZOA+F+R6       -85042.996  170997.992 -        0  587781.992 -        0  172778.837 -        0
+mtZOA+F+R5       -85068.711  171045.422 -        0  584185.422 -        0  172818.456 -        0
+mtMet+F+R6       -85334.075  171580.150 -        0  588364.150 -        0  173360.995 -        0
+Dayhoff+F+R6     -85341.779  171595.557 -        0  588379.557 -        0  173376.402 -        0
+DCMut+F+R6       -85342.264  171596.528 -        0  588380.528 -        0  173377.373 -        0
+mtMet+F+R5       -85355.975  171619.951 -        0  584759.951 -        0  173392.985 -        0
+Dayhoff+F+R5     -85371.591  171651.182 -        0  584791.182 -        0  173424.216 -        0
+DCMut+F+R5       -85371.965  171651.930 -        0  584791.930 -        0  173424.964 -        0
+mtREV+F+R6       -85441.854  171795.708 -        0  588579.708 -        0  173576.553 -        0
+mtREV+F+R5       -85480.330  171868.660 -        0  585008.660 -        0  173641.694 -        0
+DCMut+R6         -85796.471  172466.941 -        0  555278.941 -        0  174173.585 -        0
+Dayhoff+R6       -85797.061  172468.121 -        0  555280.121 -        0  174174.764 -        0
+DCMut+R5         -85820.777  172511.554 -        0  551831.554 -        0  174210.386 -        0
+Dayhoff+R5       -85821.213  172512.426 -        0  551832.426 -        0  174211.259 -        0
+FLU+F+R6         -86007.520  172927.039 -        0  589711.039 -        0  174707.884 -        0
+mtART+F+R6       -86035.382  172982.765 -        0  589766.765 -        0  174763.610 -        0
+FLU+F+R5         -86042.945  172993.889 -        0  586133.889 -        0  174766.924 -        0
+mtART+F+R5       -86071.705  173051.410 -        0  586191.410 -        0  174824.444 -        0
+LG               -86470.086  173794.172 -        0  539306.172 -        0  175461.762 -        0
+HIVb+F+R6        -86409.588  173731.176 -        0  590515.176 -        0  175512.021 -        0
+HIVb+F+R5        -86433.781  173775.562 -        0  586915.562 -        0  175548.596 -        0
+HIVb+R6          -86521.529  173917.059 -        0  556729.059 -        0  175623.702 -        0
+HIVb+R5          -86543.816  173957.633 -        0  553277.633 -        0  175656.465 -        0
+mtVer+F+R6       -86587.491  174086.982 -        0  590870.982 -        0  175867.827 -        0
+mtVer+F+R5       -86622.528  174153.056 -        0  587293.056 -        0  175926.090 -        0
+FLU+R6           -86759.794  174393.589 -        0  557205.589 -        0  176100.232 -        0
+FLU+R5           -86794.498  174458.997 -        0  553778.997 -        0  176157.829 -        0
+mtZOA+R6         -86810.946  174495.891 -        0  557307.891 -        0  176202.535 -        0
+mtZOA+R5         -86838.484  174546.968 -        0  553866.968 -        0  176245.800 -        0
+mtMAM+F+R6       -87253.825  175419.651 -        0  592203.651 -        0  177200.496 -        0
+mtMAM+F+R5       -87288.778  175485.556 -        0  588625.556 -        0  177258.590 -        0
+mtMet+R6         -88072.225  177018.449 -        0  559830.449 -        0  178725.092 -        0
+mtMet+R5         -88098.495  177066.989 -        0  556386.990 -        0  178765.822 -        0
+mtInv+R6         -88284.144  177442.288 -        0  560254.288 -        0  179148.931 -        0
+mtInv+R5         -88306.478  177482.956 -        0  556802.956 -        0  179181.789 -        0
+mtREV+R6         -88431.457  177736.913 -        0  560548.913 -        0  179443.556 -        0
+mtREV+R5         -88470.039  177810.078 -        0  557130.078 -        0  179508.911 -        0
+mtART+R6         -88839.921  178553.842 -        0  561365.841 -        0  180260.485 -        0
+mtART+R5         -88876.873  178623.745 -        0  557943.745 -        0  180322.578 -        0
+HIVw+F+R6        -89132.530  179177.060 -        0  595961.060 -        0  180957.905 -        0
+HIVw+F+R5        -89175.245  179258.490 -        0  592398.490 -        0  181031.525 -        0
+mtVer+R6         -89271.702  179417.404 -        0  562229.404 -        0  181124.047 -        0
+mtVer+R5         -89308.264  179486.528 -        0  558806.528 -        0  181185.360 -        0
+mtMAM+R6         -90226.227  181326.453 -        0  564138.453 -        0  183033.097 -        0
+mtMAM+R5         -90262.461  181394.922 -        0  560714.922 -        0  183093.755 -        0
+HIVw+R6          -90983.226  182840.452 -        0  565652.452 -        0  184547.095 -        0
+HIVw+R5          -91020.390  182910.779 -        0  562230.779 -        0  184609.612 -        0
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: LG+R5
+
+State frequencies: (model)
+
+Model of rate heterogeneity: FreeRate with 5 categories
+Site proportion and rates:  (0.0460,0.0967) (0.1611,0.3127) (0.2338,0.6185) (0.2448,1.0848) (0.3142,1.7026)
+
+ Category  Relative_rate  Proportion
+  1         0.0967         0.0460
+  2         0.3127         0.1611
+  3         0.6185         0.2338
+  4         1.0848         0.2448
+  5         1.7026         0.3142
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -83599.2465 (s.e. 1602.0273)
+Unconstrained log-likelihood (without tree): -2167.2678
+Number of free parameters (#branches + #model parameters): 435
+Akaike information criterion (AIC) score: 168068.4930
+Corrected Akaike information criterion (AICc) score: 547388.4930
+Bayesian information criterion (BIC) score: 169767.3254
+
+**************************** WARNING ****************************
+Number of parameters (K, model parameters and branch lengths): 435
+Sample size (n, alignment length): 367
+
+Given that K>=n, the parameter estimates might be inaccurate.
+Thus, phylogenetic estimates should be interpreted with caution.
+
+Ideally, it is desirable that n >> K. When selecting optimal models,
+1. use AIC or BIC if n > 40K;
+2. use AICc or BIC if 40K >= n > K;
+3. be extremely cautious if n <= K
+
+To improve the situation (3), consider the following options:
+  1. Increase the sample size (n)
+  2. Decrease the number of parameters (K) to be estimated. If
+     possible:
+     a. Remove the least important sequences from the alignment
+     b. Specify some of the parameter values for the substitution
+        model (e.g., the nucleotide or amino acid frequencies)
+     c. Specify some of the parameter values for the rates-across-
+        sites model (e.g., the shape parameter for the discrete
+        Gamma distribution, the proportion of invariable sites, or
+        the rates of change for different rate categories under
+        the FreeRate model)
+
+Reference:
+Burnham KR, Anderson DR (2002). Model Selection and Multimodel
+Inference: A Practical Information-Theoretic Approach. Springer,
+New York.
+************************ END OF WARNING ***********************
+
+Total tree length (sum of branch lengths): 165.8912
+Sum of internal branch lengths: 56.5671 (34.0989% of tree length)
+
+WARNING: 5 near-zero internal branches (<0.0027) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'RhodophytaGaldieriasulphurariaUP000030680_23116076__YR571_MIMIV_Uncharacterized_protein_R571_OS_' is drawn at root
+Numbers in parentheses are SH-aLRT support (%) / aBayes support / ultrafast bootstrap support (%)
+
++-----------------RhodophytaGaldieriasulphurariaUP000030680_23116076__YR571_MIMIV_Uncharacterized_protein_R571_OS_
+|
+|               +-------------------------CentroplasthelidaEP00300ChoanocystisspHF7_5629128__PLPL1_MOUSE_Patatin-like_phospholipase_domain-containing_protein_1_OS_
+|            +**| (0/0.333/49)
+|            |  |                     +-----------StramenopilesEP00652Aphanomycesastaci_26140946__PLPL2_BOVIN_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|            |  |            +--------| (99.4/1/100)
+|            |  |            |        +--StramenopilesPhytophthorainfestansUP000006643_26376129__PLPL2_HUMAN_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|            |  |  +---------| (98.8/1/100)
+|            |  |  |         +----------EuglenozoaEP00668Euglenalonga_12394772__PLPL2_HUMAN_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|            |  +--| (33.1/0.527/76)
+|            |     +----------------------CryptophyceaeGuillardiathetaUP000011087_12255011__PLPL1_MOUSE_Patatin-like_phospholipase_domain-containing_protein_1_OS_
+|         +--| (88.3/0.979/94)
+|         |  |           +--------------------ChoanoflagellataEP00050Salpingoecakvevrii_11198219__PLPL2_CAEEL_Patanin-like_phospholipase_domain-containing_protein_atgl-1_OS_
+|         |  |        +--| (87.4/0.938/97)
+|         |  |        |  |                     +---CryptophyceaeGuillardiathetaUP000011087_12257361__ELOV5_XENTR_Elongation_of_very_long_chain_fatty_acids_protein_5_OS_
+|         |  |        |  |              +------| (99.8/1/100)
+|         |  |        |  |              |      +---CryptophyceaeEP00290BaffinellaspCCMP2293_12083491__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_
+|         |  |        |  |      +-------| (97.9/1/100)
+|         |  |        |  |      |       |     +---------HaptophytaEP00319Phaeocystisglobosa_14070199__PLPL1_HUMAN_Patatin-like_phospholipase_domain-containing_protein_1_OS_
+|         |  |        |  |      |       |  +--| (57.1/0.851/55)
+|         |  |        |  |      |       |  |  +-------TelonemiaP00656Telonemasubtile_26565338__ELOV7_MOUSE_Elongation_of_very_long_chain_fatty_acids_protein_7_OS_
+|         |  |        |  |      |       +--| (40.4/0.808/55)
+|         |  |        |  |      |          |  +-------EuglenozoaEP00668Euglenalonga_12422286__ELOV5_TACFU_Elongation_of_very_long_chain_fatty_acids_protein_5_OS_
+|         |  |        |  |      |          +--| (77.3/0.903/100)
+|         |  |        |  |      |             +------CentroplasthelidaEP00300ChoanocystisspHF7_5634236__ELOV5_TACFU_Elongation_of_very_long_chain_fatty_acids_protein_5_OS_
+|         |  |        |  |  +---| (91.2/0.962/100)
+|         |  |        |  |  |   |                   +**EuglenozoaEP00668Euglenalonga_12407671__PLPL3_MOUSE_1-acylglycerol-3-phosphate_O-acyltransferase_Pnpla3_OS_
+|         |  |        |  |  |   |                +--| (89.3/1/100)
+|         |  |        |  |  |   |                |  +**EuglenozoaEP00668Euglenalonga_12407673__PLPL3_MOUSE_1-acylglycerol-3-phosphate_O-acyltransferase_Pnpla3_OS_
+|         |  |        |  |  |   +----------------| (100/1/100)
+|         |  |        |  |  |                    |  +**EuglenozoaEP00668Euglenalonga_12407672__PLPL3_MOUSE_1-acylglycerol-3-phosphate_O-acyltransferase_Pnpla3_OS_
+|         |  |        |  |  |                    +--| (0/0.339/92)
+|         |  |        |  |  |                       +**EuglenozoaEP00668Euglenalonga_12393344__PLPL3_MOUSE_1-acylglycerol-3-phosphate_O-acyltransferase_Pnpla3_OS_
+|         |  |        |  +--| (0.6/0.425/43)
+|         |  |        |     +------------------ChloroplastidaChlamydomonasreinhardtiiUP000006906_6364612__PLPL1_MOUSE_Patatin-like_phospholipase_domain-containing_protein_1_OS_
+|         |  |     +--| (95.4/1/96)
+|         |  |     |  |                       +---------StramenopilesEP00652Aphanomycesastaci_26140261__PLPL2_CAEEL_Patanin-like_phospholipase_domain-containing_protein_atgl-1_OS_
+|         |  |     |  |                    +--| (81.1/0.982/100)
+|         |  |     |  |                    |  |  +--StramenopilesPhytophthorainfestansUP000006643_26371863__PLPL2_CAEEL_Patanin-like_phospholipase_domain-containing_protein_atgl-1_OS_
+|         |  |     |  |                    |  +--| (98.8/1/100)
+|         |  |     |  |                    |     +--StramenopilesPhytophthorainfestansUP000006643_26371858__PLPL3_MOUSE_1-acylglycerol-3-phosphate_O-acyltransferase_Pnpla3_OS_
+|         |  |     |  |              +-----| (99.6/1/100)
+|         |  |     |  |              |     +---------StramenopilesPhytophthorainfestansUP000006643_26381713__PLPL2_MOUSE_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |  |     |  |           +--| (39.9/0.675/72)
+|         |  |     |  |           |  |             +**IchthyosporeaEP00123Amoebidiumparasiticum_14564371__PLPL2_BOVIN_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |  |     |  |           |  +-------------| (100/1/100)
+|         |  |     |  |           |                +--IchthyosporeaEP00123Amoebidiumparasiticum_14564372_
+|         |  |     |  |       +---| (94.1/0.998/97)
+|         |  |     |  |       |   |           +----------IchthyosporeaSphaeroformaarcticaUP000054560_14622588__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_
+|         |  |     |  |       |   |        +--| (60.4/0.921/96)
+|         |  |     |  |       |   |        |  +-----IchthyosporeaSphaeroformaarcticaUP000054560_14626795__PLPL2_CAEEL_Patanin-like_phospholipase_domain-containing_protein_atgl-1_OS_
+|         |  |     |  |       |   |     +--| (98.4/1/100)
+|         |  |     |  |       |   |     |  +--IchthyosporeaEP00123Amoebidiumparasiticum_14562997__PLPL2_CAEEL_Patanin-like_phospholipase_domain-containing_protein_atgl-1_OS_
+|         |  |     |  |       |   |  +--| (68.5/0.993/88)
+|         |  |     |  |       |   |  |  +------PluriformeaEP00127Corallochytriumlimacisporum_21621713__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_
+|         |  |     |  |       |   +--| (84.6/0.941/72)
+|         |  |     |  |       |      |  +----------------CryptophyceaeEP00290BaffinellaspCCMP2293_12030485__PLPL3_MOUSE_1-acylglycerol-3-phosphate_O-acyltransferase_Pnpla3_OS_
+|         |  |     |  |       |      +--| (66/0.549/90)
+|         |  |     |  |       |         +--------CentroplasthelidaEP00300ChoanocystisspHF7_5613600__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_
+|         |  |     |  |  +----| (98.7/1/100)
+|         |  |     |  |  |    |          +------IchthyosporeaEP00123Amoebidiumparasiticum_14553437_
+|         |  |     |  |  |    +----------| (99.7/1/100)
+|         |  |     |  |  |               +--IchthyosporeaEP00123Amoebidiumparasiticum_14555013__PLPL2_CAEEL_Patanin-like_phospholipase_domain-containing_protein_atgl-1_OS_
+|         |  |     |  +--| (76.3/0.917/98)
+|         |  |     |     +------------AmoebozoaEP00007CuneaspBSH02190019_4977936__PLPL2_CAEEL_Patanin-like_phospholipase_domain-containing_protein_atgl-1_OS_
+|         |  |  +--| (88.7/1/62)
+|         |  |  |  |                    +------------ChloroplastidaChlamydomonasreinhardtiiUP000006906_6352860_
+|         |  |  |  |                 +--| (46.1/0.446/99)
+|         |  |  |  |                 |  +--------ChloroplastidaChlamydomonasreinhardtiiUP000006906_6359989__PLPL2_CAEEL_Patanin-like_phospholipase_domain-containing_protein_atgl-1_OS_
+|         |  |  |  |           +-----| (90.4/0.969/99)
+|         |  |  |  |           |     |                      +--CryptophyceaeEP00290BaffinellaspCCMP2293_12037293_
+|         |  |  |  |           |     +----------------------| (100/1/100)
+|         |  |  |  |           |                            +--CryptophyceaeEP00290BaffinellaspCCMP2293_12059634__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_
+|         |  |  |  |     +-----| (98.4/1/96)
+|         |  |  |  |     |     |              +--------CryptophyceaeGuillardiathetaUP000011087_12253775__PLPL1_MOUSE_Patatin-like_phospholipase_domain-containing_protein_1_OS_
+|         |  |  |  |     |     |           +--| (86.5/0.948/100)
+|         |  |  |  |     |     |           |  +-----CryptophyceaeEP00290BaffinellaspCCMP2293_12082377__PLPL1_HUMAN_Patatin-like_phospholipase_domain-containing_protein_1_OS_
+|         |  |  |  |     |     +-----------| (99.9/1/100)
+|         |  |  |  |     |                 |   +-------------ChloroplastidaChlamydomonasreinhardtiiUP000006906_6368252__PLPL1_HUMAN_Patatin-like_phospholipase_domain-containing_protein_1_OS_
+|         |  |  |  |     |                 +---| (93.2/0.999/100)
+|         |  |  |  |     |                     +--------ChloroplastidaEP00738Chloropiconprimus_8603645__PLPL1_MOUSE_Patatin-like_phospholipase_domain-containing_protein_1_OS_
+|         |  |  |  |  +--| (89.9/0.989/68)
+|         |  |  |  |  |  |                +**ChloroplastidaEP00248Marchantiapolymorpha_7463874__PLPL2_HUMAN_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |  |  |  |  |  |             +--| (98/1/100)
+|         |  |  |  |  |  |             |  +**ChloroplastidaEP00248Marchantiapolymorpha_7463875__PLPL2_HUMAN_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |  |  |  |  |  |        +----| (98.7/1/100)
+|         |  |  |  |  |  |        |    +---ChloroplastidaArabidopsisthalianaUP000006548_5875873__PLPL2_MOUSE_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |  |  |  |  |  |     +--| (90.2/0.995/99)
+|         |  |  |  |  |  |     |  +-------------------RhodophytaEP00185Porphyridiumpurpureum_23045358__PLPL3_MOUSE_1-acylglycerol-3-phosphate_O-acyltransferase_Pnpla3_OS_
+|         |  |  |  |  |  |  +--| (95/1/91)
+|         |  |  |  |  |  |  |  |         +-----------ChloroplastidaChlamydomonasreinhardtiiUP000006906_6357326__PLPL3_HUMAN_1-acylglycerol-3-phosphate_O-acyltransferase_PNPLA3_OS_
+|         |  |  |  |  |  |  |  |  +------| (98.1/1/100)
+|         |  |  |  |  |  |  |  |  |      +-------ChloroplastidaChlamydomonasreinhardtiiUP000006906_6364947__PLPL3_MOUSE_1-acylglycerol-3-phosphate_O-acyltransferase_Pnpla3_OS_
+|         |  |  |  |  |  |  |  +--| (16.2/0.505/95)
+|         |  |  |  |  |  |  |     +----------------ChloroplastidaEP00738Chloropiconprimus_8600238__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_
+|         |  |  |  |  |  +--| (68.4/0.929/86)
+|         |  |  |  |  |     |        +---------------CryptophyceaeEP00290BaffinellaspCCMP2293_12053178__PLPL3_MOUSE_1-acylglycerol-3-phosphate_O-acyltransferase_Pnpla3_OS_
+|         |  |  |  |  |     |     +--| (0/0.37/35)
+|         |  |  |  |  |     |     |  |       +-------------ChoanoflagellataEP00039Didymoecacostata_10883012__PLPL3_MOUSE_1-acylglycerol-3-phosphate_O-acyltransferase_Pnpla3_OS_
+|         |  |  |  |  |     |     |  |  +----| (94.8/1/89)
+|         |  |  |  |  |     |     |  |  |    +----------ChoanoflagellataEP00040Diaphanoecagrandis_10913462__PLPL3_MOUSE_1-acylglycerol-3-phosphate_O-acyltransferase_Pnpla3_OS_
+|         |  |  |  |  |     |     |  +--| (55.2/0.47/71)
+|         |  |  |  |  |     |     |     +---------------TelonemiaP00656Telonemasubtile_26528711__PLPL3_MOUSE_1-acylglycerol-3-phosphate_O-acyltransferase_Pnpla3_OS_
+|         |  |  |  |  |     |  +--| (82.7/0.933/47)
+|         |  |  |  |  |     |  |  +---------------------IchthyosporeaSphaeroformaarcticaUP000054560_14629369__PLPL3_HUMAN_1-acylglycerol-3-phosphate_O-acyltransferase_PNPLA3_OS_
+|         |  |  |  |  |     +--| (77.5/0.903/52)
+|         |  |  |  |  |        |                  +---ChoanoflagellateaMonosigabrevicollisUP000001357_11428207__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_
+|         |  |  |  |  |        |     +------------| (100/1/100)
+|         |  |  |  |  |        |     |            +--ChoanoflagellataEP00045Choanoecaperplexa_11094043__PLPL3_MOUSE_1-acylglycerol-3-phosphate_O-acyltransferase_Pnpla3_OS_
+|         |  |  |  |  |        |  +--| (87.9/0.991/90)
+|         |  |  |  |  |        |  |  |  +--------------CryptophyceaeGuillardiathetaUP000011087_12255253__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_
+|         |  |  |  |  |        |  |  +--| (92.8/0.998/95)
+|         |  |  |  |  |        |  |     |          +----ChoanoflagellataEP00037Helgoecanana_10798029__PLPL3_HUMAN_1-acylglycerol-3-phosphate_O-acyltransferase_PNPLA3_OS_
+|         |  |  |  |  |        |  |     |  +-------| (100/1/100)
+|         |  |  |  |  |        |  |     |  |       +--ChoanoflagellataEP00035Acanthoecaspectabilis_10751018__PLPL2_CAEEL_Patanin-like_phospholipase_domain-containing_protein_atgl-1_OS_
+|         |  |  |  |  |        |  |     +--| (43.1/0.79/94)
+|         |  |  |  |  |        |  |        +-----------------ChoanoflagellataEP00039Didymoecacostata_10858141__PLPL3_HUMAN_1-acylglycerol-3-phosphate_O-acyltransferase_PNPLA3_OS_
+|         |  |  |  |  |        +--| (84.8/0.999/86)
+|         |  |  |  |  |           |  +----------StramenopilesPhytophthorainfestansUP000006643_26377724__PLPL3_MOUSE_1-acylglycerol-3-phosphate_O-acyltransferase_Pnpla3_OS_
+|         |  |  |  |  |           +--| (82/0.875/98)
+|         |  |  |  |  |              |  +---------------------StramenopilesEP00652Aphanomycesastaci_26137947__PLPL2_CAEEL_Patanin-like_phospholipase_domain-containing_protein_atgl-1_OS_
+|         |  |  |  |  |              +--| (67.2/0.802/98)
+|         |  |  |  |  |                 |  +-----------ChoanoflagellateaMonosigabrevicollisUP000001357_11428341__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_
+|         |  |  |  |  |                 +--| (26.1/0.666/96)
+|         |  |  |  |  |                    +---------------ChoanoflagellataEP00045Choanoecaperplexa_11081700__PLPL3_MOUSE_1-acylglycerol-3-phosphate_O-acyltransferase_Pnpla3_OS_
+|         |  |  |  +--| (0/0.336/42)
+|         |  |  |     |                                      +--CryptophyceaeEP00290BaffinellaspCCMP2293_12036668_
+|         |  |  |     |                                  +---| (100/1/100)
+|         |  |  |     |                                  |   +**CryptophyceaeEP00290BaffinellaspCCMP2293_12083026_
+|         |  |  |     |                               +--| (76.2/0.603/100)
+|         |  |  |     |                               |  +--CryptophyceaeEP00290BaffinellaspCCMP2293_12076919__PLPL1_MOUSE_Patatin-like_phospholipase_domain-containing_protein_1_OS_
+|         |  |  |     |             +-----------------| (100/1/100)
+|         |  |  |     |             |                 +--CryptophyceaeEP00290BaffinellaspCCMP2293_12049751_
+|         |  |  |     |     +-------| (97.9/1/100)
+|         |  |  |     |     |       |   +-------------ChoanoflagellataEP00040Diaphanoecagrandis_10897969_
+|         |  |  |     |     |       +---| (67.6/0.939/93)
+|         |  |  |     |     |           +---------EuglenozoaEP00668Euglenalonga_12436743__PLPL3_MOUSE_1-acylglycerol-3-phosphate_O-acyltransferase_Pnpla3_OS_
+|         |  |  |     +-----| (95.4/1/96)
+|         |  |  |           +---------------------HaptophytaEP00327Prymnesiumparvum_14297316_
+|         |  +--| (94.8/1/80)
+|         |     |                               +---------------MetazoaHemichordataSaccoglossuskowalevskii_4047903__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_
+|         |     |                          +----| (96.2/1/99)
+|         |     |                          |    |    +--------MetazoaHemichordataSaccoglossuskowalevskii_4054223__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_
+|         |     |                          |    +----| (97.1/1/100)
+|         |     |                          |         +----------MetazoaHemichordataSaccoglossuskowalevskii_4054239__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_
+|         |     |                       +--| (0/0.344/68)
+|         |     |                       |  |              +------MetazoaHemichordataSaccoglossuskowalevskii_4069227__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_
+|         |     |                       |  |         +----| (98/1/100)
+|         |     |                       |  |         |    |   +---MetazoaEchinodermataAcanthasterplanci_3781513__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_
+|         |     |                       |  |         |    +---| (99.9/1/100)
+|         |     |                       |  |         |        |    +--MetazoaEchinodermataEP00057Strongylocentrotuspurpuratus_3814609__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_
+|         |     |                       |  |         |        +----| (100/1/100)
+|         |     |                       |  |         |             +--MetazoaEchinodermataEP00057Strongylocentrotuspurpuratus_3814610__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_
+|         |     |                       |  +---------| (99.9/1/100)
+|         |     |                       |            |  +------MetazoaEchinodermataAcanthasterplanci_3781516__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_
+|         |     |                       |            +--| (94.9/1/100)
+|         |     |                       |               |  +------------MetazoaEchinodermataEP00057Strongylocentrotuspurpuratus_3814624__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_
+|         |     |                       |               +--| (40.6/0.753/93)
+|         |     |                       |                  +-----MetazoaHemichordataSaccoglossuskowalevskii_4069224__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_
+|         |     |                    +--| (92.6/0.988/99)
+|         |     |                    |  +----------------------HaptophytaEP00319Phaeocystisglobosa_14059660__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_
+|         |     |                 +--| (82.3/0.967/55)
+|         |     |                 |  |           +----MetazoaCnidariaNematostellavectensis_3389142__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_
+|         |     |                 |  |        +--| (93.4/1/100)
+|         |     |                 |  |        |  |                       +--MetazoaCnidariaStylophorapistillata_3671855__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_
+|         |     |                 |  |        |  |                    +--| (74.4/0.646/98)
+|         |     |                 |  |        |  |                    |  +--MetazoaCnidariaMadracisauretenra_3299669__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_
+|         |     |                 |  |        |  |                 +--| (95.5/0.997/99)
+|         |     |                 |  |        |  |                 |  +-------MetazoaCnidariaAcroporadigitifera_2927550__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_
+|         |     |                 |  |        |  |              +--| (100/1/100)
+|         |     |                 |  |        |  |              |  |  +**MetazoaCnidariaFungiascutaria_3197478__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_
+|         |     |                 |  |        |  |              |  +**| (0/0.333/51)
+|         |     |                 |  |        |  |              |     +--MetazoaCnidariaPoritesaustraliensis_3548004__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_
+|         |     |                 |  |        |  |           +--| (97.9/1/93)
+|         |     |                 |  |        |  |           |  +--MetazoaCnidariaFungiascutaria_3197479__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_
+|         |     |                 |  |        |  |        +--| (94.9/1/93)
+|         |     |                 |  |        |  |        |  +--MetazoaCnidariaMadracisauretenra_3290641__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_
+|         |     |                 |  |        |  |     +--| (88.7/0.973/93)
+|         |     |                 |  |        |  |     |  +--MetazoaCnidariaAstreoporasp_3047474__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_
+|         |     |                 |  |        |  |  +--| (91.1/0.992/96)
+|         |     |                 |  |        |  |  |  +--MetazoaCnidariaPoritesaustraliensis_3544958__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_
+|         |     |                 |  |        |  +--| (80.5/0.999/99)
+|         |     |                 |  |        |     +---MetazoaCnidariaAnthopleuraelegantissima_3011003__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_
+|         |     |                 |  |     +--| (39.6/0.5/97)
+|         |     |                 |  |     |  +--------MetazoaCnidariaGorgoniaventalina_3218415__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_
+|         |     |                 |  |  +--| (96.3/1/96)
+|         |     |                 |  |  |  +------------------MetazoaCtenophoraMnemiopsisleidyi_3732723__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_
+|         |     |                 |  +--| (72.1/0.928/60)
+|         |     |                 |     |             +--MetazoaVertebrateEptatretusburgeri_6395194__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_
+|         |     |                 |     |  +----------| (100/1/100)
+|         |     |                 |     |  |          +**MetazoaVertebrateEptatretusburgeri_6395195__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_
+|         |     |                 |     +--| (96.7/1/100)
+|         |     |                 |        |   +---MetazoaVertebrateHomosapiens_6456181__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_
+|         |     |                 |        +---| (90.1/1/99)
+|         |     |                 |            +-----MetazoaVertebrateDaniorerio_5419850__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_
+|         |     |              +--| (79/0.954/36)
+|         |     |              |  |              +------MetazoaAnnelidaEP00103Capitellateleta_55334__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_
+|         |     |              |  |           +--| (95.9/1/100)
+|         |     |              |  |           |  +-----------------MetazoaAnnelidaHelobdellarobusta_106174__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_
+|         |     |              |  |        +--| (94/0.999/100)
+|         |     |              |  |        |  |  +----MetazoaMolluscaLottiagigantea_4202969__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_
+|         |     |              |  |        |  +--| (86.9/0.91/100)
+|         |     |              |  |        |     +-----MetazoaMolluscaEP00106Octopusbimaculoides_4168889__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_
+|         |     |              |  |     +--| (85.1/0.943/85)
+|         |     |              |  |     |  |            +--MetazoaBrachiopodaLingulaunguis_1282883__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_
+|         |     |              |  |     |  +------------| (100/1/100)
+|         |     |              |  |     |               +--MetazoaBrachiopodaLingulaunguis_1284625__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_
+|         |     |              |  |  +--| (75.3/0.843/33)
+|         |     |              |  |  |  |         +---------MetazoaAcoelaHofsteniamiamia_14881__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_
+|         |     |              |  |  |  |     +---| (73.3/0.825/93)
+|         |     |              |  |  |  |     |   +----------------IchthyosporeaEP00126Sphaerothecumdestruens_14608791__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |              |  |  |  |  +--| (90.9/0.97/92)
+|         |     |              |  |  |  |  |  |         +**MetazoaBryozoaBugulaneritina_2366488__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_
+|         |     |              |  |  |  |  |  +---------| (100/1/100)
+|         |     |              |  |  |  |  |            +--MetazoaBryozoaBugulaneritina_2549491__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_
+|         |     |              |  |  |  +--| (92.7/0.996/85)
+|         |     |              |  |  |     +--------MetazoaCephalochordataBranchiostomabelcheri_2813156__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_
+|         |     |              |  +--| (87.1/0.943/33)
+|         |     |              |     |               +**MetazoaNematodaLoaloa_4405922__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_
+|         |     |              |     |      +--------| (100/1/100)
+|         |     |              |     |      |        +**MetazoaNematodaLoaloa_4405924__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_
+|         |     |              |     |   +--| (95.2/0.994/100)
+|         |     |              |     |   |  +------MetazoaNematodaCaenorhabditiselegans_4315381__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_
+|         |     |              |     +---| (99.2/1/100)
+|         |     |              |         +---------MetazoaNematodaCaenorhabditiselegans_4322345__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_
+|         |     |           +--| (89.1/0.962/47)
+|         |     |           |  |  +--------------MetazoaArthropodaEP00090Calanusglacialis_702499__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_
+|         |     |           |  +--| (0/0.345/28)
+|         |     |           |     +--------------MetazoaHemichordataSaccoglossuskowalevskii_4058379__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_
+|         |     |        +--| (96.9/1/89)
+|         |     |        |  +----------MetazoaEchinodermataAcanthasterplanci_3801460__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_
+|         |     |     +--| (11/0.42/39)
+|         |     |     |  |                      +--MetazoaVertebrateMusmusculus_6544186__PLPL3_MOUSE_1-acylglycerol-3-phosphate_O-acyltransferase_Pnpla3_OS_
+|         |     |     |  |                 +----| (100/1/100)
+|         |     |     |  |                 |    +--MetazoaVertebrateHomosapiens_6468756__PLPL3_HUMAN_1-acylglycerol-3-phosphate_O-acyltransferase_PNPLA3_OS_
+|         |     |     |  |              +--| (95.2/0.998/96)
+|         |     |     |  |              |  |        +--MetazoaVertebrateHomosapiens_6462071__PLPL5_HUMAN_Patatin-like_phospholipase_domain-containing_protein_5_OS_
+|         |     |     |  |              |  +--------| (100/1/100)
+|         |     |     |  |              |           +--MetazoaVertebrateMusmusculus_6535411__PLPL5_MOUSE_Patatin-like_phospholipase_domain-containing_protein_5_OS_
+|         |     |     |  |           +--| (99.5/1/96)
+|         |     |     |  |           |  |              +--MetazoaVertebrateHomosapiens_6465304__PLPL2_HUMAN_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |     |  |           |  |           +--| (100/1/100)
+|         |     |     |  |           |  |           |  +--MetazoaVertebrateMusmusculus_6540398__PLPL2_MOUSE_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |     |  |           |  |        +--| (99.8/1/100)
+|         |     |     |  |           |  |        |  +--MetazoaVertebrateDaniorerio_5423998__PLPL2_BOVIN_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |     |  |           |  |     +--| (79/0.917/99)
+|         |     |     |  |           |  |     |  |  +--MetazoaVertebrateEptatretusburgeri_6403263__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |     |  |           |  |     |  +--| (100/1/100)
+|         |     |     |  |           |  |     |     |  +**MetazoaVertebrateEptatretusburgeri_6403264__PLPL2_MOUSE_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |     |  |           |  |     |     +**| (0/0.334/92)
+|         |     |     |  |           |  |     |        +**MetazoaVertebrateEptatretusburgeri_6403265__PLPL2_MOUSE_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |     |  |           |  |  +--| (94.6/1/100)
+|         |     |     |  |           |  |  |  +----MetazoaVertebrateDaniorerio_5413944__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |     |  |           |  +--| (81.6/0.759/97)
+|         |     |     |  |           |     +-------MetazoaVertebrateEptatretusburgeri_6406458__PLPL2_HUMAN_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |     |  |        +--| (85.1/0.881/48)
+|         |     |     |  |        |  |                    +--------MetazoaAnnelidaHelobdellarobusta_106299__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |     |  |        |  |                 +--| (74.7/0.889/83)
+|         |     |     |  |        |  |                 |  |  +---MetazoaAnnelidaEP00103Capitellateleta_56329__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |     |  |        |  |                 |  +--| (56/0.929/94)
+|         |     |     |  |        |  |                 |     |      +--MetazoaBryozoaBugulaneritina_1482627__PLPL3_MOUSE_1-acylglycerol-3-phosphate_O-acyltransferase_Pnpla3_OS_
+|         |     |     |  |        |  |                 |     +------| (100/1/100)
+|         |     |     |  |        |  |                 |            |  +**MetazoaBryozoaBugulaneritina_1900093__PLPL3_MOUSE_1-acylglycerol-3-phosphate_O-acyltransferase_Pnpla3_OS_
+|         |     |     |  |        |  |                 |            +**| (0/0.333/87)
+|         |     |     |  |        |  |                 |               +**MetazoaBryozoaBugulaneritina_2399029__PLPL2_MOUSE_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |     |  |        |  |              +--| (88.2/0.999/83)
+|         |     |     |  |        |  |              |  |  +--MetazoaBrachiopodaLingulaunguis_1302087__PLPL2_HUMAN_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |     |  |        |  |              |  +--| (99.9/1/100)
+|         |     |     |  |        |  |              |     +--MetazoaBrachiopodaLingulaunguis_1302172__PLPL2_HUMAN_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |     |  |        |  |           +--| (96.6/1/83)
+|         |     |     |  |        |  |           |  +---MetazoaMolluscaLottiagigantea_4223495__PLPL2_MOUSE_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |     |  |        |  |        +--| (26.8/0.613/65)
+|         |     |     |  |        |  |        |  |  +-------MetazoaRotiferaBrachionusplicatilis_5249869__PLPL2_MOUSE_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |     |  |        |  |        |  +--| (93/1/99)
+|         |     |     |  |        |  |        |     |       +--MetazoaTardigradaRamazzotiusvarieornatus_5283329__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |     |  |        |  |        |     +-------| (100/1/100)
+|         |     |     |  |        |  |        |             +--MetazoaTardigradaRamazzotiusvarieornatus_5284199__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |     |  |        |  |     +--| (92.2/1/65)
+|         |     |     |  |        |  |     |  |     +----MetazoaEchinodermataEP00057Strongylocentrotuspurpuratus_3834401__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |     |  |        |  |     |  |  +--| (98.8/1/92)
+|         |     |     |  |        |  |     |  |  |  +------MetazoaEchinodermataAcanthasterplanci_3788586__PLPL2_MOUSE_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |     |  |        |  |     |  +--| (92.9/1/76)
+|         |     |     |  |        |  |     |     |  +------MetazoaCephalochordataBranchiostomabelcheri_2805666__PLPL2_MOUSE_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |     |  |        |  |     |     +--| (55.5/0.742/71)
+|         |     |     |  |        |  |     |        +----MetazoaHemichordataSaccoglossuskowalevskii_4055930__PLPL2_MOUSE_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |     |  |        |  |  +--| (22.4/0.674/25)
+|         |     |     |  |        |  |  |  |                             +--MetazoaCnidariaFungiascutaria_3193293__PLPL2_BOVIN_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |     |  |        |  |  |  |                          +--| (74.1/0.963/98)
+|         |     |     |  |        |  |  |  |                          |  |  +**MetazoaCnidariaMontastraeacavernosa_3351453__PLPL2_BOVIN_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |     |  |        |  |  |  |                          |  +--| (90.9/1/100)
+|         |     |     |  |        |  |  |  |                          |     +**MetazoaCnidariaMontastraeacavernosa_3351457__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |     |  |        |  |  |  |                       +--| (76.8/0.831/65)
+|         |     |     |  |        |  |  |  |                       |  |  +--MetazoaCnidariaStylophorapistillata_3677660__PLPL2_BOVIN_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |     |  |        |  |  |  |                       |  +--| (89/0.675/98)
+|         |     |     |  |        |  |  |  |                       |     +**MetazoaCnidariaMadracisauretenra_3305844__PLPL2_BOVIN_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |     |  |        |  |  |  |                    +--| (14.6/0.356/69)
+|         |     |     |  |        |  |  |  |                    |  +--MetazoaCnidariaMontastraeacavernosa_3351455__PLPL2_MOUSE_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |     |  |        |  |  |  |                 +--| (93/1/83)
+|         |     |     |  |        |  |  |  |                 |  |  +--MetazoaCnidariaAstreoporasp_3040313__PLPL2_BOVIN_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |     |  |        |  |  |  |                 |  +--| (42.7/0.818/35)
+|         |     |     |  |        |  |  |  |                 |     |  +--MetazoaCnidariaPoritesaustraliensis_3536047__PLPL2_BOVIN_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |     |  |        |  |  |  |                 |     +--| (70.8/0.973/36)
+|         |     |     |  |        |  |  |  |                 |        +----MetazoaCnidariaAcroporadigitifera_2943140__PLPL2_MOUSE_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |     |  |        |  |  |  |              +--| (95.1/1/99)
+|         |     |     |  |        |  |  |  |              |  |  +--MetazoaCnidariaPoritesaustraliensis_3545404__PLPL2_BOVIN_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |     |  |        |  |  |  |              |  +--| (99.1/1/100)
+|         |     |     |  |        |  |  |  |              |     +---MetazoaCnidariaStylophorapistillata_3678159__PLPL2_MOUSE_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |     |  |        |  |  |  |          +---| (100/1/100)
+|         |     |     |  |        |  |  |  |          |   |     +--MetazoaCnidariaNematostellavectensis_3383021__PLPL2_BOVIN_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |     |  |        |  |  |  |          |   |  +--| (43.7/0.393/73)
+|         |     |     |  |        |  |  |  |          |   |  |  +--MetazoaCnidariaAnthopleuraelegantissima_2996461__PLPL2_HUMAN_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |     |  |        |  |  |  |          |   +--| (77.9/0.747/74)
+|         |     |     |  |        |  |  |  |          |      +--MetazoaCnidariaAnthopleuraelegantissima_3022601__PLPL2_MOUSE_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |     |  |        |  |  |  |     +----| (99.9/1/100)
+|         |     |     |  |        |  |  |  |     |    |     +----MetazoaCnidariaHydramagnapapillata_3267440__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |     |  |        |  |  |  |     |    |  +--| (91.9/1/99)
+|         |     |     |  |        |  |  |  |     |    |  |  |  +-------MetazoaCnidariaClytiahemisphaerica_3081244__PLPL2_MOUSE_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |     |  |        |  |  |  |     |    |  |  +--| (74.6/0.974/99)
+|         |     |     |  |        |  |  |  |     |    |  |     +---MetazoaCnidariaClytiahemisphaerica_3093032__PLPL2_BOVIN_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |     |  |        |  |  |  |     |    +--| (99.6/1/100)
+|         |     |     |  |        |  |  |  |     |       +---MetazoaCnidariaAureliaGenome_3054510__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |     |  |        |  |  |  |  +--| (97.1/1/91)
+|         |     |     |  |        |  |  |  |  |  |                      +**MetazoaPlacozoaHoilungiahongkongensis_4576737__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_
+|         |     |     |  |        |  |  |  |  |  |                  +---| (100/1/100)
+|         |     |     |  |        |  |  |  |  |  |                  |   |        +--MetazoaPlacozoaHoilungiahongkongensis_4576731__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_
+|         |     |     |  |        |  |  |  |  |  |                  |   |     +--| (87.2/0.994/98)
+|         |     |     |  |        |  |  |  |  |  |                  |   |     |  +**MetazoaPlacozoaHoilungiahongkongensis_4576735__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_
+|         |     |     |  |        |  |  |  |  |  |                  |   |  +--| (61/0.526/97)
+|         |     |     |  |        |  |  |  |  |  |                  |   |  |  +**MetazoaPlacozoaHoilungiahongkongensis_4576732__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_
+|         |     |     |  |        |  |  |  |  |  |                  |   +--| (88.1/0.996/98)
+|         |     |     |  |        |  |  |  |  |  |                  |      +**MetazoaPlacozoaHoilungiahongkongensis_4576734__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_
+|         |     |     |  |        |  |  |  |  |  |           +------| (100/1/100)
+|         |     |     |  |        |  |  |  |  |  |           |      +--MetazoaPlacozoaEP00114TrichoplaxspH2_4506501__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_
+|         |     |     |  |        |  |  |  |  |  |  +--------| (100/1/100)
+|         |     |     |  |        |  |  |  |  |  |  |        |        +--MetazoaPlacozoaHoilungiahongkongensis_4556571__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |     |  |        |  |  |  |  |  |  |        |     +--| (95.1/1/100)
+|         |     |     |  |        |  |  |  |  |  |  |        |     |  +**MetazoaPlacozoaHoilungiahongkongensis_4556572__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |     |  |        |  |  |  |  |  |  |        |  +--| (96.7/1/100)
+|         |     |     |  |        |  |  |  |  |  |  |        |  |  +--MetazoaPlacozoaHoilungiahongkongensis_4556574__PLPL3_MOUSE_1-acylglycerol-3-phosphate_O-acyltransferase_Pnpla3_OS_
+|         |     |     |  |        |  |  |  |  |  |  |        +--| (98.3/1/100)
+|         |     |     |  |        |  |  |  |  |  |  |           +--MetazoaPlacozoaEP00114TrichoplaxspH2_4506491__PLPL2_MOUSE_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |     |  |        |  |  |  |  |  +--| (44.6/0.77/97)
+|         |     |     |  |        |  |  |  |  |     |        +--MetazoaPlacozoaEP00114TrichoplaxspH2_4506495__PLPL2_MOUSE_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |     |  |        |  |  |  |  |     +--------| (100/1/100)
+|         |     |     |  |        |  |  |  |  |              |  +**MetazoaPlacozoaHoilungiahongkongensis_4531996__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |     |  |        |  |  |  |  |              +--| (91.3/0.985/100)
+|         |     |     |  |        |  |  |  |  |                 +--MetazoaPlacozoaHoilungiahongkongensis_4531997__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |     |  |        |  |  |  +--| (94.2/0.998/60)
+|         |     |     |  |        |  |  |     |             +**MetazoaArthropodaEP00090Calanusglacialis_714708__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |     |  |        |  |  |     |          +--| (67.4/0.42/98)
+|         |     |     |  |        |  |  |     |          |  +**MetazoaArthropodaEP00090Calanusglacialis_714709__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |     |  |        |  |  |     |     +----| (99.9/1/100)
+|         |     |     |  |        |  |  |     |     |    +--MetazoaArthropodaEP00090Calanusglacialis_714711__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |     |  |        |  |  |     |  +--| (62.1/0.69/98)
+|         |     |     |  |        |  |  |     |  |  +-------MetazoaArthropodaEP00090Calanusglacialis_707356__PLPL2_HUMAN_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |     |  |        |  |  |     +--| (99.8/1/100)
+|         |     |     |  |        |  |  |        |     +--------MetazoaArthropodaDrosophilamelanogaster_252420__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |     |  |        |  |  |        |  +--| (99.6/1/100)
+|         |     |     |  |        |  |  |        |  |  +--MetazoaArthropodaDrosophilamelanogaster_242247__PLPL2_MOUSE_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |     |  |        |  |  |        +--| (75.5/0.928/91)
+|         |     |     |  |        |  |  |           |   +--MetazoaArthropodaDaphniapulex_206492__PLPL2_MOUSE_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |     |  |        |  |  |           +---| (99.9/1/100)
+|         |     |     |  |        |  |  |               +-------MetazoaArthropodaDaphniapulex_192132__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |     |  |        |  +--| (94.7/1/64)
+|         |     |     |  |        |     |      +------MetazoaNematodaCaenorhabditiselegans_4314361__PLPL2_CAEEL_Patanin-like_phospholipase_domain-containing_protein_atgl-1_OS_
+|         |     |     |  |        |     |  +---| (99.2/1/100)
+|         |     |     |  |        |     |  |   +------MetazoaNematodaLoaloa_4413114__PLPL2_CAEEL_Patanin-like_phospholipase_domain-containing_protein_atgl-1_OS_
+|         |     |     |  |        |     +--| (94.4/1/88)
+|         |     |     |  |        |        +----------MetazoaMolluscaEP00106Octopusbimaculoides_4169782__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |     |  |     +--| (99.1/1/91)
+|         |     |     |  |     |  |         +--MetazoaAcoelaHofsteniamiamia_20360__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |     |  |     |  |  +------| (100/1/100)
+|         |     |     |  |     |  |  |      +---MetazoaAcoelaHofsteniamiamia_13585__PLPL2_MOUSE_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |     |  |     |  +--| (94.3/1/79)
+|         |     |     |  |     |     |  +---------MetazoaUrochordataOikopleuradioica_5364601__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |     |  |     |     +--| (74.5/0.947/91)
+|         |     |     |  |     |        +--------MetazoaUrochordataEP00059Cionaintestinalis_5338889__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |     |  |  +--| (89.8/0.988/63)
+|         |     |     |  |  |  |  +--------------------------------AlveolataEP00742ColponemidiaspColp10_4283787_
+|         |     |     |  |  |  +--| (69.4/0.434/48)
+|         |     |     |  |  |     |             +--MetazoaPoriferaSyconciliatum_5115390__PLPL2_MOUSE_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |     |  |  |     |      +------| (100/1/100)
+|         |     |     |  |  |     |      |      +---MetazoaPoriferaLeucosoleniacomplicata_5050177__PLPL2_MOUSE_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |     |  |  |     |  +---| (97.3/1/100)
+|         |     |     |  |  |     |  |   +------------MetazoaPoriferaLeucosoleniacomplicata_5026952__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |     |  |  |     +--| (16.5/0.469/61)
+|         |     |     |  |  |        |                +--MetazoaPoriferaAmphimedonqueenslandica_4706313__PLPL2_HUMAN_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |     |  |  |        |             +--| (84.5/0.959/100)
+|         |     |     |  |  |        |             |  |   +-----MetazoaPoriferaAmphimedonqueenslandica_4706619__PLPL3_HUMAN_1-acylglycerol-3-phosphate_O-acyltransferase_PNPLA3_OS_
+|         |     |     |  |  |        |             |  +---| (96.7/1/100)
+|         |     |     |  |  |        |             |      +------MetazoaPoriferaAmphimedonqueenslandica_4707091__PLPL3_MOUSE_1-acylglycerol-3-phosphate_O-acyltransferase_Pnpla3_OS_
+|         |     |     |  |  |        |         +---| (98/1/100)
+|         |     |     |  |  |        |         |   +-----MetazoaPoriferaHaliclonatubifera_4961466__PLPL2_HUMAN_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |     |  |  |        |  +------| (100/1/100)
+|         |     |     |  |  |        |  |      +-------MetazoaPoriferaEphydatiamuelleri_4910595__K1109_DANRE_Transmembrane_protein_KIAA1109_homolog_OS_
+|         |     |     |  |  |        +--| (56/0.898/80)
+|         |     |     |  |  |           |  +---------MetazoaPoriferaEP00118Oscarellapearsei_4837898__PLPL2_HUMAN_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |     |  |  |           +--| (38.3/0.553/84)
+|         |     |     |  |  |              +--------------------MetazoaCnidariaMyxozoaThelohanelluskitauei_3358721__PLPL3_MOUSE_1-acylglycerol-3-phosphate_O-acyltransferase_Pnpla3_OS_
+|         |     |     |  +--| (82.7/0.88/56)
+|         |     |     |     |            +--MetazoaVertebrateHomosapiens_6463484__PLPL1_HUMAN_Patatin-like_phospholipase_domain-containing_protein_1_OS_
+|         |     |     |     +------------| (100/1/100)
+|         |     |     |                  +--MetazoaVertebrateMusmusculus_6536297__PLPL1_MOUSE_Patatin-like_phospholipase_domain-containing_protein_1_OS_
+|         |     |  +--| (95/1/99)
+|         |     |  |  +----------------------FilastreaCapsasporaowczarzakiUP000008743_12978154__PLPL2_MOUSE_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     +**| (0/0.333/41)
+|         |        |                            +--------ChoanoflagellataEP00040Diaphanoecagrandis_10909737__PLPL2_HUMAN_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |        |                         +--| (71.7/0.873/100)
+|         |        |                         |  |   +--ChoanoflagellataEP00037Helgoecanana_10801052__PLPL3_MOUSE_1-acylglycerol-3-phosphate_O-acyltransferase_Pnpla3_OS_
+|         |        |                         |  +---| (99.6/1/100)
+|         |        |                         |      +--ChoanoflagellataEP00035Acanthoecaspectabilis_10719965__PLPL2_CAEEL_Patanin-like_phospholipase_domain-containing_protein_atgl-1_OS_
+|         |        |        +----------------| (99/1/100)
+|         |        |        |                |  +---------------HaptophytaEP00319Phaeocystisglobosa_14069363__PLPL2_HUMAN_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |        |        |                +--| (68.5/0.548/96)
+|         |        |        |                   +-------ChoanoflagellataEP00039Didymoecacostata_10883315__PLPL2_CAEEL_Patanin-like_phospholipase_domain-containing_protein_atgl-1_OS_
+|         |        +--------| (98.6/1/91)
+|         |                 +-------------------------------IchthyosporeaSphaeroformaarcticaUP000054560_14622464__PLPL1_HUMAN_Patatin-like_phospholipase_domain-containing_protein_1_OS_
+|  +------| (97.5/1/100)
+|  |      |              +-----------RhodophytaGaldieriasulphurariaUP000030680_23117764__SDP1L_ARATH_Triacylglycerol_lipase_SDP1L_OS_
+|  |      |         +----| (94.5/0.998/100)
+|  |      |         |    |            +--GlaucophytaEP00276Gloeochaetewittrockiana_13485226__PLPL_CRYNJ_Patatin-like_phospholipase_domain-containing_protein_CNE02340_OS_
+|  |      |         |    +------------| (100/1/100)
+|  |      |         |                 +--GlaucophytaEP00276Gloeochaetewittrockiana_13491142__YEX5_SCHPO_Uncharacterized_protein_C1A6.05c_OS_
+|  |      +---------| (99.8/1/100)
+|  |                +------------FilastreaCapsasporaowczarzakiUP000008743_12984625__PLPL_YARLI_Patatin-like_phospholipase_domain-containing_protein_YALI0D16379g_OS_
++--| (33.3/0.643/98)
+|  +-----------------RhodophytaGaldieriasulphurariaUP000030680_23114361__YR571_MIMIV_Uncharacterized_protein_R571_OS_
+|
++------------------MalawimonadidaeEP00698Gefionellaokellyi_14706338__YR571_MIMIV_Uncharacterized_protein_R571_OS_
+
+Tree in newick format:
+
+(RhodophytaGaldieriasulphurariaUP000030680_23116076__YR571_MIMIV_Uncharacterized_protein_R571_OS_:1.3247040880,((((CentroplasthelidaEP00300ChoanocystisspHF7_5629128__PLPL1_MOUSE_Patatin-like_phospholipase_domain-containing_protein_1_OS_:1.9099487405,(((StramenopilesEP00652Aphanomycesastaci_26140946__PLPL2_BOVIN_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.8801767885,StramenopilesPhytophthorainfestansUP000006643_26376129__PLPL2_HUMAN_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.2909481813)99.4/1/100:0.7320402066,EuglenozoaEP00668Euglenalonga_12394772__PLPL2_HUMAN_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.8194820362)98.8/1/100:0.7717034497,CryptophyceaeGuillardiathetaUP000011087_12255011__PLPL1_MOUSE_Patatin-like_phospholipase_domain-containing_protein_1_OS_:1.7382779574)33.1/0.527/76:0.2171572737)0/0.333/49:0.0000024916,((((ChoanoflagellataEP00050Salpingoecakvevrii_11198219__PLPL2_CAEEL_Patanin-like_phospholipase_domain-containing_protein_atgl-1_OS_:1.5841097506,((((CryptophyceaeGuillardiathetaUP000011087_12257361__ELOV5_XENTR_Elongation_of_very_long_chain_fatty_acids_protein_5_OS_:0.3049526040,CryptophyceaeEP00290BaffinellaspCCMP2293_12083491__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_:0.2946894040)99.8/1/100:0.5414059861,((HaptophytaEP00319Phaeocystisglobosa_14070199__PLPL1_HUMAN_Patatin-like_phospholipase_domain-containing_protein_1_OS_:0.7473408209,TelonemiaP00656Telonemasubtile_26565338__ELOV7_MOUSE_Elongation_of_very_long_chain_fatty_acids_protein_7_OS_:0.5972293610)57.1/0.851/55:0.1250376801,(EuglenozoaEP00668Euglenalonga_12422286__ELOV5_TACFU_Elongation_of_very_long_chain_fatty_acids_protein_5_OS_:0.6428765531,CentroplasthelidaEP00300ChoanocystisspHF7_5634236__ELOV5_TACFU_Elongation_of_very_long_chain_fatty_acids_protein_5_OS_:0.5587866771)77.3/0.903/100:0.1583600715)40.4/0.808/55:0.1735918321)97.9/1/100:0.5959300600,((EuglenozoaEP00668Euglenalonga_12407671__PLPL3_MOUSE_1-acylglycerol-3-phosphate_O-acyltransferase_Pnpla3_OS_:0.0000020984,EuglenozoaEP00668Euglenalonga_12407673__PLPL3_MOUSE_1-acylglycerol-3-phosphate_O-acyltransferase_Pnpla3_OS_:0.0000024038)89.3/1/100:0.0851539875,(EuglenozoaEP00668Euglenalonga_12407672__PLPL3_MOUSE_1-acylglycerol-3-phosphate_O-acyltransferase_Pnpla3_OS_:0.0000010210,EuglenozoaEP00668Euglenalonga_12393344__PLPL3_MOUSE_1-acylglycerol-3-phosphate_O-acyltransferase_Pnpla3_OS_:0.0000028506)0/0.339/92:0.0066909217)100/1/100:1.2803489300)91.2/0.962/100:0.3177049687,ChloroplastidaChlamydomonasreinhardtiiUP000006906_6364612__PLPL1_MOUSE_Patatin-like_phospholipase_domain-containing_protein_1_OS_:1.4242788600)0.6/0.425/43:0.1755388644)87.4/0.938/97:0.1850853628,((((((StramenopilesEP00652Aphanomycesastaci_26140261__PLPL2_CAEEL_Patanin-like_phospholipase_domain-containing_protein_atgl-1_OS_:0.8011133477,(StramenopilesPhytophthorainfestansUP000006643_26371863__PLPL2_CAEEL_Patanin-like_phospholipase_domain-containing_protein_atgl-1_OS_:0.2459350177,StramenopilesPhytophthorainfestansUP000006643_26371858__PLPL3_MOUSE_1-acylglycerol-3-phosphate_O-acyltransferase_Pnpla3_OS_:0.0858106900)98.8/1/100:0.2591434910)81.1/0.982/100:0.1452408235,StramenopilesPhytophthorainfestansUP000006643_26381713__PLPL2_MOUSE_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.7751620743)99.6/1/100:0.4700245500,(IchthyosporeaEP00123Amoebidiumparasiticum_14564371__PLPL2_BOVIN_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.0000021573,IchthyosporeaEP00123Amoebidiumparasiticum_14564372_:0.0377230087)100/1/100:1.0792881660)39.9/0.675/72:0.1178751161,((((IchthyosporeaSphaeroformaarcticaUP000054560_14622588__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_:0.8498699724,IchthyosporeaSphaeroformaarcticaUP000054560_14626795__PLPL2_CAEEL_Patanin-like_phospholipase_domain-containing_protein_atgl-1_OS_:0.4828650994)60.4/0.921/96:0.1254030160,IchthyosporeaEP00123Amoebidiumparasiticum_14562997__PLPL2_CAEEL_Patanin-like_phospholipase_domain-containing_protein_atgl-1_OS_:0.2798237253)98.4/1/100:0.2587079038,PluriformeaEP00127Corallochytriumlimacisporum_21621713__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_:0.5240535570)68.5/0.993/88:0.1811624603,(CryptophyceaeEP00290BaffinellaspCCMP2293_12030485__PLPL3_MOUSE_1-acylglycerol-3-phosphate_O-acyltransferase_Pnpla3_OS_:1.2592104221,CentroplasthelidaEP00300ChoanocystisspHF7_5613600__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_:0.7309155451)66/0.549/90:0.1131389461)84.6/0.941/72:0.1122604792)94.1/0.998/97:0.3080238602,(IchthyosporeaEP00123Amoebidiumparasiticum_14553437_:0.5397822245,IchthyosporeaEP00123Amoebidiumparasiticum_14555013__PLPL2_CAEEL_Patanin-like_phospholipase_domain-containing_protein_atgl-1_OS_:0.2368598480)99.7/1/100:0.8239629886)98.7/1/100:0.4266889077,AmoebozoaEP00007CuneaspBSH02190019_4977936__PLPL2_CAEEL_Patanin-like_phospholipase_domain-containing_protein_atgl-1_OS_:0.9792273958)76.3/0.917/98:0.1435665005)95.4/1/96:0.2128729904,(((((ChloroplastidaChlamydomonasreinhardtiiUP000006906_6352860_:0.9587918405,ChloroplastidaChlamydomonasreinhardtiiUP000006906_6359989__PLPL2_CAEEL_Patanin-like_phospholipase_domain-containing_protein_atgl-1_OS_:0.7005037362)46.1/0.446/99:0.1377201762,(CryptophyceaeEP00290BaffinellaspCCMP2293_12037293_:0.0230040797,CryptophyceaeEP00290BaffinellaspCCMP2293_12059634__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_:0.0259119182)100/1/100:1.7156815180)90.4/0.969/99:0.4444250116,((CryptophyceaeGuillardiathetaUP000011087_12253775__PLPL1_MOUSE_Patatin-like_phospholipase_domain-containing_protein_1_OS_:0.7205814722,CryptophyceaeEP00290BaffinellaspCCMP2293_12082377__PLPL1_HUMAN_Patatin-like_phospholipase_domain-containing_protein_1_OS_:0.4913620045)86.5/0.948/100:0.2184012278,(ChloroplastidaChlamydomonasreinhardtiiUP000006906_6368252__PLPL1_HUMAN_Patatin-like_phospholipase_domain-containing_protein_1_OS_:1.0932495347,ChloroplastidaEP00738Chloropiconprimus_8603645__PLPL1_MOUSE_Patatin-like_phospholipase_domain-containing_protein_1_OS_:0.6768279282)93.2/0.999/100:0.3548167315)99.9/1/100:0.9521248762)98.4/1/96:0.4931222246,(((((ChloroplastidaEP00248Marchantiapolymorpha_7463874__PLPL2_HUMAN_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.0000010210,ChloroplastidaEP00248Marchantiapolymorpha_7463875__PLPL2_HUMAN_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.0000010210)98/1/100:0.2761722659,ChloroplastidaArabidopsisthalianaUP000006548_5875873__PLPL2_MOUSE_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.3056139418)98.7/1/100:0.4054081565,RhodophytaEP00185Porphyridiumpurpureum_23045358__PLPL3_MOUSE_1-acylglycerol-3-phosphate_O-acyltransferase_Pnpla3_OS_:1.4914033526)90.2/0.995/99:0.2675036161,((ChloroplastidaChlamydomonasreinhardtiiUP000006906_6357326__PLPL3_HUMAN_1-acylglycerol-3-phosphate_O-acyltransferase_PNPLA3_OS_:0.9397541596,ChloroplastidaChlamydomonasreinhardtiiUP000006906_6364947__PLPL3_MOUSE_1-acylglycerol-3-phosphate_O-acyltransferase_Pnpla3_OS_:0.6480031396)98.1/1/100:0.5255149547,ChloroplastidaEP00738Chloropiconprimus_8600238__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_:1.2642144758)16.2/0.505/95:0.1004942209)95/1/91:0.2044098027,(((CryptophyceaeEP00290BaffinellaspCCMP2293_12053178__PLPL3_MOUSE_1-acylglycerol-3-phosphate_O-acyltransferase_Pnpla3_OS_:1.2005419932,((ChoanoflagellataEP00039Didymoecacostata_10883012__PLPL3_MOUSE_1-acylglycerol-3-phosphate_O-acyltransferase_Pnpla3_OS_:1.0832021329,ChoanoflagellataEP00040Diaphanoecagrandis_10913462__PLPL3_MOUSE_1-acylglycerol-3-phosphate_O-acyltransferase_Pnpla3_OS_:0.8686076141)94.8/1/89:0.4133193216,TelonemiaP00656Telonemasubtile_26528711__PLPL3_MOUSE_1-acylglycerol-3-phosphate_O-acyltransferase_Pnpla3_OS_:1.2248620295)55.2/0.47/71:0.0971226524)0/0.37/35:0.0465611863,IchthyosporeaSphaeroformaarcticaUP000054560_14629369__PLPL3_HUMAN_1-acylglycerol-3-phosphate_O-acyltransferase_PNPLA3_OS_:1.6168206931)82.7/0.933/47:0.1381590316,(((ChoanoflagellateaMonosigabrevicollisUP000001357_11428207__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_:0.3503456183,ChoanoflagellataEP00045Choanoecaperplexa_11094043__PLPL3_MOUSE_1-acylglycerol-3-phosphate_O-acyltransferase_Pnpla3_OS_:0.2903361514)100/1/100:0.9527528819,(CryptophyceaeGuillardiathetaUP000011087_12255253__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_:1.1375504671,((ChoanoflagellataEP00037Helgoecanana_10798029__PLPL3_HUMAN_1-acylglycerol-3-phosphate_O-acyltransferase_PNPLA3_OS_:0.4022593100,ChoanoflagellataEP00035Acanthoecaspectabilis_10751018__PLPL2_CAEEL_Patanin-like_phospholipase_domain-containing_protein_atgl-1_OS_:0.2924179774)100/1/100:0.6459154330,ChoanoflagellataEP00039Didymoecacostata_10858141__PLPL3_HUMAN_1-acylglycerol-3-phosphate_O-acyltransferase_PNPLA3_OS_:1.3194306775)43.1/0.79/94:0.2097989047)92.8/0.998/95:0.2671503743)87.9/0.991/90:0.1898666651,(StramenopilesPhytophthorainfestansUP000006643_26377724__PLPL3_MOUSE_1-acylglycerol-3-phosphate_O-acyltransferase_Pnpla3_OS_:0.8779515390,(StramenopilesEP00652Aphanomycesastaci_26137947__PLPL2_CAEEL_Patanin-like_phospholipase_domain-containing_protein_atgl-1_OS_:1.6192988588,(ChoanoflagellateaMonosigabrevicollisUP000001357_11428341__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_:0.9055152952,ChoanoflagellataEP00045Choanoecaperplexa_11081700__PLPL3_MOUSE_1-acylglycerol-3-phosphate_O-acyltransferase_Pnpla3_OS_:1.2007547516)26.1/0.666/96:0.2475854538)67.2/0.802/98:0.1966779218)82/0.875/98:0.1244356225)84.8/0.999/86:0.1759684904)77.5/0.903/52:0.0840462596)68.4/0.929/86:0.1709238812)89.9/0.989/68:0.2051972854,(((((CryptophyceaeEP00290BaffinellaspCCMP2293_12036668_:0.0291566252,CryptophyceaeEP00290BaffinellaspCCMP2293_12083026_:0.0000025799)100/1/100:0.3296072396,CryptophyceaeEP00290BaffinellaspCCMP2293_12076919__PLPL1_MOUSE_Patatin-like_phospholipase_domain-containing_protein_1_OS_:0.0340475028)76.2/0.603/100:0.0190667123,CryptophyceaeEP00290BaffinellaspCCMP2293_12049751_:0.0282397632)100/1/100:1.3734142440,(ChoanoflagellataEP00040Diaphanoecagrandis_10897969_:1.0629223210,EuglenozoaEP00668Euglenalonga_12436743__PLPL3_MOUSE_1-acylglycerol-3-phosphate_O-acyltransferase_Pnpla3_OS_:0.7945701973)67.6/0.939/93:0.3198502028)97.9/1/100:0.6479839883,HaptophytaEP00327Prymnesiumparvum_14297316_:1.6429717021)95.4/1/96:0.4581126017)0/0.336/42:0.0071662545)88.7/1/62:0.0936552404,((((((((((MetazoaHemichordataSaccoglossuskowalevskii_4047903__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_:1.2444757545,(MetazoaHemichordataSaccoglossuskowalevskii_4054223__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_:0.7206463466,MetazoaHemichordataSaccoglossuskowalevskii_4054239__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_:0.8369836049)97.1/1/100:0.3944251490)96.2/1/99:0.3912960631,((MetazoaHemichordataSaccoglossuskowalevskii_4069227__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_:0.5399433898,(MetazoaEchinodermataAcanthasterplanci_3781513__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_:0.3430617284,(MetazoaEchinodermataEP00057Strongylocentrotuspurpuratus_3814609__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_:0.0048842266,MetazoaEchinodermataEP00057Strongylocentrotuspurpuratus_3814610__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_:0.0055884772)100/1/100:0.3848796565)99.9/1/100:0.3567919413)98/1/100:0.4241161936,(MetazoaEchinodermataAcanthasterplanci_3781516__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_:0.5433556890,(MetazoaEchinodermataEP00057Strongylocentrotuspurpuratus_3814624__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_:0.9808922796,MetazoaHemichordataSaccoglossuskowalevskii_4069224__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_:0.4938710892)40.6/0.753/93:0.1426500478)94.9/1/100:0.2535326777)99.9/1/100:0.7932483388)0/0.344/68:0.0315658682,HaptophytaEP00319Phaeocystisglobosa_14059660__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_:1.7081716561)92.6/0.988/99:0.2587068426,((((MetazoaCnidariaNematostellavectensis_3389142__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_:0.4042865031,((((((((MetazoaCnidariaStylophorapistillata_3671855__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_:0.0255475171,MetazoaCnidariaMadracisauretenra_3299669__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_:0.0328497216)74.4/0.646/98:0.0315553664,MetazoaCnidariaAcroporadigitifera_2927550__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_:0.6389545867)95.5/0.997/99:0.0972714364,(MetazoaCnidariaFungiascutaria_3197478__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_:0.0000021980,MetazoaCnidariaPoritesaustraliensis_3548004__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_:0.1034432480)0/0.333/51:0.0000028309)100/1/100:0.2922357253,MetazoaCnidariaFungiascutaria_3197479__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_:0.0123155573)97.9/1/93:0.0916041603,MetazoaCnidariaMadracisauretenra_3290641__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_:0.1016569441)94.9/1/93:0.0700435550,MetazoaCnidariaAstreoporasp_3047474__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_:0.0370028865)88.7/0.973/93:0.0540901872,MetazoaCnidariaPoritesaustraliensis_3544958__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_:0.0860754563)91.1/0.992/96:0.1183701760,MetazoaCnidariaAnthopleuraelegantissima_3011003__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_:0.3349958249)80.5/0.999/99:0.2449886882)93.4/1/100:0.2240967020,MetazoaCnidariaGorgoniaventalina_3218415__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_:0.6676085784)39.6/0.5/97:0.0808203104,MetazoaCtenophoraMnemiopsisleidyi_3732723__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_:1.4534829462)96.3/1/96:0.2322935470,((MetazoaVertebrateEptatretusburgeri_6395194__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_:0.0693052120,MetazoaVertebrateEptatretusburgeri_6395195__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_:0.0000024495)100/1/100:0.8132158422,(MetazoaVertebrateHomosapiens_6456181__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_:0.3147592478,MetazoaVertebrateDaniorerio_5419850__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_:0.4733787007)90.1/1/99:0.2954498967)96.7/1/100:0.2630520705)72.1/0.928/60:0.0726086661)82.3/0.967/55:0.0597063569,(((((MetazoaAnnelidaEP00103Capitellateleta_55334__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_:0.5264175380,MetazoaAnnelidaHelobdellarobusta_106174__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_:1.3712436379)95.9/1/100:0.2659686721,(MetazoaMolluscaLottiagigantea_4202969__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_:0.4291798562,MetazoaMolluscaEP00106Octopusbimaculoides_4168889__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_:0.5101636021)86.9/0.91/100:0.1392739428)94/0.999/100:0.1820931737,(MetazoaBrachiopodaLingulaunguis_1282883__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_:0.0056509432,MetazoaBrachiopodaLingulaunguis_1284625__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_:0.0161033964)100/1/100:0.9855012938)85.1/0.943/85:0.0763131919,(((MetazoaAcoelaHofsteniamiamia_14881__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_:0.7600806952,IchthyosporeaEP00126Sphaerothecumdestruens_14608791__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_:1.3051797446)73.3/0.825/93:0.2963044896,(MetazoaBryozoaBugulaneritina_2366488__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_:0.0000023778,MetazoaBryozoaBugulaneritina_2549491__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_:0.0232628249)100/1/100:0.7709290744)90.9/0.97/92:0.2103641935,MetazoaCephalochordataBranchiostomabelcheri_2813156__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_:0.7065900860)92.7/0.996/85:0.1683140794)75.3/0.843/33:0.0541219286,(((MetazoaNematodaLoaloa_4405922__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_:0.0000010210,MetazoaNematodaLoaloa_4405924__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_:0.0000010210)100/1/100:0.7219364207,MetazoaNematodaCaenorhabditiselegans_4315381__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_:0.5746766390)95.2/0.994/100:0.2232151449,MetazoaNematodaCaenorhabditiselegans_4322345__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_:0.7361430245)99.2/1/100:0.3599068047)87.1/0.943/33:0.0827149015)79/0.954/36:0.0455074194,(MetazoaArthropodaEP00090Calanusglacialis_702499__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_:1.1604452237,MetazoaHemichordataSaccoglossuskowalevskii_4058379__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_:1.1556339974)0/0.345/28:0.0422936586)89.1/0.962/47:0.1443421638,MetazoaEchinodermataAcanthasterplanci_3801460__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_:0.8656464049)96.9/1/89:0.2139641494,(((((((MetazoaVertebrateMusmusculus_6544186__PLPL3_MOUSE_1-acylglycerol-3-phosphate_O-acyltransferase_Pnpla3_OS_:0.1944771133,MetazoaVertebrateHomosapiens_6468756__PLPL3_HUMAN_1-acylglycerol-3-phosphate_O-acyltransferase_PNPLA3_OS_:0.1701709416)100/1/100:0.4286616357,(MetazoaVertebrateHomosapiens_6462071__PLPL5_HUMAN_Patatin-like_phospholipase_domain-containing_protein_5_OS_:0.2275034363,MetazoaVertebrateMusmusculus_6535411__PLPL5_MOUSE_Patatin-like_phospholipase_domain-containing_protein_5_OS_:0.1952696897)100/1/100:0.7241479832)95.2/0.998/96:0.1564944386,(((((MetazoaVertebrateHomosapiens_6465304__PLPL2_HUMAN_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.0652865192,MetazoaVertebrateMusmusculus_6540398__PLPL2_MOUSE_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.0381119319)100/1/100:0.1869787988,MetazoaVertebrateDaniorerio_5423998__PLPL2_BOVIN_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.1920663803)99.8/1/100:0.1386958234,(MetazoaVertebrateEptatretusburgeri_6403263__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.1395371085,(MetazoaVertebrateEptatretusburgeri_6403264__PLPL2_MOUSE_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.0000010210,MetazoaVertebrateEptatretusburgeri_6403265__PLPL2_MOUSE_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.0000010210)0/0.334/92:0.0000029847)100/1/100:0.2734059215)79/0.917/99:0.0538283131,MetazoaVertebrateDaniorerio_5413944__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.3801028638)94.6/1/100:0.1008825136,MetazoaVertebrateEptatretusburgeri_6406458__PLPL2_HUMAN_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.6093907071)81.6/0.759/97:0.0514022677)99.5/1/96:0.2305912732,(((((((MetazoaAnnelidaHelobdellarobusta_106299__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.6815033357,(MetazoaAnnelidaEP00103Capitellateleta_56329__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.3653273537,(MetazoaBryozoaBugulaneritina_1482627__PLPL3_MOUSE_1-acylglycerol-3-phosphate_O-acyltransferase_Pnpla3_OS_:0.0199905570,(MetazoaBryozoaBugulaneritina_1900093__PLPL3_MOUSE_1-acylglycerol-3-phosphate_O-acyltransferase_Pnpla3_OS_:0.0000020734,MetazoaBryozoaBugulaneritina_2399029__PLPL2_MOUSE_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.0000028636)0/0.333/87:0.0000021170)100/1/100:0.5841531087)56/0.929/94:0.1120013920)74.7/0.889/83:0.0861245007,(MetazoaBrachiopodaLingulaunguis_1302087__PLPL2_HUMAN_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.1266612063,MetazoaBrachiopodaLingulaunguis_1302172__PLPL2_HUMAN_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.1473102759)99.9/1/100:0.1925340398)88.2/0.999/83:0.0709674524,MetazoaMolluscaLottiagigantea_4223495__PLPL2_MOUSE_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.3165611252)96.6/1/83:0.0892744952,(MetazoaRotiferaBrachionusplicatilis_5249869__PLPL2_MOUSE_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.6175540621,(MetazoaTardigradaRamazzotiusvarieornatus_5283329__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.0036562452,MetazoaTardigradaRamazzotiusvarieornatus_5284199__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.0118430595)100/1/100:0.6288288054)93/1/99:0.1326859176)26.8/0.613/65:0.0115834136,((MetazoaEchinodermataEP00057Strongylocentrotuspurpuratus_3834401__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.4106144439,MetazoaEchinodermataAcanthasterplanci_3788586__PLPL2_MOUSE_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.5800848195)98.8/1/92:0.1824068627,(MetazoaCephalochordataBranchiostomabelcheri_2805666__PLPL2_MOUSE_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.5800971548,MetazoaHemichordataSaccoglossuskowalevskii_4055930__PLPL2_MOUSE_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.3839584585)55.5/0.742/71:0.0479477237)92.9/1/76:0.0710432174)92.2/1/65:0.0656494338,(((((((((MetazoaCnidariaFungiascutaria_3193293__PLPL2_BOVIN_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.0175127230,(MetazoaCnidariaMontastraeacavernosa_3351453__PLPL2_BOVIN_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.0000023887,MetazoaCnidariaMontastraeacavernosa_3351457__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.0000010210)90.9/1/100:0.0419759574)74.1/0.963/98:0.0263993798,(MetazoaCnidariaStylophorapistillata_3677660__PLPL2_BOVIN_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.0381906309,MetazoaCnidariaMadracisauretenra_3305844__PLPL2_BOVIN_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.0000024688)89/0.675/98:0.0129644214)76.8/0.831/65:0.0148773423,MetazoaCnidariaMontastraeacavernosa_3351455__PLPL2_MOUSE_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.0183494700)14.6/0.356/69:0.0062474967,(MetazoaCnidariaAstreoporasp_3040313__PLPL2_BOVIN_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.0365445373,(MetazoaCnidariaPoritesaustraliensis_3536047__PLPL2_BOVIN_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.0171742104,MetazoaCnidariaAcroporadigitifera_2943140__PLPL2_MOUSE_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.3774667353)70.8/0.973/36:0.0351858478)42.7/0.818/35:0.0153660988)93/1/83:0.0650635607,(MetazoaCnidariaPoritesaustraliensis_3545404__PLPL2_BOVIN_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.2436996793,MetazoaCnidariaStylophorapistillata_3678159__PLPL2_MOUSE_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.3012719069)99.1/1/100:0.1508331507)95.1/1/99:0.1043523070,((MetazoaCnidariaNematostellavectensis_3383021__PLPL2_BOVIN_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.1538430216,MetazoaCnidariaAnthopleuraelegantissima_2996461__PLPL2_HUMAN_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.0779919376)43.7/0.393/73:0.0261562893,MetazoaCnidariaAnthopleuraelegantissima_3022601__PLPL2_MOUSE_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.1142832781)77.9/0.747/74:0.0348557277)100/1/100:0.2937811702,((MetazoaCnidariaHydramagnapapillata_3267440__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.4298920792,(MetazoaCnidariaClytiahemisphaerica_3081244__PLPL2_MOUSE_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.6084804876,MetazoaCnidariaClytiahemisphaerica_3093032__PLPL2_BOVIN_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.3309622361)74.6/0.974/99:0.0864677180)91.9/1/99:0.1259817093,MetazoaCnidariaAureliaGenome_3054510__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.3171004499)99.6/1/100:0.2745659751)99.9/1/100:0.3855408764,((((MetazoaPlacozoaHoilungiahongkongensis_4576737__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_:0.0000021898,(((MetazoaPlacozoaHoilungiahongkongensis_4576731__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_:0.0297210312,MetazoaPlacozoaHoilungiahongkongensis_4576735__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_:0.0000023529)87.2/0.994/98:0.0326910071,MetazoaPlacozoaHoilungiahongkongensis_4576732__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_:0.0000021203)61/0.526/97:0.0095556537,MetazoaPlacozoaHoilungiahongkongensis_4576734__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_:0.0000023593)88.1/0.996/98:0.0195276846)100/1/100:0.3223547653,MetazoaPlacozoaEP00114TrichoplaxspH2_4506501__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_:0.2669789587)100/1/100:0.5327086903,(((MetazoaPlacozoaHoilungiahongkongensis_4556571__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.0033470107,MetazoaPlacozoaHoilungiahongkongensis_4556572__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.0000024411)95.1/1/100:0.0505061646,MetazoaPlacozoaHoilungiahongkongensis_4556574__PLPL3_MOUSE_1-acylglycerol-3-phosphate_O-acyltransferase_Pnpla3_OS_:0.0870770146)96.7/1/100:0.1186733616,MetazoaPlacozoaEP00114TrichoplaxspH2_4506491__PLPL2_MOUSE_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.1630553146)98.3/1/100:0.2525793147)100/1/100:0.7057744653,(MetazoaPlacozoaEP00114TrichoplaxspH2_4506495__PLPL2_MOUSE_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.0784214215,(MetazoaPlacozoaHoilungiahongkongensis_4531996__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.0000025662,MetazoaPlacozoaHoilungiahongkongensis_4531997__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.0067157231)91.3/0.985/100:0.0512831723)100/1/100:0.7086413747)44.6/0.77/97:0.1406957465)97.1/1/91:0.2366523435,((((MetazoaArthropodaEP00090Calanusglacialis_714708__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.0000010210,MetazoaArthropodaEP00090Calanusglacialis_714709__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.0000010210)67.4/0.42/98:0.0187715524,MetazoaArthropodaEP00090Calanusglacialis_714711__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.0530034272)99.9/1/100:0.4112723914,MetazoaArthropodaEP00090Calanusglacialis_707356__PLPL2_HUMAN_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.6179759690)62.1/0.69/98:0.1130770444,((MetazoaArthropodaDrosophilamelanogaster_252420__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.7201768487,MetazoaArthropodaDrosophilamelanogaster_242247__PLPL2_MOUSE_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.1499798332)99.6/1/100:0.2286450044,(MetazoaArthropodaDaphniapulex_206492__PLPL2_MOUSE_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.0988481789,MetazoaArthropodaDaphniapulex_192132__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.6047532492)99.9/1/100:0.2982249310)75.5/0.928/91:0.0921605585)99.8/1/100:0.2088545295)94.2/0.998/60:0.0931080748)22.4/0.674/25:0.0414674313,((MetazoaNematodaCaenorhabditiselegans_4314361__PLPL2_CAEEL_Patanin-like_phospholipase_domain-containing_protein_atgl-1_OS_:0.5418617209,MetazoaNematodaLoaloa_4413114__PLPL2_CAEEL_Patanin-like_phospholipase_domain-containing_protein_atgl-1_OS_:0.5561769929)99.2/1/100:0.3070751544,MetazoaMolluscaEP00106Octopusbimaculoides_4169782__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.8436810887)94.4/1/88:0.1618393145)94.7/1/64:0.1040138426)85.1/0.881/48:0.0631206534,((MetazoaAcoelaHofsteniamiamia_20360__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.2346638293,MetazoaAcoelaHofsteniamiamia_13585__PLPL2_MOUSE_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.3025927828)100/1/100:0.5365560089,(MetazoaUrochordataOikopleuradioica_5364601__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.7599755609,MetazoaUrochordataEP00059Cionaintestinalis_5338889__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.7232588014)74.5/0.947/91:0.1248825707)94.3/1/79:0.1489302502)99.1/1/91:0.1873462250,(AlveolataEP00742ColponemidiaspColp10_4283787_:2.4897633036,(((MetazoaPoriferaSyconciliatum_5115390__PLPL2_MOUSE_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.1977588890,MetazoaPoriferaLeucosoleniacomplicata_5050177__PLPL2_MOUSE_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.3055952323)100/1/100:0.5615448784,MetazoaPoriferaLeucosoleniacomplicata_5026952__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_:1.0095762629)97.3/1/100:0.3089760690,((((MetazoaPoriferaAmphimedonqueenslandica_4706313__PLPL2_HUMAN_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.2919853267,(MetazoaPoriferaAmphimedonqueenslandica_4706619__PLPL3_HUMAN_1-acylglycerol-3-phosphate_O-acyltransferase_PNPLA3_OS_:0.5105263533,MetazoaPoriferaAmphimedonqueenslandica_4707091__PLPL3_MOUSE_1-acylglycerol-3-phosphate_O-acyltransferase_Pnpla3_OS_:0.5428289262)96.7/1/100:0.3056778397)84.5/0.959/100:0.1443238928,MetazoaPoriferaHaliclonatubifera_4961466__PLPL2_HUMAN_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.4588302110)98/1/100:0.3062032162,MetazoaPoriferaEphydatiamuelleri_4910595__K1109_DANRE_Transmembrane_protein_KIAA1109_homolog_OS_:0.6038235584)100/1/100:0.5648088241,(MetazoaPoriferaEP00118Oscarellapearsei_4837898__PLPL2_HUMAN_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.7852033255,MetazoaCnidariaMyxozoaThelohanelluskitauei_3358721__PLPL3_MOUSE_1-acylglycerol-3-phosphate_O-acyltransferase_Pnpla3_OS_:1.5539995016)38.3/0.553/84:0.1373757694)56/0.898/80:0.1705865314)16.5/0.469/61:0.0892378867)69.4/0.434/48:0.0480076181)89.8/0.988/63:0.1142591339,(MetazoaVertebrateHomosapiens_6463484__PLPL1_HUMAN_Patatin-like_phospholipase_domain-containing_protein_1_OS_:0.1994842494,MetazoaVertebrateMusmusculus_6536297__PLPL1_MOUSE_Patatin-like_phospholipase_domain-containing_protein_1_OS_:0.1820232814)100/1/100:0.9997635215)82.7/0.88/56:0.0644876663)11/0.42/39:0.0523906994,FilastreaCapsasporaowczarzakiUP000008743_12978154__PLPL2_MOUSE_Patatin-like_phospholipase_domain-containing_protein_2_OS_:1.6983336926)95/1/99:0.2654701341,(((ChoanoflagellataEP00040Diaphanoecagrandis_10909737__PLPL2_HUMAN_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.7064928275,(ChoanoflagellataEP00037Helgoecanana_10801052__PLPL3_MOUSE_1-acylglycerol-3-phosphate_O-acyltransferase_Pnpla3_OS_:0.1286788948,ChoanoflagellataEP00035Acanthoecaspectabilis_10719965__PLPL2_CAEEL_Patanin-like_phospholipase_domain-containing_protein_atgl-1_OS_:0.1350689915)99.6/1/100:0.3112617798)71.7/0.873/100:0.1306656339,(HaptophytaEP00319Phaeocystisglobosa_14069363__PLPL2_HUMAN_Patatin-like_phospholipase_domain-containing_protein_2_OS_:1.2109019204,ChoanoflagellataEP00039Didymoecacostata_10883315__PLPL2_CAEEL_Patanin-like_phospholipase_domain-containing_protein_atgl-1_OS_:0.6195024573)68.5/0.548/96:0.1019696025)99/1/100:1.3094158250,IchthyosporeaSphaeroformaarcticaUP000054560_14622464__PLPL1_HUMAN_Patatin-like_phospholipase_domain-containing_protein_1_OS_:2.3775240873)98.6/1/91:0.6855875896)0/0.333/41:0.0000022244)94.8/1/80:0.1508308799)88.3/0.979/94:0.1713250073,((RhodophytaGaldieriasulphurariaUP000030680_23117764__SDP1L_ARATH_Triacylglycerol_lipase_SDP1L_OS_:0.9317372327,(GlaucophytaEP00276Gloeochaetewittrockiana_13485226__PLPL_CRYNJ_Patatin-like_phospholipase_domain-containing_protein_CNE02340_OS_:0.2471240553,GlaucophytaEP00276Gloeochaetewittrockiana_13491142__YEX5_SCHPO_Uncharacterized_protein_C1A6.05c_OS_:0.2264802917)100/1/100:1.0042678630)94.5/0.998/100:0.4067010789,FilastreaCapsasporaowczarzakiUP000008743_12984625__PLPL_YARLI_Patatin-like_phospholipase_domain-containing_protein_YALI0D16379g_OS_:1.0110263279)99.8/1/100:0.7972116464)97.5/1/100:0.5563521555,RhodophytaGaldieriasulphurariaUP000030680_23114361__YR571_MIMIV_Uncharacterized_protein_R571_OS_:1.3787346512)33.3/0.643/98:0.2083109704,MalawimonadidaeEP00698Gefionellaokellyi_14706338__YR571_MIMIV_Uncharacterized_protein_R571_OS_:1.3970459901);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -83601.660321
+Robinson-Foulds distance between ML tree and consensus tree: 18
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++-----------------RhodophytaGaldieriasulphurariaUP000030680_23116076__YR571_MIMIV_Uncharacterized_protein_R571_OS_
+|
+|               +------------------------CentroplasthelidaEP00300ChoanocystisspHF7_5629128__PLPL1_MOUSE_Patatin-like_phospholipase_domain-containing_protein_1_OS_
+|            +--| (49)
+|            |  |                     +-----------StramenopilesEP00652Aphanomycesastaci_26140946__PLPL2_BOVIN_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|            |  |            +--------| (100)
+|            |  |            |        +--StramenopilesPhytophthorainfestansUP000006643_26376129__PLPL2_HUMAN_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|            |  |  +---------| (100)
+|            |  |  |         +----------EuglenozoaEP00668Euglenalonga_12394772__PLPL2_HUMAN_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|            |  +--| (76)
+|            |     +----------------------CryptophyceaeGuillardiathetaUP000011087_12255011__PLPL1_MOUSE_Patatin-like_phospholipase_domain-containing_protein_1_OS_
+|         +--| (94)
+|         |  |              +--------------------ChoanoflagellataEP00050Salpingoecakvevrii_11198219__PLPL2_CAEEL_Patanin-like_phospholipase_domain-containing_protein_atgl-1_OS_
+|         |  |           +--| (57)
+|         |  |           |  |                  +---CryptophyceaeGuillardiathetaUP000011087_12257361__ELOV5_XENTR_Elongation_of_very_long_chain_fatty_acids_protein_5_OS_
+|         |  |           |  |           +------| (100)
+|         |  |           |  |           |      +--CryptophyceaeEP00290BaffinellaspCCMP2293_12083491__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_
+|         |  |           |  |   +-------| (100)
+|         |  |           |  |   |       |     +---------HaptophytaEP00319Phaeocystisglobosa_14070199__PLPL1_HUMAN_Patatin-like_phospholipase_domain-containing_protein_1_OS_
+|         |  |           |  |   |       |  +--| (55)
+|         |  |           |  |   |       |  |  +-------TelonemiaP00656Telonemasubtile_26565338__ELOV7_MOUSE_Elongation_of_very_long_chain_fatty_acids_protein_7_OS_
+|         |  |           |  |   |       +--| (55)
+|         |  |           |  |   |          |  +-------EuglenozoaEP00668Euglenalonga_12422286__ELOV5_TACFU_Elongation_of_very_long_chain_fatty_acids_protein_5_OS_
+|         |  |           |  |   |          +--| (100)
+|         |  |           |  |   |             +------CentroplasthelidaEP00300ChoanocystisspHF7_5634236__ELOV5_TACFU_Elongation_of_very_long_chain_fatty_acids_protein_5_OS_
+|         |  |           |  +---| (100)
+|         |  |           |      |                   +--EuglenozoaEP00668Euglenalonga_12407671__PLPL3_MOUSE_1-acylglycerol-3-phosphate_O-acyltransferase_Pnpla3_OS_
+|         |  |           |      |                +--| (100)
+|         |  |           |      |                |  +--EuglenozoaEP00668Euglenalonga_12407673__PLPL3_MOUSE_1-acylglycerol-3-phosphate_O-acyltransferase_Pnpla3_OS_
+|         |  |           |      +----------------| (100)
+|         |  |           |                       |  +--EuglenozoaEP00668Euglenalonga_12407672__PLPL3_MOUSE_1-acylglycerol-3-phosphate_O-acyltransferase_Pnpla3_OS_
+|         |  |           |                       +--| (92)
+|         |  |           |                          +--EuglenozoaEP00668Euglenalonga_12393344__PLPL3_MOUSE_1-acylglycerol-3-phosphate_O-acyltransferase_Pnpla3_OS_
+|         |  |        +--| (97)
+|         |  |        |  +-------------------ChloroplastidaChlamydomonasreinhardtiiUP000006906_6364612__PLPL1_MOUSE_Patatin-like_phospholipase_domain-containing_protein_1_OS_
+|         |  |     +--| (96)
+|         |  |     |  |                       +---------StramenopilesEP00652Aphanomycesastaci_26140261__PLPL2_CAEEL_Patanin-like_phospholipase_domain-containing_protein_atgl-1_OS_
+|         |  |     |  |                    +--| (100)
+|         |  |     |  |                    |  |  +--StramenopilesPhytophthorainfestansUP000006643_26371863__PLPL2_CAEEL_Patanin-like_phospholipase_domain-containing_protein_atgl-1_OS_
+|         |  |     |  |                    |  +--| (100)
+|         |  |     |  |                    |     +--StramenopilesPhytophthorainfestansUP000006643_26371858__PLPL3_MOUSE_1-acylglycerol-3-phosphate_O-acyltransferase_Pnpla3_OS_
+|         |  |     |  |              +-----| (100)
+|         |  |     |  |              |     +---------StramenopilesPhytophthorainfestansUP000006643_26381713__PLPL2_MOUSE_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |  |     |  |           +--| (72)
+|         |  |     |  |           |  |             +--IchthyosporeaEP00123Amoebidiumparasiticum_14564371__PLPL2_BOVIN_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |  |     |  |           |  +-------------| (100)
+|         |  |     |  |           |                +--IchthyosporeaEP00123Amoebidiumparasiticum_14564372_
+|         |  |     |  |       +---| (97)
+|         |  |     |  |       |   |           +----------IchthyosporeaSphaeroformaarcticaUP000054560_14622588__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_
+|         |  |     |  |       |   |        +--| (96)
+|         |  |     |  |       |   |        |  +-----IchthyosporeaSphaeroformaarcticaUP000054560_14626795__PLPL2_CAEEL_Patanin-like_phospholipase_domain-containing_protein_atgl-1_OS_
+|         |  |     |  |       |   |     +--| (100)
+|         |  |     |  |       |   |     |  +--IchthyosporeaEP00123Amoebidiumparasiticum_14562997__PLPL2_CAEEL_Patanin-like_phospholipase_domain-containing_protein_atgl-1_OS_
+|         |  |     |  |       |   |  +--| (88)
+|         |  |     |  |       |   |  |  +------PluriformeaEP00127Corallochytriumlimacisporum_21621713__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_
+|         |  |     |  |       |   +--| (72)
+|         |  |     |  |       |      |  +----------------CryptophyceaeEP00290BaffinellaspCCMP2293_12030485__PLPL3_MOUSE_1-acylglycerol-3-phosphate_O-acyltransferase_Pnpla3_OS_
+|         |  |     |  |       |      +--| (90)
+|         |  |     |  |       |         +--------CentroplasthelidaEP00300ChoanocystisspHF7_5613600__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_
+|         |  |     |  |  +----| (100)
+|         |  |     |  |  |    |          +------IchthyosporeaEP00123Amoebidiumparasiticum_14553437_
+|         |  |     |  |  |    +----------| (100)
+|         |  |     |  |  |               +--IchthyosporeaEP00123Amoebidiumparasiticum_14555013__PLPL2_CAEEL_Patanin-like_phospholipase_domain-containing_protein_atgl-1_OS_
+|         |  |     |  +--| (98)
+|         |  |     |     +------------AmoebozoaEP00007CuneaspBSH02190019_4977936__PLPL2_CAEEL_Patanin-like_phospholipase_domain-containing_protein_atgl-1_OS_
+|         |  |  +--| (62)
+|         |  |  |  |                    +------------ChloroplastidaChlamydomonasreinhardtiiUP000006906_6352860_
+|         |  |  |  |                 +--| (99)
+|         |  |  |  |                 |  +--------ChloroplastidaChlamydomonasreinhardtiiUP000006906_6359989__PLPL2_CAEEL_Patanin-like_phospholipase_domain-containing_protein_atgl-1_OS_
+|         |  |  |  |           +-----| (99)
+|         |  |  |  |           |     |                      +--CryptophyceaeEP00290BaffinellaspCCMP2293_12037293_
+|         |  |  |  |           |     +----------------------| (100)
+|         |  |  |  |           |                            +--CryptophyceaeEP00290BaffinellaspCCMP2293_12059634__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_
+|         |  |  |  |     +-----| (96)
+|         |  |  |  |     |     |               +--------CryptophyceaeGuillardiathetaUP000011087_12253775__PLPL1_MOUSE_Patatin-like_phospholipase_domain-containing_protein_1_OS_
+|         |  |  |  |     |     |            +--| (100)
+|         |  |  |  |     |     |            |  +-----CryptophyceaeEP00290BaffinellaspCCMP2293_12082377__PLPL1_HUMAN_Patatin-like_phospholipase_domain-containing_protein_1_OS_
+|         |  |  |  |     |     +------------| (100)
+|         |  |  |  |     |                  |   +-------------ChloroplastidaChlamydomonasreinhardtiiUP000006906_6368252__PLPL1_HUMAN_Patatin-like_phospholipase_domain-containing_protein_1_OS_
+|         |  |  |  |     |                  +---| (100)
+|         |  |  |  |     |                      +--------ChloroplastidaEP00738Chloropiconprimus_8603645__PLPL1_MOUSE_Patatin-like_phospholipase_domain-containing_protein_1_OS_
+|         |  |  |  |  +--| (68)
+|         |  |  |  |  |  |                +--ChloroplastidaEP00248Marchantiapolymorpha_7463874__PLPL2_HUMAN_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |  |  |  |  |  |             +--| (100)
+|         |  |  |  |  |  |             |  +--ChloroplastidaEP00248Marchantiapolymorpha_7463875__PLPL2_HUMAN_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |  |  |  |  |  |        +----| (100)
+|         |  |  |  |  |  |        |    +---ChloroplastidaArabidopsisthalianaUP000006548_5875873__PLPL2_MOUSE_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |  |  |  |  |  |     +--| (99)
+|         |  |  |  |  |  |     |  +-------------------RhodophytaEP00185Porphyridiumpurpureum_23045358__PLPL3_MOUSE_1-acylglycerol-3-phosphate_O-acyltransferase_Pnpla3_OS_
+|         |  |  |  |  |  |  +--| (91)
+|         |  |  |  |  |  |  |  |         +-----------ChloroplastidaChlamydomonasreinhardtiiUP000006906_6357326__PLPL3_HUMAN_1-acylglycerol-3-phosphate_O-acyltransferase_PNPLA3_OS_
+|         |  |  |  |  |  |  |  |  +------| (100)
+|         |  |  |  |  |  |  |  |  |      +-------ChloroplastidaChlamydomonasreinhardtiiUP000006906_6364947__PLPL3_MOUSE_1-acylglycerol-3-phosphate_O-acyltransferase_Pnpla3_OS_
+|         |  |  |  |  |  |  |  +--| (95)
+|         |  |  |  |  |  |  |     +----------------ChloroplastidaEP00738Chloropiconprimus_8600238__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_
+|         |  |  |  |  |  +--| (86)
+|         |  |  |  |  |     |        +---------------CryptophyceaeEP00290BaffinellaspCCMP2293_12053178__PLPL3_MOUSE_1-acylglycerol-3-phosphate_O-acyltransferase_Pnpla3_OS_
+|         |  |  |  |  |     |     +--| (35)
+|         |  |  |  |  |     |     |  |       +-------------ChoanoflagellataEP00039Didymoecacostata_10883012__PLPL3_MOUSE_1-acylglycerol-3-phosphate_O-acyltransferase_Pnpla3_OS_
+|         |  |  |  |  |     |     |  |  +----| (89)
+|         |  |  |  |  |     |     |  |  |    +----------ChoanoflagellataEP00040Diaphanoecagrandis_10913462__PLPL3_MOUSE_1-acylglycerol-3-phosphate_O-acyltransferase_Pnpla3_OS_
+|         |  |  |  |  |     |     |  +--| (71)
+|         |  |  |  |  |     |     |     +---------------TelonemiaP00656Telonemasubtile_26528711__PLPL3_MOUSE_1-acylglycerol-3-phosphate_O-acyltransferase_Pnpla3_OS_
+|         |  |  |  |  |     |  +--| (47)
+|         |  |  |  |  |     |  |  +--------------------IchthyosporeaSphaeroformaarcticaUP000054560_14629369__PLPL3_HUMAN_1-acylglycerol-3-phosphate_O-acyltransferase_PNPLA3_OS_
+|         |  |  |  |  |     +--| (52)
+|         |  |  |  |  |        |                 +---ChoanoflagellateaMonosigabrevicollisUP000001357_11428207__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_
+|         |  |  |  |  |        |     +-----------| (100)
+|         |  |  |  |  |        |     |           +--ChoanoflagellataEP00045Choanoecaperplexa_11094043__PLPL3_MOUSE_1-acylglycerol-3-phosphate_O-acyltransferase_Pnpla3_OS_
+|         |  |  |  |  |        |  +--| (90)
+|         |  |  |  |  |        |  |  |  +--------------CryptophyceaeGuillardiathetaUP000011087_12255253__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_
+|         |  |  |  |  |        |  |  +--| (95)
+|         |  |  |  |  |        |  |     |          +----ChoanoflagellataEP00037Helgoecanana_10798029__PLPL3_HUMAN_1-acylglycerol-3-phosphate_O-acyltransferase_PNPLA3_OS_
+|         |  |  |  |  |        |  |     |  +-------| (100)
+|         |  |  |  |  |        |  |     |  |       +---ChoanoflagellataEP00035Acanthoecaspectabilis_10751018__PLPL2_CAEEL_Patanin-like_phospholipase_domain-containing_protein_atgl-1_OS_
+|         |  |  |  |  |        |  |     +--| (94)
+|         |  |  |  |  |        |  |        +-----------------ChoanoflagellataEP00039Didymoecacostata_10858141__PLPL3_HUMAN_1-acylglycerol-3-phosphate_O-acyltransferase_PNPLA3_OS_
+|         |  |  |  |  |        +--| (86)
+|         |  |  |  |  |           |  +-----------StramenopilesPhytophthorainfestansUP000006643_26377724__PLPL3_MOUSE_1-acylglycerol-3-phosphate_O-acyltransferase_Pnpla3_OS_
+|         |  |  |  |  |           +--| (98)
+|         |  |  |  |  |              |  +---------------------StramenopilesEP00652Aphanomycesastaci_26137947__PLPL2_CAEEL_Patanin-like_phospholipase_domain-containing_protein_atgl-1_OS_
+|         |  |  |  |  |              +--| (98)
+|         |  |  |  |  |                 |  +-----------ChoanoflagellateaMonosigabrevicollisUP000001357_11428341__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_
+|         |  |  |  |  |                 +--| (96)
+|         |  |  |  |  |                    +---------------ChoanoflagellataEP00045Choanoecaperplexa_11081700__PLPL3_MOUSE_1-acylglycerol-3-phosphate_O-acyltransferase_Pnpla3_OS_
+|         |  |  |  +--| (42)
+|         |  |  |     |                                      +--CryptophyceaeEP00290BaffinellaspCCMP2293_12036668_
+|         |  |  |     |                                  +---| (100)
+|         |  |  |     |                                  |   +--CryptophyceaeEP00290BaffinellaspCCMP2293_12083026_
+|         |  |  |     |                               +--| (100)
+|         |  |  |     |                               |  +--CryptophyceaeEP00290BaffinellaspCCMP2293_12076919__PLPL1_MOUSE_Patatin-like_phospholipase_domain-containing_protein_1_OS_
+|         |  |  |     |             +-----------------| (100)
+|         |  |  |     |             |                 +--CryptophyceaeEP00290BaffinellaspCCMP2293_12049751_
+|         |  |  |     |     +-------| (100)
+|         |  |  |     |     |       |   +-------------ChoanoflagellataEP00040Diaphanoecagrandis_10897969_
+|         |  |  |     |     |       +---| (93)
+|         |  |  |     |     |           +---------EuglenozoaEP00668Euglenalonga_12436743__PLPL3_MOUSE_1-acylglycerol-3-phosphate_O-acyltransferase_Pnpla3_OS_
+|         |  |  |     +-----| (96)
+|         |  |  |           +---------------------HaptophytaEP00327Prymnesiumparvum_14297316_
+|         |  +--| (80)
+|         |     |                             +----------------MetazoaHemichordataSaccoglossuskowalevskii_4047903__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_
+|         |     |                        +----| (99)
+|         |     |                        |    |    +--------MetazoaHemichordataSaccoglossuskowalevskii_4054223__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_
+|         |     |                        |    +----| (100)
+|         |     |                        |         +----------MetazoaHemichordataSaccoglossuskowalevskii_4054239__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_
+|         |     |                     +--| (68)
+|         |     |                     |  |              +------MetazoaHemichordataSaccoglossuskowalevskii_4069227__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_
+|         |     |                     |  |         +----| (100)
+|         |     |                     |  |         |    |   +---MetazoaEchinodermataAcanthasterplanci_3781513__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_
+|         |     |                     |  |         |    +---| (100)
+|         |     |                     |  |         |        |    +--MetazoaEchinodermataEP00057Strongylocentrotuspurpuratus_3814609__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_
+|         |     |                     |  |         |        +----| (100)
+|         |     |                     |  |         |             +--MetazoaEchinodermataEP00057Strongylocentrotuspurpuratus_3814610__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_
+|         |     |                     |  +---------| (100)
+|         |     |                     |            |  +------MetazoaEchinodermataAcanthasterplanci_3781516__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_
+|         |     |                     |            +--| (100)
+|         |     |                     |               |  +------------MetazoaEchinodermataEP00057Strongylocentrotuspurpuratus_3814624__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_
+|         |     |                     |               +--| (93)
+|         |     |                     |                  +-----MetazoaHemichordataSaccoglossuskowalevskii_4069224__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_
+|         |     |                  +--| (99)
+|         |     |                  |  +----------------------HaptophytaEP00319Phaeocystisglobosa_14059660__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_
+|         |     |               +--| (55)
+|         |     |               |  |           +----MetazoaCnidariaNematostellavectensis_3389142__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_
+|         |     |               |  |        +--| (100)
+|         |     |               |  |        |  |                       +--MetazoaCnidariaStylophorapistillata_3671855__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_
+|         |     |               |  |        |  |                    +--| (98)
+|         |     |               |  |        |  |                    |  +--MetazoaCnidariaMadracisauretenra_3299669__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_
+|         |     |               |  |        |  |                 +--| (99)
+|         |     |               |  |        |  |                 |  +-------MetazoaCnidariaAcroporadigitifera_2927550__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_
+|         |     |               |  |        |  |              +--| (100)
+|         |     |               |  |        |  |              |  |  +--MetazoaCnidariaFungiascutaria_3197478__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_
+|         |     |               |  |        |  |              |  +--| (51)
+|         |     |               |  |        |  |              |     +--MetazoaCnidariaPoritesaustraliensis_3548004__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_
+|         |     |               |  |        |  |           +--| (93)
+|         |     |               |  |        |  |           |  +--MetazoaCnidariaFungiascutaria_3197479__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_
+|         |     |               |  |        |  |        +--| (93)
+|         |     |               |  |        |  |        |  +--MetazoaCnidariaMadracisauretenra_3290641__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_
+|         |     |               |  |        |  |     +--| (93)
+|         |     |               |  |        |  |     |  +--MetazoaCnidariaAstreoporasp_3047474__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_
+|         |     |               |  |        |  |  +--| (96)
+|         |     |               |  |        |  |  |  +--MetazoaCnidariaPoritesaustraliensis_3544958__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_
+|         |     |               |  |        |  +--| (99)
+|         |     |               |  |        |     +---MetazoaCnidariaAnthopleuraelegantissima_3011003__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_
+|         |     |               |  |     +--| (97)
+|         |     |               |  |     |  +--------MetazoaCnidariaGorgoniaventalina_3218415__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_
+|         |     |               |  |  +--| (96)
+|         |     |               |  |  |  +------------------MetazoaCtenophoraMnemiopsisleidyi_3732723__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_
+|         |     |               |  +--| (60)
+|         |     |               |     |             +--MetazoaVertebrateEptatretusburgeri_6395194__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_
+|         |     |               |     |  +----------| (100)
+|         |     |               |     |  |          +--MetazoaVertebrateEptatretusburgeri_6395195__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_
+|         |     |               |     +--| (100)
+|         |     |               |        |   +---MetazoaVertebrateHomosapiens_6456181__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_
+|         |     |               |        +---| (99)
+|         |     |               |            +-----MetazoaVertebrateDaniorerio_5419850__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_
+|         |     |            +--| (51)
+|         |     |            |  |              +------MetazoaAnnelidaEP00103Capitellateleta_55334__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_
+|         |     |            |  |           +--| (100)
+|         |     |            |  |           |  +-----------------MetazoaAnnelidaHelobdellarobusta_106174__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_
+|         |     |            |  |        +--| (100)
+|         |     |            |  |        |  |  +----MetazoaMolluscaLottiagigantea_4202969__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_
+|         |     |            |  |        |  +--| (100)
+|         |     |            |  |        |     +-----MetazoaMolluscaEP00106Octopusbimaculoides_4168889__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_
+|         |     |            |  |     +--| (85)
+|         |     |            |  |     |  |            +--MetazoaBrachiopodaLingulaunguis_1282883__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_
+|         |     |            |  |     |  +------------| (100)
+|         |     |            |  |     |               +--MetazoaBrachiopodaLingulaunguis_1284625__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_
+|         |     |            |  |  +--| (34)
+|         |     |            |  |  |  |           +---------MetazoaAcoelaHofsteniamiamia_14881__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_
+|         |     |            |  |  |  |        +--| (93)
+|         |     |            |  |  |  |        |  +----------------IchthyosporeaEP00126Sphaerothecumdestruens_14608791__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |            |  |  |  |     +--| (92)
+|         |     |            |  |  |  |     |  |         +--MetazoaBryozoaBugulaneritina_2366488__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_
+|         |     |            |  |  |  |     |  +---------| (100)
+|         |     |            |  |  |  |     |            +--MetazoaBryozoaBugulaneritina_2549491__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_
+|         |     |            |  |  |  |  +--| (85)
+|         |     |            |  |  |  |  |  +--------MetazoaCephalochordataBranchiostomabelcheri_2813156__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_
+|         |     |            |  |  |  +--| (50)
+|         |     |            |  |  |     +--------------MetazoaHemichordataSaccoglossuskowalevskii_4058379__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_
+|         |     |            |  +--| (36)
+|         |     |            |     |               +--MetazoaNematodaLoaloa_4405922__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_
+|         |     |            |     |      +--------| (100)
+|         |     |            |     |      |        +--MetazoaNematodaLoaloa_4405924__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_
+|         |     |            |     |   +--| (100)
+|         |     |            |     |   |  +------MetazoaNematodaCaenorhabditiselegans_4315381__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_
+|         |     |            |     +---| (100)
+|         |     |            |         +---------MetazoaNematodaCaenorhabditiselegans_4322345__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_
+|         |     |         +--| (89)
+|         |     |         |  |  +----------MetazoaEchinodermataAcanthasterplanci_3801460__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_
+|         |     |         |  +--| (50)
+|         |     |         |     +--------------MetazoaArthropodaEP00090Calanusglacialis_702499__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_
+|         |     |      +--| (52)
+|         |     |      |  +----------------------FilastreaCapsasporaowczarzakiUP000008743_12978154__PLPL2_MOUSE_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |  +---| (99)
+|         |     |  |   |                      +--MetazoaVertebrateMusmusculus_6544186__PLPL3_MOUSE_1-acylglycerol-3-phosphate_O-acyltransferase_Pnpla3_OS_
+|         |     |  |   |                 +----| (100)
+|         |     |  |   |                 |    +--MetazoaVertebrateHomosapiens_6468756__PLPL3_HUMAN_1-acylglycerol-3-phosphate_O-acyltransferase_PNPLA3_OS_
+|         |     |  |   |              +--| (96)
+|         |     |  |   |              |  |        +--MetazoaVertebrateHomosapiens_6462071__PLPL5_HUMAN_Patatin-like_phospholipase_domain-containing_protein_5_OS_
+|         |     |  |   |              |  +--------| (100)
+|         |     |  |   |              |           +--MetazoaVertebrateMusmusculus_6535411__PLPL5_MOUSE_Patatin-like_phospholipase_domain-containing_protein_5_OS_
+|         |     |  |   |           +--| (96)
+|         |     |  |   |           |  |              +--MetazoaVertebrateHomosapiens_6465304__PLPL2_HUMAN_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |  |   |           |  |           +--| (100)
+|         |     |  |   |           |  |           |  +--MetazoaVertebrateMusmusculus_6540398__PLPL2_MOUSE_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |  |   |           |  |        +--| (100)
+|         |     |  |   |           |  |        |  +--MetazoaVertebrateDaniorerio_5423998__PLPL2_BOVIN_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |  |   |           |  |     +--| (99)
+|         |     |  |   |           |  |     |  |  +--MetazoaVertebrateEptatretusburgeri_6403263__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |  |   |           |  |     |  +--| (100)
+|         |     |  |   |           |  |     |     |  +--MetazoaVertebrateEptatretusburgeri_6403264__PLPL2_MOUSE_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |  |   |           |  |     |     +--| (92)
+|         |     |  |   |           |  |     |        +--MetazoaVertebrateEptatretusburgeri_6403265__PLPL2_MOUSE_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |  |   |           |  |  +--| (100)
+|         |     |  |   |           |  |  |  +----MetazoaVertebrateDaniorerio_5413944__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |  |   |           |  +--| (97)
+|         |     |  |   |           |     +-------MetazoaVertebrateEptatretusburgeri_6406458__PLPL2_HUMAN_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |  |   |        +--| (48)
+|         |     |  |   |        |  |                 +--------MetazoaAnnelidaHelobdellarobusta_106299__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |  |   |        |  |              +--| (83)
+|         |     |  |   |        |  |              |  |  +---MetazoaAnnelidaEP00103Capitellateleta_56329__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |  |   |        |  |              |  +--| (94)
+|         |     |  |   |        |  |              |     |      +--MetazoaBryozoaBugulaneritina_1482627__PLPL3_MOUSE_1-acylglycerol-3-phosphate_O-acyltransferase_Pnpla3_OS_
+|         |     |  |   |        |  |              |     +------| (100)
+|         |     |  |   |        |  |              |            |  +--MetazoaBryozoaBugulaneritina_1900093__PLPL3_MOUSE_1-acylglycerol-3-phosphate_O-acyltransferase_Pnpla3_OS_
+|         |     |  |   |        |  |              |            +--| (87)
+|         |     |  |   |        |  |              |               +--MetazoaBryozoaBugulaneritina_2399029__PLPL2_MOUSE_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |  |   |        |  |           +--| (83)
+|         |     |  |   |        |  |           |  |  +--MetazoaBrachiopodaLingulaunguis_1302087__PLPL2_HUMAN_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |  |   |        |  |           |  +--| (100)
+|         |     |  |   |        |  |           |     +--MetazoaBrachiopodaLingulaunguis_1302172__PLPL2_HUMAN_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |  |   |        |  |        +--| (83)
+|         |     |  |   |        |  |        |  +---MetazoaMolluscaLottiagigantea_4223495__PLPL2_MOUSE_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |  |   |        |  |     +--| (65)
+|         |     |  |   |        |  |     |  |  +-------MetazoaRotiferaBrachionusplicatilis_5249869__PLPL2_MOUSE_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |  |   |        |  |     |  +--| (99)
+|         |     |  |   |        |  |     |     |       +--MetazoaTardigradaRamazzotiusvarieornatus_5283329__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |  |   |        |  |     |     +-------| (100)
+|         |     |  |   |        |  |     |             +--MetazoaTardigradaRamazzotiusvarieornatus_5284199__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |  |   |        |  |  +--| (65)
+|         |     |  |   |        |  |  |  |     +----MetazoaEchinodermataEP00057Strongylocentrotuspurpuratus_3834401__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |  |   |        |  |  |  |  +--| (92)
+|         |     |  |   |        |  |  |  |  |  +------MetazoaEchinodermataAcanthasterplanci_3788586__PLPL2_MOUSE_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |  |   |        |  |  |  +--| (76)
+|         |     |  |   |        |  |  |     |  +------MetazoaCephalochordataBranchiostomabelcheri_2805666__PLPL2_MOUSE_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |  |   |        |  |  |     +--| (71)
+|         |     |  |   |        |  |  |        +----MetazoaHemichordataSaccoglossuskowalevskii_4055930__PLPL2_MOUSE_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |  |   |        |  +--| (64)
+|         |     |  |   |        |     |                                +--MetazoaCnidariaFungiascutaria_3193293__PLPL2_BOVIN_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |  |   |        |     |                             +--| (98)
+|         |     |  |   |        |     |                             |  |  +--MetazoaCnidariaMontastraeacavernosa_3351453__PLPL2_BOVIN_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |  |   |        |     |                             |  +--| (100)
+|         |     |  |   |        |     |                             |     +--MetazoaCnidariaMontastraeacavernosa_3351457__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |  |   |        |     |                          +--| (65)
+|         |     |  |   |        |     |                          |  |  +--MetazoaCnidariaStylophorapistillata_3677660__PLPL2_BOVIN_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |  |   |        |     |                          |  +--| (98)
+|         |     |  |   |        |     |                          |     +--MetazoaCnidariaMadracisauretenra_3305844__PLPL2_BOVIN_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |  |   |        |     |                       +--| (69)
+|         |     |  |   |        |     |                       |  +--MetazoaCnidariaMontastraeacavernosa_3351455__PLPL2_MOUSE_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |  |   |        |     |                    +--| (83)
+|         |     |  |   |        |     |                    |  |     +--MetazoaCnidariaAstreoporasp_3040313__PLPL2_BOVIN_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |  |   |        |     |                    |  |  +--| (49)
+|         |     |  |   |        |     |                    |  |  |  +--MetazoaCnidariaPoritesaustraliensis_3536047__PLPL2_BOVIN_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |  |   |        |     |                    |  +--| (35)
+|         |     |  |   |        |     |                    |     +----MetazoaCnidariaAcroporadigitifera_2943140__PLPL2_MOUSE_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |  |   |        |     |                 +--| (99)
+|         |     |  |   |        |     |                 |  |  +--MetazoaCnidariaPoritesaustraliensis_3545404__PLPL2_BOVIN_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |  |   |        |     |                 |  +--| (100)
+|         |     |  |   |        |     |                 |     +---MetazoaCnidariaStylophorapistillata_3678159__PLPL2_MOUSE_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |  |   |        |     |             +---| (100)
+|         |     |  |   |        |     |             |   |     +--MetazoaCnidariaNematostellavectensis_3383021__PLPL2_BOVIN_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |  |   |        |     |             |   |  +--| (73)
+|         |     |  |   |        |     |             |   |  |  +--MetazoaCnidariaAnthopleuraelegantissima_2996461__PLPL2_HUMAN_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |  |   |        |     |             |   +--| (74)
+|         |     |  |   |        |     |             |      +--MetazoaCnidariaAnthopleuraelegantissima_3022601__PLPL2_MOUSE_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |  |   |        |     |        +----| (100)
+|         |     |  |   |        |     |        |    |     +----MetazoaCnidariaHydramagnapapillata_3267440__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |  |   |        |     |        |    |  +--| (99)
+|         |     |  |   |        |     |        |    |  |  |  +-------MetazoaCnidariaClytiahemisphaerica_3081244__PLPL2_MOUSE_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |  |   |        |     |        |    |  |  +--| (99)
+|         |     |  |   |        |     |        |    |  |     +---MetazoaCnidariaClytiahemisphaerica_3093032__PLPL2_BOVIN_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |  |   |        |     |        |    +--| (100)
+|         |     |  |   |        |     |        |       +---MetazoaCnidariaAureliaGenome_3054510__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |  |   |        |     |     +--| (91)
+|         |     |  |   |        |     |     |  |                      +--MetazoaPlacozoaHoilungiahongkongensis_4576737__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_
+|         |     |  |   |        |     |     |  |                  +---| (100)
+|         |     |  |   |        |     |     |  |                  |   |        +--MetazoaPlacozoaHoilungiahongkongensis_4576731__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_
+|         |     |  |   |        |     |     |  |                  |   |     +--| (98)
+|         |     |  |   |        |     |     |  |                  |   |     |  +--MetazoaPlacozoaHoilungiahongkongensis_4576735__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_
+|         |     |  |   |        |     |     |  |                  |   |  +--| (97)
+|         |     |  |   |        |     |     |  |                  |   |  |  +--MetazoaPlacozoaHoilungiahongkongensis_4576732__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_
+|         |     |  |   |        |     |     |  |                  |   +--| (98)
+|         |     |  |   |        |     |     |  |                  |      +--MetazoaPlacozoaHoilungiahongkongensis_4576734__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_
+|         |     |  |   |        |     |     |  |           +------| (100)
+|         |     |  |   |        |     |     |  |           |      +--MetazoaPlacozoaEP00114TrichoplaxspH2_4506501__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_
+|         |     |  |   |        |     |     |  |  +--------| (100)
+|         |     |  |   |        |     |     |  |  |        |        +--MetazoaPlacozoaHoilungiahongkongensis_4556571__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |  |   |        |     |     |  |  |        |     +--| (100)
+|         |     |  |   |        |     |     |  |  |        |     |  +--MetazoaPlacozoaHoilungiahongkongensis_4556572__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |  |   |        |     |     |  |  |        |  +--| (100)
+|         |     |  |   |        |     |     |  |  |        |  |  +--MetazoaPlacozoaHoilungiahongkongensis_4556574__PLPL3_MOUSE_1-acylglycerol-3-phosphate_O-acyltransferase_Pnpla3_OS_
+|         |     |  |   |        |     |     |  |  |        +--| (100)
+|         |     |  |   |        |     |     |  |  |           +--MetazoaPlacozoaEP00114TrichoplaxspH2_4506491__PLPL2_MOUSE_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |  |   |        |     |     |  +--| (97)
+|         |     |  |   |        |     |     |     |        +--MetazoaPlacozoaEP00114TrichoplaxspH2_4506495__PLPL2_MOUSE_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |  |   |        |     |     |     +--------| (100)
+|         |     |  |   |        |     |     |              |  +--MetazoaPlacozoaHoilungiahongkongensis_4531996__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |  |   |        |     |     |              +--| (100)
+|         |     |  |   |        |     |     |                 +--MetazoaPlacozoaHoilungiahongkongensis_4531997__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |  |   |        |     |  +--| (60)
+|         |     |  |   |        |     |  |  |             +--MetazoaArthropodaEP00090Calanusglacialis_714708__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |  |   |        |     |  |  |          +--| (98)
+|         |     |  |   |        |     |  |  |          |  +--MetazoaArthropodaEP00090Calanusglacialis_714709__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |  |   |        |     |  |  |     +----| (100)
+|         |     |  |   |        |     |  |  |     |    +--MetazoaArthropodaEP00090Calanusglacialis_714711__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |  |   |        |     |  |  |  +--| (98)
+|         |     |  |   |        |     |  |  |  |  +-------MetazoaArthropodaEP00090Calanusglacialis_707356__PLPL2_HUMAN_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |  |   |        |     |  |  +--| (100)
+|         |     |  |   |        |     |  |     |     +--------MetazoaArthropodaDrosophilamelanogaster_252420__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |  |   |        |     |  |     |  +--| (100)
+|         |     |  |   |        |     |  |     |  |  +--MetazoaArthropodaDrosophilamelanogaster_242247__PLPL2_MOUSE_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |  |   |        |     |  |     +--| (91)
+|         |     |  |   |        |     |  |        |   +--MetazoaArthropodaDaphniapulex_206492__PLPL2_MOUSE_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |  |   |        |     |  |        +---| (100)
+|         |     |  |   |        |     |  |            +-------MetazoaArthropodaDaphniapulex_192132__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |  |   |        |     +--| (28)
+|         |     |  |   |        |        |      +------MetazoaNematodaCaenorhabditiselegans_4314361__PLPL2_CAEEL_Patanin-like_phospholipase_domain-containing_protein_atgl-1_OS_
+|         |     |  |   |        |        |  +---| (100)
+|         |     |  |   |        |        |  |   +------MetazoaNematodaLoaloa_4413114__PLPL2_CAEEL_Patanin-like_phospholipase_domain-containing_protein_atgl-1_OS_
+|         |     |  |   |        |        +--| (88)
+|         |     |  |   |        |           +----------MetazoaMolluscaEP00106Octopusbimaculoides_4169782__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |  |   |     +--| (91)
+|         |     |  |   |     |  |         +--MetazoaAcoelaHofsteniamiamia_20360__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |  |   |     |  |  +------| (100)
+|         |     |  |   |     |  |  |      +---MetazoaAcoelaHofsteniamiamia_13585__PLPL2_MOUSE_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |  |   |     |  +--| (79)
+|         |     |  |   |     |     |  +---------MetazoaUrochordataOikopleuradioica_5364601__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |  |   |     |     +--| (91)
+|         |     |  |   |     |        +--------MetazoaUrochordataEP00059Cionaintestinalis_5338889__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |  |   |  +--| (63)
+|         |     |  |   |  |  |  +---------------------------------AlveolataEP00742ColponemidiaspColp10_4283787_
+|         |     |  |   |  |  +--| (48)
+|         |     |  |   |  |     |             +--MetazoaPoriferaSyconciliatum_5115390__PLPL2_MOUSE_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |  |   |  |     |      +------| (100)
+|         |     |  |   |  |     |      |      +---MetazoaPoriferaLeucosoleniacomplicata_5050177__PLPL2_MOUSE_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |  |   |  |     |  +---| (100)
+|         |     |  |   |  |     |  |   +------------MetazoaPoriferaLeucosoleniacomplicata_5026952__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |  |   |  |     +--| (61)
+|         |     |  |   |  |        |                +--MetazoaPoriferaAmphimedonqueenslandica_4706313__PLPL2_HUMAN_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |  |   |  |        |             +--| (100)
+|         |     |  |   |  |        |             |  |   +-----MetazoaPoriferaAmphimedonqueenslandica_4706619__PLPL3_HUMAN_1-acylglycerol-3-phosphate_O-acyltransferase_PNPLA3_OS_
+|         |     |  |   |  |        |             |  +---| (100)
+|         |     |  |   |  |        |             |      +------MetazoaPoriferaAmphimedonqueenslandica_4707091__PLPL3_MOUSE_1-acylglycerol-3-phosphate_O-acyltransferase_Pnpla3_OS_
+|         |     |  |   |  |        |         +---| (100)
+|         |     |  |   |  |        |         |   +-----MetazoaPoriferaHaliclonatubifera_4961466__PLPL2_HUMAN_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |  |   |  |        |  +------| (100)
+|         |     |  |   |  |        |  |      +-------MetazoaPoriferaEphydatiamuelleri_4910595__K1109_DANRE_Transmembrane_protein_KIAA1109_homolog_OS_
+|         |     |  |   |  |        +--| (80)
+|         |     |  |   |  |           |  +---------MetazoaPoriferaEP00118Oscarellapearsei_4837898__PLPL2_HUMAN_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |     |  |   |  |           +--| (84)
+|         |     |  |   |  |              +--------------------MetazoaCnidariaMyxozoaThelohanelluskitauei_3358721__PLPL3_MOUSE_1-acylglycerol-3-phosphate_O-acyltransferase_Pnpla3_OS_
+|         |     |  |   +--| (56)
+|         |     |  |      |            +--MetazoaVertebrateHomosapiens_6463484__PLPL1_HUMAN_Patatin-like_phospholipase_domain-containing_protein_1_OS_
+|         |     |  |      +------------| (100)
+|         |     |  |                   +--MetazoaVertebrateMusmusculus_6536297__PLPL1_MOUSE_Patatin-like_phospholipase_domain-containing_protein_1_OS_
+|         |     +--| (41)
+|         |        |                            +--------ChoanoflagellataEP00040Diaphanoecagrandis_10909737__PLPL2_HUMAN_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |        |                         +--| (100)
+|         |        |                         |  |   +--ChoanoflagellataEP00037Helgoecanana_10801052__PLPL3_MOUSE_1-acylglycerol-3-phosphate_O-acyltransferase_Pnpla3_OS_
+|         |        |                         |  +---| (100)
+|         |        |                         |      +--ChoanoflagellataEP00035Acanthoecaspectabilis_10719965__PLPL2_CAEEL_Patanin-like_phospholipase_domain-containing_protein_atgl-1_OS_
+|         |        |        +----------------| (100)
+|         |        |        |                |  +---------------HaptophytaEP00319Phaeocystisglobosa_14069363__PLPL2_HUMAN_Patatin-like_phospholipase_domain-containing_protein_2_OS_
+|         |        |        |                +--| (96)
+|         |        |        |                   +-------ChoanoflagellataEP00039Didymoecacostata_10883315__PLPL2_CAEEL_Patanin-like_phospholipase_domain-containing_protein_atgl-1_OS_
+|         |        +--------| (91)
+|         |                 +-------------------------------IchthyosporeaSphaeroformaarcticaUP000054560_14622464__PLPL1_HUMAN_Patatin-like_phospholipase_domain-containing_protein_1_OS_
+|  +------| (100)
+|  |      |              +-----------RhodophytaGaldieriasulphurariaUP000030680_23117764__SDP1L_ARATH_Triacylglycerol_lipase_SDP1L_OS_
+|  |      |         +----| (100)
+|  |      |         |    |            +--GlaucophytaEP00276Gloeochaetewittrockiana_13485226__PLPL_CRYNJ_Patatin-like_phospholipase_domain-containing_protein_CNE02340_OS_
+|  |      |         |    +------------| (100)
+|  |      |         |                 +--GlaucophytaEP00276Gloeochaetewittrockiana_13491142__YEX5_SCHPO_Uncharacterized_protein_C1A6.05c_OS_
+|  |      +---------| (100)
+|  |                +------------FilastreaCapsasporaowczarzakiUP000008743_12984625__PLPL_YARLI_Patatin-like_phospholipase_domain-containing_protein_YALI0D16379g_OS_
++--| (98)
+|  +-----------------RhodophytaGaldieriasulphurariaUP000030680_23114361__YR571_MIMIV_Uncharacterized_protein_R571_OS_
+|
++------------------MalawimonadidaeEP00698Gefionellaokellyi_14706338__YR571_MIMIV_Uncharacterized_protein_R571_OS_
+
+
+Consensus tree in newick format: 
+
+(RhodophytaGaldieriasulphurariaUP000030680_23116076__YR571_MIMIV_Uncharacterized_protein_R571_OS_:1.3267034137,((((CentroplasthelidaEP00300ChoanocystisspHF7_5629128__PLPL1_MOUSE_Patatin-like_phospholipase_domain-containing_protein_1_OS_:1.8988114469,(((StramenopilesEP00652Aphanomycesastaci_26140946__PLPL2_BOVIN_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.8806519452,StramenopilesPhytophthorainfestansUP000006643_26376129__PLPL2_HUMAN_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.2902780212)100:0.7317198741,EuglenozoaEP00668Euglenalonga_12394772__PLPL2_HUMAN_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.8175434880)100:0.7687123486,CryptophyceaeGuillardiathetaUP000011087_12255011__PLPL1_MOUSE_Patatin-like_phospholipase_domain-containing_protein_1_OS_:1.7426881113)76:0.2190868115)49:0.0000020393,(((((ChoanoflagellataEP00050Salpingoecakvevrii_11198219__PLPL2_CAEEL_Patanin-like_phospholipase_domain-containing_protein_atgl-1_OS_:1.5606842299,(((CryptophyceaeGuillardiathetaUP000011087_12257361__ELOV5_XENTR_Elongation_of_very_long_chain_fatty_acids_protein_5_OS_:0.3171826247,CryptophyceaeEP00290BaffinellaspCCMP2293_12083491__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_:0.2814934373)100:0.5461900595,((HaptophytaEP00319Phaeocystisglobosa_14070199__PLPL1_HUMAN_Patatin-like_phospholipase_domain-containing_protein_1_OS_:0.7467838043,TelonemiaP00656Telonemasubtile_26565338__ELOV7_MOUSE_Elongation_of_very_long_chain_fatty_acids_protein_7_OS_:0.5993070443)55:0.1291002566,(EuglenozoaEP00668Euglenalonga_12422286__ELOV5_TACFU_Elongation_of_very_long_chain_fatty_acids_protein_5_OS_:0.6386252208,CentroplasthelidaEP00300ChoanocystisspHF7_5634236__ELOV5_TACFU_Elongation_of_very_long_chain_fatty_acids_protein_5_OS_:0.5669718622)100:0.1546108522)55:0.1778237918)100:0.6130048438,((EuglenozoaEP00668Euglenalonga_12407671__PLPL3_MOUSE_1-acylglycerol-3-phosphate_O-acyltransferase_Pnpla3_OS_:0.0000023338,EuglenozoaEP00668Euglenalonga_12407673__PLPL3_MOUSE_1-acylglycerol-3-phosphate_O-acyltransferase_Pnpla3_OS_:0.0000023338)100:0.0860502392,(EuglenozoaEP00668Euglenalonga_12407672__PLPL3_MOUSE_1-acylglycerol-3-phosphate_O-acyltransferase_Pnpla3_OS_:0.0000023338,EuglenozoaEP00668Euglenalonga_12393344__PLPL3_MOUSE_1-acylglycerol-3-phosphate_O-acyltransferase_Pnpla3_OS_:0.0000023338)92:0.0057048318)100:1.3085602466)100:0.3569006005)57:0.0590232935,ChloroplastidaChlamydomonasreinhardtiiUP000006906_6364612__PLPL1_MOUSE_Patatin-like_phospholipase_domain-containing_protein_1_OS_:1.5041783489)97:0.2274154866,((((((StramenopilesEP00652Aphanomycesastaci_26140261__PLPL2_CAEEL_Patanin-like_phospholipase_domain-containing_protein_atgl-1_OS_:0.8014121314,(StramenopilesPhytophthorainfestansUP000006643_26371863__PLPL2_CAEEL_Patanin-like_phospholipase_domain-containing_protein_atgl-1_OS_:0.2462710798,StramenopilesPhytophthorainfestansUP000006643_26371858__PLPL3_MOUSE_1-acylglycerol-3-phosphate_O-acyltransferase_Pnpla3_OS_:0.0858541660)100:0.2599141314)100:0.1448225040,StramenopilesPhytophthorainfestansUP000006643_26381713__PLPL2_MOUSE_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.7763279782)100:0.4694107651,(IchthyosporeaEP00123Amoebidiumparasiticum_14564371__PLPL2_BOVIN_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.0000027230,IchthyosporeaEP00123Amoebidiumparasiticum_14564372_:0.0377288898)100:1.0821972916)72:0.1197490942,((((IchthyosporeaSphaeroformaarcticaUP000054560_14622588__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_:0.8505472526,IchthyosporeaSphaeroformaarcticaUP000054560_14626795__PLPL2_CAEEL_Patanin-like_phospholipase_domain-containing_protein_atgl-1_OS_:0.4833739511)96:0.1252279478,IchthyosporeaEP00123Amoebidiumparasiticum_14562997__PLPL2_CAEEL_Patanin-like_phospholipase_domain-containing_protein_atgl-1_OS_:0.2802027909)100:0.2579230779,PluriformeaEP00127Corallochytriumlimacisporum_21621713__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_:0.5258032372)88:0.1810798555,(CryptophyceaeEP00290BaffinellaspCCMP2293_12030485__PLPL3_MOUSE_1-acylglycerol-3-phosphate_O-acyltransferase_Pnpla3_OS_:1.2589623886,CentroplasthelidaEP00300ChoanocystisspHF7_5613600__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_:0.7323848196)90:0.1133020064)72:0.1103863912)97:0.3123995688,(IchthyosporeaEP00123Amoebidiumparasiticum_14553437_:0.5362882286,IchthyosporeaEP00123Amoebidiumparasiticum_14555013__PLPL2_CAEEL_Patanin-like_phospholipase_domain-containing_protein_atgl-1_OS_:0.2413864434)100:0.8202134806)100:0.4221859174,AmoebozoaEP00007CuneaspBSH02190019_4977936__PLPL2_CAEEL_Patanin-like_phospholipase_domain-containing_protein_atgl-1_OS_:0.9830271649)98:0.1502375648)96:0.2079331830,(((((ChloroplastidaChlamydomonasreinhardtiiUP000006906_6352860_:0.9577051738,ChloroplastidaChlamydomonasreinhardtiiUP000006906_6359989__PLPL2_CAEEL_Patanin-like_phospholipase_domain-containing_protein_atgl-1_OS_:0.7030200204)99:0.1370935638,(CryptophyceaeEP00290BaffinellaspCCMP2293_12037293_:0.0230272046,CryptophyceaeEP00290BaffinellaspCCMP2293_12059634__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_:0.0258969172)100:1.7162137163)99:0.4444508638,((CryptophyceaeGuillardiathetaUP000011087_12253775__PLPL1_MOUSE_Patatin-like_phospholipase_domain-containing_protein_1_OS_:0.7211454974,CryptophyceaeEP00290BaffinellaspCCMP2293_12082377__PLPL1_HUMAN_Patatin-like_phospholipase_domain-containing_protein_1_OS_:0.4913361482)100:0.2198802088,(ChloroplastidaChlamydomonasreinhardtiiUP000006906_6368252__PLPL1_HUMAN_Patatin-like_phospholipase_domain-containing_protein_1_OS_:1.0933517971,ChloroplastidaEP00738Chloropiconprimus_8603645__PLPL1_MOUSE_Patatin-like_phospholipase_domain-containing_protein_1_OS_:0.6785439118)100:0.3545137214)100:0.9568583028)96:0.4933394518,(((((ChloroplastidaEP00248Marchantiapolymorpha_7463874__PLPL2_HUMAN_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.0000023338,ChloroplastidaEP00248Marchantiapolymorpha_7463875__PLPL2_HUMAN_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.0000023338)100:0.2769231243,ChloroplastidaArabidopsisthalianaUP000006548_5875873__PLPL2_MOUSE_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.3055951924)100:0.4070326132,RhodophytaEP00185Porphyridiumpurpureum_23045358__PLPL3_MOUSE_1-acylglycerol-3-phosphate_O-acyltransferase_Pnpla3_OS_:1.4898063769)99:0.2702007200,((ChloroplastidaChlamydomonasreinhardtiiUP000006906_6357326__PLPL3_HUMAN_1-acylglycerol-3-phosphate_O-acyltransferase_PNPLA3_OS_:0.9395627227,ChloroplastidaChlamydomonasreinhardtiiUP000006906_6364947__PLPL3_MOUSE_1-acylglycerol-3-phosphate_O-acyltransferase_Pnpla3_OS_:0.6488248818)100:0.5248946313,ChloroplastidaEP00738Chloropiconprimus_8600238__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_:1.2651461748)95:0.0997049959)91:0.2073096834,(((CryptophyceaeEP00290BaffinellaspCCMP2293_12053178__PLPL3_MOUSE_1-acylglycerol-3-phosphate_O-acyltransferase_Pnpla3_OS_:1.2001975263,((ChoanoflagellataEP00039Didymoecacostata_10883012__PLPL3_MOUSE_1-acylglycerol-3-phosphate_O-acyltransferase_Pnpla3_OS_:1.0865396309,ChoanoflagellataEP00040Diaphanoecagrandis_10913462__PLPL3_MOUSE_1-acylglycerol-3-phosphate_O-acyltransferase_Pnpla3_OS_:0.8668054460)89:0.4126938132,TelonemiaP00656Telonemasubtile_26528711__PLPL3_MOUSE_1-acylglycerol-3-phosphate_O-acyltransferase_Pnpla3_OS_:1.2270087013)71:0.0974067634)35:0.0464849374,IchthyosporeaSphaeroformaarcticaUP000054560_14629369__PLPL3_HUMAN_1-acylglycerol-3-phosphate_O-acyltransferase_PNPLA3_OS_:1.6112131035)47:0.1372866685,(((ChoanoflagellateaMonosigabrevicollisUP000001357_11428207__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_:0.3498435377,ChoanoflagellataEP00045Choanoecaperplexa_11094043__PLPL3_MOUSE_1-acylglycerol-3-phosphate_O-acyltransferase_Pnpla3_OS_:0.2910128615)100:0.9500155042,(CryptophyceaeGuillardiathetaUP000011087_12255253__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_:1.1382935023,((ChoanoflagellataEP00037Helgoecanana_10798029__PLPL3_HUMAN_1-acylglycerol-3-phosphate_O-acyltransferase_PNPLA3_OS_:0.4021872173,ChoanoflagellataEP00035Acanthoecaspectabilis_10751018__PLPL2_CAEEL_Patanin-like_phospholipase_domain-containing_protein_atgl-1_OS_:0.2932307894)100:0.6455331065,ChoanoflagellataEP00039Didymoecacostata_10858141__PLPL3_HUMAN_1-acylglycerol-3-phosphate_O-acyltransferase_PNPLA3_OS_:1.3208097569)94:0.2102367977)95:0.2678979685)90:0.1914919793,(StramenopilesPhytophthorainfestansUP000006643_26377724__PLPL3_MOUSE_1-acylglycerol-3-phosphate_O-acyltransferase_Pnpla3_OS_:0.8790350510,(StramenopilesEP00652Aphanomycesastaci_26137947__PLPL2_CAEEL_Patanin-like_phospholipase_domain-containing_protein_atgl-1_OS_:1.6180860610,(ChoanoflagellateaMonosigabrevicollisUP000001357_11428341__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_:0.9114534088,ChoanoflagellataEP00045Choanoecaperplexa_11081700__PLPL3_MOUSE_1-acylglycerol-3-phosphate_O-acyltransferase_Pnpla3_OS_:1.1997507338)96:0.2480678631)98:0.1963300693)98:0.1237437491)86:0.1760671820)52:0.0807812292)86:0.1728328594)68:0.2066305530,(((((CryptophyceaeEP00290BaffinellaspCCMP2293_12036668_:0.0291591728,CryptophyceaeEP00290BaffinellaspCCMP2293_12083026_:0.0000023338)100:0.3298269492,CryptophyceaeEP00290BaffinellaspCCMP2293_12076919__PLPL1_MOUSE_Patatin-like_phospholipase_domain-containing_protein_1_OS_:0.0340436886)100:0.0187174651,CryptophyceaeEP00290BaffinellaspCCMP2293_12049751_:0.0285434232)100:1.3694493644,(ChoanoflagellataEP00040Diaphanoecagrandis_10897969_:1.0652763587,EuglenozoaEP00668Euglenalonga_12436743__PLPL3_MOUSE_1-acylglycerol-3-phosphate_O-acyltransferase_Pnpla3_OS_:0.7952540531)93:0.3241781484)100:0.6513912780,HaptophytaEP00327Prymnesiumparvum_14297316_:1.6429687355)96:0.4546361506)42:0.0073109722)62:0.0968438959,(((((((((MetazoaHemichordataSaccoglossuskowalevskii_4047903__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_:1.2495454065,(MetazoaHemichordataSaccoglossuskowalevskii_4054223__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_:0.7227494044,MetazoaHemichordataSaccoglossuskowalevskii_4054239__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_:0.8366415521)100:0.3956844104)99:0.3958318908,((MetazoaHemichordataSaccoglossuskowalevskii_4069227__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_:0.5411612027,(MetazoaEchinodermataAcanthasterplanci_3781513__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_:0.3443037999,(MetazoaEchinodermataEP00057Strongylocentrotuspurpuratus_3814609__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_:0.0048860956,MetazoaEchinodermataEP00057Strongylocentrotuspurpuratus_3814610__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_:0.0055953955)100:0.3842901598)100:0.3574928438)100:0.4244470247,(MetazoaEchinodermataAcanthasterplanci_3781516__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_:0.5419576571,(MetazoaEchinodermataEP00057Strongylocentrotuspurpuratus_3814624__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_:0.9834704338,MetazoaHemichordataSaccoglossuskowalevskii_4069224__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_:0.4922597846)93:0.1452633537)100:0.2541309627)100:0.7854951234)68:0.0325060489,HaptophytaEP00319Phaeocystisglobosa_14059660__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_:1.7108700619)99:0.2495629351,((((MetazoaCnidariaNematostellavectensis_3389142__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_:0.4020157718,((((((((MetazoaCnidariaStylophorapistillata_3671855__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_:0.0254851861,MetazoaCnidariaMadracisauretenra_3299669__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_:0.0328467064)98:0.0313400973,MetazoaCnidariaAcroporadigitifera_2927550__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_:0.6389077930)99:0.0975129593,(MetazoaCnidariaFungiascutaria_3197478__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_:0.0000021233,MetazoaCnidariaPoritesaustraliensis_3548004__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_:0.1034374210)51:0.0000026114)100:0.2924984934,MetazoaCnidariaFungiascutaria_3197479__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_:0.0122743732)93:0.0915971492,MetazoaCnidariaMadracisauretenra_3290641__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_:0.1017543972)93:0.0699991794,MetazoaCnidariaAstreoporasp_3047474__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_:0.0370248495)93:0.0541794645,MetazoaCnidariaPoritesaustraliensis_3544958__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_:0.0859781849)96:0.1172444141,MetazoaCnidariaAnthopleuraelegantissima_3011003__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_:0.3346710982)99:0.2483347153)100:0.2237619643,MetazoaCnidariaGorgoniaventalina_3218415__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_:0.6660311809)97:0.0821739899,MetazoaCtenophoraMnemiopsisleidyi_3732723__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_:1.4474953342)96:0.2241386059,((MetazoaVertebrateEptatretusburgeri_6395194__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_:0.0693593975,MetazoaVertebrateEptatretusburgeri_6395195__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_:0.0000029539)100:0.8089311205,(MetazoaVertebrateHomosapiens_6456181__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_:0.3103773902,MetazoaVertebrateDaniorerio_5419850__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_:0.4773176183)99:0.3016884075)100:0.2792763570)60:0.0762891095)55:0.0575785021,(((((MetazoaAnnelidaEP00103Capitellateleta_55334__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_:0.5280628886,MetazoaAnnelidaHelobdellarobusta_106174__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_:1.3642254880)100:0.2656419592,(MetazoaMolluscaLottiagigantea_4202969__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_:0.4297069907,MetazoaMolluscaEP00106Octopusbimaculoides_4168889__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_:0.5123746215)100:0.1373762018)100:0.1806209218,(MetazoaBrachiopodaLingulaunguis_1282883__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_:0.0057713867,MetazoaBrachiopodaLingulaunguis_1284625__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_:0.0159956869)100:1.0034167744)85:0.0815965940,((((MetazoaAcoelaHofsteniamiamia_14881__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_:0.7792923654,IchthyosporeaEP00126Sphaerothecumdestruens_14608791__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_:1.3027851986)93:0.2758078892,(MetazoaBryozoaBugulaneritina_2366488__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_:0.0000020892,MetazoaBryozoaBugulaneritina_2549491__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_:0.0232919179)100:0.7755269167)92:0.2272915794,MetazoaCephalochordataBranchiostomabelcheri_2813156__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_:0.6908149858)85:0.1078956666,MetazoaHemichordataSaccoglossuskowalevskii_4058379__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_:1.1444216982)50:0.0788418768)34:0.0761280084,(((MetazoaNematodaLoaloa_4405922__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_:0.0000023338,MetazoaNematodaLoaloa_4405924__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_:0.0000025368)100:0.7238557098,MetazoaNematodaCaenorhabditiselegans_4315381__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_:0.5685164898)100:0.2348360579,MetazoaNematodaCaenorhabditiselegans_4322345__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_:0.7331651745)100:0.3641448729)36:0.0642635381)51:0.1529629641,(MetazoaEchinodermataAcanthasterplanci_3801460__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_:0.8153643032,MetazoaArthropodaEP00090Calanusglacialis_702499__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_:1.1488655733)50:0.0521194445)89:0.1851305627,FilastreaCapsasporaowczarzakiUP000008743_12978154__PLPL2_MOUSE_Patatin-like_phospholipase_domain-containing_protein_2_OS_:1.7469035314)52:0.0491189718,(((((((MetazoaVertebrateMusmusculus_6544186__PLPL3_MOUSE_1-acylglycerol-3-phosphate_O-acyltransferase_Pnpla3_OS_:0.1941749815,MetazoaVertebrateHomosapiens_6468756__PLPL3_HUMAN_1-acylglycerol-3-phosphate_O-acyltransferase_PNPLA3_OS_:0.1706995411)100:0.4264037372,(MetazoaVertebrateHomosapiens_6462071__PLPL5_HUMAN_Patatin-like_phospholipase_domain-containing_protein_5_OS_:0.2272629861,MetazoaVertebrateMusmusculus_6535411__PLPL5_MOUSE_Patatin-like_phospholipase_domain-containing_protein_5_OS_:0.1959389304)100:0.7272857247)96:0.1559432939,(((((MetazoaVertebrateHomosapiens_6465304__PLPL2_HUMAN_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.0655440640,MetazoaVertebrateMusmusculus_6540398__PLPL2_MOUSE_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.0379156128)100:0.1875526825,MetazoaVertebrateDaniorerio_5423998__PLPL2_BOVIN_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.1916206391)100:0.1387648032,(MetazoaVertebrateEptatretusburgeri_6403263__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.1396283622,(MetazoaVertebrateEptatretusburgeri_6403264__PLPL2_MOUSE_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.0000023338,MetazoaVertebrateEptatretusburgeri_6403265__PLPL2_MOUSE_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.0000023338)92:0.0000028593)100:0.2729529982)99:0.0527910234,MetazoaVertebrateDaniorerio_5413944__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.3813649827)100:0.0984646091,MetazoaVertebrateEptatretusburgeri_6406458__PLPL2_HUMAN_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.6110445120)97:0.0551966422)96:0.2356360203,((((((MetazoaAnnelidaHelobdellarobusta_106299__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.6792704139,(MetazoaAnnelidaEP00103Capitellateleta_56329__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.3652969925,(MetazoaBryozoaBugulaneritina_1482627__PLPL3_MOUSE_1-acylglycerol-3-phosphate_O-acyltransferase_Pnpla3_OS_:0.0199622623,(MetazoaBryozoaBugulaneritina_1900093__PLPL3_MOUSE_1-acylglycerol-3-phosphate_O-acyltransferase_Pnpla3_OS_:0.0000023951,MetazoaBryozoaBugulaneritina_2399029__PLPL2_MOUSE_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.0000029920)87:0.0000027539)100:0.5841034446)94:0.1127956205)83:0.0882381317,(MetazoaBrachiopodaLingulaunguis_1302087__PLPL2_HUMAN_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.1281229960,MetazoaBrachiopodaLingulaunguis_1302172__PLPL2_HUMAN_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.1458379240)100:0.1909651503)83:0.0706215188,MetazoaMolluscaLottiagigantea_4223495__PLPL2_MOUSE_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.3184287312)83:0.0923015507,(MetazoaRotiferaBrachionusplicatilis_5249869__PLPL2_MOUSE_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.6218335229,(MetazoaTardigradaRamazzotiusvarieornatus_5283329__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.0036594104,MetazoaTardigradaRamazzotiusvarieornatus_5284199__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.0118486514)100:0.6280790419)99:0.1319222378)65:0.0126579061,((MetazoaEchinodermataEP00057Strongylocentrotuspurpuratus_3834401__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.4109931429,MetazoaEchinodermataAcanthasterplanci_3788586__PLPL2_MOUSE_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.5802283533)92:0.1824908463,(MetazoaCephalochordataBranchiostomabelcheri_2805666__PLPL2_MOUSE_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.5826018913,MetazoaHemichordataSaccoglossuskowalevskii_4055930__PLPL2_MOUSE_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.3808112781)71:0.0485840913)76:0.0681792042)65:0.0610523510,((((((((((MetazoaCnidariaFungiascutaria_3193293__PLPL2_BOVIN_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.0178281289,(MetazoaCnidariaMontastraeacavernosa_3351453__PLPL2_BOVIN_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.0000023338,MetazoaCnidariaMontastraeacavernosa_3351457__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.0000023338)100:0.0410944223)98:0.0243934930,(MetazoaCnidariaStylophorapistillata_3677660__PLPL2_BOVIN_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.0387696157,MetazoaCnidariaMadracisauretenra_3305844__PLPL2_BOVIN_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.0000023338)98:0.0144062389)65:0.0064467212,MetazoaCnidariaMontastraeacavernosa_3351455__PLPL2_MOUSE_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.0212079183)69:0.0168368444,((MetazoaCnidariaAstreoporasp_3040313__PLPL2_BOVIN_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.0382832367,MetazoaCnidariaPoritesaustraliensis_3536047__PLPL2_BOVIN_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.0482557701)49:0.0181335464,MetazoaCnidariaAcroporadigitifera_2943140__PLPL2_MOUSE_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.3834831285)35:0.0000023951)83:0.0597378550,(MetazoaCnidariaPoritesaustraliensis_3545404__PLPL2_BOVIN_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.2473757058,MetazoaCnidariaStylophorapistillata_3678159__PLPL2_MOUSE_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.2983763557)100:0.1520240411)99:0.1075007687,((MetazoaCnidariaNematostellavectensis_3383021__PLPL2_BOVIN_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.1523258258,MetazoaCnidariaAnthopleuraelegantissima_2996461__PLPL2_HUMAN_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.0791637276)73:0.0281925131,MetazoaCnidariaAnthopleuraelegantissima_3022601__PLPL2_MOUSE_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.1148892557)74:0.0332509527)100:0.2991742556,((MetazoaCnidariaHydramagnapapillata_3267440__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.4306342750,(MetazoaCnidariaClytiahemisphaerica_3081244__PLPL2_MOUSE_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.6093916229,MetazoaCnidariaClytiahemisphaerica_3093032__PLPL2_BOVIN_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.3305273409)99:0.0862267443)99:0.1269321394,MetazoaCnidariaAureliaGenome_3054510__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.3164766974)100:0.2690699992)100:0.3814480906,((((MetazoaPlacozoaHoilungiahongkongensis_4576737__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_:0.0000023459,(((MetazoaPlacozoaHoilungiahongkongensis_4576731__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_:0.0297482729,MetazoaPlacozoaHoilungiahongkongensis_4576735__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_:0.0000021552)98:0.0327041280,MetazoaPlacozoaHoilungiahongkongensis_4576732__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_:0.0000024363)97:0.0095592582,MetazoaPlacozoaHoilungiahongkongensis_4576734__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_:0.0000023338)98:0.0195356787)100:0.3201496182,MetazoaPlacozoaEP00114TrichoplaxspH2_4506501__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_:0.2695123470)100:0.5338061355,(((MetazoaPlacozoaHoilungiahongkongensis_4556571__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.0033489718,MetazoaPlacozoaHoilungiahongkongensis_4556572__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.0000026790)100:0.0506468947,MetazoaPlacozoaHoilungiahongkongensis_4556574__PLPL3_MOUSE_1-acylglycerol-3-phosphate_O-acyltransferase_Pnpla3_OS_:0.0870695789)100:0.1207411948,MetazoaPlacozoaEP00114TrichoplaxspH2_4506491__PLPL2_MOUSE_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.1609887457)100:0.2523785378)100:0.7071570523,(MetazoaPlacozoaEP00114TrichoplaxspH2_4506495__PLPL2_MOUSE_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.0787278738,(MetazoaPlacozoaHoilungiahongkongensis_4531996__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.0000026874,MetazoaPlacozoaHoilungiahongkongensis_4531997__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.0067198484)100:0.0509955467)100:0.7062112593)97:0.1456681525)91:0.2297421336,((((MetazoaArthropodaEP00090Calanusglacialis_714708__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.0000023338,MetazoaArthropodaEP00090Calanusglacialis_714709__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.0000023338)98:0.0180522098,MetazoaArthropodaEP00090Calanusglacialis_714711__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.0537283848)100:0.4048297618,MetazoaArthropodaEP00090Calanusglacialis_707356__PLPL2_HUMAN_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.6212567804)98:0.1147362891,((MetazoaArthropodaDrosophilamelanogaster_252420__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.7149595116,MetazoaArthropodaDrosophilamelanogaster_242247__PLPL2_MOUSE_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.1537449315)100:0.2267287497,(MetazoaArthropodaDaphniapulex_206492__PLPL2_MOUSE_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.0989590486,MetazoaArthropodaDaphniapulex_192132__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.6049952589)100:0.2996507448)91:0.0961161603)100:0.1963752501)60:0.0685208638,((MetazoaNematodaCaenorhabditiselegans_4314361__PLPL2_CAEEL_Patanin-like_phospholipase_domain-containing_protein_atgl-1_OS_:0.5510102195,MetazoaNematodaLoaloa_4413114__PLPL2_CAEEL_Patanin-like_phospholipase_domain-containing_protein_atgl-1_OS_:0.5416309361)100:0.2960517617,MetazoaMolluscaEP00106Octopusbimaculoides_4169782__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.8423098843)88:0.1563817493)28:0.0631436040)64:0.1214704116)48:0.0633544899,((MetazoaAcoelaHofsteniamiamia_20360__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.2359669296,MetazoaAcoelaHofsteniamiamia_13585__PLPL2_MOUSE_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.3023695792)100:0.5322720831,(MetazoaUrochordataOikopleuradioica_5364601__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.7698470938,MetazoaUrochordataEP00059Cionaintestinalis_5338889__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.7183024705)91:0.1273914734)79:0.1378197462)91:0.1978718250,(AlveolataEP00742ColponemidiaspColp10_4283787_:2.4999064282,(((MetazoaPoriferaSyconciliatum_5115390__PLPL2_MOUSE_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.2000114106,MetazoaPoriferaLeucosoleniacomplicata_5050177__PLPL2_MOUSE_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.3036755687)100:0.5560380138,MetazoaPoriferaLeucosoleniacomplicata_5026952__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_:1.0168135409)100:0.3146022240,((((MetazoaPoriferaAmphimedonqueenslandica_4706313__PLPL2_HUMAN_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.2910774073,(MetazoaPoriferaAmphimedonqueenslandica_4706619__PLPL3_HUMAN_1-acylglycerol-3-phosphate_O-acyltransferase_PNPLA3_OS_:0.5103572815,MetazoaPoriferaAmphimedonqueenslandica_4707091__PLPL3_MOUSE_1-acylglycerol-3-phosphate_O-acyltransferase_Pnpla3_OS_:0.5423346420)100:0.3056580549)100:0.1478160488,MetazoaPoriferaHaliclonatubifera_4961466__PLPL2_HUMAN_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.4569436388)100:0.3060744745,MetazoaPoriferaEphydatiamuelleri_4910595__K1109_DANRE_Transmembrane_protein_KIAA1109_homolog_OS_:0.6042779253)100:0.5671752461,(MetazoaPoriferaEP00118Oscarellapearsei_4837898__PLPL2_HUMAN_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.7790724186,MetazoaCnidariaMyxozoaThelohanelluskitauei_3358721__PLPL3_MOUSE_1-acylglycerol-3-phosphate_O-acyltransferase_Pnpla3_OS_:1.5586496738)84:0.1436958924)80:0.1714402460)61:0.1082628266)48:0.0216477955)63:0.1181832768,(MetazoaVertebrateHomosapiens_6463484__PLPL1_HUMAN_Patatin-like_phospholipase_domain-containing_protein_1_OS_:0.1984970891,MetazoaVertebrateMusmusculus_6536297__PLPL1_MOUSE_Patatin-like_phospholipase_domain-containing_protein_1_OS_:0.1831793269)100:1.0020182391)56:0.0594893800)99:0.3112570992,(((ChoanoflagellataEP00040Diaphanoecagrandis_10909737__PLPL2_HUMAN_Patatin-like_phospholipase_domain-containing_protein_2_OS_:0.7065643729,(ChoanoflagellataEP00037Helgoecanana_10801052__PLPL3_MOUSE_1-acylglycerol-3-phosphate_O-acyltransferase_Pnpla3_OS_:0.1287265451,ChoanoflagellataEP00035Acanthoecaspectabilis_10719965__PLPL2_CAEEL_Patanin-like_phospholipase_domain-containing_protein_atgl-1_OS_:0.1350907306)100:0.3106624967)100:0.1301500745,(HaptophytaEP00319Phaeocystisglobosa_14069363__PLPL2_HUMAN_Patatin-like_phospholipase_domain-containing_protein_2_OS_:1.2110703137,ChoanoflagellataEP00039Didymoecacostata_10883315__PLPL2_CAEEL_Patanin-like_phospholipase_domain-containing_protein_atgl-1_OS_:0.6197662588)96:0.1031153006)100:1.3184399941,IchthyosporeaSphaeroformaarcticaUP000054560_14622464__PLPL1_HUMAN_Patatin-like_phospholipase_domain-containing_protein_1_OS_:2.3708397883)91:0.6787484218)41:0.0000027068)80:0.1478342687)94:0.1707530299,((RhodophytaGaldieriasulphurariaUP000030680_23117764__SDP1L_ARATH_Triacylglycerol_lipase_SDP1L_OS_:0.9329983274,(GlaucophytaEP00276Gloeochaetewittrockiana_13485226__PLPL_CRYNJ_Patatin-like_phospholipase_domain-containing_protein_CNE02340_OS_:0.2466354577,GlaucophytaEP00276Gloeochaetewittrockiana_13491142__YEX5_SCHPO_Uncharacterized_protein_C1A6.05c_OS_:0.2272497409)100:1.0024635291)100:0.4127875425,FilastreaCapsasporaowczarzakiUP000008743_12984625__PLPL_YARLI_Patatin-like_phospholipase_domain-containing_protein_YALI0D16379g_OS_:1.0089899109)100:0.7908817669)100:0.5564743136,RhodophytaGaldieriasulphurariaUP000030680_23114361__YR571_MIMIV_Uncharacterized_protein_R571_OS_:1.3827096010)98:0.2087368019,MalawimonadidaeEP00698Gefionellaokellyi_14706338__YR571_MIMIV_Uncharacterized_protein_R571_OS_:1.3946105489);
+
+TIME STAMP
+----------
+
+Date and time: Thu Dec  8 14:10:45 2022
+Total CPU time used: 4034.206707 seconds (1h:7m:14s)
+Total wall-clock time used: 1033.29061 seconds (0h:17m:13s)
+

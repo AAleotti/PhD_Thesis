@@ -1,0 +1,533 @@
+IQ-TREE multicore version 2.0.6 for Linux 64-bit built May 30 2020
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    node142 (AVX2, FMA3, 125 GB RAM)
+Command: iqtree2 -s PNPLA4.fasta.cdhit.mafft.trimal -m MFP -B 1000 --alrt 1000 --abayes -T AUTO --prefix PNPLA4.fasta.cdhit.mafft.trimal.UFB
+Seed:    638400 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Thu Dec  8 13:40:41 2022
+Kernel:  AVX+FMA - auto-detect threads (28 CPU cores detected)
+
+Reading alignment file PNPLA4.fasta.cdhit.mafft.trimal ... Fasta format detected
+Alignment most likely contains protein sequences
+Alignment has 215 sequences with 367 columns, 367 distinct patterns
+364 parsimony-informative, 3 singleton sites, 0 constant sites
+                                                                                                                                         Gap/Ambiguity  Composition  p-value
+   1  RhodophytaGaldieriasulphurariaUP000030680_23116076__YR571_MIMIV_Uncharacterized_protein_R571_OS_                                          35.69%    passed     69.01%
+   2  CentroplasthelidaEP00300ChoanocystisspHF7_5629128__PLPL1_MOUSE_Patatin-like_phospholipase_domain-containing_protein_1_OS_                 54.77%    failed      1.18%
+   3  ChoanoflagellataEP00050Salpingoecakvevrii_11198219__PLPL2_CAEEL_Patanin-like_phospholipase_domain-containing_protein_atgl-1_OS_           42.78%    passed      5.09%
+   4  CryptophyceaeGuillardiathetaUP000011087_12257361__ELOV5_XENTR_Elongation_of_very_long_chain_fatty_acids_protein_5_OS_                     53.95%    passed     20.02%
+   5  ChloroplastidaChlamydomonasreinhardtiiUP000006906_6352860_                                                                                27.79%    failed      0.00%
+   6  CryptophyceaeEP00290BaffinellaspCCMP2293_12036668_                                                                                        46.87%    failed      0.74%
+   7  CryptophyceaeEP00290BaffinellaspCCMP2293_12083026_                                                                                        45.50%    failed      0.63%
+   8  CryptophyceaeEP00290BaffinellaspCCMP2293_12049751_                                                                                        45.23%    passed     15.02%
+   9  CryptophyceaeEP00290BaffinellaspCCMP2293_12076919__PLPL1_MOUSE_Patatin-like_phospholipase_domain-containing_protein_1_OS_                 46.87%    passed     25.98%
+  10  MetazoaHemichordataSaccoglossuskowalevskii_4047903__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_                30.79%    failed      0.02%
+  11  MetazoaVertebrateMusmusculus_6544186__PLPL3_MOUSE_1-acylglycerol-3-phosphate_O-acyltransferase_Pnpla3_OS_                                  5.18%    passed     85.21%
+  12  StramenopilesEP00652Aphanomycesastaci_26140946__PLPL2_BOVIN_Patatin-like_phospholipase_domain-containing_protein_2_OS_                    46.59%    passed     32.78%
+  13  HaptophytaEP00327Prymnesiumparvum_14297316_                                                                                               23.16%    failed      4.59%
+  14  AlveolataEP00742ColponemidiaspColp10_4283787_                                                                                             10.63%    failed      1.96%
+  15  StramenopilesEP00652Aphanomycesastaci_26140261__PLPL2_CAEEL_Patanin-like_phospholipase_domain-containing_protein_atgl-1_OS_               29.97%    failed      0.52%
+  16  CryptophyceaeGuillardiathetaUP000011087_12253775__PLPL1_MOUSE_Patatin-like_phospholipase_domain-containing_protein_1_OS_                  42.51%    failed      0.44%
+  17  ChloroplastidaChlamydomonasreinhardtiiUP000006906_6359989__PLPL2_CAEEL_Patanin-like_phospholipase_domain-containing_protein_atgl-1_OS_    42.23%    failed      0.00%
+  18  CryptophyceaeGuillardiathetaUP000011087_12255011__PLPL1_MOUSE_Patatin-like_phospholipase_domain-containing_protein_1_OS_                  51.77%    passed     66.11%
+  19  StramenopilesPhytophthorainfestansUP000006643_26371863__PLPL2_CAEEL_Patanin-like_phospholipase_domain-containing_protein_atgl-1_OS_       28.61%    passed     15.03%
+  20  MetazoaAnnelidaHelobdellarobusta_106299__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_                             29.43%    passed     19.57%
+  21  MetazoaCnidariaNematostellavectensis_3389142__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_                      32.43%    passed     93.96%
+  22  ChoanoflagellataEP00040Diaphanoecagrandis_10909737__PLPL2_HUMAN_Patatin-like_phospholipase_domain-containing_protein_2_OS_                38.69%    failed      1.48%
+  23  MetazoaPoriferaSyconciliatum_5115390__PLPL2_MOUSE_Patatin-like_phospholipase_domain-containing_protein_2_OS_                               8.17%    passed     49.15%
+  24  IchthyosporeaEP00123Amoebidiumparasiticum_14553437_                                                                                       64.03%    passed     45.42%
+  25  MetazoaCnidariaFungiascutaria_3193293__PLPL2_BOVIN_Patatin-like_phospholipase_domain-containing_protein_2_OS_                              2.72%    passed     72.30%
+  26  MetazoaCnidariaStylophorapistillata_3671855__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_                       29.16%    passed     76.71%
+  27  StramenopilesPhytophthorainfestansUP000006643_26381713__PLPL2_MOUSE_Patatin-like_phospholipase_domain-containing_protein_2_OS_            29.16%    failed      1.50%
+  28  MetazoaPoriferaAmphimedonqueenslandica_4706313__PLPL2_HUMAN_Patatin-like_phospholipase_domain-containing_protein_2_OS_                    18.53%    passed     40.77%
+  29  MetazoaCnidariaPoritesaustraliensis_3544958__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_                       31.88%    passed     90.69%
+  30  MetazoaCnidariaPoritesaustraliensis_3545404__PLPL2_BOVIN_Patatin-like_phospholipase_domain-containing_protein_2_OS_                       18.80%    passed     68.44%
+  31  MetazoaEchinodermataEP00057Strongylocentrotuspurpuratus_3834401__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_      4.09%    passed     55.22%
+  32  MetazoaNematodaCaenorhabditiselegans_4314361__PLPL2_CAEEL_Patanin-like_phospholipase_domain-containing_protein_atgl-1_OS_                  3.54%    passed     77.36%
+  33  MetazoaCnidariaFungiascutaria_3197478__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_                             27.25%    passed     66.58%
+  34  MetazoaCnidariaFungiascutaria_3197479__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_                             30.52%    passed     87.72%
+  35  MetazoaArthropodaEP00090Calanusglacialis_714708__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_                     28.07%    passed     66.41%
+  36  MetazoaArthropodaEP00090Calanusglacialis_714709__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_                      5.45%    passed     93.91%
+  37  MetazoaArthropodaEP00090Calanusglacialis_714711__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_                     68.94%    passed     21.12%
+  38  ChloroplastidaEP00248Marchantiapolymorpha_7463874__PLPL2_HUMAN_Patatin-like_phospholipase_domain-containing_protein_2_OS_                 37.60%    passed     74.01%
+  39  ChloroplastidaEP00248Marchantiapolymorpha_7463875__PLPL2_HUMAN_Patatin-like_phospholipase_domain-containing_protein_2_OS_                 37.60%    passed     74.01%
+  40  MetazoaCnidariaStylophorapistillata_3677660__PLPL2_BOVIN_Patatin-like_phospholipase_domain-containing_protein_2_OS_                        3.00%    passed     79.55%
+  41  MetazoaCnidariaStylophorapistillata_3678159__PLPL2_MOUSE_Patatin-like_phospholipase_domain-containing_protein_2_OS_                        2.72%    passed     65.31%
+  42  MetazoaMolluscaLottiagigantea_4223495__PLPL2_MOUSE_Patatin-like_phospholipase_domain-containing_protein_2_OS_                             12.53%    passed     47.38%
+  43  MetazoaAnnelidaEP00103Capitellateleta_55334__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_                       30.25%    passed     23.76%
+  44  MetazoaCnidariaGorgoniaventalina_3218415__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_                          58.58%    passed     21.17%
+  45  MetazoaAnnelidaEP00103Capitellateleta_56329__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_                         13.08%    passed     88.39%
+  46  MetazoaBrachiopodaLingulaunguis_1302087__PLPL2_HUMAN_Patatin-like_phospholipase_domain-containing_protein_2_OS_                            3.81%    passed     14.31%
+  47  MetazoaBrachiopodaLingulaunguis_1302172__PLPL2_HUMAN_Patatin-like_phospholipase_domain-containing_protein_2_OS_                            4.63%    passed     31.29%
+  48  CryptophyceaeEP00290BaffinellaspCCMP2293_12053178__PLPL3_MOUSE_1-acylglycerol-3-phosphate_O-acyltransferase_Pnpla3_OS_                    40.05%    passed     45.01%
+  49  MetazoaCephalochordataBranchiostomabelcheri_2805666__PLPL2_MOUSE_Patatin-like_phospholipase_domain-containing_protein_2_OS_                6.81%    passed     88.94%
+  50  HaptophytaEP00319Phaeocystisglobosa_14070199__PLPL1_HUMAN_Patatin-like_phospholipase_domain-containing_protein_1_OS_                      37.60%    failed      0.26%
+  51  MetazoaArthropodaDrosophilamelanogaster_252420__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_                       7.90%    failed      0.02%
+  52  CryptophyceaeEP00290BaffinellaspCCMP2293_12082377__PLPL1_HUMAN_Patatin-like_phospholipase_domain-containing_protein_1_OS_                 30.25%    passed     18.10%
+  53  ChoanoflagellataEP00039Didymoecacostata_10883012__PLPL3_MOUSE_1-acylglycerol-3-phosphate_O-acyltransferase_Pnpla3_OS_                     43.60%    passed     84.31%
+  54  MetazoaEchinodermataAcanthasterplanci_3788586__PLPL2_MOUSE_Patatin-like_phospholipase_domain-containing_protein_2_OS_                      5.18%    passed     98.86%
+  55  CryptophyceaeEP00290BaffinellaspCCMP2293_12083491__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_                 29.16%    failed      0.00%
+  56  MetazoaCnidariaAstreoporasp_3040313__PLPL2_BOVIN_Patatin-like_phospholipase_domain-containing_protein_2_OS_                                2.72%    passed     64.72%
+  57  MetazoaNematodaLoaloa_4405922__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_                                     32.70%    passed     66.49%
+  58  MetazoaNematodaLoaloa_4405924__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_                                     29.70%    passed     41.84%
+  59  MetazoaArthropodaDaphniapulex_206492__PLPL2_MOUSE_Patatin-like_phospholipase_domain-containing_protein_2_OS_                               4.09%    passed     84.19%
+  60  MetazoaAcoelaHofsteniamiamia_14881__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_                                32.70%    passed     21.76%
+  61  MetazoaCnidariaMadracisauretenra_3290641__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_                          37.87%    passed     96.69%
+  62  MetazoaPoriferaLeucosoleniacomplicata_5050177__PLPL2_MOUSE_Patatin-like_phospholipase_domain-containing_protein_2_OS_                      8.72%    passed     86.47%
+  63  MetazoaNematodaLoaloa_4413114__PLPL2_CAEEL_Patanin-like_phospholipase_domain-containing_protein_atgl-1_OS_                                13.62%    failed      3.03%
+  64  MetazoaCnidariaAstreoporasp_3047474__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_                               32.43%    passed     85.05%
+  65  MetazoaCephalochordataBranchiostomabelcheri_2813156__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_               27.52%    passed     56.48%
+  66  MetazoaVertebrateEptatretusburgeri_6395194__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_                        37.60%    passed     24.50%
+  67  MetazoaVertebrateEptatretusburgeri_6395195__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_                        31.06%    passed     23.91%
+  68  MetazoaAcoelaHofsteniamiamia_20360__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_                                  14.44%    passed     49.58%
+  69  ChoanoflagellateaMonosigabrevicollisUP000001357_11428207__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_          32.43%    passed      6.43%
+  70  MetazoaHemichordataSaccoglossuskowalevskii_4055930__PLPL2_MOUSE_Patatin-like_phospholipase_domain-containing_protein_2_OS_                 5.99%    passed     82.93%
+  71  ChloroplastidaChlamydomonasreinhardtiiUP000006906_6357326__PLPL3_HUMAN_1-acylglycerol-3-phosphate_O-acyltransferase_PNPLA3_OS_            39.51%    passed     94.41%
+  72  CryptophyceaeGuillardiathetaUP000011087_12255253__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_                  39.24%    passed     89.94%
+  73  ChoanoflagellataEP00037Helgoecanana_10798029__PLPL3_HUMAN_1-acylglycerol-3-phosphate_O-acyltransferase_PNPLA3_OS_                         37.33%    passed     78.08%
+  74  EuglenozoaEP00668Euglenalonga_12407671__PLPL3_MOUSE_1-acylglycerol-3-phosphate_O-acyltransferase_Pnpla3_OS_                               41.69%    failed      1.25%
+  75  EuglenozoaEP00668Euglenalonga_12407672__PLPL3_MOUSE_1-acylglycerol-3-phosphate_O-acyltransferase_Pnpla3_OS_                               40.05%    failed      2.21%
+  76  EuglenozoaEP00668Euglenalonga_12407673__PLPL3_MOUSE_1-acylglycerol-3-phosphate_O-acyltransferase_Pnpla3_OS_                               41.69%    failed      1.25%
+  77  EuglenozoaEP00668Euglenalonga_12393344__PLPL3_MOUSE_1-acylglycerol-3-phosphate_O-acyltransferase_Pnpla3_OS_                               40.05%    failed      2.21%
+  78  MetazoaBryozoaBugulaneritina_2366488__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_                              22.34%    passed     26.24%
+  79  ChloroplastidaChlamydomonasreinhardtiiUP000006906_6364947__PLPL3_MOUSE_1-acylglycerol-3-phosphate_O-acyltransferase_Pnpla3_OS_            29.97%    passed      5.07%
+  80  MetazoaEchinodermataAcanthasterplanci_3801460__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_                     29.97%    passed     93.99%
+  81  MetazoaMolluscaLottiagigantea_4202969__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_                             29.16%    passed     56.25%
+  82  MetazoaMolluscaEP00106Octopusbimaculoides_4169782__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_                    3.54%    failed      4.45%
+  83  ChloroplastidaArabidopsisthalianaUP000006548_5875873__PLPL2_MOUSE_Patatin-like_phospholipase_domain-containing_protein_2_OS_              37.33%    passed     55.11%
+  84  MetazoaCnidariaMontastraeacavernosa_3351455__PLPL2_MOUSE_Patatin-like_phospholipase_domain-containing_protein_2_OS_                       60.49%    passed     39.95%
+  85  ChloroplastidaChlamydomonasreinhardtiiUP000006906_6368252__PLPL1_HUMAN_Patatin-like_phospholipase_domain-containing_protein_1_OS_         35.97%    passed     62.44%
+  86  MetazoaPoriferaEP00118Oscarellapearsei_4837898__PLPL2_HUMAN_Patatin-like_phospholipase_domain-containing_protein_2_OS_                    10.63%    passed     28.52%
+  87  MetazoaCnidariaNematostellavectensis_3383021__PLPL2_BOVIN_Patatin-like_phospholipase_domain-containing_protein_2_OS_                      28.07%    passed     79.75%
+  88  MetazoaVertebrateHomosapiens_6456181__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_                              31.61%    passed     91.35%
+  89  EuglenozoaEP00668Euglenalonga_12422286__ELOV5_TACFU_Elongation_of_very_long_chain_fatty_acids_protein_5_OS_                               34.88%    failed      1.60%
+  90  IchthyosporeaSphaeroformaarcticaUP000054560_14622588__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_              23.43%    passed     41.14%
+  91  MetazoaCnidariaPoritesaustraliensis_3536047__PLPL2_BOVIN_Patatin-like_phospholipase_domain-containing_protein_2_OS_                        2.18%    passed     36.63%
+  92  MetazoaVertebrateHomosapiens_6462071__PLPL5_HUMAN_Patatin-like_phospholipase_domain-containing_protein_5_OS_                               8.17%    passed     31.09%
+  93  MetazoaArthropodaEP00090Calanusglacialis_707356__PLPL2_HUMAN_Patatin-like_phospholipase_domain-containing_protein_2_OS_                   75.48%    passed     70.41%
+  94  MalawimonadidaeEP00698Gefionellaokellyi_14706338__YR571_MIMIV_Uncharacterized_protein_R571_OS_                                            32.70%    failed      0.28%
+  95  MetazoaCnidariaMontastraeacavernosa_3351453__PLPL2_BOVIN_Patatin-like_phospholipase_domain-containing_protein_2_OS_                       75.48%    passed     48.11%
+  96  MetazoaCnidariaMontastraeacavernosa_3351457__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_                         71.12%    passed     62.49%
+  97  MetazoaHemichordataSaccoglossuskowalevskii_4069227__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_                30.52%    passed     86.25%
+  98  ChoanoflagellataEP00040Diaphanoecagrandis_10897969_                                                                                       49.05%    passed     75.37%
+  99  CryptophyceaeEP00290BaffinellaspCCMP2293_12037293_                                                                                        61.04%    passed      9.96%
+ 100  CryptophyceaeEP00290BaffinellaspCCMP2293_12059634__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_                 55.86%    failed      3.45%
+ 101  MetazoaEchinodermataAcanthasterplanci_3781513__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_                     36.51%    passed     66.04%
+ 102  MetazoaEchinodermataAcanthasterplanci_3781516__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_                     31.61%    passed     79.33%
+ 103  MetazoaBryozoaBugulaneritina_1482627__PLPL3_MOUSE_1-acylglycerol-3-phosphate_O-acyltransferase_Pnpla3_OS_                                 83.65%    passed     77.91%
+ 104  IchthyosporeaEP00126Sphaerothecumdestruens_14608791__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_                 70.03%    passed     23.15%
+ 105  HaptophytaEP00319Phaeocystisglobosa_14069363__PLPL2_HUMAN_Patatin-like_phospholipase_domain-containing_protein_2_OS_                      38.15%    failed      0.26%
+ 106  MetazoaCnidariaAnthopleuraelegantissima_2996461__PLPL2_HUMAN_Patatin-like_phospholipase_domain-containing_protein_2_OS_                   43.87%    passed      8.86%
+ 107  MetazoaEchinodermataEP00057Strongylocentrotuspurpuratus_3814609__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_   30.52%    passed     92.55%
+ 108  MetazoaEchinodermataEP00057Strongylocentrotuspurpuratus_3814610__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_   30.52%    passed     98.26%
+ 109  MetazoaEchinodermataEP00057Strongylocentrotuspurpuratus_3814624__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_   33.51%    passed     79.44%
+ 110  MetazoaHemichordataSaccoglossuskowalevskii_4054223__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_                33.24%    passed     28.70%
+ 111  MetazoaCnidariaAcroporadigitifera_2927550__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_                         47.14%    passed     62.66%
+ 112  MetazoaHemichordataSaccoglossuskowalevskii_4069224__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_                32.43%    passed     33.35%
+ 113  MetazoaRotiferaBrachionusplicatilis_5249869__PLPL2_MOUSE_Patatin-like_phospholipase_domain-containing_protein_2_OS_                        4.90%    passed     23.93%
+ 114  ChoanoflagellataEP00037Helgoecanana_10801052__PLPL3_MOUSE_1-acylglycerol-3-phosphate_O-acyltransferase_Pnpla3_OS_                         35.15%    passed     60.13%
+ 115  EuglenozoaEP00668Euglenalonga_12394772__PLPL2_HUMAN_Patatin-like_phospholipase_domain-containing_protein_2_OS_                            50.41%    passed      8.71%
+ 116  MetazoaCnidariaHydramagnapapillata_3267440__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_                          11.99%    passed     18.81%
+ 117  ChoanoflagellataEP00035Acanthoecaspectabilis_10719965__PLPL2_CAEEL_Patanin-like_phospholipase_domain-containing_protein_atgl-1_OS_        35.15%    passed     93.67%
+ 118  IchthyosporeaEP00123Amoebidiumparasiticum_14564371__PLPL2_BOVIN_Patatin-like_phospholipase_domain-containing_protein_2_OS_                26.16%    passed     44.39%
+ 119  IchthyosporeaEP00123Amoebidiumparasiticum_14564372_                                                                                       44.96%    passed     34.20%
+ 120  RhodophytaGaldieriasulphurariaUP000030680_23114361__YR571_MIMIV_Uncharacterized_protein_R571_OS_                                          27.52%    failed      1.79%
+ 121  MetazoaUrochordataOikopleuradioica_5364601__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_                          22.89%    passed     56.91%
+ 122  StramenopilesPhytophthorainfestansUP000006643_26376129__PLPL2_HUMAN_Patatin-like_phospholipase_domain-containing_protein_2_OS_            49.59%    passed     21.62%
+ 123  IchthyosporeaSphaeroformaarcticaUP000054560_14629369__PLPL3_HUMAN_1-acylglycerol-3-phosphate_O-acyltransferase_PNPLA3_OS_                 38.69%    passed     54.50%
+ 124  EuglenozoaEP00668Euglenalonga_12436743__PLPL3_MOUSE_1-acylglycerol-3-phosphate_O-acyltransferase_Pnpla3_OS_                               42.51%    passed      5.72%
+ 125  MetazoaArthropodaEP00090Calanusglacialis_702499__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_                   68.94%    passed     49.13%
+ 126  StramenopilesPhytophthorainfestansUP000006643_26377724__PLPL3_MOUSE_1-acylglycerol-3-phosphate_O-acyltransferase_Pnpla3_OS_               38.96%    passed     92.66%
+ 127  MetazoaVertebrateDaniorerio_5419850__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_                               31.88%    passed     60.54%
+ 128  ChoanoflagellataEP00040Diaphanoecagrandis_10913462__PLPL3_MOUSE_1-acylglycerol-3-phosphate_O-acyltransferase_Pnpla3_OS_                   37.06%    passed     95.61%
+ 129  MetazoaPlacozoaHoilungiahongkongensis_4576737__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_                     12.26%    failed      2.64%
+ 130  MetazoaPlacozoaHoilungiahongkongensis_4576731__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_                     62.94%    passed     22.05%
+ 131  MetazoaPlacozoaHoilungiahongkongensis_4576732__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_                     14.17%    failed      4.69%
+ 132  MetazoaPlacozoaHoilungiahongkongensis_4576734__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_                     15.80%    passed      5.89%
+ 133  MetazoaPlacozoaHoilungiahongkongensis_4576735__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_                     22.89%    passed     18.63%
+ 134  MetazoaPoriferaEphydatiamuelleri_4910595__K1109_DANRE_Transmembrane_protein_KIAA1109_homolog_OS_                                           7.36%    passed     33.81%
+ 135  MetazoaVertebrateHomosapiens_6463484__PLPL1_HUMAN_Patatin-like_phospholipase_domain-containing_protein_1_OS_                               4.90%    passed     26.67%
+ 136  IchthyosporeaEP00123Amoebidiumparasiticum_14555013__PLPL2_CAEEL_Patanin-like_phospholipase_domain-containing_protein_atgl-1_OS_           44.69%    passed     49.43%
+ 137  ChoanoflagellataEP00035Acanthoecaspectabilis_10751018__PLPL2_CAEEL_Patanin-like_phospholipase_domain-containing_protein_atgl-1_OS_        37.60%    passed     35.33%
+ 138  MetazoaVertebrateHomosapiens_6465304__PLPL2_HUMAN_Patatin-like_phospholipase_domain-containing_protein_2_OS_                               3.27%    passed     63.45%
+ 139  MetazoaPoriferaAmphimedonqueenslandica_4706619__PLPL3_HUMAN_1-acylglycerol-3-phosphate_O-acyltransferase_PNPLA3_OS_                       57.77%    passed     67.81%
+ 140  MetazoaPoriferaAmphimedonqueenslandica_4707091__PLPL3_MOUSE_1-acylglycerol-3-phosphate_O-acyltransferase_Pnpla3_OS_                       44.96%    passed     59.58%
+ 141  FilastreaCapsasporaowczarzakiUP000008743_12978154__PLPL2_MOUSE_Patatin-like_phospholipase_domain-containing_protein_2_OS_                 38.69%    passed      7.53%
+ 142  CryptophyceaeEP00290BaffinellaspCCMP2293_12030485__PLPL3_MOUSE_1-acylglycerol-3-phosphate_O-acyltransferase_Pnpla3_OS_                    50.68%    passed     48.15%
+ 143  MetazoaVertebrateDaniorerio_5423998__PLPL2_BOVIN_Patatin-like_phospholipase_domain-containing_protein_2_OS_                                2.18%    passed     94.65%
+ 144  MetazoaArthropodaDaphniapulex_192132__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_                                12.81%    passed     62.41%
+ 145  MetazoaNematodaCaenorhabditiselegans_4315381__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_                      32.70%    passed     13.02%
+ 146  MetazoaVertebrateHomosapiens_6468756__PLPL3_HUMAN_1-acylglycerol-3-phosphate_O-acyltransferase_PNPLA3_OS_                                  4.63%    passed     82.03%
+ 147  MetazoaCnidariaPoritesaustraliensis_3548004__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_                       70.30%    passed     22.50%
+ 148  MetazoaCnidariaClytiahemisphaerica_3081244__PLPL2_MOUSE_Patatin-like_phospholipase_domain-containing_protein_2_OS_                         4.09%    failed      3.98%
+ 149  IchthyosporeaEP00123Amoebidiumparasiticum_14562997__PLPL2_CAEEL_Patanin-like_phospholipase_domain-containing_protein_atgl-1_OS_           22.34%    failed      4.53%
+ 150  ChoanoflagellataEP00039Didymoecacostata_10858141__PLPL3_HUMAN_1-acylglycerol-3-phosphate_O-acyltransferase_PNPLA3_OS_                     39.24%    passed     94.83%
+ 151  StramenopilesEP00652Aphanomycesastaci_26137947__PLPL2_CAEEL_Patanin-like_phospholipase_domain-containing_protein_atgl-1_OS_               42.23%    failed      0.67%
+ 152  HaptophytaEP00319Phaeocystisglobosa_14059660__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_                      35.69%    failed      0.00%
+ 153  MetazoaCnidariaClytiahemisphaerica_3093032__PLPL2_BOVIN_Patatin-like_phospholipase_domain-containing_protein_2_OS_                         1.91%    passed     59.00%
+ 154  CentroplasthelidaEP00300ChoanocystisspHF7_5613600__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_                 25.61%    failed      0.59%
+ 155  MetazoaPoriferaLeucosoleniacomplicata_5026952__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_                       10.90%    failed      4.47%
+ 156  ChloroplastidaEP00738Chloropiconprimus_8600238__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_                    35.15%    passed     71.32%
+ 157  MetazoaNematodaCaenorhabditiselegans_4322345__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_                      30.25%    failed      0.82%
+ 158  RhodophytaEP00185Porphyridiumpurpureum_23045358__PLPL3_MOUSE_1-acylglycerol-3-phosphate_O-acyltransferase_Pnpla3_OS_                      37.87%    passed      8.34%
+ 159  ChloroplastidaEP00738Chloropiconprimus_8603645__PLPL1_MOUSE_Patatin-like_phospholipase_domain-containing_protein_1_OS_                    38.42%    passed     19.92%
+ 160  ChoanoflagellataEP00039Didymoecacostata_10883315__PLPL2_CAEEL_Patanin-like_phospholipase_domain-containing_protein_atgl-1_OS_             34.06%    passed     37.56%
+ 161  MetazoaCnidariaMyxozoaThelohanelluskitauei_3358721__PLPL3_MOUSE_1-acylglycerol-3-phosphate_O-acyltransferase_Pnpla3_OS_                   55.04%    passed     31.33%
+ 162  MetazoaUrochordataEP00059Cionaintestinalis_5338889__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_                   7.63%    passed     66.57%
+ 163  TelonemiaP00656Telonemasubtile_26528711__PLPL3_MOUSE_1-acylglycerol-3-phosphate_O-acyltransferase_Pnpla3_OS_                              50.14%    passed     41.36%
+ 164  AmoebozoaEP00007CuneaspBSH02190019_4977936__PLPL2_CAEEL_Patanin-like_phospholipase_domain-containing_protein_atgl-1_OS_                   24.52%    passed     72.09%
+ 165  MetazoaPlacozoaHoilungiahongkongensis_4556571__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_                       15.26%    passed     41.52%
+ 166  MetazoaPlacozoaHoilungiahongkongensis_4556572__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_                       10.63%    passed     43.67%
+ 167  MetazoaPlacozoaHoilungiahongkongensis_4556574__PLPL3_MOUSE_1-acylglycerol-3-phosphate_O-acyltransferase_Pnpla3_OS_                        24.25%    passed     88.22%
+ 168  MetazoaAcoelaHofsteniamiamia_13585__PLPL2_MOUSE_Patatin-like_phospholipase_domain-containing_protein_2_OS_                                 5.99%    passed     17.27%
+ 169  MetazoaBrachiopodaLingulaunguis_1282883__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_                           33.51%    passed     83.98%
+ 170  MetazoaBrachiopodaLingulaunguis_1284625__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_                           33.51%    passed     82.72%
+ 171  PluriformeaEP00127Corallochytriumlimacisporum_21621713__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_            25.34%    passed     19.96%
+ 172  MetazoaPlacozoaEP00114TrichoplaxspH2_4506491__PLPL2_MOUSE_Patatin-like_phospholipase_domain-containing_protein_2_OS_                      10.08%    passed     64.51%
+ 173  MetazoaPlacozoaEP00114TrichoplaxspH2_4506495__PLPL2_MOUSE_Patatin-like_phospholipase_domain-containing_protein_2_OS_                       6.54%    failed      2.85%
+ 174  MetazoaPlacozoaEP00114TrichoplaxspH2_4506501__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_                      15.26%    failed      4.95%
+ 175  MetazoaCtenophoraMnemiopsisleidyi_3732723__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_                         30.25%    passed     11.38%
+ 176  MetazoaPoriferaHaliclonatubifera_4961466__PLPL2_HUMAN_Patatin-like_phospholipase_domain-containing_protein_2_OS_                          12.26%    passed     26.62%
+ 177  MetazoaHemichordataSaccoglossuskowalevskii_4054239__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_                32.43%    failed      1.90%
+ 178  MetazoaTardigradaRamazzotiusvarieornatus_5283329__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_                     5.18%    passed     86.92%
+ 179  MetazoaTardigradaRamazzotiusvarieornatus_5284199__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_                     6.54%    passed     80.84%
+ 180  ChoanoflagellateaMonosigabrevicollisUP000001357_11428341__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_          62.40%    passed     82.12%
+ 181  CentroplasthelidaEP00300ChoanocystisspHF7_5634236__ELOV5_TACFU_Elongation_of_very_long_chain_fatty_acids_protein_5_OS_                    33.24%    passed     21.59%
+ 182  MetazoaCnidariaAnthopleuraelegantissima_3011003__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_                   65.12%    passed     74.46%
+ 183  MetazoaHemichordataSaccoglossuskowalevskii_4058379__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_                26.16%    failed      2.83%
+ 184  MetazoaCnidariaMadracisauretenra_3299669__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_                          69.21%    passed     15.89%
+ 185  MetazoaMolluscaEP00106Octopusbimaculoides_4168889__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_                 52.86%    passed     60.99%
+ 186  MetazoaVertebrateEptatretusburgeri_6403263__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_                           8.72%    passed     95.09%
+ 187  MetazoaVertebrateEptatretusburgeri_6403264__PLPL2_MOUSE_Patatin-like_phospholipase_domain-containing_protein_2_OS_                         2.45%    passed     90.17%
+ 188  MetazoaVertebrateEptatretusburgeri_6403265__PLPL2_MOUSE_Patatin-like_phospholipase_domain-containing_protein_2_OS_                         8.45%    passed     85.48%
+ 189  MetazoaCnidariaMadracisauretenra_3305844__PLPL2_BOVIN_Patatin-like_phospholipase_domain-containing_protein_2_OS_                          71.66%    passed     91.10%
+ 190  ChloroplastidaChlamydomonasreinhardtiiUP000006906_6364612__PLPL1_MOUSE_Patatin-like_phospholipase_domain-containing_protein_1_OS_         23.98%    passed     30.53%
+ 191  ChoanoflagellataEP00045Choanoecaperplexa_11081700__PLPL3_MOUSE_1-acylglycerol-3-phosphate_O-acyltransferase_Pnpla3_OS_                    39.24%    passed     31.57%
+ 192  MetazoaBryozoaBugulaneritina_1900093__PLPL3_MOUSE_1-acylglycerol-3-phosphate_O-acyltransferase_Pnpla3_OS_                                 45.50%    passed     93.25%
+ 193  MetazoaBryozoaBugulaneritina_2399029__PLPL2_MOUSE_Patatin-like_phospholipase_domain-containing_protein_2_OS_                              17.17%    passed     28.32%
+ 194  MetazoaVertebrateMusmusculus_6535411__PLPL5_MOUSE_Patatin-like_phospholipase_domain-containing_protein_5_OS_                               8.99%    passed     88.59%
+ 195  MetazoaVertebrateEptatretusburgeri_6406458__PLPL2_HUMAN_Patatin-like_phospholipase_domain-containing_protein_2_OS_                        13.35%    passed     18.87%
+ 196  TelonemiaP00656Telonemasubtile_26565338__ELOV7_MOUSE_Elongation_of_very_long_chain_fatty_acids_protein_7_OS_                              32.15%    passed     25.34%
+ 197  MetazoaPlacozoaHoilungiahongkongensis_4531996__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_                        6.54%    passed     25.60%
+ 198  MetazoaPlacozoaHoilungiahongkongensis_4531997__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_                       13.62%    passed     28.68%
+ 199  MetazoaVertebrateMusmusculus_6536297__PLPL1_MOUSE_Patatin-like_phospholipase_domain-containing_protein_1_OS_                               4.63%    passed     18.50%
+ 200  MetazoaCnidariaAnthopleuraelegantissima_3022601__PLPL2_MOUSE_Patatin-like_phospholipase_domain-containing_protein_2_OS_                   64.31%    passed     68.77%
+ 201  MetazoaVertebrateDaniorerio_5413944__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_                                  3.54%    passed     87.67%
+ 202  StramenopilesPhytophthorainfestansUP000006643_26371858__PLPL3_MOUSE_1-acylglycerol-3-phosphate_O-acyltransferase_Pnpla3_OS_               28.61%    passed      8.63%
+ 203  ChoanoflagellataEP00045Choanoecaperplexa_11094043__PLPL3_MOUSE_1-acylglycerol-3-phosphate_O-acyltransferase_Pnpla3_OS_                    35.69%    passed     14.54%
+ 204  MetazoaBryozoaBugulaneritina_2549491__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_                              82.83%    passed      8.56%
+ 205  MetazoaCnidariaAcroporadigitifera_2943140__PLPL2_MOUSE_Patatin-like_phospholipase_domain-containing_protein_2_OS_                          7.63%    passed     75.98%
+ 206  MetazoaCnidariaAureliaGenome_3054510__PLPL2_RAT_Patatin-like_phospholipase_domain-containing_protein_2_OS_                                 1.63%    passed     30.40%
+ 207  MetazoaVertebrateMusmusculus_6540398__PLPL2_MOUSE_Patatin-like_phospholipase_domain-containing_protein_2_OS_                               3.00%    passed     55.34%
+ 208  MetazoaArthropodaDrosophilamelanogaster_242247__PLPL2_MOUSE_Patatin-like_phospholipase_domain-containing_protein_2_OS_                     9.54%    passed     74.63%
+ 209  IchthyosporeaSphaeroformaarcticaUP000054560_14626795__PLPL2_CAEEL_Patanin-like_phospholipase_domain-containing_protein_atgl-1_OS_         23.43%    passed     13.52%
+ 210  MetazoaAnnelidaHelobdellarobusta_106174__PLPL4_HUMAN_Patatin-like_phospholipase_domain-containing_protein_4_OS_                           34.60%    failed      3.31%
+ 211  IchthyosporeaSphaeroformaarcticaUP000054560_14622464__PLPL1_HUMAN_Patatin-like_phospholipase_domain-containing_protein_1_OS_              53.13%    passed     40.68%
+ 212  RhodophytaGaldieriasulphurariaUP000030680_23117764__SDP1L_ARATH_Triacylglycerol_lipase_SDP1L_OS_                                          34.33%    passed     10.26%
+ 213  FilastreaCapsasporaowczarzakiUP000008743_12984625__PLPL_YARLI_Patatin-like_phospholipase_domain-containing_protein_YALI0D16379g_OS_       29.70%    passed     17.00%
+ 214  GlaucophytaEP00276Gloeochaetewittrockiana_13485226__PLPL_CRYNJ_Patatin-like_phospholipase_domain-containing_protein_CNE02340_OS_          22.34%    failed      0.23%
+ 215  GlaucophytaEP00276Gloeochaetewittrockiana_13491142__YEX5_SCHPO_Uncharacterized_protein_C1A6.05c_OS_                                       30.25%    passed      8.05%
+WARNING: 30 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                                                                                                                     30.23%  41 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: ChloroplastidaEP00248Marchantiapolymorpha_7463875__PLPL2_HUMAN_Patatin-like_phospholipase_domain-containing_protein_2_OS_ is identical to ChloroplastidaEP00248Marchantiapolymorpha_7463874__PLPL2_HUMAN_Patatin-like_phospholipase_domain-containing_protein_2_OS_ but kept for subsequent analysis
+NOTE: EuglenozoaEP00668Euglenalonga_12407673__PLPL3_MOUSE_1-acylglycerol-3-phosphate_O-acyltransferase_Pnpla3_OS_ is identical to EuglenozoaEP00668Euglenalonga_12407671__PLPL3_MOUSE_1-acylglycerol-3-phosphate_O-acyltransferase_Pnpla3_OS_ but kept for subsequent analysis
+NOTE: EuglenozoaEP00668Euglenalonga_12393344__PLPL3_MOUSE_1-acylglycerol-3-phosphate_O-acyltransferase_Pnpla3_OS_ is identical to EuglenozoaEP00668Euglenalonga_12407672__PLPL3_MOUSE_1-acylglycerol-3-phosphate_O-acyltransferase_Pnpla3_OS_ but kept for subsequent analysis
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.096 seconds
+Measuring multi-threading efficiency up to 28 CPU cores
+Increase to 10 rounds for branch lengths
+22 trees examined
+Threads: 1 / Time: 28.416 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -112446
+Threads: 2 / Time: 17.305 sec / Speedup: 1.642 / Efficiency: 82% / LogL: -112446
+Threads: 3 / Time: 12.993 sec / Speedup: 2.187 / Efficiency: 73% / LogL: -112446
+Threads: 4 / Time: 11.173 sec / Speedup: 2.543 / Efficiency: 64% / LogL: -112446
+Threads: 5 / Time: 10.641 sec / Speedup: 2.670 / Efficiency: 53% / LogL: -112446
+Threads: 6 / Time: 9.890 sec / Speedup: 2.873 / Efficiency: 48% / LogL: -112446
+BEST NUMBER OF THREADS: 4
+
+Perform fast likelihood tree search using LG+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -83876.712
+Optimal log-likelihood: -83876.678
+Gamma shape alpha: 1.373
+Parameters optimization took 1 rounds (0.157 sec)
+Time for fast ML tree search: 2.778 seconds
+
+NOTE: ModelFinder requires 130 MB RAM!
+ModelFinder will test up to 462 protein models (sample size: 367) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  LG            86470.086    427 173794.172   539306.172   175461.762
+  2  LG+G4         83876.676    428 168609.352   535833.352   170280.847
+  3  LG+R2         84392.642    429 169643.283   538583.283   171318.684
+  4  LG+R3         83926.910    431 168715.819   541099.819   170399.030
+  5  LG+R4         83793.284    433 168452.567   544296.567   170143.589
+  6  LG+R5         83739.351    435 168348.702   547668.702   170047.535
+  7  LG+R6         83735.167    437 168344.334   551156.334   170050.977
+ 17  LG+F+R5       83780.229    454 168468.459   581608.459   170241.493
+ 18  LG+F+R6       83773.712    456 168459.424   585243.424   170240.269
+ 28  WAG+R5        84295.687    435 169461.373   548781.373   171160.206
+ 29  WAG+R6        84292.076    437 169458.153   552270.153   171164.796
+ 39  WAG+F+R5      84107.681    454 169123.361   582263.361   170896.395
+ 40  WAG+F+R6      84104.867    456 169121.735   585905.735   170902.580
+ 50  JTT+R5        84827.497    435 170524.994   549844.994   172223.827
+ 51  JTT+R6        84804.168    437 170482.336   553294.336   172188.979
+ 61  JTT+F+R5      84877.924    454 170663.847   583803.847   172436.882
+ 62  JTT+F+R6      84849.074    456 170610.149   587394.149   172390.994
+ 72  JTTDCMut+R5   84826.080    435 170522.161   549842.161   172220.993
+ 73  JTTDCMut+R6   84803.073    437 170480.146   553292.146   172186.789
+ 83  JTTDCMut+F+R5 84866.423    454 170640.846   583780.846   172413.881
+ 84  JTTDCMut+F+R6 84838.592    456 170589.184   587373.184   172370.029
+ 94  DCMut+R5      85820.777    435 172511.554   551831.554   174210.386
+ 95  DCMut+R6      85796.471    437 172466.941   555278.941   174173.585
+105  DCMut+F+R5    85371.965    454 171651.930   584791.930   173424.964
+106  DCMut+F+R6    85342.264    456 171596.528   588380.528   173377.373
+116  VT+R5         84335.279    435 169540.557   548860.557   171239.390
+117  VT+R6         84309.009    437 169492.018   552304.018   171198.661
+127  VT+F+R5       84303.992    454 169515.984   582655.984   171289.018
+128  VT+F+R6       84277.778    456 169467.557   586251.557   171248.402
+138  PMB+R5        84469.182    435 169808.364   549128.364   171507.196
+139  PMB+R6        84467.096    437 169808.193   552620.193   171514.836
+149  PMB+F+R5      84591.120    454 170090.241   583230.241   171863.275
+150  PMB+F+R6      84587.844    456 170087.688   586871.688   171868.533
+160  Blosum62+R5   84433.272    435 169736.543   549056.543   171435.376
+161  Blosum62+R6   84431.038    437 169736.076   552548.076   171442.719
+171  Blosum62+F+R5 84468.418    454 169844.835   582984.835   171617.869
+172  Blosum62+F+R6 84446.624    456 169805.247   586589.247   171586.092
+182  Dayhoff+R5    85821.213    435 172512.426   551832.426   174211.259
+183  Dayhoff+R6    85797.061    437 172468.121   555280.121   174174.764
+193  Dayhoff+F+R5  85371.591    454 171651.182   584791.182   173424.216
+194  Dayhoff+F+R6  85341.779    456 171595.557   588379.557   173376.402
+204  mtREV+R5      88470.039    435 177810.078   557130.078   179508.911
+205  mtREV+R6      88431.457    437 177736.913   560548.913   179443.556
+215  mtREV+F+R5    85480.330    454 171868.660   585008.660   173641.694
+216  mtREV+F+R6    85441.854    456 171795.708   588579.708   173576.553
+226  mtART+R5      88876.873    435 178623.745   557943.745   180322.578
+227  mtART+R6      88839.921    437 178553.842   561365.842   180260.485
+237  mtART+F+R5    86071.705    454 173051.410   586191.410   174824.444
+238  mtART+F+R6    86035.382    456 172982.765   589766.765   174763.610
+248  mtZOA+R5      86838.484    435 174546.968   553866.968   176245.800
+249  mtZOA+R6      86810.946    437 174495.891   557307.891   176202.535
+259  mtZOA+F+R5    85068.711    454 171045.422   584185.422   172818.456
+260  mtZOA+F+R6    85042.996    456 170997.992   587781.992   172778.837
+270  mtMet+R5      88098.495    435 177066.990   556386.990   178765.822
+271  mtMet+R6      88072.225    437 177018.449   559830.449   178725.092
+281  mtMet+F+R5    85355.975    454 171619.951   584759.951   173392.985
+282  mtMet+F+R6    85334.075    456 171580.150   588364.150   173360.995
+292  mtVer+R5      89308.264    435 179486.528   558806.528   181185.360
+293  mtVer+R6      89271.702    437 179417.404   562229.404   181124.047
+303  mtVer+F+R5    86622.528    454 174153.056   587293.056   175926.090
+304  mtVer+F+R6    86587.491    456 174086.982   590870.982   175867.827
+314  mtInv+R5      88306.478    435 177482.956   556802.956   179181.789
+315  mtInv+R6      88284.144    437 177442.288   560254.288   179148.931
+325  mtInv+F+R5    84784.133    454 170476.266   583616.266   172249.300
+326  mtInv+F+R6    84762.869    456 170437.739   587221.739   172218.584
+336  mtMAM+R5      90262.461    435 181394.922   560714.922   183093.755
+337  mtMAM+R6      90226.227    437 181326.453   564138.453   183033.097
+347  mtMAM+F+R5    87288.778    454 175485.556   588625.556   177258.590
+348  mtMAM+F+R6    87253.825    456 175419.651   592203.651   177200.496
+358  HIVb+R5       86543.816    435 173957.633   553277.633   175656.465
+359  HIVb+R6       86521.529    437 173917.059   556729.059   175623.702
+369  HIVb+F+R5     86433.781    454 173775.562   586915.562   175548.596
+370  HIVb+F+R6     86409.588    456 173731.176   590515.176   175512.021
+380  HIVw+R5       91020.390    435 182910.779   562230.779   184609.612
+381  HIVw+R6       90983.226    437 182840.452   565652.452   184547.095
+391  HIVw+F+R5     89175.245    454 179258.490   592398.490   181031.525
+392  HIVw+F+R6     89132.530    456 179177.060   595961.060   180957.905
+402  FLU+R5        86794.498    435 174458.997   553778.997   176157.829
+403  FLU+R6        86759.794    437 174393.589   557205.589   176100.232
+413  FLU+F+R5      86042.945    454 172993.889   586133.889   174766.924
+414  FLU+F+R6      86007.520    456 172927.039   589711.039   174707.884
+424  rtREV+R5      84768.965    435 170407.931   549727.931   172106.763
+425  rtREV+R6      84738.621    437 170351.243   553163.243   172057.886
+435  rtREV+F+R5    84207.523    454 169323.045   582463.045   171096.080
+436  rtREV+F+R6    84201.223    456 169314.445   586098.445   171095.290
+446  cpREV+R5      84690.873    435 170251.745   549571.745   171950.578
+447  cpREV+R6      84681.632    437 170237.263   553049.263   171943.907
+457  cpREV+F+R5    84569.520    454 170047.041   583187.041   171820.075
+458  cpREV+F+R6    84539.144    456 169990.288   586774.288   171771.133
+Akaike Information Criterion:           LG+R6
+Corrected Akaike Information Criterion: LG+G4
+Bayesian Information Criterion:         LG+R5
+Best-fit model: LG+R5 chosen according to BIC
+
+All model information printed to PNPLA4.fasta.cdhit.mafft.trimal.UFB.model.gz
+CPU time for ModelFinder: 2952.593 seconds (0h:49m:12s)
+Wall-clock time for ModelFinder: 770.222 seconds (0h:12m:50s)
+Generating 1000 samples for ultrafast bootstrap (seed: 638400)...
+
+NOTE: 65 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -83739.351
+Optimal log-likelihood: -83739.341
+Site proportion and rates:  (0.046,0.100) (0.169,0.321) (0.236,0.641) (0.234,1.093) (0.314,1.700)
+Parameters optimization took 1 rounds (0.462 sec)
+Computing ML distances based on estimated model parameters... 7.449 sec
+WARNING: Some pairwise ML distances are too long (saturated)
+Computing BIONJ tree...
+0.039 seconds
+Log-likelihood of BIONJ tree: -84070.149
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 9.675 second
+Computing log-likelihood of 98 initial trees ... 7.945 seconds
+Current best score: -83739.341
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -83727.540
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 4: -83705.185
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 9: -83680.762
+Iteration 10 / LogL: -83717.615 / Time: 0h:0m:52s
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 11: -83670.205
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 18: -83660.138
+Iteration 20 / LogL: -83750.930 / Time: 0h:1m:26s
+Finish initializing candidate tree set (20)
+Current best tree score: -83660.138 / CPU time: 83.279
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 22: -83651.698
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 26: -83648.446
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 27: -83635.662
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 29: -83632.914
+Iteration 30 / LogL: -83641.060 / Time: 0h:1m:49s (0h:6m:13s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 35: -83626.908
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 40: -83622.600
+Iteration 40 / LogL: -83622.600 / Time: 0h:2m:12s (0h:5m:40s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 46: -83616.356
+Iteration 50 / LogL: -83636.614 / Time: 0h:2m:34s (0h:5m:3s left)
+Log-likelihood cutoff on original alignment: -83730.568
+Iteration 60 / LogL: -83617.597 / Time: 0h:2m:55s (0h:4m:15s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 66: -83611.857
+Iteration 70 / LogL: -83617.264 / Time: 0h:3m:16s (0h:4m:33s left)
+Iteration 80 / LogL: -83629.639 / Time: 0h:3m:39s (0h:3m:58s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 82: -83607.469
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 86: -83606.546
+Iteration 90 / LogL: -83623.782 / Time: 0h:4m:3s (0h:4m:22s left)
+Iteration 100 / LogL: -83614.470 / Time: 0h:4m:25s (0h:3m:50s left)
+Log-likelihood cutoff on original alignment: -83709.863
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.984
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 110 / LogL: -83609.132 / Time: 0h:4m:47s (0h:3m:57s left)
+Iteration 120 / LogL: -83625.665 / Time: 0h:5m:9s (0h:3m:28s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 129: -83604.609
+Iteration 130 / LogL: -83620.831 / Time: 0h:5m:31s (0h:4m:14s left)
+Iteration 140 / LogL: -83609.995 / Time: 0h:5m:52s (0h:3m:45s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 143: -83604.545
+Iteration 150 / LogL: -83607.074 / Time: 0h:6m:15s (0h:3m:54s left)
+Log-likelihood cutoff on original alignment: -83709.863
+Iteration 160 / LogL: -83607.469 / Time: 0h:6m:38s (0h:3m:27s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 170: -83603.862
+Iteration 170 / LogL: -83603.862 / Time: 0h:7m:1s (0h:4m:9s left)
+Iteration 180 / LogL: -83618.904 / Time: 0h:7m:22s (0h:3m:42s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 188: -83602.203
+Iteration 190 / LogL: -83617.535 / Time: 0h:7m:44s (0h:4m:1s left)
+Iteration 200 / LogL: -83610.682 / Time: 0h:8m:5s (0h:3m:34s left)
+Log-likelihood cutoff on original alignment: -83709.863
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.991
+Iteration 210 / LogL: -83632.230 / Time: 0h:8m:27s (0h:3m:38s left)
+Iteration 220 / LogL: -83624.477 / Time: 0h:8m:49s (0h:3m:13s left)
+Iteration 230 / LogL: -83615.921 / Time: 0h:9m:10s (0h:2m:48s left)
+BETTER TREE FOUND at iteration 235: -83602.201
+Iteration 240 / LogL: -83623.403 / Time: 0h:9m:33s (0h:3m:47s left)
+Iteration 250 / LogL: -83609.483 / Time: 0h:9m:55s (0h:3m:23s left)
+Log-likelihood cutoff on original alignment: -83709.863
+Iteration 260 / LogL: -83605.825 / Time: 0h:10m:19s (0h:2m:59s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 261: -83601.372
+Iteration 270 / LogL: -83606.015 / Time: 0h:10m:43s (0h:3m:37s left)
+Iteration 280 / LogL: -83616.185 / Time: 0h:11m:6s (0h:3m:13s left)
+Iteration 290 / LogL: -83607.110 / Time: 0h:11m:28s (0h:2m:49s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 298: -83599.311
+Iteration 300 / LogL: -83615.306 / Time: 0h:11m:52s (0h:3m:53s left)
+Log-likelihood cutoff on original alignment: -83699.692
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.994
+Iteration 310 / LogL: -83612.948 / Time: 0h:12m:16s (0h:3m:34s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 318: -83599.297
+Iteration 320 / LogL: -83609.338 / Time: 0h:12m:40s (0h:3m:53s left)
+Iteration 330 / LogL: -83600.065 / Time: 0h:13m:3s (0h:3m:29s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 335: -83599.247
+Iteration 340 / LogL: -83608.460 / Time: 0h:13m:27s (0h:3m:46s left)
+Iteration 350 / LogL: -83612.642 / Time: 0h:13m:51s (0h:3m:22s left)
+Log-likelihood cutoff on original alignment: -83699.692
+Iteration 360 / LogL: -83616.078 / Time: 0h:14m:14s (0h:2m:58s left)
+Iteration 370 / LogL: -83612.234 / Time: 0h:14m:37s (0h:2m:34s left)
+Iteration 380 / LogL: -83612.747 / Time: 0h:15m:0s (0h:2m:10s left)
+Iteration 390 / LogL: -83599.835 / Time: 0h:15m:24s (0h:1m:46s left)
+Iteration 400 / LogL: -83737.615 / Time: 0h:15m:47s (0h:1m:23s left)
+Log-likelihood cutoff on original alignment: -83699.692
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.995
+Iteration 410 / LogL: -83607.042 / Time: 0h:16m:10s (0h:3m:33s left)
+Iteration 420 / LogL: -83619.665 / Time: 0h:16m:33s (0h:3m:9s left)
+Iteration 430 / LogL: -83600.319 / Time: 0h:16m:57s (0h:2m:45s left)
+TREE SEARCH COMPLETED AFTER 436 ITERATIONS / Time: 0h:17m:10s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -83599.247
+Optimal log-likelihood: -83599.246
+Site proportion and rates:  (0.046,0.097) (0.161,0.313) (0.234,0.619) (0.245,1.085) (0.314,1.703)
+Parameters optimization took 1 rounds (0.253 sec)
+BEST SCORE FOUND : -83599.246
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+Testing tree branches by aBayes parametric test...
+0.573 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file PNPLA4.fasta.cdhit.mafft.trimal.UFB.splits.nex
+Total tree length: 165.891
+
+Total number of iterations: 436
+CPU time used for tree search: 4016.976 sec (1h:6m:56s)
+Wall-clock time used for tree search: 1027.704 sec (0h:17m:7s)
+Total CPU time used: 4034.207 sec (1h:7m:14s)
+Total wall-clock time used: 1032.409 sec (0h:17m:12s)
+
+Computing bootstrap consensus tree...
+Reading input file PNPLA4.fasta.cdhit.mafft.trimal.UFB.splits.nex...
+215 taxa and 1402 splits.
+Consensus tree written to PNPLA4.fasta.cdhit.mafft.trimal.UFB.contree
+Reading input trees file PNPLA4.fasta.cdhit.mafft.trimal.UFB.contree
+Log-likelihood of consensus tree: -83601.660
+
+Analysis results written to: 
+  IQ-TREE report:                PNPLA4.fasta.cdhit.mafft.trimal.UFB.iqtree
+  Maximum-likelihood tree:       PNPLA4.fasta.cdhit.mafft.trimal.UFB.treefile
+  Likelihood distances:          PNPLA4.fasta.cdhit.mafft.trimal.UFB.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          PNPLA4.fasta.cdhit.mafft.trimal.UFB.splits.nex
+  Consensus tree:                PNPLA4.fasta.cdhit.mafft.trimal.UFB.contree
+  Screen log file:               PNPLA4.fasta.cdhit.mafft.trimal.UFB.log
+
+Date and Time: Thu Dec  8 14:10:45 2022
